@@ -1,0 +1,170 @@
+---
+title: "Data by Commonwealth Election Division"
+author: "Hugh Parsonage"
+date: "17 July 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+setwd("..") # to escape data-raw
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r loadPackages}
+library(testthat)
+library(magrittr)
+library(hutils)
+library(data.table)
+```
+
+```{r extract_age}
+extract_age <- function(variable, orderedFactor = TRUE) {
+  out <- 
+    gsub("^.*?_([0-9]+(?:_[0-9]{1,2})?(?:ov)?).*$", "\\1", variable, perl = TRUE) %>%
+    gsub("_", "-", ., fixed = TRUE) %>%
+    gsub("ov", "+", ., fixed = TRUE)
+  if (orderedFactor) {
+    out <- factor(out, levels = unique(out), ordered = TRUE)
+  }
+  out
+}
+
+expect_equal(extract_age("Count_home_Census_Nt_0_14_yr", FALSE), "0-14")
+expect_equal(extract_age("Age_0_4_yr_P", FALSE), "0-4")
+```
+
+### G01
+
+```{r CED__Persons}
+CED__Persons <- 
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv",
+        select = c("CED_CODE_2016", "Tot_P_P")) %>%
+  setnames("Tot_P_P", "persons")
+```
+
+```{r CED__Sex}
+CED__Sex <- 
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv",
+        select = c("CED_CODE_2016", "Tot_P_M", "Tot_P_F")) %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  variable.name = "Sex",
+                  value.name = "persons") %>%
+  .[, Sex := gsub("Tot_P_", "", Sex)] %>%
+  .[]
+```
+
+```{r CED__Age}
+CED__Age <-
+   fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv") %>%
+  .[, .SD, .SDcols = c("CED_CODE_2016", 
+                       grep("^Age_[0-9].*P$", names(.), value = TRUE))] %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  variable.name = "Age",
+                  value.name = "persons") %>%
+  .[, Age := extract_age(Age)] %>%
+  setorderv(setdiff(names(.), "persons")) %>%
+  .[]
+```
+
+```{r CED__Age_Sex}
+CED__Age_Sex <-
+   fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv") %>%
+  .[, .SD, .SDcols = c("CED_CODE_2016", 
+                       grep("^Age_[0-9].*[MF]$", names(.), value = TRUE))] %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  
+                  value.name = "persons") %>%
+  .[, Age := extract_age(variable)] %>%
+  .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
+  .[, variable := NULL] %>%
+  setorderv(setdiff(names(.), "persons")) %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
+```{r CED__HomeCensusNight}
+CED__HomeCensusNight <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
+        select = c("CED_CODE_2016", "Counted_Census_Night_home_P", "Count_Census_Nt_Ewhere_Aust_P")) %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  value.name = "persons") %>%
+  .[, HomeCensusNight := grepl("home", variable)] %>%
+  .[, .(CED_CODE_2016, HomeCensusNight, persons)] %>%
+  setorderv(setdiff(names(.), "persons")) %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
+```{r CED__HomeCensusNight_Sex}
+CED__HomeCensusNight_Sex <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
+        select = c("CED_CODE_2016",
+                   "Counted_Census_Night_home_M", "Count_Census_Nt_Ewhere_Aust_M",
+                   "Counted_Census_Night_home_F", "Count_Census_Nt_Ewhere_Aust_F")) %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  value.name = "persons") %>%
+  
+  .[, HomeCensusNight := grepl("home", variable)] %>%
+  .[, Sex := gsub("^.*([MF])$", "\\1", variable, perl = TRUE)] %>%
+  .[, .(CED_CODE_2016, HomeCensusNight, Sex, persons)] %>%
+  setorderv(setdiff(names(.), "persons")) %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
+```{r CED__IndigenousStatus}
+CED__IndigenousStatus <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
+        select = c("CED_CODE_2016",
+                   "Tot_P_P",
+                   "Indigenous_psns_Aboriginal_P",
+                   "Indig_psns_Torres_Strait_Is_P", 
+                   "Indig_Bth_Abor_Torres_St_Is_P")) %>%
+  .[, non_Indig := Tot_P_P - (Indigenous_psns_Aboriginal_P +
+                                Indig_psns_Torres_Strait_Is_P +
+                                Indig_Bth_Abor_Torres_St_Is_P)] %>%
+  .[, Tot_P_P := NULL] %>%
+  .[] %>%
+  melt.data.table(id.vars = c("CED_CODE_2016"),
+                  value.name = "persons") %>%
+  .[, IndigenousStatus := "Non-indigenous"] %>%
+  .[variable == "Indigenous_psns_Aboriginal_P",
+    IndigenousStatus := "Aboriginal"] %>%
+  .[variable == "Indig_Bth_Abor_Torres_St_Is_P",
+    IndigenousStatus := "Both Aboriginal & Torres Strait Islander"] %>%
+  .[variable == "Indig_psns_Torres_Strait_Is_P",
+    IndigenousStatus := "Torres Strait Islander"] %>%
+  .[, variable := NULL] %>%
+  .[, IndigenousStatus := factor(IndigenousStatus, levels = unique(.$IndigenousStatus), ordered = TRUE)] %>%
+  setorderv(setdiff(names(.), "persons")) %>%
+  set_cols_last("persons") %>%
+  .[]
+
+```
+
+### G03
+
+```{r CED__UsualResidence_Age}
+CED__UsualResidence_Age <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G03_AUS_CED.csv") %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  variable.factor = FALSE,
+                  value.name = "persons") %>%
+  .[!(variable %pin% "Tot")] %>%
+  .[variable %pin% "(yr|85ov)$"] %>%
+  .[, Age := extract_age(variable)] %>%
+  .[, ResidenceVar := gsub("_([0-9]+(?:_[0-9]{2})?(?:ov)?)(?:_yr)?$", "", variable, perl = TRUE)] %>%
+
+  .[ResidenceVar %pin% "Count_home?_Census_Nt",
+    UsualResidence := "Home"] %>%
+
+  .[ResidenceVar %pin% "VisDiff_SA2_",
+    UsualResidence := paste("Visitor from", gsub("VisDiff_SA2_", "", ResidenceVar))] %>%
+  .[ResidenceVar %pin% "VisSame",
+    UsualResidence := "Visitor same SA2"] %>%
+  .[, .(CED_CODE_2016, Age, UsualResidence, persons)] %>%
+  setkey(CED_CODE_2016, Age, UsualResidence) %>%
+  .[]
+```
+
+```{r}
