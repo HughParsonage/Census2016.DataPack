@@ -6,23 +6,60 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-setwd("..") # to escape data-raw
-knitr::opts_chunk$set(echo = TRUE)
+START <- Sys.time()
+library(knitr)
+data.kable <- function(DT) {
+  current_knitr.kable.NA <- options("knitr.kable.NA")
+  options(knitr.kable.NA = '...')
+  on.exit(options(knitr.kable.NA = current_knitr.kable.NA))
+  if (nrow(DT) > 50) {
+    middle_row <- as.data.table(matrix(nrow = 1, ncol = ncol(DT)))
+    setnames(middle_row, seq_along(middle_row), names(DT))
+    DT_topn <- rbind(head(DT),
+                     middle_row,
+                     tail(DT))
+    kable(DT_topn, format.args = list(big.mark = ","))
+  } else {
+    kable(DT, format.args = list(big.mark = ","))
+  }
+}
+
+knitr::opts_knit$set(root.dir = "..")
+knitr::opts_chunk$set(echo = TRUE, 
+                      print_chunk = TRUE)
 ```
 
 ```{r loadPackages}
+library(readxl)
 library(testthat)
 library(magrittr)
 library(hutils)
 library(data.table)
 ```
 
+```{r CED_decoder}
+CED_decoder <-
+  read_excel("./data-raw/data-packs/Metadata/2016Census_geog_desc_1st_release.xlsx", 
+             sheet = "2016_ASGS_Non-ABS_Structures") %>%
+  setDT %>%
+  .[ASGS_Structure == "CED"] %>%
+  setnames("Census_Code_2016", "CED_CODE_2016") %>%
+  setnames("Census_Name_2016", "Electoral_division") %>%
+  .[, .(CED_CODE_2016, Electoral_division)]
+  
+  
+```
+
 ```{r extract_age}
 extract_age <- function(variable, orderedFactor = TRUE) {
   out <- 
-    gsub("^.*?_([0-9]+(?:_[0-9]{1,2})?(?:ov)?).*$", "\\1", variable, perl = TRUE) %>%
+    variable %>%
+    # Prepare:
+    gsub("([0-9]{2})_ov", "\\1ov", x = ., perl = TRUE) %>%
+    # Extract
+    gsub("^.*?_([0-9]+(?:_[0-9]{1,2})?(?:ov)?).*$", "\\1", ., perl = TRUE) %>%
     gsub("_", "-", ., fixed = TRUE) %>%
-    gsub("ov", "+", ., fixed = TRUE)
+    gsub("_?ov", "+", ., perl = TRUE)
   if (orderedFactor) {
     out <- factor(out, levels = unique(out), ordered = TRUE)
   }
@@ -31,6 +68,7 @@ extract_age <- function(variable, orderedFactor = TRUE) {
 
 expect_equal(extract_age("Count_home_Census_Nt_0_14_yr", FALSE), "0-14")
 expect_equal(extract_age("Age_0_4_yr_P", FALSE), "0-4")
+expect_equal(extract_age("Age_psns_att_edu_inst_25_ov_P", FALSE), "25+")
 ```
 
 ### G01
@@ -142,6 +180,252 @@ CED__IndigenousStatus <-
 
 ```
 
+```{r CED__BornAust}
+CED__BornAust <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
+        select = c("CED_CODE_2016", 
+                   "Birthplace_Australia_P",
+                   "Birthplace_Elsewhere_P")) %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  value.name = "persons") %>%
+  .[variable == "Birthplace_Australia_P", BornAust := TRUE] %>%
+  .[variable == "Birthplace_Elsewhere_P", BornAust := FALSE] %>%
+  .[, variable := NULL] %>%
+  setorderv(setdiff(names(.), "persons")) %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
+```{r CED__BornAust_Sex}
+CED__BornAust_Sex <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
+        select = c("CED_CODE_2016", 
+                   "Birthplace_Australia_F", "Birthplace_Australia_M",
+                   "Birthplace_Elsewhere_F", "Birthplace_Elsewhere_M")) %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  value.name = "persons") %>%
+  .[variable %pin% "Birthplace_Australia", BornAust := TRUE] %>%
+  .[variable %pin% "Birthplace_Elsewhere", BornAust := FALSE] %>%
+  .[variable %pin% "F$", Sex := "F"] %>%
+  .[variable %pin% "M$", Sex := "M"] %>%
+  .[, variable := NULL] %>%
+  setorderv(setdiff(names(.), "persons")) %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
+```{r CED__OnlyEnglishSpokenHome}
+CED__OnlyEnglishSpokenHome <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
+        select = c("CED_CODE_2016", 
+                   "Lang_spoken_home_Eng_only_P",
+                   "Lang_spoken_home_Oth_Lang_P")) %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  value.name = "persons") %>%
+  .[variable == "Lang_spoken_home_Eng_only_P", OnlyEnglishSpokenHome := TRUE] %>%
+  .[variable == "Lang_spoken_home_Oth_Lang_P", OnlyEnglishSpokenHome := FALSE] %>%
+  .[, variable := NULL] %>%
+  setorderv(setdiff(names(.), "persons")) %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
+```{r CED__OnlyEnglishSpokenHome_Sex}
+CED__OnlyEnglishSpokenHome_Sex <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
+        select = c("CED_CODE_2016", 
+                   "Lang_spoken_home_Eng_only_F",
+                   "Lang_spoken_home_Eng_only_M",
+                   "Lang_spoken_home_Oth_Lang_F",
+                   "Lang_spoken_home_Oth_Lang_M")) %>%
+  melt.data.table(id.vars = "CED_CODE_2016", 
+                  value.name = "persons") %>%
+  .[variable %pin% "Lang_spoken_home_Eng_only", OnlyEnglishSpokenHome := TRUE] %>%
+  .[variable %pin% "Lang_spoken_home_Oth_Lang", OnlyEnglishSpokenHome := FALSE] %>%
+  .[variable %pin% "F$", Sex := "F"] %>%
+  .[variable %pin% "M$", Sex := "M"] %>%
+  .[, variable := NULL] %>%
+  setorderv(setdiff(names(.), "persons")) %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first("CED_CODE_2016") %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
+```{r CED__AustCitizen}
+CED__AustCitizen <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv",
+        select = c("CED_CODE_2016",
+                   "Tot_P_P",
+                   "Australian_citizen_P")) %>%
+  .[, NAust := Tot_P_P - Australian_citizen_P] %>%
+  .[, Tot_P_P := NULL] %>%
+  melt.data.table(id.vars = "CED_CODE_2016") %>%
+  .[, AustCitizen := TRUE] %>%
+  .[variable == "NAust", AustCitizen := FALSE] %>%
+  .[, variable := NULL] %>%
+  setorderv(setdiff(names(.), "persons")) %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first("CED_CODE_2016") %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
+
+```{r CED__AustCitizen_Sex}
+CED__AustCitizen_Sex <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv",
+        select = c("CED_CODE_2016",
+                   "Tot_P_F",
+                   "Australian_citizen_F",
+                   "Tot_P_M",
+                   "Australian_citizen_M")) %>%
+  .[, NAust_F := Tot_P_F - Australian_citizen_F] %>%
+  .[, NAust_M := Tot_P_M - Australian_citizen_M] %>%
+  .[, Tot_P_F := NULL] %>%
+  .[, Tot_P_M := NULL] %>%
+  melt.data.table(id.vars = "CED_CODE_2016") %>%
+  .[, AustCitizen := TRUE] %>%
+  .[variable %pin% "NAust", AustCitizen := FALSE] %>%
+  .[variable %pin% "F$", Sex := "F"] %>%
+  .[variable %pin% "M$", Sex := "M"] %>%
+  .[, variable := NULL] %>%
+  setorderv(setdiff(names(.), "persons")) %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first("CED_CODE_2016") %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
+```{r CED__Age_students}
+CED__Age_students <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv",
+        select = c("CED_CODE_2016",
+                   "Age_psns_att_educ_inst_0_4_P",
+                   "Age_psns_att_educ_inst_5_14_P", 
+                   "Age_psns_att_edu_inst_15_19_P",
+                   "Age_psns_att_edu_inst_20_24_P", 
+                   "Age_psns_att_edu_inst_25_ov_P")) %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  variable.name = "Age",
+                  value.name = "students") %>%
+  .[, Age := extract_age(Age)] %>%
+  .[] %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first("CED_CODE_2016") %>%
+  setorderv(setdiff(names(.), c("persons"))) %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
+```{r CED__Age_Sex_students}
+CED__Age_Sex_students <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv",
+        select = c("CED_CODE_2016",
+                   "Age_psns_att_educ_inst_0_4_F",
+                   "Age_psns_att_educ_inst_0_4_M",
+                   "Age_psns_att_educ_inst_5_14_F", 
+                   "Age_psns_att_educ_inst_5_14_M", 
+                   "Age_psns_att_edu_inst_15_19_F",
+                   "Age_psns_att_edu_inst_15_19_M",
+                   "Age_psns_att_edu_inst_20_24_F", 
+                   "Age_psns_att_edu_inst_20_24_M", 
+                   "Age_psns_att_edu_inst_25_ov_F",
+                   "Age_psns_att_edu_inst_25_ov_M")) %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  value.name = "students") %>%
+  .[, Age := extract_age(variable)] %>%
+  .[variable %pin% "F$", Sex := "F"] %>%
+  .[variable %pin% "M$", Sex := "M"] %>%
+  .[, variable := NULL] %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first("CED_CODE_2016") %>%
+  setorderv(setdiff(names(.), c("persons"))) %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
+```{r CED__MaxSchoolingCompleted}
+CED__MaxSchoolingCompleted <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv") %>%
+  .[, .SD, .SDcols = c("CED_CODE_2016", grep("High_yr_schl_comp_.*_P", names(.), value = TRUE))] %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  value.name = "persons") %>%
+  .[, tmp := "Did not go to school"] %>%
+  .[variable != "High_yr_schl_comp_D_n_g_sch_P",
+    tmp := paste("Year", gsub("^.*Yr_([0-9]{1,2}).*$", "\\1", variable))] %>%
+  .[, MaxSchoolingCompleted := factor(tmp, levels = rev(unique(.$tmp)), ordered = TRUE)] %>%
+  .[, variable := NULL] %>%
+  .[, tmp := NULL] %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first("CED_CODE_2016") %>%
+  setorderv(setdiff(names(.), c("persons"))) %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
+```{r CED__MaxSchoolingCompleted_Sex}
+CED__MaxSchoolingCompleted_Sex <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv") %>%
+  .[, .SD, .SDcols = c("CED_CODE_2016", grep("High_yr_schl_comp_.*_[MF]$", names(.), value = TRUE))] %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  value.name = "persons") %>%
+  .[, tmp := "Did not go to school"] %>%
+  .[variable %notin% c("High_yr_schl_comp_D_n_g_sch_F", "High_yr_schl_comp_D_n_g_sch_M"),
+    tmp := paste("Year", gsub("^.*Yr_([0-9]{1,2}).*$", "\\1", variable))] %>%
+  .[, MaxSchoolingCompleted := factor(tmp, levels = rev(unique(.$tmp)), ordered = TRUE)] %>%
+  .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
+  .[, variable := NULL] %>%
+  .[, tmp := NULL] %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first("CED_CODE_2016") %>%
+  setorderv(setdiff(names(.), c("persons"))) %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
+```{r CED__Dwelling}
+fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
+      select = c("CED_CODE_2016",
+                 #"Count_psns_occ_priv_dwgs_M",
+                 #"Count_psns_occ_priv_dwgs_F", 
+                 "Count_psns_occ_priv_dwgs_P", 
+                 #"Count_Persons_other_dwgs_M", 
+                 #"Count_Persons_other_dwgs_F", 
+                 "Count_Persons_other_dwgs_P")) %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  value.name = "persons") %>%
+  .[, Dwelling := "Other"] %>%
+  .[variable == "Count_psns_occ_priv_dwgs_P", Dwelling := "Private"] %>%
+  .[, variable := NULL] %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first("CED_CODE_2016") %>%
+  setorderv(setdiff(names(.), c("persons"))) %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
+```{r CED__Dwelling_Sex}
+fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
+      select = c("CED_CODE_2016",
+                 "Count_psns_occ_priv_dwgs_M",
+                 "Count_psns_occ_priv_dwgs_F", 
+                 #"Count_psns_occ_priv_dwgs_P", 
+                 "Count_Persons_other_dwgs_M", 
+                 "Count_Persons_other_dwgs_F")) %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  value.name = "persons") %>%
+  .[, Dwelling := "Other"] %>%
+  .[variable %pin% "priv_dwgs", Dwelling := "Private"] %>%
+  .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
+  .[, variable := NULL] %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first("CED_CODE_2016") %>%
+  setorderv(setdiff(names(.), c("persons"))) %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
 ### G03
 
 ```{r CED__UsualResidence_Age}
@@ -167,4 +451,89 @@ CED__UsualResidence_Age <-
   .[]
 ```
 
+### G04
+
+```{r CED__minAge}
+CED__minAge <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G04A_AUS_CED.csv") %>% 
+  merge(fread("./data-raw/data-packs/data/CED/AUST/2016Census_G04B_AUS_CED.csv"),
+        by = "CED_CODE_2016") %>%
+  .[, .SD, .SDcols = c("CED_CODE_2016",
+                       grep("yr_[0-9]{1,3}_(over_)?P$", names(.), value = TRUE),
+                       "Age_yr_80_84_P",
+                       "Age_yr_85_89_P",
+                       "Age_yr_90_94_P",
+                       "Age_yr_95_99_P",
+                       "Age_yr_100_yr_over_P")] %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  variable.name = "minAge",
+                  variable.factor = FALSE,
+                  value.name = "persons") %>%
+  .[, minAge := as.integer(gsub("Age_yr_([0-9]{1,3}).*P$", "\\1", minAge))] %>%
+  setorder(CED_CODE_2016, minAge) %>%
+  .[]
+```
+
+```{r CED__minAge_Sex}
+CED__minAge_Sex <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G04A_AUS_CED.csv") %>% 
+  merge(fread("./data-raw/data-packs/data/CED/AUST/2016Census_G04B_AUS_CED.csv"),
+        by = "CED_CODE_2016") %>%
+  .[, .SD, .SDcols = c("CED_CODE_2016",
+                       grep("yr_[0-9]{1,3}_(over_)?[MF]$", names(.), value = TRUE),
+                       "Age_yr_80_84_F",
+                       "Age_yr_80_84_M",
+                       "Age_yr_85_89_F",
+                       "Age_yr_90_94_M",
+                       "Age_yr_95_99_F",
+                       "Age_yr_95_99_M",
+                       "Age_yr_100_yr_over_F",
+                       "Age_yr_100_yr_over_M")] %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  variable.name = "variable",
+                  variable.factor = FALSE,
+                  value.name = "persons") %>%
+  .[, minAge := as.integer(gsub("Age_yr_([0-9]{1,3}).*[MF]$", "\\1", variable))] %>%
+  .[, Sex := gsub("Age_yr_(?:[0-9]{1,3}).*([MF])$", "\\1", variable, perl = TRUE)] %>%
+  .[, variable := NULL] %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first("CED_CODE_2016") %>%
+  setorderv(setdiff(names(.), c("persons"))) %>%
+  set_cols_last("persons") %>%
+  .[]
+```
+
+```{r CED__Age_MaritalStatus_Sex}
+CED__Age_MaritalStatus_Sex <-
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G05_AUS_CED.csv") %>% 
+  .[,
+    .SD,
+    .SDcols = c("CED_CODE_2016",
+                grep("[MF]_[0-9]{2}(ov)?(_[0-9]{2}_yr)?_(Married|Separated|Divorced|Widowed)", names(.), value = TRUE))] %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  variable.factor = FALSE,
+                  value.name = "persons") %>%
+  .[, Age := extract_age(variable)] %>%
+  .[, Sex := gsub("^([MF]).*$", "\\1", variable)] %>%
+  .[, MaritalStatus := gsub("^.*(Married|Separated|Divorced|Widowed).*$", "\\1", variable, perl = TRUE)] %>%
+  .[, variable := NULL] %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first("CED_CODE_2016") %>%
+  setorderv(setdiff(names(.), c("persons"))) %>%
+  set_cols_last("persons") %>%
+  .[]
+
+```
+
 ```{r}
+FINISH <- Sys.time()
+```
+
+```{r use_data, eval=dir.exists("data")}
+# Print side-effect ok
+stopifnot(dir.exists("data"))
+ced_tbls <- tables()$NAME
+for (tbl in ced_tbls) {
+  save(list = tbl, file = file.path("data", paste0(tbl, ".rda")))
+}
+```
