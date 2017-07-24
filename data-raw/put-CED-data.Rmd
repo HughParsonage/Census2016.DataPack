@@ -37,7 +37,9 @@ library(data.table)
 ```
 
 ```{r Region}
-Region <- "CED"
+# Allow replacement
+Region <- sprintf("%s%s", "C", "ED")
+Region_key <- sprintf("%s%s", Region, "_CODE_2016")
 ```
 
 ```{r CED_decoder}
