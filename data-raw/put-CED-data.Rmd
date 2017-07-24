@@ -23,7 +23,6 @@ data.kable <- function(DT) {
     kable(DT, format.args = list(big.mark = ","))
   }
 }
-
 knitr::opts_knit$set(root.dir = "..")
 knitr::opts_chunk$set(echo = TRUE, 
                       print_chunk = TRUE)
@@ -37,6 +36,10 @@ library(hutils)
 library(data.table)
 ```
 
+```{r Region}
+Region <- "CED"
+```
+
 ```{r CED_decoder}
 CED_decoder <-
   read_excel("./data-raw/data-packs/Metadata/2016Census_geog_desc_1st_release.xlsx", 
@@ -45,9 +48,7 @@ CED_decoder <-
   .[ASGS_Structure == "CED"] %>%
   setnames("Census_Code_2016", "CED_CODE_2016") %>%
   setnames("Census_Name_2016", "Electoral_division") %>%
-  .[, .(CED_CODE_2016, Electoral_division)]
-  
-  
+  .[, .SD, .SDcols =  c("CED_CODE_2016", "Electoral_division")]
 ```
 
 ```{r extract_age}
@@ -144,7 +145,7 @@ CED__HomeCensusNight <-
   melt.data.table(id.vars = "CED_CODE_2016",
                   value.name = "persons") %>%
   .[, HomeCensusNight := grepl("home", variable)] %>%
-  .[, .(CED_CODE_2016, HomeCensusNight, persons)] %>%
+  .[, .SD, .SDcols = c("CED_CODE_2016", "HomeCensusNight", "persons")] %>%
   setorderv(setdiff(names(.), "persons")) %>%
   set_cols_last("persons") %>%
   .[]
@@ -161,7 +162,7 @@ CED__HomeCensusNight_Sex <-
   
   .[, HomeCensusNight := grepl("home", variable)] %>%
   .[, Sex := gsub("^.*([MF])$", "\\1", variable, perl = TRUE)] %>%
-  .[, .(CED_CODE_2016, HomeCensusNight, Sex, persons)] %>%
+  .[, .SD, .SDcols = c("CED_CODE_2016", "HomeCensusNight", "Sex", "persons")] %>%
   setorderv(setdiff(names(.), "persons")) %>%
   set_cols_last("persons") %>%
   .[]
@@ -463,8 +464,8 @@ CED__UsualResidence_Age <-
     UsualResidence := paste("Visitor from", gsub("VisDiff_SA2_", "", ResidenceVar))] %>%
   .[ResidenceVar %pin% "VisSame",
     UsualResidence := "Visitor same SA2"] %>%
-  .[, .(CED_CODE_2016, Age, UsualResidence, persons)] %>%
-  setkey(CED_CODE_2016, Age, UsualResidence) %>%
+  .[, .SD, .SDcols = c("CED_CODE_2016", "Age", "UsualResidence", "persons")] %>%
+  setkeyv(c("CED_CODE_2016", "Age", "UsualResidence")) %>%
   .[]
 ```
 
@@ -487,7 +488,10 @@ CED__minAge <-
                   variable.factor = FALSE,
                   value.name = "persons") %>%
   .[, minAge := as.integer(gsub("Age_yr_([0-9]{1,3}).*P$", "\\1", minAge))] %>%
-  setorder(CED_CODE_2016, minAge) %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first("CED_CODE_2016") %>%
+  setorderv(setdiff(names(.), c("persons"))) %>%
+  set_cols_last("persons") %>%
   .[]
 ```
 
