@@ -542,6 +542,34 @@ CED__Age_MaritalStatus_Sex <-
 
 ```
 
+```{r CED__MaritalStatus_Age}
+fread("./data-raw/data-packs/data/CED/AUST/2016Census_G06_AUS_CED.csv") %>%
+  .[, .SD, .SDcols = c("CED_CODE_2016",
+                       names(.)[grepl("^P", names(.)) & !grepl("Tot", names(.))])] %>%
+  melt.data.table(id.vars = "CED_CODE_2016",
+                  value.name = "adults") %>%
+  .[, Age := extract_age(variable)] %>%
+  .[, MaritalStatus := gsub("^.*(Marrd_reg_marrge|Married_de_facto|Not_married).*$", "\\1", variable)] %>%
+  .[, MaritalStatus := gsub("_", " ", MaritalStatus)] %>%
+  .[MaritalStatus == "Marrd reg marrge", Registered := TRUE] %>%
+  .[MaritalStatus %pin% "de facto", Registered := FALSE] %>%
+  .[MaritalStatus != "Not married", MaritalStatus := "Married"] %>%
+  .[, variable := NULL] %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first("CED_CODE_2016") %>%
+  setorderv(setdiff(names(.), c("adults"))) %>%
+  set_cols_last("adults") %>%
+  .[]
+  
+```
+
+```{r}
+fread("./data-raw/data-packs/data/CED/AUST/2016Census_G07_AUS_CED.csv") %>%
+  .[, .SD, .SDcols = c("CED_CODE_2016",
+                       names(.)[nor(grepl("[MF]$", names(.)),
+                                    grepl("Tot", names(.)))])]
+```
+
 ```{r}
 FINISH <- Sys.time()
 ```
