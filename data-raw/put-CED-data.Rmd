@@ -6,6 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
+rm(list = ls())
 START <- Sys.time()
 library(knitr)
 data.kable <- function(DT) {
@@ -37,10 +38,37 @@ library(data.table)
 ```
 
 ```{r Region}
+rm(list = ls())
 # Allow replacement
 # Region <- sprintf("%s%s", "C", "ED")
-Region <- "LGA"
+Region <- "CED"
 Region_key <- sprintf("%s%s", Region, "_CODE_2016")
+```
+
+```{r zero2NA}
+zero2NA <- function(DT) {
+  Classes <- vapply(DT, storage.mode, character(1))
+  IntNoms <- names(Classes)[Classes == "integer"]
+  for (j in which(Classes == "integer")) {
+    set(DT, i = which(DT[[j]] == 0L), j = j, value = NA_integer_)
+  }
+  
+  for (j in which(Classes == "double")) {
+    set(DT, i = which(abs(DT[[j]]) < .Machine$double.eps), j = j, value = NA_real_)
+  }
+  DT
+}
+
+local({
+  DT <- data.table(x = 1:5, y = c(0L, 1:4), z = c(-0.5, 0, 0.5, 1, 1.5),
+                   ZZ = LETTERS[1:5])
+  zero2NA(DT)
+  
+  expect_equal(DT[["x"]], 1:5)
+  expect_equal(DT[["y"]], c(NA_integer_, 1:4))
+  expect_equal(DT[["z"]], c(-0.5, NA_real_, 0.5, 1, 1.5))
+  expect_equal(DT[["ZZ"]], LETTERS[1:5])
+})
 ```
 
 ```{r CED_decoder}
@@ -462,6 +490,82 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   setorderv(setdiff(names(.), c("persons"))) %>%
   set_cols_last("persons") %>%
   .[]
+```
+
+### G02
+```{r Region__medianTotalPersonalIncome}
+assign(paste0(Region, '__medianTotalPersonalIncome'), {
+  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
+    .[, .SD, .SDcols = c(Region_key, "Median_tot_prsnl_inc_weekly")] %>%
+    setnames("Median_tot_prsnl_inc_weekly", "medianTotalPersonalIncome") %>%
+    .[, medianTotalPersonalIncome := medianTotalPersonalIncome * 52L] %>%
+    zero2NA %>%
+    setcolorder(sort(names(.))) %>%
+    set_cols_first(Region_key) %>%
+    setorderv(setdiff(names(.), c("persons"))) %>%
+    set_cols_last("persons") %>%
+    .[]
+})
+```
+
+```{r Region__medianMortgageRepayment}
+assign(paste0(Region, '__medianMortgageRepayment'), {
+  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
+    .[, .SD, .SDcols = c(Region_key, "Median_mortgage_repay_monthly")] %>%
+    setnames("Median_mortgage_repay_monthly", "medianMortgageRepayment") %>%
+    .[, medianMortgageRepayment := medianMortgageRepayment * 12L] %>%
+    zero2NA %>%
+    setcolorder(sort(names(.))) %>%
+    set_cols_first(Region_key) %>%
+    setorderv(setdiff(names(.), c("persons"))) %>%
+    set_cols_last("persons") %>%
+    .[]
+})
+```
+
+```{r Region__medianTotalHouseholdIncome}
+assign(paste0(Region, '__medianTotalHouseholdIncome'), {
+  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
+    .[, .SD, .SDcols = c(Region_key, "Median_tot_hhd_inc_weekly")] %>%
+    setnames("Median_tot_hhd_inc_weekly", "medianTotalHouseholdIncome") %>%
+    .[, medianTotalHouseholdIncome := medianTotalHouseholdIncome * 52L] %>%
+    zero2NA %>%
+    setcolorder(sort(names(.))) %>%
+    set_cols_first(Region_key) %>%
+    setorderv(setdiff(names(.), c("persons"))) %>%
+    set_cols_last("persons") %>%
+    .[]
+})
+```
+
+```{r Region__medianTotalFamilyIncome}
+assign(paste0(Region, '__medianTotalFamilyIncome'), {
+  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
+    .[, .SD, .SDcols = c(Region_key, "Median_tot_fam_inc_weekly")] %>%
+    setnames("Median_tot_fam_inc_weekly", "medianTotalFamilyIncome") %>%
+    .[, medianTotalFamilyIncome := medianTotalFamilyIncome * 52L] %>%
+    zero2NA %>%
+    setcolorder(sort(names(.))) %>%
+    set_cols_first(Region_key) %>%
+    setorderv(setdiff(names(.), c("persons"))) %>%
+    set_cols_last("persons") %>%
+    .[]
+})
+```
+
+```{r Region__medianRent}
+assign(paste0(Region, '__medianRent'), {
+  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
+    .[, .SD, .SDcols = c(Region_key, "Median_rent_weekly")] %>%
+    setnames("Median_rent_weekly", "medianRent") %>%
+    .[, medianRent := medianRent * 52L] %>%
+    zero2NA %>%
+    setcolorder(sort(names(.))) %>%
+    set_cols_first(Region_key) %>%
+    setorderv(setdiff(names(.), c("persons"))) %>%
+    set_cols_last("persons") %>%
+    .[]
+})
 ```
 
 ### G03
