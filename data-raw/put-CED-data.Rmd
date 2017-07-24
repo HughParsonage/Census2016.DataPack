@@ -71,6 +71,23 @@ expect_equal(extract_age("Age_0_4_yr_P", FALSE), "0-4")
 expect_equal(extract_age("Age_psns_att_edu_inst_25_ov_P", FALSE), "25+")
 ```
 
+```{r strip_age}
+strip_age <- function(variable, orderedFactor = FALSE) {
+  out <- 
+    variable %>%
+    # Prepare:
+    gsub("([0-9]{2})_ov", "\\1ov", x = ., perl = TRUE) %>%
+    # Extract
+    gsub("(_[0-9]+(?:_[0-9]{1,2})?(?:ov)?)_yr", "", ., perl = TRUE)
+  if (orderedFactor) {
+    out <- factor(out, levels = unique(out), ordered = TRUE)
+  }
+  out
+}
+
+expect_equal(strip_age("P_15_19_yr_Marrd_reg_marrge"), "P_Marrd_reg_marrge")
+```
+
 ### G01
 
 ```{r CED__Persons}
