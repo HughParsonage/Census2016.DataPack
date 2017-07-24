@@ -95,7 +95,7 @@ expect_equal(strip_age("P_15_19_yr_Marrd_reg_marrge"), "P_Marrd_reg_marrge")
 
 ```{r Region__Persons}
 assign(paste0(Region, '__Persons'), { 
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'),
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv",
         select = c(Region_key, "Tot_P_P")) %>%
   setnames("Tot_P_P", "persons")
 })
@@ -103,7 +103,7 @@ assign(paste0(Region, '__Persons'), {
 
 ```{r Region__Sex}
 assign(paste0(Region, '__Sex'), { 
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'),
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv",
         select = c(Region_key, "Tot_P_M", "Tot_P_F")) %>%
   melt.data.table(id.vars = Region_key,
                   variable.name = "Sex",
@@ -115,7 +115,7 @@ assign(paste0(Region, '__Sex'), {
 
 ```{r Region__Age}
 assign(paste0(Region, '__Age'), {
-   fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv')) %>%
+   fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv") %>%
   .[, .SD, .SDcols = c(Region_key, 
                        grep("^Age_[0-9].*P$", names(.), value = TRUE))] %>%
   melt.data.table(id.vars = Region_key,
@@ -129,7 +129,7 @@ assign(paste0(Region, '__Age'), {
 
 ```{r Region__Age_Sex}
 assign(paste0(Region, '__Age_Sex'), {
-   fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv')) %>%
+   fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv") %>%
   .[, .SD, .SDcols = c(Region_key, 
                        grep("^Age_[0-9].*[MF]$", names(.), value = TRUE))] %>%
   melt.data.table(id.vars = Region_key,
@@ -146,7 +146,7 @@ assign(paste0(Region, '__Age_Sex'), {
 
 ```{r Region__HomeCensusNight}
 assign(paste0(Region, '__HomeCensusNight'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
         select = c(Region_key, "Counted_Census_Night_home_P", "Count_Census_Nt_Ewhere_Aust_P")) %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "persons") %>%
@@ -160,7 +160,7 @@ assign(paste0(Region, '__HomeCensusNight'), {
 
 ```{r Region__HomeCensusNight_Sex}
 assign(paste0(Region, '__HomeCensusNight_Sex'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
         select = c(Region_key,
                    "Counted_Census_Night_home_M", "Count_Census_Nt_Ewhere_Aust_M",
                    "Counted_Census_Night_home_F", "Count_Census_Nt_Ewhere_Aust_F")) %>%
@@ -178,7 +178,7 @@ assign(paste0(Region, '__HomeCensusNight_Sex'), {
 
 ```{r Region__IndigenousStatus}
 assign(paste0(Region, '__IndigenousStatus'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
         select = c(Region_key,
                    "Tot_P_P",
                    "Indigenous_psns_Aboriginal_P",
@@ -209,7 +209,7 @@ assign(paste0(Region, '__IndigenousStatus'), {
 
 ```{r Region__BornAust}
 assign(paste0(Region, '__BornAust'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
         select = c(Region_key, 
                    "Birthplace_Australia_P",
                    "Birthplace_Elsewhere_P")) %>%
@@ -226,7 +226,7 @@ assign(paste0(Region, '__BornAust'), {
 
 ```{r Region__BornAust_Sex}
 assign(paste0(Region, '__BornAust_Sex'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
         select = c(Region_key, 
                    "Birthplace_Australia_F", "Birthplace_Australia_M",
                    "Birthplace_Elsewhere_F", "Birthplace_Elsewhere_M")) %>%
@@ -245,7 +245,7 @@ assign(paste0(Region, '__BornAust_Sex'), {
 
 ```{r Region__OnlyEnglishSpokenHome}
 assign(paste0(Region, '__OnlyEnglishSpokenHome'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
         select = c(Region_key, 
                    "Lang_spoken_home_Eng_only_P",
                    "Lang_spoken_home_Oth_Lang_P")) %>%
@@ -262,7 +262,7 @@ assign(paste0(Region, '__OnlyEnglishSpokenHome'), {
 
 ```{r Region__OnlyEnglishSpokenHome_Sex}
 assign(paste0(Region, '__OnlyEnglishSpokenHome_Sex'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
         select = c(Region_key, 
                    "Lang_spoken_home_Eng_only_F",
                    "Lang_spoken_home_Eng_only_M",
@@ -285,7 +285,7 @@ assign(paste0(Region, '__OnlyEnglishSpokenHome_Sex'), {
 
 ```{r Region__AustCitizen}
 assign(paste0(Region, '__AustCitizen'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'),
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv",
         select = c(Region_key,
                    "Tot_P_P",
                    "Australian_citizen_P")) %>%
@@ -306,7 +306,7 @@ assign(paste0(Region, '__AustCitizen'), {
 
 ```{r Region__AustCitizen_Sex}
 assign(paste0(Region, '__AustCitizen_Sex'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'),
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv",
         select = c(Region_key,
                    "Tot_P_F",
                    "Australian_citizen_F",
@@ -332,7 +332,7 @@ assign(paste0(Region, '__AustCitizen_Sex'), {
 
 ```{r Region__Age_students}
 assign(paste0(Region, '__Age_students'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'),
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv",
         select = c(Region_key,
                    "Age_psns_att_educ_inst_0_4_P",
                    "Age_psns_att_educ_inst_5_14_P", 
@@ -354,7 +354,7 @@ assign(paste0(Region, '__Age_students'), {
 
 ```{r Region__Age_Sex_students}
 assign(paste0(Region, '__Age_Sex_students'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'),
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv",
         select = c(Region_key,
                    "Age_psns_att_educ_inst_0_4_F",
                    "Age_psns_att_educ_inst_0_4_M",
@@ -382,7 +382,7 @@ assign(paste0(Region, '__Age_Sex_students'), {
 
 ```{r Region__MaxSchoolingCompleted}
 assign(paste0(Region, '__MaxSchoolingCompleted'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv')) %>%
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv") %>%
   .[, .SD, .SDcols = c(Region_key, grep("High_yr_schl_comp_.*_P", names(.), value = TRUE))] %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "persons") %>%
@@ -402,7 +402,7 @@ assign(paste0(Region, '__MaxSchoolingCompleted'), {
 
 ```{r Region__MaxSchoolingCompleted_Sex}
 assign(paste0(Region, '__MaxSchoolingCompleted_Sex'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv')) %>%
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv") %>%
   .[, .SD, .SDcols = c(Region_key, grep("High_yr_schl_comp_.*_[MF]$", names(.), value = TRUE))] %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "persons") %>%
@@ -422,7 +422,7 @@ assign(paste0(Region, '__MaxSchoolingCompleted_Sex'), {
 ```
 
 ```{r Region__Dwelling}
-fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
+fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
       select = c(Region_key,
                  #"Count_psns_occ_priv_dwgs_M",
                  #"Count_psns_occ_priv_dwgs_F", 
@@ -443,7 +443,7 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
 ```
 
 ```{r Region__Dwelling_Sex}
-fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
+fread("./data-raw/data-packs/data/CED/AUST/2016Census_G01_AUS_CED.csv", 
       select = c(Region_key,
                  "Count_psns_occ_priv_dwgs_M",
                  "Count_psns_occ_priv_dwgs_F", 
@@ -467,7 +467,7 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
 
 ```{r Region__UsualResidence_Age}
 assign(paste0(Region, '__UsualResidence_Age'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G03_AUS_', Region, '.csv')) %>%
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G03_AUS_CED.csv") %>%
   melt.data.table(id.vars = Region_key,
                   variable.factor = FALSE,
                   value.name = "persons") %>%
@@ -548,7 +548,7 @@ assign(paste0(Region, '__minAge_Sex'), {
 
 ```{r Region__Age_MaritalStatus_Sex}
 assign(paste0(Region, '__Age_MaritalStatus_Sex'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G05_AUS_', Region, '.csv')) %>% 
+  fread("./data-raw/data-packs/data/CED/AUST/2016Census_G05_AUS_CED.csv") %>% 
   .[,
     .SD,
     .SDcols = c(Region_key,
@@ -570,7 +570,7 @@ assign(paste0(Region, '__Age_MaritalStatus_Sex'), {
 ```
 
 ```{r Region__MaritalStatus_Age}
-fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G06_AUS_', Region, '.csv')) %>%
+fread("./data-raw/data-packs/data/CED/AUST/2016Census_G06_AUS_CED.csv") %>%
   .[, .SD, .SDcols = c(Region_key,
                        names(.)[grepl("^P", names(.)) & !grepl("Tot", names(.))])] %>%
   melt.data.table(id.vars = Region_key,
@@ -591,7 +591,7 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G06_AUS_',
 ```
 
 ```{r}
-fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G07_AUS_', Region, '.csv')) %>%
+fread("./data-raw/data-packs/data/CED/AUST/2016Census_G07_AUS_CED.csv") %>%
   .[, .SD, .SDcols = c(Region_key,
                        names(.)[nor(grepl("[MF]$", names(.)),
                                     grepl("Tot", names(.)))])]
