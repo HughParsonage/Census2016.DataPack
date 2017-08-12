@@ -124,6 +124,26 @@ $(document).ready(function () {
 </div>
 
 
+<pre class="r"><code>START &lt;- Sys.time()
+library(knitr)
+data.kable &lt;- function(DT) {
+  current_knitr.kable.NA &lt;- options(&quot;knitr.kable.NA&quot;)
+  options(knitr.kable.NA = '...')
+  on.exit(options(knitr.kable.NA = current_knitr.kable.NA))
+  if (nrow(DT) &gt; 50) {
+    middle_row &lt;- as.data.table(matrix(nrow = 1, ncol = ncol(DT)))
+    setnames(middle_row, seq_along(middle_row), names(DT))
+    DT_topn &lt;- rbind(head(DT),
+                     middle_row,
+                     tail(DT))
+    kable(DT_topn, format.args = list(big.mark = &quot;,&quot;))
+  } else {
+    kable(DT, format.args = list(big.mark = &quot;,&quot;))
+  }
+}
+knitr::opts_knit$set(root.dir = &quot;..&quot;)
+knitr::opts_chunk$set(echo = TRUE, 
+                      print_chunk = TRUE)</code></pre>
 <pre class="r"><code>library(readxl)
 library(testthat)
 library(magrittr)</code></pre>
@@ -135,10 +155,97 @@ library(magrittr)</code></pre>
 <pre class="r"><code>library(hutils)
 library(data.table)</code></pre>
 <pre><code>## Warning: package 'data.table' was built under R version 3.4.1</code></pre>
-<pre class="r"><code># Allow replacement
+<pre class="r"><code>grep &lt;- function(..., perl, fixed) base::grep(..., perl = missing(fixed), fixed = !missing(fixed))
+grepl &lt;- function(..., perl, fixed) base::grepl(..., perl = missing(fixed), fixed = !missing(fixed))
+gsub &lt;- function(..., perl, fixed) base::gsub(..., perl = missing(fixed), fixed = !missing(fixed))</code></pre>
+<pre class="r"><code>ngrep &lt;- function(pattern, x, value = TRUE) {
+  if (value) {
+    x[!grepl(pattern, x)]
+  } else {
+    which(!grepl(pattern, x))
+  }
+}
+
+expect_equal(ngrep(&quot;a&quot;, c(&quot;a&quot;, &quot;ab&quot;, &quot;b&quot;, &quot;c&quot;)), c(&quot;b&quot;, &quot;c&quot;))</code></pre>
+<pre class="r"><code>Mop &lt;- function(DT, value.name = &quot;persons&quot;) {
+  stopifnot(value.name %in% names(DT))
+  
+  # Check for no duplicates, except for value.name
+  if (anyDuplicated(DT, by = setdiff(names(DT), c(value.name, &quot;variable&quot;)))) {
+    print(duplicated_rows(DT, by = setdiff(names(DT), c(value.name, &quot;variable&quot;))))
+    stop(&quot;Duplicated rows.&quot;)
+  }
+  
+  out &lt;- 
+    DT %&gt;%
+    drop_col(&quot;variable&quot;) %&gt;%
+    setcolorder(sort(names(.))) %&gt;%
+    set_cols_first(Region_key) %&gt;%
+    setorderv(setdiff(names(.), value.name)) %&gt;%
+    set_cols_last(value.name) %&gt;%
+    .[]
+  
+  if (&quot;CountryOfBirth&quot; %in% names(DT)) {
+    out[CountryOfBirth %pin% &quot;Born elsewhere&quot;, CountryOfBirth := &quot;(Born elsewhere)&quot;]
+  }
+  
+  for (j in names(DT)) {
+   out[out[[j]] == &quot;Other&quot;, (j) := &quot;(Other)&quot;]
+  }
+  
+  # http://www.abs.gov.au/ausstats/abs@.nsf/0/1CD2B1952AFC5E7ACA257298000F2E76?OpenDocument
+  if (value.name == &quot;persons&quot; &amp;&amp; abs(sum(out[[&quot;persons&quot;]]) - 23401.9e3) &gt; 500e3) {
+    apparent_population &lt;- sum(out[[&quot;persons&quot;]])
+    if (apparent_population &lt; 23401.9e3) {
+      stop(&quot;Population undercounted: &quot;, prettyNum(apparent_population, big.mark = &quot;,&quot;),
+           &quot;\nShould you have used a different value.name?&quot;)
+    } else {
+      stop(&quot;Apparent population too high: &quot;, prettyNum(apparent_population, big.mark = &quot;,&quot;))
+    }
+  }
+  
+  # Check for no duplicates, except for value.name
+  if (anyDuplicated(out, by = setdiff(names(out), value.name))) {
+    print(duplicated_rows(out, by = setdiff(names(out), value.name)))
+    stop(&quot;Duplicated rows.&quot;)
+  }
+  
+  out[]
+}</code></pre>
+<pre class="r"><code># Ensure we are working with pristine tables
+AllTables &lt;- Filter(function(x) is.data.table(get(x)), ls())
+stopifnot(length(AllTables) == 0)
+
+if (FALSE) {
+  rm(list = AllTables)
+}
+# Allow replacement
 # Region &lt;- sprintf(&quot;%s%s&quot;, &quot;C&quot;, &quot;ED&quot;)
 Region &lt;- &quot;CED&quot;
 Region_key &lt;- sprintf(&quot;%s%s&quot;, Region, &quot;_CODE_2016&quot;)</code></pre>
+<pre class="r"><code>zero2NA &lt;- function(DT) {
+  Classes &lt;- vapply(DT, storage.mode, character(1))
+  IntNoms &lt;- names(Classes)[Classes == &quot;integer&quot;]
+  for (j in which(Classes == &quot;integer&quot;)) {
+    set(DT, i = which(DT[[j]] == 0L), j = j, value = NA_integer_)
+  }
+  
+  for (j in which(Classes == &quot;double&quot;)) {
+    set(DT, i = which(abs(DT[[j]]) &lt; .Machine$double.eps), j = j, value = NA_real_)
+  }
+  DT
+}
+
+local({
+  DT &lt;- data.table(x = 1:5, y = c(0L, 1:4), z = c(-0.5, 0, 0.5, 1, 1.5),
+                   ZZ = LETTERS[1:5])
+  zero2NA(DT)
+  
+  expect_equal(DT[[&quot;x&quot;]], 1:5)
+  expect_equal(DT[[&quot;y&quot;]], c(NA_integer_, 1:4))
+  expect_equal(DT[[&quot;z&quot;]], c(-0.5, NA_real_, 0.5, 1, 1.5))
+  expect_equal(DT[[&quot;ZZ&quot;]], LETTERS[1:5])
+})</code></pre>
 <pre class="r"><code>CED_decoder &lt;-
   read_excel(&quot;./data-raw/data-packs/Metadata/2016Census_geog_desc_1st_release.xlsx&quot;, 
              sheet = &quot;2016_ASGS_Non-ABS_Structures&quot;) %&gt;%
@@ -156,6 +263,11 @@ Region_key &lt;- sprintf(&quot;%s%s&quot;, Region, &quot;_CODE_2016&quot;)</code
     gsub(&quot;^.*?_([0-9]+(?:_[0-9]{1,2})?(?:ov)?).*$&quot;, &quot;\\1&quot;, ., perl = TRUE) %&gt;%
     gsub(&quot;_&quot;, &quot;-&quot;, ., fixed = TRUE) %&gt;%
     gsub(&quot;_?ov&quot;, &quot;+&quot;, ., perl = TRUE)
+  
+  # Has 'ov' in original and only numbers in out
+  out &lt;- dplyr::if_else(grepl(&quot;[^A-Za-z]ov[^A-Za-z]&quot;, variable, perl = TRUE) &amp; grepl(&quot;^[0-9]+$&quot;, out),
+                        paste0(out, &quot;+&quot;),
+                        out)
   if (orderedFactor) {
     out &lt;- factor(out, levels = unique(out), ordered = TRUE)
   }
@@ -164,7 +276,8 @@ Region_key &lt;- sprintf(&quot;%s%s&quot;, Region, &quot;_CODE_2016&quot;)</code
 
 expect_equal(extract_age(&quot;Count_home_Census_Nt_0_14_yr&quot;, FALSE), &quot;0-14&quot;)
 expect_equal(extract_age(&quot;Age_0_4_yr_P&quot;, FALSE), &quot;0-4&quot;)
-expect_equal(extract_age(&quot;Age_psns_att_edu_inst_25_ov_P&quot;, FALSE), &quot;25+&quot;)</code></pre>
+expect_equal(extract_age(&quot;Age_psns_att_edu_inst_25_ov_P&quot;, FALSE), &quot;25+&quot;)
+expect_equal(extract_age(&quot;A_65_y_ov_Indig_stat_ns_P&quot;, FALSE), &quot;65+&quot;)</code></pre>
 <pre class="r"><code>strip_age &lt;- function(variable, orderedFactor = FALSE) {
   out &lt;- 
     variable %&gt;%
@@ -520,11 +633,12 @@ expect_equal(strip_age(&quot;P_15_19_yr_Marrd_reg_marrge&quot;), &quot;P_Marrd_r
 </div>
 <div id="g02" class="section level3">
 <h3>G02</h3>
-<pre class="r"><code>assign(paste0(Region, '__medianTotalIncome'), {
+<pre class="r"><code>assign(paste0(Region, '__medianTotalPersonalIncome'), {
   fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %&gt;%
     .[, .SD, .SDcols = c(Region_key, &quot;Median_tot_prsnl_inc_weekly&quot;)] %&gt;%
     setnames(&quot;Median_tot_prsnl_inc_weekly&quot;, &quot;medianTotalPersonalIncome&quot;) %&gt;%
     .[, medianTotalPersonalIncome := medianTotalPersonalIncome * 52L] %&gt;%
+    zero2NA %&gt;%
     setcolorder(sort(names(.))) %&gt;%
     set_cols_first(Region_key) %&gt;%
     setorderv(setdiff(names(.), c(&quot;persons&quot;))) %&gt;%
@@ -536,6 +650,43 @@ expect_equal(strip_age(&quot;P_15_19_yr_Marrd_reg_marrge&quot;), &quot;P_Marrd_r
     .[, .SD, .SDcols = c(Region_key, &quot;Median_mortgage_repay_monthly&quot;)] %&gt;%
     setnames(&quot;Median_mortgage_repay_monthly&quot;, &quot;medianMortgageRepayment&quot;) %&gt;%
     .[, medianMortgageRepayment := medianMortgageRepayment * 12L] %&gt;%
+    zero2NA %&gt;%
+    setcolorder(sort(names(.))) %&gt;%
+    set_cols_first(Region_key) %&gt;%
+    setorderv(setdiff(names(.), c(&quot;persons&quot;))) %&gt;%
+    set_cols_last(&quot;persons&quot;) %&gt;%
+    .[]
+})</code></pre>
+<pre class="r"><code>assign(paste0(Region, '__medianTotalHouseholdIncome'), {
+  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %&gt;%
+    .[, .SD, .SDcols = c(Region_key, &quot;Median_tot_hhd_inc_weekly&quot;)] %&gt;%
+    setnames(&quot;Median_tot_hhd_inc_weekly&quot;, &quot;medianTotalHouseholdIncome&quot;) %&gt;%
+    .[, medianTotalHouseholdIncome := medianTotalHouseholdIncome * 52L] %&gt;%
+    zero2NA %&gt;%
+    setcolorder(sort(names(.))) %&gt;%
+    set_cols_first(Region_key) %&gt;%
+    setorderv(setdiff(names(.), c(&quot;persons&quot;))) %&gt;%
+    set_cols_last(&quot;persons&quot;) %&gt;%
+    .[]
+})</code></pre>
+<pre class="r"><code>assign(paste0(Region, '__medianTotalFamilyIncome'), {
+  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %&gt;%
+    .[, .SD, .SDcols = c(Region_key, &quot;Median_tot_fam_inc_weekly&quot;)] %&gt;%
+    setnames(&quot;Median_tot_fam_inc_weekly&quot;, &quot;medianTotalFamilyIncome&quot;) %&gt;%
+    .[, medianTotalFamilyIncome := medianTotalFamilyIncome * 52L] %&gt;%
+    zero2NA %&gt;%
+    setcolorder(sort(names(.))) %&gt;%
+    set_cols_first(Region_key) %&gt;%
+    setorderv(setdiff(names(.), c(&quot;persons&quot;))) %&gt;%
+    set_cols_last(&quot;persons&quot;) %&gt;%
+    .[]
+})</code></pre>
+<pre class="r"><code>assign(paste0(Region, '__medianRent'), {
+  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %&gt;%
+    .[, .SD, .SDcols = c(Region_key, &quot;Median_rent_weekly&quot;)] %&gt;%
+    setnames(&quot;Median_rent_weekly&quot;, &quot;medianRent&quot;) %&gt;%
+    .[, medianRent := medianRent * 52L] %&gt;%
+    zero2NA %&gt;%
     setcolorder(sort(names(.))) %&gt;%
     set_cols_first(Region_key) %&gt;%
     setorderv(setdiff(names(.), c(&quot;persons&quot;))) %&gt;%
@@ -638,291 +789,194 @@ expect_equal(strip_age(&quot;P_15_19_yr_Marrd_reg_marrge&quot;), &quot;P_Marrd_r
   .[]
 
 })</code></pre>
-<pre class="r"><code>fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G06_AUS_', Region, '.csv')) %&gt;%
-  .[, .SD, .SDcols = c(Region_key,
-                       names(.)[grepl(&quot;^P&quot;, names(.)) &amp; !grepl(&quot;Tot&quot;, names(.))])] %&gt;%
-  melt.data.table(id.vars = Region_key,
-                  value.name = &quot;adults&quot;) %&gt;%
-  .[, Age := extract_age(variable)] %&gt;%
-  .[, MaritalStatus := gsub(&quot;^.*(Marrd_reg_marrge|Married_de_facto|Not_married).*$&quot;, &quot;\\1&quot;, variable)] %&gt;%
-  .[, MaritalStatus := gsub(&quot;_&quot;, &quot; &quot;, MaritalStatus)] %&gt;%
-  .[MaritalStatus == &quot;Marrd reg marrge&quot;, Registered := TRUE] %&gt;%
-  .[MaritalStatus %pin% &quot;de facto&quot;, Registered := FALSE] %&gt;%
-  .[MaritalStatus != &quot;Not married&quot;, MaritalStatus := &quot;Married&quot;] %&gt;%
-  .[, variable := NULL] %&gt;%
-  setcolorder(sort(names(.))) %&gt;%
-  set_cols_first(Region_key) %&gt;%
-  setorderv(setdiff(names(.), c(&quot;adults&quot;))) %&gt;%
-  set_cols_last(&quot;adults&quot;) %&gt;%
-  .[]</code></pre>
-<pre><code>##       CED_CODE_2016   Age MaritalStatus Registered adults
-##    1:        CED101 15-19       Married      FALSE     28
-##    2:        CED101 15-19       Married       TRUE     14
-##    3:        CED101 15-19   Not married         NA   8984
-##    4:        CED101 20-24       Married      FALSE    437
-##    5:        CED101 20-24       Married       TRUE    533
-##   ---                                                    
-## 4532:        CED997 75-84       Married       TRUE      0
-## 4533:        CED997 75-84   Not married         NA      0
-## 4534:        CED997   85+       Married      FALSE      0
-## 4535:        CED997   85+       Married       TRUE      0
-## 4536:        CED997   85+   Not married         NA      0</code></pre>
-<pre class="r"><code>fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G07_AUS_', Region, '.csv')) %&gt;%
-  .[, .SD, .SDcols = c(Region_key,
-                       names(.)[nor(grepl(&quot;[MF]$&quot;, names(.)),
-                                    grepl(&quot;Tot&quot;, names(.)))])]</code></pre>
-<pre><code>##      CED_CODE_2016 CED_CODE_2016 A_0_4_y_Indigenous_P
-##   1:        CED101        CED101                  125
-##   2:        CED102        CED102                  122
-##   3:        CED103        CED103                   46
-##   4:        CED104        CED104                   52
-##   5:        CED105        CED105                   93
-##  ---                                                 
-## 164:        CED802        CED802                  392
-## 165:        CED894        CED894                    0
-## 166:        CED897        CED897                    0
-## 167:        CED994        CED994                    0
-## 168:        CED997        CED997                    0
-##      A_0_4_y_Non_Indigenous_P A_0_4_y_Indig_stat_ns_P A_5_9_y_Indigenous_P
-##   1:                     8987                     331                  133
-##   2:                     9715                     472                   97
-##   3:                     9832                     345                   72
-##   4:                     7471                     215                   83
-##   5:                    12596                     732                   92
-##  ---                                                                      
-## 164:                    14305                     670                  330
-## 165:                       14                       0                    3
-## 166:                        0                       0                    0
-## 167:                        3                       0                    0
-## 168:                        0                       0                    0
-##      A_5_9_y_Non_Indigenous_P A_5_9_y_Indig_stat_ns_P
-##   1:                     8769                     343
-##   2:                     8598                     442
-##   3:                     9348                     281
-##   4:                     9720                     256
-##   5:                    11567                     659
-##  ---                                                 
-## 164:                    12990                     525
-## 165:                       13                       0
-## 166:                        0                       0
-## 167:                        0                       0
-## 168:                        0                       0
-##      A_10_14_y_Indigenous_P A_10_14_y_Non_Indig_P
-##   1:                    124                  8284
-##   2:                     91                  7638
-##   3:                     59                  8188
-##   4:                     93                  9864
-##   5:                     81                 10504
-##  ---                                             
-## 164:                    323                 10776
-## 165:                      0                     3
-## 166:                      0                     0
-## 167:                      0                     0
-## 168:                      0                     0
-##      A_10_14_y_Indig_stat_ns_P A_15_19_y_Indigenous_P
-##   1:                       312                    105
-##   2:                       387                     95
-##   3:                       233                     54
-##   4:                       245                    103
-##   5:                       562                    115
-##  ---                                                 
-## 164:                       400                    323
-## 165:                         0                      5
-## 166:                         0                      0
-## 167:                         0                      0
-## 168:                         0                      0
-##      A_15_19_y_Non_Indig_P A_15_19_y_Indig_stat_ns_P
-##   1:                  8987                       335
-##   2:                  8532                       418
-##   3:                  9248                       313
-##   4:                 10179                       284
-##   5:                 10663                       527
-##  ---                                                
-## 164:                 10771                       513
-## 165:                    29                         4
-## 166:                     0                         0
-## 167:                     3                         0
-## 168:                     0                         0
-##      A_20_24_y_Indigenous_P A_20_24_y_Non_Indig_P
-##   1:                    113                 10177
-##   2:                    138                 12778
-##   3:                     80                 12913
-##   4:                     55                  8576
-##   5:                    100                 13263
-##  ---                                             
-## 164:                    322                 15491
-## 165:                      7                    66
-## 166:                      0                     0
-## 167:                      0                     3
-## 168:                      0                     0
-##      A_20_24_y_Indig_stat_ns_P A_25_29_y_Indigenous_P
-##   1:                       398                     92
-##   2:                       746                    129
-##   3:                       521                     52
-##   4:                       269                     46
-##   5:                       784                     68
-##  ---                                                 
-## 164:                       959                    294
-## 165:                         5                      0
-## 166:                         0                      0
-## 167:                         3                      0
-## 168:                         0                      0
-##      A_25_29_y_Non_Indig_P A_25_29_y_Indig_stat_ns_P
-##   1:                 10987                       478
-##   2:                 16987                      1081
-##   3:                 13654                       580
-##   4:                  5915                       225
-##   5:                 15260                       811
-##  ---                                                
-## 164:                 16548                       952
-## 165:                    51                         3
-## 166:                     0                         0
-## 167:                     0                         0
-## 168:                     0                         0
-##      A_30_34_y_Indigenous_P A_30_34_y_Non_Indig_P
-##   1:                     85                 10881
-##   2:                     74                 15802
-##   3:                     39                 13769
-##   4:                     41                  6274
-##   5:                     51                 13543
-##  ---                                             
-## 164:                    245                 18006
-## 165:                      3                    41
-## 166:                      0                     0
-## 167:                      0                     0
-## 168:                      0                     3
-##      A_30_34_y_Indig_stat_ns_P A_35_39_y_Indigenous_P
-##   1:                       499                     70
-##   2:                       888                     60
-##   3:                       571                     35
-##   4:                       230                     31
-##   5:                       757                     53
-##  ---                                                 
-## 164:                       985                    199
-## 165:                         5                      3
-## 166:                         0                      0
-## 167:                         0                      0
-## 168:                         0                      0
-##      A_35_39_y_Non_Indig_P A_35_39_y_Indig_stat_ns_P
-##   1:                  9822                       398
-##   2:                 12217                       717
-##   3:                 12363                       481
-##   4:                  8188                       290
-##   5:                 11099                       640
-##  ---                                                
-## 164:                 16182                       773
-## 165:                    43                         7
-## 166:                     0                         0
-## 167:                     0                         0
-## 168:                     0                         0
-##      A_40_44_y_Indigenous_P A_40_44_y_Non_Indig_P
-##   1:                     72                  9933
-##   2:                     74                 10976
-##   3:                     50                 11081
-##   4:                     64                 10282
-##   5:                     56                 10038
-##  ---                                             
-## 164:                    177                 14257
-## 165:                      6                    40
-## 166:                      0                     0
-## 167:                      0                     5
-## 168:                      0                     0
-##      A_40_44_y_Indig_stat_ns_P A_45_49_y_Indigenous_P
-##   1:                       387                     70
-##   2:                       631                     78
-##   3:                       422                     32
-##   4:                       323                     34
-##   5:                       570                     74
-##  ---                                                 
-## 164:                       722                    174
-## 165:                         8                      0
-## 166:                         0                      0
-## 167:                         0                      0
-## 168:                         0                      0
-##      A_45_49_y_Non_Indig_P A_45_49_y_Indig_stat_ns_P
-##   1:                  9727                       397
-##   2:                 10175                       510
-##   3:                 10355                       363
-##   4:                 10741                       326
-##   5:                  9695                       577
-##  ---                                                
-## 164:                 12402                       624
-## 165:                    24                         3
-## 166:                     0                         0
-## 167:                     3                         0
-## 168:                     0                         0
-##      A_50_54_y_Indigenous_P A_50_54_y_Non_Indig_P
-##   1:                     91                 10084
-##   2:                     69                  9674
-##   3:                     31                 10430
-##   4:                     44                 10638
-##   5:                     52                  9665
-##  ---                                             
-## 164:                    130                 10385
-## 165:                      0                    41
-## 166:                      0                     0
-## 167:                      0                     3
-## 168:                      0                     0
-##      A_50_54_y_Indig_stat_ns_P A_55_59_y_Indigenous_P
-##   1:                       426                     72
-##   2:                       553                     57
-##   3:                       363                     25
-##   4:                       339                     24
-##   5:                       532                     47
-##  ---                                                 
-## 164:                       519                    122
-## 165:                         4                      3
-## 166:                         0                      0
-## 167:                         0                      0
-## 168:                         0                      0
-##      A_55_59_y_Non_Indig_P A_55_59_y_Indig_stat_ns_P
-##   1:                  9658                       414
-##   2:                  8656                       427
-##   3:                  9475                       328
-##   4:                  9923                       329
-##   5:                  9163                       501
-##  ---                                                
-## 164:                  9286                       486
-## 165:                    29                         7
-## 166:                     0                         0
-## 167:                     0                         0
-## 168:                     0                         0
-##      A_60_64_y_Indigenous_P A_60_64_y_Non_Indig_P
-##   1:                     45                  8175
-##   2:                     41                  7553
-##   3:                     22                  8371
-##   4:                     28                  8401
-##   5:                     45                  7493
-##  ---                                             
-## 164:                     64                  8058
-## 165:                      0                    30
-## 166:                      0                     0
-## 167:                      0                     7
-## 168:                      0                     0
-##      A_60_64_y_Indig_stat_ns_P A_65_y_ov_Indigenous_P
-##   1:                       334                     90
-##   2:                       461                     80
-##   3:                       305                     45
-##   4:                       276                     46
-##   5:                       425                     82
-##  ---                                                 
-## 164:                       444                    108
-## 165:                         9                      0
-## 166:                         0                      0
-## 167:                         0                      0
-## 168:                         0                      0
-##      A_65_y_ov_Non_Indig_P A_65_y_ov_Indig_stat_ns_P
-##   1:                 23843                      1161
-##   2:                 22911                      1703
-##   3:                 23140                      1030
-##   4:                 23625                       982
-##   5:                 19657                      1343
-##  ---                                                
-## 164:                 20468                      1241
-## 165:                    33                         3
-## 166:                     0                         0
-## 167:                     8                         0
-## 168:                     0                         0</code></pre>
+<pre class="r"><code>assign(paste0(Region, '__Age_MaritalStatus'), {
+  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G06_AUS_', Region, '.csv')) %&gt;%
+    .[, .SD, .SDcols = c(Region_key,
+                         names(.)[grepl(&quot;^P&quot;, names(.)) &amp; !grepl(&quot;Tot&quot;, names(.))])] %&gt;%
+    melt.data.table(id.vars = Region_key,
+                    value.name = &quot;adults&quot;) %&gt;%
+    .[, Age := extract_age(variable)] %&gt;%
+    .[, MaritalStatus := gsub(&quot;^.*(Marrd_reg_marrge|Married_de_facto|Not_married).*$&quot;, &quot;\\1&quot;, variable)] %&gt;%
+    .[, MaritalStatus := gsub(&quot;_&quot;, &quot; &quot;, MaritalStatus)] %&gt;%
+    .[MaritalStatus == &quot;Marrd reg marrge&quot;, Registered := TRUE] %&gt;%
+    .[MaritalStatus %pin% &quot;de facto&quot;, Registered := FALSE] %&gt;%
+    .[MaritalStatus != &quot;Not married&quot;, MaritalStatus := &quot;Married&quot;] %&gt;%
+    .[, variable := NULL] %&gt;%
+    setcolorder(sort(names(.))) %&gt;%
+    set_cols_first(Region_key) %&gt;%
+    setorderv(setdiff(names(.), c(&quot;adults&quot;))) %&gt;%
+    set_cols_last(&quot;adults&quot;) %&gt;%
+    .[]
+})</code></pre>
+</div>
+<div id="g07" class="section level2">
+<h2>G07</h2>
+<pre class="r"><code>assign(paste0(Region, &quot;__Age_Indigenous&quot;), {
+  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G07_AUS_', Region, '.csv')) %&gt;%
+    .[, .SD, .SDcols = names(.)[nor(grepl(&quot;[MF]$&quot;, names(.)),
+                                    grepl(&quot;Tot&quot;, names(.)))]] %&gt;%
+    melt.data.table(id.vars = Region_key,
+                    value.name = &quot;persons&quot;) %&gt;%
+    .[, Age := extract_age(variable)] %&gt;%
+    .[!grepl(&quot;_stat_ns&quot;, variable), Indigenous := !grepl(&quot;Non_Indig&quot;, variable)] %&gt;%
+    .[, variable := NULL] %&gt;%
+    setcolorder(sort(names(.))) %&gt;%
+    set_cols_first(Region_key) %&gt;%
+    setorderv(setdiff(names(.), c(&quot;persons&quot;))) %&gt;%
+    set_cols_last(&quot;persons&quot;) %&gt;%
+    .[]
+})</code></pre>
+<pre class="r"><code>assign(paste0(Region, &quot;__Age_Indigenous_Sex&quot;), {
+  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G07_AUS_', Region, '.csv')) %&gt;%
+    .[, .SD, .SDcols = c(Region_key,
+                         names(.)[and(grepl(&quot;[MF]$&quot;, names(.)),
+                                    !grepl(&quot;Tot&quot;, names(.)))])] %&gt;%
+    melt.data.table(id.vars = Region_key,
+                    value.name = &quot;persons&quot;) %&gt;%
+    .[, Age := extract_age(variable)] %&gt;%
+    .[, Sex := gsub(&quot;^.*([MF])$&quot;, &quot;\\1&quot;, variable)] %&gt;%
+    .[!grepl(&quot;_stat_ns&quot;, variable), Indigenous := !grepl(&quot;Non_Indig&quot;, variable)] %&gt;%
+    .[] %&gt;%
+    .[, variable := NULL] %&gt;%
+    setcolorder(sort(names(.))) %&gt;%
+    set_cols_first(Region_key) %&gt;%
+    setorderv(setdiff(names(.), c(&quot;persons&quot;))) %&gt;%
+    set_cols_last(&quot;persons&quot;) %&gt;%
+    .[]
+})</code></pre>
+<pre class="r"><code>assign(paste0(Region, &quot;__Ancestry&quot;), {
+  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G08_AUS_', Region, '.csv')) %&gt;%
+    .[, .SD, .SDcols = c(Region_key,
+                         grep(&quot;Tot_Resp&quot;, names(.), value = TRUE))] %&gt;%
+    melt.data.table(id.vars = Region_key,
+                    value.name = &quot;responses&quot;) %&gt;%
+    .[variable != &quot;Tot_P_Tot_Resp&quot;] %&gt;%
+    .[!grepl(&quot;Ancestry_NS&quot;, variable),
+      Ancestry := gsub(&quot;^([A-Z].*)_(BP|FO|MO).*$&quot;, &quot;\\1&quot;, variable)] %&gt;%
+    .[Ancestry %pin% &quot;Sth.Afri?can&quot;, Ancestry := &quot;South African&quot;] %&gt;%
+    .[, Ancestry := sub(&quot;_Tot_Resp&quot;, &quot;&quot;, Ancestry)] %&gt;%
+    .[, Ancestry := gsub(&quot;_&quot;, &quot; &quot;, Ancestry)] %&gt;%
+    .[, Ancestry := gsub(&quot;Aust&quot;, &quot;Australian&quot;, Ancestry)] %&gt;%
+    .[, Ancestry := gsub(&quot;Abor&quot;, &quot;Aboriginal&quot;, Ancestry)] %&gt;%
+    .[, variable := NULL] %&gt;%
+    setcolorder(sort(names(.))) %&gt;%
+    set_cols_first(Region_key) %&gt;%
+    setorderv(setdiff(names(.), c(&quot;persons&quot;))) %&gt;%
+    set_cols_last(&quot;persons&quot;) %&gt;%
+    .[]
+})</code></pre>
+<pre class="r"><code>assign(paste0(Region, &quot;__Ancestry_ParentsCountryOfBirth&quot;), {
+  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G08_AUS_', Region, '.csv')) %&gt;%
+    .[, .SD, .SDcols = c(ngrep(&quot;Tot&quot;, names(.)))] %&gt;%
+    melt.data.table(id.vars = Region_key,
+                    value.name = &quot;responses&quot;) %&gt;%
+    .[!grepl(&quot;Ancestry_NS&quot;, variable),
+      Ancestry := gsub(&quot;^([A-Z].*)_(BP|FO|MO).*$&quot;, &quot;\\1&quot;, variable)] %&gt;%
+    .[Ancestry %pin% &quot;Sth.Afri?can&quot;, Ancestry := &quot;South African&quot;] %&gt;%
+    # Join to obtain those with ancestry but whose parents were not
+    # born overseas
+    .[, Ancestry := sub(&quot;_Tot_Resp&quot;, &quot;&quot;, Ancestry)] %&gt;%
+    .[, Ancestry := gsub(&quot;_&quot;, &quot; &quot;, Ancestry)] %&gt;%
+    .[, Ancestry := gsub(&quot;Aust&quot;, &quot;Australian&quot;, Ancestry)] %&gt;%
+    .[, Ancestry := gsub(&quot;Abor&quot;, &quot;Aboriginal&quot;, Ancestry)] %&gt;%
+    
+    # Parents' country of birth
+    .[variable %pin% &quot;BP_B_Aus$&quot;, FatherBornAus := TRUE] %&gt;%
+    .[variable %pin% &quot;BP_B_Aus$&quot;, MotherBornAus := TRUE] %&gt;%
+    .[variable %pin% &quot;FO_B_OS$&quot;, FatherBornAus := FALSE] %&gt;%
+    .[variable %pin% &quot;FO_B_OS$&quot;, MotherBornAus := TRUE] %&gt;%
+    .[variable %pin% &quot;MO_B_OS$&quot;, FatherBornAus := TRUE] %&gt;%
+    .[variable %pin% &quot;MO_B_OS$&quot;, MotherBornAus := FALSE] %&gt;%
+    .[variable %pin% &quot;BP_B_OS$&quot;, FatherBornAus := FALSE] %&gt;%
+    .[variable %pin% &quot;BP_B_OS$&quot;, MotherBornAus := FALSE] %&gt;%
+    .[] %&gt;%
+    Mop(&quot;responses&quot;)
+})</code></pre>
+</div>
+<div id="g09" class="section level2">
+<h2>G09</h2>
+<pre class="r"><code>assign(paste0(Region, &quot;__CountryOfBirth&quot;), {
+  list.files(path = paste0('./data-raw/data-packs/data/', Region, '/AUST/'),
+             pattern = paste0('2016Census_G09[A-Z]_AUS_', Region, '\\.csv$'),
+             full.names = TRUE) %&gt;%
+    lapply(fread, key = Region_key) %&gt;%
+    Reduce(f = function(X, Y) X[Y]) %&gt;%
+    .[, .SD, .SDcols = c(Region_key, grep(&quot;^P.*(?&lt;!(Tot_))Tot$&quot;, names(.), value = TRUE))] %&gt;%
+    melt.data.table(id.vars = Region_key,
+                    value.name = &quot;persons&quot;) %&gt;%
+    .[!grepl(&quot;COB_NS&quot;, variable), CountryOfBirth := gsub(&quot;^P_(.*)_Tot$&quot;, &quot;\\1&quot;, variable)] %&gt;%
+    .[, CountryOfBirth := gsub(&quot;_&quot;, &quot; &quot;, CountryOfBirth)] %&gt;%
+    Mop
+})</code></pre>
+<pre class="r"><code>assign(paste0(Region, &quot;__CountryOfBirth_Sex&quot;), {
+  list.files(path = paste0('./data-raw/data-packs/data/', Region, '/AUST/'),
+             pattern = paste0('2016Census_G09[A-Z]_AUS_', Region, '\\.csv$'),
+             full.names = TRUE) %&gt;%
+    lapply(fread, key = Region_key) %&gt;%
+    Reduce(f = function(X, Y) X[Y]) %&gt;%
+    .[, .SD, .SDcols = c(Region_key, grep(&quot;^[MF].*(?&lt;!(Tot_))Tot$&quot;, names(.), value = TRUE))] %&gt;%
+    melt.data.table(id.vars = Region_key,
+                    value.name = &quot;persons&quot;) %&gt;%
+    .[!grepl(&quot;COB_NS&quot;, variable), CountryOfBirth := gsub(&quot;^[MF]_(.*)_Tot$&quot;, &quot;\\1&quot;, variable)] %&gt;%
+    .[, CountryOfBirth := gsub(&quot;_&quot;, &quot; &quot;, CountryOfBirth)] %&gt;%
+    .[, CountryOfBirth := gsub(&quot;Born elsewhere&quot;, &quot;(Born elsewhere)&quot;, CountryOfBirth, fixed = TRUE)] %&gt;%
+    .[, Sex := &quot;M&quot;] %&gt;%
+    .[grepl(&quot;^F&quot;, variable), Sex := &quot;F&quot;] %&gt;%
+    .[] %&gt;%
+    Mop
+})</code></pre>
+</div>
+<div id="g10" class="section level2">
+<h2>G10</h2>
+<pre class="r"><code>assign(paste0(Region, &quot;__CountryOfBirth_YearOfArrival&quot;), {
+  list.files(path = paste0('./data-raw/data-packs/data/', Region, '/AUST/'),
+             pattern = paste0('2016Census_G10[A-Z]_AUS_', Region, '\\.csv$'),
+             full.names = TRUE) %&gt;%
+    lapply(fread, key = Region_key) %&gt;%
+    Reduce(f = function(X, Y) X[Y]) %&gt;%
+    .[, .SD, .SDcols = union(Region_key, ngrep(&quot;Tot&quot;, names(.), value = TRUE))] %&gt;%
+    melt.data.table(id.vars = Region_key,
+                    value.name = &quot;persons_born_overseas&quot;) %&gt;%
+    .[!grepl(&quot;NS$&quot;, variable, ignore.case = TRUE), YearOfArrival := gsub(&quot;^.*_([0-9]+)$&quot;, &quot;\\1&quot;, variable)] %&gt;%
+    .[, CountryOfBirth := gsub(&quot;(_Be?fo?re)?_[0-9]+(_[0-9]+)?$&quot;, &quot;&quot;, variable)] %&gt;%
+    # Negative lookbehind due to FYROM (Macedonia)
+    .[, CountryOfBirth := gsub(&quot;(?&lt;!(F))Ye?a?r.*arrival.ns$&quot;, &quot;&quot;, CountryOfBirth, ignore.case = TRUE)] %&gt;%
+    .[, CountryOfBirth := trimws(gsub(&quot;_&quot;, &quot; &quot;, CountryOfBirth))] %&gt;%
+    .[CountryOfBirth %pin% &quot;FYROM&quot;, CountryOfBirth := &quot;FYROM&quot;] %&gt;%
+    .[CountryOfBirth %pin% &quot;China excl? SARs Tai?w&quot;, CountryOfBirth := &quot;China excl SARs Taiwan&quot;] %&gt;%
+    .[CountryOfBirth %pin% c(&quot;USA&quot;, &quot;United States&quot;), CountryOfBirth := &quot;USA&quot;] %&gt;%
+    .[CountryOfBirth %pin% &quot;Korea&quot;, CountryOfBirth := &quot;South Korea&quot;] %&gt;%
+    .[CountryOfBirth %pin% &quot;Ho?ng Ko?ng&quot;, CountryOfBirth := &quot;Hong Kong&quot;] %&gt;%
+    .[order(CED_CODE_2016)] %&gt;%
+    Mop(&quot;persons_born_overseas&quot;)
+})</code></pre>
+</div>
+<div id="g11" class="section level1">
+<h1>G11</h1>
+<pre class="r"><code>assign(paste0(Region, &quot;__Age_EnglishProficiency_SpeaksEnglishOnly_YearOfArrival&quot;), {
+  list.files(path = paste0('./data-raw/data-packs/data/', Region, '/AUST/'),
+             pattern = paste0('2016Census_G11[A-Z]_AUS_', Region, '\\.csv$'),
+             full.names = TRUE) %&gt;%
+    lapply(fread, key = Region_key, na.strings = &quot;..&quot;) %&gt;%
+    lapply(drop_empty_cols) %&gt;%
+    Reduce(f = function(X, Y) X[Y]) %&gt;%
+    .[, .SD, .SDcols = ngrep(&quot;^T|_T&quot;, names(.))] %&gt;%
+    melt.data.table(id.vars = Region_key, 
+                    value.name = &quot;persons_born_overseas&quot;) %&gt;%
+    .[, Age := gsub(&quot;^A([0-9]{1,2})_?([0-9]{2}|ov).*$&quot;, &quot;\\1-\\2&quot;, variable)] %&gt;%
+    .[, Age := gsub(&quot;-ov&quot;, &quot;+&quot;, Age, fixed = TRUE)] %&gt;%
+    .[, Age := factor(Age, levels = unique(.$Age), ordered = TRUE)] %&gt;%
+    .[grepl(&quot;SEO&quot;, variable), SpeaksEnglishOnly := TRUE] %&gt;%
+    .[grepl(&quot;SOLSE&quot;, variable), SpeaksEnglishOnly := FALSE] %&gt;%
+    .[grepl(&quot;VWW&quot;, variable), EnglishProficiency := &quot;1Speaks English well or very well&quot;] %&gt;%
+    .[grepl(&quot;NWNAA&quot;, variable), EnglishProficiency := &quot;2Speaks English not well or not at all&quot;] %&gt;%
+    .[order(EnglishProficiency)] %&gt;%
+    .[, EnglishProficiency := gsub(&quot;^[0-2]&quot;, &quot;&quot;, EnglishProficiency)] %&gt;%
+    .[, EnglishProficiency := factor(EnglishProficiency, levels = unique(.$EnglishProficiency), ordered = TRUE)] %&gt;%
+    .[] %&gt;%
+    .[!grepl(&quot;YNS$&quot;, variable), YearOfArrival := 2000L + as.integer(gsub(&quot;^.*([0-9]{2})$&quot;, &quot;\\1&quot;, variable))] %&gt;%
+    Mop(&quot;persons_born_overseas&quot;)
+})</code></pre>
 <pre class="r"><code>FINISH &lt;- Sys.time()</code></pre>
 <pre class="r"><code># Print side-effect ok
 stopifnot(dir.exists(&quot;data&quot;))
