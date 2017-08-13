@@ -1,9 +1,14 @@
 ---
-title: "Data by Commonwealth Election Division"
+title: "Data by Commonwealth Election Division etc"
 author: "Hugh Parsonage"
 date: "17 July 2017"
 output: html_document
 ---
+
+
+```{r Region}
+Region <- "STE"
+```
 
 ```{r setup}
 START <- Sys.time()
@@ -36,12 +41,26 @@ library(hutils)
 library(data.table)
 ```
 
-```{r Region}
-Region <- ""
+```{r Region_key}
 Region_key <- 
   fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv')) %>%
   names %>%
   extract2(1)
+```
+
+```{r freadG}
+#' @return Wide as-is data table of all tables.
+freadG <- function(g) {
+  stopifnot(length(g) == 1)
+  g0 <- paste0(if (g < 10) "0", g)
+  file_list <-
+    list.files(path = file.path('./data-raw/data-packs/data/', Region, 'AUST'),
+               # Files may be of the form G08_AUS or G09B_AUS
+               pattern = paste0('2016Census_G', g0, '[A-Z]?_AUS_', Region, '\\.csv$'),
+               full.names = TRUE) %>%
+    lapply(fread, key = Region_key) %>%
+    Reduce(f = function(X, Y) X[Y])
+}
 ```
 
 ```{r grep-grepl-gsub}
