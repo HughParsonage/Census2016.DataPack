@@ -55,11 +55,16 @@ freadG <- function(g) {
   g0 <- paste0(if (g < 10) "0", g)
   file_list <-
     list.files(path = file.path('./data-raw/data-packs/data/', Region, 'AUST'),
-               # Files may be of the form G08_AUS or G09B_AUS
+               # Files may be of the form ..G08_AUS.. or ..G09B_AUS..
                pattern = paste0('2016Census_G', g0, '[A-Z]?_AUS_', Region, '\\.csv$'),
-               full.names = TRUE) %>%
+               full.names = TRUE)
+  if (length(file_list) > 1) {
+    file_list %>%
     lapply(fread, key = Region_key) %>%
     Reduce(f = function(X, Y) X[Y])
+  } else {
+    fread(file = file_list[1])
+  }
 }
 ```
 
@@ -68,6 +73,10 @@ freadG <- function(g) {
 grep <- function(..., perl, fixed) base::grep(..., perl = missing(fixed), fixed = !missing(fixed))
 grepl <- function(..., perl, fixed) base::grepl(..., perl = missing(fixed), fixed = !missing(fixed))
 gsub <- function(..., perl, fixed) base::gsub(..., perl = missing(fixed), fixed = !missing(fixed))
+```
+
+```{r force_double}
+force_double <- function(x) suppressWarnings(as.double(x))
 ```
 
 ```{r ngrep}
@@ -200,9 +209,12 @@ extract_age <- function(variable, orderedFactor = TRUE) {
   out <- 
     variable %>%
     # Prepare:
+    gsub("_yrs_ovr", "_ov", .) %>%
     gsub("([0-9]{2})_ov", "\\1ov", x = ., perl = TRUE) %>%
+    gsub("^.*(_[0-9]{2}_[0-9]{2})_yrs?.*$", "\\1", x = .) %>%
+    gsub("^.*85ov.*$", "_85ov", x = .) %>%
     # Extract
-    gsub("^.*?_([0-9]+(?:_[0-9]{1,2})?(?:ov)?).*$", "\\1", ., perl = TRUE) %>%
+    gsub("^.*?_((?:[0-9]{1,2}(?![0-9]))(?:(?:_[0-9]{1,2}(?![0-9])))?(?:ov)?).*$", "\\1", ., perl = TRUE) %>%
     gsub("_", "-", ., fixed = TRUE) %>%
     gsub("_?ov", "+", ., perl = TRUE)
   
@@ -210,6 +222,7 @@ extract_age <- function(variable, orderedFactor = TRUE) {
   out <- dplyr::if_else(grepl("[^A-Za-z]ov[^A-Za-z]", variable, perl = TRUE) & grepl("^[0-9]+$", out),
                         paste0(out, "+"),
                         out)
+  
   if (orderedFactor) {
     out <- factor(out, levels = unique(out), ordered = TRUE)
   }
@@ -220,6 +233,9 @@ expect_equal(extract_age("Count_home_Census_Nt_0_14_yr", FALSE), "0-14")
 expect_equal(extract_age("Age_0_4_yr_P", FALSE), "0-4")
 expect_equal(extract_age("Age_psns_att_edu_inst_25_ov_P", FALSE), "25+")
 expect_equal(extract_age("A_65_y_ov_Indig_stat_ns_P", FALSE), "65+")
+expect_equal(extract_age("P_Hghst_yr_schl_ns_85_yrs_ovr", FALSE), "85+")
+expect_equal(extract_age("M_1_149_15_19_yrs", FALSE), "15-19")
+expect_equal(extract_age("M_1_149_85ov", FALSE), "85+")
 ```
 
 ```{r strip_age}
@@ -1037,6 +1053,8 @@ list.files(path = paste0('./data-raw/data-packs/data/', Region, '/AUST/'),
 
 ```
 
+# G14
+
 ```{r Region__Religion_Sex}
 assign(paste0(Region, "__Religion_Sex"), {
   fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G14_AUS_', Region, '.csv')) %>%
@@ -1069,6 +1087,149 @@ assign(paste0(Region, "__Religion_Sex"), {
 })
 ```
 
+# G15
+
+```{r Region__EduInstitutionType_Sex}
+assign(paste0(Region, "__EduInstitutionType_Sex"), {
+  freadG(15) %>%
+     .[, .SD, .SDcols = names(.) %pin% c(Region_key, ".Tot.[MF]", "Pre_school_[MF]", "Type_educanl_institution_ns_[MF]")] %>%
+    melt.data.table(id.vars = Region_key,
+                    value.name = "students") %>%
+    .[!(variable %pin% "Type_educanl_institution_ns_[MF]"), EduInstitutionType := gsub("_[MF]$", "", variable)] %>%
+    .[variable %pin% "Pre.school", EduInstitutionType := "Pre-school"] %>%
+    .[variable %pin% "Infants.Primary", EduInstitutionType := "Infants/Primary"] %>%
+    .[variable %pin% "^Secondary", EduInstitutionType := "Secondary"] %>%
+    .[variable %pin% "^Tec.Furt", EduInstitutionType := "Technical or Further Educational Institution"] %>%
+    .[variable %pin% "^Uni", EduInstitutionType := "University or other tertiary"] %>%
+    .[variable %pin% "^Oth", EduInstitutionType := "(Other)"] %>%
+    #
+    .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
+    .[] %>%
+    Mop("students")
+})
+
+test_that("Number of students approximately equal to Tot_P", {
+  Tot_P <- freadG(15) %$% sum(Tot_P)
+  expect_equal(get(paste0(Region, "__EduInstitutionType_Sex")) %$% sum(students), Tot_P, tol = 500)
+})
+```
+
+```{r Region__AgedUnder25_EduInstitutionType_FullTime_SchoolSector_Sex}
+assign(paste0(Region, "__AgedUnder25_EduInstitutionType_FullTime_SchoolSector_Sex"), {
+  freadG(15) %>%
+    drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+    drop_cols(grep("[P]$", names(.), value = TRUE)) %>%
+    melt.data.table(id.vars = Region_key,
+                    value.name = "students") %>%
+    .[!(variable %pin% "Type_educanl_institution_ns_[MF]"), EduInstitutionType := gsub("_[MF]$", "", variable)] %>%
+    .[variable %pin% "Pre.school", EduInstitutionType := "Pre-school"] %>%
+    .[variable %pin% "Infa?nts.Prima?ry", EduInstitutionType := "Infants/Primary"] %>%
+    .[variable %pin% "^Secondary", EduInstitutionType := "Secondary"] %>%
+    .[variable %pin% "^Tec.Furt", EduInstitutionType := "Technical or Further Educational Institution"] %>%
+    .[variable %pin% "^Uni", EduInstitutionType := "University or other tertiary"] %>%
+    .[variable %pin% "^Oth", EduInstitutionType := "(Other)"] %>%
+    #
+    .[variable %pin% c("Primary", "^Secondary"), SchoolSector := gsub("^.*(Government|Catholic|Non_Govt).*$", "\\1", variable)] %>%
+    #
+    .[variable %pin% c("_Ft_(?!ns)", "_Pt_(?!ns)"), FullTime := variable %pin% "_Ft_"] %>%
+    #
+    .[variable %pin% c("25_ov", "15_24"), AgedUnder25 := variable %pin% "15_24"] %>%
+    #
+    .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
+    .[] %>%
+    Mop("students")
+})
+
+test_that("Number of students approximately equal to Tot_P", {
+  Tot_P <- freadG(15) %$% sum(Tot_P)
+  expect_equal(get(paste0(Region, "__EduInstitutionType_Sex")) %$% sum(students), Tot_P, tol = 500)
+})
+```
+
+# G16
+```{r Age_MaxSchooling_Sex}
+freadG(16) %>%
+  drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+  drop_cols(grep("^P_", names(.), value = TRUE)) %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "adults") %>%
+  .[, Age := extract_age(variable)] %>%
+  .[, Sex := substr(variable, 0, 1)] %>%
+  .[!grepl("schl_ns", variable), MaxSchooling := gsub("^[MF]_([A-Za-z0-9]+)_.*$", "\\1", variable)] %>%
+  .[, MaxSchooling := gsub("Y([0-9]+)[eb]", "Year \\1", MaxSchooling)] %>%
+  .[grepl("Y8b", variable), MaxSchooling := "Year 8 or below"] %>%
+  .[grepl("DNGTS", variable), MaxSchooling := "Did not go to school"] %>%
+  .[, MaxSchooling := factor(MaxSchooling, levels = rev(unique(.$MaxSchooling)), ordered = TRUE)] %>%
+  .[] %>%
+  Mop("adults")
+```
+
+# G17
+```{r Age_TotPersonalIncome_Sex}
+assign(paste0(Region, "__Age_TotPersonalIncome_Sex"), {
+  
+  freadG(17) %>%
+    drop_cols(grep("^P_", names(.), value = TRUE)) %>%
+    drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+    melt.data.table(id.vars = Region_key,
+                    value.name = "adults") %>%
+    .[, Sex := substr(variable, 0, 1)] %>%
+    .[!grepl("PI_NS", variable), MinIncome := force_double(gsub("^[MF]_([0-9]+)_([0-9]+)_.*$", "\\1", variable))] %>%
+    .[!grepl("PI_NS", variable), MaxIncome := force_double(gsub("^[MF]_([0-9]+)_([0-9]+)_.*$", "\\2", variable))] %>%
+    .[grepl("Neg(tve)?_Nil_inco?me", variable), MinIncome := -Inf] %>%
+    .[grepl("Neg(tve)?_Nil_inco?me", variable), MaxIncome := 0.0] %>%
+    .[grepl("^[FM]_[0-9]+_more", variable), MaxIncome := Inf] %>%
+    .[grepl("^[FM]_[0-9]+_more", variable), MinIncome := as.double(gsub("^[FM]_([0-9]+)_more.*", "\\1", variable))] %>%
+    {
+      for (j in c("MaxIncome", "MinIncome")) {
+        # 149 -> 150 and annualize
+        set(., j = j, value = 52.5 * round(.[[j]], -1))
+      }
+      .
+    } %>%
+    
+    
+    setnames(c("MaxIncome", "MinIncome"), 
+             c("TotPersonalIncome.max", "TotPersonalIncome.min")) %>%
+    
+    .[, Age := extract_age(variable)] %>%
+    .[] %>%
+    Mop("adults", suborder = c("TotPersonalIncome.min", "TotPersonalIncome.max"))
+})
+```
+
+# G18
+```{r Age_NeedsAssistance_Sex}
+assign(paste0(Region, "__Age_NeedsAssistance_Sex"), {
+  freadG(18) %>%
+    drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+    drop_cols(grep("^P", names(.), value = TRUE)) %>%
+    melt.data.table(id.vars = Region_key,
+                    value.name = "persons") %>%
+    .[, Age := extract_age(variable)] %>%
+    .[, Sex := substr(variable, 0, 1)] %>%
+    .[!grepl("ns$", variable), NeedsAssistance := !grepl("No_need_for", variable)] %>%
+    .[] %>%
+    Mop
+})
+```
+
+# G18
+
+```{r Age_Volunteer_Sex}
+assign(paste0(Region, "__Age_Volunteer_Sex"), {
+  freadG(19) %>%
+    drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+    drop_cols(grep("^P", names(.), value = TRUE)) %>%
+    melt.data.table(id.vars = Region_key,
+                    value.name = "adults") %>%
+    .[, Age := extract_age(variable)] %>%
+    .[, Sex := substr(variable, 0, 1)] %>%
+    .[!grepl("ns$", variable), Volunteer := !grepl("N_A_Volunteer$", variable, ignore.case = TRUE)] %>%
+    .[] %>%
+    Mop("adults")
+})
+```
 
 # G39
 
