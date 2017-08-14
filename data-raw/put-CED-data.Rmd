@@ -1231,6 +1231,121 @@ assign(paste0(Region, "__Age_Volunteer_Sex"), {
 })
 ```
 
+```{r Age_HoursHousekeeping_Sex}
+assign(paste0(Region, "__Age_HoursHousekeeping_Sex"), {
+  freadG(20) %>%
+    drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+    drop_cols(grep("^P_", names(.), value = TRUE)) %>%
+    melt.data.table(id.vars = Region_key,
+                    value.name = "adults") %>%
+    .[, Age := extract_age(variable)] %>%
+    .[, Sex := substr(variable, 0, 1)] %>%
+    .[grepl("DNUDW", variable), HoursHousekeeping := "0"] %>%
+    .[grepl("DUDW.LT.5", variable), HoursHousekeeping := "<5"] %>%
+    .[grepl("DUDW.30_h_mo", variable), HoursHousekeeping := "30+"] %>%
+    .[grepl("^.*DUDW_([0-9]{1,2})_([0-9]{1,2}).*$", variable), 
+      HoursHousekeeping := gsub("^.*DUDW_([0-9]{1,2})_([0-9]{1,2}).*$", "\\1-\\2", variable)] %>%
+    .[, HoursHousekeeping := factor(HoursHousekeeping,
+                                    levels = c("0", "<5", "5-14", "15-29", "30+"),
+                                    ordered = TRUE)] %>%
+    .[] %>%
+    Mop("adults")
+})
+```
+
+
+# G20 unpaid disability assistance
+```{r Age_ProvidedUnpaidDisabilityAssistance_Sex}
+assign(paste0(Region, "__Age_ProvidedUnpaidDisabilityAssistance_Sex"), {
+  freadG(21) %>%
+    drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+    drop_cols(grep("^P_", names(.), value = TRUE)) %>%
+    melt.data.table(id.vars = Region_key,
+                    value.name = "adults") %>%
+    .[, Age := extract_age(variable)] %>%
+    .[, Sex := substr(variable, 0, 1)] %>%
+    .[!grepl("ns$", variable), ProvidedUnpaidDisabilityAssistance := !grepl("No_unpa", variable)] %>%
+    .[] %>%
+    Mop("adults")
+})
+```
+
+```{r Age_ProvidedUnpaidChildcare_ForOwnChild_ForOtherChild_Sex}
+assign(paste0(Region, "__Age_ProvidedUnpaidChildcare_ForOwnChild_ForOtherChild_Sex"), {
+  freadG(22) %>%
+    drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+    drop_cols(grep("^P_", names(.), value = TRUE)) %>%
+    melt.data.table(id.vars = Region_key,
+                    value.name = "adults") %>%
+    .[, Age := extract_age(variable)] %>%
+    .[, Sex := substr(variable, 0, 1)] %>%
+    .[] %>%
+    .[!grepl("_NS$", variable), ProvidedUnpaidChildcare := !grepl("DNPCC$", variable)] %>%
+    .[(ProvidedUnpaidChildcare), ForOwnChild := !grepl("Oth_CCO$", variable)] %>%
+    .[(ProvidedUnpaidChildcare), ForOtherChild := !grepl("Own_CCO$", variable)] %>%
+    .[] %>%
+    Mop("adults", suborder = c("ProvidedUnpaidChildcare", "ForOwnChild", "ForOtherChild"))
+})
+```
+
+# G24
+
+```{r Age_ChildrenEverBorn}
+assign(paste0(Region, "__Age_ChildrenEverBorn"), {
+  freadG(24) %>%
+    drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+    melt.data.table(id.vars = Region_key,
+                    value.name = "females") %>%
+    .[, Age := extract_age(variable)] %>%
+    .[!grepl("(Nne|ns)$", variable), ChildrenEverBorn := as.integer(gsub("^.*brn_([1-6]).*$", "\\1", variable))] %>%
+    .[grepl("Nne$", variable), ChildrenEverBorn := 0L] %>%
+    Mop("females")
+})
+```
+
+# G25 - Family composition
+
+```{r }
+assign(paste0(Region, "__FamilyComposition_HasChild_"), {
+
+freadG(25) %>%
+  drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+  # families
+  drop_cols(grep("_F$", names(.), value = TRUE)) %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "persons_in_families") %>%
+  # Implicit total:
+  .[variable != "CF_no_children_P"] %>%
+  .[grepl("^CF", variable), FamilyComposition := "Couple"] %>%
+  .[grepl("^OPF", variable), FamilyComposition := "One parent"] %>%
+  .[grepl("^Other", variable), FamilyComposition := "(Other)"] %>%
+  .[!grepl("^Other", variable), HasChild := !grepl("no_ch(ild|U15)", variable, ignore.case = TRUE)] %>%
+  .[!grepl("^Other", variable), HasDependentStudent := !grepl("no_DS", variable)] %>%
+  .[!grepl("^Other", variable), HasNonDependentChild := !grepl("no_NdCh_", variable)] %>%
+  .[] %>%
+  Mop("persons_in_families")
+
+```
+
+
+```{r }
+freadG(25) %>%
+  drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+  # families
+  drop_cols(grep("_P$", names(.), value = TRUE)) %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "families") %>%
+  .[variable != "CF_no_children_F"] %>%
+  .[grepl("^CF", variable), FamilyComposition := "Couple"] %>%
+  .[grepl("^OPF", variable), FamilyComposition := "One parent"] %>%
+  .[grepl("^Other", variable), FamilyComposition := "(Other)"] %>%
+  .[!grepl("^Other", variable), HasChild := !grepl("no_ch(ild|U15)", variable, ignore.case = TRUE)] %>%
+  .[!grepl("^Other", variable), HasDependentStudent := !grepl("no_DS", variable)] %>%
+  .[!grepl("^Other", variable), HasNonDependentChild := !grepl("no_NdCh_", variable)] %>%
+  .[] %>%
+  Mop("families")
+```
+
 # G39
 
 ```{r Region__DwellingType_FamilyComposition_Storeys}
