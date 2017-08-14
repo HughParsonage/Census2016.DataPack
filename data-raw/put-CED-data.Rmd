@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r Region}
-Region <- "SA4"
+Region <- "SSC"
 ```
 
 ```{r setup}
