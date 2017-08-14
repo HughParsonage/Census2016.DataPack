@@ -7,7 +7,7 @@ output: html_document
 
 
 ```{r Region}
-Region <- "LGA"
+Region <- "SA2"
 ```
 
 ```{r setup}
