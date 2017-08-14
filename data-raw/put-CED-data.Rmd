@@ -50,7 +50,7 @@ Region_key <-
 
 ```{r freadG}
 #' @return Wide as-is data table of all tables.
-freadG <- function(g) {
+freadG <- function(g, ...) {
   stopifnot(length(g) == 1)
   g0 <- paste0(if (g < 10) "0", g)
   file_list <-
@@ -60,7 +60,7 @@ freadG <- function(g) {
                full.names = TRUE)
   if (length(file_list) > 1) {
     file_list %>%
-    lapply(fread, key = Region_key) %>%
+    lapply(fread, key = Region_key, ...) %>%
     Reduce(f = function(X, Y) X[Y])
   } else {
     fread(file = file_list[1])
@@ -143,6 +143,14 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
   if (!is.null(suborder)) {
     set_colsuborder(DT, suborder)
   }
+  
+  out_noms <- names(out)
+  
+  object_name <- 
+    paste0(Region, "__", paste0(setdiff(out_noms, c(Region_key, value.name)), collapse = "_"))
+  
+  assign(object_name, out, envir = .GlobalEnv)
+  
   out[]
 }
 ```
@@ -604,21 +612,19 @@ assign(paste0(Region, '__Dwelling'), {
 ```
 
 ```{r Region__Dwelling_Sex}
-assign(paste0(Region, '__Dwelling_Sex'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
-        select = c(Region_key,
-                   "Count_psns_occ_priv_dwgs_M",
-                   "Count_psns_occ_priv_dwgs_F", 
-                   #"Count_psns_occ_priv_dwgs_P", 
-                   "Count_Persons_other_dwgs_M", 
-                   "Count_Persons_other_dwgs_F")) %>%
-    melt.data.table(id.vars = Region_key,
-                    value.name = "persons") %>%
-    .[, Dwelling := "Other"] %>%
-    .[variable %pin% "priv_dwgs", Dwelling := "Private"] %>%
-    .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
-    Mop
-})
+fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
+      select = c(Region_key,
+                 "Count_psns_occ_priv_dwgs_M",
+                 "Count_psns_occ_priv_dwgs_F", 
+                 #"Count_psns_occ_priv_dwgs_P", 
+                 "Count_Persons_other_dwgs_M", 
+                 "Count_Persons_other_dwgs_F")) %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "persons") %>%
+  .[, Dwelling := "Other"] %>%
+  .[variable %pin% "priv_dwgs", Dwelling := "Private"] %>%
+  .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
+  Mop
 ```
 
 ### G02
@@ -807,7 +813,7 @@ assign(paste0(Region, '__Age_MaritalStatus_Sex'), {
 assign(paste0(Region, '__Age_MaritalStatus'), {
   fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G06_AUS_', Region, '.csv')) %>%
     .[, .SD, .SDcols = c(Region_key,
-                         names(.)[grepl("^P", names(.)) & !grepl("Tot", names(.))])] %>%
+                         names(.)[grepl("^P_", names(.)) & !grepl("Tot", names(.))])] %>%
     melt.data.table(id.vars = Region_key,
                     value.name = "adults") %>%
     .[, Age := extract_age(variable)] %>%
@@ -1115,30 +1121,28 @@ test_that("Number of students approximately equal to Tot_P", {
 ```
 
 ```{r Region__AgedUnder25_EduInstitutionType_FullTime_SchoolSector_Sex}
-assign(paste0(Region, "__AgedUnder25_EduInstitutionType_FullTime_SchoolSector_Sex"), {
-  freadG(15) %>%
-    drop_cols(grep("Tot", names(.), value = TRUE)) %>%
-    drop_cols(grep("[P]$", names(.), value = TRUE)) %>%
-    melt.data.table(id.vars = Region_key,
-                    value.name = "students") %>%
-    .[!(variable %pin% "Type_educanl_institution_ns_[MF]"), EduInstitutionType := gsub("_[MF]$", "", variable)] %>%
-    .[variable %pin% "Pre.school", EduInstitutionType := "Pre-school"] %>%
-    .[variable %pin% "Infa?nts.Prima?ry", EduInstitutionType := "Infants/Primary"] %>%
-    .[variable %pin% "^Secondary", EduInstitutionType := "Secondary"] %>%
-    .[variable %pin% "^Tec.Furt", EduInstitutionType := "Technical or Further Educational Institution"] %>%
-    .[variable %pin% "^Uni", EduInstitutionType := "University or other tertiary"] %>%
-    .[variable %pin% "^Oth", EduInstitutionType := "(Other)"] %>%
-    #
-    .[variable %pin% c("Primary", "^Secondary"), SchoolSector := gsub("^.*(Government|Catholic|Non_Govt).*$", "\\1", variable)] %>%
-    #
-    .[variable %pin% c("_Ft_(?!ns)", "_Pt_(?!ns)"), FullTime := variable %pin% "_Ft_"] %>%
-    #
-    .[variable %pin% c("25_ov", "15_24"), AgedUnder25 := variable %pin% "15_24"] %>%
-    #
-    .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
-    .[] %>%
-    Mop("students")
-})
+freadG(15) %>%
+  drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+  drop_cols(grep("[P]$", names(.), value = TRUE)) %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "students") %>%
+  .[!(variable %pin% "Type_educanl_institution_ns_[MF]"), EduInstitutionType := gsub("_[MF]$", "", variable)] %>%
+  .[variable %pin% "Pre.school", EduInstitutionType := "Pre-school"] %>%
+  .[variable %pin% "Infa?nts.Prima?ry", EduInstitutionType := "Infants/Primary"] %>%
+  .[variable %pin% "^Secondary", EduInstitutionType := "Secondary"] %>%
+  .[variable %pin% "^Tec.Furt", EduInstitutionType := "Technical or Further Educational Institution"] %>%
+  .[variable %pin% "^Uni", EduInstitutionType := "University or other tertiary"] %>%
+  .[variable %pin% "^Oth", EduInstitutionType := "(Other)"] %>%
+  #
+  .[variable %pin% c("Primary", "^Secondary"), SchoolSector := gsub("^.*(Government|Catholic|Non_Govt).*$", "\\1", variable)] %>%
+  #
+  .[variable %pin% c("_Ft_(?!ns)", "_Pt_(?!ns)"), FullTime := variable %pin% "_Ft_"] %>%
+  #
+  .[variable %pin% c("25_ov", "15_24"), AgedUnder25 := variable %pin% "15_24"] %>%
+  #
+  .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
+  .[] %>%
+  Mop("students")
 
 test_that("Number of students approximately equal to Tot_P", {
   Tot_P <- freadG(15) %$% sum(Tot_P)
@@ -1166,36 +1170,66 @@ freadG(16) %>%
 
 # G17
 ```{r Age_TotPersonalIncome_Sex}
-assign(paste0(Region, "__Age_TotPersonalIncome_Sex"), {
+freadG(17) %>%
+  drop_cols(grep("^P_", names(.), value = TRUE)) %>%
+  drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "adults") %>%
+  .[, Sex := substr(variable, 0, 1)] %>%
+  .[!grepl("PI_NS", variable), MinIncome := force_double(gsub("^[MF]_([0-9]+)_([0-9]+)_.*$", "\\1", variable))] %>%
+  .[!grepl("PI_NS", variable), MaxIncome := force_double(gsub("^[MF]_([0-9]+)_([0-9]+)_.*$", "\\2", variable))] %>%
+  .[grepl("Neg(tve)?_Nil_inco?me", variable), MinIncome := -Inf] %>%
+  .[grepl("Neg(tve)?_Nil_inco?me", variable), MaxIncome := 0.0] %>%
+  .[grepl("^[FM]_[0-9]+_more", variable), MaxIncome := Inf] %>%
+  .[grepl("^[FM]_[0-9]+_more", variable), MinIncome := as.double(gsub("^[FM]_([0-9]+)_more.*", "\\1", variable))] %>%
+  {
+    for (j in c("MaxIncome", "MinIncome")) {
+      # 149 -> 150 and annualize
+      set(., j = j, value = 52.5 * round(.[[j]], -1))
+    }
+    .
+  } %>%
   
-  freadG(17) %>%
-    drop_cols(grep("^P_", names(.), value = TRUE)) %>%
-    drop_cols(grep("Tot", names(.), value = TRUE)) %>%
-    melt.data.table(id.vars = Region_key,
-                    value.name = "adults") %>%
-    .[, Sex := substr(variable, 0, 1)] %>%
-    .[!grepl("PI_NS", variable), MinIncome := force_double(gsub("^[MF]_([0-9]+)_([0-9]+)_.*$", "\\1", variable))] %>%
-    .[!grepl("PI_NS", variable), MaxIncome := force_double(gsub("^[MF]_([0-9]+)_([0-9]+)_.*$", "\\2", variable))] %>%
-    .[grepl("Neg(tve)?_Nil_inco?me", variable), MinIncome := -Inf] %>%
-    .[grepl("Neg(tve)?_Nil_inco?me", variable), MaxIncome := 0.0] %>%
-    .[grepl("^[FM]_[0-9]+_more", variable), MaxIncome := Inf] %>%
-    .[grepl("^[FM]_[0-9]+_more", variable), MinIncome := as.double(gsub("^[FM]_([0-9]+)_more.*", "\\1", variable))] %>%
-    {
-      for (j in c("MaxIncome", "MinIncome")) {
-        # 149 -> 150 and annualize
-        set(., j = j, value = 52.5 * round(.[[j]], -1))
-      }
-      .
-    } %>%
-    
-    
-    setnames(c("MaxIncome", "MinIncome"), 
-             c("TotPersonalIncome.max", "TotPersonalIncome.min")) %>%
-    
-    .[, Age := extract_age(variable)] %>%
-    .[] %>%
-    Mop("adults", suborder = c("TotPersonalIncome.min", "TotPersonalIncome.max"))
-})
+  
+  setnames(c("MaxIncome", "MinIncome"), 
+           c("TotPersonalIncome.max", "TotPersonalIncome.min")) %>%
+  # On second thoughts, let's just use the .max
+  .[, TotPersonalIncome.min := NULL] %>%
+  
+  .[, Age := extract_age(variable)] %>%
+  .[] %>%
+  Mop("adults")
+```
+
+```{r Age_TotPersonalIncome.min_Sex}
+freadG(17) %>%
+  drop_cols(grep("^P_", names(.), value = TRUE)) %>%
+  drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "adults") %>%
+  .[, Sex := substr(variable, 0, 1)] %>%
+  .[!grepl("PI_NS", variable), MinIncome := force_double(gsub("^[MF]_([0-9]+)_([0-9]+)_.*$", "\\1", variable))] %>%
+  .[!grepl("PI_NS", variable), MaxIncome := force_double(gsub("^[MF]_([0-9]+)_([0-9]+)_.*$", "\\2", variable))] %>%
+  .[grepl("Neg(tve)?_Nil_inco?me", variable), MinIncome := -Inf] %>%
+  .[grepl("Neg(tve)?_Nil_inco?me", variable), MaxIncome := 0.0] %>%
+  .[grepl("^[FM]_[0-9]+_more", variable), MaxIncome := Inf] %>%
+  .[grepl("^[FM]_[0-9]+_more", variable), MinIncome := as.double(gsub("^[FM]_([0-9]+)_more.*", "\\1", variable))] %>%
+  {
+    for (j in c("MaxIncome", "MinIncome")) {
+      # 149 -> 150 and annualize
+      set(., j = j, value = 52.5 * round(.[[j]], -1))
+    }
+    .
+  } %>%
+  
+  
+  setnames(c("MaxIncome", "MinIncome"), 
+           c("TotPersonalIncome.max", "TotPersonalIncome.min")) %>%
+  # On second thoughts, let's just use the .max
+  .[, TotPersonalIncome.max := NULL] %>%
+  .[, Age := extract_age(variable)] %>%
+  .[] %>%
+  Mop("adults")
 ```
 
 # G18
@@ -1203,7 +1237,7 @@ assign(paste0(Region, "__Age_TotPersonalIncome_Sex"), {
 assign(paste0(Region, "__Age_NeedsAssistance_Sex"), {
   freadG(18) %>%
     drop_cols(grep("Tot", names(.), value = TRUE)) %>%
-    drop_cols(grep("^P", names(.), value = TRUE)) %>%
+    drop_cols(grep("^P_", names(.), value = TRUE)) %>%
     melt.data.table(id.vars = Region_key,
                     value.name = "persons") %>%
     .[, Age := extract_age(variable)] %>%
@@ -1214,13 +1248,13 @@ assign(paste0(Region, "__Age_NeedsAssistance_Sex"), {
 })
 ```
 
-# G18
+# G19
 
 ```{r Age_Volunteer_Sex}
 assign(paste0(Region, "__Age_Volunteer_Sex"), {
   freadG(19) %>%
     drop_cols(grep("Tot", names(.), value = TRUE)) %>%
-    drop_cols(grep("^P", names(.), value = TRUE)) %>%
+    drop_cols(grep("^P_", names(.), value = TRUE)) %>%
     melt.data.table(id.vars = Region_key,
                     value.name = "adults") %>%
     .[, Age := extract_age(variable)] %>%
@@ -1306,8 +1340,6 @@ assign(paste0(Region, "__Age_ChildrenEverBorn"), {
 # G25 - Family composition
 
 ```{r }
-assign(paste0(Region, "__FamilyComposition_HasChild_"), {
-
 freadG(25) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
   # families
@@ -1349,39 +1381,37 @@ freadG(25) %>%
 # G39
 
 ```{r Region__DwellingType_FamilyComposition_Storeys}
-assign(paste0(Region, "__DwellingType_FamilyComposition_Storeys"), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G39_AUS_', Region, '.csv')) %>%
-    .[, .SD, .SDcols = c(ngrep("Tot", names(.)))] %>%
-    melt.data.table(id.vars = Region_key,
-                    value.name = "occupied_private_dwellings") %>%
-    .[variable %pin% "^SH", DwellingType := "Separate house"] %>%
-    .[variable %pin% "^SDRTHT", DwellingType := "Semi-detached row or terrace house, townhouse, etc"] %>%
-    .[variable %pin% "^FoA", DwellingType := "Flat or apartment"] %>%
-    .[variable %pin% "^OD", DwellingType := "Other dwelling"] %>%
-    #
-    .[variable %pin% "^OD_C_.", DwellingSubtype := "Caravan"] %>%
-    .[variable %pin% "^OD_CH_", DwellingSubtype := "Cabin household"] %>%
-    .[variable %pin% "^OD_Imp_home_T", DwellingSubtype := "Improvised home, tent sleepers"] %>%
-    .[variable %pin% "^OD_HorF", DwellingSubtype := "House or flat attached to a shop, office, etc"] %>%
-    .[variable %pin% "^OD_HorF", DwellingSubtype := "House or flat attached to a shop, office, etc"] %>%
-    
-    #
-    .[variable %pin% "^SDRTHT_1_S", Storeys := "1"] %>%
-    .[variable %pin% "^FoA_1_or_2", Storeys := "1 or 2"] %>%
-    .[variable %pin% "^FoA_3SB", Storeys := "3"] %>%
-    .[variable %pin% "^FoA_4moSB", Storeys := "4 or more"] %>%
-    .[, Storeys := factor(Storeys, levels = c("1", "1 or 2", "3", "4 or more"), ordered = TRUE)] %>%
-    
-    .[variable %pin% "FHs_CF_no_C$", FamilyComposition := "Couple family with no children"] %>%
-    .[variable %pin% "FHs_CF_C$", FamilyComposition := "Couple family with children"] %>%
-    .[variable %pin% "FHs_OnePF$", FamilyComposition := "One parent family with children"] %>%
-    .[variable %pin% "FHs_Oth_fam$", FamilyComposition := "Other family"] %>%
-    .[variable %pin% "Lone_P_H$", FamilyComposition := "Lone-person household"] %>%
-    .[variable %pin% "Group_H$", FamilyComposition := "Group household"] %>%
-    .[, FamilyComposition := factor(FamilyComposition, levels = unique(.$FamilyComposition), ordered = TRUE)] %>%
-    .[] %>%
-    Mop("occupied_private_dwellings", suborder = c("DwellingType", "DwellingSubtype"))
-})
+freadG(39) %>%
+  .[, .SD, .SDcols = c(ngrep("Tot", names(.)))] %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "occupied_private_dwellings") %>%
+  .[variable %pin% "^SH", DwellingType := "Separate house"] %>%
+  .[variable %pin% "^SDRTHT", DwellingType := "Semi-detached row or terrace house, townhouse, etc"] %>%
+  .[variable %pin% "^FoA", DwellingType := "Flat or apartment"] %>%
+  .[variable %pin% "^OD", DwellingType := "Other dwelling"] %>%
+  #
+  .[variable %pin% "^OD_C_.", DwellingSubtype := "Caravan"] %>%
+  .[variable %pin% "^OD_CH_", DwellingSubtype := "Cabin household"] %>%
+  .[variable %pin% "^OD_Imp_home_T", DwellingSubtype := "Improvised home, tent sleepers"] %>%
+  .[variable %pin% "^OD_HorF", DwellingSubtype := "House or flat attached to a shop, office, etc"] %>%
+  .[variable %pin% "^OD_HorF", DwellingSubtype := "House or flat attached to a shop, office, etc"] %>%
+  
+  #
+  .[variable %pin% "^SDRTHT_1_S", Storeys := "1"] %>%
+  .[variable %pin% "^FoA_1_or_2", Storeys := "1 or 2"] %>%
+  .[variable %pin% "^FoA_3SB", Storeys := "3"] %>%
+  .[variable %pin% "^FoA_4moSB", Storeys := "4 or more"] %>%
+  .[, Storeys := factor(Storeys, levels = c("1", "1 or 2", "3", "4 or more"), ordered = TRUE)] %>%
+  
+  .[variable %pin% "FHs_CF_no_C$", FamilyComposition := "Couple family with no children"] %>%
+  .[variable %pin% "FHs_CF_C$", FamilyComposition := "Couple family with children"] %>%
+  .[variable %pin% "FHs_OnePF$", FamilyComposition := "One parent family with children"] %>%
+  .[variable %pin% "FHs_Oth_fam$", FamilyComposition := "Other family"] %>%
+  .[variable %pin% "Lone_P_H$", FamilyComposition := "Lone-person household"] %>%
+  .[variable %pin% "Group_H$", FamilyComposition := "Group household"] %>%
+  .[, FamilyComposition := factor(FamilyComposition, levels = unique(.$FamilyComposition), ordered = TRUE)] %>%
+  .[] %>%
+  Mop("occupied_private_dwellings", suborder = c("DwellingType", "DwellingSubtype"))
 ```
 
 ```{r}
