@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r Region}
-Region <- "SA2"
+Region <- "SSC"
 ```
 
 ```{r setup}
@@ -148,6 +148,10 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
   
   if (Region == "SA1" && any(grepl("IncomeTotPersonal|Age.min", names(DT)))) {
     permitted_error <-  4e6
+  }
+  
+  if (Region == "SSC" && any(grepl("IncomeTotPersonal|Age.min", names(DT)))) {
+    permitted_error <-  1e6
   }
   
   expected_population <- 
