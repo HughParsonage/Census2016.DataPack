@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r Region}
-Region <- "SA2"
+Region <- "SA1"
 ```
 
 ```{r setup}
@@ -146,7 +146,7 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
   permitted_error <- 
     permitted_error * (1 + any(value.name == "adults" && "MaxSchoolingCompleted" %in% names(DT)))
   
-  if (Region == "SA1" && any(grepl("IncomeTotPersonal", names(DT)))) {
+  if (Region == "SA1" && any(grepl("IncomeTotPersonal|Age.min", names(DT)))) {
     permitted_error <-  4e6
   }
   
@@ -692,7 +692,8 @@ freadG(4) %>%
                   variable.name = "Age.min",
                   variable.factor = FALSE,
                   value.name = "persons") %>%
-  .[, Age.min := as.integer(gsub("Age_yr_([0-9]{1,3}).*P$", "\\1", Age.min))] %>%
+  .[, Age.min := as.integer(sub("Age_yr_([0-9]{1,3}).*P$", "\\1", Age.min))] %>%
+  .[] %>%
   Mop
 ```
 
@@ -712,7 +713,7 @@ freadG(4) %>%
                   variable.name = "variable",
                   variable.factor = FALSE,
                   value.name = "persons") %>%
-  .[, minAge := as.integer(gsub("Age_yr_([0-9]{1,3}).*[MF]$", "\\1", variable))] %>%
+  .[, Age.min := as.integer(gsub("Age_yr_([0-9]{1,3}).*[MF]$", "\\1", variable))] %>%
   .[, Sex := gsub("Age_yr_(?:[0-9]{1,3}).*([MF])$", "\\1", variable, perl = TRUE)] %>%
   Mop
 ```
