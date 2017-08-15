@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r Region}
-Region <- "LGA"
+Region <- "STE"
 ```
 
 ```{r setup}
@@ -62,7 +62,7 @@ freadG <- function(g, ...) {
     lapply(fread, key = Region_key, ...) %>%
     Reduce(f = function(X, Y) X[Y])
   } else {
-    fread(file = file_list[1])
+    fread(file = file_list[1], ...)
   }
 }
 ```
@@ -108,6 +108,13 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
   if (anyDuplicated(DT, by = setdiff(names(DT), c(value.name, "variable")))) {
     print(duplicated_rows(DT, by = setdiff(names(DT), c(value.name, "variable"))))
     stop("Duplicated rows.")
+  }
+  
+  # Are any columns constant?
+  uv <- vapply(DT, uniqueN, integer(1))
+  if (any(uv == 1)) {
+    print(names(uv)[uv == 1])
+    stop("Constant columns in DT.")
   }
   
   out <- 
@@ -1318,13 +1325,157 @@ freadG(28) %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "families") %>%
   .[variable %pin% "^Neg", IncomeFamily.max := 0.0] %>%
-  .[variable %pin% "^FI", IncomeFamily.max := 52.5 * force_double(gsub("^FI_[0-9]+_([0-9]+)_.*$", "\\1", variable)) + 1] %>%
+  .[variable %pin% "^FI", IncomeFamily.max := 52.5 * (force_double(gsub("^FI_[0-9]+_([0-9]+)_.*$", "\\1", variable)) + 1)] %>%
   .[variable %pin% "^FI_[0-9]+_more", IncomeFamily.max := Inf] %>%
   .[!grepl("Other_fam", variable), CoupleFamily := grepl("cpl_fam", variable)] %>%
   .[grepl("chi?ld$", variable), HasChildren := grepl("with_child", variable)] %>%
+  # Coalesce missing values (partial/full)
   .[, .(families = sum(families)),
-    keyby = .(CoupleFamily, HasChildren, IncomeFamily.max)] %>%
+    keyby = c(Region_key, "CoupleFamily", "HasChildren", "IncomeFamily.max")] %>%
   Mop("families")
+```
+
+```{r HouseholdIncome}
+freadG(29) %>%
+  drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "households") %>%
+  .[variable %pin% "^Neg", IncomeHousehold.max := 0.0] %>%
+  .[variable %pin% "^HI", IncomeHousehold.max := 52.5 * (force_double(gsub("^HI_[0-9]+_([0-9]+)_.*$", "\\1", variable)) + 1)] %>%
+  .[] %>%
+  .[variable %pin% "^HI_[0-9]+_more", IncomeHousehold.max := Inf] %>%
+  .[, FamilyHousehold := !grepl("Non_fam", variable, ignore.case = TRUE)] %>%
+  .[, .(households = sum(households)),
+    keyby = c(Region_key, "FamilyHousehold", "IncomeHousehold.max")] %>%
+  Mop("households")
+```
+
+# G30 - Motor vehicles
+
+```{r}
+freadG(30) %>%
+  drop_col("Total_dwelings") %>%
+  drop_col("Num_MVs_per_dweling_Tot") %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "occupied_private_dwellings") %>%
+  .[!grepl("_NS", variable), MotorVehicles.min := as.integer(gsub("^.*([0-4]).*$", "\\1", variable))] %>%
+  Mop("occupied_private_dwellings")
+```
+
+# G31 HouseholdComposition by Number of Persons Usually Resident
+
+```{r HouseholdComposition_PersonsUsuallyResident}
+freadG(31, na.strings = "..") %>%
+  drop_empty_cols %>%
+  .[, .SD, .SDcols = ngrep("Tot", names(.))] %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "occupied_private_dwellings") %>%
+  .[, UsualResidents.min := as.integer(sub("^.*([0-9]).*$", "\\1", variable))] %>%
+  .[, FamilyHousehold := !grepl("NonFamHhold", variable)] %>%
+  Mop("occupied_private_dwellings")
+```
+
+
+# G32 - notrun
+```{r G32, eval=FALSE}
+freadG(32, na.strings = "..") %>%
+  drop_empty_cols %>%
+  .[, .SD, .SDcols = ngrep("Tot", names(.))]
+```
+
+```{r }
+freadG(33)
+```
+
+```{r}
+freadG(34) %>%
+  .[, .SD, .SDcols = ngrep("Tot", names(.))] %>%
+  .[, .SD, .SDcols = union(Region_key, grep("^..[0-9]", names(.), value = TRUE))] %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "occupied_private_dwellings_being_purchased") %>%
+  .[grepl("Sep", variable), DwellingStructure := "Separate house"] %>%
+  .[grepl("ro?w.*tc", variable), DwellingStructure := "Semi-detached, row/terrace house, townhouse etc."] %>%
+  .[grepl("Fla?t", variable), DwellingStructure := "Flat/apartment"] %>%
+  .[grepl("Other", variable), DwellingStructure := "(Other)"] %>%
+  
+  .[, MortgageRepayment.min := 12L * as.integer(sub("^..([0-9]+).*", "\\1", variable))] %>%
+  Mop("occupied_private_dwellings_being_purchased")
+```
+
+# G35 - Mortgage repayment monthly by family composition
+
+```{r G35}
+freadG(35) %>%
+  .[, .SD, .SDcols = ngrep("Tot", names(.))] %>%
+  .[, .SD, .SDcols = c(Region_key, grep("^..[0-9]", names(.), value = TRUE))] %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "families_in_occupied_private_dwellings_being_purchased") %>%
+  .[grepl("CF", variable), FamilyComposition := "Couple family"] %>%
+  .[grepl("1PF", variable), FamilyComposition := "One-parent family"] %>%
+  .[grepl("OthF", variable), FamilyComposition := "(Other)"] %>%
+  #
+  .[, HasChildren := !grepl("NC$", variable)] %>%
+  .[, HasChildrenUnder15 := HasChildren & !grepl("NC_und15$", variable)] %>%
+  #
+  .[, MortgageRepayment.min := 12L * as.integer(sub("^..([0-9]+).*", "\\1", variable))] %>%
+  Mop("families_in_occupied_private_dwellings_being_purchased")
+```
+
+# G36 - Rent weekly
+
+```{r G36}
+freadG(36) %>%
+  .[, .SD, .SDcols = ngrep("Tot", names(.))] %>%
+  .[, .SD, .SDcols = c(Region_key, grep("^..[0-9]", names(.), value = TRUE))] %>%
+  # typo:
+  setnames("R_650_over_LT_Lld_type_ns", "R_950_over_LT_Lld_type_ns") %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "occupied_private_dwellings_being_rented") %>%
+  .[, Rent.min := as.integer(52.5 * as.integer(sub("^..([0-9]+).*$", "\\1", variable)))] %>%
+  .[grepl("Real_.*_agent", variable), Landlord := "Real estate agent"] %>%
+  .[grepl("auth?$", variable), Landlord := "State or territory housing authority"] %>%
+  .[grepl("Psn.not", variable), Landlord := "Person not in same household"] %>%
+  .[grepl("coop", variable), Landlord := "Co-op/church group etc"] %>%
+  .[grepl("Other", variable), Landlord := "(Other)"] %>%
+  .[] %>%
+  Mop("occupied_private_dwellings_being_rented")
+```
+
+# G37 - Internet access
+
+```{r G37}
+freadG(37) %>%
+  .[, .SD, .SDcols = ngrep("Tot", names(.))] %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "occupied_private_dwellings") %>%
+  .[!grepl("IC_(not_stated|NS)", variable), InternetAccessedFromDwelling := grepl("^IA", variable)] %>%
+  .[grepl("Separate_house", variable), DwellingStructure := "Separate house"] %>%
+  .[grepl("SemD", variable), DwellingStructure := "Semi-detached, row/terrace house, townhouse etc."] %>%
+  .[grepl("Flat_", variable), DwellingStructure := "Flat/apartment"] %>%
+  .[grepl("Other", variable), DwellingStructure := "(Other)"] %>%
+  Mop("occupied_private_dwellings")
+```
+
+```{r G38}
+freadG(38) %>%
+  .[, .SD, .SDcols = ngrep("Tot", names(.))] %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "occupied_private_dwellings") %>%
+  .[variable %pin% "Separate_house", DwellingStructure := "Separate house"] %>%
+  .[variable %pin% "^Se_d_r", DwellingStructure := "Semi-detached, row/terrace house, townhouse etc."] %>%
+  .[variable %pin% "^Flt", DwellingStructure := "Flat/apartment"] %>%
+  .[variable %pin% "Other", DwellingStructure := "(Other)"] %>%
+  .[variable %pin% "^Flt_apt_At_to_a_hse?", DwellingSubtype := "Attached to a house"] %>%
+  .[variable %pin% "1_st?_", DwellingSubtype := "1 storey"] %>%
+  .[variable %pin% "1_or2", DwellingSubtype := "1 or 2 storey block"] %>%
+  .[variable %pin% "Se_d_r_or_t_h_t_2_st", DwellingSubtype := "2 storeys or more"] %>%
+  .[variable %pin% "3_st_bl", DwellingSubtype := "3 storey block"] %>%
+  .[variable %pin% "Flt_apt_4", DwellingSubtype := "4 or more storey block"] %>%
+  
+  # 
+  .[!grepl("NofB_NS$", variable), NumberBedrooms.min := sub("^.*NofB.([0-9]+).*$", "\\1", variable)] %>%
+  .[] %>%
+  Mop("occupied_private_dwellings")
 ```
 
 # G39
@@ -1334,10 +1485,10 @@ freadG(39) %>%
   .[, .SD, .SDcols = c(ngrep("Tot", names(.)))] %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "occupied_private_dwellings") %>%
-  .[variable %pin% "^SH", DwellingType := "Separate house"] %>%
-  .[variable %pin% "^SDRTHT", DwellingType := "Semi-detached row or terrace house, townhouse, etc"] %>%
-  .[variable %pin% "^FoA", DwellingType := "Flat or apartment"] %>%
-  .[variable %pin% "^OD", DwellingType := "Other dwelling"] %>%
+  .[variable %pin% "^SH", DwellingStructure := "Separate house"] %>%
+  .[variable %pin% "^SDRTHT", DwellingStructure := "Semi-detached, row/terrace house, townhouse etc."] %>%
+  .[variable %pin% "^FoA", DwellingStructure := "Flat/apartment"] %>%
+  .[variable %pin% "^OD", DwellingStructure := "(Other)"] %>%
   #
   .[variable %pin% "^OD_C_.", DwellingSubtype := "Caravan"] %>%
   .[variable %pin% "^OD_CH_", DwellingSubtype := "Cabin household"] %>%
@@ -1346,11 +1497,10 @@ freadG(39) %>%
   .[variable %pin% "^OD_HorF", DwellingSubtype := "House or flat attached to a shop, office, etc"] %>%
   
   #
-  .[variable %pin% "^SDRTHT_1_S", Storeys := "1"] %>%
-  .[variable %pin% "^FoA_1_or_2", Storeys := "1 or 2"] %>%
-  .[variable %pin% "^FoA_3SB", Storeys := "3"] %>%
-  .[variable %pin% "^FoA_4moSB", Storeys := "4 or more"] %>%
-  .[, Storeys := factor(Storeys, levels = c("1", "1 or 2", "3", "4 or more"), ordered = TRUE)] %>%
+  .[variable %pin% "^SDRTHT_1_S", DwellingSubtype := "1 storey"] %>%
+  .[variable %pin% "^FoA_1_or_2", DwellingSubtype := "1 or 2 storey block"] %>%
+  .[variable %pin% "^FoA_3SB", DwellingSubtype := "3 storey block"] %>%
+  .[variable %pin% "^FoA_4moSB", DwellingSubtype := "4 storey block or more"] %>%
   
   .[variable %pin% "FHs_CF_no_C$", FamilyComposition := "Couple family with no children"] %>%
   .[variable %pin% "FHs_CF_C$", FamilyComposition := "Couple family with children"] %>%
