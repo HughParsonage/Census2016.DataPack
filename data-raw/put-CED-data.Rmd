@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r Region}
-Region <- "SA1"
+Region <- "SA2"
 ```
 
 ```{r setup}
@@ -135,7 +135,11 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
   }
   
   # http://www.abs.gov.au/ausstats/abs@.nsf/0/1CD2B1952AFC5E7ACA257298000F2E76?OpenDocument
-  apparent_population <- sum(out[[value.name]])
+  if (Region %notin% c("SA1", "SA2")) {
+    apparent_population <- sum(out[[value.name]])
+  } else {
+    apparent_population <- sum(as.double(out[[value.name]]))
+  }
   permitted_error <- switch(Region,
                             "SA1" = 1.5e6,
                             0.5e6)
@@ -153,7 +157,10 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
            # i.e. make no check
            apparent_population)
   
-  if (AND(!any(c("BornAust", "MaxSchoolingCompleted", "OnlyEnglishSpokenHome") %in% names(DT)),
+  if (AND(!any(c("BornAust",
+                 "MaritalStatus",
+                 "MaxSchoolingCompleted",
+                 "OnlyEnglishSpokenHome") %in% names(DT)),
           abs(apparent_population - expected_population) > permitted_error)) {
     if (apparent_population < expected_population) {
       stop("Population undercounted: ", prettyNum(apparent_population, big.mark = ","),
@@ -527,8 +534,7 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
 ```
 
 ```{r Region__MaxSchoolingCompleted_Sex}
-assign(paste0(Region, '__MaxSchoolingCompleted_Sex'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv')) %>%
+fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv')) %>%
   .[, .SD, .SDcols = c(Region_key, grep("High_yr_schl_comp_.*_[MF]$", names(.), value = TRUE))] %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "persons") %>%
@@ -537,32 +543,24 @@ assign(paste0(Region, '__MaxSchoolingCompleted_Sex'), {
     tmp := paste("Year", gsub("^.*Yr_([0-9]{1,2}).*$", "\\1", variable))] %>%
   .[, MaxSchoolingCompleted := factor(tmp, levels = rev(unique(.$tmp)), ordered = TRUE)] %>%
   .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
-  .[, variable := NULL] %>%
   .[, tmp := NULL] %>%
-  setcolorder(sort(names(.))) %>%
-  set_cols_first(Region_key) %>%
-  setorderv(setdiff(names(.), c("persons"))) %>%
-  set_cols_last("persons") %>%
-  .[]
-})
+  Mop
 ```
 
 ```{r Region__Dwelling}
-assign(paste0(Region, '__Dwelling'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
-        select = c(Region_key,
-                   #"Count_psns_occ_priv_dwgs_M",
-                   #"Count_psns_occ_priv_dwgs_F", 
-                   "Count_psns_occ_priv_dwgs_P", 
-                   #"Count_Persons_other_dwgs_M", 
-                   #"Count_Persons_other_dwgs_F", 
-                   "Count_Persons_other_dwgs_P")) %>%
-    melt.data.table(id.vars = Region_key,
-                    value.name = "persons") %>%
-    .[, Dwelling := "Other"] %>%
-    .[variable == "Count_psns_occ_priv_dwgs_P", Dwelling := "Private"] %>%
-    Mop
-})
+fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
+      select = c(Region_key,
+                 #"Count_psns_occ_priv_dwgs_M",
+                 #"Count_psns_occ_priv_dwgs_F", 
+                 "Count_psns_occ_priv_dwgs_P", 
+                 #"Count_Persons_other_dwgs_M", 
+                 #"Count_Persons_other_dwgs_F", 
+                 "Count_Persons_other_dwgs_P")) %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "persons") %>%
+  .[, Dwelling := "Other"] %>%
+  .[variable == "Count_psns_occ_priv_dwgs_P", Dwelling := "Private"] %>%
+  Mop
 ```
 
 ```{r Region__Dwelling_Sex}
@@ -660,8 +658,7 @@ assign(paste0(Region, '__medianRent'), {
 ### G03
 
 ```{r Region__UsualResidence_Age}
-assign(paste0(Region, '__UsualResidence_Age'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G03_AUS_', Region, '.csv')) %>%
+freadG(3) %>%
   melt.data.table(id.vars = Region_key,
                   variable.factor = FALSE,
                   value.name = "persons") %>%
@@ -677,19 +674,13 @@ assign(paste0(Region, '__UsualResidence_Age'), {
     UsualResidence := paste("Visitor from", gsub("VisDiff_SA2_", "", ResidenceVar))] %>%
   .[ResidenceVar %pin% "VisSame",
     UsualResidence := "Visitor same SA2"] %>%
-  .[, .SD, .SDcols = c(Region_key, "Age", "UsualResidence", "persons")] %>%
-  setkeyv(c(Region_key, "Age", "UsualResidence")) %>%
-  .[]
-})
+  Mop
 ```
 
 ### G04
 
 ```{r Region__minAge}
-assign(paste0(Region, '__minAge'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G04A_AUS_', Region, '.csv')) %>% 
-  merge(fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G04B_AUS_', Region, '.csv')),
-        by = Region_key) %>%
+freadG(4) %>%
   .[, .SD, .SDcols = c(Region_key,
                        grep("yr_[0-9]{1,3}_(over_)?P$", names(.), value = TRUE),
                        "Age_yr_80_84_P",
@@ -698,23 +689,15 @@ assign(paste0(Region, '__minAge'), {
                        "Age_yr_95_99_P",
                        "Age_yr_100_yr_over_P")] %>%
   melt.data.table(id.vars = Region_key,
-                  variable.name = "minAge",
+                  variable.name = "Age.min",
                   variable.factor = FALSE,
                   value.name = "persons") %>%
-  .[, minAge := as.integer(gsub("Age_yr_([0-9]{1,3}).*P$", "\\1", minAge))] %>%
-  setcolorder(sort(names(.))) %>%
-  set_cols_first(Region_key) %>%
-  setorderv(setdiff(names(.), c("persons"))) %>%
-  set_cols_last("persons") %>%
-  .[]
-})
+  .[, Age.min := as.integer(gsub("Age_yr_([0-9]{1,3}).*P$", "\\1", Age.min))] %>%
+  Mop
 ```
 
 ```{r Region__minAge_Sex}
-assign(paste0(Region, '__minAge_Sex'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G04A_AUS_', Region, '.csv')) %>% 
-  merge(fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G04B_AUS_', Region, '.csv')),
-        by = Region_key) %>%
+freadG(4) %>%
   .[, .SD, .SDcols = c(Region_key,
                        grep("yr_[0-9]{1,3}_(over_)?[MF]$", names(.), value = TRUE),
                        "Age_yr_80_84_F",
@@ -731,154 +714,110 @@ assign(paste0(Region, '__minAge_Sex'), {
                   value.name = "persons") %>%
   .[, minAge := as.integer(gsub("Age_yr_([0-9]{1,3}).*[MF]$", "\\1", variable))] %>%
   .[, Sex := gsub("Age_yr_(?:[0-9]{1,3}).*([MF])$", "\\1", variable, perl = TRUE)] %>%
-  .[, variable := NULL] %>%
-  setcolorder(sort(names(.))) %>%
-  set_cols_first(Region_key) %>%
-  setorderv(setdiff(names(.), c("persons"))) %>%
-  set_cols_last("persons") %>%
-  .[]
-})
+  Mop
 ```
 
 ```{r Region__Age_MaritalStatus_Sex}
-assign(paste0(Region, '__Age_MaritalStatus_Sex'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G05_AUS_', Region, '.csv')) %>% 
+freadG(5) %>% 
   .[,
     .SD,
     .SDcols = c(Region_key,
                 grep("[MF]_[0-9]{2}(ov)?(_[0-9]{2}_yr)?_(Married|Separated|Divorced|Widowed)", names(.), value = TRUE))] %>%
   melt.data.table(id.vars = Region_key,
                   variable.factor = FALSE,
-                  value.name = "persons") %>%
+                  value.name = "responses") %>%
   .[, Age := extract_age(variable)] %>%
   .[, Sex := gsub("^([MF]).*$", "\\1", variable)] %>%
   .[, MaritalStatus := gsub("^.*(Married|Separated|Divorced|Widowed).*$", "\\1", variable, perl = TRUE)] %>%
-  .[, variable := NULL] %>%
-  setcolorder(sort(names(.))) %>%
-  set_cols_first(Region_key) %>%
-  setorderv(setdiff(names(.), c("persons"))) %>%
-  set_cols_last("persons") %>%
-  .[]
-
-})
+  Mop("responses")
 ```
 
 ```{r Region__Age_MaritalStatus}
-assign(paste0(Region, '__Age_MaritalStatus'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G06_AUS_', Region, '.csv')) %>%
-    .[, .SD, .SDcols = c(Region_key,
-                         names(.)[grepl("^P_", names(.)) & !grepl("Tot", names(.))])] %>%
-    melt.data.table(id.vars = Region_key,
-                    value.name = "adults") %>%
-    .[, Age := extract_age(variable)] %>%
-    .[, MaritalStatus := gsub("^.*(Marrd_reg_marrge|Married_de_facto|Not_married).*$", "\\1", variable)] %>%
-    .[, MaritalStatus := gsub("_", " ", MaritalStatus)] %>%
-    .[MaritalStatus == "Marrd reg marrge", Registered := TRUE] %>%
-    .[MaritalStatus %pin% "de facto", Registered := FALSE] %>%
-    .[MaritalStatus != "Not married", MaritalStatus := "Married"] %>%
-    .[, variable := NULL] %>%
-    setcolorder(sort(names(.))) %>%
-    set_cols_first(Region_key) %>%
-    setorderv(setdiff(names(.), c("adults"))) %>%
-    set_cols_last("adults") %>%
-    .[]
-})
+freadG(6) %>%
+  .[, .SD, .SDcols = c(Region_key,
+                       names(.)[grepl("^P_", names(.)) & !grepl("Tot", names(.))])] %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "adults") %>%
+  .[, Age := extract_age(variable)] %>%
+  .[, MaritalStatus := gsub("^.*(Marrd_reg_marrge|Married_de_facto|Not_married).*$", "\\1", variable)] %>%
+  .[, MaritalStatus := gsub("_", " ", MaritalStatus)] %>%
+  .[MaritalStatus == "Marrd reg marrge", Registered := TRUE] %>%
+  .[MaritalStatus %pin% "de facto", Registered := FALSE] %>%
+  .[MaritalStatus != "Not married", MaritalStatus := "Married"] %>%
+  .[] %>%
+  Mop("adults")
 ```
 
 ## G07
 
 ```{r CED__Age_Indigenous}
-assign(paste0(Region, "__Age_Indigenous"), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G07_AUS_', Region, '.csv')) %>%
-    .[, .SD, .SDcols = names(.)[nor(grepl("[MF]$", names(.)),
-                                    grepl("Tot", names(.)))]] %>%
-    melt.data.table(id.vars = Region_key,
-                    value.name = "persons") %>%
-    .[, Age := extract_age(variable)] %>%
-    .[!grepl("_stat_ns", variable), Indigenous := !grepl("Non_Indig", variable)] %>%
-    .[, variable := NULL] %>%
-    setcolorder(sort(names(.))) %>%
-    set_cols_first(Region_key) %>%
-    setorderv(setdiff(names(.), c("persons"))) %>%
-    set_cols_last("persons") %>%
-    .[]
-})
+freadG(7) %>%
+  .[, .SD, .SDcols = names(.)[nor(grepl("[MF]$", names(.)),
+                                  grepl("Tot", names(.)))]] %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "persons") %>%
+  .[, Age := extract_age(variable)] %>%
+  .[!grepl("_stat_ns", variable), Indigenous := !grepl("Non_Indig", variable)] %>%
+  Mop
 ```
 
 ```{r CED__Age_Indigenous_Sex}
-assign(paste0(Region, "__Age_Indigenous_Sex"), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G07_AUS_', Region, '.csv')) %>%
-    .[, .SD, .SDcols = c(Region_key,
-                         names(.)[and(grepl("[MF]$", names(.)),
+freadG(7) %>%
+  .[, .SD, .SDcols = c(Region_key,
+                       names(.)[and(grepl("[MF]$", names(.)),
                                     !grepl("Tot", names(.)))])] %>%
-    melt.data.table(id.vars = Region_key,
-                    value.name = "persons") %>%
-    .[, Age := extract_age(variable)] %>%
-    .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
-    .[!grepl("_stat_ns", variable), Indigenous := !grepl("Non_Indig", variable)] %>%
-    .[] %>%
-    .[, variable := NULL] %>%
-    setcolorder(sort(names(.))) %>%
-    set_cols_first(Region_key) %>%
-    setorderv(setdiff(names(.), c("persons"))) %>%
-    set_cols_last("persons") %>%
-    .[]
-})
+  melt.data.table(id.vars = Region_key,
+                  value.name = "persons") %>%
+  .[, Age := extract_age(variable)] %>%
+  .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
+  .[!grepl("_stat_ns", variable), Indigenous := !grepl("Non_Indig", variable)] %>%
+  Mop()
 ```
 
 ```{r Region__Ancestry}
-assign(paste0(Region, "__Ancestry"), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G08_AUS_', Region, '.csv')) %>%
-    .[, .SD, .SDcols = c(Region_key,
-                         grep("Tot_Resp", names(.), value = TRUE))] %>%
-    melt.data.table(id.vars = Region_key,
-                    value.name = "responses") %>%
-    .[variable != "Tot_P_Tot_Resp"] %>%
-    .[!grepl("Ancestry_NS", variable),
-      Ancestry := gsub("^([A-Z].*)_(BP|FO|MO).*$", "\\1", variable)] %>%
-    .[Ancestry %pin% "Sth.Afri?can", Ancestry := "South African"] %>%
-    .[, Ancestry := sub("_Tot_Resp", "", Ancestry)] %>%
-    .[, Ancestry := gsub("_", " ", Ancestry)] %>%
-    .[, Ancestry := gsub("Aust", "Australian", Ancestry)] %>%
-    .[, Ancestry := gsub("Abor", "Aboriginal", Ancestry)] %>%
-    .[, variable := NULL] %>%
-    setcolorder(sort(names(.))) %>%
-    set_cols_first(Region_key) %>%
-    setorderv(setdiff(names(.), c("persons"))) %>%
-    set_cols_last("persons") %>%
-    .[]
-})
+freadG(8) %>%
+  .[, .SD, .SDcols = c(Region_key,
+                       grep("Tot_Resp", names(.), value = TRUE))] %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "responses") %>%
+  .[variable != "Tot_P_Tot_Resp"] %>%
+  .[!grepl("Ancestry_NS", variable),
+    Ancestry := gsub("^([A-Z].*)_(BP|FO|MO).*$", "\\1", variable)] %>%
+  .[Ancestry %pin% "Sth.Afri?can", Ancestry := "South African"] %>%
+  .[, Ancestry := sub("_Tot_Resp", "", Ancestry)] %>%
+  .[, Ancestry := gsub("_", " ", Ancestry)] %>%
+  .[, Ancestry := gsub("Aust", "Australian", Ancestry)] %>%
+  .[, Ancestry := gsub("Abor", "Aboriginal", Ancestry)] %>%
+  Mop("responses")
 ```
 
 
 ```{r Region__Ancestry_FatherBornAus_MotherBornAus}
-assign(paste0(Region, "__Ancestry_ParentsCountryOfBirth"), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G08_AUS_', Region, '.csv')) %>%
-    .[, .SD, .SDcols = c(ngrep("Tot", names(.)))] %>%
-    melt.data.table(id.vars = Region_key,
-                    value.name = "responses") %>%
-    .[!grepl("Ancestry_NS", variable),
-      Ancestry := gsub("^([A-Z].*)_(BP|FO|MO).*$", "\\1", variable)] %>%
-    .[Ancestry %pin% "Sth.Afri?can", Ancestry := "South African"] %>%
-    # Join to obtain those with ancestry but whose parents were not
-    # born overseas
-    .[, Ancestry := sub("_Tot_Resp", "", Ancestry)] %>%
-    .[, Ancestry := gsub("_", " ", Ancestry)] %>%
-    .[, Ancestry := gsub("Aust", "Australian", Ancestry)] %>%
-    .[, Ancestry := gsub("Abor", "Aboriginal", Ancestry)] %>%
-    
-    # Parents' country of birth
-    .[variable %pin% "BP_B_Aus$", FatherBornAus := TRUE] %>%
-    .[variable %pin% "BP_B_Aus$", MotherBornAus := TRUE] %>%
-    .[variable %pin% "FO_B_OS$", FatherBornAus := FALSE] %>%
-    .[variable %pin% "FO_B_OS$", MotherBornAus := TRUE] %>%
-    .[variable %pin% "MO_B_OS$", FatherBornAus := TRUE] %>%
-    .[variable %pin% "MO_B_OS$", MotherBornAus := FALSE] %>%
-    .[variable %pin% "BP_B_OS$", FatherBornAus := FALSE] %>%
-    .[variable %pin% "BP_B_OS$", MotherBornAus := FALSE] %>%
-    .[] %>%
-    Mop("responses")
-})
+freadG(8) %>%
+  .[, .SD, .SDcols = c(ngrep("Tot", names(.)))] %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "responses") %>%
+  .[!grepl("Ancestry_NS", variable),
+    Ancestry := gsub("^([A-Z].*)_(BP|FO|MO).*$", "\\1", variable)] %>%
+  .[Ancestry %pin% "Sth.Afri?can", Ancestry := "South African"] %>%
+  # Join to obtain those with ancestry but whose parents were not
+  # born overseas
+  .[, Ancestry := sub("_Tot_Resp", "", Ancestry)] %>%
+  .[, Ancestry := gsub("_", " ", Ancestry)] %>%
+  .[, Ancestry := gsub("Aust", "Australian", Ancestry)] %>%
+  .[, Ancestry := gsub("Abor", "Aboriginal", Ancestry)] %>%
+  
+  # Parents' country of birth
+  .[variable %pin% "BP_B_Aus$", FatherBornAus := TRUE] %>%
+  .[variable %pin% "BP_B_Aus$", MotherBornAus := TRUE] %>%
+  .[variable %pin% "FO_B_OS$", FatherBornAus := FALSE] %>%
+  .[variable %pin% "FO_B_OS$", MotherBornAus := TRUE] %>%
+  .[variable %pin% "MO_B_OS$", FatherBornAus := TRUE] %>%
+  .[variable %pin% "MO_B_OS$", MotherBornAus := FALSE] %>%
+  .[variable %pin% "BP_B_OS$", FatherBornAus := FALSE] %>%
+  .[variable %pin% "BP_B_OS$", MotherBornAus := FALSE] %>%
+  .[] %>%
+  Mop("responses")
 ```
 
 ## G09
