@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r Region}
-Region <- "SED"
+Region <- "SA1"
 ```
 
 ```{r setup}
@@ -189,7 +189,7 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
   out_noms <- names(out)
   
   object_name <- 
-    paste0(Region, "__", paste0(setdiff(out_noms, c(Region_key, value.name)), collapse = "_"))
+    paste0(Region, "__", paste0(setdiff(out_noms, c(Region_key, "persons")), collapse = "_"))
   
   assign(object_name, out, envir = .GlobalEnv)
   
@@ -977,11 +977,6 @@ freadG(15) %>%
   .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
   .[] %>%
   Mop("students")
-
-test_that("Number of students approximately equal to Tot_P", {
-  Tot_P <- freadG(15) %$% sum(Tot_P)
-  expect_equal(get(paste0(Region, "__EduInstitutionType_Sex")) %$% sum(students), Tot_P, tol = 500)
-})
 ```
 
 ```{r Region__AgedUnder25_EduInstitutionType_FullTime_SchoolSector_Sex}
@@ -1008,11 +1003,6 @@ freadG(15) %>%
   .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
   .[] %>%
   Mop("students")
-
-test_that("Number of students approximately equal to Tot_P", {
-  Tot_P <- freadG(15) %$% sum(Tot_P)
-  expect_equal(get(paste0(Region, "__EduInstitutionType_Sex")) %$% sum(students), Tot_P, tol = 500)
-})
 ```
 
 # G16
