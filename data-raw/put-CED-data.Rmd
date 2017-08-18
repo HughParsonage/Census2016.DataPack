@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r Region}
-Region <- "SA1"
+Region <- "SA4"
 ```
 
 ```{r setup}
@@ -38,6 +38,7 @@ library(testthat)
 library(magrittr)
 library(hutils)
 library(data.table)
+library(ASGS)
 ```
 
 ```{r Region_key}
@@ -76,18 +77,6 @@ gsub <- function(..., perl, fixed) base::gsub(..., perl = missing(fixed), fixed 
 
 ```{r force_double}
 force_double <- function(x) suppressWarnings(as.double(x))
-```
-
-```{r ngrep}
-ngrep <- function(pattern, x, value = TRUE) {
-  if (value) {
-    x[!grepl(pattern, x)]
-  } else {
-    which(!grepl(pattern, x))
-  }
-}
-
-expect_equal(ngrep("a", c("a", "ab", "b", "c")), c("b", "c"))
 ```
 
 ```{r total_adults}
@@ -191,9 +180,23 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
   object_name <- 
     paste0(Region, "__", paste0(setdiff(out_noms, c(Region_key, "persons")), collapse = "_"))
   
-  assign(object_name, out, envir = .GlobalEnv)
+  decoder <- 
+    switch(Region,
+           "SA2" = SA2016_decoder[, .(SA2_MAIN16, SA2_NAME16)],
+           "SA3" = SA2016_decoder[, .(SA3_CODE16, SA3_NAME16)],
+           "SA4" = SA2016_decoder[, .(SA4_CODE16, SA4_NAME16)],
+           "STE" = SA2016_decoder[, .(STE_CODE16, STE_NAME16)],
+            NULL) %>%
+    unique %>%
+    setnames(1, Region_key)
   
-  out[]
+  decoded_out <- 
+    decoder[out, on = Region_key]
+  decoded_out[, (Region_key) := NULL]
+  
+  assign(object_name, decoded_out, envir = .GlobalEnv)
+  
+  decoded_out[]
 }
 ```
 
