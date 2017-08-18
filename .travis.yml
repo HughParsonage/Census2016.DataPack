@@ -6,8 +6,9 @@ include:
 - r: release
 - r: oldrel
 - r: devel
+script:
+- set -e
 after_success:
-- Rscript -e 'devtools::test()'
 - Rscript -e 'if (!requireNamespace("drat", quietly = TRUE)) install.packages("drat")'
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash
   deploy.sh
