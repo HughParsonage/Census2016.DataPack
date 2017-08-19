@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r Region}
-Region <- "SA4"
+Region <- "STE"
 ```
 
 ```{r setup}
@@ -190,13 +190,13 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
     unique %>%
     setnames(1, Region_key)
   
-  decoded_out <- 
-    decoder[out, on = Region_key]
-  decoded_out[, (Region_key) := NULL]
+  # decoded_out <- 
+  #   decoder[out, on = Region_key]
+  # decoded_out[, (Region_key) := NULL]
   
-  assign(object_name, decoded_out, envir = .GlobalEnv)
+  assign(object_name, out, envir = .GlobalEnv)
   
-  decoded_out[]
+  out[] # decoded_out[]
 }
 ```
 
@@ -205,9 +205,13 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
 if (!isTRUE(getOption("knitr.in.progress"))) {
   AllTables <- Filter(function(x) is.data.table(get(x)), ls())
   if (length(AllTables) != 0) {
-    menu_selection <- menu(c("Remove all tables.",
-                             "Cancel."),
-                           title = "Data tables detected. This script will save all tables in the workspace to the package. Remove current tables from workspace?")
+    if (exists("table_killer")) {
+      menu_selection <- 1
+    } else {
+      menu_selection <- menu(c("Remove all tables.",
+                               "Cancel."),
+                             title = "Data tables detected. This script will save all tables in the workspace to the package. Remove current tables from workspace?")
+    }
   }
   
   if (exists("menu_selection")) {
@@ -1460,6 +1464,14 @@ FINISH <- Sys.time()
 # Print side-effect ok
 stopifnot(dir.exists("data"))
 ced_tbls <- tables()$NAME
+lapply(list.files(path = "data/",
+                  full.names = TRUE),
+       file.info) %>%
+  rbindlist %$%
+  sum(size) %>%
+  divide_by(1024^2) %>%
+  cat
+
 vapply(list.files(path = "data/",
                   pattern = Region,
                   full.names = TRUE),
