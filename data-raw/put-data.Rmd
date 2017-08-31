@@ -6,27 +6,11 @@ output: html_document
 ---
 
 ```{r Region}
-Region <- "SED"
+Region <- "SA4"
 ```
 
 ```{r setup}
 START <- Sys.time()
-library(knitr)
-data.kable <- function(DT) {
-  current_knitr.kable.NA <- options("knitr.kable.NA")
-  options(knitr.kable.NA = '...')
-  on.exit(options(knitr.kable.NA = current_knitr.kable.NA))
-  if (nrow(DT) > 50) {
-    middle_row <- as.data.table(matrix(nrow = 1, ncol = ncol(DT)))
-    setnames(middle_row, seq_along(middle_row), names(DT))
-    DT_topn <- rbind(head(DT),
-                     middle_row,
-                     tail(DT))
-    kable(DT_topn, format.args = list(big.mark = ","))
-  } else {
-    kable(DT, format.args = list(big.mark = ","))
-  }
-}
 knitr::opts_knit$set(root.dir = "..")
 knitr::opts_chunk$set(echo = TRUE, 
                       print_chunk = TRUE)
@@ -185,10 +169,18 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
   
   decoder <- 
     switch(Region,
-           "SA2" = SA2016_decoder[, .(SA2_MAIN16, SA2_NAME16)],
-           "SA3" = SA2016_decoder[, .(SA3_CODE16, SA3_NAME16)],
-           "SA4" = SA2016_decoder[, .(SA4_CODE16, SA4_NAME16)],
-           "STE" = SA2016_decoder[, .(STE_CODE16, STE_NAME16)],
+           "SA2" = SA16_decoder[ASGS_Structure == Region,
+                                .(SA2_MAIN16 = Census_Code_2016,
+                                  SA2_NAME16 = Census_Name_2016)],
+           "SA3" = SA16_decoder[ASGS_Structure == Region,
+                                .(SA3_MAIN16 = Census_Code_2016,
+                                  SA3_NAME16 = Census_Name_2016)],
+           "SA4" = SA16_decoder[ASGS_Structure == Region,
+                                .(SA4_MAIN16 = Census_Code_2016,
+                                  SA4_NAME16 = Census_Name_2016)],
+           "STE" = SA16_decoder[ASGS_Structure == Region,
+                                .(STE_MAIN16 = Census_Code_2016,
+                                  STE_NAME16 = Census_Name_2016)],
            "LGA" = {
              NonABS_decoder[ASGS_Structure == Region,
                             .(Census_Code_2016, LGA_NAME16 = Census_Name_2016)]
@@ -213,7 +205,15 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
     decoder[out, on = Region_key]
   decoded_out[, (Region_key) := NULL]
   
-  assign(object_name, decoded_out, envir = .GlobalEnv)
+  if (!anyDuplicated(decoded_out, by = setdiff(names(decoded_out), value.name))) {
+    out <- decoded_out 
+  } else {
+    cat("\n\n\n\n\n")
+    print(duplicated_rows(decoded_out, by = setdiff(names(decoded_out), value.name)))
+    cat("\n\n\n\n\n")
+  }
+  
+  assign(object_name, out, envir = .GlobalEnv)
   
   decoded_out[]
 }

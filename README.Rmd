@@ -40,6 +40,10 @@ The goals of this package are:
 4. Tables never contain subtotals.
 5. Tables are ordered by the key and then by the measure columns.
 
+In addition:
+
+6. The package tarball should be under 100 MB (so that it can be uploaded to a drat repository there).
+
 
 
 
