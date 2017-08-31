@@ -178,7 +178,10 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
   out_noms <- names(out)
   
   object_name <- 
-    paste0(Region, "__", paste0(setdiff(out_noms, c(Region_key, "persons")), collapse = "_"))
+    paste0(Region,
+           "__",
+           paste0(setdiff(out_noms, c(Region_key, value.name)),
+                  collapse = "_"))
   
   decoder <- 
     switch(Region,
@@ -190,13 +193,13 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
     unique %>%
     setnames(1, Region_key)
   
-  # decoded_out <- 
-  #   decoder[out, on = Region_key]
-  # decoded_out[, (Region_key) := NULL]
+  decoded_out <-
+    decoder[out, on = Region_key]
+  decoded_out[, (Region_key) := NULL]
   
   assign(object_name, out, envir = .GlobalEnv)
   
-  out[] # decoded_out[]
+  decoded_out[]
 }
 ```
 
@@ -504,7 +507,7 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
                  "Age_psns_att_edu_inst_20_24_P", 
                  "Age_psns_att_edu_inst_25_ov_P")) %>%
   melt.data.table(id.vars = Region_key,
-                  variable.name = "Age",
+                  variable.name = "AgeStudent",
                   value.name = "students") %>%
   .[, Age := extract_age(Age)] %>%
   Mop("students")
@@ -1472,14 +1475,25 @@ lapply(list.files(path = "data/",
   divide_by(1024^2) %>%
   cat
 
-vapply(list.files(path = "data/",
-                  pattern = Region,
-                  full.names = TRUE),
+region_dtas <-list.files(path = "data/",
+                         pattern = Region,
+                         full.names = TRUE)
+
+vapply(region_dtas,
        file.remove,
        logical(1)) %>%
-  stopifnot %>%
-  all
+  all %>%
+  stopifnot
+
 for (tbl in ced_tbls) {
   save(list = tbl, file = file.path("data", paste0(tbl, ".rda")))
 }
+tools::resaveRdaFiles(paths = region_dtas)
+lapply(list.files(path = "data/",
+                  full.names = TRUE),
+       file.info) %>%
+  rbindlist %$%
+  sum(size) %>%
+  divide_by(1024^2) %>%
+  cat
 ```
