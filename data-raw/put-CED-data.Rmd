@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r Region}
-Region <- "STE"
+Region <- "SA2"
 ```
 
 ```{r setup}
@@ -197,7 +197,7 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
     decoder[out, on = Region_key]
   decoded_out[, (Region_key) := NULL]
   
-  assign(object_name, out, envir = .GlobalEnv)
+  assign(object_name, decoded_out, envir = .GlobalEnv)
   
   decoded_out[]
 }
@@ -509,7 +509,7 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   melt.data.table(id.vars = Region_key,
                   variable.name = "AgeStudent",
                   value.name = "students") %>%
-  .[, Age := extract_age(Age)] %>%
+  .[, AgeStudent := extract_age(AgeStudent)] %>%
   Mop("students")
 ```
 
@@ -528,7 +528,7 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
                  "Age_psns_att_edu_inst_25_ov_M")) %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "students") %>%
-  .[, Age := extract_age(variable)] %>%
+  .[, AgeStudent := extract_age(variable)] %>%
   .[variable %pin% "F$", Sex := "F"] %>%
   .[variable %pin% "M$", Sex := "M"] %>%
   Mop("students")
@@ -943,7 +943,7 @@ list.files(path = paste0('./data-raw/data-packs/data/', Region, '/AUST/'),
 freadG(14) %>%
   .[, .SD, .SDcols = c(Region_key,
                        intersect(grep("[MF]$", names(.), value = TRUE),
-                                 ngrep("Tot", names(.))))] %>%
+                                 ngrep("Tot", names(.), value = TRUE)))] %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "persons") %>%
   .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
@@ -1488,6 +1488,10 @@ vapply(region_dtas,
 for (tbl in ced_tbls) {
   save(list = tbl, file = file.path("data", paste0(tbl, ".rda")))
 }
+
+region_dtas <-list.files(path = "data/",
+                         pattern = Region,
+                         full.names = TRUE)
 tools::resaveRdaFiles(paths = region_dtas)
 lapply(list.files(path = "data/",
                   full.names = TRUE),
