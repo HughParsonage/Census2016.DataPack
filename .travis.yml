@@ -1,5 +1,5 @@
 language: R
-sudo: yes
+sudo: true
 cache: packages
 packages:
 - drat
@@ -12,8 +12,8 @@ script:
 - R CMD build .
 after_success:
 - Rscript -e 'if (!requireNamespace("drat", quietly = TRUE)) install.packages("drat")'
-- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash deploy.sh
-
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash
+  deploy.sh
 env:
   global:
-    secure: YW7GskOKw64mXPj5uTiD3Od1N6OhbHm777mBJxLSxhnrass3oGEJVZAanjD+kD0XACb09rMlQEpYXdr65WW3EgoUjYaBmpNBxjl+Ijk95/+PvDnbPbyaTIiFiQkj0r+6airZvhr4L183yDRXYWpm61IKc+oVAL5xfZyEQmq4abnHb2UnhaBpZQzRh2tLErYcjFlwdru8GwJXipXFFm1hsjVZ7rAnEckG1kgj81/BVofVAcga53WDW7AoJJhdkcCyeId+8Z52w/BWq7Bsm0urAsXtXXXfDiMu63G78iPjZOT3bJf/GUXGP8s0F67U0FhLvLKO3Mztc7FS4DB6gbn343wmE4w+Z5i+Oib08Es5JoRU9Vgkp1ECJeaDvxyxnQd0uFkcxT7i7wKFL8B76rEdzzuhlSPkp4CCiSasZPvSRQzK4yNP52qPyY/trniZ00TANt/TSg/OVisbziCBhgUpUdcPaKzvU6lRkizD0esQ0UeYtIC71CbWYRQ8MQUQtQtShDhWlWhuRA+R+KKqsED6MlcHFWHNg89mGz1Tf8++W3Hrmp4f+m9u7I6BeckBxI7tLRPBAXN6iMS9JX0UgJwoJ8rcWH03xHh5V4yRtQdAScER1X7PXnbpm5Zuoh8lfVnrdo1zntIzXzLpJ4ztScN/U0hrKPzJBw5Kx5T9s5T3gfA=
+    secure: ka0WF3NxLwbvmSA+l17jbKap4GpWzQ+7vrKMJ+HU6eRzZhCDWGbexaLoSnUDBVw0yLZspG239I5M/zWgJi6z1F8V1wp7Qqys2NzjPvJa3ExSQtsou5T4z6RnfegAHUdWsS312+QXZzGR7SrIDAFUzT3SPKF92ZYw1dWPwYDdoEPmsnn/Dp0nt0dRzxcREYfE+yqdIHbyq1bBELYg408xlsrYNYi1+0VHa59K3AGL+WRN7G9IWM7tw7BdYySG5i4Jifmz7OajOje34xk5GFlfe4ClKOG+3KX0gehR4njzrn51ZK2oP+VcKwTYYH6tvymrlIXhhdQKezbwJ+tF5dqzqbONhbQA2JAXT7Ez3GuwQXQXDyodzhNYr4/lt0iGiOkElryYk72sJybKcRfLA8X8YJeHvqzJQqdZb6lMtBVFdmcpcdofuZm7/+LW9QfgYKVKfs04TUAWNzY3IrAEO39135TaoLeZHUWalDFdgQvgbFDq8sKck19JK6D0eGuxy/HB3+867t33DBvxxDQovCOh62AKXKoTLyuZ+rG/1ChHrbNmIVNhrqJs/ZVySHdV2CmqOMFnlCP2lezOxFg+YxGy+SP2vYBkCSx2kOj6v4AGy7guEST1XEXsw1S8bslrGrrHV4TUNlg+aoghyb1D4U/ceAZip4JfnsTiUVroyxmqqew=
