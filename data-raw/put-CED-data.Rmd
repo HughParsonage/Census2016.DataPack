@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r Region}
-Region <- "SA2"
+Region <- "SED"
 ```
 
 ```{r setup}
@@ -189,7 +189,23 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
            "SA3" = SA2016_decoder[, .(SA3_CODE16, SA3_NAME16)],
            "SA4" = SA2016_decoder[, .(SA4_CODE16, SA4_NAME16)],
            "STE" = SA2016_decoder[, .(STE_CODE16, STE_NAME16)],
-            NULL) %>%
+           "LGA" = {
+             NonABS_decoder[ASGS_Structure == Region,
+                            .(Census_Code_2016, LGA_NAME16 = Census_Name_2016)]
+           },
+           "CED" = {
+             NonABS_decoder[ASGS_Structure == Region,
+                            .(Census_Code_2016, CED_NAME16 = Census_Name_2016)]
+           },
+           "SED" = {
+             NonABS_decoder[ASGS_Structure == Region,
+                            .(Census_Code_2016, SED_NAME16 = Census_Name_2016)]
+           },
+           "SSC" = {
+             NonABS_decoder[ASGS_Structure == Region,
+                            .(Census_Code_2016, SSC_NAME16 = Census_Name_2016)]
+           },
+           NULL) %>%
     unique %>%
     setnames(1, Region_key)
   
@@ -225,6 +241,13 @@ if (!isTRUE(getOption("knitr.in.progress"))) {
     }
   }
 }
+```
+
+```{r LGA_decoder}
+NonABS_decoder <-
+  read_excel("./data-raw/data-packs/Metadata/2016Census_geog_desc_1st_release.xlsx",
+             sheet = "2016_ASGS_Non-ABS_Structures") %>%
+  as.data.table
 ```
 
 ```{r zero2NA}
