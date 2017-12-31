@@ -1,6 +1,6 @@
 Package: Census2016.DataPack
 Title: Provides ABS Datapacks
-Version: 0.1.0
+Version: 0.1.9
 Authors@R: person("Hugh", "Parsonage", email = "hugh.parsonage@gmail.com", role = c("aut", "cre"))
 Description: Provides the data packs from the Census in normalized form. In development.
 Depends: R (>= 2.15.0)
