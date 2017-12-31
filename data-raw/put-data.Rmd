@@ -242,10 +242,12 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
   
   # http://www.abs.gov.au/ausstats/abs@.nsf/0/1CD2B1952AFC5E7ACA257298000F2E76?OpenDocument
   if (Region %notin% c("SA1", "SA2")) {
-    apparent_population <- sum(out[[value.name]])
+    # na.rm = TRUE for medianTotalPersonalIncome etc
+    apparent_population <- sum(out[[value.name]], na.rm = TRUE)
   } else {
-    apparent_population <- sum(as.double(out[[value.name]]))
+    apparent_population <- sum(as.double(out[[value.name]]), na.rm = TRUE)
   }
+  
   permitted_error <- switch(Region,
                             "SA1" = 1.5e6,
                             0.5e6)
@@ -297,8 +299,12 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
   object_name <- 
     paste0(Region,
            "__",
-           paste0(setdiff(out_noms, c(Region_key, value.name)),
-                  collapse = "_"))
+           if (length(out_noms) == 2) {
+             sub("persons", "Persons", value.name)
+           } else {
+             paste0(setdiff(out_noms, c(Region_key, value.name)),
+                    collapse = "_")
+           })
   
   if (Region != "SA1") {
     decoder <- 
@@ -485,7 +491,8 @@ expect_equal(strip_age("P_15_19_yr_Marrd_reg_marrge"), "P_Marrd_reg_marrge")
 assign(paste0(Region, '__Persons'), { 
   fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'),
         select = c(Region_key, "Tot_P_P")) %>%
-  setnames("Tot_P_P", "persons")
+    setnames("Tot_P_P", "persons") %>%
+    Mop
 })
 ```
 
@@ -759,22 +766,21 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
 
 ### G02
 ```{r Region__medianTotalPersonalIncome}
-assign(paste0(Region, '__medianTotalPersonalIncome'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
-    .[, .SD, .SDcols = c(Region_key, "Median_tot_prsnl_inc_weekly")] %>%
-    setnames("Median_tot_prsnl_inc_weekly", "medianTotalPersonalIncome") %>%
-    .[, medianTotalPersonalIncome := medianTotalPersonalIncome * 52L] %>%
-    zero2NA %>%
-    setcolorder(sort(names(.))) %>%
-    set_cols_first(Region_key) %>%
-    setorderv(setdiff(names(.), c("persons"))) %>%
-    set_cols_last("persons") %>%
-    .[]
-})
+fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
+  .[, .SD, .SDcols = c(Region_key, "Median_tot_prsnl_inc_weekly")] %>%
+  setnames("Median_tot_prsnl_inc_weekly", "medianTotalPersonalIncome") %>%
+  .[, medianTotalPersonalIncome := medianTotalPersonalIncome * 52L] %>%
+  zero2NA %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first(Region_key) %>%
+  setorderv(setdiff(names(.), c("persons"))) %>%
+  set_cols_last("persons") %>%
+  .[] %>%
+  Mop("medianTotalPersonalIncome")
 ```
 
 ```{r Region__medianMortgageRepayment}
-assign(paste0(Region, '__medianMortgageRepayment'), {
+
   fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
     .[, .SD, .SDcols = c(Region_key, "Median_mortgage_repay_monthly")] %>%
     setnames("Median_mortgage_repay_monthly", "medianMortgageRepayment") %>%
@@ -784,53 +790,52 @@ assign(paste0(Region, '__medianMortgageRepayment'), {
     set_cols_first(Region_key) %>%
     setorderv(setdiff(names(.), c("persons"))) %>%
     set_cols_last("persons") %>%
-    .[]
-})
+    .[] %>%
+    Mop("medianMortgageRepayment")
+
 ```
 
 ```{r Region__medianTotalHouseholdIncome}
-assign(paste0(Region, '__medianTotalHouseholdIncome'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
-    .[, .SD, .SDcols = c(Region_key, "Median_tot_hhd_inc_weekly")] %>%
-    setnames("Median_tot_hhd_inc_weekly", "medianTotalHouseholdIncome") %>%
-    .[, medianTotalHouseholdIncome := medianTotalHouseholdIncome * 52L] %>%
-    zero2NA %>%
-    setcolorder(sort(names(.))) %>%
-    set_cols_first(Region_key) %>%
-    setorderv(setdiff(names(.), c("persons"))) %>%
-    set_cols_last("persons") %>%
-    .[]
-})
+fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
+  .[, .SD, .SDcols = c(Region_key, "Median_tot_hhd_inc_weekly")] %>%
+  setnames("Median_tot_hhd_inc_weekly", "medianTotalHouseholdIncome") %>%
+  .[, medianTotalHouseholdIncome := medianTotalHouseholdIncome * 52L] %>%
+  zero2NA %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first(Region_key) %>%
+  setorderv(setdiff(names(.), c("persons"))) %>%
+  set_cols_last("persons") %>%
+  .[] %>%
+  Mop("medianTotalHouseholdIncome")
+
 ```
 
 ```{r Region__medianTotalFamilyIncome}
-assign(paste0(Region, '__medianTotalFamilyIncome'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
-    .[, .SD, .SDcols = c(Region_key, "Median_tot_fam_inc_weekly")] %>%
-    setnames("Median_tot_fam_inc_weekly", "medianTotalFamilyIncome") %>%
-    .[, medianTotalFamilyIncome := medianTotalFamilyIncome * 52L] %>%
-    zero2NA %>%
-    setcolorder(sort(names(.))) %>%
-    set_cols_first(Region_key) %>%
-    setorderv(setdiff(names(.), c("persons"))) %>%
-    set_cols_last("persons") %>%
-    .[]
-})
+fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
+  .[, .SD, .SDcols = c(Region_key, "Median_tot_fam_inc_weekly")] %>%
+  setnames("Median_tot_fam_inc_weekly", "medianTotalFamilyIncome") %>%
+  .[, medianTotalFamilyIncome := medianTotalFamilyIncome * 52L] %>%
+  zero2NA %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first(Region_key) %>%
+  setorderv(setdiff(names(.), c("persons"))) %>%
+  set_cols_last("persons") %>%
+  .[] %>%
+  Mop("medianTotalFamilyIncome")
 ```
 
 ```{r Region__medianRent}
-assign(paste0(Region, '__medianRent'), {
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
-    .[, .SD, .SDcols = c(Region_key, "Median_rent_weekly")] %>%
-    setnames("Median_rent_weekly", "medianRent") %>%
-    .[, medianRent := medianRent * 52L] %>%
-    zero2NA %>%
-    setcolorder(sort(names(.))) %>%
-    set_cols_first(Region_key) %>%
-    setorderv(setdiff(names(.), c("persons"))) %>%
-    set_cols_last("persons") %>%
-    .[]
-})
+fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
+  .[, .SD, .SDcols = c(Region_key, "Median_rent_weekly")] %>%
+  setnames("Median_rent_weekly", "medianRent") %>%
+  .[, medianRent := medianRent * 52L] %>%
+  zero2NA %>%
+  setcolorder(sort(names(.))) %>%
+  set_cols_first(Region_key) %>%
+  setorderv(setdiff(names(.), c("persons"))) %>%
+  set_cols_last("persons") %>%
+  .[] %>%
+  Mop("medianRent")
 ```
 
 ### G03
@@ -1637,14 +1642,25 @@ FINISH <- Sys.time()
 # Print side-effect ok
 stopifnot(dir.exists("data"))
 ced_tbls <- tables()$NAME
-lapply(list.files(path = "data/",
-                  full.names = TRUE),
-       file.info) %>%
+
+prior_data_size <- 
+  lapply(list.files(path = "data/",
+                    full.names = TRUE),
+         file.info) %>%
   rbindlist %$%
   sum(size) %>%
   divide_by(1024^2) %>%
-  round(2) %>%
-  cat("MB")
+  round(2)
+
+prior_region_data_size <-
+  lapply(list.files(path = "data/",
+                    pattern = Region,
+                    full.names = TRUE),
+         file.info) %>%
+  rbindlist %$%
+  sum(size) %>%
+  divide_by(1024^2) %>%
+  round(2)
 
 region_dtas <-list.files(path = "data/",
                          pattern = Region,
@@ -1665,7 +1681,7 @@ if (Region == "SA1") {
 for (tbl in ced_tbls) {
   save(list = tbl,
        file = file.path(data_path, paste0(tbl, ".rda")),
-       compress = "xz",
+       compress = "gzip",
        compression_level = 9)
   fwrite(get(tbl),
          file = file.path("data-raw", "data", Region, paste0(tbl, ".csv")))
@@ -1676,22 +1692,27 @@ region_dtas <- list.files(path = "data/",
                           full.names = TRUE)
 # tools::resaveRdaFiles(paths = region_dtas)
 
-lapply(list.files(path = "data/",
-                  pattern = Region,
-                  full.names = TRUE),
-       file.info) %>%
+current_region_data_size <-
+  lapply(list.files(path = "data/",
+                    pattern = Region,
+                    full.names = TRUE),
+         file.info) %>%
   rbindlist %$%
   sum(size) %>%
   divide_by(1024^2) %>%
-  round(2) %>%
-  cat("MB")
-lapply(list.files(path = "data/",
-                  full.names = TRUE),
-       file.info) %>%
+  round(2)
+
+current_data_size <- 
+  lapply(list.files(path = "data/",
+                    full.names = TRUE),
+         file.info) %>%
   rbindlist %$%
   sum(size) %>%
   divide_by(1024^2) %>%
-  round(2) %>%
-  cat("MB")
+  round(2)
+
+cat("Region:\t", prior_region_data_size, "MB  ===> ", current_region_data_size, "MB")
+cat("Total: \t", prior_data_size, "MB  ===> ", current_data_size, "MB")
+
 ```
 
