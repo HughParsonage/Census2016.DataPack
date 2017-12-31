@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r Region}
-Region <- "STE"
+Region <- "SA2"
 ```
 
 ```{r setup}
@@ -1678,6 +1678,14 @@ region_dtas <- list.files(path = "data/",
 
 lapply(list.files(path = "data/",
                   pattern = Region,
+                  full.names = TRUE),
+       file.info) %>%
+  rbindlist %$%
+  sum(size) %>%
+  divide_by(1024^2) %>%
+  round(2) %>%
+  cat("MB")
+lapply(list.files(path = "data/",
                   full.names = TRUE),
        file.info) %>%
   rbindlist %$%
