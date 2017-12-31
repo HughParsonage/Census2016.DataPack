@@ -6,12 +6,14 @@ output: html_document
 ---
 
 ```{r Region}
-Region <- "SA4"
+Region <- "STE"
 ```
 
 ```{r setup}
 START <- Sys.time()
-knitr::opts_knit$set(root.dir = "..")
+if (basename(dirname(getwd())) == "data-raw") {
+  knitr::opts_knit$set(root.dir = "..")
+}
 knitr::opts_chunk$set(echo = TRUE, 
                       print_chunk = TRUE)
 ```
@@ -22,7 +24,44 @@ library(testthat)
 library(magrittr)
 library(hutils)
 library(data.table)
+
+```
+
+```{r Clear-tables}
+# Ensure we are working with pristine tables
+if (!isTRUE(getOption("knitr.in.progress"))) {
+  AllTables <- Filter(function(x) is.data.table(get(x)), ls())
+  if (length(AllTables) != 0) {
+    if (exists("table_killer")) {
+      menu_selection <- 1
+    } else {
+      menu_selection <- menu(c("Remove all tables.",
+                               "Cancel."),
+                             title = "Data tables detected. This script will save all tables in the workspace to the package. Remove current tables from workspace?")
+    }
+  }
+  
+  if (exists("menu_selection")) {
+    if (menu_selection %in% c(0, 2)) {
+      stop("Operation cancelled.")
+    } else {
+      rm(list = AllTables)
+    }
+  }
+}
 library(ASGS)
+```
+
+```{r}
+Metadata <-
+  read_excel("data-raw/data-packs/Metadata/Metadata_2016_GCP_DataPack.xls",
+             sheet = 2,
+             skip = 10) %>%
+  as.data.table
+```
+
+```{r SA16_decoder}
+SA16_decoder <- fread("data-raw/SA16_decoder.csv")
 ```
 
 ```{r Region_key}
@@ -44,10 +83,10 @@ freadG <- function(g, ...) {
                full.names = TRUE)
   if (length(file_list) > 1) {
     file_list %>%
-    lapply(fread, key = Region_key, ...) %>%
+    lapply(fread, key = Region_key, logical01 = FALSE, ...) %>%
     Reduce(f = function(X, Y) X[Y])
   } else {
-    fread(file = file_list[1], ...)
+    fread(file = file_list[1], logical01 = FALSE, ...)
   }
 }
 ```
@@ -71,6 +110,54 @@ total_adults <-
   sum(value)
 ```
 
+```{r decode_country}
+.decode_country <- function(x, to = "alpha-3") {
+  xna <- is.na(x)
+  x[!xna] <- trimws(x[!xna])
+  stopifnot(to == "alpha-3",
+            names(ISO3166)[1] == "name")
+  nom <- ISO3166[["name"]]
+  a3 <- ISO3166[["alpha_3"]]
+  keep <- and(nchar(x, keepNA = FALSE) == 3L,
+              x == toupper(x))
+  
+  res <- a3[pmatch(x, nom, duplicates.ok = TRUE)]
+  res[keep] <- x[keep]
+  if (F & anyNA(res[!is.na(x)])) {
+    print(x[is.na(res[!is.na(x)])])
+    stop("Country code could not be decoded.")
+  }
+  res[xna] <- NA_character_
+  res
+}
+
+decode_country <- function(out) {
+  stopifnot(is.data.table(out),
+            "CountryOfBirth" %in% names(out))
+  out[, CountryOfBirth := trimws(gsub("_", " ", CountryOfBirth))]
+  out[, CountryOfBirth := gsub("(?<!(F))Ye?a?r.*arrival.ns$", "", CountryOfBirth, ignore.case = TRUE)]
+  out[CountryOfBirth %pin% "(Born )?[Ee]lsewhere", CountryOfBirth := NA_character_]
+  out[CountryOfBirth %pin% "Bosnia", CountryOfBirth := "Bosnia and Herzegovina"]
+  out[CountryOfBirth %pin% "Korea", CountryOfBirth := "KOR"]
+  out[CountryOfBirth %pin% c("N[a-z]+n Ireland",
+                             "England",
+                             "Scotland",
+                             "Wales"),
+      CountryOfBirth := "United Kingdom"]
+  out[CountryOfBirth %pin% "SE Europe nfd", CountryOfBirth := NA_character_]
+  out[CountryOfBirth == "Vietnam", CountryOfBirth := "VNM"]
+  # Negative lookbehind due to FYROM (Macedonia)
+  
+  
+  out[CountryOfBirth %pin% "FYROM",                   CountryOfBirth := "MKD"]
+  out[CountryOfBirth %pin% "China excl? SARs Tai?w",  CountryOfBirth := "CHN"]
+  out[CountryOfBirth %pin% c("USA", "United States"), CountryOfBirth := "USA"]
+  out[CountryOfBirth %pin% "Ho?ng Ko?ng",             CountryOfBirth := "Hong Kong"]
+  out[, CountryOfBirth := .decode_country(CountryOfBirth)]
+  out[]
+}
+```
+
 ```{r Mop}
 Mop <- function(DT, value.name = "persons", suborder = NULL) {
   stopifnot(value.name %in% names(DT),
@@ -90,8 +177,58 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
     stop("Constant columns in DT.")
   }
   
+  out <- DT
+  
+  if ("CountryOfBirth" %chin% names(out)) {
+    if (!all(coalesce(nchar(out[["CountryOfbirth"]]), 3L) == 3L)) {
+      stop("CountryOfBirth must be ISO-3166-2")
+    }
+  }
+  
+  if ("Dwelling" %chin% names(out)) {
+    out[, PrivateDwelling := Dwelling == "Private"]
+    out[, Dwelling := NULL]
+  }
+  
+  if ("HasChildren" %chin% names(out)) {
+    setnames(out, "HasChildren", "HasChild")
+  }
+  if ("HasChildrenUnder15" %chin% names(out)) {
+    setnames(out, "HasChildrenUnder15", "HasChildUnder15")
+  }
+  if ("YearOfArrival" %chin% names(out)) {
+    setnames(out, "YearOfArrival", "YearOfArrival.max")
+  }
+  
+  if ("SchoolSector" %chin% names(out)) {
+    out[SchoolSector == "Non_Govt",
+        SchoolSector := "Non-government"]
+  }
+  
+  if ("MaxSchoolingCompleted" %chin% names(out)) {
+    out[,
+        "MaxSchoolingCompleted" := factor(MaxSchoolingCompleted,
+                                          levels = c("Did not go to school", 
+                                                     "Year 8 or below",
+                                                     "Year 8",
+                                                     "Year 9",
+                                                     "Year 10",
+                                                     "Year 11",
+                                                     "Year 12"),
+                                          ordered = TRUE)]
+  }
+  
+  if ("FamilyComposition" %chin% names(out)) {
+    if (!OR("CoupleFamily" %in% names(out),
+            uniqueN(out[["FamilyComposition"]]) > 3L)) {
+      out[!grepl("Other", FamilyComposition),
+          CoupleFamily := FamilyComposition %pin% "Couple"]
+      out[, FamilyComposition := NULL]
+    }
+  }
+  
   out <- 
-    DT %>%
+    out %>%
     drop_col("variable") %>%
     setcolorder(sort(names(.))) %>%
     set_cols_first(Region_key) %>%
@@ -99,11 +236,7 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
     set_cols_last(value.name) %>%
     .[]
   
-  if ("CountryOfBirth" %in% names(DT)) {
-    out[CountryOfBirth %pin% "Born elsewhere", CountryOfBirth := "(Born elsewhere)"]
-  }
-  
-  for (j in names(DT)) {
+  for (j in names(out)) {
    out[out[[j]] == "Other", (j) := "(Other)"]
   }
   
@@ -155,8 +288,8 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
     stop("Duplicated rows.")
   }
   if (!is.null(suborder)) {
-    set_colsuborder(DT, suborder)
-    setorderv(DT, setdiff(names(out), value.name))
+    set_colsuborder(out, suborder)
+    setorderv(out, setdiff(names(out), value.name))
   }
 
   out_noms <- names(out)
@@ -167,43 +300,53 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
            paste0(setdiff(out_noms, c(Region_key, value.name)),
                   collapse = "_"))
   
-  decoder <- 
-    switch(Region,
-           "SA2" = SA16_decoder[ASGS_Structure == Region,
-                                .(SA2_MAIN16 = Census_Code_2016,
-                                  SA2_NAME16 = Census_Name_2016)],
-           "SA3" = SA16_decoder[ASGS_Structure == Region,
-                                .(SA3_MAIN16 = Census_Code_2016,
-                                  SA3_NAME16 = Census_Name_2016)],
-           "SA4" = SA16_decoder[ASGS_Structure == Region,
-                                .(SA4_MAIN16 = Census_Code_2016,
-                                  SA4_NAME16 = Census_Name_2016)],
-           "STE" = SA16_decoder[ASGS_Structure == Region,
-                                .(STE_MAIN16 = Census_Code_2016,
-                                  STE_NAME16 = Census_Name_2016)],
-           "LGA" = {
-             NonABS_decoder[ASGS_Structure == Region,
-                            .(Census_Code_2016, LGA_NAME16 = Census_Name_2016)]
-           },
-           "CED" = {
-             NonABS_decoder[ASGS_Structure == Region,
-                            .(Census_Code_2016, CED_NAME16 = Census_Name_2016)]
-           },
-           "SED" = {
-             NonABS_decoder[ASGS_Structure == Region,
-                            .(Census_Code_2016, SED_NAME16 = Census_Name_2016)]
-           },
-           "SSC" = {
-             NonABS_decoder[ASGS_Structure == Region,
-                            .(Census_Code_2016, SSC_NAME16 = Census_Name_2016)]
-           },
-           NULL) %>%
-    unique %>%
-    setnames(1, Region_key)
-  
-  decoded_out <-
-    decoder[out, on = Region_key]
-  decoded_out[, (Region_key) := NULL]
+  if (Region != "SA1") {
+    decoder <- 
+      switch(Region,
+             "SA2" = SA16_decoder[ASGS_Structure == Region,
+                                  .(SA2_MAIN16 = Census_Code_2016,
+                                    SA2_NAME16 = Census_Name_2016)],
+             "SA3" = SA16_decoder[ASGS_Structure == Region,
+                                  .(SA3_MAIN16 = Census_Code_2016,
+                                    SA3_NAME16 = Census_Name_2016)],
+             "SA4" = SA16_decoder[ASGS_Structure == Region,
+                                  .(SA4_MAIN16 = Census_Code_2016,
+                                    SA4_NAME16 = Census_Name_2016)],
+             "STE" = SA16_decoder[ASGS_Structure == Region,
+                                  .(STE_MAIN16 = Census_Code_2016,
+                                    STE_NAME16 = Census_Name_2016)],
+             "LGA" = {
+               NonABS_decoder[ASGS_Structure == Region,
+                              .(Census_Code_2016, LGA_NAME16 = Census_Name_2016)]
+             },
+             "CED" = {
+               NonABS_decoder[ASGS_Structure == Region,
+                              .(Census_Code_2016, CED_NAME16 = Census_Name_2016)]
+             },
+             "SED" = {
+               NonABS_decoder[ASGS_Structure == Region,
+                              .(Census_Code_2016, SED_NAME16 = Census_Name_2016)]
+             },
+             "SSC" = {
+               NonABS_decoder[ASGS_Structure == Region,
+                              .(Census_Code_2016, SSC_NAME16 = Census_Name_2016)]
+             },
+             NULL) %>%
+      unique %>%
+      setnames(1, Region_key)
+    
+    decoded_out <- decoder[out, on = Region_key]
+    decoded_out[, (Region_key) := NULL]
+  } else {
+    
+    if (is.integer(out[[value.name]]) && 
+        all(.subset2(out, value.name) >= 0L)) {
+      decoded_out <- out[.subset2(out, value.name) > 0L]
+    } else {
+      decoded_out <- out
+    }
+    
+  }
   
   if (!anyDuplicated(decoded_out, by = setdiff(names(decoded_out), value.name))) {
     out <- decoded_out 
@@ -212,35 +355,33 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
     print(duplicated_rows(decoded_out, by = setdiff(names(decoded_out), value.name)))
     cat("\n\n\n\n\n")
   }
-  
   assign(object_name, out, envir = .GlobalEnv)
   
   decoded_out[]
 }
 ```
 
-```{r Clear-tables}
-# Ensure we are working with pristine tables
-if (!isTRUE(getOption("knitr.in.progress"))) {
-  AllTables <- Filter(function(x) is.data.table(get(x)), ls())
-  if (length(AllTables) != 0) {
-    if (exists("table_killer")) {
-      menu_selection <- 1
-    } else {
-      menu_selection <- menu(c("Remove all tables.",
-                               "Cancel."),
-                             title = "Data tables detected. This script will save all tables in the workspace to the package. Remove current tables from workspace?")
-    }
+
+```{r ISO3166}
+iso3166_url <-
+  "https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv"
+
+ISO3166 <-
+  if (file.exists("data-raw/ISO-3166-countries.csv")) {
+    fread("data-raw/ISO-3166-countries.csv")
+  } else {
+    fread(iso3166_url) %T>%
+      fwrite("data-raw/ISO-3166-countries.csv") %>%
+      .[]
   }
-  
-  if (exists("menu_selection")) {
-    if (menu_selection %in% c(0, 2)) {
-      stop("Operation cancelled.")
-    } else {
-      rm(list = AllTables)
-    }
-  }
-}
+setnames(ISO3166, "alpha-3", "alpha_3")
+```
+
+```{r}
+expect_equal(.decode_country(c("United Kingdom", "Australia", "Australia",
+                               NA)), 
+             c("GBR", "AUS", "AUS",
+               NA))
 ```
 
 ```{r LGA_decoder}
@@ -302,7 +443,7 @@ extract_age <- function(variable, orderedFactor = TRUE) {
     gsub("_?ov", "+", ., perl = TRUE)
   
   # Has 'ov' in original and only numbers in out
-  out <- dplyr::if_else(grepl("[^A-Za-z]ov[^A-Za-z]", variable, perl = TRUE) & grepl("^[0-9]+$", out),
+  out <- hutils::if_else(grepl("[^A-Za-z]ov[^A-Za-z]", variable, perl = TRUE) & grepl("^[0-9]+$", out),
                         paste0(out, "+"),
                         out)
   
@@ -711,6 +852,7 @@ freadG(3) %>%
     UsualResidence := paste("Visitor from", gsub("VisDiff_SA2_", "", ResidenceVar))] %>%
   .[ResidenceVar %pin% "VisSame",
     UsualResidence := "Visitor same SA2"] %>%
+  .[, ResidenceVar := NULL] %>%
   Mop
 ```
 
@@ -866,7 +1008,10 @@ freadG(9) %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "persons") %>%
   .[!grepl("COB_NS", variable), CountryOfBirth := gsub("^P_(.*)_Tot$", "\\1", variable)] %>%
-  .[, CountryOfBirth := gsub("_", " ", CountryOfBirth)] %>%
+  decode_country %>%
+  # mop up missings
+  .[, .(persons = sum(persons)), keyby = c(Region_key, "CountryOfBirth")] %>%
+  .[] %>%
   Mop
 ```
 
@@ -876,11 +1021,11 @@ freadG(9) %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "persons") %>%
   .[!grepl("COB_NS", variable), CountryOfBirth := gsub("^[MF]_(.*)_Tot$", "\\1", variable)] %>%
-  .[, CountryOfBirth := gsub("_", " ", CountryOfBirth)] %>%
-  .[, CountryOfBirth := gsub("Born elsewhere", "(Born elsewhere)", CountryOfBirth, fixed = TRUE)] %>%
+  decode_country %>%
   .[, Sex := "M"] %>%
   .[grepl("^F", variable), Sex := "F"] %>%
   .[] %>%
+  .[, .(persons = sum(persons)), keyby = c(Region_key, "CountryOfBirth", "Sex")] %>%
   Mop
 ```
 
@@ -892,15 +1037,12 @@ freadG(10) %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "persons_born_overseas") %>%
   .[!grepl("NS$", variable, ignore.case = TRUE), YearOfArrival := as.integer(gsub("^.*_([0-9]+)$", "\\1", variable))] %>%
+  .[YearOfArrival < 1900L,
+    YearOfArrival := if_else(YearOfArrival < 17L, 2000L, 1000L) + YearOfArrival] %>%
   .[, CountryOfBirth := gsub("(_Be?fo?re)?_[0-9]+(_[0-9]+)?$", "", variable)] %>%
-  # Negative lookbehind due to FYROM (Macedonia)
-  .[, CountryOfBirth := gsub("(?<!(F))Ye?a?r.*arrival.ns$", "", CountryOfBirth, ignore.case = TRUE)] %>%
-  .[, CountryOfBirth := trimws(gsub("_", " ", CountryOfBirth))] %>%
-  .[CountryOfBirth %pin% "FYROM",                   CountryOfBirth := "FYROM"] %>%
-  .[CountryOfBirth %pin% "China excl? SARs Tai?w",  CountryOfBirth := "China excl SARs Taiwan"] %>%
-  .[CountryOfBirth %pin% c("USA", "United States"), CountryOfBirth := "USA"] %>%
-  .[CountryOfBirth %pin% "Korea",                   CountryOfBirth := "South Korea"] %>%
-  .[CountryOfBirth %pin% "Ho?ng Ko?ng",             CountryOfBirth := "Hong Kong"] %>%
+  decode_country %>%
+  .[, .(persons_born_overseas = sum(persons_born_overseas)),
+    keyby = c(Region_key, "CountryOfBirth", "YearOfArrival")] %>%
   Mop("persons_born_overseas")
 ```
 
@@ -987,7 +1129,11 @@ freadG(14) %>%
   .[variable %pin% "Othr_Reln_Other_reln_groups",                                                   Denomination := "(Other)"] %>%
   .[variable %pin% "SB_OSB_NRA_SB",                                                                 Denomination := "Secular beliefs"] %>%
   .[variable %pin% "SB_OSB_NRA_OSB",                                                                Denomination := "Other spiritual beliefs"] %>%
-  .[,                                                                                               Denomination := gsub("_", " ", Denomination)] %>%
+  .[variable %pin% "SB_OSB_NRA_OSB",                                                                Denomination := "Other spiritual beliefs"] %>%
+  .[Denomination %ein% "Lattr_day_Snts",                                                            Denomination := "Latter Day Saints"] %>%
+  .[, Denomination := gsub("_", " ", Denomination)] %>%
+  .[Denomination %pin% "nfd$", Denomination := NA_character_] %>%
+  .[Denomination %pin% "Asyrin", Denomination := "Assyrian Apostolic"] %>%
   Mop(suborder = c("Religion", "Denomination"))
 ```
 
@@ -1276,14 +1422,15 @@ freadG(27) %>%
   .[] %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "families_with_children") %>%
-
-  .[grepl("^Intc", variable),    FamilyComposition := "Intact"] %>%
-  .[grepl("^Step", variable),    FamilyComposition := "Stepfamily"] %>%
-  .[grepl("^Blnd", variable),    FamilyComposition := "Blended"] %>%
-  .[grepl("^Otr_cpl", variable), FamilyComposition := "Other couple"] %>%
-
-  .[, ChildrenPresent := !grepl("no_otr_chld_pre", variable)] %>%
   .[] %>%
+  {
+    dot <- .
+    metadata27 <- Metadata[grepl("G27", `DataPack file`),
+                           .(variable = Short, Long)]
+    metadata27[dot, on = "variable", nomatch=0L]
+  } %>%
+  .[, FamilyComposition := gsub("_", " ", sub("_Families$", "", Long))] %>%
+  .[, .SD, .SDcols = c(Region_key, "FamilyComposition", "families_with_children")] %>%
   Mop("families_with_children")
 ```
 
@@ -1443,7 +1590,8 @@ freadG(38) %>%
   .[variable %pin% "Flt_apt_4",             DwellingSubtype :=    "4 or more storey block"] %>%
   
   # 
-  .[!grepl("NofB_NS$", variable),           NumberBedrooms.min := sub("^.*NofB.([0-9]+).*$", "\\1", variable)] %>%
+  .[!grepl("Nof?B_NS$", variable),           NumberBedrooms.min := sub("^.*Nof?B.([0-9]+).*$", "\\1", variable)] %>%
+  .[, NumberBedrooms.min := as.integer(NumberBedrooms.min)] %>%
   .[] %>%
   Mop("occupied_private_dwellings")
 ```
@@ -1471,20 +1619,19 @@ freadG(39) %>%
   .[variable %pin% "^OD_Imp_home_T", DwellingSubtype :=   "Improvised home, tent sleepers"] %>%
   .[variable %pin% "^OD_HorF",       DwellingSubtype :=   "House or flat attached to a shop, office, etc"] %>%
   
-  .[variable %pin% "FHs_CF_no_C$",   FamilyComposition := "Couple family with no children"] %>%
-  .[variable %pin% "FHs_CF_C$",      FamilyComposition := "Couple family with children"] %>%
-  .[variable %pin% "FHs_OnePF$",     FamilyComposition := "One parent family with children"] %>%
-  .[variable %pin% "FHs_Oth_fam$",   FamilyComposition := "Other family"] %>%
-  .[variable %pin% "Lone_P_H$",      FamilyComposition := "Lone-person household"] %>%
-  .[variable %pin% "Group_H$",       FamilyComposition := "Group household"] %>%
-  .[,                                FamilyComposition := factor(FamilyComposition, levels = unique(.$FamilyComposition), ordered = TRUE)] %>%
-  .[] %>%
+  .[variable %pin% "FHs_CF_no_C$",   HouseholdComposition := "Couple family with no children"] %>%
+  .[variable %pin% "FHs_CF_C$",      HouseholdComposition := "Couple family with children"] %>%
+  .[variable %pin% "FHs_OnePF$",     HouseholdComposition := "One parent family with children"] %>%
+  .[variable %pin% "FHs_Oth_fam$",   HouseholdComposition := "Other family"] %>%
+  .[variable %pin% "Lone_P_H$",      HouseholdComposition := "Lone-person household"] %>%
+  .[variable %pin% "Group_H$",       HouseholdComposition := "Group household"] %>%
   Mop("occupied_private_dwellings")
 ```
 
 ```{r}
 FINISH <- Sys.time()
 ```
+
 
 ```{r use_data, eval=dir.exists("data")}
 # Print side-effect ok
@@ -1496,7 +1643,8 @@ lapply(list.files(path = "data/",
   rbindlist %$%
   sum(size) %>%
   divide_by(1024^2) %>%
-  cat
+  round(2) %>%
+  cat("MB")
 
 region_dtas <-list.files(path = "data/",
                          pattern = Region,
@@ -1508,19 +1656,34 @@ vapply(region_dtas,
   all %>%
   stopifnot
 
+provide.dir(paste0("data-raw/data/", Region))
+if (Region == "SA1") {
+  data_path <- normalizePath("~/Census2016.DataPack.SA1/data")
+} else {
+  data_path <- "data"
+}
 for (tbl in ced_tbls) {
-  save(list = tbl, file = file.path("data", paste0(tbl, ".rda")))
+  save(list = tbl,
+       file = file.path(data_path, paste0(tbl, ".rda")),
+       compress = "xz",
+       compression_level = 9)
+  fwrite(get(tbl),
+         file = file.path("data-raw", "data", Region, paste0(tbl, ".csv")))
 }
 
-region_dtas <-list.files(path = "data/",
-                         pattern = Region,
-                         full.names = TRUE)
-tools::resaveRdaFiles(paths = region_dtas)
+region_dtas <- list.files(path = "data/",
+                          pattern = Region,
+                          full.names = TRUE)
+# tools::resaveRdaFiles(paths = region_dtas)
+
 lapply(list.files(path = "data/",
+                  pattern = Region,
                   full.names = TRUE),
        file.info) %>%
   rbindlist %$%
   sum(size) %>%
   divide_by(1024^2) %>%
-  cat
+  round(2) %>%
+  cat("MB")
 ```
+
