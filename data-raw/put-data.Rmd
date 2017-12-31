@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r Region}
-Region <- "SA2"
+Region <- "POA"
 ```
 
 ```{r setup}
@@ -306,7 +306,7 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
                     collapse = "_")
            })
   
-  if (Region != "SA1") {
+  if (Region %notin% c("SA1", "POA")) {
     decoder <- 
       switch(Region,
              "SA2" = SA16_decoder[ASGS_Structure == Region,
@@ -346,6 +346,7 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
   } else {
     
     if (is.integer(out[[value.name]]) && 
+        !anyNA(out[[value.name]]) &&
         all(.subset2(out, value.name) >= 0L)) {
       decoded_out <- out[.subset2(out, value.name) > 0L]
     } else {
@@ -1504,7 +1505,7 @@ freadG(32, na.strings = "..") %>%
 ```
 
 ```{r }
-freadG(33)
+# freadG(33)
 ```
 
 ```{r}
