@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r Region}
-Region <- "POA"
+Region <- "LGA"
 ```
 
 ```{r setup}
@@ -1374,7 +1374,7 @@ freadG(24) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "females") %>%
-  .[, Age := extract_age(variable)] %>%
+  .[, Age5yr := extract_age(variable)] %>%
   .[!grepl("(Nne|ns)$", variable), ChildrenEverBorn := as.integer(gsub("^.*brn_([1-6]).*$", "\\1", variable))] %>%
   .[grepl("Nne$", variable),       ChildrenEverBorn := 0L] %>%
   Mop("females")
