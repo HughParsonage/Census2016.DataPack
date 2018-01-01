@@ -205,6 +205,19 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
         SchoolSector := "Non-government"]
   }
   
+  if ("Ancestry" %chin% names(out)) {
+    out[Ancestry == "Macdonian", Ancestry := "Macedonian"]
+    if ("FatherBornAus" %chin% names(out) &&
+        "MotherBornAus" %chin% names(out)) {
+      out[Ancestry == "Australian Birthplace not stated", FatherBornAus := NA]
+      out[Ancestry == "Australian Birthplace not stated", MotherBornAus := NA]
+      out[Ancestry == "Australian Birthplace not stated", Ancestry := "Australian"]
+      out[Ancestry == "Australian Both parents born Australian", MotherBornAus := TRUE]
+      out[Ancestry == "Australian Both parents born Australian", MotherBornAus := TRUE]
+      out[Ancestry == "Australian Both parents born Australian", Ancestry := "Australian"]
+    }
+  }
+  
   if ("MaxSchoolingCompleted" %chin% names(out)) {
     out[,
         "MaxSchoolingCompleted" := factor(MaxSchoolingCompleted,
