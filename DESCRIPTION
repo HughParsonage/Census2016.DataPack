@@ -9,3 +9,7 @@ Encoding: UTF-8
 LazyData: true
 Imports: data.table
 RoxygenNote: 6.0.1
+Remotes: hughparsonage/Census2016.spec
+Suggests: 
+    testthat,
+    Census2016.spec

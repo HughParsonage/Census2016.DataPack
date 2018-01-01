@@ -3,6 +3,9 @@ sudo: true
 cache: packages
 packages:
 - drat
+
+r_github_packages:
+- hughparsonage/Census2016.spec
 include:
 - r: release
 - r: oldrel
@@ -12,8 +15,7 @@ script:
 - R CMD build .
 after_success:
 - Rscript -e 'if (!requireNamespace("drat", quietly = TRUE)) install.packages("drat")'
-- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash
-  deploy.sh
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash deploy.sh
 env:
   global:
     secure: ka0WF3NxLwbvmSA+l17jbKap4GpWzQ+7vrKMJ+HU6eRzZhCDWGbexaLoSnUDBVw0yLZspG239I5M/zWgJi6z1F8V1wp7Qqys2NzjPvJa3ExSQtsou5T4z6RnfegAHUdWsS312+QXZzGR7SrIDAFUzT3SPKF92ZYw1dWPwYDdoEPmsnn/Dp0nt0dRzxcREYfE+yqdIHbyq1bBELYg408xlsrYNYi1+0VHa59K3AGL+WRN7G9IWM7tw7BdYySG5i4Jifmz7OajOje34xk5GFlfe4ClKOG+3KX0gehR4njzrn51ZK2oP+VcKwTYYH6tvymrlIXhhdQKezbwJ+tF5dqzqbONhbQA2JAXT7Ez3GuwQXQXDyodzhNYr4/lt0iGiOkElryYk72sJybKcRfLA8X8YJeHvqzJQqdZb6lMtBVFdmcpcdofuZm7/+LW9QfgYKVKfs04TUAWNzY3IrAEO39135TaoLeZHUWalDFdgQvgbFDq8sKck19JK6D0eGuxy/HB3+867t33DBvxxDQovCOh62AKXKoTLyuZ+rG/1ChHrbNmIVNhrqJs/ZVySHdV2CmqOMFnlCP2lezOxFg+YxGy+SP2vYBkCSx2kOj6v4AGy7guEST1XEXsw1S8bslrGrrHV4TUNlg+aoghyb1D4U/ceAZip4JfnsTiUVroyxmqqew=
