@@ -961,7 +961,7 @@ freadG(7) %>%
                                   grepl("Tot", names(.)))]] %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "persons") %>%
-  .[, Age := extract_age(variable)] %>%
+  .[, Age5yr := extract_age(variable)] %>%
   .[!grepl("_stat_ns", variable), Indigenous := !grepl("Non_Indig", variable)] %>%
   Mop
 ```
@@ -973,7 +973,7 @@ freadG(7) %>%
                                     !grepl("Tot", names(.)))])] %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "persons") %>%
-  .[, Age := extract_age(variable)] %>%
+  .[, Age5yr := extract_age(variable)] %>%
   .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
   .[!grepl("_stat_ns", variable), Indigenous := !grepl("Non_Indig", variable)] %>%
   Mop()
