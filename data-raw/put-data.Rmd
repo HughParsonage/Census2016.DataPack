@@ -19,17 +19,18 @@ knitr::opts_chunk$set(echo = TRUE,
 ```
 
 ```{r loadPackages}
-library(readxl)
-library(testthat)
-library(magrittr)
-library(hutils)
-library(data.table)
-
+suppressPackageStartupMessages({
+  library(readxl, quietly = TRUE)
+  library(testthat, quietly = TRUE)
+  library(magrittr, quietly = TRUE)
+  library(hutils, quietly = TRUE)
+  library(data.table, quietly = TRUE)
+})
 ```
 
 ```{r Clear-tables}
 # Ensure we are working with pristine tables
-if (!isTRUE(getOption("knitr.in.progress"))) {
+if (exists("table_killer") || !isTRUE(getOption("knitr.in.progress"))) {
   AllTables <- Filter(function(x) is.data.table(get(x)), ls())
   if (length(AllTables) != 0) {
     if (exists("table_killer")) {
@@ -49,7 +50,7 @@ if (!isTRUE(getOption("knitr.in.progress"))) {
     }
   }
 }
-library(ASGS)
+library(ASGS, quietly = TRUE)
 ```
 
 ```{r}
@@ -243,6 +244,11 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
   if ("IncomeTotPersonal.min" %chin% names(out)) {
     out[, IncomeTotPersonal.min := NULL]
     return(NULL)
+  }
+  
+  if ("DwellingSubtype" %chin% names(out)) {
+    out[DwellingSubtype == "4 or more storey block",
+        DwellingSubtype := "4 storey block or more"]
   }
   
   out <- 
@@ -607,7 +613,6 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
     IndigenousStatus := "Both Aboriginal & Torres Strait Islander"] %>%
   .[variable == "Indig_psns_Torres_Strait_Is_P",
     IndigenousStatus := "Torres Strait Islander"] %>%
-  .[, IndigenousStatus := factor(IndigenousStatus, levels = unique(.$IndigenousStatus), ordered = TRUE)] %>%
   Mop
 ```
 
@@ -1076,7 +1081,7 @@ freadG(10) %>%
                   value.name = "persons_born_overseas") %>%
   .[!grepl("NS$", variable, ignore.case = TRUE), YearOfArrival := as.integer(gsub("^.*_([0-9]+)$", "\\1", variable))] %>%
   .[YearOfArrival < 1900L,
-    YearOfArrival := if_else(YearOfArrival < 17L, 2000L, 1000L) + YearOfArrival] %>%
+    YearOfArrival := if_else(YearOfArrival < 17L, 2000L, 1900L) + YearOfArrival] %>%
   .[, CountryOfBirth := gsub("(_Be?fo?re)?_[0-9]+(_[0-9]+)?$", "", variable)] %>%
   decode_country %>%
   .[, .(persons_born_overseas = sum(persons_born_overseas)),
@@ -1561,7 +1566,7 @@ freadG(34) %>%
 ```{r G35}
 freadG(35) %>%
   .[, .SD, .SDcols = ngrep("Tot", names(.))] %>%
-  .[, .SD, .SDcols = c(Region_key, grep("^..[0-9]", names(.), value = TRUE))] %>%
+  .[, .SD, .SDcols = unique(c(Region_key, grep("^..[0-9]", names(.), value = TRUE)))] %>%
   melt.data.table(id.vars = Region_key,
                   value.name = "families_in_occupied_private_dwellings_being_purchased") %>%
   .[grepl("CF", variable),   FamilyComposition :=     "Couple family"] %>%
@@ -1581,7 +1586,7 @@ freadG(35) %>%
 ```{r G36}
 freadG(36) %>%
   .[, .SD, .SDcols = ngrep("Tot", names(.))] %>%
-  .[, .SD, .SDcols = c(Region_key, grep("^..[0-9]", names(.), value = TRUE))] %>%
+  .[, .SD, .SDcols = unique(c(Region_key, grep("^..[0-9]", names(.), value = TRUE)))] %>%
   # typo:
   setnames("R_650_over_LT_Lld_type_ns", "R_950_over_LT_Lld_type_ns") %>%
   melt.data.table(id.vars = Region_key,
@@ -1675,7 +1680,10 @@ FINISH <- Sys.time()
 ```{r use_data, eval=dir.exists("data")}
 # Print side-effect ok
 stopifnot(dir.exists("data"))
-ced_tbls <- grep(Region, tables()$NAME, value = TRUE)
+invisible(ced_tbls <- grep(Region, tables(silent = TRUE)$NAME, value = TRUE))
+
+library(Census2016.spec)
+test_check(data_list = mget(ced_tbls), show.progress = FALSE)
 
 
 if (Region == "SA1") {
@@ -1708,6 +1716,7 @@ prior_region_data_size <-
   divide_by(1024^2) %>%
   round(2)
 }, silent = TRUE)
+
 region_dtas <- c(list.files(path = "data/",
                             pattern = Region,
                             full.names = TRUE),
@@ -1721,13 +1730,20 @@ vapply(region_dtas,
   all %>%
   stopifnot
 
+library(foreach)
+library(doParallel)
+cl <- makeCluster(8)
+registerDoParallel(cl)
 
-
-for (tbl in ced_tbls) {
+foreach(tbl in ced_tbls) %dopar% {
   save(list = tbl,
        file = file.path(data_path, paste0(tbl, ".rda")),
        compress = "gzip",
        compression_level = 9)
+}
+
+
+for (tbl in ced_tbls) {
   
   file.csv <- file.path("data-raw", "data", Region, paste0(tbl, ".csv"))
   
@@ -1798,8 +1814,10 @@ current_data_size <-
   divide_by(1024^2) %>%
   round(2)
 
-cat("Region:\t", prior_region_data_size, "MB  ===> ", current_region_data_size, "MB")
-cat("Total: \t", prior_data_size, "MB  ===> ", current_data_size, "MB")
+cat("\n")
+cat("Region:\t", prior_region_data_size, "MB  ===> ", current_region_data_size, "MB\n")
+cat("Total: \t", prior_data_size, "MB  ===> ", current_data_size, "MB\t")
+
 
 ```
 
