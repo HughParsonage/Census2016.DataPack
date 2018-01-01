@@ -5,11 +5,13 @@ date: "17 July 2017"
 output: html_document
 ---
 
-```{r Region}
-# Region <- "SA2"
+
+```r
+# Region <- "CED"
 ```
 
-```{r setup}
+
+```r
 START <- Sys.time()
 if (basename(dirname(getwd())) == "data-raw") {
   knitr::opts_knit$set(root.dir = "..")
@@ -18,16 +20,17 @@ knitr::opts_chunk$set(echo = TRUE,
                       print_chunk = TRUE)
 ```
 
-```{r loadPackages}
+
+```r
 library(readxl)
 library(testthat)
 library(magrittr)
 library(hutils)
 library(data.table)
-
 ```
 
-```{r Clear-tables}
+
+```r
 # Ensure we are working with pristine tables
 if (!isTRUE(getOption("knitr.in.progress"))) {
   AllTables <- Filter(function(x) is.data.table(get(x)), ls())
@@ -52,7 +55,8 @@ if (!isTRUE(getOption("knitr.in.progress"))) {
 library(ASGS)
 ```
 
-```{r}
+
+```r
 Metadata <-
   read_excel("data-raw/data-packs/Metadata/Metadata_2016_GCP_DataPack.xls",
              sheet = 2,
@@ -60,18 +64,33 @@ Metadata <-
   as.data.table
 ```
 
-```{r SA16_decoder}
+```
+## Error in read_fun(path = path, sheet = sheet, limits = limits, shim = shim, : path[1]="data-raw/data-packs/Metadata/Metadata_2016_GCP_DataPack.xls": The system cannot find the path specified
+```
+
+
+```r
 SA16_decoder <- fread("data-raw/SA16_decoder.csv")
 ```
 
-```{r Region_key}
+```
+## Error in fread("data-raw/SA16_decoder.csv"): File 'data-raw/SA16_decoder.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 Region_key <- 
   fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv')) %>%
   names %>%
   extract2(1)
 ```
 
-```{r freadG}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 #' @return Wide as-is data table of all tables.
 freadG <- function(g, ...) {
   stopifnot(length(g) == 1)
@@ -91,18 +110,21 @@ freadG <- function(g, ...) {
 }
 ```
 
-```{r grep-grepl-gsub}
+
+```r
 # Performance
 grep <- function(..., perl, fixed) base::grep(..., perl = missing(fixed), fixed = !missing(fixed))
 grepl <- function(..., perl, fixed) base::grepl(..., perl = missing(fixed), fixed = !missing(fixed))
 gsub <- function(..., perl, fixed) base::gsub(..., perl = missing(fixed), fixed = !missing(fixed))
 ```
 
-```{r force_double}
+
+```r
 force_double <- function(x) suppressWarnings(as.double(x))
 ```
 
-```{r total_adults}
+
+```r
 total_adults <- 
   fread("./data-raw/data-packs/data/AUST/2016Census_G01_AUS.csv") %>%
   .[, .SD, .SDcols = c(1, grep("^Age_[0-9]{2}.*_P$", names(.)))] %>%
@@ -110,7 +132,12 @@ total_adults <-
   sum(value)
 ```
 
-```{r decode_country}
+```
+## Error in fread("./data-raw/data-packs/data/AUST/2016Census_G01_AUS.csv"): File './data-raw/data-packs/data/AUST/2016Census_G01_AUS.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 .decode_country <- function(x, to = "alpha-3") {
   xna <- is.na(x)
   x[!xna] <- trimws(x[!xna])
@@ -158,7 +185,8 @@ decode_country <- function(out) {
 }
 ```
 
-```{r Mop}
+
+```r
 Mop <- function(DT, value.name = "persons", suborder = NULL) {
   stopifnot(value.name %in% names(DT),
             # Should be Completed
@@ -229,7 +257,6 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
   
   if ("IncomeTotPersonal.min" %chin% names(out)) {
     out[, IncomeTotPersonal.min := NULL]
-    return(NULL)
   }
   
   out <- 
@@ -388,7 +415,8 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
 ```
 
 
-```{r ISO3166}
+
+```r
 iso3166_url <-
   "https://raw.githubusercontent.com/lukes/ISO-3166-Countries-with-Regional-Codes/master/all/all.csv"
 
@@ -400,24 +428,46 @@ ISO3166 <-
       fwrite("data-raw/ISO-3166-countries.csv") %>%
       .[]
   }
+```
+
+```
+## Error in fwrite(., "data-raw/ISO-3166-countries.csv"): No such file or directory: 'data-raw/ISO-3166-countries.csv'. Unable to create new file for writing (it does not exist already). Do you have permission to write here, is there space on the disk and does the path exist?
+```
+
+```r
 setnames(ISO3166, "alpha-3", "alpha_3")
 ```
 
-```{r}
+```
+## Error in is.data.frame(x): object 'ISO3166' not found
+```
+
+
+```r
 expect_equal(.decode_country(c("United Kingdom", "Australia", "Australia",
                                NA)), 
              c("GBR", "AUS", "AUS",
                NA))
 ```
 
-```{r LGA_decoder}
+```
+## Error in stopifnot(to == "alpha-3", names(ISO3166)[1] == "name"): object 'ISO3166' not found
+```
+
+
+```r
 NonABS_decoder <-
   read_excel("./data-raw/data-packs/Metadata/2016Census_geog_desc_1st_release.xlsx",
              sheet = "2016_ASGS_Non-ABS_Structures") %>%
   as.data.table
 ```
 
-```{r zero2NA}
+```
+## Error in sheets_fun(path): zip file './data-raw/data-packs/Metadata/2016Census_geog_desc_1st_release.xlsx' cannot be opened
+```
+
+
+```r
 zero2NA <- function(DT) {
   Classes <- vapply(DT, storage.mode, character(1))
   IntNoms <- names(Classes)[Classes == "integer"]
@@ -443,7 +493,8 @@ local({
 })
 ```
 
-```{r CED_decoder, eval=FALSE}
+
+```r
 CED_decoder <-
   read_excel("./data-raw/data-packs/Metadata/2016Census_geog_desc_1st_release.xlsx", 
              sheet = "2016_ASGS_Non-ABS_Structures") %>%
@@ -454,7 +505,8 @@ CED_decoder <-
   .[, .SD, .SDcols =  c(Region_key, "Electoral_division")]
 ```
 
-```{r extract_age}
+
+```r
 extract_age <- function(variable, orderedFactor = TRUE) {
   out <- 
     variable %>%
@@ -488,7 +540,8 @@ expect_equal(extract_age("M_1_149_15_19_yrs", FALSE), "15-19")
 expect_equal(extract_age("M_1_149_85ov", FALSE), "85+")
 ```
 
-```{r strip_age}
+
+```r
 strip_age <- function(variable, orderedFactor = FALSE) {
   out <- 
     variable %>%
@@ -507,7 +560,8 @@ expect_equal(strip_age("P_15_19_yr_Marrd_reg_marrge"), "P_Marrd_reg_marrge")
 
 ### G01
 
-```{r Region__Persons}
+
+```r
 assign(paste0(Region, '__Persons'), { 
   fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'),
         select = c(Region_key, "Tot_P_P")) %>%
@@ -516,7 +570,12 @@ assign(paste0(Region, '__Persons'), {
 })
 ```
 
-```{r Region__Sex}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'),
       select = c(Region_key, "Tot_P_M", "Tot_P_F")) %>%
   melt.data.table(id.vars = Region_key,
@@ -527,7 +586,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop
 ```
 
-```{r Region__Age}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv')) %>%
   .[, .SD, .SDcols = c(Region_key, 
                        grep("^Age_[0-9].*P$", names(.), value = TRUE))] %>%
@@ -538,7 +602,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop
 ```
 
-```{r Region__Age_Sex}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv')) %>%
   .[, .SD, .SDcols = c(Region_key, 
                        grep("^Age_[0-9].*[MF]$", names(.), value = TRUE))] %>%
@@ -550,7 +619,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop
 ```
 
-```{r Region__HomeCensusNight}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
       select = c(Region_key, "Counted_Census_Night_home_P", "Count_Census_Nt_Ewhere_Aust_P")) %>%
   melt.data.table(id.vars = Region_key,
@@ -560,7 +634,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop
 ```
 
-```{r Region__HomeCensusNight_Sex}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
       select = c(Region_key,
                  "Counted_Census_Night_home_M", "Count_Census_Nt_Ewhere_Aust_M",
@@ -573,7 +652,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop
 ```
 
-```{r Region__IndigenousStatus}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
         select = c(Region_key,
                    "Tot_P_P",
@@ -598,7 +682,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop
 ```
 
-```{r Region__BornAust}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
       select = c(Region_key, 
                  "Birthplace_Australia_P",
@@ -611,7 +700,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop
 ```
 
-```{r Region__BornAust_Sex}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
       select = c(Region_key, 
                  "Birthplace_Australia_F", "Birthplace_Australia_M",
@@ -625,7 +719,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop
 ```
 
-```{r Region__OnlyEnglishSpokenHome}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
       select = c(Region_key, 
                  "Lang_spoken_home_Eng_only_P",
@@ -637,7 +736,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop
 ```
 
-```{r Region__OnlyEnglishSpokenHome_Sex}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
         select = c(Region_key, 
                    "Lang_spoken_home_Eng_only_F",
@@ -653,7 +757,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop
 ```
 
-```{r Region__AustCitizen}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'),
         select = c(Region_key,
                    "Tot_P_P",
@@ -665,11 +774,15 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   .[, AustCitizen := TRUE] %>%
   .[variable == "NAust", AustCitizen := FALSE] %>%
   Mop
+```
 
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
 ```
 
 
-```{r Region__AustCitizen_Sex}
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'),
       select = c(Region_key,
                  "Tot_P_F",
@@ -689,7 +802,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop
 ```
 
-```{r Region__Age_students}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'),
       select = c(Region_key,
                  "Age_psns_att_educ_inst_0_4_P",
@@ -704,7 +822,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop("students")
 ```
 
-```{r Region__Age_Sex_students}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'),
       select = c(Region_key,
                  "Age_psns_att_educ_inst_0_4_F",
@@ -725,7 +848,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop("students")
 ```
 
-```{r Region__MaxSchoolingCompleted}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv')) %>%
   .[, .SD, .SDcols = c(Region_key, grep("High_yr_schl_comp_.*_P", names(.), value = TRUE))] %>%
   melt.data.table(id.vars = Region_key,
@@ -738,7 +866,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop("adults")
 ```
 
-```{r Region__MaxSchoolingCompleted_Sex}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv')) %>%
   .[, .SD, .SDcols = c(Region_key, grep("High_yr_schl_comp_.*_[MF]$", names(.), value = TRUE))] %>%
   melt.data.table(id.vars = Region_key,
@@ -752,7 +885,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop
 ```
 
-```{r Region__Dwelling}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
       select = c(Region_key,
                  #"Count_psns_occ_priv_dwgs_M",
@@ -768,7 +906,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop
 ```
 
-```{r Region__Dwelling_Sex}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'), 
       select = c(Region_key,
                  "Count_psns_occ_priv_dwgs_M",
@@ -784,8 +927,13 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_',
   Mop
 ```
 
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G01_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G01_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
 ### G02
-```{r Region__medianTotalPersonalIncome}
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
   .[, .SD, .SDcols = c(Region_key, "Median_tot_prsnl_inc_weekly")] %>%
   setnames("Median_tot_prsnl_inc_weekly", "medianTotalPersonalIncome") %>%
@@ -799,8 +947,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_',
   Mop("medianTotalPersonalIncome")
 ```
 
-```{r Region__medianMortgageRepayment}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G02_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G02_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
 
+
+```r
   fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
     .[, .SD, .SDcols = c(Region_key, "Median_mortgage_repay_monthly")] %>%
     setnames("Median_mortgage_repay_monthly", "medianMortgageRepayment") %>%
@@ -812,10 +964,14 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_',
     set_cols_last("persons") %>%
     .[] %>%
     Mop("medianMortgageRepayment")
-
 ```
 
-```{r Region__medianTotalHouseholdIncome}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G02_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G02_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
   .[, .SD, .SDcols = c(Region_key, "Median_tot_hhd_inc_weekly")] %>%
   setnames("Median_tot_hhd_inc_weekly", "medianTotalHouseholdIncome") %>%
@@ -827,10 +983,14 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_',
   set_cols_last("persons") %>%
   .[] %>%
   Mop("medianTotalHouseholdIncome")
-
 ```
 
-```{r Region__medianTotalFamilyIncome}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G02_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G02_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
   .[, .SD, .SDcols = c(Region_key, "Median_tot_fam_inc_weekly")] %>%
   setnames("Median_tot_fam_inc_weekly", "medianTotalFamilyIncome") %>%
@@ -844,7 +1004,12 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_',
   Mop("medianTotalFamilyIncome")
 ```
 
-```{r Region__medianRent}
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G02_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G02_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
+
+```r
 fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_', Region, '.csv')) %>%
   .[, .SD, .SDcols = c(Region_key, "Median_rent_weekly")] %>%
   setnames("Median_rent_weekly", "medianRent") %>%
@@ -858,9 +1023,14 @@ fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G02_AUS_',
   Mop("medianRent")
 ```
 
+```
+## Error in fread(paste0("./data-raw/data-packs/data/", Region, "/AUST/2016Census_G02_AUS_", : File './data-raw/data-packs/data/POA/AUST/2016Census_G02_AUS_POA.csv' does not exist; getwd()=='C:/Users/hughp/Documents/Census2016.DataPack/data-raw'. Include correct full path, or one or more spaces to consider the input a system command.
+```
+
 ### G03
 
-```{r Region__UsualResidence_Age}
+
+```r
 freadG(3) %>%
   melt.data.table(id.vars = Region_key,
                   variable.factor = FALSE,
@@ -881,9 +1051,14 @@ freadG(3) %>%
   Mop
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 ### G04
 
-```{r Region__minAge}
+
+```r
 freadG(4) %>%
   .[, .SD, .SDcols = c(Region_key,
                        grep("yr_[0-9]{1,3}_(over_)?P$", names(.), value = TRUE),
@@ -901,7 +1076,12 @@ freadG(4) %>%
   Mop
 ```
 
-```{r Region__minAge_Sex}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 freadG(4) %>%
   .[, .SD, .SDcols = c(Region_key,
                        grep("yr_[0-9]{1,3}_(over_)?[MF]$", names(.), value = TRUE),
@@ -922,7 +1102,12 @@ freadG(4) %>%
   Mop
 ```
 
-```{r Region__Age_MaritalStatus_Sex}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 freadG(5) %>% 
   .[,
     .SD,
@@ -937,7 +1122,12 @@ freadG(5) %>%
   Mop("responses")
 ```
 
-```{r Region__Age_MaritalStatus}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 freadG(6) %>%
   .[, .SD, .SDcols = c(Region_key,
                        names(.)[grepl("^P_", names(.)) & !grepl("Tot", names(.))])] %>%
@@ -953,9 +1143,14 @@ freadG(6) %>%
   Mop("adults")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 ## G07
 
-```{r CED__Age_Indigenous}
+
+```r
 freadG(7) %>%
   .[, .SD, .SDcols = names(.)[nor(grepl("[MF]$", names(.)),
                                   grepl("Tot", names(.)))]] %>%
@@ -966,7 +1161,12 @@ freadG(7) %>%
   Mop
 ```
 
-```{r CED__Age_Indigenous_Sex}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 freadG(7) %>%
   .[, .SD, .SDcols = c(Region_key,
                        names(.)[and(grepl("[MF]$", names(.)),
@@ -979,7 +1179,12 @@ freadG(7) %>%
   Mop()
 ```
 
-```{r Region__Ancestry}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 freadG(8) %>%
   .[, .SD, .SDcols = c(Region_key,
                        grep("Tot_Resp", names(.), value = TRUE))] %>%
@@ -996,8 +1201,13 @@ freadG(8) %>%
   Mop("responses")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
 
-```{r Region__Ancestry_FatherBornAus_MotherBornAus}
+
+
+```r
 freadG(8) %>%
   .[, .SD, .SDcols = c(ngrep("Tot", names(.)))] %>%
   melt.data.table(id.vars = Region_key,
@@ -1025,9 +1235,14 @@ freadG(8) %>%
   Mop("responses")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 ## G09
 
-```{r Region__CountryOfBirth}
+
+```r
 freadG(9) %>%
   .[, .SD, .SDcols = c(Region_key, grep("^P.*(?<!(Tot_))Tot$", names(.), value = TRUE))] %>%
   melt.data.table(id.vars = Region_key,
@@ -1040,7 +1255,12 @@ freadG(9) %>%
   Mop
 ```
 
-```{r Region__CountryOfBirth_Sex}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 freadG(9) %>%
   .[, .SD, .SDcols = c(Region_key, grep("^[MF].*(?<!(Tot_))Tot$", names(.), value = TRUE))] %>%
   melt.data.table(id.vars = Region_key,
@@ -1054,9 +1274,14 @@ freadG(9) %>%
   Mop
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 ## G10
 
-```{r Region__CountryOfBirth_YearOfArrival}
+
+```r
 freadG(10) %>%
   .[, .SD, .SDcols = union(Region_key, ngrep("Tot", names(.), value = TRUE))] %>%
   melt.data.table(id.vars = Region_key,
@@ -1071,9 +1296,14 @@ freadG(10) %>%
   Mop("persons_born_overseas")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 # G11
 
-```{r Region__Age_EnglishProficiency_SpeaksEnglishOnly_YearOfArrival}
+
+```r
 freadG(11, na.strings = "..") %>%
   .[, .SD, .SDcols = ngrep("^T|_T", names(.))] %>%
   drop_empty_cols %>%
@@ -1094,9 +1324,14 @@ freadG(11, na.strings = "..") %>%
   Mop("persons_born_overseas")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 # G13 not used
 
-```{r, eval=FALSE}
+
+```r
 freadG(12) %>%
     .[, .SD, .SDcols = ngrep("^T|_T", names(.))] %>%
     melt.data.table(id.vars = Region_key, 
@@ -1116,7 +1351,8 @@ freadG(12) %>%
     Mop("children_of_couple_families")
 ```
 
-```{r eval=FALSE}
+
+```r
 list.files(path = paste0('./data-raw/data-packs/data/', Region, '/AUST/'),
              pattern = paste0('2016Census_G13[A-Z]_AUS_', Region, '\\.csv$'),
              full.names = TRUE) %>%
@@ -1124,12 +1360,12 @@ list.files(path = paste0('./data-raw/data-packs/data/', Region, '/AUST/'),
     lapply(drop_empty_cols) %>%
     Reduce(f = function(X, Y) X[Y]) %>%
     .[, .SD, .SDcols = ngrep("^T|_T", names(.))] 
-
 ```
 
 # G14
 
-```{r Region__Religion_Sex}
+
+```r
 freadG(14) %>%
   .[, .SD, .SDcols = c(Region_key,
                        intersect(grep("[MF]$", names(.), value = TRUE),
@@ -1162,9 +1398,14 @@ freadG(14) %>%
   Mop(suborder = c("Religion", "Denomination"))
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 # G15
 
-```{r Region__EduInstitutionType_Sex}
+
+```r
 freadG(15) %>%
   .[, .SD, .SDcols = names(.) %pin% c(Region_key, ".Tot.[MF]", "Pre_school_[MF]", "Type_educanl_institution_ns_[MF]")] %>%
   melt.data.table(id.vars = Region_key,
@@ -1183,7 +1424,12 @@ freadG(15) %>%
   Mop("students")
 ```
 
-```{r Region__AgedUnder25_EduInstitutionType_FullTime_SchoolSector_Sex}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 freadG(15) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
   drop_cols(grep("[P]$", names(.), value = TRUE)) %>%
@@ -1209,8 +1455,13 @@ freadG(15) %>%
   Mop("students")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 # G16
-```{r Age_MaxSchoolingCompleted_Sex}
+
+```r
 freadG(16) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
   drop_cols(grep("^P_", names(.), value = TRUE)) %>%
@@ -1227,8 +1478,13 @@ freadG(16) %>%
   Mop("adults")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 # G17
-```{r Age_TotPersonalIncome_Sex}
+
+```r
 freadG(17) %>%
   drop_cols(grep("^P_", names(.), value = TRUE)) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
@@ -1260,7 +1516,12 @@ freadG(17) %>%
   Mop("adults")
 ```
 
-```{r Age_TotPersonalIncome.min_Sex}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 freadG(17) %>%
   drop_cols(grep("^P_", names(.), value = TRUE)) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
@@ -1291,8 +1552,13 @@ freadG(17) %>%
   Mop("adults")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 # G18
-```{r Age_NeedsAssistance_Sex}
+
+```r
 assign(paste0(Region, "__Age_NeedsAssistance_Sex"), {
   freadG(18) %>%
     drop_cols(grep("Tot", names(.), value = TRUE)) %>%
@@ -1307,9 +1573,14 @@ assign(paste0(Region, "__Age_NeedsAssistance_Sex"), {
 })
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 # G19
 
-```{r Age_Volunteer_Sex}
+
+```r
 freadG(19) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
   drop_cols(grep("^P_", names(.), value = TRUE)) %>%
@@ -1322,7 +1593,12 @@ freadG(19) %>%
   Mop("adults")
 ```
 
-```{r Age_HoursHousekeeping_Sex}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 freadG(20) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
   drop_cols(grep("^P_", names(.), value = TRUE)) %>%
@@ -1341,9 +1617,14 @@ freadG(20) %>%
   Mop("adults")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 
 # G20 unpaid disability assistance
-```{r Age_ProvidedUnpaidDisabilityAssistance_Sex}
+
+```r
 freadG(21) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
   drop_cols(grep("^P_", names(.), value = TRUE)) %>%
@@ -1356,7 +1637,12 @@ freadG(21) %>%
   Mop("adults")
 ```
 
-```{r Age_ProvidedUnpaidChildcare_ForOwnChild_ForOtherChild_Sex}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 freadG(22) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
   drop_cols(grep("^P_", names(.), value = TRUE)) %>%
@@ -1372,9 +1658,14 @@ freadG(22) %>%
   Mop("adults", suborder = c("ProvidedUnpaidChildcare", "ForOwnChild", "ForOtherChild"))
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 # G24
 
-```{r Age_ChildrenEverBorn}
+
+```r
 freadG(24) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
   melt.data.table(id.vars = Region_key,
@@ -1385,9 +1676,14 @@ freadG(24) %>%
   Mop("females")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 # G25 - Family composition
 
-```{r }
+
+```r
 freadG(25) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
   # families
@@ -1404,11 +1700,15 @@ freadG(25) %>%
   .[!grepl("^Other", variable), HasNonDependentChild := !grepl("no_NdCh_", variable)] %>%
   .[] %>%
   Mop("persons_in_families")
+```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
 ```
 
 
-```{r FamilyComposition_HasChild_HasDependentStudent_HasNonDependentChild}
+
+```r
 freadG(25) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
   # families
@@ -1426,7 +1726,12 @@ freadG(25) %>%
   Mop("families")
 ```
 
-```{r Age_FamilyComposition_ParentsBornAus_children}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 freadG(26) %>%
   .[, .SD, .SDcols = c(ngrep("Tot", names(.)))] %>%
   melt.data.table(id.vars = Region_key,
@@ -1442,7 +1747,12 @@ freadG(26) %>%
   Mop("children")
 ```
 
-```{r}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 freadG(27) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
   .[] %>%
@@ -1460,7 +1770,12 @@ freadG(27) %>%
   Mop("families_with_children")
 ```
 
-```{r TotalFamilyIncome}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 freadG(28) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
   melt.data.table(id.vars = Region_key,
@@ -1476,7 +1791,12 @@ freadG(28) %>%
   Mop("families")
 ```
 
-```{r HouseholdIncome}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 freadG(29) %>%
   drop_cols(grep("Tot", names(.), value = TRUE)) %>%
   melt.data.table(id.vars = Region_key,
@@ -1491,9 +1811,14 @@ freadG(29) %>%
   Mop("households")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 # G30 - Motor vehicles
 
-```{r}
+
+```r
 freadG(30) %>%
   drop_col("Total_dwelings") %>%
   drop_col("Num_MVs_per_dweling_Tot") %>%
@@ -1503,9 +1828,14 @@ freadG(30) %>%
   Mop("occupied_private_dwellings")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 # G31 HouseholdComposition by Number of Persons Usually Resident
 
-```{r HouseholdComposition_PersonsUsuallyResident}
+
+```r
 freadG(31, na.strings = "..") %>%
   drop_empty_cols %>%
   .[, .SD, .SDcols = ngrep("Tot", names(.))] %>%
@@ -1516,19 +1846,26 @@ freadG(31, na.strings = "..") %>%
   Mop("occupied_private_dwellings")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 
 # G32 - notrun
-```{r G32, eval=FALSE}
+
+```r
 freadG(32, na.strings = "..") %>%
   drop_empty_cols %>%
   .[, .SD, .SDcols = ngrep("Tot", names(.))]
 ```
 
-```{r }
+
+```r
 # freadG(33)
 ```
 
-```{r}
+
+```r
 freadG(34) %>%
   .[, .SD, .SDcols = ngrep("Tot", names(.))] %>%
   .[, .SD, .SDcols = union(Region_key, grep("^..[0-9]", names(.), value = TRUE))] %>%
@@ -1543,9 +1880,14 @@ freadG(34) %>%
   Mop("occupied_private_dwellings_being_purchased")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 # G35 - Mortgage repayment monthly by family composition
 
-```{r G35}
+
+```r
 freadG(35) %>%
   .[, .SD, .SDcols = ngrep("Tot", names(.))] %>%
   .[, .SD, .SDcols = c(Region_key, grep("^..[0-9]", names(.), value = TRUE))] %>%
@@ -1563,9 +1905,14 @@ freadG(35) %>%
   Mop("families_in_occupied_private_dwellings_being_purchased")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 # G36 - Rent weekly
 
-```{r G36}
+
+```r
 freadG(36) %>%
   .[, .SD, .SDcols = ngrep("Tot", names(.))] %>%
   .[, .SD, .SDcols = c(Region_key, grep("^..[0-9]", names(.), value = TRUE))] %>%
@@ -1583,9 +1930,14 @@ freadG(36) %>%
   Mop("occupied_private_dwellings_being_rented")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 # G37 - Internet access
 
-```{r G37}
+
+```r
 freadG(37) %>%
   .[, .SD, .SDcols = ngrep("Tot", names(.))] %>%
   melt.data.table(id.vars = Region_key,
@@ -1598,7 +1950,12 @@ freadG(37) %>%
   Mop("occupied_private_dwellings")
 ```
 
-```{r G38}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 freadG(38) %>%
   .[, .SD, .SDcols = ngrep("Tot", names(.))] %>%
   melt.data.table(id.vars = Region_key,
@@ -1622,9 +1979,14 @@ freadG(38) %>%
   Mop("occupied_private_dwellings")
 ```
 
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
 # G39
 
-```{r Region__DwellingType_FamilyComposition_Storeys}
+
+```r
 freadG(39) %>%
   .[, .SD, .SDcols = c(ngrep("Tot", names(.)))] %>%
   melt.data.table(id.vars = Region_key,
@@ -1654,17 +2016,28 @@ freadG(39) %>%
   Mop("occupied_private_dwellings")
 ```
 
-```{r}
+```
+## Error in fread(file = file_list[1], logical01 = FALSE, ...): Provided file 'NA' does not exists.
+```
+
+
+```r
 FINISH <- Sys.time()
 ```
 
 
-```{r use_data, eval=dir.exists("data")}
+
+```r
 # Print side-effect ok
 stopifnot(dir.exists("data"))
 ced_tbls <- grep(Region, tables()$NAME, value = TRUE)
+```
 
+```
+## No objects of class data.table exist in .GlobalEnv
+```
 
+```r
 if (Region == "SA1") {
   provide.dir(data_path <- normalizePath("~/Census2016.DataPack.SA1/data"))
 } else {
@@ -1707,9 +2080,18 @@ vapply(region_dtas,
        logical(1)) %>%
   all %>%
   stopifnot
+```
 
+```
+## Warning in FUN(X[[i]], ...): cannot remove file 'data/POA', reason
+## 'Permission denied'
+```
 
+```
+## Error: . is not TRUE
+```
 
+```r
 for (tbl in ced_tbls) {
   save(list = tbl,
        file = file.path(data_path, paste0(tbl, ".rda")),
@@ -1786,7 +2168,17 @@ current_data_size <-
   round(2)
 
 cat("Region:\t", prior_region_data_size, "MB  ===> ", current_region_data_size, "MB")
-cat("Total: \t", prior_data_size, "MB  ===> ", current_data_size, "MB")
+```
 
+```
+## Region:	 0 MB  ===>  0 MB
+```
+
+```r
+cat("Total: \t", prior_data_size, "MB  ===> ", current_data_size, "MB")
+```
+
+```
+## Total: 	 0 MB  ===>  0 MB
 ```
 
