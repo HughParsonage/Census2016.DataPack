@@ -6,7 +6,9 @@ output: html_document
 ---
 
 ```{r Region}
-# Region <- "SA2"
+if (!exists("Region")){
+  # Region <- "SA1"
+}
 ```
 
 ```{r setup}
@@ -50,7 +52,7 @@ if (exists("table_killer") || !isTRUE(getOption("knitr.in.progress"))) {
     }
   }
 }
-library(ASGS, quietly = TRUE)
+suppressPackageStartupMessages(library(ASGS, quietly = TRUE))
 ```
 
 ```{r}
@@ -124,8 +126,8 @@ total_adults <-
   
   res <- a3[pmatch(x, nom, duplicates.ok = TRUE)]
   res[keep] <- x[keep]
-  if (F & anyNA(res[!is.na(x)])) {
-    print(x[is.na(res[!is.na(x)])])
+  if (anyNA(res[!xna])) {
+    print(data.table(x = x, res = res) %>% unique)
     stop("Country code could not be decoded.")
   }
   res[xna] <- NA_character_
@@ -372,7 +374,7 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
     if (is.integer(out[[value.name]]) && 
         !anyNA(out[[value.name]]) &&
         all(.subset2(out, value.name) >= 0L)) {
-      decoded_out <- out[.subset2(out, value.name) > 0L]
+      decoded_out <- out#[.subset2(out, value.name) > 0L]
     } else {
       decoded_out <- out
     }
@@ -527,12 +529,11 @@ expect_equal(strip_age("P_15_19_yr_Marrd_reg_marrge"), "P_Marrd_reg_marrge")
 ### G01
 
 ```{r Region__Persons}
-assign(paste0(Region, '__Persons'), { 
-  fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'),
-        select = c(Region_key, "Tot_P_P")) %>%
-    setnames("Tot_P_P", "persons") %>%
-    Mop
-})
+fread(paste0('./data-raw/data-packs/data/', Region, '/AUST/2016Census_G01_AUS_', Region, '.csv'),
+      select = c(Region_key, "Tot_P_P")) %>%
+  setnames("Tot_P_P", "persons") %>%
+  Mop
+
 ```
 
 ```{r Region__Sex}
@@ -1083,6 +1084,7 @@ freadG(10) %>%
   .[YearOfArrival < 1900L,
     YearOfArrival := if_else(YearOfArrival < 17L, 2000L, 1900L) + YearOfArrival] %>%
   .[, CountryOfBirth := gsub("(_Be?fo?re)?_[0-9]+(_[0-9]+)?$", "", variable)] %>%
+  .[, CountryOfBirth := gsub("_(y(ea)?r_)?arr(ival)?_ns$", "", CountryOfBirth, ignore.case = TRUE)] %>%
   decode_country %>%
   .[, .(persons_born_overseas = sum(persons_born_overseas)),
     keyby = c(Region_key, "CountryOfBirth", "YearOfArrival")] %>%
@@ -1311,18 +1313,17 @@ freadG(17) %>%
 
 # G18
 ```{r Age_NeedsAssistance_Sex}
-assign(paste0(Region, "__Age_NeedsAssistance_Sex"), {
-  freadG(18) %>%
-    drop_cols(grep("Tot", names(.), value = TRUE)) %>%
-    drop_cols(grep("^P_", names(.), value = TRUE)) %>%
-    melt.data.table(id.vars = Region_key,
-                    value.name = "persons") %>%
-    .[, Age := extract_age(variable)] %>%
-    .[, Sex := substr(variable, 0, 1)] %>%
-    .[!grepl("ns$", variable), NeedsAssistance := !grepl("No_need_for", variable)] %>%
-    .[] %>%
-    Mop
-})
+
+freadG(18) %>%
+  drop_cols(grep("Tot", names(.), value = TRUE)) %>%
+  drop_cols(grep("^P_", names(.), value = TRUE)) %>%
+  melt.data.table(id.vars = Region_key,
+                  value.name = "persons") %>%
+  .[, Age := extract_age(variable)] %>%
+  .[, Sex := substr(variable, 0, 1)] %>%
+  .[!grepl("ns$", variable), NeedsAssistance := !grepl("No_need_for", variable)] %>%
+  .[] %>%
+  Mop
 ```
 
 # G19
@@ -1680,21 +1681,40 @@ FINISH <- Sys.time()
 ```{r use_data, eval=dir.exists("data")}
 # Print side-effect ok
 stopifnot(dir.exists("data"))
-invisible(ced_tbls <- grep(Region, tables(silent = TRUE)$NAME, value = TRUE))
+ced_tbls <-
+  tables(silent = TRUE) %>%
+  use_series("NAME") %>%
+  grep(pattern = paste0("^", Region, "_"), x = ., value = TRUE)
 
 library(Census2016.spec)
 test_check(data_list = mget(ced_tbls), show.progress = FALSE)
+cat(crayon::green(Region), crayon::green("OK"), "\n")
 
+provide_normalize <- function(x) {
+  provide.dir(x)
+  normalizePath(x)
+}
 
 if (Region == "SA1") {
-  provide.dir(data_path <- normalizePath("~/Census2016.DataPack.SA1/data"))
+  data_path <- provide_normalize("~/Census2016.DataPack.SA1/data")
+  csv_path <- provide_normalize(paste(data_path, ".",
+                                       "..", "data-raw", "data",
+                                       paste0(Region, "/"),
+                                       sep = "/"))
 } else {
   if (Region == "SSC") {
-    provide.dir(data_path <- normalizePath("~/Census2016.DataPack.SSC/data"))
+    data_path <- provide_normalize("~/Census2016.DataPack.SSC/data")
+    csv_path <- provide_normalize(paste(data_path, ".",
+                                       "..", "data-raw", "data",
+                                       paste0(Region, "/"),
+                                       sep = "/"))
   } else {
     data_path <- "data"
+    csv_path <- file.path("data-raw", "data", Region)
   }
 }
+
+prior_region_data_size <- prior_data_size <- NULL
 
 try({
 prior_data_size <- 
@@ -1734,8 +1754,9 @@ library(foreach)
 library(doParallel)
 cl <- makeCluster(8)
 registerDoParallel(cl)
+invisible(nchar(data_path))
 
-foreach(tbl in ced_tbls) %dopar% {
+foreach(tbl = ced_tbls, .inorder = FALSE, .export = c(ced_tbls, "data_path")) %dopar% {
   save(list = tbl,
        file = file.path(data_path, paste0(tbl, ".rda")),
        compress = "gzip",
@@ -1745,7 +1766,7 @@ foreach(tbl in ced_tbls) %dopar% {
 
 for (tbl in ced_tbls) {
   
-  file.csv <- file.path("data-raw", "data", Region, paste0(tbl, ".csv"))
+  file.csv <- file.path(csv_path, paste0(tbl, ".csv"))
   
   .ced_tbl <- get(tbl)
   fwrite(.ced_tbl, file = file.csv)
