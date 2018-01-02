@@ -1,0 +1,8947 @@
+CED_NAME16	CoupleFamily	HasChild	IncomeFamily.max	families
+Banks				15
+Banks			0	30
+Banks			7875	8
+Banks			15750	16
+Banks			21000	8
+Banks			26250	30
+Banks			34125	23
+Banks			42000	54
+Banks			52500	88
+Banks			65625	98
+Banks			78750	96
+Banks			91875	59
+Banks			105000	64
+Banks			131250	128
+Banks			157500	65
+Banks			183750	23
+Banks			210000	20
+Banks			Inf	18
+Banks	0			719
+Banks	0		0	178
+Banks	0		7875	72
+Banks	0		15750	193
+Banks	0		21000	187
+Banks	0		26250	299
+Banks	0		34125	488
+Banks	0		42000	589
+Banks	0		52500	672
+Banks	0		65625	711
+Banks	0		78750	523
+Banks	0		91875	435
+Banks	0		105000	386
+Banks	0		131250	607
+Banks	0		157500	296
+Banks	0		183750	138
+Banks	0		210000	119
+Banks	0		Inf	142
+Banks	1	0		3388
+Banks	1	0	0	593
+Banks	1	0	7875	185
+Banks	1	0	15750	148
+Banks	1	0	21000	92
+Banks	1	0	26250	656
+Banks	1	0	34125	348
+Banks	1	0	42000	1654
+Banks	1	0	52500	1557
+Banks	1	0	65625	2316
+Banks	1	0	78750	2378
+Banks	1	0	91875	2044
+Banks	1	0	105000	2098
+Banks	1	0	131250	4621
+Banks	1	0	157500	3297
+Banks	1	0	183750	2299
+Banks	1	0	210000	1642
+Banks	1	0	Inf	3807
+Banks	1	1	7875	30
+Banks	1	1	15750	80
+Banks	1	1	21000	62
+Banks	1	1	26250	161
+Banks	1	1	34125	320
+Banks	1	1	42000	493
+Barton				15
+Barton			0	36
+Barton			7875	14
+Barton			15750	31
+Barton			21000	12
+Barton			26250	34
+Barton			34125	40
+Barton			42000	62
+Barton			52500	93
+Barton			65625	140
+Barton			78750	123
+Barton			91875	73
+Barton			105000	78
+Barton			131250	121
+Barton			157500	76
+Barton			183750	44
+Barton			210000	23
+Barton			Inf	39
+Barton	0			708
+Barton	0		0	243
+Barton	0		7875	76
+Barton	0		15750	211
+Barton	0		21000	181
+Barton	0		26250	318
+Barton	0		34125	431
+Barton	0		42000	563
+Barton	0		52500	633
+Barton	0		65625	712
+Barton	0		78750	586
+Barton	0		91875	496
+Barton	0		105000	409
+Barton	0		131250	560
+Barton	0		157500	299
+Barton	0		183750	112
+Barton	0		210000	120
+Barton	0		Inf	131
+Barton	1	0		3625
+Barton	1	0	0	786
+Barton	1	0	7875	248
+Barton	1	0	15750	159
+Barton	1	0	21000	136
+Barton	1	0	26250	808
+Barton	1	0	34125	376
+Barton	1	0	42000	1895
+Barton	1	0	52500	1912
+Barton	1	0	65625	2570
+Barton	1	0	78750	2747
+Barton	1	0	91875	2257
+Barton	1	0	105000	2308
+Barton	1	0	131250	4882
+Barton	1	0	157500	3354
+Barton	1	0	183750	2394
+Barton	1	0	210000	1657
+Barton	1	0	Inf	3400
+Barton	1	1	7875	58
+Barton	1	1	15750	99
+Barton	1	1	21000	96
+Barton	1	1	26250	216
+Barton	1	1	34125	374
+Barton	1	1	42000	612
+Bennelong				9
+Bennelong			0	63
+Bennelong			7875	16
+Bennelong			15750	32
+Bennelong			21000	10
+Bennelong			26250	24
+Bennelong			34125	43
+Bennelong			42000	49
+Bennelong			52500	84
+Bennelong			65625	80
+Bennelong			78750	99
+Bennelong			91875	63
+Bennelong			105000	63
+Bennelong			131250	101
+Bennelong			157500	85
+Bennelong			183750	37
+Bennelong			210000	30
+Bennelong			Inf	36
+Bennelong	0			557
+Bennelong	0		0	241
+Bennelong	0		7875	84
+Bennelong	0		15750	144
+Bennelong	0		21000	140
+Bennelong	0		26250	206
+Bennelong	0		34125	325
+Bennelong	0		42000	379
+Bennelong	0		52500	447
+Bennelong	0		65625	569
+Bennelong	0		78750	498
+Bennelong	0		91875	440
+Bennelong	0		105000	336
+Bennelong	0		131250	554
+Bennelong	0		157500	276
+Bennelong	0		183750	128
+Bennelong	0		210000	154
+Bennelong	0		Inf	179
+Bennelong	1	0		3740
+Bennelong	1	0	0	847
+Bennelong	1	0	7875	226
+Bennelong	1	0	15750	165
+Bennelong	1	0	21000	79
+Bennelong	1	0	26250	609
+Bennelong	1	0	34125	343
+Bennelong	1	0	42000	1270
+Bennelong	1	0	52500	1490
+Bennelong	1	0	65625	2197
+Bennelong	1	0	78750	2251
+Bennelong	1	0	91875	2060
+Bennelong	1	0	105000	2148
+Bennelong	1	0	131250	4858
+Bennelong	1	0	157500	3712
+Bennelong	1	0	183750	2844
+Bennelong	1	0	210000	2336
+Bennelong	1	0	Inf	6091
+Bennelong	1	1	7875	50
+Bennelong	1	1	15750	62
+Bennelong	1	1	21000	59
+Bennelong	1	1	26250	155
+Bennelong	1	1	34125	266
+Bennelong	1	1	42000	428
+Berowra				9
+Berowra			0	15
+Berowra			7875	7
+Berowra			15750	8
+Berowra			21000	3
+Berowra			26250	13
+Berowra			34125	15
+Berowra			42000	17
+Berowra			52500	26
+Berowra			65625	38
+Berowra			78750	27
+Berowra			91875	35
+Berowra			105000	29
+Berowra			131250	49
+Berowra			157500	29
+Berowra			183750	12
+Berowra			210000	12
+Berowra			Inf	15
+Berowra	0			527
+Berowra	0		0	92
+Berowra	0		7875	37
+Berowra	0		15750	73
+Berowra	0		21000	68
+Berowra	0		26250	138
+Berowra	0		34125	197
+Berowra	0		42000	249
+Berowra	0		52500	278
+Berowra	0		65625	404
+Berowra	0		78750	364
+Berowra	0		91875	313
+Berowra	0		105000	299
+Berowra	0		131250	461
+Berowra	0		157500	252
+Berowra	0		183750	132
+Berowra	0		210000	143
+Berowra	0		Inf	180
+Berowra	1	0		3919
+Berowra	1	0	0	405
+Berowra	1	0	7875	142
+Berowra	1	0	15750	95
+Berowra	1	0	21000	36
+Berowra	1	0	26250	412
+Berowra	1	0	34125	215
+Berowra	1	0	42000	1053
+Berowra	1	0	52500	1206
+Berowra	1	0	65625	1751
+Berowra	1	0	78750	1848
+Berowra	1	0	91875	1523
+Berowra	1	0	105000	1744
+Berowra	1	0	131250	4020
+Berowra	1	0	157500	3448
+Berowra	1	0	183750	2853
+Berowra	1	0	210000	2602
+Berowra	1	0	Inf	7861
+Berowra	1	1	7875	25
+Berowra	1	1	15750	45
+Berowra	1	1	21000	32
+Berowra	1	1	26250	83
+Berowra	1	1	34125	122
+Berowra	1	1	42000	212
+Blaxland				18
+Blaxland			0	32
+Blaxland			7875	8
+Blaxland			15750	15
+Blaxland			21000	13
+Blaxland			26250	45
+Blaxland			34125	45
+Blaxland			42000	104
+Blaxland			52500	97
+Blaxland			65625	130
+Blaxland			78750	93
+Blaxland			91875	66
+Blaxland			105000	67
+Blaxland			131250	96
+Blaxland			157500	44
+Blaxland			183750	24
+Blaxland			210000	8
+Blaxland			Inf	24
+Blaxland	0			827
+Blaxland	0		0	296
+Blaxland	0		7875	91
+Blaxland	0		15750	353
+Blaxland	0		21000	345
+Blaxland	0		26250	510
+Blaxland	0		34125	748
+Blaxland	0		42000	767
+Blaxland	0		52500	771
+Blaxland	0		65625	804
+Blaxland	0		78750	619
+Blaxland	0		91875	437
+Blaxland	0		105000	340
+Blaxland	0		131250	461
+Blaxland	0		157500	234
+Blaxland	0		183750	104
+Blaxland	0		210000	80
+Blaxland	0		Inf	88
+Blaxland	1	0		3514
+Blaxland	1	0	0	783
+Blaxland	1	0	7875	141
+Blaxland	1	0	15750	155
+Blaxland	1	0	21000	131
+Blaxland	1	0	26250	796
+Blaxland	1	0	34125	408
+Blaxland	1	0	42000	1766
+Blaxland	1	0	52500	2601
+Blaxland	1	0	65625	3151
+Blaxland	1	0	78750	2880
+Blaxland	1	0	91875	2267
+Blaxland	1	0	105000	2024
+Blaxland	1	0	131250	3623
+Blaxland	1	0	157500	2159
+Blaxland	1	0	183750	1313
+Blaxland	1	0	210000	857
+Blaxland	1	0	Inf	1383
+Blaxland	1	1	7875	80
+Blaxland	1	1	15750	236
+Blaxland	1	1	21000	173
+Blaxland	1	1	26250	581
+Blaxland	1	1	34125	890
+Blaxland	1	1	42000	1226
+Bradfield				11
+Bradfield			0	35
+Bradfield			7875	17
+Bradfield			15750	17
+Bradfield			21000	3
+Bradfield			26250	20
+Bradfield			34125	25
+Bradfield			42000	22
+Bradfield			52500	47
+Bradfield			65625	58
+Bradfield			78750	56
+Bradfield			91875	42
+Bradfield			105000	42
+Bradfield			131250	74
+Bradfield			157500	42
+Bradfield			183750	22
+Bradfield			210000	13
+Bradfield			Inf	29
+Bradfield	0			564
+Bradfield	0		0	268
+Bradfield	0		7875	73
+Bradfield	0		15750	136
+Bradfield	0		21000	90
+Bradfield	0		26250	138
+Bradfield	0		34125	230
+Bradfield	0		42000	262
+Bradfield	0		52500	324
+Bradfield	0		65625	439
+Bradfield	0		78750	383
+Bradfield	0		91875	332
+Bradfield	0		105000	317
+Bradfield	0		131250	485
+Bradfield	0		157500	260
+Bradfield	0		183750	100
+Bradfield	0		210000	251
+Bradfield	0		Inf	258
+Bradfield	1	0		4410
+Bradfield	1	0	0	644
+Bradfield	1	0	7875	177
+Bradfield	1	0	15750	104
+Bradfield	1	0	21000	45
+Bradfield	1	0	26250	354
+Bradfield	1	0	34125	223
+Bradfield	1	0	42000	754
+Bradfield	1	0	52500	1006
+Bradfield	1	0	65625	1626
+Bradfield	1	0	78750	1739
+Bradfield	1	0	91875	1453
+Bradfield	1	0	105000	1678
+Bradfield	1	0	131250	3800
+Bradfield	1	0	157500	3052
+Bradfield	1	0	183750	2496
+Bradfield	1	0	210000	2971
+Bradfield	1	0	Inf	11467
+Bradfield	1	1	7875	35
+Bradfield	1	1	15750	52
+Bradfield	1	1	21000	42
+Bradfield	1	1	26250	114
+Bradfield	1	1	34125	172
+Bradfield	1	1	42000	247
+Calare				18
+Calare			0	11
+Calare			7875	10
+Calare			15750	12
+Calare			21000	4
+Calare			26250	31
+Calare			34125	19
+Calare			42000	59
+Calare			52500	74
+Calare			65625	64
+Calare			78750	62
+Calare			91875	29
+Calare			105000	22
+Calare			131250	24
+Calare			157500	23
+Calare			183750	10
+Calare			210000	4
+Calare			Inf	4
+Calare	0			910
+Calare	0		0	81
+Calare	0		7875	67
+Calare	0		15750	245
+Calare	0		21000	316
+Calare	0		26250	473
+Calare	0		34125	868
+Calare	0		42000	897
+Calare	0		52500	767
+Calare	0		65625	714
+Calare	0		78750	513
+Calare	0		91875	324
+Calare	0		105000	268
+Calare	0		131250	372
+Calare	0		157500	112
+Calare	0		183750	46
+Calare	0		210000	51
+Calare	0		Inf	30
+Calare	1	0		3782
+Calare	1	0	0	234
+Calare	1	0	7875	151
+Calare	1	0	15750	110
+Calare	1	0	21000	67
+Calare	1	0	26250	805
+Calare	1	0	34125	406
+Calare	1	0	42000	2350
+Calare	1	0	52500	1860
+Calare	1	0	65625	2673
+Calare	1	0	78750	2800
+Calare	1	0	91875	2110
+Calare	1	0	105000	2226
+Calare	1	0	131250	4282
+Calare	1	0	157500	2970
+Calare	1	0	183750	1943
+Calare	1	0	210000	1136
+Calare	1	0	Inf	2165
+Calare	1	1	7875	24
+Calare	1	1	15750	47
+Calare	1	1	21000	25
+Calare	1	1	26250	133
+Calare	1	1	34125	177
+Calare	1	1	42000	386
+Chifley				31
+Chifley			0	14
+Chifley			7875	3
+Chifley			15750	14
+Chifley			21000	11
+Chifley			26250	32
+Chifley			34125	17
+Chifley			42000	86
+Chifley			52500	79
+Chifley			65625	85
+Chifley			78750	97
+Chifley			91875	57
+Chifley			105000	58
+Chifley			131250	93
+Chifley			157500	39
+Chifley			183750	24
+Chifley			210000	10
+Chifley			Inf	17
+Chifley	0			1080
+Chifley	0		0	179
+Chifley	0		7875	79
+Chifley	0		15750	319
+Chifley	0		21000	404
+Chifley	0		26250	624
+Chifley	0		34125	945
+Chifley	0		42000	1067
+Chifley	0		52500	1004
+Chifley	0		65625	991
+Chifley	0		78750	784
+Chifley	0		91875	532
+Chifley	0		105000	442
+Chifley	0		131250	647
+Chifley	0		157500	309
+Chifley	0		183750	114
+Chifley	0		210000	93
+Chifley	0		Inf	100
+Chifley	1	0		3299
+Chifley	1	0	0	486
+Chifley	1	0	7875	97
+Chifley	1	0	15750	100
+Chifley	1	0	21000	63
+Chifley	1	0	26250	581
+Chifley	1	0	34125	324
+Chifley	1	0	42000	1549
+Chifley	1	0	52500	1829
+Chifley	1	0	65625	2613
+Chifley	1	0	78750	2850
+Chifley	1	0	91875	2511
+Chifley	1	0	105000	2608
+Chifley	1	0	131250	5281
+Chifley	1	0	157500	3246
+Chifley	1	0	183750	1932
+Chifley	1	0	210000	1078
+Chifley	1	0	Inf	1592
+Chifley	1	1	7875	45
+Chifley	1	1	15750	110
+Chifley	1	1	21000	79
+Chifley	1	1	26250	261
+Chifley	1	1	34125	409
+Chifley	1	1	42000	679
+Cook				4
+Cook			0	17
+Cook			7875	8
+Cook			15750	14
+Cook			26250	11
+Cook			34125	13
+Cook			42000	32
+Cook			52500	44
+Cook			65625	54
+Cook			78750	55
+Cook			91875	50
+Cook			105000	47
+Cook			131250	75
+Cook			157500	64
+Cook			183750	16
+Cook			210000	8
+Cook			Inf	25
+Cook	0			688
+Cook	0		0	97
+Cook	0		7875	44
+Cook	0		15750	90
+Cook	0		21000	119
+Cook	0		26250	206
+Cook	0		34125	343
+Cook	0		42000	380
+Cook	0		52500	468
+Cook	0		65625	585
+Cook	0		78750	457
+Cook	0		91875	400
+Cook	0		105000	334
+Cook	0		131250	527
+Cook	0		157500	278
+Cook	0		183750	126
+Cook	0		210000	115
+Cook	0		Inf	161
+Cook	1	0		3517
+Cook	1	0	0	293
+Cook	1	0	7875	111
+Cook	1	0	15750	74
+Cook	1	0	21000	41
+Cook	1	0	26250	480
+Cook	1	0	34125	244
+Cook	1	0	42000	1252
+Cook	1	0	52500	1202
+Cook	1	0	65625	1740
+Cook	1	0	78750	1815
+Cook	1	0	91875	1510
+Cook	1	0	105000	1716
+Cook	1	0	131250	3969
+Cook	1	0	157500	3337
+Cook	1	0	183750	2550
+Cook	1	0	210000	2014
+Cook	1	0	Inf	5461
+Cook	1	1	7875	22
+Cook	1	1	15750	48
+Cook	1	1	21000	27
+Cook	1	1	26250	59
+Cook	1	1	34125	98
+Cook	1	1	42000	174
+Cowper				22
+Cowper			0	6
+Cowper			7875	7
+Cowper			15750	9
+Cowper			21000	11
+Cowper			26250	26
+Cowper			34125	34
+Cowper			42000	63
+Cowper			52500	71
+Cowper			65625	82
+Cowper			78750	64
+Cowper			91875	22
+Cowper			105000	25
+Cowper			131250	24
+Cowper			157500	14
+Cowper			183750	6
+Cowper			210000	3
+Cowper			Inf	7
+Cowper	0			1044
+Cowper	0		0	94
+Cowper	0		7875	57
+Cowper	0		15750	196
+Cowper	0		21000	349
+Cowper	0		26250	537
+Cowper	0		34125	1078
+Cowper	0		42000	1101
+Cowper	0		52500	1084
+Cowper	0		65625	957
+Cowper	0		78750	628
+Cowper	0		91875	377
+Cowper	0		105000	279
+Cowper	0		131250	289
+Cowper	0		157500	93
+Cowper	0		183750	29
+Cowper	0		210000	47
+Cowper	0		Inf	37
+Cowper	1	0		3457
+Cowper	1	0	0	245
+Cowper	1	0	7875	136
+Cowper	1	0	15750	119
+Cowper	1	0	21000	85
+Cowper	1	0	26250	1010
+Cowper	1	0	34125	597
+Cowper	1	0	42000	3728
+Cowper	1	0	52500	2664
+Cowper	1	0	65625	3468
+Cowper	1	0	78750	3398
+Cowper	1	0	91875	2253
+Cowper	1	0	105000	2209
+Cowper	1	0	131250	3717
+Cowper	1	0	157500	2257
+Cowper	1	0	183750	1193
+Cowper	1	0	210000	693
+Cowper	1	0	Inf	1230
+Cowper	1	1	7875	26
+Cowper	1	1	15750	47
+Cowper	1	1	21000	14
+Cowper	1	1	26250	134
+Cowper	1	1	34125	174
+Cowper	1	1	42000	429
+Cunningham				7
+Cunningham			0	17
+Cunningham			7875	11
+Cunningham			15750	18
+Cunningham			21000	8
+Cunningham			26250	34
+Cunningham			34125	38
+Cunningham			42000	64
+Cunningham			52500	93
+Cunningham			65625	83
+Cunningham			78750	60
+Cunningham			91875	47
+Cunningham			105000	35
+Cunningham			131250	60
+Cunningham			157500	34
+Cunningham			183750	18
+Cunningham			210000	6
+Cunningham			Inf	6
+Cunningham	0			814
+Cunningham	0		0	107
+Cunningham	0		7875	58
+Cunningham	0		15750	167
+Cunningham	0		21000	200
+Cunningham	0		26250	393
+Cunningham	0		34125	588
+Cunningham	0		42000	715
+Cunningham	0		52500	704
+Cunningham	0		65625	746
+Cunningham	0		78750	539
+Cunningham	0		91875	408
+Cunningham	0		105000	334
+Cunningham	0		131250	489
+Cunningham	0		157500	195
+Cunningham	0		183750	84
+Cunningham	0		210000	72
+Cunningham	0		Inf	86
+Cunningham	1	0		3461
+Cunningham	1	0	0	287
+Cunningham	1	0	7875	145
+Cunningham	1	0	15750	113
+Cunningham	1	0	21000	63
+Cunningham	1	0	26250	669
+Cunningham	1	0	34125	374
+Cunningham	1	0	42000	2055
+Cunningham	1	0	52500	1582
+Cunningham	1	0	65625	2193
+Cunningham	1	0	78750	2234
+Cunningham	1	0	91875	1739
+Cunningham	1	0	105000	1986
+Cunningham	1	0	131250	4191
+Cunningham	1	0	157500	3430
+Cunningham	1	0	183750	2361
+Cunningham	1	0	210000	1570
+Cunningham	1	0	Inf	3314
+Cunningham	1	1	7875	15
+Cunningham	1	1	15750	44
+Cunningham	1	1	21000	28
+Cunningham	1	1	26250	159
+Cunningham	1	1	34125	190
+Cunningham	1	1	42000	321
+Dobell				14
+Dobell			0	15
+Dobell			15750	12
+Dobell			21000	4
+Dobell			26250	34
+Dobell			34125	32
+Dobell			42000	60
+Dobell			52500	81
+Dobell			65625	75
+Dobell			78750	70
+Dobell			91875	36
+Dobell			105000	21
+Dobell			131250	49
+Dobell			157500	22
+Dobell			183750	8
+Dobell			Inf	5
+Dobell	0			988
+Dobell	0		0	121
+Dobell	0		7875	52
+Dobell	0		15750	192
+Dobell	0		21000	261
+Dobell	0		26250	486
+Dobell	0		34125	923
+Dobell	0		42000	924
+Dobell	0		52500	1014
+Dobell	0		65625	973
+Dobell	0		78750	680
+Dobell	0		91875	530
+Dobell	0		105000	404
+Dobell	0		131250	510
+Dobell	0		157500	165
+Dobell	0		183750	69
+Dobell	0		210000	55
+Dobell	0		Inf	46
+Dobell	1	0		3459
+Dobell	1	0	0	249
+Dobell	1	0	7875	117
+Dobell	1	0	15750	95
+Dobell	1	0	21000	60
+Dobell	1	0	26250	649
+Dobell	1	0	34125	347
+Dobell	1	0	42000	2457
+Dobell	1	0	52500	1855
+Dobell	1	0	65625	2520
+Dobell	1	0	78750	2760
+Dobell	1	0	91875	2262
+Dobell	1	0	105000	2350
+Dobell	1	0	131250	4502
+Dobell	1	0	157500	3039
+Dobell	1	0	183750	1733
+Dobell	1	0	210000	1070
+Dobell	1	0	Inf	1752
+Dobell	1	1	7875	23
+Dobell	1	1	15750	33
+Dobell	1	1	21000	22
+Dobell	1	1	26250	83
+Dobell	1	1	34125	122
+Dobell	1	1	42000	293
+Eden-Monaro				15
+Eden-Monaro			0	3
+Eden-Monaro			7875	7
+Eden-Monaro			15750	3
+Eden-Monaro			21000	9
+Eden-Monaro			26250	18
+Eden-Monaro			34125	17
+Eden-Monaro			42000	38
+Eden-Monaro			52500	42
+Eden-Monaro			65625	43
+Eden-Monaro			78750	52
+Eden-Monaro			91875	31
+Eden-Monaro			105000	29
+Eden-Monaro			131250	50
+Eden-Monaro			157500	24
+Eden-Monaro			210000	3
+Eden-Monaro			Inf	11
+Eden-Monaro	0			708
+Eden-Monaro	0		0	72
+Eden-Monaro	0		7875	45
+Eden-Monaro	0		15750	157
+Eden-Monaro	0		21000	233
+Eden-Monaro	0		26250	336
+Eden-Monaro	0		34125	511
+Eden-Monaro	0		42000	539
+Eden-Monaro	0		52500	491
+Eden-Monaro	0		65625	539
+Eden-Monaro	0		78750	415
+Eden-Monaro	0		91875	324
+Eden-Monaro	0		105000	267
+Eden-Monaro	0		131250	396
+Eden-Monaro	0		157500	157
+Eden-Monaro	0		183750	63
+Eden-Monaro	0		210000	74
+Eden-Monaro	0		Inf	64
+Eden-Monaro	1	0		3887
+Eden-Monaro	1	0	0	217
+Eden-Monaro	1	0	7875	133
+Eden-Monaro	1	0	15750	118
+Eden-Monaro	1	0	21000	67
+Eden-Monaro	1	0	26250	729
+Eden-Monaro	1	0	34125	413
+Eden-Monaro	1	0	42000	2101
+Eden-Monaro	1	0	52500	1797
+Eden-Monaro	1	0	65625	2629
+Eden-Monaro	1	0	78750	2639
+Eden-Monaro	1	0	91875	1906
+Eden-Monaro	1	0	105000	2063
+Eden-Monaro	1	0	131250	4123
+Eden-Monaro	1	0	157500	2947
+Eden-Monaro	1	0	183750	2120
+Eden-Monaro	1	0	210000	1490
+Eden-Monaro	1	0	Inf	3251
+Eden-Monaro	1	1	7875	23
+Eden-Monaro	1	1	15750	28
+Eden-Monaro	1	1	21000	24
+Eden-Monaro	1	1	26250	79
+Eden-Monaro	1	1	34125	144
+Eden-Monaro	1	1	42000	272
+Farrer				25
+Farrer			0	4
+Farrer			7875	11
+Farrer			15750	25
+Farrer			21000	7
+Farrer			26250	29
+Farrer			34125	34
+Farrer			42000	45
+Farrer			52500	59
+Farrer			65625	65
+Farrer			78750	55
+Farrer			91875	41
+Farrer			105000	31
+Farrer			131250	37
+Farrer			157500	15
+Farrer			183750	6
+Farrer			Inf	8
+Farrer	0			808
+Farrer	0		0	67
+Farrer	0		7875	56
+Farrer	0		15750	196
+Farrer	0		21000	305
+Farrer	0		26250	502
+Farrer	0		34125	768
+Farrer	0		42000	748
+Farrer	0		52500	799
+Farrer	0		65625	655
+Farrer	0		78750	460
+Farrer	0		91875	325
+Farrer	0		105000	230
+Farrer	0		131250	265
+Farrer	0		157500	106
+Farrer	0		183750	28
+Farrer	0		210000	54
+Farrer	0		Inf	43
+Farrer	1	0		4252
+Farrer	1	0	0	332
+Farrer	1	0	7875	153
+Farrer	1	0	15750	117
+Farrer	1	0	21000	80
+Farrer	1	0	26250	888
+Farrer	1	0	34125	442
+Farrer	1	0	42000	2617
+Farrer	1	0	52500	2123
+Farrer	1	0	65625	3209
+Farrer	1	0	78750	3372
+Farrer	1	0	91875	2424
+Farrer	1	0	105000	2483
+Farrer	1	0	131250	4527
+Farrer	1	0	157500	2755
+Farrer	1	0	183750	1561
+Farrer	1	0	210000	827
+Farrer	1	0	Inf	1518
+Farrer	1	1	7875	35
+Farrer	1	1	15750	48
+Farrer	1	1	21000	20
+Farrer	1	1	26250	139
+Farrer	1	1	34125	224
+Farrer	1	1	42000	395
+Fowler				27
+Fowler			0	29
+Fowler			7875	21
+Fowler			15750	29
+Fowler			21000	17
+Fowler			26250	52
+Fowler			34125	48
+Fowler			42000	99
+Fowler			52500	115
+Fowler			65625	110
+Fowler			78750	81
+Fowler			91875	56
+Fowler			105000	61
+Fowler			131250	88
+Fowler			157500	43
+Fowler			183750	21
+Fowler			210000	16
+Fowler			Inf	17
+Fowler	0			959
+Fowler	0		0	337
+Fowler	0		7875	116
+Fowler	0		15750	484
+Fowler	0		21000	423
+Fowler	0		26250	648
+Fowler	0		34125	869
+Fowler	0		42000	995
+Fowler	0		52500	1023
+Fowler	0		65625	979
+Fowler	0		78750	757
+Fowler	0		91875	519
+Fowler	0		105000	459
+Fowler	0		131250	568
+Fowler	0		157500	273
+Fowler	0		183750	149
+Fowler	0		210000	90
+Fowler	0		Inf	102
+Fowler	1	0		3396
+Fowler	1	0	0	683
+Fowler	1	0	7875	146
+Fowler	1	0	15750	148
+Fowler	1	0	21000	111
+Fowler	1	0	26250	825
+Fowler	1	0	34125	390
+Fowler	1	0	42000	2003
+Fowler	1	0	52500	2191
+Fowler	1	0	65625	2805
+Fowler	1	0	78750	2651
+Fowler	1	0	91875	2060
+Fowler	1	0	105000	1929
+Fowler	1	0	131250	3392
+Fowler	1	0	157500	2174
+Fowler	1	0	183750	1351
+Fowler	1	0	210000	872
+Fowler	1	0	Inf	1415
+Fowler	1	1	7875	97
+Fowler	1	1	15750	199
+Fowler	1	1	21000	153
+Fowler	1	1	26250	549
+Fowler	1	1	34125	651
+Fowler	1	1	42000	1087
+Gilmore				13
+Gilmore			0	4
+Gilmore			7875	7
+Gilmore			15750	9
+Gilmore			21000	5
+Gilmore			26250	17
+Gilmore			34125	33
+Gilmore			42000	65
+Gilmore			52500	64
+Gilmore			65625	75
+Gilmore			78750	32
+Gilmore			91875	29
+Gilmore			105000	18
+Gilmore			131250	19
+Gilmore			157500	12
+Gilmore			183750	3
+Gilmore			Inf	3
+Gilmore	0			855
+Gilmore	0		0	83
+Gilmore	0		7875	46
+Gilmore	0		15750	198
+Gilmore	0		21000	274
+Gilmore	0		26250	460
+Gilmore	0		34125	757
+Gilmore	0		42000	847
+Gilmore	0		52500	869
+Gilmore	0		65625	740
+Gilmore	0		78750	469
+Gilmore	0		91875	276
+Gilmore	0		105000	234
+Gilmore	0		131250	272
+Gilmore	0		157500	89
+Gilmore	0		183750	21
+Gilmore	0		210000	31
+Gilmore	0		Inf	56
+Gilmore	1	0		3837
+Gilmore	1	0	0	271
+Gilmore	1	0	7875	172
+Gilmore	1	0	15750	150
+Gilmore	1	0	21000	100
+Gilmore	1	0	26250	1114
+Gilmore	1	0	34125	622
+Gilmore	1	0	42000	3782
+Gilmore	1	0	52500	2597
+Gilmore	1	0	65625	3534
+Gilmore	1	0	78750	3357
+Gilmore	1	0	91875	2145
+Gilmore	1	0	105000	2167
+Gilmore	1	0	131250	3533
+Gilmore	1	0	157500	2236
+Gilmore	1	0	183750	1314
+Gilmore	1	0	210000	756
+Gilmore	1	0	Inf	1452
+Gilmore	1	1	7875	21
+Gilmore	1	1	15750	47
+Gilmore	1	1	21000	25
+Gilmore	1	1	26250	122
+Gilmore	1	1	34125	170
+Gilmore	1	1	42000	398
+Grayndler				11
+Grayndler			0	16
+Grayndler			7875	10
+Grayndler			15750	7
+Grayndler			21000	10
+Grayndler			26250	21
+Grayndler			34125	30
+Grayndler			42000	42
+Grayndler			52500	70
+Grayndler			65625	86
+Grayndler			78750	94
+Grayndler			91875	64
+Grayndler			105000	58
+Grayndler			131250	131
+Grayndler			157500	71
+Grayndler			183750	46
+Grayndler			210000	20
+Grayndler			Inf	64
+Grayndler	0			555
+Grayndler	0		0	101
+Grayndler	0		7875	44
+Grayndler	0		15750	128
+Grayndler	0		21000	103
+Grayndler	0		26250	219
+Grayndler	0		34125	307
+Grayndler	0		42000	335
+Grayndler	0		52500	376
+Grayndler	0		65625	475
+Grayndler	0		78750	403
+Grayndler	0		91875	387
+Grayndler	0		105000	276
+Grayndler	0		131250	525
+Grayndler	0		157500	232
+Grayndler	0		183750	65
+Grayndler	0		210000	238
+Grayndler	0		Inf	199
+Grayndler	1	0		2901
+Grayndler	1	0	0	254
+Grayndler	1	0	7875	81
+Grayndler	1	0	15750	58
+Grayndler	1	0	21000	23
+Grayndler	1	0	26250	332
+Grayndler	1	0	34125	176
+Grayndler	1	0	42000	835
+Grayndler	1	0	52500	786
+Grayndler	1	0	65625	1257
+Grayndler	1	0	78750	1396
+Grayndler	1	0	91875	1191
+Grayndler	1	0	105000	1359
+Grayndler	1	0	131250	3452
+Grayndler	1	0	157500	2982
+Grayndler	1	0	183750	2563
+Grayndler	1	0	210000	2496
+Grayndler	1	0	Inf	8199
+Grayndler	1	1	7875	34
+Grayndler	1	1	15750	39
+Grayndler	1	1	21000	14
+Grayndler	1	1	26250	70
+Grayndler	1	1	34125	96
+Grayndler	1	1	42000	187
+Greenway				9
+Greenway			0	12
+Greenway			7875	8
+Greenway			15750	9
+Greenway			21000	4
+Greenway			26250	22
+Greenway			34125	21
+Greenway			42000	49
+Greenway			52500	52
+Greenway			65625	43
+Greenway			78750	62
+Greenway			91875	46
+Greenway			105000	54
+Greenway			131250	89
+Greenway			157500	57
+Greenway			183750	26
+Greenway			210000	16
+Greenway			Inf	22
+Greenway	0			724
+Greenway	0		0	128
+Greenway	0		7875	41
+Greenway	0		15750	138
+Greenway	0		21000	182
+Greenway	0		26250	313
+Greenway	0		34125	442
+Greenway	0		42000	521
+Greenway	0		52500	592
+Greenway	0		65625	729
+Greenway	0		78750	575
+Greenway	0		91875	476
+Greenway	0		105000	386
+Greenway	0		131250	578
+Greenway	0		157500	294
+Greenway	0		183750	129
+Greenway	0		210000	114
+Greenway	0		Inf	104
+Greenway	1	0		3305
+Greenway	1	0	0	609
+Greenway	1	0	7875	119
+Greenway	1	0	15750	79
+Greenway	1	0	21000	70
+Greenway	1	0	26250	454
+Greenway	1	0	34125	282
+Greenway	1	0	42000	1235
+Greenway	1	0	52500	1477
+Greenway	1	0	65625	2213
+Greenway	1	0	78750	2499
+Greenway	1	0	91875	2385
+Greenway	1	0	105000	2633
+Greenway	1	0	131250	6034
+Greenway	1	0	157500	4620
+Greenway	1	0	183750	3316
+Greenway	1	0	210000	2269
+Greenway	1	0	Inf	3758
+Greenway	1	1	7875	52
+Greenway	1	1	15750	60
+Greenway	1	1	21000	48
+Greenway	1	1	26250	178
+Greenway	1	1	34125	273
+Greenway	1	1	42000	437
+Hughes				11
+Hughes			0	6
+Hughes			7875	5
+Hughes			15750	4
+Hughes			26250	12
+Hughes			34125	17
+Hughes			42000	23
+Hughes			52500	34
+Hughes			65625	57
+Hughes			78750	46
+Hughes			91875	35
+Hughes			105000	27
+Hughes			131250	59
+Hughes			157500	39
+Hughes			183750	14
+Hughes			210000	6
+Hughes			Inf	16
+Hughes	0			594
+Hughes	0		0	72
+Hughes	0		7875	34
+Hughes	0		15750	80
+Hughes	0		21000	112
+Hughes	0		26250	159
+Hughes	0		34125	277
+Hughes	0		42000	355
+Hughes	0		52500	455
+Hughes	0		65625	567
+Hughes	0		78750	436
+Hughes	0		91875	366
+Hughes	0		105000	341
+Hughes	0		131250	517
+Hughes	0		157500	279
+Hughes	0		183750	149
+Hughes	0		210000	134
+Hughes	0		Inf	147
+Hughes	1	0		3430
+Hughes	1	0	0	237
+Hughes	1	0	7875	92
+Hughes	1	0	15750	66
+Hughes	1	0	21000	41
+Hughes	1	0	26250	417
+Hughes	1	0	34125	255
+Hughes	1	0	42000	1173
+Hughes	1	0	52500	1165
+Hughes	1	0	65625	1794
+Hughes	1	0	78750	1926
+Hughes	1	0	91875	1714
+Hughes	1	0	105000	2019
+Hughes	1	0	131250	4767
+Hughes	1	0	157500	4234
+Hughes	1	0	183750	3248
+Hughes	1	0	210000	2324
+Hughes	1	0	Inf	5296
+Hughes	1	1	7875	14
+Hughes	1	1	15750	25
+Hughes	1	1	21000	14
+Hughes	1	1	26250	74
+Hughes	1	1	34125	106
+Hughes	1	1	42000	152
+Hume				19
+Hume			0	7
+Hume			7875	4
+Hume			15750	13
+Hume			21000	4
+Hume			26250	12
+Hume			34125	14
+Hume			42000	30
+Hume			52500	44
+Hume			65625	47
+Hume			78750	45
+Hume			91875	33
+Hume			105000	30
+Hume			131250	36
+Hume			157500	37
+Hume			183750	9
+Hume			210000	5
+Hume			Inf	13
+Hume	0			718
+Hume	0		0	70
+Hume	0		7875	41
+Hume	0		15750	120
+Hume	0		21000	186
+Hume	0		26250	334
+Hume	0		34125	527
+Hume	0		42000	578
+Hume	0		52500	598
+Hume	0		65625	638
+Hume	0		78750	523
+Hume	0		91875	405
+Hume	0		105000	298
+Hume	0		131250	462
+Hume	0		157500	194
+Hume	0		183750	90
+Hume	0		210000	70
+Hume	0		Inf	80
+Hume	1	0		3786
+Hume	1	0	0	246
+Hume	1	0	7875	92
+Hume	1	0	15750	87
+Hume	1	0	21000	50
+Hume	1	0	26250	628
+Hume	1	0	34125	313
+Hume	1	0	42000	1814
+Hume	1	0	52500	1606
+Hume	1	0	65625	2238
+Hume	1	0	78750	2382
+Hume	1	0	91875	2171
+Hume	1	0	105000	2352
+Hume	1	0	131250	5144
+Hume	1	0	157500	3826
+Hume	1	0	183750	2514
+Hume	1	0	210000	1644
+Hume	1	0	Inf	2869
+Hume	1	1	7875	20
+Hume	1	1	15750	41
+Hume	1	1	21000	23
+Hume	1	1	26250	78
+Hume	1	1	34125	137
+Hume	1	1	42000	244
+Hunter				19
+Hunter			0	4
+Hunter			7875	6
+Hunter			15750	14
+Hunter			21000	6
+Hunter			26250	29
+Hunter			34125	21
+Hunter			42000	56
+Hunter			52500	69
+Hunter			65625	82
+Hunter			78750	55
+Hunter			91875	31
+Hunter			105000	34
+Hunter			131250	32
+Hunter			157500	17
+Hunter			183750	13
+Hunter			Inf	4
+Hunter	0			884
+Hunter	0		0	106
+Hunter	0		7875	55
+Hunter	0		15750	213
+Hunter	0		21000	323
+Hunter	0		26250	568
+Hunter	0		34125	905
+Hunter	0		42000	955
+Hunter	0		52500	879
+Hunter	0		65625	859
+Hunter	0		78750	551
+Hunter	0		91875	403
+Hunter	0		105000	296
+Hunter	0		131250	345
+Hunter	0		157500	137
+Hunter	0		183750	41
+Hunter	0		210000	54
+Hunter	0		Inf	60
+Hunter	1	0		3624
+Hunter	1	0	0	216
+Hunter	1	0	7875	119
+Hunter	1	0	15750	106
+Hunter	1	0	21000	81
+Hunter	1	0	26250	735
+Hunter	1	0	34125	407
+Hunter	1	0	42000	2589
+Hunter	1	0	52500	1981
+Hunter	1	0	65625	2710
+Hunter	1	0	78750	2794
+Hunter	1	0	91875	2270
+Hunter	1	0	105000	2309
+Hunter	1	0	131250	4702
+Hunter	1	0	157500	3243
+Hunter	1	0	183750	1895
+Hunter	1	0	210000	1107
+Hunter	1	0	Inf	2171
+Hunter	1	1	7875	30
+Hunter	1	1	15750	35
+Hunter	1	1	21000	22
+Hunter	1	1	26250	96
+Hunter	1	1	34125	153
+Hunter	1	1	42000	346
+Kingsford Smith				24
+Kingsford Smith			0	94
+Kingsford Smith			7875	24
+Kingsford Smith			15750	33
+Kingsford Smith			21000	14
+Kingsford Smith			26250	54
+Kingsford Smith			34125	49
+Kingsford Smith			42000	71
+Kingsford Smith			52500	100
+Kingsford Smith			65625	125
+Kingsford Smith			78750	114
+Kingsford Smith			91875	83
+Kingsford Smith			105000	72
+Kingsford Smith			131250	163
+Kingsford Smith			157500	92
+Kingsford Smith			183750	50
+Kingsford Smith			210000	27
+Kingsford Smith			Inf	47
+Kingsford Smith	0			760
+Kingsford Smith	0		0	125
+Kingsford Smith	0		7875	61
+Kingsford Smith	0		15750	137
+Kingsford Smith	0		21000	140
+Kingsford Smith	0		26250	271
+Kingsford Smith	0		34125	417
+Kingsford Smith	0		42000	451
+Kingsford Smith	0		52500	516
+Kingsford Smith	0		65625	610
+Kingsford Smith	0		78750	514
+Kingsford Smith	0		91875	481
+Kingsford Smith	0		105000	347
+Kingsford Smith	0		131250	606
+Kingsford Smith	0		157500	273
+Kingsford Smith	0		183750	136
+Kingsford Smith	0		210000	174
+Kingsford Smith	0		Inf	162
+Kingsford Smith	1	0		3741
+Kingsford Smith	1	0	0	515
+Kingsford Smith	1	0	7875	125
+Kingsford Smith	1	0	15750	112
+Kingsford Smith	1	0	21000	59
+Kingsford Smith	1	0	26250	515
+Kingsford Smith	1	0	34125	280
+Kingsford Smith	1	0	42000	1133
+Kingsford Smith	1	0	52500	1170
+Kingsford Smith	1	0	65625	1689
+Kingsford Smith	1	0	78750	1791
+Kingsford Smith	1	0	91875	1572
+Kingsford Smith	1	0	105000	1735
+Kingsford Smith	1	0	131250	4099
+Kingsford Smith	1	0	157500	3424
+Kingsford Smith	1	0	183750	2713
+Kingsford Smith	1	0	210000	2335
+Kingsford Smith	1	0	Inf	6492
+Kingsford Smith	1	1	7875	18
+Kingsford Smith	1	1	15750	38
+Kingsford Smith	1	1	21000	28
+Kingsford Smith	1	1	26250	88
+Kingsford Smith	1	1	34125	179
+Kingsford Smith	1	1	42000	250
+Lindsay				18
+Lindsay			0	13
+Lindsay			7875	7
+Lindsay			15750	11
+Lindsay			21000	3
+Lindsay			26250	26
+Lindsay			34125	24
+Lindsay			42000	46
+Lindsay			52500	58
+Lindsay			65625	80
+Lindsay			78750	67
+Lindsay			91875	62
+Lindsay			105000	55
+Lindsay			131250	96
+Lindsay			157500	36
+Lindsay			183750	26
+Lindsay			210000	13
+Lindsay			Inf	8
+Lindsay	0			927
+Lindsay	0		0	136
+Lindsay	0		7875	47
+Lindsay	0		15750	192
+Lindsay	0		21000	267
+Lindsay	0		26250	495
+Lindsay	0		34125	816
+Lindsay	0		42000	832
+Lindsay	0		52500	853
+Lindsay	0		65625	1001
+Lindsay	0		78750	803
+Lindsay	0		91875	572
+Lindsay	0		105000	490
+Lindsay	0		131250	686
+Lindsay	0		157500	301
+Lindsay	0		183750	156
+Lindsay	0		210000	91
+Lindsay	0		Inf	101
+Lindsay	1	0		3202
+Lindsay	1	0	0	305
+Lindsay	1	0	7875	70
+Lindsay	1	0	15750	86
+Lindsay	1	0	21000	50
+Lindsay	1	0	26250	506
+Lindsay	1	0	34125	253
+Lindsay	1	0	42000	1579
+Lindsay	1	0	52500	1526
+Lindsay	1	0	65625	2277
+Lindsay	1	0	78750	2639
+Lindsay	1	0	91875	2383
+Lindsay	1	0	105000	2650
+Lindsay	1	0	131250	5659
+Lindsay	1	0	157500	4021
+Lindsay	1	0	183750	2480
+Lindsay	1	0	210000	1538
+Lindsay	1	0	Inf	2590
+Lindsay	1	1	7875	24
+Lindsay	1	1	15750	39
+Lindsay	1	1	21000	36
+Lindsay	1	1	26250	101
+Lindsay	1	1	34125	157
+Lindsay	1	1	42000	350
+Lyne				16
+Lyne			0	6
+Lyne			7875	3
+Lyne			15750	4
+Lyne			21000	3
+Lyne			26250	27
+Lyne			34125	30
+Lyne			42000	60
+Lyne			52500	85
+Lyne			65625	66
+Lyne			78750	46
+Lyne			91875	19
+Lyne			105000	17
+Lyne			131250	24
+Lyne			157500	6
+Lyne			183750	6
+Lyne			210000	3
+Lyne			Inf	3
+Lyne	0			866
+Lyne	0		0	74
+Lyne	0		7875	52
+Lyne	0		15750	213
+Lyne	0		21000	304
+Lyne	0		26250	489
+Lyne	0		34125	820
+Lyne	0		42000	830
+Lyne	0		52500	892
+Lyne	0		65625	696
+Lyne	0		78750	410
+Lyne	0		91875	294
+Lyne	0		105000	218
+Lyne	0		131250	220
+Lyne	0		157500	65
+Lyne	0		183750	17
+Lyne	0		210000	37
+Lyne	0		Inf	42
+Lyne	1	0		3778
+Lyne	1	0	0	286
+Lyne	1	0	7875	200
+Lyne	1	0	15750	144
+Lyne	1	0	21000	96
+Lyne	1	0	26250	1213
+Lyne	1	0	34125	683
+Lyne	1	0	42000	4235
+Lyne	1	0	52500	2696
+Lyne	1	0	65625	3526
+Lyne	1	0	78750	3234
+Lyne	1	0	91875	2094
+Lyne	1	0	105000	2005
+Lyne	1	0	131250	3193
+Lyne	1	0	157500	1982
+Lyne	1	0	183750	1117
+Lyne	1	0	210000	662
+Lyne	1	0	Inf	1286
+Lyne	1	1	7875	24
+Lyne	1	1	15750	34
+Lyne	1	1	21000	22
+Lyne	1	1	26250	155
+Lyne	1	1	34125	179
+Lyne	1	1	42000	418
+Macarthur				18
+Macarthur			0	10
+Macarthur			7875	7
+Macarthur			15750	13
+Macarthur			21000	11
+Macarthur			26250	18
+Macarthur			34125	22
+Macarthur			42000	47
+Macarthur			52500	56
+Macarthur			65625	77
+Macarthur			78750	56
+Macarthur			91875	53
+Macarthur			105000	49
+Macarthur			131250	78
+Macarthur			157500	43
+Macarthur			183750	22
+Macarthur			210000	16
+Macarthur			Inf	14
+Macarthur	0			996
+Macarthur	0		0	150
+Macarthur	0		7875	54
+Macarthur	0		15750	203
+Macarthur	0		21000	310
+Macarthur	0		26250	561
+Macarthur	0		34125	831
+Macarthur	0		42000	932
+Macarthur	0		52500	897
+Macarthur	0		65625	914
+Macarthur	0		78750	733
+Macarthur	0		91875	518
+Macarthur	0		105000	441
+Macarthur	0		131250	582
+Macarthur	0		157500	309
+Macarthur	0		183750	142
+Macarthur	0		210000	83
+Macarthur	0		Inf	99
+Macarthur	1	0		3243
+Macarthur	1	0	0	346
+Macarthur	1	0	7875	94
+Macarthur	1	0	15750	82
+Macarthur	1	0	21000	62
+Macarthur	1	0	26250	512
+Macarthur	1	0	34125	322
+Macarthur	1	0	42000	1560
+Macarthur	1	0	52500	1726
+Macarthur	1	0	65625	2465
+Macarthur	1	0	78750	2708
+Macarthur	1	0	91875	2582
+Macarthur	1	0	105000	2613
+Macarthur	1	0	131250	5219
+Macarthur	1	0	157500	3599
+Macarthur	1	0	183750	2230
+Macarthur	1	0	210000	1372
+Macarthur	1	0	Inf	2141
+Macarthur	1	1	7875	29
+Macarthur	1	1	15750	67
+Macarthur	1	1	21000	50
+Macarthur	1	1	26250	188
+Macarthur	1	1	34125	288
+Macarthur	1	1	42000	500
+Mackellar				14
+Mackellar			0	7
+Mackellar			7875	9
+Mackellar			15750	9
+Mackellar			26250	9
+Mackellar			34125	14
+Mackellar			42000	26
+Mackellar			52500	36
+Mackellar			65625	50
+Mackellar			78750	47
+Mackellar			91875	30
+Mackellar			105000	21
+Mackellar			131250	57
+Mackellar			157500	24
+Mackellar			183750	24
+Mackellar			210000	3
+Mackellar			Inf	7
+Mackellar	0			674
+Mackellar	0		0	70
+Mackellar	0		7875	33
+Mackellar	0		15750	70
+Mackellar	0		21000	79
+Mackellar	0		26250	136
+Mackellar	0		34125	246
+Mackellar	0		42000	269
+Mackellar	0		52500	394
+Mackellar	0		65625	473
+Mackellar	0		78750	461
+Mackellar	0		91875	357
+Mackellar	0		105000	301
+Mackellar	0		131250	543
+Mackellar	0		157500	230
+Mackellar	0		183750	93
+Mackellar	0		210000	164
+Mackellar	0		Inf	184
+Mackellar	1	0		3986
+Mackellar	1	0	0	262
+Mackellar	1	0	7875	105
+Mackellar	1	0	15750	81
+Mackellar	1	0	21000	42
+Mackellar	1	0	26250	416
+Mackellar	1	0	34125	223
+Mackellar	1	0	42000	1029
+Mackellar	1	0	52500	1126
+Mackellar	1	0	65625	1878
+Mackellar	1	0	78750	1916
+Mackellar	1	0	91875	1603
+Mackellar	1	0	105000	1930
+Mackellar	1	0	131250	4201
+Mackellar	1	0	157500	3595
+Mackellar	1	0	183750	2721
+Mackellar	1	0	210000	2362
+Mackellar	1	0	Inf	7105
+Mackellar	1	1	7875	25
+Mackellar	1	1	15750	35
+Mackellar	1	1	21000	20
+Mackellar	1	1	26250	62
+Mackellar	1	1	34125	71
+Mackellar	1	1	42000	159
+Macquarie				18
+Macquarie			0	5
+Macquarie			7875	6
+Macquarie			15750	6
+Macquarie			21000	4
+Macquarie			26250	16
+Macquarie			34125	19
+Macquarie			42000	51
+Macquarie			52500	45
+Macquarie			65625	53
+Macquarie			78750	44
+Macquarie			91875	27
+Macquarie			105000	22
+Macquarie			131250	37
+Macquarie			157500	15
+Macquarie			183750	5
+Macquarie			Inf	4
+Macquarie	0			649
+Macquarie	0		0	70
+Macquarie	0		7875	45
+Macquarie	0		15750	115
+Macquarie	0		21000	179
+Macquarie	0		26250	315
+Macquarie	0		34125	529
+Macquarie	0		42000	591
+Macquarie	0		52500	606
+Macquarie	0		65625	694
+Macquarie	0		78750	519
+Macquarie	0		91875	390
+Macquarie	0		105000	344
+Macquarie	0		131250	496
+Macquarie	0		157500	236
+Macquarie	0		183750	80
+Macquarie	0		210000	88
+Macquarie	0		Inf	70
+Macquarie	1	0		3279
+Macquarie	1	0	0	191
+Macquarie	1	0	7875	91
+Macquarie	1	0	15750	79
+Macquarie	1	0	21000	51
+Macquarie	1	0	26250	469
+Macquarie	1	0	34125	307
+Macquarie	1	0	42000	1465
+Macquarie	1	0	52500	1477
+Macquarie	1	0	65625	2239
+Macquarie	1	0	78750	2331
+Macquarie	1	0	91875	2089
+Macquarie	1	0	105000	2182
+Macquarie	1	0	131250	4471
+Macquarie	1	0	157500	3531
+Macquarie	1	0	183750	2284
+Macquarie	1	0	210000	1597
+Macquarie	1	0	Inf	2939
+Macquarie	1	1	7875	14
+Macquarie	1	1	15750	21
+Macquarie	1	1	21000	17
+Macquarie	1	1	26250	74
+Macquarie	1	1	34125	115
+Macquarie	1	1	42000	191
+McMahon				22
+McMahon			0	24
+McMahon			7875	10
+McMahon			15750	17
+McMahon			21000	7
+McMahon			26250	36
+McMahon			34125	45
+McMahon			42000	71
+McMahon			52500	105
+McMahon			65625	99
+McMahon			78750	98
+McMahon			91875	71
+McMahon			105000	45
+McMahon			131250	77
+McMahon			157500	46
+McMahon			183750	30
+McMahon			210000	10
+McMahon			Inf	17
+McMahon	0			906
+McMahon	0		0	196
+McMahon	0		7875	63
+McMahon	0		15750	266
+McMahon	0		21000	256
+McMahon	0		26250	441
+McMahon	0		34125	654
+McMahon	0		42000	740
+McMahon	0		52500	821
+McMahon	0		65625	926
+McMahon	0		78750	686
+McMahon	0		91875	529
+McMahon	0		105000	447
+McMahon	0		131250	602
+McMahon	0		157500	293
+McMahon	0		183750	157
+McMahon	0		210000	93
+McMahon	0		Inf	116
+McMahon	1	0		3571
+McMahon	1	0	0	558
+McMahon	1	0	7875	122
+McMahon	1	0	15750	115
+McMahon	1	0	21000	78
+McMahon	1	0	26250	755
+McMahon	1	0	34125	355
+McMahon	1	0	42000	1803
+McMahon	1	0	52500	2137
+McMahon	1	0	65625	2730
+McMahon	1	0	78750	2618
+McMahon	1	0	91875	2134
+McMahon	1	0	105000	2260
+McMahon	1	0	131250	4384
+McMahon	1	0	157500	2996
+McMahon	1	0	183750	1892
+McMahon	1	0	210000	1195
+McMahon	1	0	Inf	1969
+McMahon	1	1	7875	73
+McMahon	1	1	15750	150
+McMahon	1	1	21000	106
+McMahon	1	1	26250	450
+McMahon	1	1	34125	588
+McMahon	1	1	42000	975
+Mitchell				5
+Mitchell			0	12
+Mitchell			7875	6
+Mitchell			15750	8
+Mitchell			21000	3
+Mitchell			26250	8
+Mitchell			34125	18
+Mitchell			42000	24
+Mitchell			52500	30
+Mitchell			65625	41
+Mitchell			78750	40
+Mitchell			91875	20
+Mitchell			105000	31
+Mitchell			131250	54
+Mitchell			157500	41
+Mitchell			183750	14
+Mitchell			210000	7
+Mitchell			Inf	22
+Mitchell	0			506
+Mitchell	0		0	119
+Mitchell	0		7875	46
+Mitchell	0		15750	79
+Mitchell	0		21000	73
+Mitchell	0		26250	141
+Mitchell	0		34125	217
+Mitchell	0		42000	277
+Mitchell	0		52500	338
+Mitchell	0		65625	445
+Mitchell	0		78750	396
+Mitchell	0		91875	361
+Mitchell	0		105000	308
+Mitchell	0		131250	534
+Mitchell	0		157500	256
+Mitchell	0		183750	144
+Mitchell	0		210000	131
+Mitchell	0		Inf	172
+Mitchell	1	0		3658
+Mitchell	1	0	0	536
+Mitchell	1	0	7875	150
+Mitchell	1	0	15750	108
+Mitchell	1	0	21000	44
+Mitchell	1	0	26250	447
+Mitchell	1	0	34125	238
+Mitchell	1	0	42000	1049
+Mitchell	1	0	52500	1267
+Mitchell	1	0	65625	1898
+Mitchell	1	0	78750	1885
+Mitchell	1	0	91875	1712
+Mitchell	1	0	105000	1959
+Mitchell	1	0	131250	4741
+Mitchell	1	0	157500	4040
+Mitchell	1	0	183750	3411
+Mitchell	1	0	210000	2811
+Mitchell	1	0	Inf	7125
+Mitchell	1	1	7875	38
+Mitchell	1	1	15750	52
+Mitchell	1	1	21000	35
+Mitchell	1	1	26250	65
+Mitchell	1	1	34125	173
+Mitchell	1	1	42000	275
+New England				24
+New England			0	9
+New England			7875	3
+New England			15750	11
+New England			21000	6
+New England			26250	31
+New England			34125	22
+New England			42000	63
+New England			52500	84
+New England			65625	90
+New England			78750	64
+New England			91875	28
+New England			105000	36
+New England			131250	32
+New England			157500	12
+New England			183750	9
+New England			210000	4
+New England			Inf	5
+New England	0			849
+New England	0		0	81
+New England	0		7875	61
+New England	0		15750	247
+New England	0		21000	340
+New England	0		26250	519
+New England	0		34125	865
+New England	0		42000	912
+New England	0		52500	838
+New England	0		65625	724
+New England	0		78750	502
+New England	0		91875	324
+New England	0		105000	272
+New England	0		131250	238
+New England	0		157500	85
+New England	0		183750	19
+New England	0		210000	45
+New England	0		Inf	41
+New England	1	0		3836
+New England	1	0	0	291
+New England	1	0	7875	117
+New England	1	0	15750	137
+New England	1	0	21000	63
+New England	1	0	26250	881
+New England	1	0	34125	489
+New England	1	0	42000	2731
+New England	1	0	52500	2134
+New England	1	0	65625	2950
+New England	1	0	78750	3042
+New England	1	0	91875	2117
+New England	1	0	105000	2191
+New England	1	0	131250	3889
+New England	1	0	157500	2340
+New England	1	0	183750	1367
+New England	1	0	210000	761
+New England	1	0	Inf	1425
+New England	1	1	7875	47
+New England	1	1	15750	47
+New England	1	1	21000	21
+New England	1	1	26250	168
+New England	1	1	34125	200
+New England	1	1	42000	385
+Newcastle				13
+Newcastle			0	17
+Newcastle			7875	9
+Newcastle			15750	12
+Newcastle			21000	6
+Newcastle			26250	50
+Newcastle			34125	38
+Newcastle			42000	73
+Newcastle			52500	103
+Newcastle			65625	101
+Newcastle			78750	100
+Newcastle			91875	55
+Newcastle			105000	42
+Newcastle			131250	70
+Newcastle			157500	44
+Newcastle			183750	19
+Newcastle			210000	10
+Newcastle			Inf	4
+Newcastle	0			739
+Newcastle	0		0	93
+Newcastle	0		7875	43
+Newcastle	0		15750	186
+Newcastle	0		21000	233
+Newcastle	0		26250	393
+Newcastle	0		34125	662
+Newcastle	0		42000	729
+Newcastle	0		52500	779
+Newcastle	0		65625	811
+Newcastle	0		78750	638
+Newcastle	0		91875	480
+Newcastle	0		105000	379
+Newcastle	0		131250	441
+Newcastle	0		157500	184
+Newcastle	0		183750	51
+Newcastle	0		210000	85
+Newcastle	0		Inf	72
+Newcastle	1	0		3180
+Newcastle	1	0	0	195
+Newcastle	1	0	7875	70
+Newcastle	1	0	15750	83
+Newcastle	1	0	21000	52
+Newcastle	1	0	26250	497
+Newcastle	1	0	34125	318
+Newcastle	1	0	42000	1744
+Newcastle	1	0	52500	1428
+Newcastle	1	0	65625	2021
+Newcastle	1	0	78750	2177
+Newcastle	1	0	91875	1844
+Newcastle	1	0	105000	2018
+Newcastle	1	0	131250	4337
+Newcastle	1	0	157500	3391
+Newcastle	1	0	183750	2319
+Newcastle	1	0	210000	1399
+Newcastle	1	0	Inf	3091
+Newcastle	1	1	7875	20
+Newcastle	1	1	15750	38
+Newcastle	1	1	21000	17
+Newcastle	1	1	26250	101
+Newcastle	1	1	34125	118
+Newcastle	1	1	42000	239
+North Sydney				4
+North Sydney			0	40
+North Sydney			7875	9
+North Sydney			15750	14
+North Sydney			21000	8
+North Sydney			26250	20
+North Sydney			34125	25
+North Sydney			42000	50
+North Sydney			52500	40
+North Sydney			65625	66
+North Sydney			78750	68
+North Sydney			91875	56
+North Sydney			105000	42
+North Sydney			131250	106
+North Sydney			157500	86
+North Sydney			183750	45
+North Sydney			210000	30
+North Sydney			Inf	76
+North Sydney	0			542
+North Sydney	0		0	187
+North Sydney	0		7875	48
+North Sydney	0		15750	92
+North Sydney	0		21000	79
+North Sydney	0		26250	117
+North Sydney	0		34125	200
+North Sydney	0		42000	220
+North Sydney	0		52500	283
+North Sydney	0		65625	401
+North Sydney	0		78750	317
+North Sydney	0		91875	299
+North Sydney	0		105000	276
+North Sydney	0		131250	562
+North Sydney	0		157500	207
+North Sydney	0		183750	95
+North Sydney	0		210000	373
+North Sydney	0		Inf	316
+North Sydney	1	0		3942
+North Sydney	1	0	0	414
+North Sydney	1	0	7875	97
+North Sydney	1	0	15750	70
+North Sydney	1	0	21000	31
+North Sydney	1	0	26250	277
+North Sydney	1	0	34125	182
+North Sydney	1	0	42000	604
+North Sydney	1	0	52500	770
+North Sydney	1	0	65625	1164
+North Sydney	1	0	78750	1345
+North Sydney	1	0	91875	1175
+North Sydney	1	0	105000	1445
+North Sydney	1	0	131250	3857
+North Sydney	1	0	157500	3201
+North Sydney	1	0	183750	2730
+North Sydney	1	0	210000	3203
+North Sydney	1	0	Inf	12110
+North Sydney	1	1	7875	25
+North Sydney	1	1	15750	35
+North Sydney	1	1	21000	31
+North Sydney	1	1	26250	63
+North Sydney	1	1	34125	101
+North Sydney	1	1	42000	183
+Page				23
+Page			0	9
+Page			7875	6
+Page			15750	12
+Page			21000	3
+Page			26250	48
+Page			34125	34
+Page			42000	72
+Page			52500	99
+Page			65625	92
+Page			78750	64
+Page			91875	23
+Page			105000	26
+Page			131250	29
+Page			157500	10
+Page			183750	3
+Page			Inf	9
+Page	0			967
+Page	0		0	88
+Page	0		7875	58
+Page	0		15750	239
+Page	0		21000	328
+Page	0		26250	608
+Page	0		34125	1047
+Page	0		42000	1079
+Page	0		52500	1030
+Page	0		65625	865
+Page	0		78750	552
+Page	0		91875	374
+Page	0		105000	259
+Page	0		131250	276
+Page	0		157500	90
+Page	0		183750	25
+Page	0		210000	44
+Page	0		Inf	24
+Page	1	0		3573
+Page	1	0	0	256
+Page	1	0	7875	139
+Page	1	0	15750	131
+Page	1	0	21000	80
+Page	1	0	26250	1062
+Page	1	0	34125	624
+Page	1	0	42000	3515
+Page	1	0	52500	2678
+Page	1	0	65625	3612
+Page	1	0	78750	3395
+Page	1	0	91875	2369
+Page	1	0	105000	2422
+Page	1	0	131250	3697
+Page	1	0	157500	2100
+Page	1	0	183750	1140
+Page	1	0	210000	614
+Page	1	0	Inf	1024
+Page	1	1	7875	34
+Page	1	1	15750	61
+Page	1	1	21000	29
+Page	1	1	26250	146
+Page	1	1	34125	222
+Page	1	1	42000	491
+Parkes				32
+Parkes			0	13
+Parkes			7875	10
+Parkes			15750	15
+Parkes			21000	12
+Parkes			26250	47
+Parkes			34125	31
+Parkes			42000	90
+Parkes			52500	79
+Parkes			65625	81
+Parkes			78750	72
+Parkes			91875	34
+Parkes			105000	32
+Parkes			131250	53
+Parkes			157500	21
+Parkes			183750	5
+Parkes			210000	4
+Parkes			Inf	5
+Parkes	0			1114
+Parkes	0		0	97
+Parkes	0		7875	75
+Parkes	0		15750	268
+Parkes	0		21000	396
+Parkes	0		26250	600
+Parkes	0		34125	917
+Parkes	0		42000	878
+Parkes	0		52500	869
+Parkes	0		65625	787
+Parkes	0		78750	476
+Parkes	0		91875	308
+Parkes	0		105000	248
+Parkes	0		131250	310
+Parkes	0		157500	98
+Parkes	0		183750	41
+Parkes	0		210000	47
+Parkes	0		Inf	43
+Parkes	1	0		4218
+Parkes	1	0	0	278
+Parkes	1	0	7875	118
+Parkes	1	0	15750	97
+Parkes	1	0	21000	62
+Parkes	1	0	26250	774
+Parkes	1	0	34125	376
+Parkes	1	0	42000	2308
+Parkes	1	0	52500	1773
+Parkes	1	0	65625	2524
+Parkes	1	0	78750	2602
+Parkes	1	0	91875	1937
+Parkes	1	0	105000	2136
+Parkes	1	0	131250	3827
+Parkes	1	0	157500	2507
+Parkes	1	0	183750	1521
+Parkes	1	0	210000	834
+Parkes	1	0	Inf	1576
+Parkes	1	1	7875	38
+Parkes	1	1	15750	51
+Parkes	1	1	21000	31
+Parkes	1	1	26250	155
+Parkes	1	1	34125	196
+Parkes	1	1	42000	369
+Parramatta				22
+Parramatta			0	31
+Parramatta			7875	4
+Parramatta			15750	18
+Parramatta			21000	18
+Parramatta			26250	52
+Parramatta			34125	32
+Parramatta			42000	71
+Parramatta			52500	110
+Parramatta			65625	109
+Parramatta			78750	124
+Parramatta			91875	84
+Parramatta			105000	74
+Parramatta			131250	170
+Parramatta			157500	76
+Parramatta			183750	46
+Parramatta			210000	21
+Parramatta			Inf	28
+Parramatta	0			709
+Parramatta	0		0	229
+Parramatta	0		7875	80
+Parramatta	0		15750	252
+Parramatta	0		21000	226
+Parramatta	0		26250	382
+Parramatta	0		34125	515
+Parramatta	0		42000	598
+Parramatta	0		52500	575
+Parramatta	0		65625	670
+Parramatta	0		78750	583
+Parramatta	0		91875	467
+Parramatta	0		105000	367
+Parramatta	0		131250	581
+Parramatta	0		157500	258
+Parramatta	0		183750	107
+Parramatta	0		210000	82
+Parramatta	0		Inf	107
+Parramatta	1	0		3483
+Parramatta	1	0	0	891
+Parramatta	1	0	7875	156
+Parramatta	1	0	15750	132
+Parramatta	1	0	21000	105
+Parramatta	1	0	26250	651
+Parramatta	1	0	34125	377
+Parramatta	1	0	42000	1368
+Parramatta	1	0	52500	2011
+Parramatta	1	0	65625	2994
+Parramatta	1	0	78750	3172
+Parramatta	1	0	91875	2907
+Parramatta	1	0	105000	2917
+Parramatta	1	0	131250	5764
+Parramatta	1	0	157500	3630
+Parramatta	1	0	183750	2422
+Parramatta	1	0	210000	1770
+Parramatta	1	0	Inf	2894
+Parramatta	1	1	7875	64
+Parramatta	1	1	15750	128
+Parramatta	1	1	21000	106
+Parramatta	1	1	26250	360
+Parramatta	1	1	34125	491
+Parramatta	1	1	42000	868
+Paterson				11
+Paterson			0	8
+Paterson			7875	8
+Paterson			15750	11
+Paterson			21000	4
+Paterson			26250	30
+Paterson			34125	29
+Paterson			42000	72
+Paterson			52500	96
+Paterson			65625	83
+Paterson			78750	56
+Paterson			91875	41
+Paterson			105000	23
+Paterson			131250	41
+Paterson			157500	20
+Paterson			183750	10
+Paterson			210000	3
+Paterson			Inf	4
+Paterson	0			836
+Paterson	0		0	111
+Paterson	0		7875	48
+Paterson	0		15750	197
+Paterson	0		21000	331
+Paterson	0		26250	517
+Paterson	0		34125	911
+Paterson	0		42000	999
+Paterson	0		52500	932
+Paterson	0		65625	920
+Paterson	0		78750	627
+Paterson	0		91875	444
+Paterson	0		105000	324
+Paterson	0		131250	370
+Paterson	0		157500	145
+Paterson	0		183750	50
+Paterson	0		210000	48
+Paterson	0		Inf	42
+Paterson	1	0		3694
+Paterson	1	0	0	214
+Paterson	1	0	7875	128
+Paterson	1	0	15750	95
+Paterson	1	0	21000	64
+Paterson	1	0	26250	834
+Paterson	1	0	34125	456
+Paterson	1	0	42000	2728
+Paterson	1	0	52500	2092
+Paterson	1	0	65625	2856
+Paterson	1	0	78750	2997
+Paterson	1	0	91875	2407
+Paterson	1	0	105000	2431
+Paterson	1	0	131250	4587
+Paterson	1	0	157500	3137
+Paterson	1	0	183750	1726
+Paterson	1	0	210000	975
+Paterson	1	0	Inf	1757
+Paterson	1	1	7875	10
+Paterson	1	1	15750	42
+Paterson	1	1	21000	29
+Paterson	1	1	26250	101
+Paterson	1	1	34125	155
+Paterson	1	1	42000	339
+Reid				9
+Reid			0	70
+Reid			7875	20
+Reid			15750	18
+Reid			21000	17
+Reid			26250	21
+Reid			34125	51
+Reid			42000	79
+Reid			52500	92
+Reid			65625	126
+Reid			78750	97
+Reid			91875	70
+Reid			105000	85
+Reid			131250	164
+Reid			157500	89
+Reid			183750	52
+Reid			210000	39
+Reid			Inf	55
+Reid	0			588
+Reid	0		0	260
+Reid	0		7875	77
+Reid	0		15750	167
+Reid	0		21000	165
+Reid	0		26250	228
+Reid	0		34125	325
+Reid	0		42000	404
+Reid	0		52500	495
+Reid	0		65625	621
+Reid	0		78750	477
+Reid	0		91875	419
+Reid	0		105000	308
+Reid	0		131250	592
+Reid	0		157500	307
+Reid	0		183750	137
+Reid	0		210000	198
+Reid	0		Inf	174
+Reid	1	0		3752
+Reid	1	0	0	862
+Reid	1	0	7875	191
+Reid	1	0	15750	143
+Reid	1	0	21000	104
+Reid	1	0	26250	627
+Reid	1	0	34125	390
+Reid	1	0	42000	1340
+Reid	1	0	52500	1537
+Reid	1	0	65625	2298
+Reid	1	0	78750	2357
+Reid	1	0	91875	1996
+Reid	1	0	105000	2097
+Reid	1	0	131250	4730
+Reid	1	0	157500	3482
+Reid	1	0	183750	2733
+Reid	1	0	210000	2468
+Reid	1	0	Inf	6864
+Reid	1	1	7875	35
+Reid	1	1	15750	76
+Reid	1	1	21000	56
+Reid	1	1	26250	168
+Reid	1	1	34125	261
+Reid	1	1	42000	445
+Richmond				13
+Richmond			7875	8
+Richmond			15750	9
+Richmond			21000	3
+Richmond			26250	15
+Richmond			34125	24
+Richmond			42000	60
+Richmond			52500	78
+Richmond			65625	71
+Richmond			78750	68
+Richmond			91875	19
+Richmond			105000	34
+Richmond			131250	24
+Richmond			157500	16
+Richmond			183750	3
+Richmond			Inf	3
+Richmond	0			946
+Richmond	0		0	79
+Richmond	0		7875	62
+Richmond	0		15750	172
+Richmond	0		21000	265
+Richmond	0		26250	510
+Richmond	0		34125	890
+Richmond	0		42000	893
+Richmond	0		52500	860
+Richmond	0		65625	904
+Richmond	0		78750	635
+Richmond	0		91875	368
+Richmond	0		105000	284
+Richmond	0		131250	318
+Richmond	0		157500	106
+Richmond	0		183750	31
+Richmond	0		210000	38
+Richmond	0		Inf	38
+Richmond	1	0		3688
+Richmond	1	0	0	222
+Richmond	1	0	7875	136
+Richmond	1	0	15750	108
+Richmond	1	0	21000	63
+Richmond	1	0	26250	795
+Richmond	1	0	34125	513
+Richmond	1	0	42000	2966
+Richmond	1	0	52500	2258
+Richmond	1	0	65625	3144
+Richmond	1	0	78750	3091
+Richmond	1	0	91875	2211
+Richmond	1	0	105000	2177
+Richmond	1	0	131250	3862
+Richmond	1	0	157500	2319
+Richmond	1	0	183750	1327
+Richmond	1	0	210000	751
+Richmond	1	0	Inf	1585
+Richmond	1	1	7875	15
+Richmond	1	1	15750	44
+Richmond	1	1	21000	25
+Richmond	1	1	26250	124
+Richmond	1	1	34125	174
+Richmond	1	1	42000	375
+Riverina				30
+Riverina			0	4
+Riverina			7875	11
+Riverina			21000	7
+Riverina			26250	27
+Riverina			34125	28
+Riverina			42000	68
+Riverina			52500	89
+Riverina			65625	98
+Riverina			78750	66
+Riverina			91875	29
+Riverina			105000	33
+Riverina			131250	46
+Riverina			157500	23
+Riverina			183750	6
+Riverina			Inf	7
+Riverina	0			815
+Riverina	0		0	82
+Riverina	0		7875	42
+Riverina	0		15750	214
+Riverina	0		21000	314
+Riverina	0		26250	504
+Riverina	0		34125	814
+Riverina	0		42000	784
+Riverina	0		52500	807
+Riverina	0		65625	723
+Riverina	0		78750	509
+Riverina	0		91875	320
+Riverina	0		105000	250
+Riverina	0		131250	265
+Riverina	0		157500	90
+Riverina	0		183750	43
+Riverina	0		210000	54
+Riverina	0		Inf	43
+Riverina	1	0		3935
+Riverina	1	0	0	240
+Riverina	1	0	7875	133
+Riverina	1	0	15750	112
+Riverina	1	0	21000	77
+Riverina	1	0	26250	801
+Riverina	1	0	34125	414
+Riverina	1	0	42000	2627
+Riverina	1	0	52500	1996
+Riverina	1	0	65625	2939
+Riverina	1	0	78750	3011
+Riverina	1	0	91875	2203
+Riverina	1	0	105000	2401
+Riverina	1	0	131250	4133
+Riverina	1	0	157500	2596
+Riverina	1	0	183750	1563
+Riverina	1	0	210000	861
+Riverina	1	0	Inf	1580
+Riverina	1	1	7875	21
+Riverina	1	1	15750	58
+Riverina	1	1	21000	31
+Riverina	1	1	26250	150
+Riverina	1	1	34125	173
+Riverina	1	1	42000	335
+Robertson				14
+Robertson			0	4
+Robertson			7875	5
+Robertson			15750	7
+Robertson			21000	4
+Robertson			26250	19
+Robertson			34125	22
+Robertson			42000	44
+Robertson			52500	83
+Robertson			65625	66
+Robertson			78750	65
+Robertson			91875	31
+Robertson			105000	28
+Robertson			131250	44
+Robertson			157500	28
+Robertson			183750	8
+Robertson			210000	5
+Robertson			Inf	5
+Robertson	0			868
+Robertson	0		0	97
+Robertson	0		7875	51
+Robertson	0		15750	140
+Robertson	0		21000	208
+Robertson	0		26250	345
+Robertson	0		34125	649
+Robertson	0		42000	669
+Robertson	0		52500	775
+Robertson	0		65625	799
+Robertson	0		78750	580
+Robertson	0		91875	439
+Robertson	0		105000	360
+Robertson	0		131250	441
+Robertson	0		157500	179
+Robertson	0		183750	92
+Robertson	0		210000	77
+Robertson	0		Inf	66
+Robertson	1	0		3434
+Robertson	1	0	0	227
+Robertson	1	0	7875	100
+Robertson	1	0	15750	78
+Robertson	1	0	21000	55
+Robertson	1	0	26250	645
+Robertson	1	0	34125	358
+Robertson	1	0	42000	2171
+Robertson	1	0	52500	1798
+Robertson	1	0	65625	2429
+Robertson	1	0	78750	2504
+Robertson	1	0	91875	1900
+Robertson	1	0	105000	2088
+Robertson	1	0	131250	4187
+Robertson	1	0	157500	2980
+Robertson	1	0	183750	1956
+Robertson	1	0	210000	1325
+Robertson	1	0	Inf	2480
+Robertson	1	1	7875	31
+Robertson	1	1	15750	39
+Robertson	1	1	21000	20
+Robertson	1	1	26250	74
+Robertson	1	1	34125	128
+Robertson	1	1	42000	228
+Shortland				13
+Shortland			0	3
+Shortland			7875	3
+Shortland			15750	7
+Shortland			21000	3
+Shortland			26250	28
+Shortland			34125	23
+Shortland			42000	47
+Shortland			52500	73
+Shortland			65625	59
+Shortland			78750	58
+Shortland			91875	28
+Shortland			105000	19
+Shortland			131250	47
+Shortland			157500	19
+Shortland			183750	8
+Shortland			Inf	9
+Shortland	0			792
+Shortland	0		0	73
+Shortland	0		7875	44
+Shortland	0		15750	140
+Shortland	0		21000	254
+Shortland	0		26250	457
+Shortland	0		34125	778
+Shortland	0		42000	841
+Shortland	0		52500	807
+Shortland	0		65625	909
+Shortland	0		78750	611
+Shortland	0		91875	427
+Shortland	0		105000	350
+Shortland	0		131250	457
+Shortland	0		157500	173
+Shortland	0		183750	56
+Shortland	0		210000	54
+Shortland	0		Inf	54
+Shortland	1	0		3392
+Shortland	1	0	0	190
+Shortland	1	0	7875	102
+Shortland	1	0	15750	94
+Shortland	1	0	21000	73
+Shortland	1	0	26250	722
+Shortland	1	0	34125	385
+Shortland	1	0	42000	2914
+Shortland	1	0	52500	1839
+Shortland	1	0	65625	2616
+Shortland	1	0	78750	2654
+Shortland	1	0	91875	2000
+Shortland	1	0	105000	2193
+Shortland	1	0	131250	4243
+Shortland	1	0	157500	3140
+Shortland	1	0	183750	1998
+Shortland	1	0	210000	1232
+Shortland	1	0	Inf	2302
+Shortland	1	1	7875	24
+Shortland	1	1	15750	32
+Shortland	1	1	21000	19
+Shortland	1	1	26250	66
+Shortland	1	1	34125	119
+Shortland	1	1	42000	280
+Sydney				15
+Sydney			0	153
+Sydney			7875	38
+Sydney			15750	25
+Sydney			21000	33
+Sydney			26250	56
+Sydney			34125	51
+Sydney			42000	92
+Sydney			52500	133
+Sydney			65625	174
+Sydney			78750	141
+Sydney			91875	99
+Sydney			105000	83
+Sydney			131250	190
+Sydney			157500	103
+Sydney			183750	61
+Sydney			210000	45
+Sydney			Inf	96
+Sydney	0			461
+Sydney	0		0	149
+Sydney	0		7875	47
+Sydney	0		15750	149
+Sydney	0		21000	132
+Sydney	0		26250	221
+Sydney	0		34125	261
+Sydney	0		42000	287
+Sydney	0		52500	347
+Sydney	0		65625	341
+Sydney	0		78750	280
+Sydney	0		91875	270
+Sydney	0		105000	193
+Sydney	0		131250	351
+Sydney	0		157500	121
+Sydney	0		183750	59
+Sydney	0		210000	188
+Sydney	0		Inf	147
+Sydney	1	0		3198
+Sydney	1	0	0	619
+Sydney	1	0	7875	117
+Sydney	1	0	15750	125
+Sydney	1	0	21000	94
+Sydney	1	0	26250	373
+Sydney	1	0	34125	281
+Sydney	1	0	42000	850
+Sydney	1	0	52500	877
+Sydney	1	0	65625	1360
+Sydney	1	0	78750	1471
+Sydney	1	0	91875	1370
+Sydney	1	0	105000	1568
+Sydney	1	0	131250	4028
+Sydney	1	0	157500	3436
+Sydney	1	0	183750	2872
+Sydney	1	0	210000	2661
+Sydney	1	0	Inf	8039
+Sydney	1	1	7875	20
+Sydney	1	1	15750	37
+Sydney	1	1	21000	21
+Sydney	1	1	26250	80
+Sydney	1	1	34125	104
+Sydney	1	1	42000	173
+Warringah			0	10
+Warringah			7875	6
+Warringah			15750	7
+Warringah			21000	3
+Warringah			26250	19
+Warringah			34125	20
+Warringah			42000	14
+Warringah			52500	32
+Warringah			65625	39
+Warringah			78750	50
+Warringah			91875	54
+Warringah			105000	28
+Warringah			131250	78
+Warringah			157500	57
+Warringah			183750	30
+Warringah			210000	22
+Warringah			Inf	32
+Warringah	0			579
+Warringah	0		0	108
+Warringah	0		7875	32
+Warringah	0		15750	69
+Warringah	0		21000	74
+Warringah	0		26250	111
+Warringah	0		34125	205
+Warringah	0		42000	243
+Warringah	0		52500	295
+Warringah	0		65625	373
+Warringah	0		78750	379
+Warringah	0		91875	310
+Warringah	0		105000	275
+Warringah	0		131250	500
+Warringah	0		157500	194
+Warringah	0		183750	79
+Warringah	0		210000	314
+Warringah	0		Inf	212
+Warringah	1	0		3929
+Warringah	1	0	0	216
+Warringah	1	0	7875	67
+Warringah	1	0	15750	51
+Warringah	1	0	21000	22
+Warringah	1	0	26250	246
+Warringah	1	0	34125	167
+Warringah	1	0	42000	554
+Warringah	1	0	52500	706
+Warringah	1	0	65625	1178
+Warringah	1	0	78750	1269
+Warringah	1	0	91875	1156
+Warringah	1	0	105000	1325
+Warringah	1	0	131250	3442
+Warringah	1	0	157500	3003
+Warringah	1	0	183750	2430
+Warringah	1	0	210000	2973
+Warringah	1	0	Inf	11019
+Warringah	1	1	7875	19
+Warringah	1	1	15750	21
+Warringah	1	1	21000	19
+Warringah	1	1	26250	41
+Warringah	1	1	34125	56
+Warringah	1	1	42000	105
+Watson				23
+Watson			0	41
+Watson			7875	16
+Watson			15750	28
+Watson			21000	10
+Watson			26250	42
+Watson			34125	42
+Watson			42000	81
+Watson			52500	112
+Watson			65625	115
+Watson			78750	113
+Watson			91875	78
+Watson			105000	61
+Watson			131250	104
+Watson			157500	60
+Watson			183750	33
+Watson			210000	12
+Watson			Inf	17
+Watson	0			848
+Watson	0		0	287
+Watson	0		7875	92
+Watson	0		15750	265
+Watson	0		21000	236
+Watson	0		26250	450
+Watson	0		34125	631
+Watson	0		42000	733
+Watson	0		52500	719
+Watson	0		65625	774
+Watson	0		78750	630
+Watson	0		91875	490
+Watson	0		105000	369
+Watson	0		131250	523
+Watson	0		157500	262
+Watson	0		183750	114
+Watson	0		210000	95
+Watson	0		Inf	108
+Watson	1	0		3810
+Watson	1	0	0	750
+Watson	1	0	7875	172
+Watson	1	0	15750	169
+Watson	1	0	21000	114
+Watson	1	0	26250	788
+Watson	1	0	34125	449
+Watson	1	0	42000	1800
+Watson	1	0	52500	2519
+Watson	1	0	65625	3206
+Watson	1	0	78750	2956
+Watson	1	0	91875	2240
+Watson	1	0	105000	2155
+Watson	1	0	131250	3825
+Watson	1	0	157500	2362
+Watson	1	0	183750	1630
+Watson	1	0	210000	1109
+Watson	1	0	Inf	2297
+Watson	1	1	7875	87
+Watson	1	1	15750	196
+Watson	1	1	21000	143
+Watson	1	1	26250	494
+Watson	1	1	34125	754
+Watson	1	1	42000	1143
+Wentworth				9
+Wentworth			0	23
+Wentworth			7875	7
+Wentworth			15750	8
+Wentworth			21000	9
+Wentworth			26250	8
+Wentworth			34125	19
+Wentworth			42000	32
+Wentworth			52500	31
+Wentworth			65625	53
+Wentworth			78750	44
+Wentworth			91875	44
+Wentworth			105000	42
+Wentworth			131250	105
+Wentworth			157500	65
+Wentworth			183750	40
+Wentworth			210000	26
+Wentworth			Inf	74
+Wentworth	0			553
+Wentworth	0		0	106
+Wentworth	0		7875	38
+Wentworth	0		15750	58
+Wentworth	0		21000	70
+Wentworth	0		26250	117
+Wentworth	0		34125	179
+Wentworth	0		42000	186
+Wentworth	0		52500	258
+Wentworth	0		65625	338
+Wentworth	0		78750	303
+Wentworth	0		91875	266
+Wentworth	0		105000	221
+Wentworth	0		131250	402
+Wentworth	0		157500	148
+Wentworth	0		183750	75
+Wentworth	0		210000	350
+Wentworth	0		Inf	258
+Wentworth	1	0		3577
+Wentworth	1	0	0	206
+Wentworth	1	0	7875	62
+Wentworth	1	0	15750	38
+Wentworth	1	0	21000	21
+Wentworth	1	0	26250	200
+Wentworth	1	0	34125	129
+Wentworth	1	0	42000	445
+Wentworth	1	0	52500	560
+Wentworth	1	0	65625	888
+Wentworth	1	0	78750	1040
+Wentworth	1	0	91875	891
+Wentworth	1	0	105000	1091
+Wentworth	1	0	131250	2707
+Wentworth	1	0	157500	2448
+Wentworth	1	0	183750	2213
+Wentworth	1	0	210000	2563
+Wentworth	1	0	Inf	10677
+Wentworth	1	1	7875	13
+Wentworth	1	1	15750	23
+Wentworth	1	1	21000	20
+Wentworth	1	1	26250	24
+Wentworth	1	1	34125	41
+Wentworth	1	1	42000	81
+Werriwa				25
+Werriwa			0	14
+Werriwa			7875	11
+Werriwa			15750	16
+Werriwa			21000	8
+Werriwa			26250	24
+Werriwa			34125	28
+Werriwa			42000	42
+Werriwa			52500	60
+Werriwa			65625	61
+Werriwa			78750	48
+Werriwa			91875	34
+Werriwa			105000	47
+Werriwa			131250	78
+Werriwa			157500	43
+Werriwa			183750	12
+Werriwa			210000	5
+Werriwa			Inf	17
+Werriwa	0			946
+Werriwa	0		0	205
+Werriwa	0		7875	79
+Werriwa	0		15750	285
+Werriwa	0		21000	345
+Werriwa	0		26250	513
+Werriwa	0		34125	695
+Werriwa	0		42000	781
+Werriwa	0		52500	860
+Werriwa	0		65625	828
+Werriwa	0		78750	686
+Werriwa	0		91875	531
+Werriwa	0		105000	401
+Werriwa	0		131250	559
+Werriwa	0		157500	262
+Werriwa	0		183750	135
+Werriwa	0		210000	92
+Werriwa	0		Inf	127
+Werriwa	1	0		3636
+Werriwa	1	0	0	489
+Werriwa	1	0	7875	158
+Werriwa	1	0	15750	93
+Werriwa	1	0	21000	81
+Werriwa	1	0	26250	588
+Werriwa	1	0	34125	284
+Werriwa	1	0	42000	1441
+Werriwa	1	0	52500	1816
+Werriwa	1	0	65625	2641
+Werriwa	1	0	78750	2681
+Werriwa	1	0	91875	2453
+Werriwa	1	0	105000	2355
+Werriwa	1	0	131250	4841
+Werriwa	1	0	157500	3379
+Werriwa	1	0	183750	2115
+Werriwa	1	0	210000	1326
+Werriwa	1	0	Inf	2276
+Werriwa	1	1	7875	54
+Werriwa	1	1	15750	140
+Werriwa	1	1	21000	86
+Werriwa	1	1	26250	328
+Werriwa	1	1	34125	525
+Werriwa	1	1	42000	826
+Whitlam				15
+Whitlam			0	8
+Whitlam			7875	8
+Whitlam			15750	16
+Whitlam			21000	4
+Whitlam			26250	13
+Whitlam			34125	21
+Whitlam			42000	52
+Whitlam			52500	73
+Whitlam			65625	78
+Whitlam			78750	40
+Whitlam			91875	26
+Whitlam			105000	28
+Whitlam			131250	41
+Whitlam			157500	23
+Whitlam			183750	6
+Whitlam			210000	3
+Whitlam			Inf	3
+Whitlam	0			867
+Whitlam	0		0	81
+Whitlam	0		7875	67
+Whitlam	0		15750	184
+Whitlam	0		21000	265
+Whitlam	0		26250	475
+Whitlam	0		34125	810
+Whitlam	0		42000	843
+Whitlam	0		52500	882
+Whitlam	0		65625	844
+Whitlam	0		78750	638
+Whitlam	0		91875	463
+Whitlam	0		105000	351
+Whitlam	0		131250	449
+Whitlam	0		157500	185
+Whitlam	0		183750	80
+Whitlam	0		210000	38
+Whitlam	0		Inf	63
+Whitlam	1	0		3585
+Whitlam	1	0	0	282
+Whitlam	1	0	7875	140
+Whitlam	1	0	15750	102
+Whitlam	1	0	21000	67
+Whitlam	1	0	26250	758
+Whitlam	1	0	34125	454
+Whitlam	1	0	42000	2784
+Whitlam	1	0	52500	1861
+Whitlam	1	0	65625	2707
+Whitlam	1	0	78750	2805
+Whitlam	1	0	91875	2343
+Whitlam	1	0	105000	2422
+Whitlam	1	0	131250	4693
+Whitlam	1	0	157500	3071
+Whitlam	1	0	183750	1828
+Whitlam	1	0	210000	1124
+Whitlam	1	0	Inf	2069
+Whitlam	1	1	7875	28
+Whitlam	1	1	15750	42
+Whitlam	1	1	21000	24
+Whitlam	1	1	26250	108
+Whitlam	1	1	34125	144
+Whitlam	1	1	42000	331
+Aston				10
+Aston			0	3
+Aston			7875	6
+Aston			15750	11
+Aston			21000	6
+Aston			26250	12
+Aston			34125	23
+Aston			42000	36
+Aston			52500	57
+Aston			65625	53
+Aston			78750	55
+Aston			91875	42
+Aston			105000	39
+Aston			131250	69
+Aston			157500	33
+Aston			183750	23
+Aston			210000	6
+Aston			Inf	7
+Aston	0			654
+Aston	0		0	103
+Aston	0		7875	54
+Aston	0		15750	127
+Aston	0		21000	132
+Aston	0		26250	223
+Aston	0		34125	447
+Aston	0		42000	501
+Aston	0		52500	611
+Aston	0		65625	623
+Aston	0		78750	508
+Aston	0		91875	411
+Aston	0		105000	307
+Aston	0		131250	448
+Aston	0		157500	189
+Aston	0		183750	97
+Aston	0		210000	55
+Aston	0		Inf	82
+Aston	1	0		3272
+Aston	1	0	0	388
+Aston	1	0	7875	125
+Aston	1	0	15750	99
+Aston	1	0	21000	59
+Aston	1	0	26250	485
+Aston	1	0	34125	334
+Aston	1	0	42000	1467
+Aston	1	0	52500	1528
+Aston	1	0	65625	2289
+Aston	1	0	78750	2416
+Aston	1	0	91875	2133
+Aston	1	0	105000	2242
+Aston	1	0	131250	4780
+Aston	1	0	157500	3447
+Aston	1	0	183750	2110
+Aston	1	0	210000	1378
+Aston	1	0	Inf	2489
+Aston	1	1	7875	27
+Aston	1	1	15750	50
+Aston	1	1	21000	31
+Aston	1	1	26250	121
+Aston	1	1	34125	199
+Aston	1	1	42000	365
+Ballarat				14
+Ballarat			0	5
+Ballarat			7875	12
+Ballarat			15750	6
+Ballarat			21000	4
+Ballarat			26250	34
+Ballarat			34125	33
+Ballarat			42000	61
+Ballarat			52500	59
+Ballarat			65625	63
+Ballarat			78750	64
+Ballarat			91875	40
+Ballarat			105000	23
+Ballarat			131250	45
+Ballarat			157500	14
+Ballarat			183750	9
+Ballarat			210000	3
+Ballarat			Inf	5
+Ballarat	0			818
+Ballarat	0		0	94
+Ballarat	0		7875	36
+Ballarat	0		15750	173
+Ballarat	0		21000	263
+Ballarat	0		26250	536
+Ballarat	0		34125	814
+Ballarat	0		42000	909
+Ballarat	0		52500	812
+Ballarat	0		65625	734
+Ballarat	0		78750	521
+Ballarat	0		91875	379
+Ballarat	0		105000	269
+Ballarat	0		131250	287
+Ballarat	0		157500	100
+Ballarat	0		183750	41
+Ballarat	0		210000	49
+Ballarat	0		Inf	49
+Ballarat	1	0		3347
+Ballarat	1	0	0	247
+Ballarat	1	0	7875	126
+Ballarat	1	0	15750	111
+Ballarat	1	0	21000	63
+Ballarat	1	0	26250	671
+Ballarat	1	0	34125	420
+Ballarat	1	0	42000	2308
+Ballarat	1	0	52500	2004
+Ballarat	1	0	65625	2776
+Ballarat	1	0	78750	2910
+Ballarat	1	0	91875	2392
+Ballarat	1	0	105000	2317
+Ballarat	1	0	131250	4553
+Ballarat	1	0	157500	2826
+Ballarat	1	0	183750	1645
+Ballarat	1	0	210000	929
+Ballarat	1	0	Inf	1796
+Ballarat	1	1	7875	29
+Ballarat	1	1	15750	49
+Ballarat	1	1	21000	22
+Ballarat	1	1	26250	106
+Ballarat	1	1	34125	183
+Ballarat	1	1	42000	373
+Batman				25
+Batman			0	34
+Batman			7875	20
+Batman			15750	38
+Batman			21000	12
+Batman			26250	43
+Batman			34125	51
+Batman			42000	103
+Batman			52500	106
+Batman			65625	125
+Batman			78750	115
+Batman			91875	61
+Batman			105000	75
+Batman			131250	116
+Batman			157500	58
+Batman			183750	30
+Batman			210000	16
+Batman			Inf	26
+Batman	0			743
+Batman	0		0	124
+Batman	0		7875	69
+Batman	0		15750	186
+Batman	0		21000	190
+Batman	0		26250	294
+Batman	0		34125	491
+Batman	0		42000	567
+Batman	0		52500	642
+Batman	0		65625	680
+Batman	0		78750	505
+Batman	0		91875	367
+Batman	0		105000	319
+Batman	0		131250	415
+Batman	0		157500	169
+Batman	0		183750	81
+Batman	0		210000	127
+Batman	0		Inf	80
+Batman	1	0		3227
+Batman	1	0	0	421
+Batman	1	0	7875	159
+Batman	1	0	15750	117
+Batman	1	0	21000	55
+Batman	1	0	26250	748
+Batman	1	0	34125	297
+Batman	1	0	42000	1765
+Batman	1	0	52500	1523
+Batman	1	0	65625	2084
+Batman	1	0	78750	2252
+Batman	1	0	91875	1892
+Batman	1	0	105000	1919
+Batman	1	0	131250	4152
+Batman	1	0	157500	3226
+Batman	1	0	183750	2193
+Batman	1	0	210000	1597
+Batman	1	0	Inf	3762
+Batman	1	1	7875	36
+Batman	1	1	15750	76
+Batman	1	1	21000	44
+Batman	1	1	26250	166
+Batman	1	1	34125	282
+Batman	1	1	42000	423
+Bendigo				14
+Bendigo			0	5
+Bendigo			7875	10
+Bendigo			15750	7
+Bendigo			21000	5
+Bendigo			26250	26
+Bendigo			34125	30
+Bendigo			42000	76
+Bendigo			52500	76
+Bendigo			65625	87
+Bendigo			78750	62
+Bendigo			91875	39
+Bendigo			105000	38
+Bendigo			131250	39
+Bendigo			157500	15
+Bendigo			183750	5
+Bendigo			Inf	11
+Bendigo	0			843
+Bendigo	0		0	71
+Bendigo	0		7875	56
+Bendigo	0		15750	185
+Bendigo	0		21000	281
+Bendigo	0		26250	427
+Bendigo	0		34125	810
+Bendigo	0		42000	854
+Bendigo	0		52500	823
+Bendigo	0		65625	742
+Bendigo	0		78750	537
+Bendigo	0		91875	364
+Bendigo	0		105000	234
+Bendigo	0		131250	294
+Bendigo	0		157500	87
+Bendigo	0		183750	32
+Bendigo	0		210000	46
+Bendigo	0		Inf	48
+Bendigo	1	0		3319
+Bendigo	1	0	0	181
+Bendigo	1	0	7875	145
+Bendigo	1	0	15750	93
+Bendigo	1	0	21000	50
+Bendigo	1	0	26250	694
+Bendigo	1	0	34125	393
+Bendigo	1	0	42000	2305
+Bendigo	1	0	52500	2072
+Bendigo	1	0	65625	2923
+Bendigo	1	0	78750	3047
+Bendigo	1	0	91875	2337
+Bendigo	1	0	105000	2279
+Bendigo	1	0	131250	4226
+Bendigo	1	0	157500	2710
+Bendigo	1	0	183750	1561
+Bendigo	1	0	210000	931
+Bendigo	1	0	Inf	1660
+Bendigo	1	1	7875	16
+Bendigo	1	1	15750	32
+Bendigo	1	1	21000	15
+Bendigo	1	1	26250	137
+Bendigo	1	1	34125	152
+Bendigo	1	1	42000	355
+Bruce				26
+Bruce			0	53
+Bruce			7875	21
+Bruce			15750	30
+Bruce			21000	14
+Bruce			26250	44
+Bruce			34125	44
+Bruce			42000	81
+Bruce			52500	104
+Bruce			65625	130
+Bruce			78750	99
+Bruce			91875	70
+Bruce			105000	46
+Bruce			131250	89
+Bruce			157500	34
+Bruce			183750	23
+Bruce			210000	3
+Bruce			Inf	14
+Bruce	0			773
+Bruce	0		0	315
+Bruce	0		7875	109
+Bruce	0		15750	216
+Bruce	0		21000	226
+Bruce	0		26250	370
+Bruce	0		34125	502
+Bruce	0		42000	623
+Bruce	0		52500	632
+Bruce	0		65625	736
+Bruce	0		78750	513
+Bruce	0		91875	395
+Bruce	0		105000	301
+Bruce	0		131250	428
+Bruce	0		157500	177
+Bruce	0		183750	77
+Bruce	0		210000	69
+Bruce	0		Inf	103
+Bruce	1	0		3534
+Bruce	1	0	0	754
+Bruce	1	0	7875	191
+Bruce	1	0	15750	166
+Bruce	1	0	21000	113
+Bruce	1	0	26250	826
+Bruce	1	0	34125	415
+Bruce	1	0	42000	1983
+Bruce	1	0	52500	2255
+Bruce	1	0	65625	2968
+Bruce	1	0	78750	2708
+Bruce	1	0	91875	2169
+Bruce	1	0	105000	2090
+Bruce	1	0	131250	4023
+Bruce	1	0	157500	2677
+Bruce	1	0	183750	1642
+Bruce	1	0	210000	1150
+Bruce	1	0	Inf	2415
+Bruce	1	1	7875	84
+Bruce	1	1	15750	116
+Bruce	1	1	21000	118
+Bruce	1	1	26250	326
+Bruce	1	1	34125	424
+Bruce	1	1	42000	729
+Calwell				20
+Calwell			0	18
+Calwell			7875	17
+Calwell			15750	24
+Calwell			21000	3
+Calwell			26250	28
+Calwell			34125	42
+Calwell			42000	56
+Calwell			52500	80
+Calwell			65625	95
+Calwell			78750	66
+Calwell			91875	45
+Calwell			105000	50
+Calwell			131250	62
+Calwell			157500	37
+Calwell			183750	16
+Calwell			210000	3
+Calwell			Inf	9
+Calwell	0			988
+Calwell	0		0	177
+Calwell	0		7875	91
+Calwell	0		15750	274
+Calwell	0		21000	300
+Calwell	0		26250	450
+Calwell	0		34125	635
+Calwell	0		42000	731
+Calwell	0		52500	816
+Calwell	0		65625	855
+Calwell	0		78750	631
+Calwell	0		91875	442
+Calwell	0		105000	368
+Calwell	0		131250	477
+Calwell	0		157500	235
+Calwell	0		183750	87
+Calwell	0		210000	61
+Calwell	0		Inf	88
+Calwell	1	0		3971
+Calwell	1	0	0	570
+Calwell	1	0	7875	156
+Calwell	1	0	15750	125
+Calwell	1	0	21000	69
+Calwell	1	0	26250	759
+Calwell	1	0	34125	384
+Calwell	1	0	42000	1802
+Calwell	1	0	52500	2320
+Calwell	1	0	65625	3014
+Calwell	1	0	78750	2823
+Calwell	1	0	91875	2323
+Calwell	1	0	105000	2304
+Calwell	1	0	131250	4262
+Calwell	1	0	157500	2709
+Calwell	1	0	183750	1603
+Calwell	1	0	210000	1067
+Calwell	1	0	Inf	1722
+Calwell	1	1	7875	83
+Calwell	1	1	15750	172
+Calwell	1	1	21000	119
+Calwell	1	1	26250	551
+Calwell	1	1	34125	645
+Calwell	1	1	42000	989
+Casey				9
+Casey			7875	6
+Casey			15750	8
+Casey			26250	9
+Casey			34125	14
+Casey			42000	38
+Casey			52500	51
+Casey			65625	47
+Casey			78750	54
+Casey			91875	29
+Casey			105000	27
+Casey			131250	65
+Casey			157500	34
+Casey			183750	7
+Casey			210000	6
+Casey			Inf	8
+Casey	0			828
+Casey	0		0	81
+Casey	0		7875	31
+Casey	0		15750	153
+Casey	0		21000	182
+Casey	0		26250	319
+Casey	0		34125	566
+Casey	0		42000	574
+Casey	0		52500	713
+Casey	0		65625	695
+Casey	0		78750	551
+Casey	0		91875	434
+Casey	0		105000	321
+Casey	0		131250	441
+Casey	0		157500	170
+Casey	0		183750	59
+Casey	0		210000	40
+Casey	0		Inf	59
+Casey	1	0		3581
+Casey	1	0	0	218
+Casey	1	0	7875	112
+Casey	1	0	15750	105
+Casey	1	0	21000	59
+Casey	1	0	26250	500
+Casey	1	0	34125	369
+Casey	1	0	42000	1677
+Casey	1	0	52500	1743
+Casey	1	0	65625	2502
+Casey	1	0	78750	2715
+Casey	1	0	91875	2389
+Casey	1	0	105000	2506
+Casey	1	0	131250	5103
+Casey	1	0	157500	3441
+Casey	1	0	183750	1868
+Casey	1	0	210000	1102
+Casey	1	0	Inf	1886
+Casey	1	1	7875	29
+Casey	1	1	15750	42
+Casey	1	1	21000	32
+Casey	1	1	26250	76
+Casey	1	1	34125	144
+Casey	1	1	42000	280
+Chisholm				15
+Chisholm			0	93
+Chisholm			7875	30
+Chisholm			15750	33
+Chisholm			21000	13
+Chisholm			26250	35
+Chisholm			34125	43
+Chisholm			42000	61
+Chisholm			52500	98
+Chisholm			65625	117
+Chisholm			78750	92
+Chisholm			91875	78
+Chisholm			105000	65
+Chisholm			131250	90
+Chisholm			157500	53
+Chisholm			183750	28
+Chisholm			210000	23
+Chisholm			Inf	26
+Chisholm	0			669
+Chisholm	0		0	325
+Chisholm	0		7875	108
+Chisholm	0		15750	194
+Chisholm	0		21000	165
+Chisholm	0		26250	274
+Chisholm	0		34125	427
+Chisholm	0		42000	444
+Chisholm	0		52500	490
+Chisholm	0		65625	599
+Chisholm	0		78750	454
+Chisholm	0		91875	390
+Chisholm	0		105000	335
+Chisholm	0		131250	529
+Chisholm	0		157500	224
+Chisholm	0		183750	88
+Chisholm	0		210000	114
+Chisholm	0		Inf	134
+Chisholm	1	0		3390
+Chisholm	1	0	0	793
+Chisholm	1	0	7875	196
+Chisholm	1	0	15750	159
+Chisholm	1	0	21000	101
+Chisholm	1	0	26250	717
+Chisholm	1	0	34125	382
+Chisholm	1	0	42000	1573
+Chisholm	1	0	52500	1640
+Chisholm	1	0	65625	2388
+Chisholm	1	0	78750	2218
+Chisholm	1	0	91875	1726
+Chisholm	1	0	105000	1861
+Chisholm	1	0	131250	4109
+Chisholm	1	0	157500	3087
+Chisholm	1	0	183750	2191
+Chisholm	1	0	210000	1741
+Chisholm	1	0	Inf	4298
+Chisholm	1	1	7875	53
+Chisholm	1	1	15750	92
+Chisholm	1	1	21000	61
+Chisholm	1	1	26250	157
+Chisholm	1	1	34125	260
+Chisholm	1	1	42000	415
+Corangamite				12
+Corangamite			0	10
+Corangamite			7875	3
+Corangamite			15750	15
+Corangamite			21000	6
+Corangamite			26250	16
+Corangamite			34125	16
+Corangamite			42000	35
+Corangamite			52500	60
+Corangamite			65625	54
+Corangamite			78750	66
+Corangamite			91875	29
+Corangamite			105000	38
+Corangamite			131250	35
+Corangamite			157500	20
+Corangamite			183750	11
+Corangamite			210000	3
+Corangamite			Inf	12
+Corangamite	0			684
+Corangamite	0		0	63
+Corangamite	0		7875	45
+Corangamite	0		15750	117
+Corangamite	0		21000	163
+Corangamite	0		26250	305
+Corangamite	0		34125	558
+Corangamite	0		42000	569
+Corangamite	0		52500	585
+Corangamite	0		65625	643
+Corangamite	0		78750	439
+Corangamite	0		91875	334
+Corangamite	0		105000	233
+Corangamite	0		131250	303
+Corangamite	0		157500	97
+Corangamite	0		183750	41
+Corangamite	0		210000	49
+Corangamite	0		Inf	50
+Corangamite	1	0		3727
+Corangamite	1	0	0	239
+Corangamite	1	0	7875	121
+Corangamite	1	0	15750	111
+Corangamite	1	0	21000	58
+Corangamite	1	0	26250	601
+Corangamite	1	0	34125	402
+Corangamite	1	0	42000	1943
+Corangamite	1	0	52500	1854
+Corangamite	1	0	65625	2789
+Corangamite	1	0	78750	2892
+Corangamite	1	0	91875	2324
+Corangamite	1	0	105000	2582
+Corangamite	1	0	131250	5062
+Corangamite	1	0	157500	3412
+Corangamite	1	0	183750	2002
+Corangamite	1	0	210000	1165
+Corangamite	1	0	Inf	2358
+Corangamite	1	1	7875	36
+Corangamite	1	1	15750	36
+Corangamite	1	1	21000	23
+Corangamite	1	1	26250	87
+Corangamite	1	1	34125	143
+Corangamite	1	1	42000	302
+Corio				17
+Corio			0	12
+Corio			7875	9
+Corio			15750	8
+Corio			21000	13
+Corio			26250	27
+Corio			34125	25
+Corio			42000	63
+Corio			52500	74
+Corio			65625	84
+Corio			78750	75
+Corio			91875	39
+Corio			105000	35
+Corio			131250	64
+Corio			157500	21
+Corio			183750	14
+Corio			210000	4
+Corio			Inf	9
+Corio	0			842
+Corio	0		0	110
+Corio	0		7875	70
+Corio	0		15750	237
+Corio	0		21000	294
+Corio	0		26250	543
+Corio	0		34125	879
+Corio	0		42000	865
+Corio	0		52500	858
+Corio	0		65625	832
+Corio	0		78750	604
+Corio	0		91875	391
+Corio	0		105000	297
+Corio	0		131250	381
+Corio	0		157500	125
+Corio	0		183750	45
+Corio	0		210000	56
+Corio	0		Inf	61
+Corio	1	0		3384
+Corio	1	0	0	251
+Corio	1	0	7875	119
+Corio	1	0	15750	99
+Corio	1	0	21000	69
+Corio	1	0	26250	837
+Corio	1	0	34125	389
+Corio	1	0	42000	2303
+Corio	1	0	52500	1944
+Corio	1	0	65625	2594
+Corio	1	0	78750	2660
+Corio	1	0	91875	2082
+Corio	1	0	105000	2191
+Corio	1	0	131250	4099
+Corio	1	0	157500	2627
+Corio	1	0	183750	1503
+Corio	1	0	210000	883
+Corio	1	0	Inf	1797
+Corio	1	1	7875	31
+Corio	1	1	15750	55
+Corio	1	1	21000	33
+Corio	1	1	26250	141
+Corio	1	1	34125	209
+Corio	1	1	42000	414
+Deakin				14
+Deakin			0	14
+Deakin			7875	12
+Deakin			15750	17
+Deakin			21000	11
+Deakin			26250	24
+Deakin			34125	37
+Deakin			42000	46
+Deakin			52500	56
+Deakin			65625	92
+Deakin			78750	53
+Deakin			91875	49
+Deakin			105000	44
+Deakin			131250	82
+Deakin			157500	34
+Deakin			183750	15
+Deakin			210000	6
+Deakin			Inf	14
+Deakin	0			712
+Deakin	0		0	155
+Deakin	0		7875	61
+Deakin	0		15750	154
+Deakin	0		21000	153
+Deakin	0		26250	251
+Deakin	0		34125	380
+Deakin	0		42000	504
+Deakin	0		52500	589
+Deakin	0		65625	673
+Deakin	0		78750	517
+Deakin	0		91875	400
+Deakin	0		105000	327
+Deakin	0		131250	462
+Deakin	0		157500	232
+Deakin	0		183750	99
+Deakin	0		210000	89
+Deakin	0		Inf	74
+Deakin	1	0		3053
+Deakin	1	0	0	457
+Deakin	1	0	7875	132
+Deakin	1	0	15750	104
+Deakin	1	0	21000	47
+Deakin	1	0	26250	508
+Deakin	1	0	34125	299
+Deakin	1	0	42000	1417
+Deakin	1	0	52500	1658
+Deakin	1	0	65625	2349
+Deakin	1	0	78750	2363
+Deakin	1	0	91875	1904
+Deakin	1	0	105000	2218
+Deakin	1	0	131250	4616
+Deakin	1	0	157500	3652
+Deakin	1	0	183750	2469
+Deakin	1	0	210000	1652
+Deakin	1	0	Inf	3264
+Deakin	1	1	7875	34
+Deakin	1	1	15750	62
+Deakin	1	1	21000	49
+Deakin	1	1	26250	147
+Deakin	1	1	34125	207
+Deakin	1	1	42000	370
+Dunkley				15
+Dunkley			0	9
+Dunkley			7875	4
+Dunkley			15750	7
+Dunkley			21000	3
+Dunkley			26250	25
+Dunkley			34125	19
+Dunkley			42000	51
+Dunkley			52500	73
+Dunkley			65625	69
+Dunkley			78750	82
+Dunkley			91875	46
+Dunkley			105000	42
+Dunkley			131250	48
+Dunkley			157500	28
+Dunkley			183750	17
+Dunkley			210000	3
+Dunkley			Inf	11
+Dunkley	0			989
+Dunkley	0		0	111
+Dunkley	0		7875	56
+Dunkley	0		15750	179
+Dunkley	0		21000	232
+Dunkley	0		26250	405
+Dunkley	0		34125	703
+Dunkley	0		42000	756
+Dunkley	0		52500	816
+Dunkley	0		65625	872
+Dunkley	0		78750	637
+Dunkley	0		91875	491
+Dunkley	0		105000	327
+Dunkley	0		131250	459
+Dunkley	0		157500	169
+Dunkley	0		183750	73
+Dunkley	0		210000	74
+Dunkley	0		Inf	53
+Dunkley	1	0		3448
+Dunkley	1	0	0	253
+Dunkley	1	0	7875	98
+Dunkley	1	0	15750	76
+Dunkley	1	0	21000	54
+Dunkley	1	0	26250	538
+Dunkley	1	0	34125	310
+Dunkley	1	0	42000	1739
+Dunkley	1	0	52500	1694
+Dunkley	1	0	65625	2354
+Dunkley	1	0	78750	2405
+Dunkley	1	0	91875	2107
+Dunkley	1	0	105000	2182
+Dunkley	1	0	131250	4497
+Dunkley	1	0	157500	3172
+Dunkley	1	0	183750	1914
+Dunkley	1	0	210000	1194
+Dunkley	1	0	Inf	2433
+Dunkley	1	1	7875	26
+Dunkley	1	1	15750	47
+Dunkley	1	1	21000	18
+Dunkley	1	1	26250	77
+Dunkley	1	1	34125	143
+Dunkley	1	1	42000	256
+Flinders				20
+Flinders			0	4
+Flinders			7875	5
+Flinders			15750	5
+Flinders			26250	13
+Flinders			34125	17
+Flinders			42000	28
+Flinders			52500	72
+Flinders			65625	55
+Flinders			78750	46
+Flinders			91875	26
+Flinders			105000	27
+Flinders			131250	32
+Flinders			157500	17
+Flinders			183750	4
+Flinders			Inf	7
+Flinders	0			845
+Flinders	0		0	68
+Flinders	0		7875	51
+Flinders	0		15750	144
+Flinders	0		21000	264
+Flinders	0		26250	378
+Flinders	0		34125	745
+Flinders	0		42000	708
+Flinders	0		52500	718
+Flinders	0		65625	714
+Flinders	0		78750	473
+Flinders	0		91875	386
+Flinders	0		105000	260
+Flinders	0		131250	319
+Flinders	0		157500	103
+Flinders	0		183750	43
+Flinders	0		210000	45
+Flinders	0		Inf	46
+Flinders	1	0		4083
+Flinders	1	0	0	321
+Flinders	1	0	7875	156
+Flinders	1	0	15750	116
+Flinders	1	0	21000	76
+Flinders	1	0	26250	791
+Flinders	1	0	34125	430
+Flinders	1	0	42000	2620
+Flinders	1	0	52500	2171
+Flinders	1	0	65625	3032
+Flinders	1	0	78750	3101
+Flinders	1	0	91875	2352
+Flinders	1	0	105000	2554
+Flinders	1	0	131250	4481
+Flinders	1	0	157500	2967
+Flinders	1	0	183750	1629
+Flinders	1	0	210000	957
+Flinders	1	0	Inf	2049
+Flinders	1	1	7875	22
+Flinders	1	1	15750	34
+Flinders	1	1	21000	20
+Flinders	1	1	26250	93
+Flinders	1	1	34125	150
+Flinders	1	1	42000	302
+Gellibrand				22
+Gellibrand			0	26
+Gellibrand			7875	8
+Gellibrand			15750	22
+Gellibrand			21000	6
+Gellibrand			26250	65
+Gellibrand			34125	54
+Gellibrand			42000	108
+Gellibrand			52500	105
+Gellibrand			65625	139
+Gellibrand			78750	126
+Gellibrand			91875	77
+Gellibrand			105000	77
+Gellibrand			131250	106
+Gellibrand			157500	70
+Gellibrand			183750	32
+Gellibrand			210000	19
+Gellibrand			Inf	30
+Gellibrand	0			827
+Gellibrand	0		0	165
+Gellibrand	0		7875	86
+Gellibrand	0		15750	236
+Gellibrand	0		21000	228
+Gellibrand	0		26250	368
+Gellibrand	0		34125	563
+Gellibrand	0		42000	621
+Gellibrand	0		52500	697
+Gellibrand	0		65625	796
+Gellibrand	0		78750	554
+Gellibrand	0		91875	454
+Gellibrand	0		105000	362
+Gellibrand	0		131250	493
+Gellibrand	0		157500	209
+Gellibrand	0		183750	101
+Gellibrand	0		210000	114
+Gellibrand	0		Inf	90
+Gellibrand	1	0		3455
+Gellibrand	1	0	0	440
+Gellibrand	1	0	7875	149
+Gellibrand	1	0	15750	130
+Gellibrand	1	0	21000	69
+Gellibrand	1	0	26250	721
+Gellibrand	1	0	34125	303
+Gellibrand	1	0	42000	1642
+Gellibrand	1	0	52500	1632
+Gellibrand	1	0	65625	2145
+Gellibrand	1	0	78750	2218
+Gellibrand	1	0	91875	1948
+Gellibrand	1	0	105000	2042
+Gellibrand	1	0	131250	4265
+Gellibrand	1	0	157500	3450
+Gellibrand	1	0	183750	2563
+Gellibrand	1	0	210000	1908
+Gellibrand	1	0	Inf	4041
+Gellibrand	1	1	7875	42
+Gellibrand	1	1	15750	109
+Gellibrand	1	1	21000	83
+Gellibrand	1	1	26250	232
+Gellibrand	1	1	34125	304
+Gellibrand	1	1	42000	482
+Gippsland				11
+Gippsland			0	8
+Gippsland			7875	11
+Gippsland			15750	15
+Gippsland			21000	3
+Gippsland			26250	26
+Gippsland			34125	18
+Gippsland			42000	37
+Gippsland			52500	74
+Gippsland			65625	64
+Gippsland			78750	43
+Gippsland			91875	19
+Gippsland			105000	22
+Gippsland			131250	38
+Gippsland			157500	17
+Gippsland			Inf	3
+Gippsland	0			733
+Gippsland	0		0	71
+Gippsland	0		7875	52
+Gippsland	0		15750	191
+Gippsland	0		21000	320
+Gippsland	0		26250	508
+Gippsland	0		34125	813
+Gippsland	0		42000	743
+Gippsland	0		52500	674
+Gippsland	0		65625	644
+Gippsland	0		78750	390
+Gippsland	0		91875	251
+Gippsland	0		105000	209
+Gippsland	0		131250	209
+Gippsland	0		157500	84
+Gippsland	0		183750	16
+Gippsland	0		210000	46
+Gippsland	0		Inf	40
+Gippsland	1	0		3764
+Gippsland	1	0	0	276
+Gippsland	1	0	7875	171
+Gippsland	1	0	15750	120
+Gippsland	1	0	21000	71
+Gippsland	1	0	26250	886
+Gippsland	1	0	34125	524
+Gippsland	1	0	42000	2759
+Gippsland	1	0	52500	2180
+Gippsland	1	0	65625	2873
+Gippsland	1	0	78750	2806
+Gippsland	1	0	91875	2022
+Gippsland	1	0	105000	2073
+Gippsland	1	0	131250	3628
+Gippsland	1	0	157500	2173
+Gippsland	1	0	183750	1234
+Gippsland	1	0	210000	782
+Gippsland	1	0	Inf	1448
+Gippsland	1	1	7875	21
+Gippsland	1	1	15750	52
+Gippsland	1	1	21000	21
+Gippsland	1	1	26250	142
+Gippsland	1	1	34125	165
+Gippsland	1	1	42000	417
+Goldstein				11
+Goldstein			0	13
+Goldstein			7875	15
+Goldstein			15750	16
+Goldstein			21000	12
+Goldstein			26250	19
+Goldstein			34125	13
+Goldstein			42000	48
+Goldstein			52500	51
+Goldstein			65625	57
+Goldstein			78750	48
+Goldstein			91875	27
+Goldstein			105000	28
+Goldstein			131250	69
+Goldstein			157500	35
+Goldstein			183750	21
+Goldstein			210000	10
+Goldstein			Inf	15
+Goldstein	0			655
+Goldstein	0		0	176
+Goldstein	0		7875	43
+Goldstein	0		15750	113
+Goldstein	0		21000	115
+Goldstein	0		26250	195
+Goldstein	0		34125	292
+Goldstein	0		42000	314
+Goldstein	0		52500	405
+Goldstein	0		65625	472
+Goldstein	0		78750	363
+Goldstein	0		91875	332
+Goldstein	0		105000	249
+Goldstein	0		131250	465
+Goldstein	0		157500	156
+Goldstein	0		183750	74
+Goldstein	0		210000	215
+Goldstein	0		Inf	188
+Goldstein	1	0		4001
+Goldstein	1	0	0	294
+Goldstein	1	0	7875	109
+Goldstein	1	0	15750	72
+Goldstein	1	0	21000	38
+Goldstein	1	0	26250	349
+Goldstein	1	0	34125	222
+Goldstein	1	0	42000	938
+Goldstein	1	0	52500	912
+Goldstein	1	0	65625	1490
+Goldstein	1	0	78750	1559
+Goldstein	1	0	91875	1293
+Goldstein	1	0	105000	1474
+Goldstein	1	0	131250	3514
+Goldstein	1	0	157500	3035
+Goldstein	1	0	183750	2442
+Goldstein	1	0	210000	2656
+Goldstein	1	0	Inf	8985
+Goldstein	1	1	7875	33
+Goldstein	1	1	15750	25
+Goldstein	1	1	21000	17
+Goldstein	1	1	26250	54
+Goldstein	1	1	34125	102
+Goldstein	1	1	42000	186
+Gorton				14
+Gorton			0	24
+Gorton			7875	10
+Gorton			15750	15
+Gorton			21000	4
+Gorton			26250	36
+Gorton			34125	33
+Gorton			42000	56
+Gorton			52500	75
+Gorton			65625	98
+Gorton			78750	86
+Gorton			91875	46
+Gorton			105000	58
+Gorton			131250	89
+Gorton			157500	41
+Gorton			183750	16
+Gorton			210000	8
+Gorton			Inf	9
+Gorton	0			1024
+Gorton	0		0	269
+Gorton	0		7875	91
+Gorton	0		15750	326
+Gorton	0		21000	399
+Gorton	0		26250	585
+Gorton	0		34125	905
+Gorton	0		42000	947
+Gorton	0		52500	988
+Gorton	0		65625	1010
+Gorton	0		78750	793
+Gorton	0		91875	551
+Gorton	0		105000	414
+Gorton	0		131250	529
+Gorton	0		157500	237
+Gorton	0		183750	105
+Gorton	0		210000	68
+Gorton	0		Inf	63
+Gorton	1	0		4214
+Gorton	1	0	0	581
+Gorton	1	0	7875	129
+Gorton	1	0	15750	118
+Gorton	1	0	21000	67
+Gorton	1	0	26250	659
+Gorton	1	0	34125	356
+Gorton	1	0	42000	1818
+Gorton	1	0	52500	2231
+Gorton	1	0	65625	3368
+Gorton	1	0	78750	3600
+Gorton	1	0	91875	3151
+Gorton	1	0	105000	3196
+Gorton	1	0	131250	6237
+Gorton	1	0	157500	3993
+Gorton	1	0	183750	2241
+Gorton	1	0	210000	1262
+Gorton	1	0	Inf	1790
+Gorton	1	1	7875	83
+Gorton	1	1	15750	140
+Gorton	1	1	21000	81
+Gorton	1	1	26250	325
+Gorton	1	1	34125	451
+Gorton	1	1	42000	759
+Higgins				15
+Higgins			0	42
+Higgins			7875	25
+Higgins			15750	20
+Higgins			21000	14
+Higgins			26250	29
+Higgins			34125	32
+Higgins			42000	66
+Higgins			52500	83
+Higgins			65625	111
+Higgins			78750	99
+Higgins			91875	52
+Higgins			105000	62
+Higgins			131250	139
+Higgins			157500	93
+Higgins			183750	46
+Higgins			210000	19
+Higgins			Inf	39
+Higgins	0			560
+Higgins	0		0	166
+Higgins	0		7875	70
+Higgins	0		15750	116
+Higgins	0		21000	93
+Higgins	0		26250	167
+Higgins	0		34125	211
+Higgins	0		42000	243
+Higgins	0		52500	320
+Higgins	0		65625	347
+Higgins	0		78750	305
+Higgins	0		91875	261
+Higgins	0		105000	223
+Higgins	0		131250	381
+Higgins	0		157500	159
+Higgins	0		183750	78
+Higgins	0		210000	196
+Higgins	0		Inf	196
+Higgins	1	0		3611
+Higgins	1	0	0	392
+Higgins	1	0	7875	110
+Higgins	1	0	15750	76
+Higgins	1	0	21000	46
+Higgins	1	0	26250	359
+Higgins	1	0	34125	222
+Higgins	1	0	42000	828
+Higgins	1	0	52500	853
+Higgins	1	0	65625	1362
+Higgins	1	0	78750	1496
+Higgins	1	0	91875	1330
+Higgins	1	0	105000	1501
+Higgins	1	0	131250	3586
+Higgins	1	0	157500	2925
+Higgins	1	0	183750	2329
+Higgins	1	0	210000	2393
+Higgins	1	0	Inf	8722
+Higgins	1	1	7875	34
+Higgins	1	1	15750	40
+Higgins	1	1	21000	17
+Higgins	1	1	26250	67
+Higgins	1	1	34125	83
+Higgins	1	1	42000	157
+Holt				13
+Holt			0	10
+Holt			7875	11
+Holt			15750	18
+Holt			21000	8
+Holt			26250	22
+Holt			34125	34
+Holt			42000	58
+Holt			52500	73
+Holt			65625	103
+Holt			78750	89
+Holt			91875	65
+Holt			105000	69
+Holt			131250	91
+Holt			157500	37
+Holt			183750	22
+Holt			210000	6
+Holt			Inf	8
+Holt	0			975
+Holt	0		0	214
+Holt	0		7875	90
+Holt	0		15750	268
+Holt	0		21000	337
+Holt	0		26250	486
+Holt	0		34125	863
+Holt	0		42000	859
+Holt	0		52500	947
+Holt	0		65625	956
+Holt	0		78750	768
+Holt	0		91875	570
+Holt	0		105000	401
+Holt	0		131250	543
+Holt	0		157500	237
+Holt	0		183750	105
+Holt	0		210000	52
+Holt	0		Inf	61
+Holt	1	0		4383
+Holt	1	0	0	636
+Holt	1	0	7875	149
+Holt	1	0	15750	121
+Holt	1	0	21000	74
+Holt	1	0	26250	634
+Holt	1	0	34125	386
+Holt	1	0	42000	1892
+Holt	1	0	52500	2663
+Holt	1	0	65625	3842
+Holt	1	0	78750	4222
+Holt	1	0	91875	3709
+Holt	1	0	105000	3473
+Holt	1	0	131250	6859
+Holt	1	0	157500	3802
+Holt	1	0	183750	1837
+Holt	1	0	210000	999
+Holt	1	0	Inf	1382
+Holt	1	1	7875	65
+Holt	1	1	15750	150
+Holt	1	1	21000	90
+Holt	1	1	26250	337
+Holt	1	1	34125	547
+Holt	1	1	42000	940
+Hotham				13
+Hotham			0	29
+Hotham			7875	10
+Hotham			15750	30
+Hotham			21000	17
+Hotham			26250	32
+Hotham			34125	28
+Hotham			42000	55
+Hotham			52500	93
+Hotham			65625	123
+Hotham			78750	117
+Hotham			91875	59
+Hotham			105000	46
+Hotham			131250	97
+Hotham			157500	39
+Hotham			183750	32
+Hotham			210000	16
+Hotham			Inf	22
+Hotham	0			777
+Hotham	0		0	210
+Hotham	0		7875	57
+Hotham	0		15750	216
+Hotham	0		21000	214
+Hotham	0		26250	306
+Hotham	0		34125	487
+Hotham	0		42000	567
+Hotham	0		52500	655
+Hotham	0		65625	699
+Hotham	0		78750	608
+Hotham	0		91875	483
+Hotham	0		105000	371
+Hotham	0		131250	507
+Hotham	0		157500	199
+Hotham	0		183750	95
+Hotham	0		210000	74
+Hotham	0		Inf	64
+Hotham	1	0		3348
+Hotham	1	0	0	549
+Hotham	1	0	7875	179
+Hotham	1	0	15750	135
+Hotham	1	0	21000	82
+Hotham	1	0	26250	760
+Hotham	1	0	34125	352
+Hotham	1	0	42000	1835
+Hotham	1	0	52500	1857
+Hotham	1	0	65625	2464
+Hotham	1	0	78750	2363
+Hotham	1	0	91875	1930
+Hotham	1	0	105000	2114
+Hotham	1	0	131250	4195
+Hotham	1	0	157500	3130
+Hotham	1	0	183750	2046
+Hotham	1	0	210000	1454
+Hotham	1	0	Inf	2895
+Hotham	1	1	7875	54
+Hotham	1	1	15750	117
+Hotham	1	1	21000	71
+Hotham	1	1	26250	220
+Hotham	1	1	34125	324
+Hotham	1	1	42000	538
+Indi				10
+Indi			0	7
+Indi			15750	15
+Indi			26250	19
+Indi			34125	18
+Indi			42000	49
+Indi			52500	59
+Indi			65625	68
+Indi			78750	56
+Indi			91875	20
+Indi			105000	17
+Indi			131250	32
+Indi			157500	16
+Indi			183750	5
+Indi			Inf	3
+Indi	0			703
+Indi	0		0	63
+Indi	0		7875	65
+Indi	0		15750	171
+Indi	0		21000	285
+Indi	0		26250	429
+Indi	0		34125	647
+Indi	0		42000	667
+Indi	0		52500	646
+Indi	0		65625	620
+Indi	0		78750	436
+Indi	0		91875	270
+Indi	0		105000	191
+Indi	0		131250	230
+Indi	0		157500	79
+Indi	0		183750	13
+Indi	0		210000	32
+Indi	0		Inf	30
+Indi	1	0		3607
+Indi	1	0	0	217
+Indi	1	0	7875	145
+Indi	1	0	15750	103
+Indi	1	0	21000	66
+Indi	1	0	26250	795
+Indi	1	0	34125	434
+Indi	1	0	42000	2491
+Indi	1	0	52500	2127
+Indi	1	0	65625	2902
+Indi	1	0	78750	3014
+Indi	1	0	91875	2266
+Indi	1	0	105000	2284
+Indi	1	0	131250	3983
+Indi	1	0	157500	2510
+Indi	1	0	183750	1274
+Indi	1	0	210000	660
+Indi	1	0	Inf	1116
+Indi	1	1	7875	27
+Indi	1	1	15750	34
+Indi	1	1	21000	28
+Indi	1	1	26250	103
+Indi	1	1	34125	177
+Indi	1	1	42000	325
+Isaacs				24
+Isaacs			0	13
+Isaacs			7875	5
+Isaacs			15750	10
+Isaacs			21000	4
+Isaacs			26250	35
+Isaacs			34125	27
+Isaacs			42000	42
+Isaacs			52500	71
+Isaacs			65625	93
+Isaacs			78750	63
+Isaacs			91875	51
+Isaacs			105000	55
+Isaacs			131250	75
+Isaacs			157500	32
+Isaacs			183750	18
+Isaacs			210000	12
+Isaacs			Inf	9
+Isaacs	0			778
+Isaacs	0		0	155
+Isaacs	0		7875	55
+Isaacs	0		15750	168
+Isaacs	0		21000	191
+Isaacs	0		26250	338
+Isaacs	0		34125	564
+Isaacs	0		42000	612
+Isaacs	0		52500	746
+Isaacs	0		65625	765
+Isaacs	0		78750	592
+Isaacs	0		91875	515
+Isaacs	0		105000	371
+Isaacs	0		131250	502
+Isaacs	0		157500	178
+Isaacs	0		183750	87
+Isaacs	0		210000	91
+Isaacs	0		Inf	75
+Isaacs	1	0		3502
+Isaacs	1	0	0	391
+Isaacs	1	0	7875	107
+Isaacs	1	0	15750	102
+Isaacs	1	0	21000	63
+Isaacs	1	0	26250	524
+Isaacs	1	0	34125	328
+Isaacs	1	0	42000	1597
+Isaacs	1	0	52500	1620
+Isaacs	1	0	65625	2415
+Isaacs	1	0	78750	2661
+Isaacs	1	0	91875	2171
+Isaacs	1	0	105000	2392
+Isaacs	1	0	131250	5060
+Isaacs	1	0	157500	3723
+Isaacs	1	0	183750	2291
+Isaacs	1	0	210000	1584
+Isaacs	1	0	Inf	2946
+Isaacs	1	1	7875	54
+Isaacs	1	1	15750	86
+Isaacs	1	1	21000	58
+Isaacs	1	1	26250	157
+Isaacs	1	1	34125	263
+Isaacs	1	1	42000	496
+Jagajaga				15
+Jagajaga			0	11
+Jagajaga			7875	7
+Jagajaga			15750	24
+Jagajaga			21000	5
+Jagajaga			26250	26
+Jagajaga			34125	32
+Jagajaga			42000	54
+Jagajaga			52500	69
+Jagajaga			65625	73
+Jagajaga			78750	65
+Jagajaga			91875	40
+Jagajaga			105000	48
+Jagajaga			131250	64
+Jagajaga			157500	38
+Jagajaga			183750	17
+Jagajaga			210000	7
+Jagajaga			Inf	16
+Jagajaga	0			757
+Jagajaga	0		0	89
+Jagajaga	0		7875	54
+Jagajaga	0		15750	128
+Jagajaga	0		21000	157
+Jagajaga	0		26250	241
+Jagajaga	0		34125	360
+Jagajaga	0		42000	432
+Jagajaga	0		52500	509
+Jagajaga	0		65625	589
+Jagajaga	0		78750	483
+Jagajaga	0		91875	429
+Jagajaga	0		105000	319
+Jagajaga	0		131250	474
+Jagajaga	0		157500	192
+Jagajaga	0		183750	96
+Jagajaga	0		210000	91
+Jagajaga	0		Inf	99
+Jagajaga	1	0		3365
+Jagajaga	1	0	0	275
+Jagajaga	1	0	7875	109
+Jagajaga	1	0	15750	76
+Jagajaga	1	0	21000	47
+Jagajaga	1	0	26250	391
+Jagajaga	1	0	34125	220
+Jagajaga	1	0	42000	1170
+Jagajaga	1	0	52500	1248
+Jagajaga	1	0	65625	1920
+Jagajaga	1	0	78750	1914
+Jagajaga	1	0	91875	1722
+Jagajaga	1	0	105000	1956
+Jagajaga	1	0	131250	4500
+Jagajaga	1	0	157500	3646
+Jagajaga	1	0	183750	2620
+Jagajaga	1	0	210000	1920
+Jagajaga	1	0	Inf	4676
+Jagajaga	1	1	7875	25
+Jagajaga	1	1	15750	31
+Jagajaga	1	1	21000	30
+Jagajaga	1	1	26250	73
+Jagajaga	1	1	34125	135
+Jagajaga	1	1	42000	227
+Kooyong				13
+Kooyong			0	66
+Kooyong			7875	31
+Kooyong			15750	30
+Kooyong			21000	14
+Kooyong			26250	25
+Kooyong			34125	24
+Kooyong			42000	55
+Kooyong			52500	69
+Kooyong			65625	92
+Kooyong			78750	99
+Kooyong			91875	58
+Kooyong			105000	39
+Kooyong			131250	105
+Kooyong			157500	58
+Kooyong			183750	22
+Kooyong			210000	12
+Kooyong			Inf	26
+Kooyong	0			530
+Kooyong	0		0	304
+Kooyong	0		7875	87
+Kooyong	0		15750	122
+Kooyong	0		21000	107
+Kooyong	0		26250	145
+Kooyong	0		34125	235
+Kooyong	0		42000	241
+Kooyong	0		52500	316
+Kooyong	0		65625	404
+Kooyong	0		78750	320
+Kooyong	0		91875	272
+Kooyong	0		105000	251
+Kooyong	0		131250	472
+Kooyong	0		157500	194
+Kooyong	0		183750	79
+Kooyong	0		210000	216
+Kooyong	0		Inf	203
+Kooyong	1	0		3909
+Kooyong	1	0	0	417
+Kooyong	1	0	7875	121
+Kooyong	1	0	15750	85
+Kooyong	1	0	21000	45
+Kooyong	1	0	26250	266
+Kooyong	1	0	34125	218
+Kooyong	1	0	42000	625
+Kooyong	1	0	52500	895
+Kooyong	1	0	65625	1341
+Kooyong	1	0	78750	1426
+Kooyong	1	0	91875	1136
+Kooyong	1	0	105000	1385
+Kooyong	1	0	131250	3162
+Kooyong	1	0	157500	2772
+Kooyong	1	0	183750	2085
+Kooyong	1	0	210000	2123
+Kooyong	1	0	Inf	9080
+Kooyong	1	1	7875	45
+Kooyong	1	1	15750	60
+Kooyong	1	1	21000	44
+Kooyong	1	1	26250	82
+Kooyong	1	1	34125	159
+Kooyong	1	1	42000	191
+La Trobe				4
+La Trobe			0	9
+La Trobe			7875	8
+La Trobe			15750	10
+La Trobe			26250	16
+La Trobe			34125	21
+La Trobe			42000	29
+La Trobe			52500	42
+La Trobe			65625	46
+La Trobe			78750	51
+La Trobe			91875	34
+La Trobe			105000	43
+La Trobe			131250	56
+La Trobe			157500	28
+La Trobe			183750	20
+La Trobe			210000	11
+La Trobe			Inf	8
+La Trobe	0			716
+La Trobe	0		0	103
+La Trobe	0		7875	38
+La Trobe	0		15750	115
+La Trobe	0		21000	151
+La Trobe	0		26250	269
+La Trobe	0		34125	492
+La Trobe	0		42000	535
+La Trobe	0		52500	594
+La Trobe	0		65625	657
+La Trobe	0		78750	544
+La Trobe	0		91875	401
+La Trobe	0		105000	338
+La Trobe	0		131250	485
+La Trobe	0		157500	189
+La Trobe	0		183750	89
+La Trobe	0		210000	61
+La Trobe	0		Inf	61
+La Trobe	1	0		3652
+La Trobe	1	0	0	331
+La Trobe	1	0	7875	107
+La Trobe	1	0	15750	95
+La Trobe	1	0	21000	59
+La Trobe	1	0	26250	420
+La Trobe	1	0	34125	287
+La Trobe	1	0	42000	1386
+La Trobe	1	0	52500	1541
+La Trobe	1	0	65625	2471
+La Trobe	1	0	78750	2712
+La Trobe	1	0	91875	2489
+La Trobe	1	0	105000	2867
+La Trobe	1	0	131250	5953
+La Trobe	1	0	157500	4132
+La Trobe	1	0	183750	2445
+La Trobe	1	0	210000	1625
+La Trobe	1	0	Inf	2921
+La Trobe	1	1	7875	23
+La Trobe	1	1	15750	56
+La Trobe	1	1	21000	30
+La Trobe	1	1	26250	123
+La Trobe	1	1	34125	181
+La Trobe	1	1	42000	341
+Lalor				15
+Lalor			0	25
+Lalor			7875	12
+Lalor			15750	9
+Lalor			21000	13
+Lalor			26250	28
+Lalor			34125	32
+Lalor			42000	55
+Lalor			52500	73
+Lalor			65625	84
+Lalor			78750	100
+Lalor			91875	77
+Lalor			105000	60
+Lalor			131250	115
+Lalor			157500	44
+Lalor			183750	30
+Lalor			210000	11
+Lalor			Inf	21
+Lalor	0			1030
+Lalor	0		0	286
+Lalor	0		7875	100
+Lalor	0		15750	290
+Lalor	0		21000	366
+Lalor	0		26250	524
+Lalor	0		34125	928
+Lalor	0		42000	899
+Lalor	0		52500	1060
+Lalor	0		65625	1070
+Lalor	0		78750	752
+Lalor	0		91875	583
+Lalor	0		105000	447
+Lalor	0		131250	579
+Lalor	0		157500	270
+Lalor	0		183750	100
+Lalor	0		210000	56
+Lalor	0		Inf	83
+Lalor	1	0		4754
+Lalor	1	0	0	813
+Lalor	1	0	7875	154
+Lalor	1	0	15750	126
+Lalor	1	0	21000	91
+Lalor	1	0	26250	575
+Lalor	1	0	34125	374
+Lalor	1	0	42000	1633
+Lalor	1	0	52500	2841
+Lalor	1	0	65625	3987
+Lalor	1	0	78750	4436
+Lalor	1	0	91875	4037
+Lalor	1	0	105000	3990
+Lalor	1	0	131250	8123
+Lalor	1	0	157500	4979
+Lalor	1	0	183750	3065
+Lalor	1	0	210000	1969
+Lalor	1	0	Inf	2907
+Lalor	1	1	7875	104
+Lalor	1	1	15750	178
+Lalor	1	1	21000	126
+Lalor	1	1	26250	414
+Lalor	1	1	34125	571
+Lalor	1	1	42000	969
+Mallee				8
+Mallee			0	4
+Mallee			7875	5
+Mallee			15750	5
+Mallee			21000	3
+Mallee			26250	28
+Mallee			34125	25
+Mallee			42000	62
+Mallee			52500	76
+Mallee			65625	73
+Mallee			78750	65
+Mallee			91875	23
+Mallee			105000	24
+Mallee			131250	37
+Mallee			157500	12
+Mallee			183750	8
+Mallee			Inf	8
+Mallee	0			713
+Mallee	0		0	62
+Mallee	0		7875	45
+Mallee	0		15750	171
+Mallee	0		21000	269
+Mallee	0		26250	457
+Mallee	0		34125	690
+Mallee	0		42000	716
+Mallee	0		52500	709
+Mallee	0		65625	563
+Mallee	0		78750	360
+Mallee	0		91875	244
+Mallee	0		105000	145
+Mallee	0		131250	162
+Mallee	0		157500	59
+Mallee	0		183750	15
+Mallee	0		210000	28
+Mallee	0		Inf	33
+Mallee	1	0		3658
+Mallee	1	0	0	323
+Mallee	1	0	7875	170
+Mallee	1	0	15750	119
+Mallee	1	0	21000	65
+Mallee	1	0	26250	828
+Mallee	1	0	34125	437
+Mallee	1	0	42000	2622
+Mallee	1	0	52500	2227
+Mallee	1	0	65625	2940
+Mallee	1	0	78750	3059
+Mallee	1	0	91875	1988
+Mallee	1	0	105000	2211
+Mallee	1	0	131250	3473
+Mallee	1	0	157500	1913
+Mallee	1	0	183750	999
+Mallee	1	0	210000	479
+Mallee	1	0	Inf	948
+Mallee	1	1	7875	55
+Mallee	1	1	15750	81
+Mallee	1	1	21000	29
+Mallee	1	1	26250	168
+Mallee	1	1	34125	216
+Mallee	1	1	42000	442
+Maribyrnong				27
+Maribyrnong			0	27
+Maribyrnong			7875	25
+Maribyrnong			15750	25
+Maribyrnong			21000	11
+Maribyrnong			26250	56
+Maribyrnong			34125	52
+Maribyrnong			42000	83
+Maribyrnong			52500	121
+Maribyrnong			65625	150
+Maribyrnong			78750	111
+Maribyrnong			91875	88
+Maribyrnong			105000	70
+Maribyrnong			131250	109
+Maribyrnong			157500	63
+Maribyrnong			183750	25
+Maribyrnong			210000	19
+Maribyrnong			Inf	39
+Maribyrnong	0			945
+Maribyrnong	0		0	259
+Maribyrnong	0		7875	99
+Maribyrnong	0		15750	308
+Maribyrnong	0		21000	277
+Maribyrnong	0		26250	391
+Maribyrnong	0		34125	585
+Maribyrnong	0		42000	652
+Maribyrnong	0		52500	738
+Maribyrnong	0		65625	790
+Maribyrnong	0		78750	647
+Maribyrnong	0		91875	523
+Maribyrnong	0		105000	353
+Maribyrnong	0		131250	491
+Maribyrnong	0		157500	246
+Maribyrnong	0		183750	97
+Maribyrnong	0		210000	99
+Maribyrnong	0		Inf	125
+Maribyrnong	1	0		3681
+Maribyrnong	1	0	0	522
+Maribyrnong	1	0	7875	174
+Maribyrnong	1	0	15750	136
+Maribyrnong	1	0	21000	77
+Maribyrnong	1	0	26250	869
+Maribyrnong	1	0	34125	378
+Maribyrnong	1	0	42000	1964
+Maribyrnong	1	0	52500	1892
+Maribyrnong	1	0	65625	2502
+Maribyrnong	1	0	78750	2444
+Maribyrnong	1	0	91875	1946
+Maribyrnong	1	0	105000	1978
+Maribyrnong	1	0	131250	4099
+Maribyrnong	1	0	157500	3011
+Maribyrnong	1	0	183750	1968
+Maribyrnong	1	0	210000	1586
+Maribyrnong	1	0	Inf	3641
+Maribyrnong	1	1	7875	59
+Maribyrnong	1	1	15750	135
+Maribyrnong	1	1	21000	100
+Maribyrnong	1	1	26250	262
+Maribyrnong	1	1	34125	360
+Maribyrnong	1	1	42000	640
+McEwen				16
+McEwen			0	12
+McEwen			7875	6
+McEwen			15750	13
+McEwen			21000	3
+McEwen			26250	14
+McEwen			34125	21
+McEwen			42000	53
+McEwen			52500	58
+McEwen			65625	72
+McEwen			78750	65
+McEwen			91875	52
+McEwen			105000	44
+McEwen			131250	72
+McEwen			157500	40
+McEwen			183750	19
+McEwen			210000	6
+McEwen			Inf	10
+McEwen	0			1016
+McEwen	0		0	147
+McEwen	0		7875	63
+McEwen	0		15750	228
+McEwen	0		21000	276
+McEwen	0		26250	478
+McEwen	0		34125	888
+McEwen	0		42000	901
+McEwen	0		52500	951
+McEwen	0		65625	931
+McEwen	0		78750	752
+McEwen	0		91875	582
+McEwen	0		105000	407
+McEwen	0		131250	554
+McEwen	0		157500	260
+McEwen	0		183750	104
+McEwen	0		210000	91
+McEwen	0		Inf	69
+McEwen	1	0		4805
+McEwen	1	0	0	482
+McEwen	1	0	7875	110
+McEwen	1	0	15750	129
+McEwen	1	0	21000	67
+McEwen	1	0	26250	629
+McEwen	1	0	34125	364
+McEwen	1	0	42000	1789
+McEwen	1	0	52500	2263
+McEwen	1	0	65625	3479
+McEwen	1	0	78750	3892
+McEwen	1	0	91875	3600
+McEwen	1	0	105000	3877
+McEwen	1	0	131250	7823
+McEwen	1	0	157500	5084
+McEwen	1	0	183750	2906
+McEwen	1	0	210000	1791
+McEwen	1	0	Inf	2808
+McEwen	1	1	7875	51
+McEwen	1	1	15750	100
+McEwen	1	1	21000	47
+McEwen	1	1	26250	224
+McEwen	1	1	34125	358
+McEwen	1	1	42000	603
+McMillan				12
+McMillan			0	12
+McMillan			7875	8
+McMillan			15750	6
+McMillan			21000	5
+McMillan			26250	34
+McMillan			34125	21
+McMillan			42000	59
+McMillan			52500	60
+McMillan			65625	68
+McMillan			78750	55
+McMillan			91875	22
+McMillan			105000	34
+McMillan			131250	49
+McMillan			157500	19
+McMillan			183750	10
+McMillan			210000	6
+McMillan			Inf	3
+McMillan	0			940
+McMillan	0		0	101
+McMillan	0		7875	63
+McMillan	0		15750	229
+McMillan	0		21000	320
+McMillan	0		26250	515
+McMillan	0		34125	945
+McMillan	0		42000	864
+McMillan	0		52500	837
+McMillan	0		65625	801
+McMillan	0		78750	544
+McMillan	0		91875	378
+McMillan	0		105000	260
+McMillan	0		131250	304
+McMillan	0		157500	133
+McMillan	0		183750	49
+McMillan	0		210000	43
+McMillan	0		Inf	44
+McMillan	1	0		4004
+McMillan	1	0	0	346
+McMillan	1	0	7875	167
+McMillan	1	0	15750	133
+McMillan	1	0	21000	79
+McMillan	1	0	26250	925
+McMillan	1	0	34125	489
+McMillan	1	0	42000	2799
+McMillan	1	0	52500	2517
+McMillan	1	0	65625	3358
+McMillan	1	0	78750	3427
+McMillan	1	0	91875	2708
+McMillan	1	0	105000	2870
+McMillan	1	0	131250	4703
+McMillan	1	0	157500	2902
+McMillan	1	0	183750	1477
+McMillan	1	0	210000	815
+McMillan	1	0	Inf	1548
+McMillan	1	1	7875	35
+McMillan	1	1	15750	68
+McMillan	1	1	21000	39
+McMillan	1	1	26250	156
+McMillan	1	1	34125	214
+McMillan	1	1	42000	418
+Melbourne				31
+Melbourne			0	450
+Melbourne			7875	88
+Melbourne			15750	99
+Melbourne			21000	42
+Melbourne			26250	122
+Melbourne			34125	97
+Melbourne			42000	173
+Melbourne			52500	186
+Melbourne			65625	234
+Melbourne			78750	193
+Melbourne			91875	121
+Melbourne			105000	105
+Melbourne			131250	199
+Melbourne			157500	135
+Melbourne			183750	83
+Melbourne			210000	46
+Melbourne			Inf	63
+Melbourne	0			682
+Melbourne	0		0	262
+Melbourne	0		7875	126
+Melbourne	0		15750	361
+Melbourne	0		21000	290
+Melbourne	0		26250	362
+Melbourne	0		34125	419
+Melbourne	0		42000	414
+Melbourne	0		52500	425
+Melbourne	0		65625	465
+Melbourne	0		78750	312
+Melbourne	0		91875	254
+Melbourne	0		105000	197
+Melbourne	0		131250	334
+Melbourne	0		157500	135
+Melbourne	0		183750	48
+Melbourne	0		210000	149
+Melbourne	0		Inf	122
+Melbourne	1	0		3172
+Melbourne	1	0	0	797
+Melbourne	1	0	7875	162
+Melbourne	1	0	15750	188
+Melbourne	1	0	21000	113
+Melbourne	1	0	26250	487
+Melbourne	1	0	34125	327
+Melbourne	1	0	42000	872
+Melbourne	1	0	52500	1103
+Melbourne	1	0	65625	1553
+Melbourne	1	0	78750	1714
+Melbourne	1	0	91875	1587
+Melbourne	1	0	105000	1698
+Melbourne	1	0	131250	4150
+Melbourne	1	0	157500	3428
+Melbourne	1	0	183750	2709
+Melbourne	1	0	210000	2276
+Melbourne	1	0	Inf	6457
+Melbourne	1	1	7875	35
+Melbourne	1	1	15750	86
+Melbourne	1	1	21000	34
+Melbourne	1	1	26250	181
+Melbourne	1	1	34125	172
+Melbourne	1	1	42000	256
+Melbourne Ports				19
+Melbourne Ports			0	78
+Melbourne Ports			7875	25
+Melbourne Ports			15750	33
+Melbourne Ports			21000	11
+Melbourne Ports			26250	37
+Melbourne Ports			34125	35
+Melbourne Ports			42000	62
+Melbourne Ports			52500	72
+Melbourne Ports			65625	123
+Melbourne Ports			78750	108
+Melbourne Ports			91875	76
+Melbourne Ports			105000	73
+Melbourne Ports			131250	143
+Melbourne Ports			157500	94
+Melbourne Ports			183750	48
+Melbourne Ports			210000	36
+Melbourne Ports			Inf	64
+Melbourne Ports	0			532
+Melbourne Ports	0		0	120
+Melbourne Ports	0		7875	48
+Melbourne Ports	0		15750	116
+Melbourne Ports	0		21000	132
+Melbourne Ports	0		26250	169
+Melbourne Ports	0		34125	253
+Melbourne Ports	0		42000	293
+Melbourne Ports	0		52500	309
+Melbourne Ports	0		65625	368
+Melbourne Ports	0		78750	276
+Melbourne Ports	0		91875	222
+Melbourne Ports	0		105000	256
+Melbourne Ports	0		131250	362
+Melbourne Ports	0		157500	115
+Melbourne Ports	0		183750	59
+Melbourne Ports	0		210000	204
+Melbourne Ports	0		Inf	137
+Melbourne Ports	1	0		3413
+Melbourne Ports	1	0	0	344
+Melbourne Ports	1	0	7875	89
+Melbourne Ports	1	0	15750	74
+Melbourne Ports	1	0	21000	55
+Melbourne Ports	1	0	26250	329
+Melbourne Ports	1	0	34125	212
+Melbourne Ports	1	0	42000	708
+Melbourne Ports	1	0	52500	792
+Melbourne Ports	1	0	65625	1308
+Melbourne Ports	1	0	78750	1535
+Melbourne Ports	1	0	91875	1304
+Melbourne Ports	1	0	105000	1584
+Melbourne Ports	1	0	131250	3973
+Melbourne Ports	1	0	157500	3375
+Melbourne Ports	1	0	183750	2513
+Melbourne Ports	1	0	210000	2418
+Melbourne Ports	1	0	Inf	7664
+Melbourne Ports	1	1	7875	26
+Melbourne Ports	1	1	15750	38
+Melbourne Ports	1	1	21000	21
+Melbourne Ports	1	1	26250	60
+Melbourne Ports	1	1	34125	89
+Melbourne Ports	1	1	42000	149
+Menzies				11
+Menzies			0	30
+Menzies			7875	14
+Menzies			15750	18
+Menzies			21000	10
+Menzies			26250	27
+Menzies			34125	29
+Menzies			42000	39
+Menzies			52500	49
+Menzies			65625	55
+Menzies			78750	55
+Menzies			91875	27
+Menzies			105000	33
+Menzies			131250	51
+Menzies			157500	25
+Menzies			183750	17
+Menzies			210000	9
+Menzies			Inf	19
+Menzies	0			610
+Menzies	0		0	245
+Menzies	0		7875	61
+Menzies	0		15750	122
+Menzies	0		21000	125
+Menzies	0		26250	177
+Menzies	0		34125	305
+Menzies	0		42000	360
+Menzies	0		52500	428
+Menzies	0		65625	505
+Menzies	0		78750	416
+Menzies	0		91875	312
+Menzies	0		105000	262
+Menzies	0		131250	357
+Menzies	0		157500	196
+Menzies	0		183750	104
+Menzies	0		210000	99
+Menzies	0		Inf	136
+Menzies	1	0		3831
+Menzies	1	0	0	561
+Menzies	1	0	7875	205
+Menzies	1	0	15750	111
+Menzies	1	0	21000	55
+Menzies	1	0	26250	626
+Menzies	1	0	34125	337
+Menzies	1	0	42000	1511
+Menzies	1	0	52500	1600
+Menzies	1	0	65625	2121
+Menzies	1	0	78750	2120
+Menzies	1	0	91875	1763
+Menzies	1	0	105000	1948
+Menzies	1	0	131250	3866
+Menzies	1	0	157500	3086
+Menzies	1	0	183750	2222
+Menzies	1	0	210000	1822
+Menzies	1	0	Inf	4698
+Menzies	1	1	7875	62
+Menzies	1	1	15750	79
+Menzies	1	1	21000	66
+Menzies	1	1	26250	120
+Menzies	1	1	34125	190
+Menzies	1	1	42000	366
+Murray				20
+Murray			0	7
+Murray			7875	8
+Murray			15750	10
+Murray			21000	3
+Murray			26250	21
+Murray			34125	18
+Murray			42000	46
+Murray			52500	55
+Murray			65625	50
+Murray			78750	42
+Murray			91875	30
+Murray			105000	24
+Murray			131250	32
+Murray			157500	11
+Murray			183750	6
+Murray			Inf	4
+Murray	0			766
+Murray	0		0	82
+Murray	0		7875	39
+Murray	0		15750	171
+Murray	0		21000	249
+Murray	0		26250	463
+Murray	0		34125	740
+Murray	0		42000	762
+Murray	0		52500	749
+Murray	0		65625	654
+Murray	0		78750	472
+Murray	0		91875	276
+Murray	0		105000	193
+Murray	0		131250	221
+Murray	0		157500	88
+Murray	0		183750	28
+Murray	0		210000	31
+Murray	0		Inf	35
+Murray	1	0		3751
+Murray	1	0	0	347
+Murray	1	0	7875	170
+Murray	1	0	15750	117
+Murray	1	0	21000	78
+Murray	1	0	26250	907
+Murray	1	0	34125	454
+Murray	1	0	42000	2718
+Murray	1	0	52500	2093
+Murray	1	0	65625	2988
+Murray	1	0	78750	2990
+Murray	1	0	91875	2150
+Murray	1	0	105000	2309
+Murray	1	0	131250	3807
+Murray	1	0	157500	2224
+Murray	1	0	183750	1147
+Murray	1	0	210000	552
+Murray	1	0	Inf	1116
+Murray	1	1	7875	44
+Murray	1	1	15750	77
+Murray	1	1	21000	41
+Murray	1	1	26250	187
+Murray	1	1	34125	230
+Murray	1	1	42000	415
+Scullin				11
+Scullin			0	19
+Scullin			7875	10
+Scullin			15750	10
+Scullin			21000	7
+Scullin			26250	35
+Scullin			34125	37
+Scullin			42000	79
+Scullin			52500	80
+Scullin			65625	82
+Scullin			78750	83
+Scullin			91875	53
+Scullin			105000	62
+Scullin			131250	78
+Scullin			157500	36
+Scullin			183750	18
+Scullin			210000	6
+Scullin			Inf	7
+Scullin	0			861
+Scullin	0		0	179
+Scullin	0		7875	70
+Scullin	0		15750	190
+Scullin	0		21000	201
+Scullin	0		26250	393
+Scullin	0		34125	607
+Scullin	0		42000	698
+Scullin	0		52500	725
+Scullin	0		65625	774
+Scullin	0		78750	668
+Scullin	0		91875	491
+Scullin	0		105000	368
+Scullin	0		131250	495
+Scullin	0		157500	225
+Scullin	0		183750	91
+Scullin	0		210000	65
+Scullin	0		Inf	71
+Scullin	1	0		3976
+Scullin	1	0	0	625
+Scullin	1	0	7875	137
+Scullin	1	0	15750	117
+Scullin	1	0	21000	85
+Scullin	1	0	26250	892
+Scullin	1	0	34125	357
+Scullin	1	0	42000	2196
+Scullin	1	0	52500	2244
+Scullin	1	0	65625	2999
+Scullin	1	0	78750	3163
+Scullin	1	0	91875	2665
+Scullin	1	0	105000	2644
+Scullin	1	0	131250	5156
+Scullin	1	0	157500	3431
+Scullin	1	0	183750	2078
+Scullin	1	0	210000	1201
+Scullin	1	0	Inf	2094
+Scullin	1	1	7875	78
+Scullin	1	1	15750	124
+Scullin	1	1	21000	81
+Scullin	1	1	26250	338
+Scullin	1	1	34125	436
+Scullin	1	1	42000	805
+Wannon				15
+Wannon			0	4
+Wannon			7875	7
+Wannon			15750	6
+Wannon			21000	4
+Wannon			26250	27
+Wannon			34125	23
+Wannon			42000	41
+Wannon			52500	70
+Wannon			65625	47
+Wannon			78750	49
+Wannon			91875	22
+Wannon			105000	27
+Wannon			131250	25
+Wannon			157500	17
+Wannon			Inf	9
+Wannon	0			668
+Wannon	0		0	53
+Wannon	0		7875	47
+Wannon	0		15750	154
+Wannon	0		21000	239
+Wannon	0		26250	394
+Wannon	0		34125	673
+Wannon	0		42000	671
+Wannon	0		52500	652
+Wannon	0		65625	538
+Wannon	0		78750	395
+Wannon	0		91875	225
+Wannon	0		105000	148
+Wannon	0		131250	210
+Wannon	0		157500	67
+Wannon	0		183750	30
+Wannon	0		210000	47
+Wannon	0		Inf	27
+Wannon	1	0		3368
+Wannon	1	0	0	275
+Wannon	1	0	7875	147
+Wannon	1	0	15750	137
+Wannon	1	0	21000	70
+Wannon	1	0	26250	852
+Wannon	1	0	34125	495
+Wannon	1	0	42000	2517
+Wannon	1	0	52500	2111
+Wannon	1	0	65625	2865
+Wannon	1	0	78750	2714
+Wannon	1	0	91875	1996
+Wannon	1	0	105000	2080
+Wannon	1	0	131250	3404
+Wannon	1	0	157500	2081
+Wannon	1	0	183750	1065
+Wannon	1	0	210000	565
+Wannon	1	0	Inf	1103
+Wannon	1	1	7875	35
+Wannon	1	1	15750	52
+Wannon	1	1	21000	24
+Wannon	1	1	26250	134
+Wannon	1	1	34125	168
+Wannon	1	1	42000	365
+Wills				27
+Wills			0	29
+Wills			7875	16
+Wills			15750	30
+Wills			21000	10
+Wills			26250	51
+Wills			34125	28
+Wills			42000	72
+Wills			52500	133
+Wills			65625	132
+Wills			78750	117
+Wills			91875	93
+Wills			105000	93
+Wills			131250	134
+Wills			157500	89
+Wills			183750	45
+Wills			210000	23
+Wills			Inf	25
+Wills	0			741
+Wills	0		0	127
+Wills	0		7875	60
+Wills	0		15750	171
+Wills	0		21000	168
+Wills	0		26250	290
+Wills	0		34125	420
+Wills	0		42000	520
+Wills	0		52500	660
+Wills	0		65625	713
+Wills	0		78750	505
+Wills	0		91875	413
+Wills	0		105000	312
+Wills	0		131250	497
+Wills	0		157500	193
+Wills	0		183750	67
+Wills	0		210000	73
+Wills	0		Inf	76
+Wills	1	0		3437
+Wills	1	0	0	411
+Wills	1	0	7875	134
+Wills	1	0	15750	108
+Wills	1	0	21000	71
+Wills	1	0	26250	765
+Wills	1	0	34125	325
+Wills	1	0	42000	1780
+Wills	1	0	52500	1584
+Wills	1	0	65625	2237
+Wills	1	0	78750	2363
+Wills	1	0	91875	1998
+Wills	1	0	105000	2112
+Wills	1	0	131250	4680
+Wills	1	0	157500	3664
+Wills	1	0	183750	2597
+Wills	1	0	210000	1752
+Wills	1	0	Inf	3530
+Wills	1	1	7875	40
+Wills	1	1	15750	74
+Wills	1	1	21000	68
+Wills	1	1	26250	208
+Wills	1	1	34125	306
+Wills	1	1	42000	487
+Blair				16
+Blair			0	9
+Blair			7875	7
+Blair			15750	13
+Blair			21000	8
+Blair			26250	31
+Blair			34125	17
+Blair			42000	67
+Blair			52500	85
+Blair			65625	80
+Blair			78750	57
+Blair			91875	45
+Blair			105000	49
+Blair			131250	74
+Blair			157500	29
+Blair			183750	14
+Blair			210000	3
+Blair			Inf	11
+Blair	0			788
+Blair	0		0	110
+Blair	0		7875	60
+Blair	0		15750	198
+Blair	0		21000	331
+Blair	0		26250	544
+Blair	0		34125	1078
+Blair	0		42000	1049
+Blair	0		52500	1019
+Blair	0		65625	989
+Blair	0		78750	701
+Blair	0		91875	504
+Blair	0		105000	355
+Blair	0		131250	377
+Blair	0		157500	158
+Blair	0		183750	43
+Blair	0		210000	52
+Blair	0		Inf	51
+Blair	1	0		3380
+Blair	1	0	0	195
+Blair	1	0	7875	90
+Blair	1	0	15750	90
+Blair	1	0	21000	54
+Blair	1	0	26250	563
+Blair	1	0	34125	411
+Blair	1	0	42000	2056
+Blair	1	0	52500	1941
+Blair	1	0	65625	2777
+Blair	1	0	78750	2950
+Blair	1	0	91875	2400
+Blair	1	0	105000	2529
+Blair	1	0	131250	4688
+Blair	1	0	157500	2863
+Blair	1	0	183750	1643
+Blair	1	0	210000	834
+Blair	1	0	Inf	1160
+Blair	1	1	7875	25
+Blair	1	1	15750	40
+Blair	1	1	21000	29
+Blair	1	1	26250	127
+Blair	1	1	34125	181
+Blair	1	1	42000	400
+Bonner				9
+Bonner			0	11
+Bonner			7875	13
+Bonner			15750	14
+Bonner			21000	7
+Bonner			26250	35
+Bonner			34125	30
+Bonner			42000	55
+Bonner			52500	68
+Bonner			65625	79
+Bonner			78750	66
+Bonner			91875	51
+Bonner			105000	52
+Bonner			131250	84
+Bonner			157500	58
+Bonner			183750	27
+Bonner			210000	13
+Bonner			Inf	12
+Bonner	0			620
+Bonner	0		0	106
+Bonner	0		7875	31
+Bonner	0		15750	123
+Bonner	0		21000	167
+Bonner	0		26250	259
+Bonner	0		34125	456
+Bonner	0		42000	525
+Bonner	0		52500	620
+Bonner	0		65625	739
+Bonner	0		78750	601
+Bonner	0		91875	431
+Bonner	0		105000	390
+Bonner	0		131250	530
+Bonner	0		157500	261
+Bonner	0		183750	89
+Bonner	0		210000	111
+Bonner	0		Inf	104
+Bonner	1	0		3399
+Bonner	1	0	0	312
+Bonner	1	0	7875	91
+Bonner	1	0	15750	85
+Bonner	1	0	21000	43
+Bonner	1	0	26250	428
+Bonner	1	0	34125	276
+Bonner	1	0	42000	1542
+Bonner	1	0	52500	1411
+Bonner	1	0	65625	2044
+Bonner	1	0	78750	2101
+Bonner	1	0	91875	1736
+Bonner	1	0	105000	2060
+Bonner	1	0	131250	4521
+Bonner	1	0	157500	3761
+Bonner	1	0	183750	2781
+Bonner	1	0	210000	1993
+Bonner	1	0	Inf	4302
+Bonner	1	1	7875	26
+Bonner	1	1	15750	42
+Bonner	1	1	21000	23
+Bonner	1	1	26250	75
+Bonner	1	1	34125	135
+Bonner	1	1	42000	267
+Bowman				9
+Bowman			0	5
+Bowman			7875	4
+Bowman			15750	9
+Bowman			21000	3
+Bowman			26250	21
+Bowman			34125	12
+Bowman			42000	47
+Bowman			52500	53
+Bowman			65625	50
+Bowman			78750	51
+Bowman			91875	39
+Bowman			105000	42
+Bowman			131250	45
+Bowman			157500	27
+Bowman			183750	10
+Bowman			210000	4
+Bowman			Inf	12
+Bowman	0			626
+Bowman	0		0	69
+Bowman	0		7875	39
+Bowman	0		15750	128
+Bowman	0		21000	177
+Bowman	0		26250	331
+Bowman	0		34125	583
+Bowman	0		42000	628
+Bowman	0		52500	699
+Bowman	0		65625	775
+Bowman	0		78750	582
+Bowman	0		91875	459
+Bowman	0		105000	336
+Bowman	0		131250	448
+Bowman	0		157500	208
+Bowman	0		183750	80
+Bowman	0		210000	84
+Bowman	0		Inf	71
+Bowman	1	0		3612
+Bowman	1	0	0	239
+Bowman	1	0	7875	111
+Bowman	1	0	15750	86
+Bowman	1	0	21000	74
+Bowman	1	0	26250	599
+Bowman	1	0	34125	474
+Bowman	1	0	42000	2238
+Bowman	1	0	52500	1706
+Bowman	1	0	65625	2427
+Bowman	1	0	78750	2515
+Bowman	1	0	91875	2137
+Bowman	1	0	105000	2374
+Bowman	1	0	131250	4998
+Bowman	1	0	157500	3687
+Bowman	1	0	183750	2312
+Bowman	1	0	210000	1585
+Bowman	1	0	Inf	2930
+Bowman	1	1	7875	19
+Bowman	1	1	15750	28
+Bowman	1	1	21000	15
+Bowman	1	1	26250	61
+Bowman	1	1	34125	116
+Bowman	1	1	42000	215
+Brisbane				8
+Brisbane			0	40
+Brisbane			7875	24
+Brisbane			15750	31
+Brisbane			21000	4
+Brisbane			26250	49
+Brisbane			34125	55
+Brisbane			42000	69
+Brisbane			52500	92
+Brisbane			65625	142
+Brisbane			78750	105
+Brisbane			91875	92
+Brisbane			105000	88
+Brisbane			131250	154
+Brisbane			157500	77
+Brisbane			183750	55
+Brisbane			210000	30
+Brisbane			Inf	53
+Brisbane	0			445
+Brisbane	0		0	123
+Brisbane	0		7875	46
+Brisbane	0		15750	75
+Brisbane	0		21000	94
+Brisbane	0		26250	138
+Brisbane	0		34125	246
+Brisbane	0		42000	273
+Brisbane	0		52500	316
+Brisbane	0		65625	424
+Brisbane	0		78750	372
+Brisbane	0		91875	295
+Brisbane	0		105000	260
+Brisbane	0		131250	468
+Brisbane	0		157500	183
+Brisbane	0		183750	70
+Brisbane	0		210000	180
+Brisbane	0		Inf	161
+Brisbane	1	0		3228
+Brisbane	1	0	0	287
+Brisbane	1	0	7875	71
+Brisbane	1	0	15750	75
+Brisbane	1	0	21000	54
+Brisbane	1	0	26250	284
+Brisbane	1	0	34125	224
+Brisbane	1	0	42000	726
+Brisbane	1	0	52500	956
+Brisbane	1	0	65625	1369
+Brisbane	1	0	78750	1658
+Brisbane	1	0	91875	1419
+Brisbane	1	0	105000	1637
+Brisbane	1	0	131250	3804
+Brisbane	1	0	157500	3143
+Brisbane	1	0	183750	2469
+Brisbane	1	0	210000	2443
+Brisbane	1	0	Inf	7544
+Brisbane	1	1	7875	18
+Brisbane	1	1	15750	31
+Brisbane	1	1	21000	19
+Brisbane	1	1	26250	50
+Brisbane	1	1	34125	82
+Brisbane	1	1	42000	161
+Capricornia				11
+Capricornia			0	10
+Capricornia			7875	4
+Capricornia			15750	13
+Capricornia			21000	3
+Capricornia			26250	19
+Capricornia			34125	24
+Capricornia			42000	54
+Capricornia			52500	72
+Capricornia			65625	42
+Capricornia			78750	55
+Capricornia			91875	38
+Capricornia			105000	31
+Capricornia			131250	49
+Capricornia			157500	30
+Capricornia			183750	20
+Capricornia			210000	4
+Capricornia			Inf	13
+Capricornia	0			646
+Capricornia	0		0	82
+Capricornia	0		7875	52
+Capricornia	0		15750	165
+Capricornia	0		21000	265
+Capricornia	0		26250	454
+Capricornia	0		34125	730
+Capricornia	0		42000	683
+Capricornia	0		52500	658
+Capricornia	0		65625	592
+Capricornia	0		78750	444
+Capricornia	0		91875	350
+Capricornia	0		105000	247
+Capricornia	0		131250	346
+Capricornia	0		157500	120
+Capricornia	0		183750	37
+Capricornia	0		210000	73
+Capricornia	0		Inf	56
+Capricornia	1	0		4769
+Capricornia	1	0	0	253
+Capricornia	1	0	7875	134
+Capricornia	1	0	15750	114
+Capricornia	1	0	21000	67
+Capricornia	1	0	26250	634
+Capricornia	1	0	34125	352
+Capricornia	1	0	42000	1857
+Capricornia	1	0	52500	1469
+Capricornia	1	0	65625	2090
+Capricornia	1	0	78750	2271
+Capricornia	1	0	91875	1879
+Capricornia	1	0	105000	2136
+Capricornia	1	0	131250	4390
+Capricornia	1	0	157500	3046
+Capricornia	1	0	183750	1922
+Capricornia	1	0	210000	1282
+Capricornia	1	0	Inf	2434
+Capricornia	1	1	7875	21
+Capricornia	1	1	15750	32
+Capricornia	1	1	21000	31
+Capricornia	1	1	26250	99
+Capricornia	1	1	34125	132
+Capricornia	1	1	42000	278
+Dawson				13
+Dawson			0	15
+Dawson			7875	9
+Dawson			15750	10
+Dawson			21000	6
+Dawson			26250	24
+Dawson			34125	13
+Dawson			42000	46
+Dawson			52500	65
+Dawson			65625	50
+Dawson			78750	56
+Dawson			91875	43
+Dawson			105000	41
+Dawson			131250	51
+Dawson			157500	34
+Dawson			183750	13
+Dawson			210000	8
+Dawson			Inf	12
+Dawson	0			631
+Dawson	0		0	82
+Dawson	0		7875	51
+Dawson	0		15750	191
+Dawson	0		21000	246
+Dawson	0		26250	423
+Dawson	0		34125	764
+Dawson	0		42000	726
+Dawson	0		52500	715
+Dawson	0		65625	663
+Dawson	0		78750	467
+Dawson	0		91875	324
+Dawson	0		105000	234
+Dawson	0		131250	332
+Dawson	0		157500	123
+Dawson	0		183750	41
+Dawson	0		210000	60
+Dawson	0		Inf	51
+Dawson	1	0		5085
+Dawson	1	0	0	270
+Dawson	1	0	7875	122
+Dawson	1	0	15750	102
+Dawson	1	0	21000	57
+Dawson	1	0	26250	633
+Dawson	1	0	34125	376
+Dawson	1	0	42000	1826
+Dawson	1	0	52500	1603
+Dawson	1	0	65625	2366
+Dawson	1	0	78750	2550
+Dawson	1	0	91875	2054
+Dawson	1	0	105000	2314
+Dawson	1	0	131250	4515
+Dawson	1	0	157500	3206
+Dawson	1	0	183750	2076
+Dawson	1	0	210000	1209
+Dawson	1	0	Inf	2340
+Dawson	1	1	7875	31
+Dawson	1	1	15750	54
+Dawson	1	1	21000	13
+Dawson	1	1	26250	87
+Dawson	1	1	34125	140
+Dawson	1	1	42000	278
+Dickson				13
+Dickson			0	8
+Dickson			15750	9
+Dickson			21000	4
+Dickson			26250	17
+Dickson			34125	22
+Dickson			42000	40
+Dickson			52500	49
+Dickson			65625	69
+Dickson			78750	70
+Dickson			91875	34
+Dickson			105000	37
+Dickson			131250	53
+Dickson			157500	35
+Dickson			183750	10
+Dickson			210000	9
+Dickson			Inf	5
+Dickson	0			578
+Dickson	0		0	79
+Dickson	0		7875	42
+Dickson	0		15750	112
+Dickson	0		21000	164
+Dickson	0		26250	269
+Dickson	0		34125	494
+Dickson	0		42000	618
+Dickson	0		52500	662
+Dickson	0		65625	749
+Dickson	0		78750	576
+Dickson	0		91875	479
+Dickson	0		105000	331
+Dickson	0		131250	448
+Dickson	0		157500	169
+Dickson	0		183750	52
+Dickson	0		210000	60
+Dickson	0		Inf	56
+Dickson	1	0		3382
+Dickson	1	0	0	177
+Dickson	1	0	7875	90
+Dickson	1	0	15750	79
+Dickson	1	0	21000	48
+Dickson	1	0	26250	482
+Dickson	1	0	34125	307
+Dickson	1	0	42000	1503
+Dickson	1	0	52500	1542
+Dickson	1	0	65625	2223
+Dickson	1	0	78750	2461
+Dickson	1	0	91875	2285
+Dickson	1	0	105000	2453
+Dickson	1	0	131250	5367
+Dickson	1	0	157500	4036
+Dickson	1	0	183750	2619
+Dickson	1	0	210000	1746
+Dickson	1	0	Inf	3209
+Dickson	1	1	7875	11
+Dickson	1	1	15750	21
+Dickson	1	1	21000	23
+Dickson	1	1	26250	79
+Dickson	1	1	34125	121
+Dickson	1	1	42000	210
+Fadden				11
+Fadden			0	19
+Fadden			7875	11
+Fadden			15750	8
+Fadden			21000	6
+Fadden			26250	22
+Fadden			34125	20
+Fadden			42000	45
+Fadden			52500	60
+Fadden			65625	73
+Fadden			78750	82
+Fadden			91875	44
+Fadden			105000	47
+Fadden			131250	62
+Fadden			157500	29
+Fadden			183750	16
+Fadden			210000	3
+Fadden			Inf	11
+Fadden	0			744
+Fadden	0		0	155
+Fadden	0		7875	50
+Fadden	0		15750	141
+Fadden	0		21000	226
+Fadden	0		26250	410
+Fadden	0		34125	826
+Fadden	0		42000	917
+Fadden	0		52500	953
+Fadden	0		65625	976
+Fadden	0		78750	720
+Fadden	0		91875	530
+Fadden	0		105000	370
+Fadden	0		131250	477
+Fadden	0		157500	166
+Fadden	0		183750	64
+Fadden	0		210000	89
+Fadden	0		Inf	83
+Fadden	1	0		3749
+Fadden	1	0	0	361
+Fadden	1	0	7875	124
+Fadden	1	0	15750	109
+Fadden	1	0	21000	80
+Fadden	1	0	26250	687
+Fadden	1	0	34125	427
+Fadden	1	0	42000	2280
+Fadden	1	0	52500	2022
+Fadden	1	0	65625	2928
+Fadden	1	0	78750	3197
+Fadden	1	0	91875	2568
+Fadden	1	0	105000	2815
+Fadden	1	0	131250	5306
+Fadden	1	0	157500	3458
+Fadden	1	0	183750	2116
+Fadden	1	0	210000	1377
+Fadden	1	0	Inf	2686
+Fadden	1	1	7875	33
+Fadden	1	1	15750	41
+Fadden	1	1	21000	34
+Fadden	1	1	26250	141
+Fadden	1	1	34125	219
+Fadden	1	1	42000	355
+Fairfax				8
+Fairfax			0	15
+Fairfax			7875	5
+Fairfax			15750	11
+Fairfax			26250	17
+Fairfax			34125	18
+Fairfax			42000	46
+Fairfax			52500	56
+Fairfax			65625	77
+Fairfax			78750	54
+Fairfax			91875	39
+Fairfax			105000	30
+Fairfax			131250	39
+Fairfax			157500	20
+Fairfax			183750	6
+Fairfax			210000	4
+Fairfax			Inf	4
+Fairfax	0			650
+Fairfax	0		0	92
+Fairfax	0		7875	57
+Fairfax	0		15750	158
+Fairfax	0		21000	205
+Fairfax	0		26250	373
+Fairfax	0		34125	665
+Fairfax	0		42000	797
+Fairfax	0		52500	809
+Fairfax	0		65625	806
+Fairfax	0		78750	576
+Fairfax	0		91875	402
+Fairfax	0		105000	260
+Fairfax	0		131250	347
+Fairfax	0		157500	106
+Fairfax	0		183750	47
+Fairfax	0		210000	50
+Fairfax	0		Inf	35
+Fairfax	1	0		3850
+Fairfax	1	0	0	273
+Fairfax	1	0	7875	125
+Fairfax	1	0	15750	129
+Fairfax	1	0	21000	76
+Fairfax	1	0	26250	701
+Fairfax	1	0	34125	490
+Fairfax	1	0	42000	2434
+Fairfax	1	0	52500	2230
+Fairfax	1	0	65625	3147
+Fairfax	1	0	78750	3308
+Fairfax	1	0	91875	2456
+Fairfax	1	0	105000	2531
+Fairfax	1	0	131250	4619
+Fairfax	1	0	157500	2949
+Fairfax	1	0	183750	1773
+Fairfax	1	0	210000	1107
+Fairfax	1	0	Inf	2080
+Fairfax	1	1	7875	26
+Fairfax	1	1	15750	40
+Fairfax	1	1	21000	26
+Fairfax	1	1	26250	96
+Fairfax	1	1	34125	178
+Fairfax	1	1	42000	324
+Fisher				12
+Fisher			0	5
+Fisher			7875	3
+Fisher			15750	8
+Fisher			21000	7
+Fisher			26250	18
+Fisher			34125	21
+Fisher			42000	31
+Fisher			52500	54
+Fisher			65625	64
+Fisher			78750	57
+Fisher			91875	33
+Fisher			105000	27
+Fisher			131250	35
+Fisher			157500	16
+Fisher			183750	12
+Fisher			210000	3
+Fisher			Inf	6
+Fisher	0			640
+Fisher	0		0	80
+Fisher	0		7875	50
+Fisher	0		15750	130
+Fisher	0		21000	197
+Fisher	0		26250	375
+Fisher	0		34125	681
+Fisher	0		42000	743
+Fisher	0		52500	721
+Fisher	0		65625	767
+Fisher	0		78750	540
+Fisher	0		91875	370
+Fisher	0		105000	242
+Fisher	0		131250	301
+Fisher	0		157500	102
+Fisher	0		183750	41
+Fisher	0		210000	40
+Fisher	0		Inf	39
+Fisher	1	0		3529
+Fisher	1	0	0	243
+Fisher	1	0	7875	128
+Fisher	1	0	15750	101
+Fisher	1	0	21000	73
+Fisher	1	0	26250	751
+Fisher	1	0	34125	504
+Fisher	1	0	42000	2697
+Fisher	1	0	52500	2167
+Fisher	1	0	65625	2916
+Fisher	1	0	78750	2913
+Fisher	1	0	91875	2156
+Fisher	1	0	105000	2174
+Fisher	1	0	131250	4075
+Fisher	1	0	157500	2668
+Fisher	1	0	183750	1492
+Fisher	1	0	210000	965
+Fisher	1	0	Inf	1841
+Fisher	1	1	7875	27
+Fisher	1	1	15750	30
+Fisher	1	1	21000	23
+Fisher	1	1	26250	78
+Fisher	1	1	34125	143
+Fisher	1	1	42000	260
+Flynn				18
+Flynn			0	8
+Flynn			7875	7
+Flynn			15750	4
+Flynn			26250	31
+Flynn			34125	26
+Flynn			42000	58
+Flynn			52500	61
+Flynn			65625	55
+Flynn			78750	45
+Flynn			91875	24
+Flynn			105000	19
+Flynn			131250	30
+Flynn			157500	23
+Flynn			183750	13
+Flynn			210000	4
+Flynn			Inf	14
+Flynn	0			636
+Flynn	0		0	114
+Flynn	0		7875	68
+Flynn	0		15750	204
+Flynn	0		21000	267
+Flynn	0		26250	483
+Flynn	0		34125	673
+Flynn	0		42000	698
+Flynn	0		52500	619
+Flynn	0		65625	482
+Flynn	0		78750	373
+Flynn	0		91875	265
+Flynn	0		105000	204
+Flynn	0		131250	233
+Flynn	0		157500	119
+Flynn	0		183750	39
+Flynn	0		210000	50
+Flynn	0		Inf	53
+Flynn	1	0		4703
+Flynn	1	0	0	347
+Flynn	1	0	7875	182
+Flynn	1	0	15750	130
+Flynn	1	0	21000	77
+Flynn	1	0	26250	799
+Flynn	1	0	34125	448
+Flynn	1	0	42000	2120
+Flynn	1	0	52500	1679
+Flynn	1	0	65625	2327
+Flynn	1	0	78750	2454
+Flynn	1	0	91875	1920
+Flynn	1	0	105000	2163
+Flynn	1	0	131250	4572
+Flynn	1	0	157500	3024
+Flynn	1	0	183750	1880
+Flynn	1	0	210000	1444
+Flynn	1	0	Inf	2714
+Flynn	1	1	7875	53
+Flynn	1	1	15750	62
+Flynn	1	1	21000	28
+Flynn	1	1	26250	168
+Flynn	1	1	34125	196
+Flynn	1	1	42000	402
+Forde				14
+Forde			0	5
+Forde			7875	7
+Forde			15750	15
+Forde			21000	4
+Forde			26250	27
+Forde			34125	22
+Forde			42000	42
+Forde			52500	77
+Forde			65625	83
+Forde			78750	91
+Forde			91875	57
+Forde			105000	33
+Forde			131250	76
+Forde			157500	31
+Forde			183750	14
+Forde			210000	3
+Forde			Inf	8
+Forde	0			799
+Forde	0		0	140
+Forde	0		7875	69
+Forde	0		15750	200
+Forde	0		21000	304
+Forde	0		26250	510
+Forde	0		34125	981
+Forde	0		42000	962
+Forde	0		52500	905
+Forde	0		65625	1042
+Forde	0		78750	687
+Forde	0		91875	482
+Forde	0		105000	374
+Forde	0		131250	473
+Forde	0		157500	211
+Forde	0		183750	70
+Forde	0		210000	62
+Forde	0		Inf	45
+Forde	1	0		3586
+Forde	1	0	0	280
+Forde	1	0	7875	84
+Forde	1	0	15750	80
+Forde	1	0	21000	62
+Forde	1	0	26250	578
+Forde	1	0	34125	367
+Forde	1	0	42000	2019
+Forde	1	0	52500	1865
+Forde	1	0	65625	2699
+Forde	1	0	78750	3178
+Forde	1	0	91875	2707
+Forde	1	0	105000	2862
+Forde	1	0	131250	5494
+Forde	1	0	157500	3437
+Forde	1	0	183750	2041
+Forde	1	0	210000	1083
+Forde	1	0	Inf	1758
+Forde	1	1	7875	22
+Forde	1	1	15750	54
+Forde	1	1	21000	35
+Forde	1	1	26250	122
+Forde	1	1	34125	217
+Forde	1	1	42000	417
+Griffith				14
+Griffith			0	27
+Griffith			7875	12
+Griffith			15750	20
+Griffith			21000	10
+Griffith			26250	46
+Griffith			34125	37
+Griffith			42000	67
+Griffith			52500	84
+Griffith			65625	128
+Griffith			78750	117
+Griffith			91875	80
+Griffith			105000	83
+Griffith			131250	152
+Griffith			157500	94
+Griffith			183750	44
+Griffith			210000	21
+Griffith			Inf	34
+Griffith	0			512
+Griffith	0		0	127
+Griffith	0		7875	42
+Griffith	0		15750	108
+Griffith	0		21000	122
+Griffith	0		26250	233
+Griffith	0		34125	342
+Griffith	0		42000	338
+Griffith	0		52500	475
+Griffith	0		65625	562
+Griffith	0		78750	464
+Griffith	0		91875	417
+Griffith	0		105000	316
+Griffith	0		131250	503
+Griffith	0		157500	183
+Griffith	0		183750	66
+Griffith	0		210000	131
+Griffith	0		Inf	116
+Griffith	1	0		3060
+Griffith	1	0	0	210
+Griffith	1	0	7875	82
+Griffith	1	0	15750	67
+Griffith	1	0	21000	48
+Griffith	1	0	26250	273
+Griffith	1	0	34125	220
+Griffith	1	0	42000	868
+Griffith	1	0	52500	966
+Griffith	1	0	65625	1480
+Griffith	1	0	78750	1639
+Griffith	1	0	91875	1511
+Griffith	1	0	105000	1671
+Griffith	1	0	131250	4147
+Griffith	1	0	157500	3586
+Griffith	1	0	183750	2762
+Griffith	1	0	210000	2476
+Griffith	1	0	Inf	6376
+Griffith	1	1	7875	24
+Griffith	1	1	15750	26
+Griffith	1	1	21000	17
+Griffith	1	1	26250	92
+Griffith	1	1	34125	88
+Griffith	1	1	42000	188
+Groom				16
+Groom			0	4
+Groom			7875	4
+Groom			15750	10
+Groom			21000	6
+Groom			26250	20
+Groom			34125	21
+Groom			42000	40
+Groom			52500	73
+Groom			65625	78
+Groom			78750	79
+Groom			91875	37
+Groom			105000	38
+Groom			131250	64
+Groom			157500	25
+Groom			183750	3
+Groom			210000	4
+Groom			Inf	5
+Groom	0			605
+Groom	0		0	86
+Groom	0		7875	49
+Groom	0		15750	157
+Groom	0		21000	221
+Groom	0		26250	373
+Groom	0		34125	725
+Groom	0		42000	777
+Groom	0		52500	747
+Groom	0		65625	766
+Groom	0		78750	565
+Groom	0		91875	405
+Groom	0		105000	253
+Groom	0		131250	275
+Groom	0		157500	117
+Groom	0		183750	43
+Groom	0		210000	44
+Groom	0		Inf	36
+Groom	1	0		3354
+Groom	1	0	0	211
+Groom	1	0	7875	115
+Groom	1	0	15750	86
+Groom	1	0	21000	50
+Groom	1	0	26250	557
+Groom	1	0	34125	360
+Groom	1	0	42000	2260
+Groom	1	0	52500	1903
+Groom	1	0	65625	2560
+Groom	1	0	78750	2783
+Groom	1	0	91875	2223
+Groom	1	0	105000	2358
+Groom	1	0	131250	4553
+Groom	1	0	157500	3035
+Groom	1	0	183750	1758
+Groom	1	0	210000	1027
+Groom	1	0	Inf	1887
+Groom	1	1	7875	29
+Groom	1	1	15750	30
+Groom	1	1	21000	23
+Groom	1	1	26250	115
+Groom	1	1	34125	163
+Groom	1	1	42000	336
+Herbert				15
+Herbert			0	15
+Herbert			7875	16
+Herbert			15750	13
+Herbert			21000	10
+Herbert			26250	40
+Herbert			34125	38
+Herbert			42000	68
+Herbert			52500	86
+Herbert			65625	87
+Herbert			78750	86
+Herbert			91875	58
+Herbert			105000	42
+Herbert			131250	72
+Herbert			157500	43
+Herbert			183750	14
+Herbert			210000	5
+Herbert			Inf	4
+Herbert	0			770
+Herbert	0		0	115
+Herbert	0		7875	69
+Herbert	0		15750	221
+Herbert	0		21000	332
+Herbert	0		26250	505
+Herbert	0		34125	907
+Herbert	0		42000	883
+Herbert	0		52500	879
+Herbert	0		65625	902
+Herbert	0		78750	632
+Herbert	0		91875	465
+Herbert	0		105000	335
+Herbert	0		131250	450
+Herbert	0		157500	160
+Herbert	0		183750	56
+Herbert	0		210000	51
+Herbert	0		Inf	37
+Herbert	1	0		4294
+Herbert	1	0	0	215
+Herbert	1	0	7875	81
+Herbert	1	0	15750	89
+Herbert	1	0	21000	62
+Herbert	1	0	26250	518
+Herbert	1	0	34125	317
+Herbert	1	0	42000	1553
+Herbert	1	0	52500	1596
+Herbert	1	0	65625	2286
+Herbert	1	0	78750	2551
+Herbert	1	0	91875	2248
+Herbert	1	0	105000	2318
+Herbert	1	0	131250	4735
+Herbert	1	0	157500	3424
+Herbert	1	0	183750	1995
+Herbert	1	0	210000	1170
+Herbert	1	0	Inf	1788
+Herbert	1	1	7875	27
+Herbert	1	1	15750	34
+Herbert	1	1	21000	16
+Herbert	1	1	26250	119
+Herbert	1	1	34125	175
+Herbert	1	1	42000	319
+Hinkler				26
+Hinkler			0	3
+Hinkler			7875	4
+Hinkler			15750	9
+Hinkler			26250	25
+Hinkler			34125	22
+Hinkler			42000	63
+Hinkler			52500	96
+Hinkler			65625	78
+Hinkler			78750	54
+Hinkler			91875	22
+Hinkler			105000	20
+Hinkler			131250	26
+Hinkler			157500	4
+Hinkler			183750	10
+Hinkler			Inf	5
+Hinkler	0			688
+Hinkler	0		0	87
+Hinkler	0		7875	51
+Hinkler	0		15750	211
+Hinkler	0		21000	328
+Hinkler	0		26250	504
+Hinkler	0		34125	949
+Hinkler	0		42000	1006
+Hinkler	0		52500	955
+Hinkler	0		65625	792
+Hinkler	0		78750	490
+Hinkler	0		91875	288
+Hinkler	0		105000	195
+Hinkler	0		131250	218
+Hinkler	0		157500	62
+Hinkler	0		183750	23
+Hinkler	0		210000	35
+Hinkler	0		Inf	29
+Hinkler	1	0		3413
+Hinkler	1	0	0	286
+Hinkler	1	0	7875	189
+Hinkler	1	0	15750	168
+Hinkler	1	0	21000	89
+Hinkler	1	0	26250	1218
+Hinkler	1	0	34125	695
+Hinkler	1	0	42000	4417
+Hinkler	1	0	52500	2634
+Hinkler	1	0	65625	3301
+Hinkler	1	0	78750	2998
+Hinkler	1	0	91875	1968
+Hinkler	1	0	105000	1868
+Hinkler	1	0	131250	3121
+Hinkler	1	0	157500	1724
+Hinkler	1	0	183750	930
+Hinkler	1	0	210000	539
+Hinkler	1	0	Inf	940
+Hinkler	1	1	7875	21
+Hinkler	1	1	15750	56
+Hinkler	1	1	21000	32
+Hinkler	1	1	26250	138
+Hinkler	1	1	34125	212
+Hinkler	1	1	42000	483
+Kennedy				22
+Kennedy			0	7
+Kennedy			7875	10
+Kennedy			15750	10
+Kennedy			21000	9
+Kennedy			26250	39
+Kennedy			34125	20
+Kennedy			42000	62
+Kennedy			52500	79
+Kennedy			65625	69
+Kennedy			78750	60
+Kennedy			91875	44
+Kennedy			105000	28
+Kennedy			131250	41
+Kennedy			157500	22
+Kennedy			183750	12
+Kennedy			210000	3
+Kennedy			Inf	11
+Kennedy	0			896
+Kennedy	0		0	111
+Kennedy	0		7875	68
+Kennedy	0		15750	232
+Kennedy	0		21000	332
+Kennedy	0		26250	500
+Kennedy	0		34125	754
+Kennedy	0		42000	838
+Kennedy	0		52500	745
+Kennedy	0		65625	718
+Kennedy	0		78750	480
+Kennedy	0		91875	312
+Kennedy	0		105000	240
+Kennedy	0		131250	298
+Kennedy	0		157500	112
+Kennedy	0		183750	40
+Kennedy	0		210000	50
+Kennedy	0		Inf	58
+Kennedy	1	0		4311
+Kennedy	1	0	0	329
+Kennedy	1	0	7875	175
+Kennedy	1	0	15750	129
+Kennedy	1	0	21000	91
+Kennedy	1	0	26250	858
+Kennedy	1	0	34125	415
+Kennedy	1	0	42000	2398
+Kennedy	1	0	52500	2022
+Kennedy	1	0	65625	2787
+Kennedy	1	0	78750	2755
+Kennedy	1	0	91875	2055
+Kennedy	1	0	105000	2127
+Kennedy	1	0	131250	3818
+Kennedy	1	0	157500	2518
+Kennedy	1	0	183750	1559
+Kennedy	1	0	210000	845
+Kennedy	1	0	Inf	1573
+Kennedy	1	1	7875	55
+Kennedy	1	1	15750	67
+Kennedy	1	1	21000	45
+Kennedy	1	1	26250	184
+Kennedy	1	1	34125	211
+Kennedy	1	1	42000	446
+Leichhardt				35
+Leichhardt			0	12
+Leichhardt			7875	15
+Leichhardt			15750	12
+Leichhardt			21000	10
+Leichhardt			26250	43
+Leichhardt			34125	63
+Leichhardt			42000	68
+Leichhardt			52500	103
+Leichhardt			65625	93
+Leichhardt			78750	86
+Leichhardt			91875	48
+Leichhardt			105000	38
+Leichhardt			131250	72
+Leichhardt			157500	33
+Leichhardt			183750	19
+Leichhardt			210000	8
+Leichhardt			Inf	4
+Leichhardt	0			1039
+Leichhardt	0		0	161
+Leichhardt	0		7875	90
+Leichhardt	0		15750	319
+Leichhardt	0		21000	393
+Leichhardt	0		26250	572
+Leichhardt	0		34125	971
+Leichhardt	0		42000	976
+Leichhardt	0		52500	973
+Leichhardt	0		65625	956
+Leichhardt	0		78750	678
+Leichhardt	0		91875	499
+Leichhardt	0		105000	334
+Leichhardt	0		131250	465
+Leichhardt	0		157500	138
+Leichhardt	0		183750	68
+Leichhardt	0		210000	65
+Leichhardt	0		Inf	55
+Leichhardt	1	0		4331
+Leichhardt	1	0	0	270
+Leichhardt	1	0	7875	93
+Leichhardt	1	0	15750	111
+Leichhardt	1	0	21000	76
+Leichhardt	1	0	26250	584
+Leichhardt	1	0	34125	420
+Leichhardt	1	0	42000	1494
+Leichhardt	1	0	52500	1872
+Leichhardt	1	0	65625	2582
+Leichhardt	1	0	78750	2872
+Leichhardt	1	0	91875	2302
+Leichhardt	1	0	105000	2384
+Leichhardt	1	0	131250	4772
+Leichhardt	1	0	157500	3043
+Leichhardt	1	0	183750	1834
+Leichhardt	1	0	210000	1154
+Leichhardt	1	0	Inf	1999
+Leichhardt	1	1	7875	41
+Leichhardt	1	1	15750	71
+Leichhardt	1	1	21000	48
+Leichhardt	1	1	26250	238
+Leichhardt	1	1	34125	294
+Leichhardt	1	1	42000	491
+Lilley				24
+Lilley			0	13
+Lilley			7875	8
+Lilley			15750	8
+Lilley			21000	6
+Lilley			26250	26
+Lilley			34125	40
+Lilley			42000	92
+Lilley			52500	103
+Lilley			65625	122
+Lilley			78750	105
+Lilley			91875	86
+Lilley			105000	63
+Lilley			131250	133
+Lilley			157500	77
+Lilley			183750	37
+Lilley			210000	13
+Lilley			Inf	24
+Lilley	0			672
+Lilley	0		0	85
+Lilley	0		7875	39
+Lilley	0		15750	135
+Lilley	0		21000	180
+Lilley	0		26250	259
+Lilley	0		34125	475
+Lilley	0		42000	507
+Lilley	0		52500	687
+Lilley	0		65625	845
+Lilley	0		78750	613
+Lilley	0		91875	521
+Lilley	0		105000	405
+Lilley	0		131250	574
+Lilley	0		157500	240
+Lilley	0		183750	80
+Lilley	0		210000	101
+Lilley	0		Inf	97
+Lilley	1	0		3253
+Lilley	1	0	0	228
+Lilley	1	0	7875	91
+Lilley	1	0	15750	73
+Lilley	1	0	21000	43
+Lilley	1	0	26250	433
+Lilley	1	0	34125	296
+Lilley	1	0	42000	1478
+Lilley	1	0	52500	1505
+Lilley	1	0	65625	2192
+Lilley	1	0	78750	2311
+Lilley	1	0	91875	1883
+Lilley	1	0	105000	2213
+Lilley	1	0	131250	4894
+Lilley	1	0	157500	3926
+Lilley	1	0	183750	2701
+Lilley	1	0	210000	1889
+Lilley	1	0	Inf	3825
+Lilley	1	1	7875	23
+Lilley	1	1	15750	31
+Lilley	1	1	21000	22
+Lilley	1	1	26250	85
+Lilley	1	1	34125	120
+Lilley	1	1	42000	268
+Longman				11
+Longman			0	9
+Longman			7875	6
+Longman			15750	8
+Longman			21000	7
+Longman			26250	30
+Longman			34125	20
+Longman			42000	65
+Longman			52500	73
+Longman			65625	69
+Longman			78750	53
+Longman			91875	29
+Longman			105000	22
+Longman			131250	38
+Longman			157500	21
+Longman			183750	7
+Longman			210000	5
+Longman			Inf	8
+Longman	0			734
+Longman	0		0	97
+Longman	0		7875	46
+Longman	0		15750	205
+Longman	0		21000	299
+Longman	0		26250	525
+Longman	0		34125	978
+Longman	0		42000	1026
+Longman	0		52500	1007
+Longman	0		65625	943
+Longman	0		78750	654
+Longman	0		91875	451
+Longman	0		105000	325
+Longman	0		131250	351
+Longman	0		157500	142
+Longman	0		183750	47
+Longman	0		210000	42
+Longman	0		Inf	43
+Longman	1	0		3538
+Longman	1	0	0	261
+Longman	1	0	7875	151
+Longman	1	0	15750	120
+Longman	1	0	21000	81
+Longman	1	0	26250	805
+Longman	1	0	34125	549
+Longman	1	0	42000	2988
+Longman	1	0	52500	2301
+Longman	1	0	65625	3170
+Longman	1	0	78750	3320
+Longman	1	0	91875	2598
+Longman	1	0	105000	2696
+Longman	1	0	131250	4830
+Longman	1	0	157500	2840
+Longman	1	0	183750	1705
+Longman	1	0	210000	879
+Longman	1	0	Inf	1352
+Longman	1	1	7875	31
+Longman	1	1	15750	42
+Longman	1	1	21000	26
+Longman	1	1	26250	141
+Longman	1	1	34125	192
+Longman	1	1	42000	371
+Maranoa				16
+Maranoa			0	3
+Maranoa			7875	11
+Maranoa			15750	6
+Maranoa			21000	4
+Maranoa			26250	27
+Maranoa			34125	21
+Maranoa			42000	49
+Maranoa			52500	79
+Maranoa			65625	84
+Maranoa			78750	58
+Maranoa			91875	26
+Maranoa			105000	29
+Maranoa			131250	31
+Maranoa			157500	12
+Maranoa			183750	3
+Maranoa			210000	6
+Maranoa			Inf	4
+Maranoa	0			720
+Maranoa	0		0	84
+Maranoa	0		7875	48
+Maranoa	0		15750	179
+Maranoa	0		21000	259
+Maranoa	0		26250	430
+Maranoa	0		34125	791
+Maranoa	0		42000	771
+Maranoa	0		52500	710
+Maranoa	0		65625	617
+Maranoa	0		78750	405
+Maranoa	0		91875	230
+Maranoa	0		105000	171
+Maranoa	0		131250	167
+Maranoa	0		157500	74
+Maranoa	0		183750	28
+Maranoa	0		210000	46
+Maranoa	0		Inf	25
+Maranoa	1	0		4119
+Maranoa	1	0	0	398
+Maranoa	1	0	7875	171
+Maranoa	1	0	15750	118
+Maranoa	1	0	21000	79
+Maranoa	1	0	26250	999
+Maranoa	1	0	34125	496
+Maranoa	1	0	42000	2915
+Maranoa	1	0	52500	2170
+Maranoa	1	0	65625	3005
+Maranoa	1	0	78750	3119
+Maranoa	1	0	91875	2126
+Maranoa	1	0	105000	2254
+Maranoa	1	0	131250	3777
+Maranoa	1	0	157500	2219
+Maranoa	1	0	183750	1226
+Maranoa	1	0	210000	668
+Maranoa	1	0	Inf	1235
+Maranoa	1	1	7875	43
+Maranoa	1	1	15750	68
+Maranoa	1	1	21000	38
+Maranoa	1	1	26250	170
+Maranoa	1	1	34125	215
+Maranoa	1	1	42000	489
+McPherson				13
+McPherson			0	19
+McPherson			7875	9
+McPherson			15750	18
+McPherson			21000	3
+McPherson			26250	25
+McPherson			34125	20
+McPherson			42000	55
+McPherson			52500	67
+McPherson			65625	78
+McPherson			78750	80
+McPherson			91875	45
+McPherson			105000	30
+McPherson			131250	53
+McPherson			157500	28
+McPherson			183750	11
+McPherson			210000	5
+McPherson			Inf	7
+McPherson	0			764
+McPherson	0		0	136
+McPherson	0		7875	60
+McPherson	0		15750	136
+McPherson	0		21000	177
+McPherson	0		26250	371
+McPherson	0		34125	660
+McPherson	0		42000	807
+McPherson	0		52500	889
+McPherson	0		65625	903
+McPherson	0		78750	715
+McPherson	0		91875	522
+McPherson	0		105000	368
+McPherson	0		131250	451
+McPherson	0		157500	153
+McPherson	0		183750	46
+McPherson	0		210000	69
+McPherson	0		Inf	57
+McPherson	1	0		3460
+McPherson	1	0	0	256
+McPherson	1	0	7875	98
+McPherson	1	0	15750	109
+McPherson	1	0	21000	69
+McPherson	1	0	26250	584
+McPherson	1	0	34125	379
+McPherson	1	0	42000	2002
+McPherson	1	0	52500	1724
+McPherson	1	0	65625	2570
+McPherson	1	0	78750	2704
+McPherson	1	0	91875	2153
+McPherson	1	0	105000	2455
+McPherson	1	0	131250	4649
+McPherson	1	0	157500	3234
+McPherson	1	0	183750	1933
+McPherson	1	0	210000	1195
+McPherson	1	0	Inf	2296
+McPherson	1	1	7875	25
+McPherson	1	1	15750	37
+McPherson	1	1	21000	25
+McPherson	1	1	26250	89
+McPherson	1	1	34125	148
+McPherson	1	1	42000	284
+Moncrieff				11
+Moncrieff			0	23
+Moncrieff			7875	5
+Moncrieff			15750	18
+Moncrieff			21000	9
+Moncrieff			26250	33
+Moncrieff			34125	30
+Moncrieff			42000	65
+Moncrieff			52500	69
+Moncrieff			65625	103
+Moncrieff			78750	95
+Moncrieff			91875	53
+Moncrieff			105000	43
+Moncrieff			131250	84
+Moncrieff			157500	35
+Moncrieff			183750	15
+Moncrieff			210000	9
+Moncrieff			Inf	12
+Moncrieff	0			741
+Moncrieff	0		0	175
+Moncrieff	0		7875	58
+Moncrieff	0		15750	150
+Moncrieff	0		21000	197
+Moncrieff	0		26250	378
+Moncrieff	0		34125	753
+Moncrieff	0		42000	780
+Moncrieff	0		52500	851
+Moncrieff	0		65625	906
+Moncrieff	0		78750	639
+Moncrieff	0		91875	442
+Moncrieff	0		105000	320
+Moncrieff	0		131250	436
+Moncrieff	0		157500	142
+Moncrieff	0		183750	68
+Moncrieff	0		210000	73
+Moncrieff	0		Inf	66
+Moncrieff	1	0		3252
+Moncrieff	1	0	0	396
+Moncrieff	1	0	7875	120
+Moncrieff	1	0	15750	120
+Moncrieff	1	0	21000	85
+Moncrieff	1	0	26250	667
+Moncrieff	1	0	34125	456
+Moncrieff	1	0	42000	2022
+Moncrieff	1	0	52500	1873
+Moncrieff	1	0	65625	2717
+Moncrieff	1	0	78750	2861
+Moncrieff	1	0	91875	2072
+Moncrieff	1	0	105000	2284
+Moncrieff	1	0	131250	4181
+Moncrieff	1	0	157500	2720
+Moncrieff	1	0	183750	1655
+Moncrieff	1	0	210000	1049
+Moncrieff	1	0	Inf	2507
+Moncrieff	1	1	7875	45
+Moncrieff	1	1	15750	46
+Moncrieff	1	1	21000	45
+Moncrieff	1	1	26250	127
+Moncrieff	1	1	34125	190
+Moncrieff	1	1	42000	355
+Moreton				9
+Moreton			0	50
+Moreton			7875	17
+Moreton			15750	26
+Moreton			21000	8
+Moreton			26250	46
+Moreton			34125	43
+Moreton			42000	93
+Moreton			52500	100
+Moreton			65625	120
+Moreton			78750	103
+Moreton			91875	80
+Moreton			105000	73
+Moreton			131250	100
+Moreton			157500	59
+Moreton			183750	25
+Moreton			210000	19
+Moreton			Inf	20
+Moreton	0			656
+Moreton	0		0	185
+Moreton	0		7875	63
+Moreton	0		15750	167
+Moreton	0		21000	169
+Moreton	0		26250	290
+Moreton	0		34125	410
+Moreton	0		42000	487
+Moreton	0		52500	545
+Moreton	0		65625	673
+Moreton	0		78750	530
+Moreton	0		91875	446
+Moreton	0		105000	309
+Moreton	0		131250	467
+Moreton	0		157500	214
+Moreton	0		183750	94
+Moreton	0		210000	109
+Moreton	0		Inf	81
+Moreton	1	0		3126
+Moreton	1	0	0	508
+Moreton	1	0	7875	161
+Moreton	1	0	15750	153
+Moreton	1	0	21000	87
+Moreton	1	0	26250	484
+Moreton	1	0	34125	367
+Moreton	1	0	42000	1318
+Moreton	1	0	52500	1646
+Moreton	1	0	65625	2412
+Moreton	1	0	78750	2377
+Moreton	1	0	91875	1919
+Moreton	1	0	105000	1977
+Moreton	1	0	131250	4208
+Moreton	1	0	157500	3149
+Moreton	1	0	183750	2224
+Moreton	1	0	210000	1665
+Moreton	1	0	Inf	3659
+Moreton	1	1	7875	52
+Moreton	1	1	15750	101
+Moreton	1	1	21000	61
+Moreton	1	1	26250	208
+Moreton	1	1	34125	294
+Moreton	1	1	42000	470
+Oxley				18
+Oxley			0	21
+Oxley			7875	6
+Oxley			15750	11
+Oxley			21000	8
+Oxley			26250	36
+Oxley			34125	28
+Oxley			42000	80
+Oxley			52500	82
+Oxley			65625	90
+Oxley			78750	88
+Oxley			91875	61
+Oxley			105000	53
+Oxley			131250	79
+Oxley			157500	56
+Oxley			183750	21
+Oxley			210000	5
+Oxley			Inf	13
+Oxley	0			813
+Oxley	0		0	189
+Oxley	0		7875	73
+Oxley	0		15750	251
+Oxley	0		21000	312
+Oxley	0		26250	498
+Oxley	0		34125	754
+Oxley	0		42000	803
+Oxley	0		52500	867
+Oxley	0		65625	908
+Oxley	0		78750	670
+Oxley	0		91875	465
+Oxley	0		105000	358
+Oxley	0		131250	530
+Oxley	0		157500	192
+Oxley	0		183750	71
+Oxley	0		210000	63
+Oxley	0		Inf	69
+Oxley	1	0		3373
+Oxley	1	0	0	328
+Oxley	1	0	7875	78
+Oxley	1	0	15750	87
+Oxley	1	0	21000	63
+Oxley	1	0	26250	443
+Oxley	1	0	34125	275
+Oxley	1	0	42000	1356
+Oxley	1	0	52500	1655
+Oxley	1	0	65625	2409
+Oxley	1	0	78750	2781
+Oxley	1	0	91875	2355
+Oxley	1	0	105000	2373
+Oxley	1	0	131250	5072
+Oxley	1	0	157500	3446
+Oxley	1	0	183750	2249
+Oxley	1	0	210000	1388
+Oxley	1	0	Inf	2357
+Oxley	1	1	7875	46
+Oxley	1	1	15750	87
+Oxley	1	1	21000	61
+Oxley	1	1	26250	245
+Oxley	1	1	34125	339
+Oxley	1	1	42000	503
+Petrie				15
+Petrie			0	13
+Petrie			7875	9
+Petrie			21000	9
+Petrie			26250	22
+Petrie			34125	18
+Petrie			42000	53
+Petrie			52500	74
+Petrie			65625	91
+Petrie			78750	82
+Petrie			91875	55
+Petrie			105000	54
+Petrie			131250	72
+Petrie			157500	35
+Petrie			183750	18
+Petrie			210000	5
+Petrie			Inf	14
+Petrie	0			809
+Petrie	0		0	132
+Petrie	0		7875	67
+Petrie	0		15750	166
+Petrie	0		21000	233
+Petrie	0		26250	468
+Petrie	0		34125	835
+Petrie	0		42000	869
+Petrie	0		52500	961
+Petrie	0		65625	990
+Petrie	0		78750	773
+Petrie	0		91875	542
+Petrie	0		105000	383
+Petrie	0		131250	545
+Petrie	0		157500	201
+Petrie	0		183750	72
+Petrie	0		210000	61
+Petrie	0		Inf	60
+Petrie	1	0		3555
+Petrie	1	0	0	257
+Petrie	1	0	7875	103
+Petrie	1	0	15750	89
+Petrie	1	0	21000	60
+Petrie	1	0	26250	617
+Petrie	1	0	34125	391
+Petrie	1	0	42000	2297
+Petrie	1	0	52500	1966
+Petrie	1	0	65625	2708
+Petrie	1	0	78750	2876
+Petrie	1	0	91875	2553
+Petrie	1	0	105000	2703
+Petrie	1	0	131250	5270
+Petrie	1	0	157500	3515
+Petrie	1	0	183750	2275
+Petrie	1	0	210000	1287
+Petrie	1	0	Inf	2159
+Petrie	1	1	7875	21
+Petrie	1	1	15750	37
+Petrie	1	1	21000	26
+Petrie	1	1	26250	100
+Petrie	1	1	34125	158
+Petrie	1	1	42000	335
+Rankin				12
+Rankin			0	25
+Rankin			7875	14
+Rankin			15750	25
+Rankin			21000	3
+Rankin			26250	25
+Rankin			34125	31
+Rankin			42000	62
+Rankin			52500	82
+Rankin			65625	110
+Rankin			78750	90
+Rankin			91875	63
+Rankin			105000	57
+Rankin			131250	102
+Rankin			157500	35
+Rankin			183750	25
+Rankin			210000	10
+Rankin			Inf	16
+Rankin	0			958
+Rankin	0		0	212
+Rankin	0		7875	93
+Rankin	0		15750	262
+Rankin	0		21000	379
+Rankin	0		26250	585
+Rankin	0		34125	954
+Rankin	0		42000	1060
+Rankin	0		52500	1085
+Rankin	0		65625	1073
+Rankin	0		78750	770
+Rankin	0		91875	585
+Rankin	0		105000	400
+Rankin	0		131250	523
+Rankin	0		157500	201
+Rankin	0		183750	85
+Rankin	0		210000	73
+Rankin	0		Inf	58
+Rankin	1	0		3526
+Rankin	1	0	0	515
+Rankin	1	0	7875	109
+Rankin	1	0	15750	130
+Rankin	1	0	21000	68
+Rankin	1	0	26250	581
+Rankin	1	0	34125	353
+Rankin	1	0	42000	1700
+Rankin	1	0	52500	2193
+Rankin	1	0	65625	3068
+Rankin	1	0	78750	3415
+Rankin	1	0	91875	2779
+Rankin	1	0	105000	2807
+Rankin	1	0	131250	5506
+Rankin	1	0	157500	3514
+Rankin	1	0	183750	1880
+Rankin	1	0	210000	1151
+Rankin	1	0	Inf	1534
+Rankin	1	1	7875	72
+Rankin	1	1	15750	97
+Rankin	1	1	21000	69
+Rankin	1	1	26250	301
+Rankin	1	1	34125	375
+Rankin	1	1	42000	624
+Ryan				5
+Ryan			0	49
+Ryan			7875	31
+Ryan			15750	38
+Ryan			21000	14
+Ryan			26250	50
+Ryan			34125	43
+Ryan			42000	51
+Ryan			52500	88
+Ryan			65625	96
+Ryan			78750	84
+Ryan			91875	63
+Ryan			105000	49
+Ryan			131250	83
+Ryan			157500	49
+Ryan			183750	29
+Ryan			210000	11
+Ryan			Inf	22
+Ryan	0			507
+Ryan	0		0	123
+Ryan	0		7875	50
+Ryan	0		15750	90
+Ryan	0		21000	108
+Ryan	0		26250	163
+Ryan	0		34125	325
+Ryan	0		42000	316
+Ryan	0		52500	372
+Ryan	0		65625	509
+Ryan	0		78750	412
+Ryan	0		91875	394
+Ryan	0		105000	324
+Ryan	0		131250	530
+Ryan	0		157500	182
+Ryan	0		183750	80
+Ryan	0		210000	150
+Ryan	0		Inf	129
+Ryan	1	0		3602
+Ryan	1	0	0	271
+Ryan	1	0	7875	78
+Ryan	1	0	15750	95
+Ryan	1	0	21000	53
+Ryan	1	0	26250	328
+Ryan	1	0	34125	230
+Ryan	1	0	42000	856
+Ryan	1	0	52500	1132
+Ryan	1	0	65625	1725
+Ryan	1	0	78750	1807
+Ryan	1	0	91875	1556
+Ryan	1	0	105000	1786
+Ryan	1	0	131250	4033
+Ryan	1	0	157500	3492
+Ryan	1	0	183750	2805
+Ryan	1	0	210000	2393
+Ryan	1	0	Inf	6894
+Ryan	1	1	7875	19
+Ryan	1	1	15750	27
+Ryan	1	1	21000	31
+Ryan	1	1	26250	73
+Ryan	1	1	34125	102
+Ryan	1	1	42000	175
+Wide Bay				16
+Wide Bay			0	10
+Wide Bay			7875	10
+Wide Bay			15750	13
+Wide Bay			21000	3
+Wide Bay			26250	27
+Wide Bay			34125	12
+Wide Bay			42000	55
+Wide Bay			52500	67
+Wide Bay			65625	61
+Wide Bay			78750	42
+Wide Bay			91875	25
+Wide Bay			105000	23
+Wide Bay			131250	27
+Wide Bay			157500	12
+Wide Bay			Inf	3
+Wide Bay	0			688
+Wide Bay	0		0	87
+Wide Bay	0		7875	41
+Wide Bay	0		15750	228
+Wide Bay	0		21000	317
+Wide Bay	0		26250	565
+Wide Bay	0		34125	886
+Wide Bay	0		42000	880
+Wide Bay	0		52500	866
+Wide Bay	0		65625	801
+Wide Bay	0		78750	482
+Wide Bay	0		91875	300
+Wide Bay	0		105000	179
+Wide Bay	0		131250	216
+Wide Bay	0		157500	53
+Wide Bay	0		183750	17
+Wide Bay	0		210000	35
+Wide Bay	0		Inf	31
+Wide Bay	1	0		3748
+Wide Bay	1	0	0	310
+Wide Bay	1	0	7875	177
+Wide Bay	1	0	15750	149
+Wide Bay	1	0	21000	103
+Wide Bay	1	0	26250	1073
+Wide Bay	1	0	34125	670
+Wide Bay	1	0	42000	3579
+Wide Bay	1	0	52500	2645
+Wide Bay	1	0	65625	3279
+Wide Bay	1	0	78750	3098
+Wide Bay	1	0	91875	2103
+Wide Bay	1	0	105000	2071
+Wide Bay	1	0	131250	3201
+Wide Bay	1	0	157500	1906
+Wide Bay	1	0	183750	1112
+Wide Bay	1	0	210000	601
+Wide Bay	1	0	Inf	1203
+Wide Bay	1	1	7875	29
+Wide Bay	1	1	15750	42
+Wide Bay	1	1	21000	28
+Wide Bay	1	1	26250	135
+Wide Bay	1	1	34125	225
+Wide Bay	1	1	42000	511
+Wright				9
+Wright			0	5
+Wright			7875	7
+Wright			15750	5
+Wright			21000	3
+Wright			26250	21
+Wright			34125	11
+Wright			42000	47
+Wright			52500	63
+Wright			65625	59
+Wright			78750	49
+Wright			91875	23
+Wright			105000	20
+Wright			131250	32
+Wright			157500	22
+Wright			183750	13
+Wright			210000	10
+Wright			Inf	3
+Wright	0			643
+Wright	0		0	98
+Wright	0		7875	48
+Wright	0		15750	146
+Wright	0		21000	206
+Wright	0		26250	418
+Wright	0		34125	691
+Wright	0		42000	668
+Wright	0		52500	657
+Wright	0		65625	656
+Wright	0		78750	505
+Wright	0		91875	315
+Wright	0		105000	223
+Wright	0		131250	316
+Wright	0		157500	122
+Wright	0		183750	45
+Wright	0		210000	43
+Wright	0		Inf	46
+Wright	1	0		4075
+Wright	1	0	0	300
+Wright	1	0	7875	134
+Wright	1	0	15750	119
+Wright	1	0	21000	75
+Wright	1	0	26250	665
+Wright	1	0	34125	422
+Wright	1	0	42000	2306
+Wright	1	0	52500	1964
+Wright	1	0	65625	2794
+Wright	1	0	78750	3023
+Wright	1	0	91875	2572
+Wright	1	0	105000	2751
+Wright	1	0	131250	5067
+Wright	1	0	157500	3430
+Wright	1	0	183750	2047
+Wright	1	0	210000	1228
+Wright	1	0	Inf	1906
+Wright	1	1	7875	28
+Wright	1	1	15750	40
+Wright	1	1	21000	27
+Wright	1	1	26250	133
+Wright	1	1	34125	188
+Wright	1	1	42000	342
+Adelaide				16
+Adelaide			0	66
+Adelaide			7875	24
+Adelaide			15750	41
+Adelaide			21000	14
+Adelaide			26250	53
+Adelaide			34125	61
+Adelaide			42000	75
+Adelaide			52500	101
+Adelaide			65625	122
+Adelaide			78750	124
+Adelaide			91875	54
+Adelaide			105000	53
+Adelaide			131250	96
+Adelaide			157500	65
+Adelaide			183750	32
+Adelaide			210000	18
+Adelaide			Inf	26
+Adelaide	0			672
+Adelaide	0		0	128
+Adelaide	0		7875	69
+Adelaide	0		15750	133
+Adelaide	0		21000	182
+Adelaide	0		26250	292
+Adelaide	0		34125	448
+Adelaide	0		42000	521
+Adelaide	0		52500	565
+Adelaide	0		65625	614
+Adelaide	0		78750	493
+Adelaide	0		91875	353
+Adelaide	0		105000	286
+Adelaide	0		131250	451
+Adelaide	0		157500	176
+Adelaide	0		183750	74
+Adelaide	0		210000	104
+Adelaide	0		Inf	129
+Adelaide	1	0		3272
+Adelaide	1	0	0	453
+Adelaide	1	0	7875	105
+Adelaide	1	0	15750	106
+Adelaide	1	0	21000	59
+Adelaide	1	0	26250	487
+Adelaide	1	0	34125	311
+Adelaide	1	0	42000	1394
+Adelaide	1	0	52500	1493
+Adelaide	1	0	65625	2150
+Adelaide	1	0	78750	2212
+Adelaide	1	0	91875	1754
+Adelaide	1	0	105000	1809
+Adelaide	1	0	131250	3920
+Adelaide	1	0	157500	2997
+Adelaide	1	0	183750	2182
+Adelaide	1	0	210000	1731
+Adelaide	1	0	Inf	4813
+Adelaide	1	1	7875	42
+Adelaide	1	1	15750	76
+Adelaide	1	1	21000	55
+Adelaide	1	1	26250	154
+Adelaide	1	1	34125	264
+Adelaide	1	1	42000	383
+Barker				9
+Barker			0	4
+Barker			7875	3
+Barker			15750	16
+Barker			21000	6
+Barker			26250	28
+Barker			34125	25
+Barker			42000	43
+Barker			52500	71
+Barker			65625	67
+Barker			78750	68
+Barker			91875	29
+Barker			105000	23
+Barker			131250	40
+Barker			157500	7
+Barker			183750	7
+Barker			210000	4
+Barker			Inf	8
+Barker	0			680
+Barker	0		0	53
+Barker	0		7875	56
+Barker	0		15750	192
+Barker	0		21000	309
+Barker	0		26250	492
+Barker	0		34125	772
+Barker	0		42000	763
+Barker	0		52500	751
+Barker	0		65625	647
+Barker	0		78750	399
+Barker	0		91875	258
+Barker	0		105000	204
+Barker	0		131250	207
+Barker	0		157500	62
+Barker	0		183750	21
+Barker	0		210000	25
+Barker	0		Inf	24
+Barker	1	0		3595
+Barker	1	0	0	252
+Barker	1	0	7875	165
+Barker	1	0	15750	105
+Barker	1	0	21000	77
+Barker	1	0	26250	993
+Barker	1	0	34125	506
+Barker	1	0	42000	3166
+Barker	1	0	52500	2466
+Barker	1	0	65625	3326
+Barker	1	0	78750	3426
+Barker	1	0	91875	2485
+Barker	1	0	105000	2515
+Barker	1	0	131250	4053
+Barker	1	0	157500	2298
+Barker	1	0	183750	1120
+Barker	1	0	210000	552
+Barker	1	0	Inf	1116
+Barker	1	1	7875	41
+Barker	1	1	15750	54
+Barker	1	1	21000	18
+Barker	1	1	26250	168
+Barker	1	1	34125	227
+Barker	1	1	42000	463
+Boothby				6
+Boothby			0	16
+Boothby			7875	11
+Boothby			15750	21
+Boothby			21000	5
+Boothby			26250	41
+Boothby			34125	43
+Boothby			42000	46
+Boothby			52500	98
+Boothby			65625	101
+Boothby			78750	79
+Boothby			91875	39
+Boothby			105000	30
+Boothby			131250	44
+Boothby			157500	21
+Boothby			183750	15
+Boothby			210000	8
+Boothby			Inf	3
+Boothby	0			663
+Boothby	0		0	90
+Boothby	0		7875	49
+Boothby	0		15750	125
+Boothby	0		21000	119
+Boothby	0		26250	242
+Boothby	0		34125	426
+Boothby	0		42000	510
+Boothby	0		52500	563
+Boothby	0		65625	641
+Boothby	0		78750	547
+Boothby	0		91875	414
+Boothby	0		105000	349
+Boothby	0		131250	426
+Boothby	0		157500	168
+Boothby	0		183750	68
+Boothby	0		210000	52
+Boothby	0		Inf	65
+Boothby	1	0		3392
+Boothby	1	0	0	245
+Boothby	1	0	7875	95
+Boothby	1	0	15750	85
+Boothby	1	0	21000	56
+Boothby	1	0	26250	526
+Boothby	1	0	34125	320
+Boothby	1	0	42000	1722
+Boothby	1	0	52500	1731
+Boothby	1	0	65625	2466
+Boothby	1	0	78750	2572
+Boothby	1	0	91875	2016
+Boothby	1	0	105000	2146
+Boothby	1	0	131250	4538
+Boothby	1	0	157500	3612
+Boothby	1	0	183750	2442
+Boothby	1	0	210000	1510
+Boothby	1	0	Inf	3347
+Boothby	1	1	7875	35
+Boothby	1	1	15750	44
+Boothby	1	1	21000	31
+Boothby	1	1	26250	98
+Boothby	1	1	34125	165
+Boothby	1	1	42000	267
+Grey				22
+Grey			0	6
+Grey			7875	11
+Grey			15750	5
+Grey			21000	3
+Grey			26250	42
+Grey			34125	28
+Grey			42000	58
+Grey			52500	82
+Grey			65625	48
+Grey			78750	42
+Grey			91875	19
+Grey			105000	14
+Grey			131250	23
+Grey			157500	13
+Grey			183750	3
+Grey			Inf	5
+Grey	0			814
+Grey	0		0	79
+Grey	0		7875	56
+Grey	0		15750	264
+Grey	0		21000	359
+Grey	0		26250	501
+Grey	0		34125	741
+Grey	0		42000	739
+Grey	0		52500	654
+Grey	0		65625	526
+Grey	0		78750	369
+Grey	0		91875	249
+Grey	0		105000	196
+Grey	0		131250	181
+Grey	0		157500	64
+Grey	0		183750	33
+Grey	0		210000	30
+Grey	0		Inf	34
+Grey	1	0		3945
+Grey	1	0	0	226
+Grey	1	0	7875	152
+Grey	1	0	15750	124
+Grey	1	0	21000	62
+Grey	1	0	26250	1089
+Grey	1	0	34125	551
+Grey	1	0	42000	3026
+Grey	1	0	52500	2187
+Grey	1	0	65625	2857
+Grey	1	0	78750	2662
+Grey	1	0	91875	1737
+Grey	1	0	105000	1921
+Grey	1	0	131250	3477
+Grey	1	0	157500	2260
+Grey	1	0	183750	1284
+Grey	1	0	210000	692
+Grey	1	0	Inf	1263
+Grey	1	1	7875	31
+Grey	1	1	15750	48
+Grey	1	1	21000	21
+Grey	1	1	26250	191
+Grey	1	1	34125	206
+Grey	1	1	42000	441
+Hindmarsh				9
+Hindmarsh			0	19
+Hindmarsh			7875	14
+Hindmarsh			15750	27
+Hindmarsh			21000	6
+Hindmarsh			26250	38
+Hindmarsh			34125	51
+Hindmarsh			42000	95
+Hindmarsh			52500	102
+Hindmarsh			65625	114
+Hindmarsh			78750	106
+Hindmarsh			91875	68
+Hindmarsh			105000	65
+Hindmarsh			131250	104
+Hindmarsh			157500	32
+Hindmarsh			183750	16
+Hindmarsh			210000	3
+Hindmarsh			Inf	15
+Hindmarsh	0			646
+Hindmarsh	0		0	76
+Hindmarsh	0		7875	41
+Hindmarsh	0		15750	149
+Hindmarsh	0		21000	179
+Hindmarsh	0		26250	320
+Hindmarsh	0		34125	493
+Hindmarsh	0		42000	539
+Hindmarsh	0		52500	659
+Hindmarsh	0		65625	682
+Hindmarsh	0		78750	585
+Hindmarsh	0		91875	448
+Hindmarsh	0		105000	323
+Hindmarsh	0		131250	438
+Hindmarsh	0		157500	171
+Hindmarsh	0		183750	71
+Hindmarsh	0		210000	53
+Hindmarsh	0		Inf	77
+Hindmarsh	1	0		3261
+Hindmarsh	1	0	0	289
+Hindmarsh	1	0	7875	112
+Hindmarsh	1	0	15750	97
+Hindmarsh	1	0	21000	48
+Hindmarsh	1	0	26250	662
+Hindmarsh	1	0	34125	376
+Hindmarsh	1	0	42000	2112
+Hindmarsh	1	0	52500	1960
+Hindmarsh	1	0	65625	2646
+Hindmarsh	1	0	78750	2413
+Hindmarsh	1	0	91875	1971
+Hindmarsh	1	0	105000	2062
+Hindmarsh	1	0	131250	4364
+Hindmarsh	1	0	157500	3307
+Hindmarsh	1	0	183750	2183
+Hindmarsh	1	0	210000	1353
+Hindmarsh	1	0	Inf	2693
+Hindmarsh	1	1	7875	24
+Hindmarsh	1	1	15750	54
+Hindmarsh	1	1	21000	37
+Hindmarsh	1	1	26250	130
+Hindmarsh	1	1	34125	208
+Hindmarsh	1	1	42000	372
+Kingston				11
+Kingston			0	8
+Kingston			7875	7
+Kingston			15750	14
+Kingston			21000	3
+Kingston			26250	30
+Kingston			34125	36
+Kingston			42000	50
+Kingston			52500	72
+Kingston			65625	78
+Kingston			78750	58
+Kingston			91875	32
+Kingston			105000	39
+Kingston			131250	54
+Kingston			157500	13
+Kingston			183750	11
+Kingston			210000	4
+Kingston			Inf	3
+Kingston	0			895
+Kingston	0		0	86
+Kingston	0		7875	55
+Kingston	0		15750	192
+Kingston	0		21000	322
+Kingston	0		26250	548
+Kingston	0		34125	1047
+Kingston	0		42000	1031
+Kingston	0		52500	969
+Kingston	0		65625	924
+Kingston	0		78750	611
+Kingston	0		91875	445
+Kingston	0		105000	328
+Kingston	0		131250	339
+Kingston	0		157500	108
+Kingston	0		183750	50
+Kingston	0		210000	22
+Kingston	0		Inf	24
+Kingston	1	0		3162
+Kingston	1	0	0	161
+Kingston	1	0	7875	109
+Kingston	1	0	15750	94
+Kingston	1	0	21000	44
+Kingston	1	0	26250	633
+Kingston	1	0	34125	471
+Kingston	1	0	42000	2659
+Kingston	1	0	52500	2298
+Kingston	1	0	65625	3153
+Kingston	1	0	78750	3274
+Kingston	1	0	91875	2674
+Kingston	1	0	105000	2550
+Kingston	1	0	131250	4750
+Kingston	1	0	157500	2796
+Kingston	1	0	183750	1421
+Kingston	1	0	210000	630
+Kingston	1	0	Inf	803
+Kingston	1	1	7875	26
+Kingston	1	1	15750	42
+Kingston	1	1	21000	20
+Kingston	1	1	26250	122
+Kingston	1	1	34125	180
+Kingston	1	1	42000	414
+Makin				11
+Makin			0	9
+Makin			7875	11
+Makin			15750	18
+Makin			21000	3
+Makin			26250	28
+Makin			34125	30
+Makin			42000	56
+Makin			52500	72
+Makin			65625	84
+Makin			78750	67
+Makin			91875	49
+Makin			105000	43
+Makin			131250	66
+Makin			157500	23
+Makin			183750	10
+Makin			210000	5
+Makin	0			700
+Makin	0		0	94
+Makin	0		7875	39
+Makin	0		15750	143
+Makin	0		21000	221
+Makin	0		26250	370
+Makin	0		34125	660
+Makin	0		42000	753
+Makin	0		52500	743
+Makin	0		65625	832
+Makin	0		78750	612
+Makin	0		91875	443
+Makin	0		105000	384
+Makin	0		131250	453
+Makin	0		157500	170
+Makin	0		183750	57
+Makin	0		210000	43
+Makin	0		Inf	31
+Makin	1	0		3178
+Makin	1	0	0	295
+Makin	1	0	7875	92
+Makin	1	0	15750	90
+Makin	1	0	21000	52
+Makin	1	0	26250	606
+Makin	1	0	34125	426
+Makin	1	0	42000	2510
+Makin	1	0	52500	2224
+Makin	1	0	65625	2993
+Makin	1	0	78750	3082
+Makin	1	0	91875	2578
+Makin	1	0	105000	2579
+Makin	1	0	131250	4995
+Makin	1	0	157500	3299
+Makin	1	0	183750	1856
+Makin	1	0	210000	997
+Makin	1	0	Inf	1422
+Makin	1	1	7875	37
+Makin	1	1	15750	58
+Makin	1	1	21000	42
+Makin	1	1	26250	171
+Makin	1	1	34125	235
+Makin	1	1	42000	364
+Mayo				3
+Mayo			0	3
+Mayo			7875	6
+Mayo			15750	10
+Mayo			21000	3
+Mayo			26250	11
+Mayo			34125	24
+Mayo			42000	40
+Mayo			52500	42
+Mayo			65625	36
+Mayo			78750	34
+Mayo			91875	16
+Mayo			105000	21
+Mayo			131250	29
+Mayo			157500	11
+Mayo			183750	8
+Mayo			Inf	3
+Mayo	0			667
+Mayo	0		0	51
+Mayo	0		7875	38
+Mayo	0		15750	131
+Mayo	0		21000	162
+Mayo	0		26250	277
+Mayo	0		34125	536
+Mayo	0		42000	577
+Mayo	0		52500	512
+Mayo	0		65625	543
+Mayo	0		78750	391
+Mayo	0		91875	285
+Mayo	0		105000	213
+Mayo	0		131250	252
+Mayo	0		157500	85
+Mayo	0		183750	38
+Mayo	0		210000	41
+Mayo	0		Inf	35
+Mayo	1	0		3868
+Mayo	1	0	0	174
+Mayo	1	0	7875	147
+Mayo	1	0	15750	119
+Mayo	1	0	21000	78
+Mayo	1	0	26250	750
+Mayo	1	0	34125	483
+Mayo	1	0	42000	2778
+Mayo	1	0	52500	2323
+Mayo	1	0	65625	3175
+Mayo	1	0	78750	2987
+Mayo	1	0	91875	2158
+Mayo	1	0	105000	2370
+Mayo	1	0	131250	4229
+Mayo	1	0	157500	2918
+Mayo	1	0	183750	1721
+Mayo	1	0	210000	1119
+Mayo	1	0	Inf	2262
+Mayo	1	1	7875	29
+Mayo	1	1	15750	47
+Mayo	1	1	21000	12
+Mayo	1	1	26250	87
+Mayo	1	1	34125	152
+Mayo	1	1	42000	272
+Port Adelaide				19
+Port Adelaide			0	14
+Port Adelaide			7875	18
+Port Adelaide			15750	26
+Port Adelaide			21000	9
+Port Adelaide			26250	48
+Port Adelaide			34125	54
+Port Adelaide			42000	101
+Port Adelaide			52500	130
+Port Adelaide			65625	133
+Port Adelaide			78750	101
+Port Adelaide			91875	61
+Port Adelaide			105000	50
+Port Adelaide			131250	85
+Port Adelaide			157500	40
+Port Adelaide			183750	8
+Port Adelaide			210000	8
+Port Adelaide			Inf	4
+Port Adelaide	0			1031
+Port Adelaide	0		0	158
+Port Adelaide	0		7875	93
+Port Adelaide	0		15750	300
+Port Adelaide	0		21000	399
+Port Adelaide	0		26250	656
+Port Adelaide	0		34125	1068
+Port Adelaide	0		42000	1093
+Port Adelaide	0		52500	1136
+Port Adelaide	0		65625	1094
+Port Adelaide	0		78750	790
+Port Adelaide	0		91875	538
+Port Adelaide	0		105000	360
+Port Adelaide	0		131250	458
+Port Adelaide	0		157500	170
+Port Adelaide	0		183750	57
+Port Adelaide	0		210000	51
+Port Adelaide	0		Inf	44
+Port Adelaide	1	0		3300
+Port Adelaide	1	0	0	347
+Port Adelaide	1	0	7875	131
+Port Adelaide	1	0	15750	142
+Port Adelaide	1	0	21000	53
+Port Adelaide	1	0	26250	738
+Port Adelaide	1	0	34125	435
+Port Adelaide	1	0	42000	2319
+Port Adelaide	1	0	52500	2284
+Port Adelaide	1	0	65625	2965
+Port Adelaide	1	0	78750	3109
+Port Adelaide	1	0	91875	2415
+Port Adelaide	1	0	105000	2476
+Port Adelaide	1	0	131250	4496
+Port Adelaide	1	0	157500	2852
+Port Adelaide	1	0	183750	1498
+Port Adelaide	1	0	210000	775
+Port Adelaide	1	0	Inf	945
+Port Adelaide	1	1	7875	42
+Port Adelaide	1	1	15750	107
+Port Adelaide	1	1	21000	59
+Port Adelaide	1	1	26250	337
+Port Adelaide	1	1	34125	366
+Port Adelaide	1	1	42000	737
+Sturt				8
+Sturt			0	22
+Sturt			7875	15
+Sturt			15750	28
+Sturt			21000	5
+Sturt			26250	40
+Sturt			34125	35
+Sturt			42000	56
+Sturt			52500	67
+Sturt			65625	87
+Sturt			78750	62
+Sturt			91875	60
+Sturt			105000	36
+Sturt			131250	67
+Sturt			157500	34
+Sturt			183750	16
+Sturt			210000	15
+Sturt			Inf	14
+Sturt	0			681
+Sturt	0		0	139
+Sturt	0		7875	60
+Sturt	0		15750	156
+Sturt	0		21000	173
+Sturt	0		26250	283
+Sturt	0		34125	491
+Sturt	0		42000	561
+Sturt	0		52500	631
+Sturt	0		65625	731
+Sturt	0		78750	461
+Sturt	0		91875	397
+Sturt	0		105000	330
+Sturt	0		131250	394
+Sturt	0		157500	164
+Sturt	0		183750	73
+Sturt	0		210000	74
+Sturt	0		Inf	84
+Sturt	1	0		3395
+Sturt	1	0	0	383
+Sturt	1	0	7875	142
+Sturt	1	0	15750	90
+Sturt	1	0	21000	73
+Sturt	1	0	26250	630
+Sturt	1	0	34125	305
+Sturt	1	0	42000	1979
+Sturt	1	0	52500	1923
+Sturt	1	0	65625	2602
+Sturt	1	0	78750	2485
+Sturt	1	0	91875	1940
+Sturt	1	0	105000	2082
+Sturt	1	0	131250	4332
+Sturt	1	0	157500	3135
+Sturt	1	0	183750	2225
+Sturt	1	0	210000	1420
+Sturt	1	0	Inf	3496
+Sturt	1	1	7875	43
+Sturt	1	1	15750	60
+Sturt	1	1	21000	47
+Sturt	1	1	26250	138
+Sturt	1	1	34125	217
+Sturt	1	1	42000	384
+Wakefield				11
+Wakefield			0	13
+Wakefield			7875	10
+Wakefield			15750	11
+Wakefield			21000	4
+Wakefield			26250	37
+Wakefield			34125	39
+Wakefield			42000	68
+Wakefield			52500	91
+Wakefield			65625	81
+Wakefield			78750	73
+Wakefield			91875	44
+Wakefield			105000	42
+Wakefield			131250	51
+Wakefield			157500	19
+Wakefield			183750	10
+Wakefield			Inf	3
+Wakefield	0			1051
+Wakefield	0		0	114
+Wakefield	0		7875	73
+Wakefield	0		15750	327
+Wakefield	0		21000	468
+Wakefield	0		26250	732
+Wakefield	0		34125	1414
+Wakefield	0		42000	1275
+Wakefield	0		52500	1147
+Wakefield	0		65625	942
+Wakefield	0		78750	650
+Wakefield	0		91875	394
+Wakefield	0		105000	314
+Wakefield	0		131250	317
+Wakefield	0		157500	123
+Wakefield	0		183750	38
+Wakefield	0		210000	42
+Wakefield	0		Inf	40
+Wakefield	1	0		3557
+Wakefield	1	0	0	231
+Wakefield	1	0	7875	134
+Wakefield	1	0	15750	102
+Wakefield	1	0	21000	70
+Wakefield	1	0	26250	770
+Wakefield	1	0	34125	475
+Wakefield	1	0	42000	2665
+Wakefield	1	0	52500	2431
+Wakefield	1	0	65625	3356
+Wakefield	1	0	78750	3407
+Wakefield	1	0	91875	2671
+Wakefield	1	0	105000	2636
+Wakefield	1	0	131250	4509
+Wakefield	1	0	157500	2484
+Wakefield	1	0	183750	1371
+Wakefield	1	0	210000	663
+Wakefield	1	0	Inf	933
+Wakefield	1	1	7875	37
+Wakefield	1	1	15750	73
+Wakefield	1	1	21000	49
+Wakefield	1	1	26250	308
+Wakefield	1	1	34125	342
+Wakefield	1	1	42000	627
+Brand				8
+Brand			0	9
+Brand			7875	8
+Brand			15750	17
+Brand			21000	7
+Brand			26250	28
+Brand			34125	34
+Brand			42000	47
+Brand			52500	59
+Brand			65625	61
+Brand			78750	43
+Brand			91875	36
+Brand			105000	42
+Brand			131250	43
+Brand			157500	32
+Brand			183750	27
+Brand			210000	4
+Brand			Inf	17
+Brand	0			746
+Brand	0		0	200
+Brand	0		7875	61
+Brand	0		15750	249
+Brand	0		21000	314
+Brand	0		26250	516
+Brand	0		34125	867
+Brand	0		42000	751
+Brand	0		52500	715
+Brand	0		65625	776
+Brand	0		78750	538
+Brand	0		91875	369
+Brand	0		105000	327
+Brand	0		131250	436
+Brand	0		157500	184
+Brand	0		183750	67
+Brand	0		210000	71
+Brand	0		Inf	65
+Brand	1	0		5526
+Brand	1	0	0	293
+Brand	1	0	7875	113
+Brand	1	0	15750	108
+Brand	1	0	21000	76
+Brand	1	0	26250	580
+Brand	1	0	34125	313
+Brand	1	0	42000	1816
+Brand	1	0	52500	1578
+Brand	1	0	65625	2234
+Brand	1	0	78750	2410
+Brand	1	0	91875	2361
+Brand	1	0	105000	2429
+Brand	1	0	131250	5343
+Brand	1	0	157500	3566
+Brand	1	0	183750	2165
+Brand	1	0	210000	1559
+Brand	1	0	Inf	2467
+Brand	1	1	7875	25
+Brand	1	1	15750	50
+Brand	1	1	21000	29
+Brand	1	1	26250	124
+Brand	1	1	34125	186
+Brand	1	1	42000	287
+Burt				12
+Burt			0	26
+Burt			7875	15
+Burt			15750	12
+Burt			21000	5
+Burt			26250	30
+Burt			34125	32
+Burt			42000	51
+Burt			52500	63
+Burt			65625	90
+Burt			78750	87
+Burt			91875	58
+Burt			105000	49
+Burt			131250	119
+Burt			157500	62
+Burt			183750	32
+Burt			210000	16
+Burt			Inf	24
+Burt	0			784
+Burt	0		0	224
+Burt	0		7875	91
+Burt	0		15750	252
+Burt	0		21000	280
+Burt	0		26250	476
+Burt	0		34125	743
+Burt	0		42000	692
+Burt	0		52500	739
+Burt	0		65625	811
+Burt	0		78750	605
+Burt	0		91875	442
+Burt	0		105000	357
+Burt	0		131250	509
+Burt	0		157500	209
+Burt	0		183750	97
+Burt	0		210000	65
+Burt	0		Inf	62
+Burt	1	0		4441
+Burt	1	0	0	454
+Burt	1	0	7875	117
+Burt	1	0	15750	107
+Burt	1	0	21000	67
+Burt	1	0	26250	492
+Burt	1	0	34125	306
+Burt	1	0	42000	1705
+Burt	1	0	52500	1762
+Burt	1	0	65625	2673
+Burt	1	0	78750	2935
+Burt	1	0	91875	2610
+Burt	1	0	105000	2570
+Burt	1	0	131250	5661
+Burt	1	0	157500	3685
+Burt	1	0	183750	2222
+Burt	1	0	210000	1541
+Burt	1	0	Inf	2406
+Burt	1	1	7875	38
+Burt	1	1	15750	85
+Burt	1	1	21000	57
+Burt	1	1	26250	224
+Burt	1	1	34125	315
+Burt	1	1	42000	488
+Canning				13
+Canning			0	14
+Canning			7875	3
+Canning			15750	9
+Canning			21000	5
+Canning			26250	25
+Canning			34125	18
+Canning			42000	31
+Canning			52500	44
+Canning			65625	42
+Canning			78750	50
+Canning			91875	24
+Canning			105000	24
+Canning			131250	42
+Canning			157500	23
+Canning			183750	5
+Canning			Inf	10
+Canning	0			681
+Canning	0		0	141
+Canning	0		7875	74
+Canning	0		15750	191
+Canning	0		21000	273
+Canning	0		26250	393
+Canning	0		34125	666
+Canning	0		42000	645
+Canning	0		52500	564
+Canning	0		65625	585
+Canning	0		78750	397
+Canning	0		91875	309
+Canning	0		105000	241
+Canning	0		131250	321
+Canning	0		157500	128
+Canning	0		183750	55
+Canning	0		210000	67
+Canning	0		Inf	55
+Canning	1	0		5114
+Canning	1	0	0	352
+Canning	1	0	7875	153
+Canning	1	0	15750	166
+Canning	1	0	21000	101
+Canning	1	0	26250	775
+Canning	1	0	34125	425
+Canning	1	0	42000	2636
+Canning	1	0	52500	1828
+Canning	1	0	65625	2505
+Canning	1	0	78750	2358
+Canning	1	0	91875	1845
+Canning	1	0	105000	2072
+Canning	1	0	131250	4226
+Canning	1	0	157500	2912
+Canning	1	0	183750	1812
+Canning	1	0	210000	1472
+Canning	1	0	Inf	2632
+Canning	1	1	7875	38
+Canning	1	1	15750	39
+Canning	1	1	21000	37
+Canning	1	1	26250	122
+Canning	1	1	34125	140
+Canning	1	1	42000	240
+Cowan				12
+Cowan			0	15
+Cowan			7875	7
+Cowan			15750	16
+Cowan			21000	8
+Cowan			26250	26
+Cowan			34125	22
+Cowan			42000	30
+Cowan			52500	54
+Cowan			65625	59
+Cowan			78750	78
+Cowan			91875	44
+Cowan			105000	37
+Cowan			131250	85
+Cowan			157500	45
+Cowan			183750	31
+Cowan			210000	14
+Cowan			Inf	20
+Cowan	0			681
+Cowan	0		0	145
+Cowan	0		7875	77
+Cowan	0		15750	209
+Cowan	0		21000	239
+Cowan	0		26250	331
+Cowan	0		34125	535
+Cowan	0		42000	572
+Cowan	0		52500	637
+Cowan	0		65625	713
+Cowan	0		78750	535
+Cowan	0		91875	412
+Cowan	0		105000	348
+Cowan	0		131250	474
+Cowan	0		157500	216
+Cowan	0		183750	85
+Cowan	0		210000	69
+Cowan	0		Inf	57
+Cowan	1	0		3980
+Cowan	1	0	0	348
+Cowan	1	0	7875	103
+Cowan	1	0	15750	97
+Cowan	1	0	21000	59
+Cowan	1	0	26250	529
+Cowan	1	0	34125	298
+Cowan	1	0	42000	1496
+Cowan	1	0	52500	1548
+Cowan	1	0	65625	2240
+Cowan	1	0	78750	2437
+Cowan	1	0	91875	2210
+Cowan	1	0	105000	2336
+Cowan	1	0	131250	4933
+Cowan	1	0	157500	3481
+Cowan	1	0	183750	2228
+Cowan	1	0	210000	1417
+Cowan	1	0	Inf	2250
+Cowan	1	1	7875	43
+Cowan	1	1	15750	92
+Cowan	1	1	21000	52
+Cowan	1	1	26250	174
+Cowan	1	1	34125	258
+Cowan	1	1	42000	456
+Curtin				3
+Curtin			0	21
+Curtin			7875	28
+Curtin			15750	29
+Curtin			21000	5
+Curtin			26250	33
+Curtin			34125	33
+Curtin			42000	46
+Curtin			52500	47
+Curtin			65625	47
+Curtin			78750	49
+Curtin			91875	48
+Curtin			105000	45
+Curtin			131250	82
+Curtin			157500	45
+Curtin			183750	22
+Curtin			210000	22
+Curtin			Inf	39
+Curtin	0			559
+Curtin	0		0	145
+Curtin	0		7875	57
+Curtin	0		15750	96
+Curtin	0		21000	98
+Curtin	0		26250	143
+Curtin	0		34125	236
+Curtin	0		42000	272
+Curtin	0		52500	304
+Curtin	0		65625	380
+Curtin	0		78750	320
+Curtin	0		91875	279
+Curtin	0		105000	235
+Curtin	0		131250	412
+Curtin	0		157500	173
+Curtin	0		183750	69
+Curtin	0		210000	240
+Curtin	0		Inf	228
+Curtin	1	0		4020
+Curtin	1	0	0	259
+Curtin	1	0	7875	69
+Curtin	1	0	15750	73
+Curtin	1	0	21000	35
+Curtin	1	0	26250	230
+Curtin	1	0	34125	197
+Curtin	1	0	42000	720
+Curtin	1	0	52500	848
+Curtin	1	0	65625	1303
+Curtin	1	0	78750	1384
+Curtin	1	0	91875	1060
+Curtin	1	0	105000	1306
+Curtin	1	0	131250	2899
+Curtin	1	0	157500	2554
+Curtin	1	0	183750	2081
+Curtin	1	0	210000	2549
+Curtin	1	0	Inf	9337
+Curtin	1	1	7875	23
+Curtin	1	1	15750	27
+Curtin	1	1	21000	25
+Curtin	1	1	26250	54
+Curtin	1	1	34125	81
+Curtin	1	1	42000	140
+Durack				26
+Durack			0	17
+Durack			7875	11
+Durack			15750	23
+Durack			21000	11
+Durack			26250	61
+Durack			34125	37
+Durack			42000	68
+Durack			52500	74
+Durack			65625	67
+Durack			78750	54
+Durack			91875	30
+Durack			105000	26
+Durack			131250	55
+Durack			157500	32
+Durack			183750	25
+Durack			210000	17
+Durack			Inf	25
+Durack	0			971
+Durack	0		0	114
+Durack	0		7875	85
+Durack	0		15750	335
+Durack	0		21000	355
+Durack	0		26250	457
+Durack	0		34125	601
+Durack	0		42000	608
+Durack	0		52500	499
+Durack	0		65625	516
+Durack	0		78750	369
+Durack	0		91875	293
+Durack	0		105000	257
+Durack	0		131250	385
+Durack	0		157500	108
+Durack	0		183750	77
+Durack	0		210000	85
+Durack	0		Inf	93
+Durack	1	0		5075
+Durack	1	0	0	271
+Durack	1	0	7875	135
+Durack	1	0	15750	84
+Durack	1	0	21000	48
+Durack	1	0	26250	594
+Durack	1	0	34125	293
+Durack	1	0	42000	1426
+Durack	1	0	52500	1255
+Durack	1	0	65625	1792
+Durack	1	0	78750	1883
+Durack	1	0	91875	1582
+Durack	1	0	105000	1930
+Durack	1	0	131250	4428
+Durack	1	0	157500	3206
+Durack	1	0	183750	2318
+Durack	1	0	210000	1933
+Durack	1	0	Inf	4074
+Durack	1	1	7875	41
+Durack	1	1	15750	75
+Durack	1	1	21000	34
+Durack	1	1	26250	248
+Durack	1	1	34125	249
+Durack	1	1	42000	398
+Forrest				12
+Forrest			0	7
+Forrest			7875	11
+Forrest			15750	10
+Forrest			26250	16
+Forrest			34125	20
+Forrest			42000	29
+Forrest			52500	44
+Forrest			65625	45
+Forrest			78750	35
+Forrest			91875	24
+Forrest			105000	27
+Forrest			131250	46
+Forrest			157500	17
+Forrest			183750	4
+Forrest			210000	4
+Forrest			Inf	5
+Forrest	0			654
+Forrest	0		0	101
+Forrest	0		7875	55
+Forrest	0		15750	179
+Forrest	0		21000	250
+Forrest	0		26250	430
+Forrest	0		34125	733
+Forrest	0		42000	704
+Forrest	0		52500	615
+Forrest	0		65625	626
+Forrest	0		78750	418
+Forrest	0		91875	299
+Forrest	0		105000	216
+Forrest	0		131250	295
+Forrest	0		157500	93
+Forrest	0		183750	41
+Forrest	0		210000	51
+Forrest	0		Inf	41
+Forrest	1	0		4879
+Forrest	1	0	0	264
+Forrest	1	0	7875	114
+Forrest	1	0	15750	106
+Forrest	1	0	21000	100
+Forrest	1	0	26250	644
+Forrest	1	0	34125	404
+Forrest	1	0	42000	2162
+Forrest	1	0	52500	1820
+Forrest	1	0	65625	2324
+Forrest	1	0	78750	2560
+Forrest	1	0	91875	2155
+Forrest	1	0	105000	2383
+Forrest	1	0	131250	4408
+Forrest	1	0	157500	3020
+Forrest	1	0	183750	1926
+Forrest	1	0	210000	1196
+Forrest	1	0	Inf	2123
+Forrest	1	1	7875	28
+Forrest	1	1	15750	51
+Forrest	1	1	21000	26
+Forrest	1	1	26250	109
+Forrest	1	1	34125	134
+Forrest	1	1	42000	299
+Fremantle				6
+Fremantle			0	22
+Fremantle			7875	8
+Fremantle			15750	15
+Fremantle			21000	3
+Fremantle			26250	30
+Fremantle			34125	29
+Fremantle			42000	51
+Fremantle			52500	50
+Fremantle			65625	75
+Fremantle			78750	54
+Fremantle			91875	39
+Fremantle			105000	40
+Fremantle			131250	83
+Fremantle			157500	44
+Fremantle			183750	34
+Fremantle			210000	14
+Fremantle			Inf	22
+Fremantle	0			745
+Fremantle	0		0	117
+Fremantle	0		7875	44
+Fremantle	0		15750	168
+Fremantle	0		21000	184
+Fremantle	0		26250	335
+Fremantle	0		34125	498
+Fremantle	0		42000	521
+Fremantle	0		52500	581
+Fremantle	0		65625	653
+Fremantle	0		78750	465
+Fremantle	0		91875	366
+Fremantle	0		105000	337
+Fremantle	0		131250	524
+Fremantle	0		157500	187
+Fremantle	0		183750	74
+Fremantle	0		210000	93
+Fremantle	0		Inf	92
+Fremantle	1	0		4287
+Fremantle	1	0	0	270
+Fremantle	1	0	7875	101
+Fremantle	1	0	15750	93
+Fremantle	1	0	21000	55
+Fremantle	1	0	26250	486
+Fremantle	1	0	34125	278
+Fremantle	1	0	42000	1436
+Fremantle	1	0	52500	1165
+Fremantle	1	0	65625	1777
+Fremantle	1	0	78750	1904
+Fremantle	1	0	91875	1731
+Fremantle	1	0	105000	1957
+Fremantle	1	0	131250	4486
+Fremantle	1	0	157500	3662
+Fremantle	1	0	183750	2598
+Fremantle	1	0	210000	2042
+Fremantle	1	0	Inf	4100
+Fremantle	1	1	7875	33
+Fremantle	1	1	15750	50
+Fremantle	1	1	21000	24
+Fremantle	1	1	26250	91
+Fremantle	1	1	34125	131
+Fremantle	1	1	42000	254
+Hasluck				9
+Hasluck			0	14
+Hasluck			7875	4
+Hasluck			15750	16
+Hasluck			21000	7
+Hasluck			26250	16
+Hasluck			34125	28
+Hasluck			42000	51
+Hasluck			52500	53
+Hasluck			65625	67
+Hasluck			78750	70
+Hasluck			91875	44
+Hasluck			105000	38
+Hasluck			131250	68
+Hasluck			157500	40
+Hasluck			183750	24
+Hasluck			210000	13
+Hasluck			Inf	13
+Hasluck	0			761
+Hasluck	0		0	136
+Hasluck	0		7875	53
+Hasluck	0		15750	179
+Hasluck	0		21000	199
+Hasluck	0		26250	315
+Hasluck	0		34125	510
+Hasluck	0		42000	514
+Hasluck	0		52500	586
+Hasluck	0		65625	679
+Hasluck	0		78750	486
+Hasluck	0		91875	363
+Hasluck	0		105000	318
+Hasluck	0		131250	450
+Hasluck	0		157500	225
+Hasluck	0		183750	79
+Hasluck	0		210000	87
+Hasluck	0		Inf	67
+Hasluck	1	0		4194
+Hasluck	1	0	0	275
+Hasluck	1	0	7875	101
+Hasluck	1	0	15750	116
+Hasluck	1	0	21000	62
+Hasluck	1	0	26250	518
+Hasluck	1	0	34125	330
+Hasluck	1	0	42000	1730
+Hasluck	1	0	52500	1556
+Hasluck	1	0	65625	2223
+Hasluck	1	0	78750	2227
+Hasluck	1	0	91875	2030
+Hasluck	1	0	105000	2109
+Hasluck	1	0	131250	4485
+Hasluck	1	0	157500	3139
+Hasluck	1	0	183750	1963
+Hasluck	1	0	210000	1480
+Hasluck	1	0	Inf	2727
+Hasluck	1	1	7875	36
+Hasluck	1	1	15750	49
+Hasluck	1	1	21000	46
+Hasluck	1	1	26250	127
+Hasluck	1	1	34125	149
+Hasluck	1	1	42000	281
+Moore				7
+Moore			0	19
+Moore			7875	12
+Moore			15750	11
+Moore			21000	3
+Moore			26250	13
+Moore			34125	20
+Moore			42000	28
+Moore			52500	40
+Moore			65625	54
+Moore			78750	46
+Moore			91875	32
+Moore			105000	26
+Moore			131250	60
+Moore			157500	27
+Moore			183750	17
+Moore			210000	11
+Moore			Inf	19
+Moore	0			564
+Moore	0		0	93
+Moore	0		7875	39
+Moore	0		15750	89
+Moore	0		21000	120
+Moore	0		26250	213
+Moore	0		34125	320
+Moore	0		42000	377
+Moore	0		52500	445
+Moore	0		65625	479
+Moore	0		78750	402
+Moore	0		91875	330
+Moore	0		105000	297
+Moore	0		131250	489
+Moore	0		157500	226
+Moore	0		183750	82
+Moore	0		210000	100
+Moore	0		Inf	108
+Moore	1	0		4610
+Moore	1	0	0	230
+Moore	1	0	7875	104
+Moore	1	0	15750	98
+Moore	1	0	21000	49
+Moore	1	0	26250	380
+Moore	1	0	34125	262
+Moore	1	0	42000	1287
+Moore	1	0	52500	1256
+Moore	1	0	65625	1833
+Moore	1	0	78750	1803
+Moore	1	0	91875	1703
+Moore	1	0	105000	1833
+Moore	1	0	131250	4570
+Moore	1	0	157500	3841
+Moore	1	0	183750	2757
+Moore	1	0	210000	2410
+Moore	1	0	Inf	5405
+Moore	1	1	7875	20
+Moore	1	1	15750	28
+Moore	1	1	21000	27
+Moore	1	1	26250	65
+Moore	1	1	34125	95
+Moore	1	1	42000	147
+O'Connor				19
+O'Connor			0	7
+O'Connor			7875	10
+O'Connor			15750	10
+O'Connor			21000	3
+O'Connor			26250	17
+O'Connor			34125	17
+O'Connor			42000	45
+O'Connor			52500	59
+O'Connor			65625	60
+O'Connor			78750	62
+O'Connor			91875	26
+O'Connor			105000	28
+O'Connor			131250	45
+O'Connor			157500	27
+O'Connor			183750	16
+O'Connor			210000	17
+O'Connor			Inf	15
+O'Connor	0			711
+O'Connor	0		0	86
+O'Connor	0		7875	46
+O'Connor	0		15750	208
+O'Connor	0		21000	310
+O'Connor	0		26250	387
+O'Connor	0		34125	634
+O'Connor	0		42000	675
+O'Connor	0		52500	555
+O'Connor	0		65625	557
+O'Connor	0		78750	354
+O'Connor	0		91875	251
+O'Connor	0		105000	209
+O'Connor	0		131250	290
+O'Connor	0		157500	108
+O'Connor	0		183750	46
+O'Connor	0		210000	63
+O'Connor	0		Inf	52
+O'Connor	1	0		4645
+O'Connor	1	0	0	237
+O'Connor	1	0	7875	145
+O'Connor	1	0	15750	132
+O'Connor	1	0	21000	80
+O'Connor	1	0	26250	759
+O'Connor	1	0	34125	407
+O'Connor	1	0	42000	2161
+O'Connor	1	0	52500	1772
+O'Connor	1	0	65625	2493
+O'Connor	1	0	78750	2507
+O'Connor	1	0	91875	1984
+O'Connor	1	0	105000	2209
+O'Connor	1	0	131250	4268
+O'Connor	1	0	157500	2991
+O'Connor	1	0	183750	1924
+O'Connor	1	0	210000	1257
+O'Connor	1	0	Inf	2389
+O'Connor	1	1	7875	32
+O'Connor	1	1	15750	43
+O'Connor	1	1	21000	28
+O'Connor	1	1	26250	160
+O'Connor	1	1	34125	192
+O'Connor	1	1	42000	362
+Pearce				9
+Pearce			0	8
+Pearce			7875	5
+Pearce			15750	19
+Pearce			21000	11
+Pearce			26250	14
+Pearce			34125	18
+Pearce			42000	39
+Pearce			52500	35
+Pearce			65625	39
+Pearce			78750	60
+Pearce			91875	41
+Pearce			105000	47
+Pearce			131250	73
+Pearce			157500	35
+Pearce			183750	18
+Pearce			210000	11
+Pearce			Inf	17
+Pearce	0			873
+Pearce	0		0	178
+Pearce	0		7875	68
+Pearce	0		15750	227
+Pearce	0		21000	306
+Pearce	0		26250	485
+Pearce	0		34125	837
+Pearce	0		42000	718
+Pearce	0		52500	762
+Pearce	0		65625	819
+Pearce	0		78750	583
+Pearce	0		91875	454
+Pearce	0		105000	344
+Pearce	0		131250	497
+Pearce	0		157500	218
+Pearce	0		183750	67
+Pearce	0		210000	80
+Pearce	0		Inf	71
+Pearce	1	0		5963
+Pearce	1	0	0	374
+Pearce	1	0	7875	122
+Pearce	1	0	15750	115
+Pearce	1	0	21000	61
+Pearce	1	0	26250	598
+Pearce	1	0	34125	394
+Pearce	1	0	42000	1782
+Pearce	1	0	52500	1697
+Pearce	1	0	65625	2443
+Pearce	1	0	78750	2905
+Pearce	1	0	91875	2599
+Pearce	1	0	105000	2940
+Pearce	1	0	131250	6449
+Pearce	1	0	157500	4299
+Pearce	1	0	183750	2619
+Pearce	1	0	210000	1871
+Pearce	1	0	Inf	2892
+Pearce	1	1	7875	45
+Pearce	1	1	15750	66
+Pearce	1	1	21000	39
+Pearce	1	1	26250	131
+Pearce	1	1	34125	220
+Pearce	1	1	42000	346
+Perth				11
+Perth			0	39
+Perth			7875	11
+Perth			15750	15
+Perth			21000	10
+Perth			26250	47
+Perth			34125	39
+Perth			42000	56
+Perth			52500	70
+Perth			65625	82
+Perth			78750	86
+Perth			91875	89
+Perth			105000	64
+Perth			131250	105
+Perth			157500	70
+Perth			183750	35
+Perth			210000	22
+Perth			Inf	46
+Perth	0			551
+Perth	0		0	118
+Perth	0		7875	49
+Perth	0		15750	132
+Perth	0		21000	148
+Perth	0		26250	254
+Perth	0		34125	348
+Perth	0		42000	425
+Perth	0		52500	424
+Perth	0		65625	485
+Perth	0		78750	419
+Perth	0		91875	297
+Perth	0		105000	275
+Perth	0		131250	400
+Perth	0		157500	192
+Perth	0		183750	86
+Perth	0		210000	114
+Perth	0		Inf	114
+Perth	1	0		3586
+Perth	1	0	0	342
+Perth	1	0	7875	101
+Perth	1	0	15750	105
+Perth	1	0	21000	63
+Perth	1	0	26250	483
+Perth	1	0	34125	300
+Perth	1	0	42000	1361
+Perth	1	0	52500	1293
+Perth	1	0	65625	1803
+Perth	1	0	78750	1778
+Perth	1	0	91875	1618
+Perth	1	0	105000	1693
+Perth	1	0	131250	4036
+Perth	1	0	157500	3123
+Perth	1	0	183750	2434
+Perth	1	0	210000	2096
+Perth	1	0	Inf	5174
+Perth	1	1	7875	31
+Perth	1	1	15750	54
+Perth	1	1	21000	28
+Perth	1	1	26250	99
+Perth	1	1	34125	135
+Perth	1	1	42000	237
+Stirling				7
+Stirling			0	18
+Stirling			7875	13
+Stirling			15750	13
+Stirling			21000	7
+Stirling			26250	46
+Stirling			34125	34
+Stirling			42000	66
+Stirling			52500	89
+Stirling			65625	86
+Stirling			78750	85
+Stirling			91875	72
+Stirling			105000	62
+Stirling			131250	113
+Stirling			157500	70
+Stirling			183750	37
+Stirling			210000	14
+Stirling			Inf	26
+Stirling	0			722
+Stirling	0		0	112
+Stirling	0		7875	62
+Stirling	0		15750	160
+Stirling	0		21000	199
+Stirling	0		26250	304
+Stirling	0		34125	516
+Stirling	0		42000	512
+Stirling	0		52500	542
+Stirling	0		65625	634
+Stirling	0		78750	489
+Stirling	0		91875	367
+Stirling	0		105000	287
+Stirling	0		131250	456
+Stirling	0		157500	176
+Stirling	0		183750	87
+Stirling	0		210000	102
+Stirling	0		Inf	86
+Stirling	1	0		3601
+Stirling	1	0	0	375
+Stirling	1	0	7875	95
+Stirling	1	0	15750	109
+Stirling	1	0	21000	64
+Stirling	1	0	26250	559
+Stirling	1	0	34125	307
+Stirling	1	0	42000	1633
+Stirling	1	0	52500	1574
+Stirling	1	0	65625	2238
+Stirling	1	0	78750	2192
+Stirling	1	0	91875	1829
+Stirling	1	0	105000	1854
+Stirling	1	0	131250	4073
+Stirling	1	0	157500	2912
+Stirling	1	0	183750	2115
+Stirling	1	0	210000	1665
+Stirling	1	0	Inf	3976
+Stirling	1	1	7875	45
+Stirling	1	1	15750	70
+Stirling	1	1	21000	50
+Stirling	1	1	26250	170
+Stirling	1	1	34125	259
+Stirling	1	1	42000	411
+Swan				14
+Swan			0	74
+Swan			7875	32
+Swan			15750	58
+Swan			21000	18
+Swan			26250	56
+Swan			34125	78
+Swan			42000	93
+Swan			52500	117
+Swan			65625	150
+Swan			78750	161
+Swan			91875	105
+Swan			105000	93
+Swan			131250	174
+Swan			157500	73
+Swan			183750	47
+Swan			210000	14
+Swan			Inf	39
+Swan	0			631
+Swan	0		0	161
+Swan	0		7875	60
+Swan	0		15750	189
+Swan	0		21000	207
+Swan	0		26250	281
+Swan	0		34125	426
+Swan	0		42000	480
+Swan	0		52500	528
+Swan	0		65625	619
+Swan	0		78750	459
+Swan	0		91875	341
+Swan	0		105000	283
+Swan	0		131250	445
+Swan	0		157500	180
+Swan	0		183750	90
+Swan	0		210000	94
+Swan	0		Inf	103
+Swan	1	0		3674
+Swan	1	0	0	447
+Swan	1	0	7875	119
+Swan	1	0	15750	110
+Swan	1	0	21000	89
+Swan	1	0	26250	471
+Swan	1	0	34125	335
+Swan	1	0	42000	1384
+Swan	1	0	52500	1525
+Swan	1	0	65625	2169
+Swan	1	0	78750	2093
+Swan	1	0	91875	1847
+Swan	1	0	105000	1943
+Swan	1	0	131250	4198
+Swan	1	0	157500	3020
+Swan	1	0	183750	2219
+Swan	1	0	210000	1822
+Swan	1	0	Inf	4032
+Swan	1	1	7875	31
+Swan	1	1	15750	77
+Swan	1	1	21000	46
+Swan	1	1	26250	181
+Swan	1	1	34125	220
+Swan	1	1	42000	321
+Tangney				12
+Tangney			0	37
+Tangney			7875	11
+Tangney			15750	30
+Tangney			21000	11
+Tangney			26250	27
+Tangney			34125	27
+Tangney			42000	48
+Tangney			52500	67
+Tangney			65625	61
+Tangney			78750	56
+Tangney			91875	49
+Tangney			105000	36
+Tangney			131250	71
+Tangney			157500	48
+Tangney			183750	22
+Tangney			210000	16
+Tangney			Inf	21
+Tangney	0			541
+Tangney	0		0	160
+Tangney	0		7875	48
+Tangney	0		15750	107
+Tangney	0		21000	119
+Tangney	0		26250	194
+Tangney	0		34125	310
+Tangney	0		42000	349
+Tangney	0		52500	382
+Tangney	0		65625	496
+Tangney	0		78750	407
+Tangney	0		91875	370
+Tangney	0		105000	271
+Tangney	0		131250	441
+Tangney	0		157500	190
+Tangney	0		183750	94
+Tangney	0		210000	118
+Tangney	0		Inf	124
+Tangney	1	0		3867
+Tangney	1	0	0	374
+Tangney	1	0	7875	132
+Tangney	1	0	15750	101
+Tangney	1	0	21000	72
+Tangney	1	0	26250	467
+Tangney	1	0	34125	288
+Tangney	1	0	42000	1229
+Tangney	1	0	52500	1305
+Tangney	1	0	65625	1961
+Tangney	1	0	78750	1778
+Tangney	1	0	91875	1518
+Tangney	1	0	105000	1634
+Tangney	1	0	131250	3618
+Tangney	1	0	157500	2957
+Tangney	1	0	183750	2217
+Tangney	1	0	210000	2104
+Tangney	1	0	Inf	5731
+Tangney	1	1	7875	29
+Tangney	1	1	15750	65
+Tangney	1	1	21000	42
+Tangney	1	1	26250	81
+Tangney	1	1	34125	177
+Tangney	1	1	42000	239
+Bass				9
+Bass			0	10
+Bass			7875	7
+Bass			15750	12
+Bass			21000	11
+Bass			26250	37
+Bass			34125	23
+Bass			42000	44
+Bass			52500	54
+Bass			65625	65
+Bass			78750	37
+Bass			91875	20
+Bass			105000	17
+Bass			131250	33
+Bass			157500	6
+Bass			183750	3
+Bass			Inf	5
+Bass	0			526
+Bass	0		0	48
+Bass	0		7875	31
+Bass	0		15750	152
+Bass	0		21000	251
+Bass	0		26250	340
+Bass	0		34125	646
+Bass	0		42000	606
+Bass	0		52500	529
+Bass	0		65625	511
+Bass	0		78750	351
+Bass	0		91875	223
+Bass	0		105000	161
+Bass	0		131250	205
+Bass	0		157500	66
+Bass	0		183750	18
+Bass	0		210000	29
+Bass	0		Inf	29
+Bass	1	0		2163
+Bass	1	0	0	126
+Bass	1	0	7875	57
+Bass	1	0	15750	81
+Bass	1	0	21000	48
+Bass	1	0	26250	535
+Bass	1	0	34125	328
+Bass	1	0	42000	1829
+Bass	1	0	52500	1462
+Bass	1	0	65625	1980
+Bass	1	0	78750	1957
+Bass	1	0	91875	1517
+Bass	1	0	105000	1506
+Bass	1	0	131250	2652
+Bass	1	0	157500	1672
+Bass	1	0	183750	873
+Bass	1	0	210000	472
+Bass	1	0	Inf	932
+Bass	1	1	7875	22
+Bass	1	1	15750	30
+Bass	1	1	21000	21
+Bass	1	1	26250	120
+Bass	1	1	34125	148
+Bass	1	1	42000	346
+Braddon				10
+Braddon			0	3
+Braddon			7875	6
+Braddon			15750	8
+Braddon			26250	20
+Braddon			34125	12
+Braddon			42000	32
+Braddon			52500	47
+Braddon			65625	39
+Braddon			78750	27
+Braddon			91875	11
+Braddon			105000	17
+Braddon			131250	16
+Braddon			157500	3
+Braddon			183750	3
+Braddon			Inf	3
+Braddon	0			581
+Braddon	0		0	39
+Braddon	0		7875	33
+Braddon	0		15750	136
+Braddon	0		21000	254
+Braddon	0		26250	395
+Braddon	0		34125	615
+Braddon	0		42000	622
+Braddon	0		52500	585
+Braddon	0		65625	504
+Braddon	0		78750	298
+Braddon	0		91875	208
+Braddon	0		105000	137
+Braddon	0		131250	147
+Braddon	0		157500	51
+Braddon	0		183750	15
+Braddon	0		210000	11
+Braddon	0		Inf	19
+Braddon	1	0		2344
+Braddon	1	0	0	119
+Braddon	1	0	7875	72
+Braddon	1	0	15750	77
+Braddon	1	0	21000	39
+Braddon	1	0	26250	666
+Braddon	1	0	34125	380
+Braddon	1	0	42000	2281
+Braddon	1	0	52500	1598
+Braddon	1	0	65625	2085
+Braddon	1	0	78750	2147
+Braddon	1	0	91875	1490
+Braddon	1	0	105000	1469
+Braddon	1	0	131250	2502
+Braddon	1	0	157500	1422
+Braddon	1	0	183750	763
+Braddon	1	0	210000	384
+Braddon	1	0	Inf	626
+Braddon	1	1	7875	21
+Braddon	1	1	15750	22
+Braddon	1	1	21000	6
+Braddon	1	1	26250	99
+Braddon	1	1	34125	157
+Braddon	1	1	42000	265
+Denison				5
+Denison			0	6
+Denison			7875	4
+Denison			15750	10
+Denison			21000	3
+Denison			26250	24
+Denison			34125	28
+Denison			42000	54
+Denison			52500	49
+Denison			65625	66
+Denison			78750	54
+Denison			91875	37
+Denison			105000	28
+Denison			131250	47
+Denison			157500	15
+Denison			183750	4
+Denison			210000	3
+Denison			Inf	5
+Denison	0			529
+Denison	0		0	57
+Denison	0		7875	19
+Denison	0		15750	127
+Denison	0		21000	184
+Denison	0		26250	317
+Denison	0		34125	517
+Denison	0		42000	540
+Denison	0		52500	532
+Denison	0		65625	561
+Denison	0		78750	376
+Denison	0		91875	327
+Denison	0		105000	186
+Denison	0		131250	289
+Denison	0		157500	100
+Denison	0		183750	33
+Denison	0		210000	47
+Denison	0		Inf	36
+Denison	1	0		2055
+Denison	1	0	0	156
+Denison	1	0	7875	57
+Denison	1	0	15750	70
+Denison	1	0	21000	36
+Denison	1	0	26250	325
+Denison	1	0	34125	244
+Denison	1	0	42000	1131
+Denison	1	0	52500	1159
+Denison	1	0	65625	1608
+Denison	1	0	78750	1763
+Denison	1	0	91875	1305
+Denison	1	0	105000	1396
+Denison	1	0	131250	2695
+Denison	1	0	157500	1869
+Denison	1	0	183750	1225
+Denison	1	0	210000	826
+Denison	1	0	Inf	1757
+Denison	1	1	7875	9
+Denison	1	1	15750	30
+Denison	1	1	21000	22
+Denison	1	1	26250	88
+Denison	1	1	34125	159
+Denison	1	1	42000	230
+Franklin				18
+Franklin			7875	3
+Franklin			15750	9
+Franklin			26250	18
+Franklin			34125	11
+Franklin			42000	28
+Franklin			52500	45
+Franklin			65625	42
+Franklin			78750	27
+Franklin			91875	12
+Franklin			105000	29
+Franklin			131250	31
+Franklin			157500	13
+Franklin			183750	7
+Franklin			Inf	3
+Franklin	0			553
+Franklin	0		0	36
+Franklin	0		7875	25
+Franklin	0		15750	113
+Franklin	0		21000	183
+Franklin	0		26250	285
+Franklin	0		34125	542
+Franklin	0		42000	512
+Franklin	0		52500	562
+Franklin	0		65625	565
+Franklin	0		78750	409
+Franklin	0		91875	300
+Franklin	0		105000	217
+Franklin	0		131250	269
+Franklin	0		157500	73
+Franklin	0		183750	30
+Franklin	0		210000	21
+Franklin	0		Inf	22
+Franklin	1	0		2379
+Franklin	1	0	0	141
+Franklin	1	0	7875	72
+Franklin	1	0	15750	78
+Franklin	1	0	21000	28
+Franklin	1	0	26250	463
+Franklin	1	0	34125	323
+Franklin	1	0	42000	1612
+Franklin	1	0	52500	1527
+Franklin	1	0	65625	2097
+Franklin	1	0	78750	2116
+Franklin	1	0	91875	1738
+Franklin	1	0	105000	1738
+Franklin	1	0	131250	3429
+Franklin	1	0	157500	2267
+Franklin	1	0	183750	1352
+Franklin	1	0	210000	786
+Franklin	1	0	Inf	1205
+Franklin	1	1	7875	14
+Franklin	1	1	15750	17
+Franklin	1	1	21000	13
+Franklin	1	1	26250	61
+Franklin	1	1	34125	126
+Franklin	1	1	42000	227
+Lyons				6
+Lyons			0	4
+Lyons			7875	3
+Lyons			15750	11
+Lyons			21000	3
+Lyons			26250	20
+Lyons			34125	19
+Lyons			42000	42
+Lyons			52500	36
+Lyons			65625	45
+Lyons			78750	31
+Lyons			91875	16
+Lyons			105000	14
+Lyons			131250	10
+Lyons			157500	8
+Lyons			183750	3
+Lyons	0			566
+Lyons	0		0	39
+Lyons	0		7875	31
+Lyons	0		15750	149
+Lyons	0		21000	254
+Lyons	0		26250	389
+Lyons	0		34125	674
+Lyons	0		42000	619
+Lyons	0		52500	544
+Lyons	0		65625	513
+Lyons	0		78750	295
+Lyons	0		91875	187
+Lyons	0		105000	127
+Lyons	0		131250	143
+Lyons	0		157500	39
+Lyons	0		183750	13
+Lyons	0		210000	38
+Lyons	0		Inf	11
+Lyons	1	0		2742
+Lyons	1	0	0	147
+Lyons	1	0	7875	131
+Lyons	1	0	15750	103
+Lyons	1	0	21000	58
+Lyons	1	0	26250	772
+Lyons	1	0	34125	481
+Lyons	1	0	42000	2503
+Lyons	1	0	52500	1934
+Lyons	1	0	65625	2402
+Lyons	1	0	78750	2344
+Lyons	1	0	91875	1693
+Lyons	1	0	105000	1600
+Lyons	1	0	131250	2538
+Lyons	1	0	157500	1436
+Lyons	1	0	183750	681
+Lyons	1	0	210000	372
+Lyons	1	0	Inf	562
+Lyons	1	1	7875	19
+Lyons	1	1	15750	32
+Lyons	1	1	21000	19
+Lyons	1	1	26250	139
+Lyons	1	1	34125	157
+Lyons	1	1	42000	370
+Lingiari				33
+Lingiari			0	11
+Lingiari			7875	16
+Lingiari			15750	30
+Lingiari			21000	15
+Lingiari			26250	67
+Lingiari			34125	34
+Lingiari			42000	53
+Lingiari			52500	52
+Lingiari			65625	43
+Lingiari			78750	15
+Lingiari			91875	16
+Lingiari			105000	25
+Lingiari			131250	39
+Lingiari			157500	24
+Lingiari			183750	16
+Lingiari			210000	5
+Lingiari			Inf	8
+Lingiari	0			832
+Lingiari	0		0	67
+Lingiari	0		7875	144
+Lingiari	0		15750	545
+Lingiari	0		21000	205
+Lingiari	0		26250	329
+Lingiari	0		34125	317
+Lingiari	0		42000	335
+Lingiari	0		52500	342
+Lingiari	0		65625	375
+Lingiari	0		78750	294
+Lingiari	0		91875	223
+Lingiari	0		105000	167
+Lingiari	0		131250	232
+Lingiari	0		157500	92
+Lingiari	0		183750	51
+Lingiari	0		210000	47
+Lingiari	0		Inf	43
+Lingiari	1	0		3076
+Lingiari	1	0	0	129
+Lingiari	1	0	7875	162
+Lingiari	1	0	15750	125
+Lingiari	1	0	21000	22
+Lingiari	1	0	26250	516
+Lingiari	1	0	34125	188
+Lingiari	1	0	42000	409
+Lingiari	1	0	52500	938
+Lingiari	1	0	65625	919
+Lingiari	1	0	78750	971
+Lingiari	1	0	91875	796
+Lingiari	1	0	105000	964
+Lingiari	1	0	131250	2289
+Lingiari	1	0	157500	1858
+Lingiari	1	0	183750	1316
+Lingiari	1	0	210000	897
+Lingiari	1	0	Inf	1691
+Lingiari	1	1	7875	161
+Lingiari	1	1	15750	254
+Lingiari	1	1	21000	72
+Lingiari	1	1	26250	698
+Lingiari	1	1	34125	341
+Lingiari	1	1	42000	470
+Solomon				8
+Solomon			0	4
+Solomon			7875	3
+Solomon			15750	12
+Solomon			21000	3
+Solomon			26250	21
+Solomon			34125	10
+Solomon			42000	26
+Solomon			52500	30
+Solomon			65625	29
+Solomon			78750	35
+Solomon			91875	33
+Solomon			105000	27
+Solomon			131250	83
+Solomon			157500	51
+Solomon			183750	21
+Solomon			210000	9
+Solomon			Inf	28
+Solomon	0			546
+Solomon	0		0	62
+Solomon	0		7875	40
+Solomon	0		15750	85
+Solomon	0		21000	133
+Solomon	0		26250	193
+Solomon	0		34125	261
+Solomon	0		42000	277
+Solomon	0		52500	319
+Solomon	0		65625	367
+Solomon	0		78750	321
+Solomon	0		91875	292
+Solomon	0		105000	252
+Solomon	0		131250	422
+Solomon	0		157500	194
+Solomon	0		183750	82
+Solomon	0		210000	88
+Solomon	0		Inf	91
+Solomon	1	0		2811
+Solomon	1	0	0	136
+Solomon	1	0	7875	31
+Solomon	1	0	15750	29
+Solomon	1	0	21000	20
+Solomon	1	0	26250	162
+Solomon	1	0	34125	98
+Solomon	1	0	42000	367
+Solomon	1	0	52500	521
+Solomon	1	0	65625	950
+Solomon	1	0	78750	1115
+Solomon	1	0	91875	1126
+Solomon	1	0	105000	1391
+Solomon	1	0	131250	3435
+Solomon	1	0	157500	2767
+Solomon	1	0	183750	2193
+Solomon	1	0	210000	1915
+Solomon	1	0	Inf	3741
+Solomon	1	1	7875	14
+Solomon	1	1	15750	23
+Solomon	1	1	21000	11
+Solomon	1	1	26250	48
+Solomon	1	1	34125	80
+Solomon	1	1	42000	140
+Canberra				11
+Canberra			0	12
+Canberra			7875	5
+Canberra			15750	13
+Canberra			21000	4
+Canberra			26250	16
+Canberra			34125	15
+Canberra			42000	43
+Canberra			52500	42
+Canberra			65625	54
+Canberra			78750	57
+Canberra			91875	38
+Canberra			105000	46
+Canberra			131250	120
+Canberra			157500	65
+Canberra			183750	28
+Canberra			210000	17
+Canberra			Inf	23
+Canberra	0			800
+Canberra	0		0	80
+Canberra	0		7875	47
+Canberra	0		15750	124
+Canberra	0		21000	197
+Canberra	0		26250	291
+Canberra	0		34125	447
+Canberra	0		42000	426
+Canberra	0		52500	483
+Canberra	0		65625	600
+Canberra	0		78750	592
+Canberra	0		91875	601
+Canberra	0		105000	547
+Canberra	0		131250	907
+Canberra	0		157500	433
+Canberra	0		183750	229
+Canberra	0		210000	253
+Canberra	0		Inf	224
+Canberra	1	0		4359
+Canberra	1	0	0	196
+Canberra	1	0	7875	66
+Canberra	1	0	15750	52
+Canberra	1	0	21000	31
+Canberra	1	0	26250	306
+Canberra	1	0	34125	205
+Canberra	1	0	42000	918
+Canberra	1	0	52500	1170
+Canberra	1	0	65625	1861
+Canberra	1	0	78750	2167
+Canberra	1	0	91875	1880
+Canberra	1	0	105000	2123
+Canberra	1	0	131250	5414
+Canberra	1	0	157500	4838
+Canberra	1	0	183750	4076
+Canberra	1	0	210000	3347
+Canberra	1	0	Inf	9057
+Canberra	1	1	7875	23
+Canberra	1	1	15750	31
+Canberra	1	1	21000	18
+Canberra	1	1	26250	66
+Canberra	1	1	34125	83
+Canberra	1	1	42000	185
+Fenner				11
+Fenner			0	23
+Fenner			7875	12
+Fenner			15750	14
+Fenner			21000	7
+Fenner			26250	27
+Fenner			34125	23
+Fenner			42000	36
+Fenner			52500	55
+Fenner			65625	78
+Fenner			78750	72
+Fenner			91875	78
+Fenner			105000	64
+Fenner			131250	131
+Fenner			157500	72
+Fenner			183750	37
+Fenner			210000	28
+Fenner			Inf	33
+Fenner	0			710
+Fenner	0		0	77
+Fenner	0		7875	54
+Fenner	0		15750	175
+Fenner	0		21000	221
+Fenner	0		26250	301
+Fenner	0		34125	413
+Fenner	0		42000	467
+Fenner	0		52500	464
+Fenner	0		65625	656
+Fenner	0		78750	600
+Fenner	0		91875	606
+Fenner	0		105000	501
+Fenner	0		131250	911
+Fenner	0		157500	370
+Fenner	0		183750	150
+Fenner	0		210000	166
+Fenner	0		Inf	167
+Fenner	1	0		3931
+Fenner	1	0	0	342
+Fenner	1	0	7875	89
+Fenner	1	0	15750	83
+Fenner	1	0	21000	36
+Fenner	1	0	26250	342
+Fenner	1	0	34125	221
+Fenner	1	0	42000	892
+Fenner	1	0	52500	1291
+Fenner	1	0	65625	2134
+Fenner	1	0	78750	2504
+Fenner	1	0	91875	2298
+Fenner	1	0	105000	2443
+Fenner	1	0	131250	6053
+Fenner	1	0	157500	5577
+Fenner	1	0	183750	4522
+Fenner	1	0	210000	3687
+Fenner	1	0	Inf	7337
+Fenner	1	1	7875	22
+Fenner	1	1	15750	39
+Fenner	1	1	21000	39
+Fenner	1	1	26250	102
+Fenner	1	1	34125	177
+Fenner	1	1	42000	263

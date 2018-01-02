@@ -1,0 +1,685 @@
+STE_NAME16	Landlord	Rent.min	occupied_private_dwellings_being_rented
+New South Wales		0	8787
+New South Wales		3937	115
+New South Wales		5250	539
+New South Wales		7875	551
+New South Wales		10500	300
+New South Wales		11812	376
+New South Wales		14437	560
+New South Wales		18375	656
+New South Wales		23625	380
+New South Wales		28875	184
+New South Wales		34125	118
+New South Wales		39375	56
+New South Wales		44625	31
+New South Wales		49875	60
+New South Wales	(Other)	0	3780
+New South Wales	(Other)	3937	511
+New South Wales	(Other)	5250	1936
+New South Wales	(Other)	7875	2495
+New South Wales	(Other)	10500	1460
+New South Wales	(Other)	11812	4064
+New South Wales	(Other)	14437	2972
+New South Wales	(Other)	18375	2984
+New South Wales	(Other)	23625	1549
+New South Wales	(Other)	28875	734
+New South Wales	(Other)	34125	371
+New South Wales	(Other)	39375	201
+New South Wales	(Other)	44625	117
+New South Wales	(Other)	49875	289
+New South Wales	Co-op/church group etc	0	1194
+New South Wales	Co-op/church group etc	3937	1204
+New South Wales	Co-op/church group etc	5250	2660
+New South Wales	Co-op/church group etc	7875	4290
+New South Wales	Co-op/church group etc	10500	1482
+New South Wales	Co-op/church group etc	11812	1516
+New South Wales	Co-op/church group etc	14437	1498
+New South Wales	Co-op/church group etc	18375	1192
+New South Wales	Co-op/church group etc	23625	403
+New South Wales	Co-op/church group etc	28875	145
+New South Wales	Co-op/church group etc	34125	103
+New South Wales	Co-op/church group etc	39375	62
+New South Wales	Co-op/church group etc	44625	35
+New South Wales	Co-op/church group etc	49875	17
+New South Wales	Person not in same household	0	12289
+New South Wales	Person not in same household	3937	847
+New South Wales	Person not in same household	5250	5992
+New South Wales	Person not in same household	7875	9978
+New South Wales	Person not in same household	10500	9608
+New South Wales	Person not in same household	11812	12985
+New South Wales	Person not in same household	14437	20755
+New South Wales	Person not in same household	18375	26036
+New South Wales	Person not in same household	23625	16032
+New South Wales	Person not in same household	28875	9137
+New South Wales	Person not in same household	34125	5406
+New South Wales	Person not in same household	39375	3288
+New South Wales	Person not in same household	44625	1873
+New South Wales	Person not in same household	49875	3986
+New South Wales	Real estate agent	0	1289
+New South Wales	Real estate agent	3937	371
+New South Wales	Real estate agent	5250	3835
+New South Wales	Real estate agent	7875	13530
+New South Wales	Real estate agent	10500	12187
+New South Wales	Real estate agent	11812	29364
+New South Wales	Real estate agent	14437	69812
+New South Wales	Real estate agent	18375	137506
+New South Wales	Real estate agent	23625	101848
+New South Wales	Real estate agent	28875	62055
+New South Wales	Real estate agent	34125	34858
+New South Wales	Real estate agent	39375	17859
+New South Wales	Real estate agent	44625	9999
+New South Wales	Real estate agent	49875	16974
+New South Wales	State or territory housing authority	0	5454
+New South Wales	State or territory housing authority	3937	4717
+New South Wales	State or territory housing authority	5250	37488
+New South Wales	State or territory housing authority	7875	19845
+New South Wales	State or territory housing authority	10500	8901
+New South Wales	State or territory housing authority	11812	7864
+New South Wales	State or territory housing authority	14437	7812
+New South Wales	State or territory housing authority	18375	4982
+New South Wales	State or territory housing authority	23625	1239
+New South Wales	State or territory housing authority	28875	386
+New South Wales	State or territory housing authority	34125	199
+New South Wales	State or territory housing authority	39375	94
+New South Wales	State or territory housing authority	44625	47
+New South Wales	State or territory housing authority	49875	46
+Victoria		0	6679
+Victoria		3937	84
+Victoria		5250	404
+Victoria		7875	365
+Victoria		10500	216
+Victoria		11812	361
+Victoria		14437	579
+Victoria		18375	425
+Victoria		23625	166
+Victoria		28875	68
+Victoria		34125	31
+Victoria		39375	17
+Victoria		44625	15
+Victoria		49875	40
+Victoria	(Other)	0	1927
+Victoria	(Other)	3937	331
+Victoria	(Other)	5250	1382
+Victoria	(Other)	7875	1695
+Victoria	(Other)	10500	1175
+Victoria	(Other)	11812	2284
+Victoria	(Other)	14437	2904
+Victoria	(Other)	18375	1552
+Victoria	(Other)	23625	535
+Victoria	(Other)	28875	260
+Victoria	(Other)	34125	120
+Victoria	(Other)	39375	70
+Victoria	(Other)	44625	44
+Victoria	(Other)	49875	135
+Victoria	Co-op/church group etc	0	609
+Victoria	Co-op/church group etc	3937	603
+Victoria	Co-op/church group etc	5250	1526
+Victoria	Co-op/church group etc	7875	2357
+Victoria	Co-op/church group etc	10500	1149
+Victoria	Co-op/church group etc	11812	1196
+Victoria	Co-op/church group etc	14437	811
+Victoria	Co-op/church group etc	18375	366
+Victoria	Co-op/church group etc	23625	144
+Victoria	Co-op/church group etc	28875	53
+Victoria	Co-op/church group etc	34125	25
+Victoria	Co-op/church group etc	39375	23
+Victoria	Co-op/church group etc	44625	6
+Victoria	Co-op/church group etc	49875	7
+Victoria	Person not in same household	0	10449
+Victoria	Person not in same household	3937	988
+Victoria	Person not in same household	5250	6186
+Victoria	Person not in same household	7875	10212
+Victoria	Person not in same household	10500	8532
+Victoria	Person not in same household	11812	13622
+Victoria	Person not in same household	14437	22684
+Victoria	Person not in same household	18375	16819
+Victoria	Person not in same household	23625	7528
+Victoria	Person not in same household	28875	3475
+Victoria	Person not in same household	34125	1656
+Victoria	Person not in same household	39375	1023
+Victoria	Person not in same household	44625	519
+Victoria	Person not in same household	49875	1292
+Victoria	Real estate agent	0	1109
+Victoria	Real estate agent	3937	436
+Victoria	Real estate agent	5250	3849
+Victoria	Real estate agent	7875	12517
+Victoria	Real estate agent	10500	12993
+Victoria	Real estate agent	11812	42065
+Victoria	Real estate agent	14437	113361
+Victoria	Real estate agent	18375	120954
+Victoria	Real estate agent	23625	48670
+Victoria	Real estate agent	28875	22122
+Victoria	Real estate agent	34125	9926
+Victoria	Real estate agent	39375	4910
+Victoria	Real estate agent	44625	2525
+Victoria	Real estate agent	49875	5763
+Victoria	State or territory housing authority	0	2803
+Victoria	State or territory housing authority	3937	2719
+Victoria	State or territory housing authority	5250	20743
+Victoria	State or territory housing authority	7875	9042
+Victoria	State or territory housing authority	10500	4333
+Victoria	State or territory housing authority	11812	3760
+Victoria	State or territory housing authority	14437	3169
+Victoria	State or territory housing authority	18375	1464
+Victoria	State or territory housing authority	23625	284
+Victoria	State or territory housing authority	28875	114
+Victoria	State or territory housing authority	34125	67
+Victoria	State or territory housing authority	39375	38
+Victoria	State or territory housing authority	44625	27
+Victoria	State or territory housing authority	49875	22
+Queensland		0	5757
+Queensland		3937	75
+Queensland		5250	285
+Queensland		7875	388
+Queensland		10500	260
+Queensland		11812	399
+Queensland		14437	677
+Queensland		18375	654
+Queensland		23625	187
+Queensland		28875	48
+Queensland		34125	24
+Queensland		39375	12
+Queensland		49875	18
+Queensland	(Other)	0	6225
+Queensland	(Other)	3937	926
+Queensland	(Other)	5250	1950
+Queensland	(Other)	7875	2544
+Queensland	(Other)	10500	1708
+Queensland	(Other)	11812	4989
+Queensland	(Other)	14437	3626
+Queensland	(Other)	18375	2581
+Queensland	(Other)	23625	791
+Queensland	(Other)	28875	299
+Queensland	(Other)	34125	125
+Queensland	(Other)	39375	69
+Queensland	(Other)	44625	28
+Queensland	(Other)	49875	98
+Queensland	Co-op/church group etc	0	530
+Queensland	Co-op/church group etc	3937	438
+Queensland	Co-op/church group etc	5250	1303
+Queensland	Co-op/church group etc	7875	2094
+Queensland	Co-op/church group etc	10500	755
+Queensland	Co-op/church group etc	11812	1033
+Queensland	Co-op/church group etc	14437	881
+Queensland	Co-op/church group etc	18375	702
+Queensland	Co-op/church group etc	23625	157
+Queensland	Co-op/church group etc	28875	48
+Queensland	Co-op/church group etc	34125	21
+Queensland	Co-op/church group etc	39375	5
+Queensland	Co-op/church group etc	44625	7
+Queensland	Co-op/church group etc	49875	6
+Queensland	Person not in same household	0	6904
+Queensland	Person not in same household	3937	585
+Queensland	Person not in same household	5250	4703
+Queensland	Person not in same household	7875	8245
+Queensland	Person not in same household	10500	8833
+Queensland	Person not in same household	11812	14532
+Queensland	Person not in same household	14437	24748
+Queensland	Person not in same household	18375	26445
+Queensland	Person not in same household	23625	9487
+Queensland	Person not in same household	28875	3370
+Queensland	Person not in same household	34125	1373
+Queensland	Person not in same household	39375	667
+Queensland	Person not in same household	44625	327
+Queensland	Person not in same household	49875	643
+Queensland	Real estate agent	0	782
+Queensland	Real estate agent	3937	242
+Queensland	Real estate agent	5250	2191
+Queensland	Real estate agent	7875	9329
+Queensland	Real estate agent	10500	11426
+Queensland	Real estate agent	11812	34876
+Queensland	Real estate agent	14437	87393
+Queensland	Real estate agent	18375	124276
+Queensland	Real estate agent	23625	48681
+Queensland	Real estate agent	28875	16097
+Queensland	Real estate agent	34125	6293
+Queensland	Real estate agent	39375	2724
+Queensland	Real estate agent	44625	1308
+Queensland	Real estate agent	49875	1780
+Queensland	State or territory housing authority	0	3683
+Queensland	State or territory housing authority	3937	4699
+Queensland	State or territory housing authority	5250	17805
+Queensland	State or territory housing authority	7875	10999
+Queensland	State or territory housing authority	10500	3698
+Queensland	State or territory housing authority	11812	4328
+Queensland	State or territory housing authority	14437	3318
+Queensland	State or territory housing authority	18375	1063
+Queensland	State or territory housing authority	23625	162
+Queensland	State or territory housing authority	28875	65
+Queensland	State or territory housing authority	34125	47
+Queensland	State or territory housing authority	39375	32
+Queensland	State or territory housing authority	44625	17
+Queensland	State or territory housing authority	49875	20
+South Australia		0	2092
+South Australia		3937	117
+South Australia		5250	186
+South Australia		7875	171
+South Australia		10500	87
+South Australia		11812	174
+South Australia		14437	186
+South Australia		18375	91
+South Australia		23625	24
+South Australia		28875	15
+South Australia		34125	6
+South Australia		44625	3
+South Australia		49875	12
+South Australia	(Other)	0	1076
+South Australia	(Other)	3937	196
+South Australia	(Other)	5250	958
+South Australia	(Other)	7875	1056
+South Australia	(Other)	10500	596
+South Australia	(Other)	11812	1342
+South Australia	(Other)	14437	1208
+South Australia	(Other)	18375	476
+South Australia	(Other)	23625	101
+South Australia	(Other)	28875	58
+South Australia	(Other)	34125	25
+South Australia	(Other)	39375	22
+South Australia	(Other)	44625	10
+South Australia	(Other)	49875	21
+South Australia	Co-op/church group etc	0	408
+South Australia	Co-op/church group etc	3937	753
+South Australia	Co-op/church group etc	5250	1299
+South Australia	Co-op/church group etc	7875	1886
+South Australia	Co-op/church group etc	10500	623
+South Australia	Co-op/church group etc	11812	656
+South Australia	Co-op/church group etc	14437	412
+South Australia	Co-op/church group etc	18375	115
+South Australia	Co-op/church group etc	23625	42
+South Australia	Co-op/church group etc	28875	12
+South Australia	Co-op/church group etc	34125	9
+South Australia	Co-op/church group etc	39375	6
+South Australia	Co-op/church group etc	44625	3
+South Australia	Co-op/church group etc	49875	3
+South Australia	Person not in same household	0	3138
+South Australia	Person not in same household	3937	404
+South Australia	Person not in same household	5250	2944
+South Australia	Person not in same household	7875	4899
+South Australia	Person not in same household	10500	4501
+South Australia	Person not in same household	11812	8357
+South Australia	Person not in same household	14437	12416
+South Australia	Person not in same household	18375	6919
+South Australia	Person not in same household	23625	1643
+South Australia	Person not in same household	28875	506
+South Australia	Person not in same household	34125	199
+South Australia	Person not in same household	39375	104
+South Australia	Person not in same household	44625	51
+South Australia	Person not in same household	49875	109
+South Australia	Real estate agent	0	249
+South Australia	Real estate agent	3937	124
+South Australia	Real estate agent	5250	1401
+South Australia	Real estate agent	7875	4666
+South Australia	Real estate agent	10500	4499
+South Australia	Real estate agent	11812	15566
+South Australia	Real estate agent	14437	28508
+South Australia	Real estate agent	18375	19165
+South Australia	Real estate agent	23625	4819
+South Australia	Real estate agent	28875	1466
+South Australia	Real estate agent	34125	597
+South Australia	Real estate agent	39375	269
+South Australia	Real estate agent	44625	131
+South Australia	Real estate agent	49875	183
+South Australia	State or territory housing authority	0	2240
+South Australia	State or territory housing authority	3937	6351
+South Australia	State or territory housing authority	5250	10429
+South Australia	State or territory housing authority	7875	6009
+South Australia	State or territory housing authority	10500	2161
+South Australia	State or territory housing authority	11812	2379
+South Australia	State or territory housing authority	14437	1570
+South Australia	State or territory housing authority	18375	424
+South Australia	State or territory housing authority	23625	62
+South Australia	State or territory housing authority	28875	32
+South Australia	State or territory housing authority	34125	22
+South Australia	State or territory housing authority	39375	29
+South Australia	State or territory housing authority	44625	22
+South Australia	State or territory housing authority	49875	72
+Western Australia		0	3350
+Western Australia		3937	54
+Western Australia		5250	143
+Western Australia		7875	147
+Western Australia		10500	82
+Western Australia		11812	110
+Western Australia		14437	192
+Western Australia		18375	272
+Western Australia		23625	97
+Western Australia		28875	19
+Western Australia		34125	18
+Western Australia		39375	9
+Western Australia		44625	9
+Western Australia		49875	15
+Western Australia	(Other)	0	4655
+Western Australia	(Other)	3937	481
+Western Australia	(Other)	5250	1827
+Western Australia	(Other)	7875	1532
+Western Australia	(Other)	10500	956
+Western Australia	(Other)	11812	1661
+Western Australia	(Other)	14437	1783
+Western Australia	(Other)	18375	1929
+Western Australia	(Other)	23625	675
+Western Australia	(Other)	28875	181
+Western Australia	(Other)	34125	98
+Western Australia	(Other)	39375	59
+Western Australia	(Other)	44625	37
+Western Australia	(Other)	49875	117
+Western Australia	Co-op/church group etc	0	490
+Western Australia	Co-op/church group etc	3937	384
+Western Australia	Co-op/church group etc	5250	832
+Western Australia	Co-op/church group etc	7875	1320
+Western Australia	Co-op/church group etc	10500	308
+Western Australia	Co-op/church group etc	11812	289
+Western Australia	Co-op/church group etc	14437	272
+Western Australia	Co-op/church group etc	18375	198
+Western Australia	Co-op/church group etc	23625	58
+Western Australia	Co-op/church group etc	28875	20
+Western Australia	Co-op/church group etc	34125	11
+Western Australia	Co-op/church group etc	39375	4
+Western Australia	Co-op/church group etc	44625	3
+Western Australia	Co-op/church group etc	49875	4
+Western Australia	Person not in same household	0	4492
+Western Australia	Person not in same household	3937	322
+Western Australia	Person not in same household	5250	2393
+Western Australia	Person not in same household	7875	3512
+Western Australia	Person not in same household	10500	3444
+Western Australia	Person not in same household	11812	5695
+Western Australia	Person not in same household	14437	13044
+Western Australia	Person not in same household	18375	19437
+Western Australia	Person not in same household	23625	7603
+Western Australia	Person not in same household	28875	2344
+Western Australia	Person not in same household	34125	962
+Western Australia	Person not in same household	39375	508
+Western Australia	Person not in same household	44625	237
+Western Australia	Person not in same household	49875	566
+Western Australia	Real estate agent	0	408
+Western Australia	Real estate agent	3937	76
+Western Australia	Real estate agent	5250	552
+Western Australia	Real estate agent	7875	1605
+Western Australia	Real estate agent	10500	2058
+Western Australia	Real estate agent	11812	7085
+Western Australia	Real estate agent	14437	25092
+Western Australia	Real estate agent	18375	47124
+Western Australia	Real estate agent	23625	20848
+Western Australia	Real estate agent	28875	7198
+Western Australia	Real estate agent	34125	3073
+Western Australia	Real estate agent	39375	1675
+Western Australia	Real estate agent	44625	862
+Western Australia	Real estate agent	49875	1496
+Western Australia	State or territory housing authority	0	2552
+Western Australia	State or territory housing authority	3937	2175
+Western Australia	State or territory housing authority	5250	10972
+Western Australia	State or territory housing authority	7875	6048
+Western Australia	State or territory housing authority	10500	2358
+Western Australia	State or territory housing authority	11812	2324
+Western Australia	State or territory housing authority	14437	1723
+Western Australia	State or territory housing authority	18375	696
+Western Australia	State or territory housing authority	23625	139
+Western Australia	State or territory housing authority	28875	56
+Western Australia	State or territory housing authority	34125	37
+Western Australia	State or territory housing authority	39375	21
+Western Australia	State or territory housing authority	44625	10
+Western Australia	State or territory housing authority	49875	22
+Tasmania		0	861
+Tasmania		3937	28
+Tasmania		5250	74
+Tasmania		7875	110
+Tasmania		10500	48
+Tasmania		11812	65
+Tasmania		14437	40
+Tasmania		18375	17
+Tasmania		23625	6
+Tasmania		44625	3
+Tasmania	(Other)	0	507
+Tasmania	(Other)	3937	79
+Tasmania	(Other)	5250	269
+Tasmania	(Other)	7875	354
+Tasmania	(Other)	10500	232
+Tasmania	(Other)	11812	350
+Tasmania	(Other)	14437	334
+Tasmania	(Other)	18375	109
+Tasmania	(Other)	23625	14
+Tasmania	(Other)	28875	9
+Tasmania	(Other)	34125	7
+Tasmania	(Other)	39375	4
+Tasmania	(Other)	49875	3
+Tasmania	Co-op/church group etc	0	109
+Tasmania	Co-op/church group etc	3937	138
+Tasmania	Co-op/church group etc	5250	496
+Tasmania	Co-op/church group etc	7875	582
+Tasmania	Co-op/church group etc	10500	210
+Tasmania	Co-op/church group etc	11812	94
+Tasmania	Co-op/church group etc	14437	76
+Tasmania	Co-op/church group etc	18375	43
+Tasmania	Co-op/church group etc	23625	9
+Tasmania	Co-op/church group etc	49875	3
+Tasmania	Person not in same household	0	1094
+Tasmania	Person not in same household	3937	179
+Tasmania	Person not in same household	5250	1289
+Tasmania	Person not in same household	7875	2393
+Tasmania	Person not in same household	10500	2297
+Tasmania	Person not in same household	11812	3632
+Tasmania	Person not in same household	14437	3555
+Tasmania	Person not in same household	18375	1414
+Tasmania	Person not in same household	23625	327
+Tasmania	Person not in same household	28875	105
+Tasmania	Person not in same household	34125	40
+Tasmania	Person not in same household	39375	14
+Tasmania	Person not in same household	44625	3
+Tasmania	Person not in same household	49875	34
+Tasmania	Real estate agent	0	91
+Tasmania	Real estate agent	3937	56
+Tasmania	Real estate agent	5250	636
+Tasmania	Real estate agent	7875	2566
+Tasmania	Real estate agent	10500	2489
+Tasmania	Real estate agent	11812	5624
+Tasmania	Real estate agent	14437	6271
+Tasmania	Real estate agent	18375	3106
+Tasmania	Real estate agent	23625	777
+Tasmania	Real estate agent	28875	214
+Tasmania	Real estate agent	34125	62
+Tasmania	Real estate agent	39375	30
+Tasmania	Real estate agent	44625	5
+Tasmania	Real estate agent	49875	24
+Tasmania	State or territory housing authority	0	642
+Tasmania	State or territory housing authority	3937	1314
+Tasmania	State or territory housing authority	5250	2800
+Tasmania	State or territory housing authority	7875	2165
+Tasmania	State or territory housing authority	10500	1045
+Tasmania	State or territory housing authority	11812	538
+Tasmania	State or territory housing authority	14437	192
+Tasmania	State or territory housing authority	18375	68
+Tasmania	State or territory housing authority	23625	22
+Tasmania	State or territory housing authority	28875	12
+Tasmania	State or territory housing authority	34125	10
+Tasmania	State or territory housing authority	39375	3
+Tasmania	State or territory housing authority	44625	3
+Tasmania	State or territory housing authority	49875	22
+Northern Territory		0	656
+Northern Territory		3937	11
+Northern Territory		5250	14
+Northern Territory		7875	14
+Northern Territory		10500	3
+Northern Territory		11812	10
+Northern Territory		14437	18
+Northern Territory		18375	24
+Northern Territory		23625	12
+Northern Territory		28875	7
+Northern Territory		34125	10
+Northern Territory		39375	3
+Northern Territory		49875	3
+Northern Territory	(Other)	0	1737
+Northern Territory	(Other)	3937	257
+Northern Territory	(Other)	5250	307
+Northern Territory	(Other)	7875	288
+Northern Territory	(Other)	10500	162
+Northern Territory	(Other)	11812	1008
+Northern Territory	(Other)	14437	408
+Northern Territory	(Other)	18375	237
+Northern Territory	(Other)	23625	176
+Northern Territory	(Other)	28875	78
+Northern Territory	(Other)	34125	33
+Northern Territory	(Other)	39375	21
+Northern Territory	(Other)	44625	8
+Northern Territory	(Other)	49875	44
+Northern Territory	Co-op/church group etc	0	708
+Northern Territory	Co-op/church group etc	3937	93
+Northern Territory	Co-op/church group etc	5250	160
+Northern Territory	Co-op/church group etc	7875	89
+Northern Territory	Co-op/church group etc	10500	75
+Northern Territory	Co-op/church group etc	11812	33
+Northern Territory	Co-op/church group etc	14437	22
+Northern Territory	Co-op/church group etc	18375	24
+Northern Territory	Co-op/church group etc	23625	4
+Northern Territory	Person not in same household	0	271
+Northern Territory	Person not in same household	3937	16
+Northern Territory	Person not in same household	5250	112
+Northern Territory	Person not in same household	7875	157
+Northern Territory	Person not in same household	10500	205
+Northern Territory	Person not in same household	11812	280
+Northern Territory	Person not in same household	14437	554
+Northern Territory	Person not in same household	18375	1214
+Northern Territory	Person not in same household	23625	1192
+Northern Territory	Person not in same household	28875	605
+Northern Territory	Person not in same household	34125	273
+Northern Territory	Person not in same household	39375	102
+Northern Territory	Person not in same household	44625	51
+Northern Territory	Person not in same household	49875	66
+Northern Territory	Real estate agent	0	109
+Northern Territory	Real estate agent	3937	3
+Northern Territory	Real estate agent	5250	39
+Northern Territory	Real estate agent	7875	69
+Northern Territory	Real estate agent	10500	118
+Northern Territory	Real estate agent	11812	344
+Northern Territory	Real estate agent	14437	1189
+Northern Territory	Real estate agent	18375	2862
+Northern Territory	Real estate agent	23625	2992
+Northern Territory	Real estate agent	28875	2000
+Northern Territory	Real estate agent	34125	1047
+Northern Territory	Real estate agent	39375	470
+Northern Territory	Real estate agent	44625	190
+Northern Territory	Real estate agent	49875	210
+Northern Territory	State or territory housing authority	0	2812
+Northern Territory	State or territory housing authority	3937	1219
+Northern Territory	State or territory housing authority	5250	1282
+Northern Territory	State or territory housing authority	7875	693
+Northern Territory	State or territory housing authority	10500	201
+Northern Territory	State or territory housing authority	11812	260
+Northern Territory	State or territory housing authority	14437	158
+Northern Territory	State or territory housing authority	18375	161
+Northern Territory	State or territory housing authority	23625	117
+Northern Territory	State or territory housing authority	28875	28
+Northern Territory	State or territory housing authority	34125	9
+Northern Territory	State or territory housing authority	39375	5
+Northern Territory	State or territory housing authority	44625	6
+Northern Territory	State or territory housing authority	49875	3
+Australian Capital Territory		0	295
+Australian Capital Territory		3937	7
+Australian Capital Territory		5250	19
+Australian Capital Territory		7875	9
+Australian Capital Territory		10500	8
+Australian Capital Territory		11812	7
+Australian Capital Territory		14437	10
+Australian Capital Territory		18375	41
+Australian Capital Territory		23625	22
+Australian Capital Territory		28875	7
+Australian Capital Territory	(Other)	0	57
+Australian Capital Territory	(Other)	3937	12
+Australian Capital Territory	(Other)	5250	49
+Australian Capital Territory	(Other)	7875	49
+Australian Capital Territory	(Other)	10500	80
+Australian Capital Territory	(Other)	11812	481
+Australian Capital Territory	(Other)	14437	674
+Australian Capital Territory	(Other)	18375	417
+Australian Capital Territory	(Other)	23625	197
+Australian Capital Territory	(Other)	28875	71
+Australian Capital Territory	(Other)	34125	30
+Australian Capital Territory	(Other)	39375	11
+Australian Capital Territory	(Other)	44625	8
+Australian Capital Territory	(Other)	49875	13
+Australian Capital Territory	Co-op/church group etc	0	57
+Australian Capital Territory	Co-op/church group etc	3937	46
+Australian Capital Territory	Co-op/church group etc	5250	91
+Australian Capital Territory	Co-op/church group etc	7875	126
+Australian Capital Territory	Co-op/church group etc	10500	42
+Australian Capital Territory	Co-op/church group etc	11812	62
+Australian Capital Territory	Co-op/church group etc	14437	112
+Australian Capital Territory	Co-op/church group etc	18375	45
+Australian Capital Territory	Co-op/church group etc	23625	8
+Australian Capital Territory	Co-op/church group etc	28875	6
+Australian Capital Territory	Co-op/church group etc	34125	3
+Australian Capital Territory	Co-op/church group etc	49875	3
+Australian Capital Territory	Person not in same household	0	482
+Australian Capital Territory	Person not in same household	3937	17
+Australian Capital Territory	Person not in same household	5250	157
+Australian Capital Territory	Person not in same household	7875	335
+Australian Capital Territory	Person not in same household	10500	278
+Australian Capital Territory	Person not in same household	11812	435
+Australian Capital Territory	Person not in same household	14437	1286
+Australian Capital Territory	Person not in same household	18375	3375
+Australian Capital Territory	Person not in same household	23625	2182
+Australian Capital Territory	Person not in same household	28875	695
+Australian Capital Territory	Person not in same household	34125	281
+Australian Capital Territory	Person not in same household	39375	119
+Australian Capital Territory	Person not in same household	44625	63
+Australian Capital Territory	Person not in same household	49875	95
+Australian Capital Territory	Real estate agent	0	44
+Australian Capital Territory	Real estate agent	3937	6
+Australian Capital Territory	Real estate agent	5250	54
+Australian Capital Territory	Real estate agent	7875	146
+Australian Capital Territory	Real estate agent	10500	146
+Australian Capital Territory	Real estate agent	11812	596
+Australian Capital Territory	Real estate agent	14437	3298
+Australian Capital Territory	Real estate agent	18375	9499
+Australian Capital Territory	Real estate agent	23625	5664
+Australian Capital Territory	Real estate agent	28875	2179
+Australian Capital Territory	Real estate agent	34125	681
+Australian Capital Territory	Real estate agent	39375	297
+Australian Capital Territory	Real estate agent	44625	151
+Australian Capital Territory	Real estate agent	49875	214
+Australian Capital Territory	State or territory housing authority	0	560
+Australian Capital Territory	State or territory housing authority	3937	1287
+Australian Capital Territory	State or territory housing authority	5250	2553
+Australian Capital Territory	State or territory housing authority	7875	1259
+Australian Capital Territory	State or territory housing authority	10500	524
+Australian Capital Territory	State or territory housing authority	11812	604
+Australian Capital Territory	State or territory housing authority	14437	545
+Australian Capital Territory	State or territory housing authority	18375	575
+Australian Capital Territory	State or territory housing authority	23625	142
+Australian Capital Territory	State or territory housing authority	28875	21
+Australian Capital Territory	State or territory housing authority	34125	10
+Australian Capital Territory	State or territory housing authority	39375	4
+Australian Capital Territory	State or territory housing authority	49875	19
+Other Territories		0	34
+Other Territories	(Other)	0	58
+Other Territories	(Other)	3937	13
+Other Territories	(Other)	5250	4
+Other Territories	(Other)	7875	3
+Other Territories	(Other)	11812	4
+Other Territories	(Other)	14437	12
+Other Territories	(Other)	18375	3
+Other Territories	(Other)	23625	11
+Other Territories	(Other)	34125	3
+Other Territories	Co-op/church group etc	0	18
+Other Territories	Person not in same household	0	23
+Other Territories	Person not in same household	3937	8
+Other Territories	Person not in same household	5250	34
+Other Territories	Person not in same household	7875	32
+Other Territories	Person not in same household	10500	10
+Other Territories	Person not in same household	11812	9
+Other Territories	Person not in same household	14437	12
+Other Territories	Person not in same household	18375	16
+Other Territories	Person not in same household	23625	6
+Other Territories	Person not in same household	49875	4
+Other Territories	Real estate agent	0	3
+Other Territories	Real estate agent	5250	16
+Other Territories	Real estate agent	7875	20
+Other Territories	Real estate agent	10500	9
+Other Territories	Real estate agent	11812	16
+Other Territories	Real estate agent	14437	5
+Other Territories	Real estate agent	18375	6
+Other Territories	Real estate agent	23625	3
+Other Territories	State or territory housing authority	0	21
+Other Territories	State or territory housing authority	3937	12
+Other Territories	State or territory housing authority	5250	14
+Other Territories	State or territory housing authority	7875	31
+Other Territories	State or territory housing authority	10500	20
+Other Territories	State or territory housing authority	14437	5
+Other Territories	State or territory housing authority	18375	3

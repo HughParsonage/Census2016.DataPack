@@ -1,0 +1,804 @@
+CED_NAME16	AgeStudent	students
+Banks	0-4	2177
+Banks	5-14	16778
+Banks	15-19	7922
+Banks	20-24	5234
+Banks	25+	6298
+Barton	0-4	2118
+Barton	5-14	15831
+Barton	15-19	7536
+Barton	20-24	7309
+Barton	25+	10192
+Bennelong	0-4	2416
+Bennelong	5-14	17256
+Bennelong	15-19	8539
+Bennelong	20-24	8487
+Bennelong	25+	9373
+Berowra	0-4	2298
+Berowra	5-14	19371
+Berowra	15-19	9311
+Berowra	20-24	4686
+Berowra	25+	4480
+Blaxland	0-4	2456
+Blaxland	5-14	20836
+Blaxland	15-19	8981
+Blaxland	20-24	6187
+Blaxland	25+	8241
+Bradfield	0-4	2644
+Bradfield	5-14	21836
+Bradfield	15-19	10318
+Bradfield	20-24	5504
+Bradfield	25+	6260
+Calare	0-4	2344
+Calare	5-14	19340
+Calare	15-19	7072
+Calare	20-24	2485
+Calare	25+	4874
+Chifley	0-4	2527
+Chifley	5-14	23057
+Chifley	15-19	9174
+Chifley	20-24	4229
+Chifley	25+	5919
+Cook	0-4	2162
+Cook	5-14	15563
+Cook	15-19	6554
+Cook	20-24	3151
+Cook	25+	3970
+Cowper	0-4	2218
+Cowper	5-14	17455
+Cowper	15-19	6353
+Cowper	20-24	1698
+Cowper	25+	4597
+Cunningham	0-4	2461
+Cunningham	5-14	17096
+Cunningham	15-19	7884
+Cunningham	20-24	6713
+Cunningham	25+	7043
+Dobell	0-4	2553
+Dobell	5-14	18901
+Dobell	15-19	6843
+Dobell	20-24	2543
+Dobell	25+	4514
+Eden-Monaro	0-4	1861
+Eden-Monaro	5-14	16659
+Eden-Monaro	15-19	6029
+Eden-Monaro	20-24	1851
+Eden-Monaro	25+	4470
+Farrer	0-4	2249
+Farrer	5-14	18959
+Farrer	15-19	6833
+Farrer	20-24	1951
+Farrer	25+	3990
+Fowler	0-4	1791
+Fowler	5-14	18298
+Fowler	15-19	8961
+Fowler	20-24	5289
+Fowler	25+	6377
+Gilmore	0-4	2038
+Gilmore	5-14	15274
+Gilmore	15-19	5497
+Gilmore	20-24	1518
+Gilmore	25+	3612
+Grayndler	0-4	2031
+Grayndler	5-14	13141
+Grayndler	15-19	4387
+Grayndler	20-24	4922
+Grayndler	25+	9060
+Greenway	0-4	3068
+Greenway	5-14	23143
+Greenway	15-19	8750
+Greenway	20-24	4409
+Greenway	25+	6285
+Hughes	0-4	2785
+Hughes	5-14	19127
+Hughes	15-19	7748
+Hughes	20-24	3516
+Hughes	25+	4227
+Hume	0-4	2636
+Hume	5-14	19773
+Hume	15-19	7112
+Hume	20-24	2335
+Hume	25+	3765
+Hunter	0-4	2469
+Hunter	5-14	18660
+Hunter	15-19	6674
+Hunter	20-24	2082
+Hunter	25+	4008
+Kingsford Smith	0-4	2301
+Kingsford Smith	5-14	15546
+Kingsford Smith	15-19	8737
+Kingsford Smith	20-24	11565
+Kingsford Smith	25+	10388
+Lindsay	0-4	2919
+Lindsay	5-14	21111
+Lindsay	15-19	7703
+Lindsay	20-24	3198
+Lindsay	25+	5155
+Lyne	0-4	1938
+Lyne	5-14	15456
+Lyne	15-19	5724
+Lyne	20-24	1263
+Lyne	25+	3265
+Macarthur	0-4	2650
+Macarthur	5-14	21403
+Macarthur	15-19	7967
+Macarthur	20-24	3537
+Macarthur	25+	4937
+Mackellar	0-4	2489
+Mackellar	5-14	18822
+Mackellar	15-19	7372
+Mackellar	20-24	3320
+Mackellar	25+	4528
+Macquarie	0-4	2247
+Macquarie	5-14	17377
+Macquarie	15-19	6997
+Macquarie	20-24	2673
+Macquarie	25+	4786
+McMahon	0-4	2402
+McMahon	5-14	20171
+McMahon	15-19	8337
+McMahon	20-24	4477
+McMahon	25+	6077
+Mitchell	0-4	2779
+Mitchell	5-14	22268
+Mitchell	15-19	9116
+Mitchell	20-24	4542
+Mitchell	25+	5044
+New England	0-4	2357
+New England	5-14	18273
+New England	15-19	6799
+New England	20-24	2642
+New England	25+	4445
+Newcastle	0-4	2284
+Newcastle	5-14	15964
+Newcastle	15-19	6779
+Newcastle	20-24	6888
+Newcastle	25+	7987
+North Sydney	0-4	2539
+North Sydney	5-14	16414
+North Sydney	15-19	6843
+North Sydney	20-24	4770
+North Sydney	25+	7898
+Page	0-4	2142
+Page	5-14	17807
+Page	15-19	6625
+Page	20-24	1764
+Page	25+	4695
+Parkes	0-4	2587
+Parkes	5-14	17949
+Parkes	15-19	5311
+Parkes	20-24	1379
+Parkes	25+	3649
+Parramatta	0-4	2670
+Parramatta	5-14	19200
+Parramatta	15-19	7520
+Parramatta	20-24	6254
+Parramatta	25+	9780
+Paterson	0-4	2485
+Paterson	5-14	18965
+Paterson	15-19	6489
+Paterson	20-24	2137
+Paterson	25+	4257
+Reid	0-4	2140
+Reid	5-14	15343
+Reid	15-19	7620
+Reid	20-24	9041
+Reid	25+	10690
+Richmond	0-4	1801
+Richmond	5-14	15772
+Richmond	15-19	5897
+Richmond	20-24	1657
+Richmond	25+	4732
+Riverina	0-4	2288
+Riverina	5-14	19006
+Riverina	15-19	6630
+Riverina	20-24	2617
+Riverina	25+	4261
+Robertson	0-4	2134
+Robertson	5-14	15812
+Robertson	15-19	6275
+Robertson	20-24	2533
+Robertson	25+	4547
+Shortland	0-4	2288
+Shortland	5-14	16788
+Shortland	15-19	6492
+Shortland	20-24	2560
+Shortland	25+	3945
+Sydney	0-4	1149
+Sydney	5-14	6029
+Sydney	15-19	6600
+Sydney	20-24	16994
+Sydney	25+	19702
+Warringah	0-4	2477
+Warringah	5-14	17698
+Warringah	15-19	6396
+Warringah	20-24	3353
+Warringah	25+	5740
+Watson	0-4	2477
+Watson	5-14	20421
+Watson	15-19	8864
+Watson	20-24	6227
+Watson	25+	8883
+Wentworth	0-4	2174
+Wentworth	5-14	12931
+Wentworth	15-19	4922
+Wentworth	20-24	3713
+Wentworth	25+	6919
+Werriwa	0-4	2509
+Werriwa	5-14	23958
+Werriwa	15-19	10240
+Werriwa	20-24	4720
+Werriwa	25+	5203
+Whitlam	0-4	2601
+Whitlam	5-14	18450
+Whitlam	15-19	7343
+Whitlam	20-24	2321
+Whitlam	25+	3884
+No usual address (NSW)	0-4	43
+No usual address (NSW)	5-14	304
+No usual address (NSW)	15-19	172
+No usual address (NSW)	20-24	283
+No usual address (NSW)	25+	430
+Migratory - Offshore - Shipping (NSW)	5-14	22
+Migratory - Offshore - Shipping (NSW)	15-19	5
+Migratory - Offshore - Shipping (NSW)	20-24	3
+Migratory - Offshore - Shipping (NSW)	25+	8
+Aston	0-4	1593
+Aston	5-14	15083
+Aston	15-19	7556
+Aston	20-24	3969
+Aston	25+	4263
+Ballarat	0-4	1930
+Ballarat	5-14	18234
+Ballarat	15-19	7200
+Ballarat	20-24	3486
+Ballarat	25+	4643
+Batman	0-4	1868
+Batman	5-14	14513
+Batman	15-19	6263
+Batman	20-24	6783
+Batman	25+	9694
+Bendigo	0-4	1653
+Bendigo	5-14	17065
+Bendigo	15-19	6693
+Bendigo	20-24	2903
+Bendigo	25+	3951
+Bruce	0-4	1739
+Bruce	5-14	15821
+Bruce	15-19	8274
+Bruce	20-24	6533
+Bruce	25+	7016
+Calwell	0-4	1764
+Calwell	5-14	19980
+Calwell	15-19	9834
+Calwell	20-24	5271
+Calwell	25+	5739
+Casey	0-4	2014
+Casey	5-14	16964
+Casey	15-19	7214
+Casey	20-24	2683
+Casey	25+	3833
+Chisholm	0-4	1940
+Chisholm	5-14	15659
+Chisholm	15-19	10164
+Chisholm	20-24	13357
+Chisholm	25+	9585
+Corangamite	0-4	1996
+Corangamite	5-14	18649
+Corangamite	15-19	7274
+Corangamite	20-24	3879
+Corangamite	25+	4558
+Corio	0-4	1690
+Corio	5-14	15728
+Corio	15-19	7020
+Corio	20-24	3240
+Corio	25+	4670
+Deakin	0-4	2088
+Deakin	5-14	16552
+Deakin	15-19	7213
+Deakin	20-24	4041
+Deakin	25+	5688
+Dunkley	0-4	1987
+Dunkley	5-14	16119
+Dunkley	15-19	6690
+Dunkley	20-24	2746
+Dunkley	25+	4185
+Flinders	0-4	1735
+Flinders	5-14	16894
+Flinders	15-19	6256
+Flinders	20-24	1946
+Flinders	25+	3353
+Gellibrand	0-4	2090
+Gellibrand	5-14	15579
+Gellibrand	15-19	6454
+Gellibrand	20-24	5396
+Gellibrand	25+	8446
+Gippsland	0-4	1421
+Gippsland	5-14	15170
+Gippsland	15-19	5692
+Gippsland	20-24	1587
+Gippsland	25+	3187
+Goldstein	0-4	2163
+Goldstein	5-14	18727
+Goldstein	15-19	8190
+Goldstein	20-24	4652
+Goldstein	25+	4732
+Gorton	0-4	2860
+Gorton	5-14	26806
+Gorton	15-19	9966
+Gorton	20-24	4486
+Gorton	25+	6113
+Higgins	0-4	1868
+Higgins	5-14	13567
+Higgins	15-19	6600
+Higgins	20-24	8116
+Higgins	25+	8060
+Holt	0-4	2610
+Holt	5-14	26057
+Holt	15-19	10445
+Holt	20-24	4920
+Holt	25+	6878
+Hotham	0-4	2019
+Hotham	5-14	16368
+Hotham	15-19	7376
+Hotham	20-24	5645
+Hotham	25+	6033
+Indi	0-4	1596
+Indi	5-14	15792
+Indi	15-19	6004
+Indi	20-24	1590
+Indi	25+	3439
+Isaacs	0-4	2165
+Isaacs	5-14	18185
+Isaacs	15-19	7628
+Isaacs	20-24	3989
+Isaacs	25+	5243
+Jagajaga	0-4	2003
+Jagajaga	5-14	16343
+Jagajaga	15-19	7146
+Jagajaga	20-24	4252
+Jagajaga	25+	5036
+Kooyong	0-4	1749
+Kooyong	5-14	16735
+Kooyong	15-19	9504
+Kooyong	20-24	7552
+Kooyong	25+	6752
+La Trobe	0-4	2101
+La Trobe	5-14	21294
+La Trobe	15-19	9448
+La Trobe	20-24	3702
+La Trobe	25+	4547
+Lalor	0-4	3570
+Lalor	5-14	30778
+Lalor	15-19	10620
+Lalor	20-24	5507
+Lalor	25+	9324
+Mallee	0-4	1472
+Mallee	5-14	15123
+Mallee	15-19	5949
+Mallee	20-24	1307
+Mallee	25+	2693
+Maribyrnong	0-4	1728
+Maribyrnong	5-14	16285
+Maribyrnong	15-19	8018
+Maribyrnong	20-24	6292
+Maribyrnong	25+	7086
+McEwen	0-4	3314
+McEwen	5-14	28524
+McEwen	15-19	10444
+McEwen	20-24	3983
+McEwen	25+	6146
+McMillan	0-4	2048
+McMillan	5-14	20080
+McMillan	15-19	7300
+McMillan	20-24	2212
+McMillan	25+	4180
+Melbourne	0-4	1397
+Melbourne	5-14	9243
+Melbourne	15-19	10817
+Melbourne	20-24	22858
+Melbourne	25+	19101
+Melbourne Ports	0-4	1751
+Melbourne Ports	5-14	10379
+Melbourne Ports	15-19	4884
+Melbourne Ports	20-24	6539
+Melbourne Ports	25+	9459
+Menzies	0-4	1643
+Menzies	5-14	15193
+Menzies	15-19	8208
+Menzies	20-24	4833
+Menzies	25+	4548
+Murray	0-4	1471
+Murray	5-14	16230
+Murray	15-19	6465
+Murray	20-24	1464
+Murray	25+	3025
+Scullin	0-4	2106
+Scullin	5-14	19025
+Scullin	15-19	8481
+Scullin	20-24	5381
+Scullin	25+	5942
+Wannon	0-4	1306
+Wannon	5-14	14612
+Wannon	15-19	5650
+Wannon	20-24	1345
+Wannon	25+	2643
+Wills	0-4	2027
+Wills	5-14	15194
+Wills	15-19	6100
+Wills	20-24	6685
+Wills	25+	10075
+No usual address (Vic.)	0-4	37
+No usual address (Vic.)	5-14	259
+No usual address (Vic.)	15-19	158
+No usual address (Vic.)	20-24	242
+No usual address (Vic.)	25+	299
+Blair	0-4	1797
+Blair	5-14	20767
+Blair	15-19	6624
+Blair	20-24	2201
+Blair	25+	5058
+Bonner	0-4	1672
+Bonner	5-14	18361
+Bonner	15-19	7718
+Bonner	20-24	4154
+Bonner	25+	5520
+Bowman	0-4	1505
+Bowman	5-14	18386
+Bowman	15-19	7154
+Bowman	20-24	2287
+Bowman	25+	3757
+Brisbane	0-4	1434
+Brisbane	5-14	13333
+Brisbane	15-19	6979
+Brisbane	20-24	8740
+Brisbane	25+	11540
+Capricornia	0-4	1430
+Capricornia	5-14	18860
+Capricornia	15-19	6177
+Capricornia	20-24	1652
+Capricornia	25+	4018
+Dawson	0-4	1555
+Dawson	5-14	18841
+Dawson	15-19	6076
+Dawson	20-24	1735
+Dawson	25+	4074
+Dickson	0-4	1836
+Dickson	5-14	20630
+Dickson	15-19	7303
+Dickson	20-24	2647
+Dickson	25+	4666
+Fadden	0-4	2183
+Fadden	5-14	19501
+Fadden	15-19	7472
+Fadden	20-24	3732
+Fadden	25+	5503
+Fairfax	0-4	1554
+Fairfax	5-14	18561
+Fairfax	15-19	6201
+Fairfax	20-24	2318
+Fairfax	25+	5326
+Fisher	0-4	1328
+Fisher	5-14	16303
+Fisher	15-19	6112
+Fisher	20-24	2203
+Fisher	25+	4322
+Flynn	0-4	1665
+Flynn	5-14	20424
+Flynn	15-19	5462
+Flynn	20-24	1155
+Flynn	25+	3847
+Forde	0-4	2265
+Forde	5-14	22309
+Forde	15-19	7452
+Forde	20-24	2416
+Forde	25+	4822
+Griffith	0-4	1543
+Griffith	5-14	15244
+Griffith	15-19	6856
+Griffith	20-24	6943
+Griffith	25+	9983
+Groom	0-4	1600
+Groom	5-14	19114
+Groom	15-19	6753
+Groom	20-24	2585
+Groom	25+	5500
+Herbert	0-4	1801
+Herbert	5-14	19668
+Herbert	15-19	7521
+Herbert	20-24	3946
+Herbert	25+	6476
+Hinkler	0-4	1264
+Hinkler	5-14	15794
+Hinkler	15-19	5018
+Hinkler	20-24	1084
+Hinkler	25+	3643
+Kennedy	0-4	1355
+Kennedy	5-14	19036
+Kennedy	15-19	5308
+Kennedy	20-24	922
+Kennedy	25+	3262
+Leichhardt	0-4	1892
+Leichhardt	5-14	21680
+Leichhardt	15-19	6358
+Leichhardt	20-24	1999
+Leichhardt	25+	6198
+Lilley	0-4	1641
+Lilley	5-14	16771
+Lilley	15-19	6513
+Lilley	20-24	3737
+Lilley	25+	6429
+Longman	0-4	1773
+Longman	5-14	20621
+Longman	15-19	6730
+Longman	20-24	1965
+Longman	25+	4323
+Maranoa	0-4	1413
+Maranoa	5-14	18145
+Maranoa	15-19	5016
+Maranoa	20-24	950
+Maranoa	25+	3090
+McPherson	0-4	1821
+McPherson	5-14	17242
+McPherson	15-19	6871
+McPherson	20-24	3247
+McPherson	25+	5307
+Moncrieff	0-4	1508
+Moncrieff	5-14	13554
+Moncrieff	15-19	6077
+Moncrieff	20-24	4842
+Moncrieff	25+	7300
+Moreton	0-4	1680
+Moreton	5-14	16504
+Moreton	15-19	7877
+Moreton	20-24	8139
+Moreton	25+	9582
+Oxley	0-4	1947
+Oxley	5-14	21856
+Oxley	15-19	8214
+Oxley	20-24	3621
+Oxley	25+	6048
+Petrie	0-4	1894
+Petrie	5-14	20027
+Petrie	15-19	6721
+Petrie	20-24	2320
+Petrie	25+	5176
+Rankin	0-4	2186
+Rankin	5-14	24064
+Rankin	15-19	8512
+Rankin	20-24	3742
+Rankin	25+	6526
+Ryan	0-4	1816
+Ryan	5-14	18911
+Ryan	15-19	10505
+Ryan	20-24	10330
+Ryan	25+	8331
+Wide Bay	0-4	1188
+Wide Bay	5-14	16192
+Wide Bay	15-19	5234
+Wide Bay	20-24	997
+Wide Bay	25+	3342
+Wright	0-4	1708
+Wright	5-14	21309
+Wright	15-19	7269
+Wright	20-24	2132
+Wright	25+	4021
+No usual address (Qld)	0-4	25
+No usual address (Qld)	5-14	353
+No usual address (Qld)	15-19	131
+No usual address (Qld)	20-24	169
+No usual address (Qld)	25+	295
+Migratory - Offshore - Shipping (Qld)	5-14	4
+Migratory - Offshore - Shipping (Qld)	15-19	7
+Migratory - Offshore - Shipping (Qld)	25+	3
+Adelaide	0-4	1696
+Adelaide	5-14	14589
+Adelaide	15-19	7884
+Adelaide	20-24	9636
+Adelaide	25+	10036
+Barker	0-4	1416
+Barker	5-14	16880
+Barker	15-19	6118
+Barker	20-24	1249
+Barker	25+	2949
+Boothby	0-4	1549
+Boothby	5-14	15801
+Boothby	15-19	7739
+Boothby	20-24	4894
+Boothby	25+	6732
+Grey	0-4	1428
+Grey	5-14	15544
+Grey	15-19	5158
+Grey	20-24	908
+Grey	25+	2839
+Hindmarsh	0-4	1423
+Hindmarsh	5-14	13381
+Hindmarsh	15-19	6498
+Hindmarsh	20-24	5128
+Hindmarsh	25+	6613
+Kingston	0-4	1542
+Kingston	5-14	17102
+Kingston	15-19	6708
+Kingston	20-24	2589
+Kingston	25+	4719
+Makin	0-4	1460
+Makin	5-14	16663
+Makin	15-19	7243
+Makin	20-24	3684
+Makin	25+	5535
+Mayo	0-4	1359
+Mayo	5-14	16127
+Mayo	15-19	6471
+Mayo	20-24	2224
+Mayo	25+	3667
+Port Adelaide	0-4	1735
+Port Adelaide	5-14	17927
+Port Adelaide	15-19	7666
+Port Adelaide	20-24	3916
+Port Adelaide	25+	6380
+Sturt	0-4	1638
+Sturt	5-14	15692
+Sturt	15-19	7909
+Sturt	20-24	5087
+Sturt	25+	6603
+Wakefield	0-4	1985
+Wakefield	5-14	20747
+Wakefield	15-19	7778
+Wakefield	20-24	2750
+Wakefield	25+	5189
+No usual address (SA)	0-4	11
+No usual address (SA)	5-14	90
+No usual address (SA)	15-19	85
+No usual address (SA)	20-24	42
+No usual address (SA)	25+	97
+Brand	0-4	2434
+Brand	5-14	21618
+Brand	15-19	7120
+Brand	20-24	2365
+Brand	25+	4740
+Burt	0-4	2666
+Burt	5-14	21452
+Burt	15-19	8089
+Burt	20-24	3672
+Burt	25+	5947
+Canning	0-4	1786
+Canning	5-14	17299
+Canning	15-19	6023
+Canning	20-24	1743
+Canning	25+	3378
+Cowan	0-4	2119
+Cowan	5-14	19191
+Cowan	15-19	7821
+Cowan	20-24	3301
+Cowan	25+	4853
+Curtin	0-4	1832
+Curtin	5-14	16712
+Curtin	15-19	8033
+Curtin	20-24	5770
+Curtin	25+	6762
+Durack	0-4	2282
+Durack	5-14	20831
+Durack	15-19	5140
+Durack	20-24	995
+Durack	25+	4310
+Forrest	0-4	1828
+Forrest	5-14	18915
+Forrest	15-19	6181
+Forrest	20-24	990
+Forrest	25+	3548
+Fremantle	0-4	2029
+Fremantle	5-14	16512
+Fremantle	15-19	6403
+Fremantle	20-24	3354
+Fremantle	25+	5831
+Hasluck	0-4	1700
+Hasluck	5-14	16766
+Hasluck	15-19	6762
+Hasluck	20-24	2504
+Hasluck	25+	4387
+Moore	0-4	1935
+Moore	5-14	18133
+Moore	15-19	8053
+Moore	20-24	3819
+Moore	25+	4294
+O'Connor	0-4	1777
+O'Connor	5-14	18478
+O'Connor	15-19	5508
+O'Connor	20-24	911
+O'Connor	25+	3224
+Pearce	0-4	2780
+Pearce	5-14	24542
+Pearce	15-19	8656
+Pearce	20-24	2805
+Pearce	25+	5162
+Perth	0-4	1520
+Perth	5-14	12288
+Perth	15-19	5307
+Perth	20-24	4607
+Perth	25+	8285
+Stirling	0-4	1866
+Stirling	5-14	14368
+Stirling	15-19	5923
+Stirling	20-24	3902
+Stirling	25+	6865
+Swan	0-4	1715
+Swan	5-14	13788
+Swan	15-19	6677
+Swan	20-24	7737
+Swan	25+	9710
+Tangney	0-4	1576
+Tangney	5-14	16464
+Tangney	15-19	8433
+Tangney	20-24	4687
+Tangney	25+	5084
+No usual address (WA)	0-4	17
+No usual address (WA)	5-14	186
+No usual address (WA)	15-19	53
+No usual address (WA)	20-24	67
+No usual address (WA)	25+	145
+Migratory - Offshore - Shipping (WA)	25+	12
+Bass	0-4	930
+Bass	5-14	11214
+Bass	15-19	4707
+Bass	20-24	2246
+Bass	25+	3555
+Braddon	0-4	823
+Braddon	5-14	10850
+Braddon	15-19	4061
+Braddon	20-24	834
+Braddon	25+	2221
+Denison	0-4	877
+Denison	5-14	10569
+Denison	15-19	4848
+Denison	20-24	3584
+Denison	25+	5423
+Franklin	0-4	957
+Franklin	5-14	12255
+Franklin	15-19	4663
+Franklin	20-24	1496
+Franklin	25+	3326
+Lyons	0-4	846
+Lyons	5-14	11382
+Lyons	15-19	4014
+Lyons	20-24	755
+Lyons	25+	2087
+No usual address (Tas.)	0-4	11
+No usual address (Tas.)	5-14	33
+No usual address (Tas.)	15-19	28
+No usual address (Tas.)	20-24	9
+No usual address (Tas.)	25+	28
+Migratory - Offshore - Shipping (Tas.)	20-24	3
+Migratory - Offshore - Shipping (Tas.)	25+	3
+Lingiari	0-4	1795
+Lingiari	5-14	14667
+Lingiari	15-19	3482
+Lingiari	20-24	653
+Lingiari	25+	3222
+Solomon	0-4	1600
+Solomon	5-14	12813
+Solomon	15-19	4124
+Solomon	20-24	1856
+Solomon	25+	6030
+No usual address (NT)	0-4	4
+No usual address (NT)	5-14	84
+No usual address (NT)	15-19	18
+No usual address (NT)	20-24	21
+No usual address (NT)	25+	33
+Migratory - Offshore - Shipping (NT)	5-14	3
+Migratory - Offshore - Shipping (NT)	25+	3
+Canberra	0-4	2069
+Canberra	5-14	21297
+Canberra	15-19	10553
+Canberra	20-24	7335
+Canberra	25+	9857
+Fenner	0-4	2687
+Fenner	5-14	23878
+Fenner	15-19	9379
+Fenner	20-24	8852
+Fenner	25+	12886
+No usual address (ACT)	0-4	5
+No usual address (ACT)	5-14	20
+No usual address (ACT)	15-19	16
+No usual address (ACT)	20-24	29
+No usual address (ACT)	25+	42
+No usual address (OT)	5-14	3

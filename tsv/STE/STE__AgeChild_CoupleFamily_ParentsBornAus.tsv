@@ -1,0 +1,604 @@
+STE_NAME16	AgeChild	CoupleFamily	ParentsBornAus	children
+New South Wales	0-4	0		2617
+New South Wales	0-4	0	Both	39745
+New South Wales	0-4	0	Father only	3160
+New South Wales	0-4	0	Mother only	6023
+New South Wales	0-4	0	Neither	8310
+New South Wales	0-4	1		1996
+New South Wales	0-4	1	Both	194164
+New South Wales	0-4	1	Father only	32474
+New South Wales	0-4	1	Mother only	33618
+New South Wales	0-4	1	Neither	110750
+New South Wales	5-9	0		2680
+New South Wales	5-9	0	Both	51928
+New South Wales	5-9	0	Father only	5328
+New South Wales	5-9	0	Mother only	8372
+New South Wales	5-9	0	Neither	12950
+New South Wales	5-9	1		2097
+New South Wales	5-9	1	Both	198379
+New South Wales	5-9	1	Father only	30384
+New South Wales	5-9	1	Mother only	34407
+New South Wales	5-9	1	Neither	103254
+New South Wales	10-12	0		1603
+New South Wales	10-12	0	Both	32666
+New South Wales	10-12	0	Father only	3593
+New South Wales	10-12	0	Mother only	5473
+New South Wales	10-12	0	Neither	9531
+New South Wales	10-12	1		1125
+New South Wales	10-12	1	Both	111272
+New South Wales	10-12	1	Father only	15173
+New South Wales	10-12	1	Mother only	18929
+New South Wales	10-12	1	Neither	53598
+New South Wales	13-14	0		1013
+New South Wales	13-14	0	Both	22338
+New South Wales	13-14	0	Father only	2619
+New South Wales	13-14	0	Mother only	3949
+New South Wales	13-14	0	Neither	7341
+New South Wales	13-14	1		759
+New South Wales	13-14	1	Both	69491
+New South Wales	13-14	1	Father only	9068
+New South Wales	13-14	1	Mother only	11467
+New South Wales	13-14	1	Neither	34569
+New South Wales	15-17	0		981
+New South Wales	15-17	0	Both	28405
+New South Wales	15-17	0	Father only	3696
+New South Wales	15-17	0	Mother only	5262
+New South Wales	15-17	0	Neither	11627
+New South Wales	15-17	1		654
+New South Wales	15-17	1	Both	88926
+New South Wales	15-17	1	Father only	11964
+New South Wales	15-17	1	Mother only	14822
+New South Wales	15-17	1	Neither	50020
+New South Wales	18-20	0		269
+New South Wales	18-20	0	Both	7722
+New South Wales	18-20	0	Father only	1479
+New South Wales	18-20	0	Mother only	1951
+New South Wales	18-20	0	Neither	7682
+New South Wales	18-20	1		230
+New South Wales	18-20	1	Both	30978
+New South Wales	18-20	1	Father only	5262
+New South Wales	18-20	1	Mother only	6405
+New South Wales	18-20	1	Neither	33760
+New South Wales	21-24	0		124
+New South Wales	21-24	0	Both	3362
+New South Wales	21-24	0	Father only	759
+New South Wales	21-24	0	Mother only	969
+New South Wales	21-24	0	Neither	4689
+New South Wales	21-24	1		95
+New South Wales	21-24	1	Both	13279
+New South Wales	21-24	1	Father only	2512
+New South Wales	21-24	1	Mother only	2938
+New South Wales	21-24	1	Neither	18221
+Victoria	0-4	0		1949
+Victoria	0-4	0	Both	24605
+Victoria	0-4	0	Father only	2353
+Victoria	0-4	0	Mother only	3980
+Victoria	0-4	0	Neither	8011
+Victoria	0-4	1		1599
+Victoria	0-4	1	Both	158727
+Victoria	0-4	1	Father only	24503
+Victoria	0-4	1	Mother only	24800
+Victoria	0-4	1	Neither	94966
+Victoria	5-9	0		1914
+Victoria	5-9	0	Both	34615
+Victoria	5-9	0	Father only	3691
+Victoria	5-9	0	Mother only	5690
+Victoria	5-9	0	Neither	11303
+Victoria	5-9	1		1570
+Victoria	5-9	1	Both	159800
+Victoria	5-9	1	Father only	21825
+Victoria	5-9	1	Mother only	24125
+Victoria	5-9	1	Neither	81642
+Victoria	10-12	0		1158
+Victoria	10-12	0	Both	22795
+Victoria	10-12	0	Father only	2511
+Victoria	10-12	0	Mother only	3773
+Victoria	10-12	0	Neither	7906
+Victoria	10-12	1		863
+Victoria	10-12	1	Both	89990
+Victoria	10-12	1	Father only	10969
+Victoria	10-12	1	Mother only	13266
+Victoria	10-12	1	Neither	42078
+Victoria	13-14	0		814
+Victoria	13-14	0	Both	16308
+Victoria	13-14	0	Father only	1760
+Victoria	13-14	0	Mother only	2777
+Victoria	13-14	0	Neither	6020
+Victoria	13-14	1		548
+Victoria	13-14	1	Both	56464
+Victoria	13-14	1	Father only	6751
+Victoria	13-14	1	Mother only	8022
+Victoria	13-14	1	Neither	26079
+Victoria	15-17	0		754
+Victoria	15-17	0	Both	22434
+Victoria	15-17	0	Father only	2711
+Victoria	15-17	0	Mother only	4000
+Victoria	15-17	0	Neither	9646
+Victoria	15-17	1		505
+Victoria	15-17	1	Both	75382
+Victoria	15-17	1	Father only	9249
+Victoria	15-17	1	Mother only	11174
+Victoria	15-17	1	Neither	37531
+Victoria	18-20	0		295
+Victoria	18-20	0	Both	8532
+Victoria	18-20	0	Father only	1331
+Victoria	18-20	0	Mother only	1912
+Victoria	18-20	0	Neither	6546
+Victoria	18-20	1		206
+Victoria	18-20	1	Both	32920
+Victoria	18-20	1	Father only	4853
+Victoria	18-20	1	Mother only	5791
+Victoria	18-20	1	Neither	26061
+Victoria	21-24	0		133
+Victoria	21-24	0	Both	3793
+Victoria	21-24	0	Father only	751
+Victoria	21-24	0	Mother only	981
+Victoria	21-24	0	Neither	3984
+Victoria	21-24	1		99
+Victoria	21-24	1	Both	14534
+Victoria	21-24	1	Father only	2462
+Victoria	21-24	1	Mother only	2926
+Victoria	21-24	1	Neither	14074
+Queensland	0-4	0		1642
+Queensland	0-4	0	Both	31468
+Queensland	0-4	0	Father only	2903
+Queensland	0-4	0	Mother only	4526
+Queensland	0-4	0	Neither	4404
+Queensland	0-4	1		1233
+Queensland	0-4	1	Both	139856
+Queensland	0-4	1	Father only	21192
+Queensland	0-4	1	Mother only	20288
+Queensland	0-4	1	Neither	45090
+Queensland	5-9	0		1742
+Queensland	5-9	0	Both	43300
+Queensland	5-9	0	Father only	4732
+Queensland	5-9	0	Mother only	6344
+Queensland	5-9	0	Neither	6836
+Queensland	5-9	1		1184
+Queensland	5-9	1	Both	145750
+Queensland	5-9	1	Father only	19979
+Queensland	5-9	1	Mother only	20154
+Queensland	5-9	1	Neither	45361
+Queensland	10-12	0		997
+Queensland	10-12	0	Both	26841
+Queensland	10-12	0	Father only	2997
+Queensland	10-12	0	Mother only	3859
+Queensland	10-12	0	Neither	5163
+Queensland	10-12	1		731
+Queensland	10-12	1	Both	81741
+Queensland	10-12	1	Father only	10351
+Queensland	10-12	1	Mother only	11064
+Queensland	10-12	1	Neither	26028
+Queensland	13-14	0		621
+Queensland	13-14	0	Both	17878
+Queensland	13-14	0	Father only	2073
+Queensland	13-14	0	Mother only	2627
+Queensland	13-14	0	Neither	3873
+Queensland	13-14	1		480
+Queensland	13-14	1	Both	50295
+Queensland	13-14	1	Father only	6181
+Queensland	13-14	1	Mother only	6749
+Queensland	13-14	1	Neither	16704
+Queensland	15-17	0		599
+Queensland	15-17	0	Both	21391
+Queensland	15-17	0	Father only	2913
+Queensland	15-17	0	Mother only	3372
+Queensland	15-17	0	Neither	5587
+Queensland	15-17	1		420
+Queensland	15-17	1	Both	62959
+Queensland	15-17	1	Father only	7969
+Queensland	15-17	1	Mother only	8500
+Queensland	15-17	1	Neither	22514
+Queensland	18-20	0		100
+Queensland	18-20	0	Both	4513
+Queensland	18-20	0	Father only	799
+Queensland	18-20	0	Mother only	875
+Queensland	18-20	0	Neither	2501
+Queensland	18-20	1		83
+Queensland	18-20	1	Both	16549
+Queensland	18-20	1	Father only	2475
+Queensland	18-20	1	Mother only	2689
+Queensland	18-20	1	Neither	9581
+Queensland	21-24	0		41
+Queensland	21-24	0	Both	2053
+Queensland	21-24	0	Father only	398
+Queensland	21-24	0	Mother only	424
+Queensland	21-24	0	Neither	1331
+Queensland	21-24	1		34
+Queensland	21-24	1	Both	6618
+Queensland	21-24	1	Father only	1047
+Queensland	21-24	1	Mother only	1037
+Queensland	21-24	1	Neither	4580
+South Australia	0-4	0		561
+South Australia	0-4	0	Both	10138
+South Australia	0-4	0	Father only	601
+South Australia	0-4	0	Mother only	1172
+South Australia	0-4	0	Neither	1446
+South Australia	0-4	1		400
+South Australia	0-4	1	Both	49598
+South Australia	0-4	1	Father only	5201
+South Australia	0-4	1	Mother only	4954
+South Australia	0-4	1	Neither	16660
+South Australia	5-9	0		624
+South Australia	5-9	0	Both	14018
+South Australia	5-9	0	Father only	1027
+South Australia	5-9	0	Mother only	1579
+South Australia	5-9	0	Neither	2002
+South Australia	5-9	1		385
+South Australia	5-9	1	Both	50126
+South Australia	5-9	1	Father only	4707
+South Australia	5-9	1	Mother only	5138
+South Australia	5-9	1	Neither	14856
+South Australia	10-12	0		404
+South Australia	10-12	0	Both	8760
+South Australia	10-12	0	Father only	729
+South Australia	10-12	0	Mother only	1089
+South Australia	10-12	0	Neither	1513
+South Australia	10-12	1		242
+South Australia	10-12	1	Both	27616
+South Australia	10-12	1	Father only	2607
+South Australia	10-12	1	Mother only	3079
+South Australia	10-12	1	Neither	8281
+South Australia	13-14	0		234
+South Australia	13-14	0	Both	6182
+South Australia	13-14	0	Father only	560
+South Australia	13-14	0	Mother only	829
+South Australia	13-14	0	Neither	1196
+South Australia	13-14	1		147
+South Australia	13-14	1	Both	17429
+South Australia	13-14	1	Father only	1686
+South Australia	13-14	1	Mother only	2144
+South Australia	13-14	1	Neither	5213
+South Australia	15-17	0		201
+South Australia	15-17	0	Both	8169
+South Australia	15-17	0	Father only	958
+South Australia	15-17	0	Mother only	1271
+South Australia	15-17	0	Neither	1895
+South Australia	15-17	1		137
+South Australia	15-17	1	Both	23163
+South Australia	15-17	1	Father only	2450
+South Australia	15-17	1	Mother only	3021
+South Australia	15-17	1	Neither	7540
+South Australia	18-20	0		68
+South Australia	18-20	0	Both	2541
+South Australia	18-20	0	Father only	412
+South Australia	18-20	0	Mother only	528
+South Australia	18-20	0	Neither	1188
+South Australia	18-20	1		40
+South Australia	18-20	1	Both	8467
+South Australia	18-20	1	Father only	1154
+South Australia	18-20	1	Mother only	1418
+South Australia	18-20	1	Neither	4589
+South Australia	21-24	0		25
+South Australia	21-24	0	Both	1168
+South Australia	21-24	0	Father only	222
+South Australia	21-24	0	Mother only	296
+South Australia	21-24	0	Neither	703
+South Australia	21-24	1		9
+South Australia	21-24	1	Both	3806
+South Australia	21-24	1	Father only	646
+South Australia	21-24	1	Mother only	772
+South Australia	21-24	1	Neither	2377
+Western Australia	0-4	0		790
+Western Australia	0-4	0	Both	11579
+Western Australia	0-4	0	Father only	1530
+Western Australia	0-4	0	Mother only	2251
+Western Australia	0-4	0	Neither	2965
+Western Australia	0-4	1		667
+Western Australia	0-4	1	Both	61553
+Western Australia	0-4	1	Father only	14093
+Western Australia	0-4	1	Mother only	13330
+Western Australia	0-4	1	Neither	40477
+Western Australia	5-9	0		820
+Western Australia	5-9	0	Both	16027
+Western Australia	5-9	0	Father only	2456
+Western Australia	5-9	0	Mother only	3073
+Western Australia	5-9	0	Neither	4502
+Western Australia	5-9	1		649
+Western Australia	5-9	1	Both	61965
+Western Australia	5-9	1	Father only	12537
+Western Australia	5-9	1	Mother only	12607
+Western Australia	5-9	1	Neither	38955
+Western Australia	10-12	0		535
+Western Australia	10-12	0	Both	9883
+Western Australia	10-12	0	Father only	1612
+Western Australia	10-12	0	Mother only	1944
+Western Australia	10-12	0	Neither	3287
+Western Australia	10-12	1		363
+Western Australia	10-12	1	Both	33087
+Western Australia	10-12	1	Father only	6362
+Western Australia	10-12	1	Mother only	6867
+Western Australia	10-12	1	Neither	22078
+Western Australia	13-14	0		344
+Western Australia	13-14	0	Both	6685
+Western Australia	13-14	0	Father only	1223
+Western Australia	13-14	0	Mother only	1467
+Western Australia	13-14	0	Neither	2498
+Western Australia	13-14	1		258
+Western Australia	13-14	1	Both	19509
+Western Australia	13-14	1	Father only	3752
+Western Australia	13-14	1	Mother only	4246
+Western Australia	13-14	1	Neither	14187
+Western Australia	15-17	0		266
+Western Australia	15-17	0	Both	8035
+Western Australia	15-17	0	Father only	1673
+Western Australia	15-17	0	Mother only	2001
+Western Australia	15-17	0	Neither	4079
+Western Australia	15-17	1		233
+Western Australia	15-17	1	Both	24455
+Western Australia	15-17	1	Father only	5207
+Western Australia	15-17	1	Mother only	5850
+Western Australia	15-17	1	Neither	20178
+Western Australia	18-20	0		79
+Western Australia	18-20	0	Both	1983
+Western Australia	18-20	0	Father only	544
+Western Australia	18-20	0	Mother only	677
+Western Australia	18-20	0	Neither	1989
+Western Australia	18-20	1		71
+Western Australia	18-20	1	Both	7462
+Western Australia	18-20	1	Father only	2053
+Western Australia	18-20	1	Mother only	2086
+Western Australia	18-20	1	Neither	10116
+Western Australia	21-24	0		33
+Western Australia	21-24	0	Both	921
+Western Australia	21-24	0	Father only	293
+Western Australia	21-24	0	Mother only	333
+Western Australia	21-24	0	Neither	1214
+Western Australia	21-24	1		26
+Western Australia	21-24	1	Both	3168
+Western Australia	21-24	1	Father only	889
+Western Australia	21-24	1	Mother only	946
+Western Australia	21-24	1	Neither	5018
+Tasmania	0-4	0		245
+Tasmania	0-4	0	Both	4441
+Tasmania	0-4	0	Father only	124
+Tasmania	0-4	0	Mother only	264
+Tasmania	0-4	0	Neither	125
+Tasmania	0-4	1		114
+Tasmania	0-4	1	Both	16911
+Tasmania	0-4	1	Father only	1274
+Tasmania	0-4	1	Mother only	1241
+Tasmania	0-4	1	Neither	1568
+Tasmania	5-9	0		244
+Tasmania	5-9	0	Both	6007
+Tasmania	5-9	0	Father only	242
+Tasmania	5-9	0	Mother only	416
+Tasmania	5-9	0	Neither	218
+Tasmania	5-9	1		112
+Tasmania	5-9	1	Both	18057
+Tasmania	5-9	1	Father only	1279
+Tasmania	5-9	1	Mother only	1354
+Tasmania	5-9	1	Neither	1461
+Tasmania	10-12	0		116
+Tasmania	10-12	0	Both	3615
+Tasmania	10-12	0	Father only	166
+Tasmania	10-12	0	Mother only	275
+Tasmania	10-12	0	Neither	154
+Tasmania	10-12	1		67
+Tasmania	10-12	1	Both	10383
+Tasmania	10-12	1	Father only	649
+Tasmania	10-12	1	Mother only	787
+Tasmania	10-12	1	Neither	876
+Tasmania	13-14	0		112
+Tasmania	13-14	0	Both	2484
+Tasmania	13-14	0	Father only	162
+Tasmania	13-14	0	Mother only	222
+Tasmania	13-14	0	Neither	115
+Tasmania	13-14	1		57
+Tasmania	13-14	1	Both	6454
+Tasmania	13-14	1	Father only	416
+Tasmania	13-14	1	Mother only	491
+Tasmania	13-14	1	Neither	558
+Tasmania	15-17	0		71
+Tasmania	15-17	0	Both	3288
+Tasmania	15-17	0	Father only	217
+Tasmania	15-17	0	Mother only	283
+Tasmania	15-17	0	Neither	219
+Tasmania	15-17	1		45
+Tasmania	15-17	1	Both	8568
+Tasmania	15-17	1	Father only	536
+Tasmania	15-17	1	Mother only	704
+Tasmania	15-17	1	Neither	816
+Tasmania	18-20	0		21
+Tasmania	18-20	0	Both	820
+Tasmania	18-20	0	Father only	84
+Tasmania	18-20	0	Mother only	96
+Tasmania	18-20	0	Neither	98
+Tasmania	18-20	1		15
+Tasmania	18-20	1	Both	2502
+Tasmania	18-20	1	Father only	179
+Tasmania	18-20	1	Mother only	226
+Tasmania	18-20	1	Neither	342
+Tasmania	21-24	0		6
+Tasmania	21-24	0	Both	248
+Tasmania	21-24	0	Father only	28
+Tasmania	21-24	0	Mother only	41
+Tasmania	21-24	0	Neither	56
+Tasmania	21-24	1		9
+Tasmania	21-24	1	Both	754
+Tasmania	21-24	1	Father only	82
+Tasmania	21-24	1	Mother only	102
+Tasmania	21-24	1	Neither	157
+Northern Territory	0-4	0		121
+Northern Territory	0-4	0	Both	1992
+Northern Territory	0-4	0	Father only	93
+Northern Territory	0-4	0	Mother only	122
+Northern Territory	0-4	0	Neither	125
+Northern Territory	0-4	1		114
+Northern Territory	0-4	1	Both	8332
+Northern Territory	0-4	1	Father only	1041
+Northern Territory	0-4	1	Mother only	712
+Northern Territory	0-4	1	Neither	2654
+Northern Territory	5-9	0		128
+Northern Territory	5-9	0	Both	2587
+Northern Territory	5-9	0	Father only	147
+Northern Territory	5-9	0	Mother only	138
+Northern Territory	5-9	0	Neither	189
+Northern Territory	5-9	1		104
+Northern Territory	5-9	1	Both	8106
+Northern Territory	5-9	1	Father only	793
+Northern Territory	5-9	1	Mother only	648
+Northern Territory	5-9	1	Neither	2169
+Northern Territory	10-12	0		75
+Northern Territory	10-12	0	Both	1535
+Northern Territory	10-12	0	Father only	97
+Northern Territory	10-12	0	Mother only	96
+Northern Territory	10-12	0	Neither	129
+Northern Territory	10-12	1		51
+Northern Territory	10-12	1	Both	4201
+Northern Territory	10-12	1	Father only	376
+Northern Territory	10-12	1	Mother only	320
+Northern Territory	10-12	1	Neither	1181
+Northern Territory	13-14	0		61
+Northern Territory	13-14	0	Both	1025
+Northern Territory	13-14	0	Father only	78
+Northern Territory	13-14	0	Mother only	55
+Northern Territory	13-14	0	Neither	115
+Northern Territory	13-14	1		50
+Northern Territory	13-14	1	Both	2490
+Northern Territory	13-14	1	Father only	241
+Northern Territory	13-14	1	Mother only	217
+Northern Territory	13-14	1	Neither	753
+Northern Territory	15-17	0		21
+Northern Territory	15-17	0	Both	891
+Northern Territory	15-17	0	Father only	99
+Northern Territory	15-17	0	Mother only	78
+Northern Territory	15-17	0	Neither	181
+Northern Territory	15-17	1		16
+Northern Territory	15-17	1	Both	2346
+Northern Territory	15-17	1	Father only	321
+Northern Territory	15-17	1	Mother only	284
+Northern Territory	15-17	1	Neither	940
+Northern Territory	18-20	0		3
+Northern Territory	18-20	0	Both	79
+Northern Territory	18-20	0	Father only	20
+Northern Territory	18-20	0	Mother only	7
+Northern Territory	18-20	0	Neither	51
+Northern Territory	18-20	1	Both	330
+Northern Territory	18-20	1	Father only	54
+Northern Territory	18-20	1	Mother only	50
+Northern Territory	18-20	1	Neither	311
+Northern Territory	21-24	0		6
+Northern Territory	21-24	0	Both	33
+Northern Territory	21-24	0	Father only	3
+Northern Territory	21-24	0	Mother only	7
+Northern Territory	21-24	0	Neither	28
+Northern Territory	21-24	1	Both	91
+Northern Territory	21-24	1	Father only	28
+Northern Territory	21-24	1	Mother only	24
+Northern Territory	21-24	1	Neither	116
+Australian Capital Territory	0-4	0		101
+Australian Capital Territory	0-4	0	Both	1540
+Australian Capital Territory	0-4	0	Father only	128
+Australian Capital Territory	0-4	0	Mother only	308
+Australian Capital Territory	0-4	0	Neither	388
+Australian Capital Territory	0-4	1		85
+Australian Capital Territory	0-4	1	Both	12632
+Australian Capital Territory	0-4	1	Father only	2107
+Australian Capital Territory	0-4	1	Mother only	1869
+Australian Capital Territory	0-4	1	Neither	5890
+Australian Capital Territory	5-9	0		94
+Australian Capital Territory	5-9	0	Both	2223
+Australian Capital Territory	5-9	0	Father only	266
+Australian Capital Territory	5-9	0	Mother only	389
+Australian Capital Territory	5-9	0	Neither	546
+Australian Capital Territory	5-9	1		82
+Australian Capital Territory	5-9	1	Both	11651
+Australian Capital Territory	5-9	1	Father only	1935
+Australian Capital Territory	5-9	1	Mother only	1820
+Australian Capital Territory	5-9	1	Neither	5115
+Australian Capital Territory	10-12	0		53
+Australian Capital Territory	10-12	0	Both	1549
+Australian Capital Territory	10-12	0	Father only	176
+Australian Capital Territory	10-12	0	Mother only	289
+Australian Capital Territory	10-12	0	Neither	391
+Australian Capital Territory	10-12	1		41
+Australian Capital Territory	10-12	1	Both	6066
+Australian Capital Territory	10-12	1	Father only	962
+Australian Capital Territory	10-12	1	Mother only	1031
+Australian Capital Territory	10-12	1	Neither	2518
+Australian Capital Territory	13-14	0		28
+Australian Capital Territory	13-14	0	Both	1031
+Australian Capital Territory	13-14	0	Father only	128
+Australian Capital Territory	13-14	0	Mother only	170
+Australian Capital Territory	13-14	0	Neither	280
+Australian Capital Territory	13-14	1		26
+Australian Capital Territory	13-14	1	Both	3723
+Australian Capital Territory	13-14	1	Father only	614
+Australian Capital Territory	13-14	1	Mother only	593
+Australian Capital Territory	13-14	1	Neither	1498
+Australian Capital Territory	15-17	0		35
+Australian Capital Territory	15-17	0	Both	1487
+Australian Capital Territory	15-17	0	Father only	217
+Australian Capital Territory	15-17	0	Mother only	267
+Australian Capital Territory	15-17	0	Neither	446
+Australian Capital Territory	15-17	1		23
+Australian Capital Territory	15-17	1	Both	5011
+Australian Capital Territory	15-17	1	Father only	879
+Australian Capital Territory	15-17	1	Mother only	893
+Australian Capital Territory	15-17	1	Neither	2025
+Australian Capital Territory	18-20	0		6
+Australian Capital Territory	18-20	0	Both	503
+Australian Capital Territory	18-20	0	Father only	85
+Australian Capital Territory	18-20	0	Mother only	115
+Australian Capital Territory	18-20	0	Neither	277
+Australian Capital Territory	18-20	1		14
+Australian Capital Territory	18-20	1	Both	1923
+Australian Capital Territory	18-20	1	Father only	357
+Australian Capital Territory	18-20	1	Mother only	377
+Australian Capital Territory	18-20	1	Neither	1192
+Australian Capital Territory	21-24	0		6
+Australian Capital Territory	21-24	0	Both	219
+Australian Capital Territory	21-24	0	Father only	38
+Australian Capital Territory	21-24	0	Mother only	51
+Australian Capital Territory	21-24	0	Neither	143
+Australian Capital Territory	21-24	1		6
+Australian Capital Territory	21-24	1	Both	887
+Australian Capital Territory	21-24	1	Father only	192
+Australian Capital Territory	21-24	1	Mother only	190
+Australian Capital Territory	21-24	1	Neither	603
+Other Territories	0-4	0		3
+Other Territories	0-4	0	Both	9
+Other Territories	0-4	0	Mother only	5
+Other Territories	0-4	1	Both	109
+Other Territories	0-4	1	Father only	31
+Other Territories	0-4	1	Mother only	33
+Other Territories	0-4	1	Neither	44
+Other Territories	5-9	0	Both	21
+Other Territories	5-9	0	Father only	4
+Other Territories	5-9	0	Neither	7
+Other Territories	5-9	1		3
+Other Territories	5-9	1	Both	102
+Other Territories	5-9	1	Father only	52
+Other Territories	5-9	1	Mother only	27
+Other Territories	5-9	1	Neither	39
+Other Territories	10-12	0	Both	18
+Other Territories	10-12	0	Father only	8
+Other Territories	10-12	0	Mother only	3
+Other Territories	10-12	0	Neither	4
+Other Territories	10-12	1		4
+Other Territories	10-12	1	Both	47
+Other Territories	10-12	1	Father only	22
+Other Territories	10-12	1	Mother only	17
+Other Territories	10-12	1	Neither	22
+Other Territories	13-14	0		4
+Other Territories	13-14	0	Both	10
+Other Territories	13-14	0	Father only	3
+Other Territories	13-14	0	Mother only	5
+Other Territories	13-14	1		3
+Other Territories	13-14	1	Both	36
+Other Territories	13-14	1	Father only	9
+Other Territories	13-14	1	Mother only	4
+Other Territories	13-14	1	Neither	22
+Other Territories	15-17	0	Both	19
+Other Territories	15-17	0	Father only	3
+Other Territories	15-17	0	Mother only	4
+Other Territories	15-17	1		3
+Other Territories	15-17	1	Both	25
+Other Territories	15-17	1	Father only	11
+Other Territories	15-17	1	Mother only	7
+Other Territories	15-17	1	Neither	21
+Other Territories	18-20	0	Both	3
+Other Territories	18-20	1	Both	7
+Other Territories	18-20	1	Mother only	3
+Other Territories	18-20	1	Neither	3

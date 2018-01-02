@@ -1,0 +1,641 @@
+CED_NAME16	HomeCensusNight	Sex	persons
+Banks	0	F	2121
+Banks	0	M	2266
+Banks	1	F	77907
+Banks	1	M	73505
+Barton	0	F	2413
+Barton	0	M	2521
+Barton	1	F	84722
+Barton	1	M	83205
+Bennelong	0	F	2400
+Bennelong	0	M	2651
+Bennelong	1	F	84178
+Bennelong	1	M	79713
+Berowra	0	F	2160
+Berowra	0	M	2525
+Berowra	1	F	71676
+Berowra	1	M	68775
+Blaxland	0	F	2305
+Blaxland	0	M	2558
+Blaxland	1	F	83257
+Blaxland	1	M	86515
+Bradfield	0	F	2619
+Bradfield	0	M	2745
+Bradfield	1	F	80686
+Bradfield	1	M	74204
+Calare	0	F	4217
+Calare	0	M	4920
+Calare	1	F	76446
+Calare	1	M	75712
+Chifley	0	F	2184
+Chifley	0	M	2491
+Chifley	1	F	84555
+Chifley	1	M	82021
+Cook	0	F	2602
+Cook	0	M	2808
+Cook	1	F	68959
+Cook	1	M	64693
+Cowper	0	F	4356
+Cowper	0	M	4649
+Cowper	1	F	77919
+Cowper	1	M	72400
+Cunningham	0	F	3435
+Cunningham	0	M	3843
+Cunningham	1	F	75076
+Cunningham	1	M	73023
+Dobell	0	F	3366
+Dobell	0	M	3607
+Dobell	1	F	76266
+Dobell	1	M	70827
+Eden-Monaro	0	F	4402
+Eden-Monaro	0	M	4944
+Eden-Monaro	1	F	69361
+Eden-Monaro	1	M	68822
+Farrer	0	F	5085
+Farrer	0	M	5528
+Farrer	1	F	77710
+Farrer	1	M	75654
+Fowler	0	F	2314
+Fowler	0	M	2414
+Fowler	1	F	80981
+Fowler	1	M	78526
+Gilmore	0	F	4824
+Gilmore	0	M	5558
+Gilmore	1	F	71441
+Gilmore	1	M	68606
+Grayndler	0	F	3156
+Grayndler	0	M	3023
+Grayndler	1	F	73534
+Grayndler	1	M	69807
+Greenway	0	F	1915
+Greenway	0	M	2205
+Greenway	1	F	82734
+Greenway	1	M	83214
+Hughes	0	F	2212
+Hughes	0	M	2587
+Hughes	1	F	71006
+Hughes	1	M	68488
+Hume	0	F	2961
+Hume	0	M	3386
+Hume	1	F	72911
+Hume	1	M	71386
+Hunter	0	F	3883
+Hunter	0	M	4265
+Hunter	1	F	75181
+Hunter	1	M	73466
+Kingsford Smith	0	F	3025
+Kingsford Smith	0	M	3253
+Kingsford Smith	1	F	85985
+Kingsford Smith	1	M	83976
+Lindsay	0	F	2640
+Lindsay	0	M	2995
+Lindsay	1	F	81786
+Lindsay	1	M	79107
+Lyne	0	F	4130
+Lyne	0	M	4673
+Lyne	1	F	70083
+Lyne	1	M	66592
+Macarthur	0	F	2464
+Macarthur	0	M	2770
+Macarthur	1	F	79784
+Macarthur	1	M	77002
+Mackellar	0	F	3009
+Mackellar	0	M	3336
+Mackellar	1	F	73085
+Mackellar	1	M	69187
+Macquarie	0	F	3005
+Macquarie	0	M	3173
+Macquarie	1	F	69386
+Macquarie	1	M	65876
+McMahon	0	F	2193
+McMahon	0	M	2420
+McMahon	1	F	81280
+McMahon	1	M	79810
+Mitchell	0	F	2024
+Mitchell	0	M	2164
+Mitchell	1	F	76326
+Mitchell	1	M	72936
+New England	0	F	4700
+New England	0	M	5033
+New England	1	F	74090
+New England	1	M	70356
+Newcastle	0	F	3631
+Newcastle	0	M	4476
+Newcastle	1	F	73838
+Newcastle	1	M	70997
+North Sydney	0	F	3147
+North Sydney	0	M	3271
+North Sydney	1	F	80579
+North Sydney	1	M	74526
+Page	0	F	4123
+Page	0	M	4513
+Page	1	F	76571
+Page	1	M	73895
+Parkes	0	F	4951
+Parkes	0	M	5551
+Parkes	1	F	72430
+Parkes	1	M	70838
+Parramatta	0	F	2302
+Parramatta	0	M	2566
+Parramatta	1	F	89614
+Parramatta	1	M	91837
+Paterson	0	F	3757
+Paterson	0	M	4495
+Paterson	1	F	75455
+Paterson	1	M	71933
+Reid	0	F	2843
+Reid	0	M	3122
+Reid	1	F	88880
+Reid	1	M	86503
+Richmond	0	F	3976
+Richmond	0	M	4372
+Richmond	1	F	75172
+Richmond	1	M	69394
+Riverina	0	F	4484
+Riverina	0	M	5007
+Riverina	1	F	74138
+Riverina	1	M	72158
+Robertson	0	F	3320
+Robertson	0	M	3591
+Robertson	1	F	70481
+Robertson	1	M	65707
+Shortland	0	F	3450
+Shortland	0	M	4045
+Shortland	1	F	70489
+Shortland	1	M	66504
+Sydney	0	F	4177
+Sydney	0	M	4741
+Sydney	1	F	92304
+Sydney	1	M	98965
+Warringah	0	F	3126
+Warringah	0	M	3265
+Warringah	1	F	73171
+Warringah	1	M	67772
+Watson	0	F	2222
+Watson	0	M	2352
+Watson	1	F	84975
+Watson	1	M	85258
+Wentworth	0	F	3243
+Wentworth	0	M	3312
+Wentworth	1	F	72854
+Wentworth	1	M	66534
+Werriwa	0	F	2013
+Werriwa	0	M	2264
+Werriwa	1	F	84582
+Werriwa	1	M	82050
+Whitlam	0	F	3215
+Whitlam	0	M	3663
+Whitlam	1	F	75132
+Whitlam	1	M	70277
+No usual address (NSW)	0	F	4939
+No usual address (NSW)	0	M	7351
+Migratory - Offshore - Shipping (NSW)	0	F	3
+Migratory - Offshore - Shipping (NSW)	0	M	3
+Migratory - Offshore - Shipping (NSW)	1	F	234
+Migratory - Offshore - Shipping (NSW)	1	M	173
+Aston	0	F	2413
+Aston	0	M	2389
+Aston	1	F	67238
+Aston	1	M	63974
+Ballarat	0	F	4253
+Ballarat	0	M	4379
+Ballarat	1	F	75322
+Ballarat	1	M	70519
+Batman	0	F	3192
+Batman	0	M	3070
+Batman	1	F	80342
+Batman	1	M	75360
+Bendigo	0	F	4004
+Bendigo	0	M	4317
+Bendigo	1	F	73040
+Bendigo	1	M	69063
+Bruce	0	F	2429
+Bruce	0	M	2661
+Bruce	1	F	75525
+Bruce	1	M	76392
+Calwell	0	F	2326
+Calwell	0	M	2524
+Calwell	1	F	80513
+Calwell	1	M	80049
+Casey	0	F	3228
+Casey	0	M	3491
+Casey	1	F	69333
+Casey	1	M	66710
+Chisholm	0	F	2952
+Chisholm	0	M	2838
+Chisholm	1	F	81550
+Chisholm	1	M	77092
+Corangamite	0	F	4695
+Corangamite	0	M	5018
+Corangamite	1	F	73132
+Corangamite	1	M	69896
+Corio	0	F	3777
+Corio	0	M	3946
+Corio	1	F	73344
+Corio	1	M	68847
+Deakin	0	F	2727
+Deakin	0	M	2820
+Deakin	1	F	73280
+Deakin	1	M	67945
+Dunkley	0	F	3454
+Dunkley	0	M	3596
+Dunkley	1	F	72254
+Dunkley	1	M	67075
+Flinders	0	F	5023
+Flinders	0	M	5335
+Flinders	1	F	73418
+Flinders	1	M	69718
+Gellibrand	0	F	2972
+Gellibrand	0	M	3151
+Gellibrand	1	F	80182
+Gellibrand	1	M	79565
+Gippsland	0	F	4721
+Gippsland	0	M	5261
+Gippsland	1	F	67620
+Gippsland	1	M	65426
+Goldstein	0	F	3184
+Goldstein	0	M	3427
+Goldstein	1	F	73815
+Goldstein	1	M	67203
+Gorton	0	F	2702
+Gorton	0	M	2804
+Gorton	1	F	95780
+Gorton	1	M	93405
+Higgins	0	F	3539
+Higgins	0	M	3625
+Higgins	1	F	76645
+Higgins	1	M	70131
+Holt	0	F	2691
+Holt	0	M	2980
+Holt	1	F	97243
+Holt	1	M	96950
+Hotham	0	F	2456
+Hotham	0	M	2531
+Hotham	1	F	74362
+Hotham	1	M	71931
+Indi	0	F	4774
+Indi	0	M	5240
+Indi	1	F	66415
+Indi	1	M	63759
+Isaacs	0	F	2878
+Isaacs	0	M	3069
+Isaacs	1	F	77978
+Isaacs	1	M	74723
+Jagajaga	0	F	2884
+Jagajaga	0	M	2995
+Jagajaga	1	F	69765
+Jagajaga	1	M	65666
+Kooyong	0	F	3214
+Kooyong	0	M	3136
+Kooyong	1	F	72756
+Kooyong	1	M	66294
+La Trobe	0	F	2800
+La Trobe	0	M	2962
+La Trobe	1	F	76358
+La Trobe	1	M	74847
+Lalor	0	F	3139
+Lalor	0	M	3489
+Lalor	1	F	112522
+Lalor	1	M	112837
+Mallee	0	F	4126
+Mallee	0	M	4534
+Mallee	1	F	65823
+Mallee	1	M	64113
+Maribyrnong	0	F	2835
+Maribyrnong	0	M	3052
+Maribyrnong	1	F	81700
+Maribyrnong	1	M	78830
+McEwen	0	F	3695
+McEwen	0	M	3994
+McEwen	1	F	102648
+McEwen	1	M	100188
+McMillan	0	F	4501
+McMillan	0	M	4810
+McMillan	1	F	81433
+McMillan	1	M	76586
+Melbourne	0	F	4574
+Melbourne	0	M	4514
+Melbourne	1	F	102888
+Melbourne	1	M	96613
+Melbourne Ports	0	F	3924
+Melbourne Ports	0	M	3894
+Melbourne Ports	1	F	78343
+Melbourne Ports	1	M	74538
+Menzies	0	F	2604
+Menzies	0	M	2571
+Menzies	1	F	68169
+Menzies	1	M	64189
+Murray	0	F	4567
+Murray	0	M	4742
+Murray	1	F	68659
+Murray	1	M	67398
+Scullin	0	F	2449
+Scullin	0	M	2559
+Scullin	1	F	82235
+Scullin	1	M	80721
+Wannon	0	F	4177
+Wannon	0	M	4576
+Wannon	1	F	63063
+Wannon	1	M	61957
+Wills	0	F	3142
+Wills	0	M	3168
+Wills	1	F	83589
+Wills	1	M	79751
+No usual address (Vic.)	0	F	3238
+No usual address (Vic.)	0	M	4331
+Migratory - Offshore - Shipping (Vic.)	0	M	3
+Migratory - Offshore - Shipping (Vic.)	1	F	4
+Migratory - Offshore - Shipping (Vic.)	1	M	20
+Blair	0	F	3210
+Blair	0	M	3820
+Blair	1	F	75781
+Blair	1	M	73509
+Bonner	0	F	3033
+Bonner	0	M	3609
+Bonner	1	F	73871
+Bonner	1	M	69125
+Bowman	0	F	3123
+Bowman	0	M	3762
+Bowman	1	F	71900
+Bowman	1	M	68229
+Brisbane	0	F	4316
+Brisbane	0	M	4884
+Brisbane	1	F	77734
+Brisbane	1	M	76952
+Capricornia	0	F	3936
+Capricornia	0	M	6918
+Capricornia	1	F	69856
+Capricornia	1	M	70003
+Dawson	0	F	4012
+Dawson	0	M	7449
+Dawson	1	F	72975
+Dawson	1	M	71878
+Dickson	0	F	2640
+Dickson	0	M	3527
+Dickson	1	F	71360
+Dickson	1	M	68680
+Fadden	0	F	3195
+Fadden	0	M	3802
+Fadden	1	F	84122
+Fadden	1	M	78481
+Fairfax	0	F	3656
+Fairfax	0	M	4687
+Fairfax	1	F	75987
+Fairfax	1	M	69135
+Fisher	0	F	3405
+Fisher	0	M	4111
+Fisher	1	F	69020
+Fisher	1	M	63635
+Flynn	0	F	4294
+Flynn	0	M	6273
+Flynn	1	F	71275
+Flynn	1	M	73642
+Forde	0	F	3166
+Forde	0	M	3543
+Forde	1	F	81214
+Forde	1	M	77616
+Griffith	0	F	3780
+Griffith	0	M	4263
+Griffith	1	F	76178
+Griffith	1	M	73387
+Groom	0	F	3522
+Groom	0	M	4300
+Groom	1	F	73198
+Groom	1	M	67850
+Herbert	0	F	3810
+Herbert	0	M	5674
+Herbert	1	F	76554
+Herbert	1	M	73959
+Hinkler	0	F	3781
+Hinkler	0	M	4732
+Hinkler	1	F	69209
+Hinkler	1	M	63994
+Kennedy	0	F	4099
+Kennedy	0	M	5252
+Kennedy	1	F	71990
+Kennedy	1	M	74050
+Leichhardt	0	F	4672
+Leichhardt	0	M	5810
+Leichhardt	1	F	83761
+Leichhardt	1	M	81205
+Lilley	0	F	3180
+Lilley	0	M	3610
+Lilley	1	F	76659
+Lilley	1	M	71928
+Longman	0	F	3322
+Longman	0	M	3944
+Longman	1	F	78252
+Longman	1	M	75073
+Maranoa	0	F	4533
+Maranoa	0	M	5589
+Maranoa	1	F	69624
+Maranoa	1	M	69518
+McPherson	0	F	3275
+McPherson	0	M	3678
+McPherson	1	F	75554
+McPherson	1	M	69074
+Moncrieff	0	F	3540
+Moncrieff	0	M	3902
+Moncrieff	1	F	78592
+Moncrieff	1	M	74699
+Moreton	0	F	3166
+Moreton	0	M	3414
+Moreton	1	F	76544
+Moreton	1	M	74951
+Oxley	0	F	2645
+Oxley	0	M	3216
+Oxley	1	F	79196
+Oxley	1	M	78148
+Petrie	0	F	3125
+Petrie	0	M	3676
+Petrie	1	F	81584
+Petrie	1	M	74883
+Rankin	0	F	2930
+Rankin	0	M	3314
+Rankin	1	F	87619
+Rankin	1	M	85309
+Ryan	0	F	3339
+Ryan	0	M	3888
+Ryan	1	F	76086
+Ryan	1	M	72036
+Wide Bay	0	F	3786
+Wide Bay	0	M	4855
+Wide Bay	1	F	68982
+Wide Bay	1	M	66481
+Wright	0	F	3101
+Wright	0	M	3752
+Wright	1	F	75384
+Wright	1	M	74204
+No usual address (Qld)	0	F	5572
+No usual address (Qld)	0	M	6937
+Migratory - Offshore - Shipping (Qld)	0	F	3
+Migratory - Offshore - Shipping (Qld)	0	M	10
+Migratory - Offshore - Shipping (Qld)	1	F	81
+Migratory - Offshore - Shipping (Qld)	1	M	56
+Adelaide	0	F	3574
+Adelaide	0	M	4167
+Adelaide	1	F	78800
+Adelaide	1	M	76894
+Barker	0	F	4517
+Barker	0	M	5015
+Barker	1	F	69515
+Barker	1	M	70452
+Boothby	0	F	3233
+Boothby	0	M	3665
+Boothby	1	F	72353
+Boothby	1	M	66582
+Grey	0	F	5019
+Grey	0	M	5927
+Grey	1	F	65557
+Grey	1	M	67022
+Hindmarsh	0	F	3407
+Hindmarsh	0	M	3656
+Hindmarsh	1	F	74579
+Hindmarsh	1	M	69610
+Kingston	0	F	3199
+Kingston	0	M	3764
+Kingston	1	F	72403
+Kingston	1	M	68542
+Makin	0	F	2887
+Makin	0	M	3407
+Makin	1	F	72776
+Makin	1	M	70443
+Mayo	0	F	3931
+Mayo	0	M	4545
+Mayo	1	F	67664
+Mayo	1	M	64227
+Port Adelaide	0	F	2976
+Port Adelaide	0	M	3718
+Port Adelaide	1	F	80866
+Port Adelaide	1	M	77525
+Sturt	0	F	2922
+Sturt	0	M	3140
+Sturt	1	F	74791
+Sturt	1	M	68310
+Wakefield	0	F	3443
+Wakefield	0	M	4360
+Wakefield	1	F	81118
+Wakefield	1	M	79291
+No usual address (SA)	0	F	1129
+No usual address (SA)	0	M	1734
+Migratory - Offshore - Shipping (SA)	1	M	6
+Brand	0	F	3326
+Brand	0	M	6266
+Brand	1	F	78698
+Brand	1	M	75733
+Burt	0	F	2581
+Burt	0	M	4053
+Burt	1	F	81675
+Burt	1	M	80474
+Canning	0	F	3836
+Canning	0	M	5987
+Canning	1	F	70055
+Canning	1	M	66143
+Cowan	0	F	2262
+Cowan	0	M	3409
+Cowan	1	F	71933
+Cowan	1	M	69938
+Curtin	0	F	3228
+Curtin	0	M	3950
+Curtin	1	F	70337
+Curtin	1	M	65579
+Durack	0	F	5397
+Durack	0	M	7571
+Durack	1	F	77662
+Durack	1	M	91136
+Forrest	0	F	4656
+Forrest	0	M	6553
+Forrest	1	F	70231
+Forrest	1	M	66330
+Fremantle	0	F	2995
+Fremantle	0	M	4301
+Fremantle	1	F	72883
+Fremantle	1	M	68562
+Hasluck	0	F	2794
+Hasluck	0	M	4354
+Hasluck	1	F	67948
+Hasluck	1	M	68519
+Moore	0	F	2329
+Moore	0	M	3816
+Moore	1	F	68394
+Moore	1	M	65726
+O'Connor	0	F	5138
+O'Connor	0	M	6426
+O'Connor	1	F	71422
+O'Connor	1	M	73333
+Pearce	0	F	3447
+Pearce	0	M	5738
+Pearce	1	F	88346
+Pearce	1	M	84239
+Perth	0	F	3173
+Perth	0	M	4236
+Perth	1	F	72456
+Perth	1	M	71225
+Stirling	0	F	2791
+Stirling	0	M	3653
+Stirling	1	F	72599
+Stirling	1	M	68950
+Swan	0	F	3290
+Swan	0	M	4650
+Swan	1	F	77756
+Swan	1	M	77504
+Tangney	0	F	2345
+Tangney	0	M	3216
+Tangney	1	F	67570
+Tangney	1	M	62909
+No usual address (WA)	0	F	2415
+No usual address (WA)	0	M	3532
+Migratory - Offshore - Shipping (WA)	0	F	5
+Migratory - Offshore - Shipping (WA)	0	M	8
+Migratory - Offshore - Shipping (WA)	1	F	27
+Migratory - Offshore - Shipping (WA)	1	M	397
+Bass	0	F	2987
+Bass	0	M	3217
+Bass	1	F	49117
+Bass	1	M	46068
+Braddon	0	F	3099
+Braddon	0	M	3437
+Braddon	1	F	46702
+Braddon	1	M	43815
+Denison	0	F	2984
+Denison	0	M	2988
+Denison	1	F	49772
+Denison	1	M	46829
+Franklin	0	F	2958
+Franklin	0	M	3134
+Franklin	1	F	50662
+Franklin	1	M	47692
+Lyons	0	F	3339
+Lyons	0	M	3744
+Lyons	1	F	48450
+Lyons	1	M	47982
+No usual address (Tas.)	0	F	393
+No usual address (Tas.)	0	M	524
+Migratory - Offshore - Shipping (Tas.)	0	M	3
+Migratory - Offshore - Shipping (Tas.)	1	F	18
+Migratory - Offshore - Shipping (Tas.)	1	M	46
+Lingiari	0	F	3436
+Lingiari	0	M	3744
+Lingiari	1	F	51054
+Lingiari	1	M	56305
+Solomon	0	F	2727
+Solomon	0	M	3597
+Solomon	1	F	52865
+Solomon	1	M	54925
+No usual address (NT)	0	F	1157
+No usual address (NT)	0	M	1332
+Migratory - Offshore - Shipping (NT)	1	F	14
+Migratory - Offshore - Shipping (NT)	1	M	61
+Canberra	0	F	5173
+Canberra	0	M	5295
+Canberra	1	F	94446
+Canberra	1	M	91125
+Fenner	0	F	4582
+Fenner	0	M	4743
+Fenner	1	F	98329
+Fenner	1	M	95298
+No usual address (ACT)	0	F	228
+No usual address (ACT)	0	M	312
+No usual address (OT)	0	F	28
+No usual address (OT)	0	M	21
+Migratory - Offshore - Shipping (OT)	1	M	3

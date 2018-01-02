@@ -1,0 +1,438 @@
+STE_NAME16	DwellingStructure	MortgageRepayment.min	occupied_private_dwellings_being_purchased
+New South Wales		0	174
+New South Wales		3600	46
+New South Wales		5400	56
+New South Wales		7200	83
+New South Wales		9600	118
+New South Wales		12000	295
+New South Wales		16800	279
+New South Wales		21600	432
+New South Wales		28800	228
+New South Wales		36000	233
+New South Wales		48000	283
+New South Wales	(Other)	0	183
+New South Wales	(Other)	3600	72
+New South Wales	(Other)	5400	85
+New South Wales	(Other)	7200	147
+New South Wales	(Other)	9600	168
+New South Wales	(Other)	12000	347
+New South Wales	(Other)	16800	351
+New South Wales	(Other)	21600	418
+New South Wales	(Other)	28800	208
+New South Wales	(Other)	36000	218
+New South Wales	(Other)	48000	187
+New South Wales	Flat/apartment	0	4983
+New South Wales	Flat/apartment	3600	1414
+New South Wales	Flat/apartment	5400	1268
+New South Wales	Flat/apartment	7200	2330
+New South Wales	Flat/apartment	9600	3454
+New South Wales	Flat/apartment	12000	11050
+New South Wales	Flat/apartment	16800	13833
+New South Wales	Flat/apartment	21600	21702
+New South Wales	Flat/apartment	28800	12729
+New South Wales	Flat/apartment	36000	12270
+New South Wales	Flat/apartment	48000	7719
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	0	4152
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	3600	1448
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	5400	1235
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	7200	2077
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	9600	2932
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	12000	8671
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	16800	10641
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	21600	16028
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	28800	9866
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	36000	11577
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	48000	11194
+New South Wales	Separate house	0	33301
+New South Wales	Separate house	3600	13450
+New South Wales	Separate house	5400	11855
+New South Wales	Separate house	7200	21136
+New South Wales	Separate house	9600	29831
+New South Wales	Separate house	12000	82784
+New South Wales	Separate house	16800	92986
+New South Wales	Separate house	21600	132447
+New South Wales	Separate house	28800	72712
+New South Wales	Separate house	36000	74075
+New South Wales	Separate house	48000	61282
+Victoria		0	129
+Victoria		3600	47
+Victoria		5400	37
+Victoria		7200	55
+Victoria		9600	99
+Victoria		12000	240
+Victoria		16800	272
+Victoria		21600	337
+Victoria		28800	161
+Victoria		36000	145
+Victoria		48000	126
+Victoria	(Other)	0	105
+Victoria	(Other)	3600	60
+Victoria	(Other)	5400	45
+Victoria	(Other)	7200	68
+Victoria	(Other)	9600	93
+Victoria	(Other)	12000	246
+Victoria	(Other)	16800	198
+Victoria	(Other)	21600	289
+Victoria	(Other)	28800	115
+Victoria	(Other)	36000	88
+Victoria	(Other)	48000	75
+Victoria	Flat/apartment	0	2071
+Victoria	Flat/apartment	3600	662
+Victoria	Flat/apartment	5400	668
+Victoria	Flat/apartment	7200	1164
+Victoria	Flat/apartment	9600	1729
+Victoria	Flat/apartment	12000	6008
+Victoria	Flat/apartment	16800	7342
+Victoria	Flat/apartment	21600	9454
+Victoria	Flat/apartment	28800	4275
+Victoria	Flat/apartment	36000	3360
+Victoria	Flat/apartment	48000	2104
+Victoria	Semi-detached, row/terrace house, townhouse etc.	0	4281
+Victoria	Semi-detached, row/terrace house, townhouse etc.	3600	1631
+Victoria	Semi-detached, row/terrace house, townhouse etc.	5400	1439
+Victoria	Semi-detached, row/terrace house, townhouse etc.	7200	2435
+Victoria	Semi-detached, row/terrace house, townhouse etc.	9600	3567
+Victoria	Semi-detached, row/terrace house, townhouse etc.	12000	11257
+Victoria	Semi-detached, row/terrace house, townhouse etc.	16800	13386
+Victoria	Semi-detached, row/terrace house, townhouse etc.	21600	16456
+Victoria	Semi-detached, row/terrace house, townhouse etc.	28800	8340
+Victoria	Semi-detached, row/terrace house, townhouse etc.	36000	8252
+Victoria	Semi-detached, row/terrace house, townhouse etc.	48000	6459
+Victoria	Separate house	0	32821
+Victoria	Separate house	3600	15427
+Victoria	Separate house	5400	13856
+Victoria	Separate house	7200	24978
+Victoria	Separate house	9600	34854
+Victoria	Separate house	12000	98837
+Victoria	Separate house	16800	107833
+Victoria	Separate house	21600	128811
+Victoria	Separate house	28800	54646
+Victoria	Separate house	36000	46425
+Victoria	Separate house	48000	34154
+Queensland		0	102
+Queensland		3600	35
+Queensland		5400	30
+Queensland		7200	64
+Queensland		9600	77
+Queensland		12000	218
+Queensland		16800	234
+Queensland		21600	281
+Queensland		28800	134
+Queensland		36000	111
+Queensland		48000	116
+Queensland	(Other)	0	103
+Queensland	(Other)	3600	44
+Queensland	(Other)	5400	56
+Queensland	(Other)	7200	121
+Queensland	(Other)	9600	110
+Queensland	(Other)	12000	211
+Queensland	(Other)	16800	214
+Queensland	(Other)	21600	190
+Queensland	(Other)	28800	101
+Queensland	(Other)	36000	83
+Queensland	(Other)	48000	79
+Queensland	Flat/apartment	0	1244
+Queensland	Flat/apartment	3600	502
+Queensland	Flat/apartment	5400	483
+Queensland	Flat/apartment	7200	977
+Queensland	Flat/apartment	9600	1451
+Queensland	Flat/apartment	12000	4333
+Queensland	Flat/apartment	16800	5154
+Queensland	Flat/apartment	21600	5436
+Queensland	Flat/apartment	28800	2002
+Queensland	Flat/apartment	36000	1530
+Queensland	Flat/apartment	48000	980
+Queensland	Semi-detached, row/terrace house, townhouse etc.	0	1377
+Queensland	Semi-detached, row/terrace house, townhouse etc.	3600	775
+Queensland	Semi-detached, row/terrace house, townhouse etc.	5400	682
+Queensland	Semi-detached, row/terrace house, townhouse etc.	7200	1267
+Queensland	Semi-detached, row/terrace house, townhouse etc.	9600	1837
+Queensland	Semi-detached, row/terrace house, townhouse etc.	12000	6034
+Queensland	Semi-detached, row/terrace house, townhouse etc.	16800	6930
+Queensland	Semi-detached, row/terrace house, townhouse etc.	21600	5806
+Queensland	Semi-detached, row/terrace house, townhouse etc.	28800	1772
+Queensland	Semi-detached, row/terrace house, townhouse etc.	36000	1173
+Queensland	Semi-detached, row/terrace house, townhouse etc.	48000	619
+Queensland	Separate house	0	23419
+Queensland	Separate house	3600	10553
+Queensland	Separate house	5400	9220
+Queensland	Separate house	7200	17080
+Queensland	Separate house	9600	23788
+Queensland	Separate house	12000	70236
+Queensland	Separate house	16800	86934
+Queensland	Separate house	21600	118042
+Queensland	Separate house	28800	56449
+Queensland	Separate house	36000	41437
+Queensland	Separate house	48000	23094
+South Australia		0	52
+South Australia		3600	20
+South Australia		5400	18
+South Australia		7200	40
+South Australia		9600	38
+South Australia		12000	123
+South Australia		16800	120
+South Australia		21600	138
+South Australia		28800	49
+South Australia		36000	37
+South Australia		48000	29
+South Australia	(Other)	0	36
+South Australia	(Other)	3600	23
+South Australia	(Other)	5400	16
+South Australia	(Other)	7200	32
+South Australia	(Other)	9600	31
+South Australia	(Other)	12000	81
+South Australia	(Other)	16800	51
+South Australia	(Other)	21600	43
+South Australia	(Other)	28800	24
+South Australia	(Other)	36000	21
+South Australia	(Other)	48000	29
+South Australia	Flat/apartment	0	264
+South Australia	Flat/apartment	3600	189
+South Australia	Flat/apartment	5400	179
+South Australia	Flat/apartment	7200	354
+South Australia	Flat/apartment	9600	530
+South Australia	Flat/apartment	12000	1544
+South Australia	Flat/apartment	16800	1130
+South Australia	Flat/apartment	21600	657
+South Australia	Flat/apartment	28800	197
+South Australia	Flat/apartment	36000	128
+South Australia	Flat/apartment	48000	93
+South Australia	Semi-detached, row/terrace house, townhouse etc.	0	1112
+South Australia	Semi-detached, row/terrace house, townhouse etc.	3600	681
+South Australia	Semi-detached, row/terrace house, townhouse etc.	5400	650
+South Australia	Semi-detached, row/terrace house, townhouse etc.	7200	1277
+South Australia	Semi-detached, row/terrace house, townhouse etc.	9600	1584
+South Australia	Semi-detached, row/terrace house, townhouse etc.	12000	3939
+South Australia	Semi-detached, row/terrace house, townhouse etc.	16800	3701
+South Australia	Semi-detached, row/terrace house, townhouse etc.	21600	3682
+South Australia	Semi-detached, row/terrace house, townhouse etc.	28800	1315
+South Australia	Semi-detached, row/terrace house, townhouse etc.	36000	950
+South Australia	Semi-detached, row/terrace house, townhouse etc.	48000	578
+South Australia	Separate house	0	10766
+South Australia	Separate house	3600	6752
+South Australia	Separate house	5400	6102
+South Australia	Separate house	7200	11382
+South Australia	Separate house	9600	14833
+South Australia	Separate house	12000	38617
+South Australia	Separate house	16800	38144
+South Australia	Separate house	21600	35990
+South Australia	Separate house	28800	13423
+South Australia	Separate house	36000	10040
+South Australia	Separate house	48000	6080
+Western Australia		0	51
+Western Australia		3600	16
+Western Australia		5400	16
+Western Australia		7200	13
+Western Australia		9600	31
+Western Australia		12000	70
+Western Australia		16800	89
+Western Australia		21600	144
+Western Australia		28800	101
+Western Australia		36000	92
+Western Australia		48000	71
+Western Australia	(Other)	0	42
+Western Australia	(Other)	3600	21
+Western Australia	(Other)	5400	18
+Western Australia	(Other)	7200	40
+Western Australia	(Other)	9600	42
+Western Australia	(Other)	12000	78
+Western Australia	(Other)	16800	90
+Western Australia	(Other)	21600	116
+Western Australia	(Other)	28800	55
+Western Australia	(Other)	36000	63
+Western Australia	(Other)	48000	56
+Western Australia	Flat/apartment	0	375
+Western Australia	Flat/apartment	3600	140
+Western Australia	Flat/apartment	5400	120
+Western Australia	Flat/apartment	7200	271
+Western Australia	Flat/apartment	9600	335
+Western Australia	Flat/apartment	12000	1284
+Western Australia	Flat/apartment	16800	1685
+Western Australia	Flat/apartment	21600	2010
+Western Australia	Flat/apartment	28800	891
+Western Australia	Flat/apartment	36000	703
+Western Australia	Flat/apartment	48000	471
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	0	1480
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	3600	612
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	5400	497
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	7200	923
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	9600	1232
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	12000	3988
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	16800	5653
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	21600	8031
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	28800	3664
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	36000	2919
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	48000	1762
+Western Australia	Separate house	0	14169
+Western Australia	Separate house	3600	5751
+Western Australia	Separate house	5400	5122
+Western Australia	Separate house	7200	9090
+Western Australia	Separate house	9600	11729
+Western Australia	Separate house	12000	34344
+Western Australia	Separate house	16800	43210
+Western Australia	Separate house	21600	73197
+Western Australia	Separate house	28800	41145
+Western Australia	Separate house	36000	32364
+Western Australia	Separate house	48000	20618
+Tasmania		0	13
+Tasmania		3600	13
+Tasmania		5400	7
+Tasmania		7200	19
+Tasmania		9600	20
+Tasmania		12000	35
+Tasmania		16800	32
+Tasmania		21600	27
+Tasmania		28800	10
+Tasmania		36000	9
+Tasmania		48000	11
+Tasmania	(Other)	0	16
+Tasmania	(Other)	3600	10
+Tasmania	(Other)	5400	5
+Tasmania	(Other)	7200	22
+Tasmania	(Other)	9600	18
+Tasmania	(Other)	12000	37
+Tasmania	(Other)	16800	25
+Tasmania	(Other)	21600	28
+Tasmania	(Other)	28800	3
+Tasmania	(Other)	36000	11
+Tasmania	(Other)	48000	13
+Tasmania	Flat/apartment	0	75
+Tasmania	Flat/apartment	3600	52
+Tasmania	Flat/apartment	5400	47
+Tasmania	Flat/apartment	7200	84
+Tasmania	Flat/apartment	9600	164
+Tasmania	Flat/apartment	12000	287
+Tasmania	Flat/apartment	16800	171
+Tasmania	Flat/apartment	21600	97
+Tasmania	Flat/apartment	28800	34
+Tasmania	Flat/apartment	36000	21
+Tasmania	Flat/apartment	48000	15
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	0	76
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	3600	53
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	5400	49
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	7200	113
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	9600	163
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	12000	285
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	16800	218
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	21600	138
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	28800	60
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	36000	37
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	48000	25
+Tasmania	Separate house	0	3543
+Tasmania	Separate house	3600	2579
+Tasmania	Separate house	5400	2372
+Tasmania	Separate house	7200	4504
+Tasmania	Separate house	9600	6174
+Tasmania	Separate house	12000	15112
+Tasmania	Separate house	16800	12315
+Tasmania	Separate house	21600	8808
+Tasmania	Separate house	28800	2756
+Tasmania	Separate house	36000	1968
+Tasmania	Separate house	48000	1096
+Northern Territory		0	6
+Northern Territory		7200	3
+Northern Territory		12000	5
+Northern Territory		16800	8
+Northern Territory		21600	15
+Northern Territory		28800	15
+Northern Territory		36000	13
+Northern Territory		48000	6
+Northern Territory	(Other)	0	11
+Northern Territory	(Other)	7200	10
+Northern Territory	(Other)	9600	11
+Northern Territory	(Other)	12000	39
+Northern Territory	(Other)	16800	34
+Northern Territory	(Other)	21600	55
+Northern Territory	(Other)	28800	35
+Northern Territory	(Other)	36000	24
+Northern Territory	(Other)	48000	17
+Northern Territory	Flat/apartment	0	64
+Northern Territory	Flat/apartment	3600	21
+Northern Territory	Flat/apartment	5400	24
+Northern Territory	Flat/apartment	7200	51
+Northern Territory	Flat/apartment	9600	82
+Northern Territory	Flat/apartment	12000	244
+Northern Territory	Flat/apartment	16800	318
+Northern Territory	Flat/apartment	21600	512
+Northern Territory	Flat/apartment	28800	259
+Northern Territory	Flat/apartment	36000	194
+Northern Territory	Flat/apartment	48000	94
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	0	48
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	3600	12
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	5400	27
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	7200	36
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	9600	65
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	12000	239
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	16800	319
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	21600	398
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	28800	177
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	36000	104
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	48000	49
+Northern Territory	Separate house	0	430
+Northern Territory	Separate house	3600	212
+Northern Territory	Separate house	5400	182
+Northern Territory	Separate house	7200	331
+Northern Territory	Separate house	9600	473
+Northern Territory	Separate house	12000	1496
+Northern Territory	Separate house	16800	1871
+Northern Territory	Separate house	21600	3155
+Northern Territory	Separate house	28800	2566
+Northern Territory	Separate house	36000	2635
+Northern Territory	Separate house	48000	1394
+Australian Capital Territory		0	3
+Australian Capital Territory		12000	3
+Australian Capital Territory		16800	7
+Australian Capital Territory		21600	9
+Australian Capital Territory		28800	3
+Australian Capital Territory		36000	3
+Australian Capital Territory	(Other)	12000	8
+Australian Capital Territory	(Other)	16800	4
+Australian Capital Territory	(Other)	21600	5
+Australian Capital Territory	(Other)	28800	4
+Australian Capital Territory	Flat/apartment	0	141
+Australian Capital Territory	Flat/apartment	3600	49
+Australian Capital Territory	Flat/apartment	5400	48
+Australian Capital Territory	Flat/apartment	7200	108
+Australian Capital Territory	Flat/apartment	9600	168
+Australian Capital Territory	Flat/apartment	12000	599
+Australian Capital Territory	Flat/apartment	16800	1168
+Australian Capital Territory	Flat/apartment	21600	1187
+Australian Capital Territory	Flat/apartment	28800	395
+Australian Capital Territory	Flat/apartment	36000	288
+Australian Capital Territory	Flat/apartment	48000	168
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	0	312
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	3600	101
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	5400	90
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	7200	205
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	9600	292
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	12000	901
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	16800	1611
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	21600	2247
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	28800	821
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	36000	631
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	48000	279
+Australian Capital Territory	Separate house	0	1933
+Australian Capital Territory	Separate house	3600	734
+Australian Capital Territory	Separate house	5400	609
+Australian Capital Territory	Separate house	7200	1008
+Australian Capital Territory	Separate house	9600	1359
+Australian Capital Territory	Separate house	12000	3828
+Australian Capital Territory	Separate house	16800	5013
+Australian Capital Territory	Separate house	21600	10634
+Australian Capital Territory	Separate house	28800	6872
+Australian Capital Territory	Separate house	36000	5988
+Australian Capital Territory	Separate house	48000	3351
+Other Territories	Flat/apartment	12000	3
+Other Territories	Flat/apartment	16800	3
+Other Territories	Semi-detached, row/terrace house, townhouse etc.	21600	3
+Other Territories	Separate house	0	18
+Other Territories	Separate house	3600	9
+Other Territories	Separate house	5400	9
+Other Territories	Separate house	7200	13
+Other Territories	Separate house	9600	20
+Other Territories	Separate house	12000	59
+Other Territories	Separate house	16800	54
+Other Territories	Separate house	21600	42
+Other Territories	Separate house	28800	19
+Other Territories	Separate house	36000	14
+Other Territories	Separate house	48000	11

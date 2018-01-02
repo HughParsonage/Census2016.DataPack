@@ -1,0 +1,712 @@
+SA3_NAME16	Sex	persons
+Queanbeyan	F	28501
+Queanbeyan	M	28828
+Snowy Mountains	F	9354
+Snowy Mountains	M	10013
+South Coast	F	36029
+South Coast	M	34606
+Goulburn - Mulwaree	F	17572
+Goulburn - Mulwaree	M	17989
+Young - Yass	F	18257
+Young - Yass	M	17678
+Gosford	F	87173
+Gosford	M	81880
+Wyong	F	81803
+Wyong	M	76884
+Bathurst	F	23152
+Bathurst	M	23445
+Lachlan Valley	F	27879
+Lachlan Valley	M	27462
+Lithgow - Mudgee	F	23085
+Lithgow - Mudgee	M	23530
+Orange	F	29346
+Orange	M	28264
+Clarence Valley	F	25357
+Clarence Valley	M	24907
+Coffs Harbour	F	44344
+Coffs Harbour	M	41677
+Bourke - Cobar - Coonamble	F	11834
+Bourke - Cobar - Coonamble	M	12314
+Broken Hill and Far West	F	10251
+Broken Hill and Far West	M	9965
+Dubbo	F	35213
+Dubbo	M	34198
+Lower Hunter	F	43765
+Lower Hunter	M	43911
+Maitland	F	37948
+Maitland	M	36217
+Port Stephens	F	36092
+Port Stephens	M	35289
+Upper Hunter	F	14984
+Upper Hunter	M	15216
+Dapto - Port Kembla	F	38356
+Dapto - Port Kembla	M	37002
+Illawarra Catchment Reserve	F	3
+Illawarra Catchment Reserve	M	4
+Kiama - Shellharbour	F	45907
+Kiama - Shellharbour	M	43931
+Wollongong	F	64742
+Wollongong	M	63552
+Great Lakes	F	16017
+Great Lakes	M	15252
+Kempsey - Nambucca	F	24242
+Kempsey - Nambucca	M	23882
+Lord Howe Island	F	191
+Lord Howe Island	M	192
+Port Macquarie	F	40861
+Port Macquarie	M	37704
+Taree - Gloucester	F	27598
+Taree - Gloucester	M	26263
+Albury	F	31508
+Albury	M	29757
+Lower Murray	F	6110
+Lower Murray	M	6438
+Upper Murray exc. Albury	F	21120
+Upper Murray exc. Albury	M	20862
+Armidale	F	19135
+Armidale	M	17957
+Inverell - Tenterfield	F	19439
+Inverell - Tenterfield	M	18905
+Moree - Narrabri	F	12756
+Moree - Narrabri	M	12868
+Tamworth - Gunnedah	F	40969
+Tamworth - Gunnedah	M	39531
+Lake Macquarie - East	F	61519
+Lake Macquarie - East	M	58500
+Lake Macquarie - West	F	38477
+Lake Macquarie - West	M	36735
+Newcastle	F	83082
+Newcastle	M	80798
+Richmond Valley - Coastal	F	40460
+Richmond Valley - Coastal	M	37820
+Richmond Valley - Hinterland	F	35614
+Richmond Valley - Hinterland	M	34334
+Tweed Valley	F	47261
+Tweed Valley	M	44109
+Griffith - Murrumbidgee (West)	F	24040
+Griffith - Murrumbidgee (West)	M	24100
+Tumut - Tumbarumba	F	7135
+Tumut - Tumbarumba	M	7301
+Wagga Wagga	F	47032
+Wagga Wagga	M	46322
+Shoalhaven	F	50286
+Shoalhaven	M	49202
+Southern Highlands	F	24988
+Southern Highlands	M	22878
+Baulkham Hills	F	73420
+Baulkham Hills	M	70323
+Dural - Wisemans Ferry	F	13164
+Dural - Wisemans Ferry	M	13063
+Hawkesbury	F	12171
+Hawkesbury	M	12418
+Rouse Hill - McGraths Hill	F	16587
+Rouse Hill - McGraths Hill	M	16594
+Blacktown	F	67314
+Blacktown	M	67432
+Blacktown - North	F	46244
+Blacktown - North	M	46581
+Mount Druitt	F	57145
+Mount Druitt	M	54923
+Botany	F	23441
+Botany	M	23254
+Marrickville - Sydenham - Petersham	F	27635
+Marrickville - Sydenham - Petersham	M	26974
+Sydney Inner City	F	103409
+Sydney Inner City	M	110837
+Eastern Suburbs - North	F	66053
+Eastern Suburbs - North	M	60329
+Eastern Suburbs - South	F	71477
+Eastern Suburbs - South	M	69175
+Bankstown	F	87005
+Bankstown	M	84425
+Canterbury	F	66782
+Canterbury	M	68285
+Hurstville	F	65311
+Hurstville	M	61881
+Kogarah - Rockdale	F	69567
+Kogarah - Rockdale	M	68158
+Canada Bay	F	44427
+Canada Bay	M	40933
+Leichhardt	F	29222
+Leichhardt	M	26847
+Strathfield - Burwood - Ashfield	F	77214
+Strathfield - Burwood - Ashfield	M	74655
+Chatswood - Lane Cove	F	57917
+Chatswood - Lane Cove	M	54326
+Hornsby	F	41106
+Hornsby	M	39495
+Ku-ring-gai	F	61555
+Ku-ring-gai	M	56821
+North Sydney - Mosman	F	49999
+North Sydney - Mosman	M	44137
+Manly	F	21508
+Manly	M	20384
+Pittwater	F	30973
+Pittwater	M	29464
+Warringah	F	76889
+Warringah	M	73652
+Camden	F	32147
+Camden	M	30366
+Campbelltown (NSW)	F	80559
+Campbelltown (NSW)	M	77837
+Wollondilly	F	20633
+Wollondilly	M	20523
+Blue Mountains	F	39690
+Blue Mountains	M	37005
+Blue Mountains - South	M	3
+Penrith	F	71130
+Penrith	M	68559
+Richmond - Windsor	F	18420
+Richmond - Windsor	M	18125
+St Marys	F	27218
+St Marys	M	26779
+Auburn	F	41916
+Auburn	M	47751
+Carlingford	F	33846
+Carlingford	M	32730
+Merrylands - Guildford	F	75028
+Merrylands - Guildford	M	76237
+Parramatta	F	70032
+Parramatta	M	70860
+Pennant Hills - Epping	F	24319
+Pennant Hills - Epping	M	23273
+Ryde - Hunters Hill	F	68967
+Ryde - Hunters Hill	M	65567
+Bringelly - Green Valley	F	51805
+Bringelly - Green Valley	M	51000
+Fairfield	F	94386
+Fairfield	M	91412
+Liverpool	F	59155
+Liverpool	M	58200
+Cronulla - Miranda - Caringbah	F	56362
+Cronulla - Miranda - Caringbah	M	53481
+Sutherland - Menai - Heathcote	F	55109
+Sutherland - Menai - Heathcote	M	52930
+Migratory - Offshore - Shipping (NSW)	F	239
+Migratory - Offshore - Shipping (NSW)	M	171
+No usual address (NSW)	F	4939
+No usual address (NSW)	M	7351
+Ballarat	F	53854
+Ballarat	M	49961
+Creswick - Daylesford - Ballan	F	14358
+Creswick - Daylesford - Ballan	M	13951
+Maryborough - Pyrenees	F	12481
+Maryborough - Pyrenees	M	12887
+Bendigo	F	48916
+Bendigo	M	45463
+Heathcote - Castlemaine - Kyneton	F	23889
+Heathcote - Castlemaine - Kyneton	M	23406
+Loddon - Elmore	F	5590
+Loddon - Elmore	M	5828
+Barwon - West	F	9411
+Barwon - West	M	9609
+Geelong	F	96854
+Geelong	M	91328
+Surf Coast - Bellarine Peninsula	F	36852
+Surf Coast - Bellarine Peninsula	M	34873
+Upper Goulburn Valley	F	26890
+Upper Goulburn Valley	M	26952
+Wangaratta - Benalla	F	23797
+Wangaratta - Benalla	M	22303
+Wodonga - Alpine	F	35580
+Wodonga - Alpine	M	34667
+Baw Baw	F	25004
+Baw Baw	M	23621
+Gippsland - East	F	22974
+Gippsland - East	M	22174
+Gippsland - South West	F	31626
+Gippsland - South West	M	30038
+Latrobe Valley	F	37398
+Latrobe Valley	M	35700
+Wellington	F	21238
+Wellington	M	21631
+Brunswick - Coburg	F	44532
+Brunswick - Coburg	M	41727
+Darebin - South	F	27481
+Darebin - South	M	24589
+Essendon	F	34534
+Essendon	M	32066
+Melbourne City	F	69825
+Melbourne City	M	66144
+Port Phillip	F	51563
+Port Phillip	M	49309
+Stonnington - West	F	32911
+Stonnington - West	M	29556
+Yarra	F	45041
+Yarra	M	42415
+Boroondara	F	87085
+Boroondara	M	80145
+Manningham - West	F	46853
+Manningham - West	M	43519
+Whitehorse - West	F	52920
+Whitehorse - West	M	49118
+Bayside	F	50862
+Bayside	M	46229
+Glen Eira	F	76673
+Glen Eira	M	71759
+Kingston	F	60527
+Kingston	M	56283
+Stonnington - East	F	21548
+Stonnington - East	M	19816
+Banyule	F	62644
+Banyule	M	59222
+Darebin - North	F	48341
+Darebin - North	M	46313
+Nillumbik - Kinglake	F	32886
+Nillumbik - Kinglake	M	32237
+Whittlesea - Wallan	F	108009
+Whittlesea - Wallan	M	105705
+Keilor	F	30038
+Keilor	M	28526
+Macedon Ranges	F	14868
+Macedon Ranges	M	14703
+Moreland - North	F	38103
+Moreland - North	M	37406
+Sunbury	F	20156
+Sunbury	M	19212
+Tullamarine - Broadmeadows	F	80126
+Tullamarine - Broadmeadows	M	80228
+Knox	F	78814
+Knox	M	75341
+Manningham - East	F	13153
+Manningham - East	M	12834
+Maroondah	F	56755
+Maroondah	M	53179
+Whitehorse - East	F	31482
+Whitehorse - East	M	29289
+Yarra Ranges	F	75331
+Yarra Ranges	M	73430
+Cardinia	F	47843
+Cardinia	M	46442
+Casey - North	F	65939
+Casey - North	M	65181
+Casey - South	F	84335
+Casey - South	M	83842
+Dandenong	F	91729
+Dandenong	M	94898
+Monash	F	88955
+Monash	M	86102
+Brimbank	F	92780
+Brimbank	M	93039
+Hobsons Bay	F	42936
+Hobsons Bay	M	41066
+Maribyrnong	F	40883
+Maribyrnong	M	41405
+Melton - Bacchus Marsh	F	77773
+Melton - Bacchus Marsh	M	75666
+Wyndham	F	110525
+Wyndham	M	111366
+Frankston	F	68727
+Frankston	M	65418
+Mornington Peninsula	F	80125
+Mornington Peninsula	M	74875
+Grampians	F	29334
+Grampians	M	29485
+Mildura	F	27398
+Mildura	M	26481
+Murray River - Swan Hill	F	18583
+Murray River - Swan Hill	M	18753
+Campaspe	F	18841
+Campaspe	M	18368
+Moira	F	14598
+Moira	M	14514
+Shepparton	F	32036
+Shepparton	M	31618
+Glenelg - Southern Grampians	F	18013
+Glenelg - Southern Grampians	M	17543
+Colac - Corangamite	F	18460
+Colac - Corangamite	M	18574
+Warrnambool	F	25720
+Warrnambool	M	24386
+Migratory - Offshore - Shipping (Vic.)	F	4
+Migratory - Offshore - Shipping (Vic.)	M	28
+No usual address (Vic.)	F	3238
+No usual address (Vic.)	M	4331
+Capalaba	F	36245
+Capalaba	M	35328
+Cleveland - Stradbroke	F	42443
+Cleveland - Stradbroke	M	40373
+Wynnum - Manly	F	35184
+Wynnum - Manly	M	33520
+Bald Hills - Everton Park	F	21153
+Bald Hills - Everton Park	M	19642
+Chermside	F	35801
+Chermside	M	33274
+Nundah	F	19436
+Nundah	M	19235
+Sandgate	F	29879
+Sandgate	M	28107
+Carindale	F	26013
+Carindale	M	24168
+Holland Park - Yeronga	F	35929
+Holland Park - Yeronga	M	35048
+Mt Gravatt	F	36702
+Mt Gravatt	M	34500
+Nathan	F	19518
+Nathan	M	19349
+Rocklea - Acacia Ridge	F	30050
+Rocklea - Acacia Ridge	M	29486
+Sunnybank	F	24990
+Sunnybank	M	24813
+Centenary	F	16634
+Centenary	M	15898
+Kenmore - Brookfield - Moggill	F	23125
+Kenmore - Brookfield - Moggill	M	22244
+Sherwood - Indooroopilly	F	26301
+Sherwood - Indooroopilly	M	24776
+The Gap - Enoggera	F	25569
+The Gap - Enoggera	M	24441
+Brisbane Inner	F	32966
+Brisbane Inner	M	34616
+Brisbane Inner - East	F	20616
+Brisbane Inner - East	M	19980
+Brisbane Inner - North	F	43701
+Brisbane Inner - North	M	42463
+Brisbane Inner - West	F	28347
+Brisbane Inner - West	M	27520
+Cairns - North	F	26752
+Cairns - North	M	25904
+Cairns - South	F	51102
+Cairns - South	M	49689
+Innisfail - Cassowary Coast	F	16888
+Innisfail - Cassowary Coast	M	17846
+Port Douglas - Daintree	F	5712
+Port Douglas - Daintree	M	5894
+Tablelands (East) - Kuranda	F	20467
+Tablelands (East) - Kuranda	M	19927
+Darling Downs (West) - Maranoa	F	21434
+Darling Downs (West) - Maranoa	M	22627
+Darling Downs - East	F	20847
+Darling Downs - East	M	21275
+Granite Belt	F	20293
+Granite Belt	M	19805
+Central Highlands (Qld)	F	13734
+Central Highlands (Qld)	M	15225
+Rockhampton	F	57970
+Rockhampton	M	58025
+Biloela	F	6928
+Biloela	M	7388
+Gladstone	F	29989
+Gladstone	M	31647
+Broadbeach - Burleigh	F	31838
+Broadbeach - Burleigh	M	29800
+Coolangatta	F	27315
+Coolangatta	M	25873
+Gold Coast - North	F	34584
+Gold Coast - North	M	31315
+Gold Coast Hinterland	F	9405
+Gold Coast Hinterland	M	9100
+Mudgeeraba - Tallebudgera	F	17108
+Mudgeeraba - Tallebudgera	M	16276
+Nerang	F	34423
+Nerang	M	32870
+Ormeau - Oxenford	F	61474
+Ormeau - Oxenford	M	59411
+Robina	F	26094
+Robina	M	23385
+Southport	F	30204
+Southport	M	28686
+Surfers Paradise	F	20397
+Surfers Paradise	M	20438
+Forest Lake - Oxley	F	35875
+Forest Lake - Oxley	M	36354
+Ipswich Hinterland	F	31100
+Ipswich Hinterland	M	31626
+Ipswich Inner	F	52966
+Ipswich Inner	M	51240
+Springfield - Redbank	F	42323
+Springfield - Redbank	M	41587
+Beaudesert	F	7084
+Beaudesert	M	6825
+Beenleigh	F	20993
+Beenleigh	M	19935
+Browns Plains	F	40423
+Browns Plains	M	39393
+Jimboomba	F	22686
+Jimboomba	M	22905
+Loganlea - Carbrook	F	30477
+Loganlea - Carbrook	M	29301
+Springwood - Kingston	F	38904
+Springwood - Kingston	M	38367
+Bowen Basin - North	F	15578
+Bowen Basin - North	M	17917
+Mackay	F	56713
+Mackay	M	58256
+Whitsunday	F	10227
+Whitsunday	M	10993
+Bribie - Beachmere	F	17028
+Bribie - Beachmere	M	16008
+Caboolture	F	34549
+Caboolture	M	32914
+Caboolture Hinterland	F	6094
+Caboolture Hinterland	M	7137
+Narangba - Burpengary	F	31973
+Narangba - Burpengary	M	30908
+Redcliffe	F	31127
+Redcliffe	M	28342
+The Hills District	F	43439
+The Hills District	M	42751
+North Lakes	F	36820
+North Lakes	M	34738
+Strathpine	F	18887
+Strathpine	M	18328
+Far North	F	15249
+Far North	M	17144
+Outback - North	F	14206
+Outback - North	M	15448
+Outback - South	F	8787
+Outback - South	M	8871
+Buderim	F	28829
+Buderim	M	25658
+Caloundra	F	41750
+Caloundra	M	38763
+Maroochy	F	29136
+Maroochy	M	27171
+Noosa	F	21381
+Noosa	M	19778
+Sunshine Coast Hinterland	F	25267
+Sunshine Coast Hinterland	M	24316
+Nambour	F	21836
+Nambour	M	20793
+Noosa Hinterland	F	11016
+Noosa Hinterland	M	10837
+Toowoomba	F	77279
+Toowoomba	M	72238
+Charters Towers - Ayr - Ingham	F	20926
+Charters Towers - Ayr - Ingham	M	21295
+Townsville	F	93430
+Townsville	M	93377
+Bundaberg	F	44744
+Bundaberg	M	43025
+Burnett	F	24279
+Burnett	M	24791
+Gympie - Cooloola	F	24947
+Gympie - Cooloola	M	24538
+Hervey Bay	F	29509
+Hervey Bay	M	27170
+Maryborough	F	22261
+Maryborough	M	22633
+Migratory - Offshore - Shipping (Qld)	F	87
+Migratory - Offshore - Shipping (Qld)	M	66
+No usual address (Qld)	F	5572
+No usual address (Qld)	M	6937
+Adelaide City	F	10753
+Adelaide City	M	11310
+Adelaide Hills	F	36486
+Adelaide Hills	M	35406
+Burnside	F	23185
+Burnside	M	20723
+Campbelltown (SA)	F	25962
+Campbelltown (SA)	M	24561
+Norwood - Payneham - St Peters	F	18425
+Norwood - Payneham - St Peters	M	16931
+Prospect - Walkerville	F	14103
+Prospect - Walkerville	M	13969
+Unley	F	19949
+Unley	M	17771
+Gawler - Two Wells	F	17627
+Gawler - Two Wells	M	17011
+Playford	F	45495
+Playford	M	44657
+Port Adelaide - East	F	33924
+Port Adelaide - East	M	34132
+Salisbury	F	68540
+Salisbury	M	68093
+Tea Tree Gully	F	47900
+Tea Tree Gully	M	45709
+Holdfast Bay	F	17649
+Holdfast Bay	M	16055
+Marion	F	46763
+Marion	M	43304
+Mitcham	F	32919
+Mitcham	M	30612
+Onkaparinga	F	85772
+Onkaparinga	M	82270
+Charles Sturt	F	55539
+Charles Sturt	M	53158
+Port Adelaide - West	F	29543
+Port Adelaide - West	M	28424
+West Torrens	F	31290
+West Torrens	M	29790
+Barossa	F	17770
+Barossa	M	17726
+Lower North	F	11192
+Lower North	M	11351
+Mid North	F	13741
+Mid North	M	13531
+Yorke Peninsula	F	12458
+Yorke Peninsula	M	12746
+Eyre Peninsula and South West	F	27993
+Eyre Peninsula and South West	M	28616
+Outback - North and East	F	12350
+Outback - North and East	M	13857
+Fleurieu - Kangaroo Island	F	25925
+Fleurieu - Kangaroo Island	M	24473
+Limestone Coast	F	31942
+Limestone Coast	M	32852
+Murray and Mallee	F	34327
+Murray and Mallee	M	35223
+Migratory - Offshore - Shipping (SA)	M	6
+No usual address (SA)	F	1129
+No usual address (SA)	M	1734
+Augusta - Margaret River - Busselton	F	25875
+Augusta - Margaret River - Busselton	M	24996
+Bunbury	F	51838
+Bunbury	M	50811
+Manjimup	F	11437
+Manjimup	M	11377
+Mandurah	F	49590
+Mandurah	M	47146
+Cottesloe - Claremont	F	34711
+Cottesloe - Claremont	M	32922
+Perth City	F	50984
+Perth City	M	50688
+Bayswater - Bassendean	F	40499
+Bayswater - Bassendean	M	39944
+Mundaring	F	20184
+Mundaring	M	21848
+Swan	F	64736
+Swan	M	63808
+Joondalup	F	78041
+Joondalup	M	76684
+Stirling	F	98391
+Stirling	M	94036
+Wanneroo	F	95067
+Wanneroo	M	92891
+Armadale	F	40002
+Armadale	M	39594
+Belmont - Victoria Park	F	34707
+Belmont - Victoria Park	M	36010
+Canning	F	46908
+Canning	M	46691
+Gosnells	F	58066
+Gosnells	M	60000
+Kalamunda	F	28995
+Kalamunda	M	28458
+Serpentine - Jarrahdale	F	13241
+Serpentine - Jarrahdale	M	13631
+South Perth	F	21466
+South Perth	M	20580
+Cockburn	F	51705
+Cockburn	M	50322
+Fremantle	F	18920
+Fremantle	M	17684
+Kwinana	F	18948
+Kwinana	M	19970
+Melville	F	52076
+Melville	M	48603
+Rockingham	F	63083
+Rockingham	M	62028
+Albany	F	29530
+Albany	M	29638
+Wheat Belt - North	F	26872
+Wheat Belt - North	M	29063
+Wheat Belt - South	F	9889
+Wheat Belt - South	M	10355
+Kimberley	F	17207
+Kimberley	M	17158
+East Pilbara	F	10274
+East Pilbara	M	14781
+West Pilbara	F	13133
+West Pilbara	M	21369
+Esperance	F	7861
+Esperance	M	8108
+Gascoyne	F	4491
+Gascoyne	M	4995
+Goldfields	F	18295
+Goldfields	M	20800
+Mid West	F	26517
+Mid West	M	27497
+Migratory - Offshore - Shipping (WA)	F	26
+Migratory - Offshore - Shipping (WA)	M	408
+No usual address (WA)	F	2415
+No usual address (WA)	M	3532
+Brighton	F	8723
+Brighton	M	8344
+Hobart - North East	F	27114
+Hobart - North East	M	25488
+Hobart - North West	F	27416
+Hobart - North West	M	25739
+Hobart - South and West	F	17106
+Hobart - South and West	M	15774
+Hobart Inner	F	25920
+Hobart Inner	M	24640
+Sorell - Dodges Ferry	F	8140
+Sorell - Dodges Ferry	M	7945
+Launceston	F	41960
+Launceston	M	38958
+Meander Valley - West Tamar	F	11302
+Meander Valley - West Tamar	M	11142
+North East	F	18451
+North East	M	18670
+Central Highlands (Tas.)	F	5354
+Central Highlands (Tas.)	M	5876
+Huon - Bruny Island	F	9520
+Huon - Bruny Island	M	9623
+South East Coast	F	3297
+South East Coast	M	3451
+Burnie - Ulverstone	F	24578
+Burnie - Ulverstone	M	22949
+Devonport	F	22840
+Devonport	M	21409
+West Coast	F	8342
+West Coast	M	8901
+Migratory - Offshore - Shipping (Tas.)	F	21
+Migratory - Offshore - Shipping (Tas.)	M	49
+No usual address (Tas.)	F	393
+No usual address (Tas.)	M	524
+Darwin City	F	12047
+Darwin City	M	13789
+Darwin Suburbs	F	26679
+Darwin Suburbs	M	27084
+Litchfield	F	9520
+Litchfield	M	14009
+Palmerston	F	16698
+Palmerston	M	16997
+Alice Springs	F	18179
+Alice Springs	M	17900
+Barkly	F	2640
+Barkly	M	2892
+Daly - Tiwi - West Arnhem	F	7832
+Daly - Tiwi - West Arnhem	M	8272
+East Arnhem	F	6439
+East Arnhem	M	6577
+Katherine	F	9062
+Katherine	M	9648
+Migratory - Offshore - Shipping (NT)	F	14
+Migratory - Offshore - Shipping (NT)	M	61
+No usual address (NT)	F	1157
+No usual address (NT)	M	1332
+Belconnen	F	48640
+Belconnen	M	47409
+Canberra East	F	515
+Canberra East	M	1062
+Gungahlin	F	35920
+Gungahlin	M	35222
+North Canberra	F	26554
+North Canberra	M	26449
+South Canberra	F	13930
+South Canberra	M	13082
+Tuggeranong	F	43512
+Tuggeranong	M	41642
+Weston Creek	F	11893
+Weston Creek	M	11090
+Woden Valley	F	17839
+Woden Valley	M	16921
+Molonglo	F	2341
+Molonglo	M	2236
+Urriarra - Namadgi	F	288
+Urriarra - Namadgi	M	312
+No usual address (ACT)	F	228
+No usual address (ACT)	M	312
+Christmas Island	F	712
+Christmas Island	M	1130
+Cocos (Keeling) Islands	F	273
+Cocos (Keeling) Islands	M	268
+Jervis Bay	F	172
+Jervis Bay	M	216
+Norfolk Island	F	930
+Norfolk Island	M	819
+Migratory - Offshore - Shipping (OT)	M	3
+No usual address (OT)	F	28
+No usual address (OT)	M	21

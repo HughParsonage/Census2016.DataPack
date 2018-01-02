@@ -1,0 +1,564 @@
+LGA_NAME16	medianMortgageRepayment
+Albury (C)	17052
+Armidale Regional (A)	16716
+Ballina (A)	20796
+Balranald (A)	11400
+Bathurst Regional (A)	20040
+Bega Valley (A)	16116
+Bellingen (A)	16800
+Berrigan (A)	12996
+Blacktown (C)	25800
+Bland (A)	12000
+Blayney (A)	18000
+Blue Mountains (C)	22104
+Bogan (A)	12996
+Botany Bay (C)	28800
+Bourke (A)	11892
+Brewarrina (A)	5196
+Broken Hill (C)	11436
+Burwood (A)	26400
+Byron (A)	20796
+Cabonne (A)	18204
+Camden (A)	26640
+Campbelltown (C) (NSW)	22104
+Canada Bay (A)	30000
+Canterbury-Bankstown (A)	24000
+Carrathool (A)	10404
+Central Coast (C) (NSW)	21000
+Central Darling (A)	6900
+Cessnock (C)	18204
+Clarence Valley (A)	15600
+Cobar (A)	15600
+Coffs Harbour (C)	19236
+Coolamon (A)	12996
+Coonamble (A)	10404
+Cowra (A)	13776
+Cumberland (A)	24000
+Dungog (A)	19944
+Edward River (A)	12996
+Eurobodalla (A)	16800
+Fairfield (C)	21600
+Federation (A)	15600
+Forbes (A)	13776
+Georges River (A)	26004
+Gilgandra (A)	12996
+Glen Innes Severn (A)	12996
+Goulburn Mulwaree (A)	18204
+Greater Hume Shire (A)	14556
+Griffith (C)	17940
+Gundagai (A)	13284
+Gunnedah (A)	17676
+Gwydir (A)	11772
+Hawkesbury (C)	24960
+Hay (A)	11784
+Hilltops (A)	14400
+Hornsby (A)	28800
+Hunters Hill (A)	36396
+Inner West (A)	31200
+Inverell (A)	14400
+Junee (A)	14400
+Kempsey (A)	15600
+Kiama (A)	24000
+Ku-ring-gai (A)	36000
+Kyogle (A)	13200
+Lachlan (A)	10800
+Lake Macquarie (C)	20796
+Lane Cove (A)	31200
+Leeton (A)	15600
+Lismore (C)	17160
+Lithgow (C)	16644
+Liverpool (C)	25476
+Liverpool Plains (A)	13836
+Lockhart (A)	12000
+Maitland (C)	20796
+Mid-Coast (A)	15888
+Mid-Western Regional (A)	20280
+Moree Plains (A)	15600
+Mosman (A)	36000
+Murray River (A)	15600
+Murrumbidgee (A)	10800
+Muswellbrook (A)	20796
+Nambucca (A)	15600
+Narrabri (A)	16740
+Narrandera (A)	12084
+Narromine (A)	13200
+Newcastle (C)	21216
+North Sydney (A)	31200
+Northern Beaches (A)	33600
+Oberon (A)	17424
+Orange (C)	19548
+Parkes (A)	15600
+Parramatta (C)	26004
+Penrith (C)	24000
+Port Macquarie-Hastings (A)	20052
+Port Stephens (A)	20796
+Queanbeyan-Palerang Regional (A)	25200
+Randwick (C)	31200
+Richmond Valley (A)	15600
+Rockdale (C)	26004
+Ryde (C)	26400
+Shellharbour (C)	22152
+Shoalhaven (C)	18204
+Singleton (A)	23400
+Snowy Monaro Regional (A)	15600
+Snowy Valleys (A)	15600
+Strathfield (A)	26004
+Sutherland Shire (A)	29124
+Sydney (C)	29988
+Tamworth Regional (A)	18000
+Temora (A)	13776
+Tenterfield (A)	12948
+The Hills Shire (A)	30000
+Tweed (A)	20796
+Upper Hunter Shire (A)	20256
+Upper Lachlan Shire (A)	16800
+Uralla (A)	16152
+Wagga Wagga (C)	18204
+Walcha (A)	12996
+Walgett (A)	9000
+Warren (A)	10788
+Warrumbungle Shire (A)	11076
+Waverley (A)	36000
+Weddin (A)	10920
+Wentworth (A)	14400
+Western Plains Regional (A)	18000
+Willoughby (C)	34524
+Wingecarribee (A)	22104
+Wollondilly (A)	26004
+Wollongong (C)	23400
+Woollahra (A)	38400
+Yass Valley (A)	24000
+Unincorporated NSW	12996
+No usual address (NSW)	
+Migratory - Offshore - Shipping (NSW)	
+Alpine (S)	15600
+Ararat (RC)	12264
+Ballarat (C)	16200
+Banyule (C)	23400
+Bass Coast (S)	15780
+Baw Baw (S)	17580
+Bayside (C)	30000
+Benalla (RC)	14304
+Boroondara (C)	30000
+Brimbank (C)	19188
+Buloke (S)	8316
+Campaspe (S)	15600
+Cardinia (S)	20796
+Casey (C)	20796
+Central Goldfields (S)	11700
+Colac-Otway (S)	15600
+Corangamite (S)	12996
+Darebin (C)	23400
+East Gippsland (S)	15516
+Frankston (C)	19452
+Gannawarra (S)	11724
+Glen Eira (C)	25716
+Glenelg (S)	12996
+Golden Plains (S)	18600
+Greater Bendigo (C)	16644
+Greater Dandenong (C)	19200
+Greater Geelong (C)	18204
+Greater Shepparton (C)	15600
+Hepburn (S)	15600
+Hindmarsh (S)	9360
+Hobsons Bay (C)	22800
+Horsham (RC)	14400
+Hume (C)	19800
+Indigo (S)	16800
+Kingston (C) (Vic.)	23916
+Knox (C)	20796
+Latrobe (C) (Vic.)	14400
+Loddon (S)	9708
+Macedon Ranges (S)	20796
+Manningham (C)	24600
+Mansfield (S)	16224
+Maribyrnong (C)	24000
+Maroondah (C)	21600
+Melbourne (C)	24000
+Melton (C)	20448
+Mildura (RC)	14400
+Mitchell (S)	18984
+Moira (S)	14820
+Monash (C)	24000
+Moonee Valley (C)	24000
+Moorabool (S)	18708
+Moreland (C)	23400
+Mornington Peninsula (S)	20796
+Mount Alexander (S)	15600
+Moyne (S)	15600
+Murrindindi (S)	16800
+Nillumbik (S)	24000
+Northern Grampians (S)	11436
+Port Phillip (C)	26004
+Pyrenees (S)	12792
+Queenscliffe (B)	19476
+South Gippsland (S)	15600
+Southern Grampians (S)	12984
+Stonnington (C)	26400
+Strathbogie (S)	14040
+Surf Coast (S)	22104
+Swan Hill (RC)	13560
+Towong (S)	12996
+Wangaratta (RC)	15600
+Warrnambool (C)	17160
+Wellington (S)	15600
+West Wimmera (S)	7884
+Whitehorse (C)	24000
+Whittlesea (C)	21576
+Wodonga (C)	17160
+Wyndham (C)	20796
+Yarra (C)	26004
+Yarra Ranges (S)	20796
+Yarriambiack (S)	7980
+Unincorporated Vic	9300
+No usual address (Vic.)	
+Migratory - Offshore - Shipping (Vic.)	
+Aurukun (S)	
+Balonne (S)	13932
+Banana (S)	18204
+Barcaldine (R)	12480
+Barcoo (S)	4056
+Blackall-Tambo (R)	10200
+Boulia (S)	10404
+Brisbane (C)	24000
+Bulloo (S)	8580
+Bundaberg (R)	15864
+Burdekin (S)	15600
+Burke (S)	
+Cairns (R)	19980
+Carpentaria (S)	11988
+Cassowary Coast (R)	15600
+Central Highlands (R) (Qld)	22104
+Charters Towers (R)	15600
+Cherbourg (S)	
+Cloncurry (S)	18120
+Cook (S)	15060
+Croydon (S)	
+Diamantina (S)	18000
+Doomadgee (S)	
+Douglas (S)	18720
+Etheridge (S)	7968
+Flinders (S) (Qld)	9360
+Fraser Coast (R)	15600
+Gladstone (R)	23400
+Gold Coast (C)	23400
+Goondiwindi (R)	15600
+Gympie (R)	15600
+Hinchinbrook (S)	15600
+Hope Vale (S)	14580
+Ipswich (C)	19200
+Isaac (R)	18252
+Kowanyama (S)	
+Livingstone (S)	22500
+Lockhart River (S)	
+Lockyer Valley (R)	18204
+Logan (C)	20796
+Longreach (R)	15600
+Mackay (R)	23400
+McKinlay (S)	8028
+Mapoon (S)	
+Maranoa (R)	16800
+Mareeba (S)	18204
+Moreton Bay (R)	21372
+Mornington (S)	
+Mount Isa (C)	22620
+Murweh (S)	11964
+Napranum (S)	
+Noosa (S)	20796
+North Burnett (R)	12996
+Northern Peninsula Area (R)	
+Palm Island (S)	
+Paroo (S)	5976
+Pormpuraaw (S)	10404
+Quilpie (S)	8676
+Redland (C)	23400
+Richmond (S)	8520
+Rockhampton (R)	18204
+Scenic Rim (R)	20040
+Somerset (R)	18000
+South Burnett (R)	13908
+Southern Downs (R)	15600
+Sunshine Coast (R)	21600
+Tablelands (R)	16224
+Toowoomba (R)	18204
+Torres (S)	20460
+Torres Strait Island (R)	
+Townsville (C)	20796
+Weipa (T)	26400
+Western Downs (R)	16800
+Whitsunday (R)	20796
+Winton (S)	12000
+Woorabinda (S)	
+Wujal Wujal (S)	
+Yarrabah (S)	
+No usual address (Qld)	
+Migratory - Offshore - Shipping (Qld)	
+Adelaide (C)	20796
+Adelaide Hills (DC)	20796
+Alexandrina (DC)	16116
+Anangu Pitjantjatjara (AC)	
+Barossa (DC)	17676
+Barunga West (DC)	10500
+Berri and Barmera (DC)	12996
+Burnside (C)	24000
+Campbelltown (C) (SA)	20280
+Ceduna (DC)	15600
+Charles Sturt (C)	20400
+Clare and Gilbert Valleys (DC)	15600
+Cleve (DC)	10404
+Coober Pedy (DC)	6672
+Copper Coast (DC)	13932
+Elliston (DC)	9600
+Flinders Ranges (DC)	10800
+Franklin Harbour (DC)	14400
+Gawler (T)	16800
+Goyder (DC)	10404
+Grant (DC)	15600
+Holdfast Bay (C)	21264
+Kangaroo Island (DC)	12996
+Karoonda East Murray (DC)	7800
+Kimba (DC)	9876
+Kingston (DC) (SA)	12696
+Light (RegC)	17424
+Lower Eyre Peninsula (DC)	16104
+Loxton Waikerie (DC)	12480
+Mallala (DC)	17160
+Maralinga Tjarutja (AC)	
+Marion (C)	19500
+Mid Murray (DC)	12000
+Mitcham (C)	22104
+Mount Barker (DC)	19392
+Mount Gambier (C)	14064
+Mount Remarkable (DC)	10680
+Murray Bridge (RC)	14196
+Naracoorte and Lucindale (DC)	12996
+Northern Areas (DC)	10404
+Norwood Payneham St Peters (C)	21600
+Onkaparinga (C)	17364
+Orroroo/Carrieton (DC)	9840
+Peterborough (DC)	6756
+Playford (C)	15600
+Port Adelaide Enfield (C)	18720
+Port Augusta (C)	14556
+Port Lincoln (C)	15600
+Port Pirie City and Dists (M)	12012
+Prospect (C)	22356
+Renmark Paringa (DC)	12996
+Robe (DC)	14820
+Roxby Downs (M)	24000
+Salisbury (C)	16284
+Southern Mallee (DC)	7800
+Streaky Bay (DC)	12996
+Tatiara (DC)	11700
+Tea Tree Gully (C)	18204
+The Coorong (DC)	10404
+Tumby Bay (DC)	14040
+Unley (C)	24000
+Victor Harbor (C)	15600
+Wakefield (DC)	11004
+Walkerville (M)	24000
+Wattle Range (DC)	11436
+West Torrens (C)	20400
+Whyalla (C)	14820
+Wudinna (DC)	9600
+Yankalilla (DC)	15084
+Yorke Peninsula (DC)	12000
+Unincorporated SA	7680
+No usual address (SA)	
+Migratory - Offshore - Shipping (SA)	
+Albany (C)	19200
+Armadale (C)	23400
+Ashburton (S)	24000
+Augusta-Margaret River (S)	20796
+Bassendean (T)	23064
+Bayswater (C)	24000
+Belmont (C)	23400
+Beverley (S)	14040
+Boddington (S)	20796
+Boyup Brook (S)	15600
+Bridgetown-Greenbushes (S)	18204
+Brookton (S)	13080
+Broome (S)	30876
+Broomehill-Tambellup (S)	9600
+Bruce Rock (S)	9600
+Bunbury (C)	19200
+Busselton (C)	22356
+Cambridge (T)	33600
+Canning (C)	23400
+Capel (S)	23400
+Carnamah (S)	8844
+Carnarvon (S)	18204
+Chapman Valley (S)	26004
+Chittering (S)	26004
+Claremont (T)	31200
+Cockburn (C)	24696
+Collie (S)	18204
+Coolgardie (S)	12996
+Coorow (S)	16800
+Corrigin (S)	12000
+Cottesloe (T)	39000
+Cranbrook (S)	10536
+Cuballing (S)	14712
+Cue (S)	9300
+Cunderdin (S)	11940
+Dalwallinu (S)	11352
+Dandaragan (S)	20400
+Dardanup (S)	22356
+Denmark (S)	18876
+Derby-West Kimberley (S)	20796
+Donnybrook-Balingup (S)	18492
+Dowerin (S)	10404
+Dumbleyung (S)	7020
+Dundas (S)	7248
+East Fremantle (T)	30000
+East Pilbara (S)	5484
+Esperance (S)	20148
+Exmouth (S)	26004
+Fremantle (C)	26004
+Gingin (S)	20796
+Gnowangerup (S)	9288
+Goomalling (S)	13260
+Gosnells (C)	21600
+Greater Geraldton (C)	20796
+Halls Creek (S)	11772
+Harvey (S)	22104
+Irwin (S)	20796
+Jerramungup (S)	10788
+Joondalup (C)	25200
+Kalamunda (S)	24000
+Kalgoorlie/Boulder (C)	21600
+Karratha (C)	31200
+Katanning (S)	13608
+Kellerberrin (S)	10404
+Kent (S)	4944
+Kojonup (S)	12996
+Kondinin (S)	9312
+Koorda (S)	6504
+Kulin (S)	7800
+Kwinana (C)	21756
+Lake Grace (S)	12000
+Laverton (S)	8148
+Leonora (S)	10404
+Mandurah (C)	21840
+Manjimup (S)	15600
+Meekatharra (S)	7200
+Melville (C)	26004
+Menzies (S)	
+Merredin (S)	13524
+Mingenew (S)	8400
+Moora (S)	13200
+Morawa (S)	6504
+Mosman Park (T)	32400
+Mount Magnet (S)	5304
+Mount Marshall (S)	5988
+Mukinbudin (S)	7284
+Mundaring (S)	24000
+Murchison (S)	
+Murray (S)	22356
+Nannup (S)	16896
+Narembeen (S)	7500
+Narrogin (S)	14400
+Nedlands (C)	39000
+Ngaanyatjarraku (S)	
+Northam (S)	16896
+Northampton (S)	18204
+Nungarin (S)	9096
+Peppermint Grove (S)	33804
+Perenjori (S)	9600
+Perth (C)	25812
+Pingelly (S)	12888
+Plantagenet (S)	14664
+Port Hedland (T)	32316
+Quairading (S)	12024
+Ravensthorpe (S)	14400
+Rockingham (C)	23400
+Sandstone (S)	
+Serpentine-Jarrahdale (S)	25740
+Shark Bay (S)	16560
+South Perth (C)	26076
+Stirling (C)	24000
+Subiaco (C)	30000
+Swan (C)	24000
+Tammin (S)	10404
+Three Springs (S)	7128
+Toodyay (S)	19200
+Trayning (S)	6120
+Upper Gascoyne (S)	
+Victoria Park (T)	24444
+Victoria Plains (S)	10404
+Vincent (C)	27300
+Wagin (S)	12000
+Wandering (S)	20016
+Wanneroo (C)	24696
+Waroona (S)	19632
+West Arthur (S)	9600
+Westonia (S)	12228
+Wickepin (S)	9204
+Williams (S)	14676
+Wiluna (S)	
+Wongan-Ballidu (S)	12996
+Woodanilling (S)	9804
+Wyalkatchem (S)	7248
+Wyndham-East Kimberley (S)	26004
+Yalgoo (S)	3900
+Yilgarn (S)	9480
+York (S)	18000
+No usual address (WA)	
+Migratory - Offshore - Shipping (WA)	
+Break O'Day (M)	10920
+Brighton (M)	15600
+Burnie (C)	12996
+Central Coast (M) (Tas.)	14556
+Central Highlands (M) (Tas.)	10404
+Circular Head (M)	12996
+Clarence (C)	17424
+Derwent Valley (M)	13776
+Devonport (C)	14400
+Dorset (M)	12240
+Flinders (M) (Tas.)	9096
+George Town (M)	12996
+Glamorgan/Spring Bay (M)	12996
+Glenorchy (C)	15600
+Hobart (C)	19764
+Huon Valley (M)	15600
+Kentish (M)	12996
+King Island (M)	12000
+Kingborough (M)	18204
+Latrobe (M) (Tas.)	15600
+Launceston (C)	15492
+Meander Valley (M)	15600
+Northern Midlands (M)	15600
+Sorell (M)	15600
+Southern Midlands (M)	14304
+Tasman (M)	10920
+Waratah/Wynyard (M)	14040
+West Coast (M)	8076
+West Tamar (M)	15600
+No usual address (Tas.)	
+Migratory - Offshore - Shipping (Tas.)	
+Alice Springs (T)	23400
+Barkly (R)	14400
+Belyuen (S)	
+Central Desert (R)	12480
+Coomalie (S)	16176
+Darwin (C)	26004
+East Arnhem (R)	
+Katherine (T)	20796
+Litchfield (M)	28800
+MacDonnell (R)	
+Palmerston (C)	27036
+Roper Gulf (R)	15336
+Tiwi Islands (R)	
+Victoria Daly (R)	18204
+Wagait (S)	20796
+West Arnhem (R)	30600
+West Daly (R)	4260
+Unincorporated NT	18600
+No usual address (NT)	
+Migratory - Offshore - Shipping (NT)	
+Unincorporated ACT	24696
+No usual address (ACT)	
+Migratory - Offshore - Shipping (ACT)	
+Unincorp. Other Territories	16800
+No usual address (OT)	
+Migratory - Offshore - Shipping (OT)	

@@ -1,0 +1,2251 @@
+CED_NAME16	CoupleFamily	HasChild	HasDependentStudent	HasNonDependentChild	persons_in_families
+Banks					1901
+Banks	0	0	0	1	6662
+Banks	0	0	1	0	1992
+Banks	0	0	1	1	1234
+Banks	0	1	0	0	4988
+Banks	0	1	0	1	695
+Banks	0	1	1	0	1417
+Banks	0	1	1	1	401
+Banks	1	0	0	1	14676
+Banks	1	0	1	0	7473
+Banks	1	0	1	1	5674
+Banks	1	1	0	0	40329
+Banks	1	1	0	1	2066
+Banks	1	1	1	0	8911
+Banks	1	1	1	1	1657
+Barton					2423
+Barton	0	0	0	1	6876
+Barton	0	0	1	0	1886
+Barton	0	0	1	1	1054
+Barton	0	1	0	0	5085
+Barton	0	1	0	1	597
+Barton	0	1	1	0	1203
+Barton	0	1	1	1	344
+Barton	1	0	0	1	14076
+Barton	1	0	1	0	6190
+Barton	1	0	1	1	5249
+Barton	1	1	0	0	42175
+Barton	1	1	0	1	2063
+Barton	1	1	1	0	8100
+Barton	1	1	1	1	1583
+Bennelong					2025
+Bennelong	0	0	0	1	5298
+Bennelong	0	0	1	0	1973
+Bennelong	0	0	1	1	857
+Bennelong	0	1	0	0	4189
+Bennelong	0	1	0	1	307
+Bennelong	0	1	1	0	1030
+Bennelong	0	1	1	1	131
+Bennelong	1	0	0	1	13148
+Bennelong	1	0	1	0	9002
+Bennelong	1	0	1	1	5951
+Bennelong	1	1	0	0	46857
+Bennelong	1	1	0	1	1179
+Bennelong	1	1	1	0	8871
+Bennelong	1	1	1	1	963
+Berowra					820
+Berowra	0	0	0	1	3987
+Berowra	0	0	1	0	1229
+Berowra	0	0	1	1	1084
+Berowra	0	1	0	0	2778
+Berowra	0	1	0	1	295
+Berowra	0	1	1	0	1158
+Berowra	0	1	1	1	163
+Berowra	1	0	0	1	14988
+Berowra	1	0	1	0	10074
+Berowra	1	0	1	1	7631
+Berowra	1	1	0	0	41764
+Berowra	1	1	0	1	1572
+Berowra	1	1	1	0	11772
+Berowra	1	1	1	1	1948
+Blaxland					2176
+Blaxland	0	0	0	1	7300
+Blaxland	0	0	1	0	1907
+Blaxland	0	0	1	1	1538
+Blaxland	0	1	0	0	7345
+Blaxland	0	1	0	1	1129
+Blaxland	0	1	1	0	2226
+Blaxland	0	1	1	1	914
+Blaxland	1	0	0	1	15763
+Blaxland	1	0	1	0	5930
+Blaxland	1	0	1	1	6317
+Blaxland	1	1	0	0	45885
+Blaxland	1	1	0	1	3200
+Blaxland	1	1	1	0	12623
+Blaxland	1	1	1	1	3931
+Bradfield					1267
+Bradfield	0	0	0	1	3846
+Bradfield	0	0	1	0	2174
+Bradfield	0	0	1	1	874
+Bradfield	0	1	0	0	3496
+Bradfield	0	1	0	1	200
+Bradfield	0	1	1	0	1297
+Bradfield	0	1	1	1	120
+Bradfield	1	0	0	1	10725
+Bradfield	1	0	1	0	11500
+Bradfield	1	0	1	1	6157
+Bradfield	1	1	0	0	50095
+Bradfield	1	1	0	1	975
+Bradfield	1	1	1	0	12382
+Bradfield	1	1	1	1	1193
+Calare					1057
+Calare	0	0	0	1	4758
+Calare	0	0	1	0	1285
+Calare	0	0	1	1	621
+Calare	0	1	0	0	8617
+Calare	0	1	0	1	960
+Calare	0	1	1	0	1874
+Calare	0	1	1	1	435
+Calare	1	0	0	1	9024
+Calare	1	0	1	0	3783
+Calare	1	0	1	1	2671
+Calare	1	1	0	0	37317
+Calare	1	1	0	1	2337
+Calare	1	1	1	0	8085
+Calare	1	1	1	1	1618
+Chifley					1808
+Chifley	0	0	0	1	8000
+Chifley	0	0	1	0	1577
+Chifley	0	0	1	1	1624
+Chifley	0	1	0	0	10760
+Chifley	0	1	0	1	2170
+Chifley	0	1	1	0	2749
+Chifley	0	1	1	1	1245
+Chifley	1	0	0	1	15913
+Chifley	1	0	1	0	5913
+Chifley	1	0	1	1	6725
+Chifley	1	1	0	0	45597
+Chifley	1	1	0	1	4160
+Chifley	1	1	1	0	11738
+Chifley	1	1	1	1	3786
+Cook					1188
+Cook	0	0	0	1	5185
+Cook	0	0	1	0	1304
+Cook	0	0	1	1	887
+Cook	0	1	0	0	4191
+Cook	0	1	0	1	439
+Cook	0	1	1	0	1054
+Cook	0	1	1	1	141
+Cook	1	0	0	1	12209
+Cook	1	0	1	0	5766
+Cook	1	0	1	1	5182
+Cook	1	1	0	0	36068
+Cook	1	1	0	1	1488
+Cook	1	1	1	0	7643
+Cook	1	1	1	1	1477
+Cowper					1083
+Cowper	0	0	0	1	5870
+Cowper	0	0	1	0	1534
+Cowper	0	0	1	1	766
+Cowper	0	1	0	0	9592
+Cowper	0	1	0	1	1183
+Cowper	0	1	1	0	2329
+Cowper	0	1	1	1	473
+Cowper	1	0	0	1	8514
+Cowper	1	0	1	0	3535
+Cowper	1	0	1	1	2193
+Cowper	1	1	0	0	29668
+Cowper	1	1	0	1	2030
+Cowper	1	1	1	0	7067
+Cowper	1	1	1	1	1298
+Cunningham					1397
+Cunningham	0	0	0	1	5754
+Cunningham	0	0	1	0	1620
+Cunningham	0	0	1	1	974
+Cunningham	0	1	0	0	5830
+Cunningham	0	1	0	1	719
+Cunningham	0	1	1	0	1659
+Cunningham	0	1	1	1	305
+Cunningham	1	0	0	1	11087
+Cunningham	1	0	1	0	5533
+Cunningham	1	0	1	1	4465
+Cunningham	1	1	0	0	36722
+Cunningham	1	1	0	1	1769
+Cunningham	1	1	1	0	7460
+Cunningham	1	1	1	1	1548
+Dobell					1198
+Dobell	0	0	0	1	6623
+Dobell	0	0	1	0	1507
+Dobell	0	0	1	1	1017
+Dobell	0	1	0	0	9032
+Dobell	0	1	0	1	1323
+Dobell	0	1	1	0	2053
+Dobell	0	1	1	1	598
+Dobell	1	0	0	1	11300
+Dobell	1	0	1	0	4111
+Dobell	1	0	1	1	3984
+Dobell	1	1	0	0	35085
+Dobell	1	1	0	1	3019
+Dobell	1	1	1	0	7709
+Dobell	1	1	1	1	1940
+Eden-Monaro					853
+Eden-Monaro	0	0	0	1	3967
+Eden-Monaro	0	0	1	0	1083
+Eden-Monaro	0	0	1	1	551
+Eden-Monaro	0	1	0	0	5938
+Eden-Monaro	0	1	0	1	600
+Eden-Monaro	0	1	1	0	1176
+Eden-Monaro	0	1	1	1	273
+Eden-Monaro	1	0	0	1	8801
+Eden-Monaro	1	0	1	0	4296
+Eden-Monaro	1	0	1	1	2846
+Eden-Monaro	1	1	0	0	33892
+Eden-Monaro	1	1	0	1	1992
+Eden-Monaro	1	1	1	0	7700
+Eden-Monaro	1	1	1	1	1380
+Farrer					1101
+Farrer	0	0	0	1	4431
+Farrer	0	0	1	0	1091
+Farrer	0	0	1	1	551
+Farrer	0	1	0	0	7723
+Farrer	0	1	0	1	902
+Farrer	0	1	1	0	1637
+Farrer	0	1	1	1	370
+Farrer	1	0	0	1	9089
+Farrer	1	0	1	0	3722
+Farrer	1	0	1	1	2967
+Farrer	1	1	0	0	36786
+Farrer	1	1	0	1	2408
+Farrer	1	1	1	0	7942
+Farrer	1	1	1	1	1762
+Fowler					2242
+Fowler	0	0	0	1	9061
+Fowler	0	0	1	0	2475
+Fowler	0	0	1	1	1877
+Fowler	0	1	0	0	8998
+Fowler	0	1	0	1	1404
+Fowler	0	1	1	0	2647
+Fowler	0	1	1	1	717
+Fowler	1	0	0	1	18159
+Fowler	1	0	1	0	6769
+Fowler	1	0	1	1	7369
+Fowler	1	1	0	0	36402
+Fowler	1	1	0	1	3145
+Fowler	1	1	1	0	10721
+Fowler	1	1	1	1	3099
+Gilmore					913
+Gilmore	0	0	0	1	4994
+Gilmore	0	0	1	0	1205
+Gilmore	0	0	1	1	700
+Gilmore	0	1	0	0	7196
+Gilmore	0	1	0	1	944
+Gilmore	0	1	1	0	1532
+Gilmore	0	1	1	1	367
+Gilmore	1	0	0	1	9117
+Gilmore	1	0	1	0	3494
+Gilmore	1	0	1	1	2356
+Gilmore	1	1	0	0	27864
+Gilmore	1	1	0	1	2152
+Gilmore	1	1	1	0	6175
+Gilmore	1	1	1	1	1411
+Grayndler					1855
+Grayndler	0	0	0	1	4420
+Grayndler	0	0	1	0	1471
+Grayndler	0	0	1	1	591
+Grayndler	0	1	0	0	3955
+Grayndler	0	1	0	1	284
+Grayndler	0	1	1	0	802
+Grayndler	0	1	1	1	74
+Grayndler	1	0	0	1	6671
+Grayndler	1	0	1	0	4126
+Grayndler	1	0	1	1	2129
+Grayndler	1	1	0	0	38180
+Grayndler	1	1	0	1	639
+Grayndler	1	1	1	0	4638
+Grayndler	1	1	1	1	403
+Greenway					1411
+Greenway	0	0	0	1	5746
+Greenway	0	0	1	0	1557
+Greenway	0	0	1	1	1101
+Greenway	0	1	0	0	5746
+Greenway	0	1	0	1	798
+Greenway	0	1	1	0	1788
+Greenway	0	1	1	1	400
+Greenway	1	0	0	1	14245
+Greenway	1	0	1	0	7435
+Greenway	1	0	1	1	6171
+Greenway	1	1	0	0	59189
+Greenway	1	1	0	1	2900
+Greenway	1	1	1	0	11774
+Greenway	1	1	1	1	2204
+Hughes					922
+Hughes	0	0	0	1	4524
+Hughes	0	0	1	0	1283
+Hughes	0	0	1	1	1078
+Hughes	0	1	0	0	4225
+Hughes	0	1	0	1	450
+Hughes	0	1	1	0	1117
+Hughes	0	1	1	1	261
+Hughes	1	0	0	1	15017
+Hughes	1	0	1	0	6504
+Hughes	1	0	1	1	6399
+Hughes	1	1	0	0	44655
+Hughes	1	1	0	1	2127
+Hughes	1	1	1	0	9397
+Hughes	1	1	1	1	1784
+Hume					900
+Hume	0	0	0	1	4569
+Hume	0	0	1	0	1160
+Hume	0	0	1	1	713
+Hume	0	1	0	0	6199
+Hume	0	1	0	1	941
+Hume	0	1	1	0	1642
+Hume	0	1	1	1	454
+Hume	1	0	0	1	13060
+Hume	1	0	1	0	4328
+Hume	1	0	1	1	4390
+Hume	1	1	0	0	40325
+Hume	1	1	0	1	4035
+Hume	1	1	1	0	8621
+Hume	1	1	1	1	2451
+Hunter					1065
+Hunter	0	0	0	1	5553
+Hunter	0	0	1	0	1261
+Hunter	0	0	1	1	792
+Hunter	0	1	0	0	9281
+Hunter	0	1	0	1	1131
+Hunter	0	1	1	0	1785
+Hunter	0	1	1	1	421
+Hunter	1	0	0	1	11649
+Hunter	1	0	1	0	3856
+Hunter	1	0	1	1	3628
+Hunter	1	1	0	0	35794
+Hunter	1	1	0	1	3064
+Hunter	1	1	1	0	7766
+Hunter	1	1	1	1	1702
+Kingsford Smith					2718
+Kingsford Smith	0	0	0	1	5806
+Kingsford Smith	0	0	1	0	1752
+Kingsford Smith	0	0	1	1	798
+Kingsford Smith	0	1	0	0	4851
+Kingsford Smith	0	1	0	1	522
+Kingsford Smith	0	1	1	0	981
+Kingsford Smith	0	1	1	1	256
+Kingsford Smith	1	0	0	1	10509
+Kingsford Smith	1	0	1	0	5705
+Kingsford Smith	1	0	1	1	3956
+Kingsford Smith	1	1	0	0	40722
+Kingsford Smith	1	1	0	1	1326
+Kingsford Smith	1	1	1	0	6948
+Kingsford Smith	1	1	1	1	921
+Lindsay					1478
+Lindsay	0	0	0	1	7205
+Lindsay	0	0	1	0	1523
+Lindsay	0	0	1	1	1104
+Lindsay	0	1	0	0	9727
+Lindsay	0	1	0	1	1266
+Lindsay	0	1	1	0	1979
+Lindsay	0	1	1	1	676
+Lindsay	1	0	0	1	14373
+Lindsay	1	0	1	0	4516
+Lindsay	1	0	1	1	5113
+Lindsay	1	1	0	0	43518
+Lindsay	1	1	0	1	3863
+Lindsay	1	1	1	0	9031
+Lindsay	1	1	1	1	2657
+Lyne					930
+Lyne	0	0	0	1	4958
+Lyne	0	0	1	0	1164
+Lyne	0	0	1	1	616
+Lyne	0	1	0	0	7389
+Lyne	0	1	0	1	933
+Lyne	0	1	1	0	1770
+Lyne	0	1	1	1	390
+Lyne	1	0	0	1	9010
+Lyne	1	0	1	0	3488
+Lyne	1	0	1	1	2328
+Lyne	1	1	0	0	26188
+Lyne	1	1	0	1	2195
+Lyne	1	1	1	0	6759
+Lyne	1	1	1	1	1360
+Macarthur					1379
+Macarthur	0	0	0	1	7057
+Macarthur	0	0	1	0	1419
+Macarthur	0	0	1	1	1294
+Macarthur	0	1	0	0	9685
+Macarthur	0	1	0	1	1564
+Macarthur	0	1	1	0	2308
+Macarthur	0	1	1	1	870
+Macarthur	1	0	0	1	15822
+Macarthur	1	0	1	0	4933
+Macarthur	1	0	1	1	5368
+Macarthur	1	1	0	0	42990
+Macarthur	1	1	0	1	4235
+Macarthur	1	1	1	0	9777
+Macarthur	1	1	1	1	3159
+Mackellar					867
+Mackellar	0	0	0	1	4352
+Mackellar	0	0	1	0	1297
+Mackellar	0	0	1	1	920
+Mackellar	0	1	0	0	3650
+Mackellar	0	1	0	1	355
+Mackellar	0	1	1	0	1025
+Mackellar	0	1	1	1	166
+Mackellar	1	0	0	1	11586
+Mackellar	1	0	1	0	6591
+Mackellar	1	0	1	1	5260
+Mackellar	1	1	0	0	43765
+Mackellar	1	1	0	1	1628
+Mackellar	1	1	1	0	9006
+Mackellar	1	1	1	1	1353
+Macquarie					852
+Macquarie	0	0	0	1	4886
+Macquarie	0	0	1	0	1344
+Macquarie	0	0	1	1	824
+Macquarie	0	1	0	0	5702
+Macquarie	0	1	0	1	733
+Macquarie	0	1	1	0	1527
+Macquarie	0	1	1	1	298
+Macquarie	1	0	0	1	11888
+Macquarie	1	0	1	0	4782
+Macquarie	1	0	1	1	4112
+Macquarie	1	1	0	0	34577
+Macquarie	1	1	0	1	2760
+Macquarie	1	1	1	0	8101
+Macquarie	1	1	1	1	2053
+McMahon					1896
+McMahon	0	0	0	1	8343
+McMahon	0	0	1	0	1656
+McMahon	0	0	1	1	1431
+McMahon	0	1	0	0	7349
+McMahon	0	1	0	1	1122
+McMahon	0	1	1	0	2059
+McMahon	0	1	1	1	870
+McMahon	1	0	0	1	18658
+McMahon	1	0	1	0	5692
+McMahon	1	0	1	1	7055
+McMahon	1	1	0	0	43707
+McMahon	1	1	0	1	3759
+McMahon	1	1	1	0	10800
+McMahon	1	1	1	1	3711
+Mitchell					825
+Mitchell	0	0	0	1	4066
+Mitchell	0	0	1	0	1381
+Mitchell	0	0	1	1	860
+Mitchell	0	1	0	0	3577
+Mitchell	0	1	0	1	381
+Mitchell	0	1	1	0	1191
+Mitchell	0	1	1	1	233
+Mitchell	1	0	0	1	15301
+Mitchell	1	0	1	0	8810
+Mitchell	1	0	1	1	7239
+Mitchell	1	1	0	0	52075
+Mitchell	1	1	0	1	2142
+Mitchell	1	1	1	0	12042
+Mitchell	1	1	1	1	1922
+New England					1203
+New England	0	0	0	1	4676
+New England	0	0	1	0	1109
+New England	0	0	1	1	529
+New England	0	1	0	0	8880
+New England	0	1	0	1	974
+New England	0	1	1	0	1873
+New England	0	1	1	1	464
+New England	1	0	0	1	7888
+New England	1	0	1	0	3363
+New England	1	0	1	1	2113
+New England	1	1	0	0	32702
+New England	1	1	0	1	2246
+New England	1	1	1	0	7005
+New England	1	1	1	1	1524
+Newcastle					1633
+Newcastle	0	0	0	1	5541
+Newcastle	0	0	1	0	1690
+Newcastle	0	0	1	1	790
+Newcastle	0	1	0	0	6789
+Newcastle	0	1	0	1	772
+Newcastle	0	1	1	0	1546
+Newcastle	0	1	1	1	361
+Newcastle	1	0	0	1	8601
+Newcastle	1	0	1	0	4482
+Newcastle	1	0	1	1	2960
+Newcastle	1	1	0	0	34968
+Newcastle	1	1	0	1	1683
+Newcastle	1	1	1	0	6702
+Newcastle	1	1	1	1	970
+North Sydney					1701
+North Sydney	0	0	0	1	3545
+North Sydney	0	0	1	0	1837
+North Sydney	0	0	1	1	597
+North Sydney	0	1	0	0	3736
+North Sydney	0	1	0	1	152
+North Sydney	0	1	1	0	812
+North Sydney	0	1	1	1	63
+North Sydney	1	0	0	1	7079
+North Sydney	1	0	1	0	7339
+North Sydney	1	0	1	1	3454
+North Sydney	1	1	0	0	45107
+North Sydney	1	1	0	1	616
+North Sydney	1	1	1	0	6840
+North Sydney	1	1	1	1	461
+Page					1277
+Page	0	0	0	1	5539
+Page	0	0	1	0	1536
+Page	0	0	1	1	854
+Page	0	1	0	0	9237
+Page	0	1	0	1	1082
+Page	0	1	1	0	2021
+Page	0	1	1	1	522
+Page	1	0	0	1	9554
+Page	1	0	1	0	3772
+Page	1	0	1	1	2396
+Page	1	1	0	0	30261
+Page	1	1	0	1	2425
+Page	1	1	1	0	7597
+Page	1	1	1	1	1494
+Parkes					1450
+Parkes	0	0	0	1	5146
+Parkes	0	0	1	0	988
+Parkes	0	0	1	1	552
+Parkes	0	1	0	0	10464
+Parkes	0	1	0	1	1353
+Parkes	0	1	1	0	1839
+Parkes	0	1	1	1	505
+Parkes	1	0	0	1	8441
+Parkes	1	0	1	0	2690
+Parkes	1	0	1	1	2008
+Parkes	1	1	0	0	33220
+Parkes	1	1	0	1	2203
+Parkes	1	1	1	0	6382
+Parkes	1	1	1	1	1332
+Parramatta					2478
+Parramatta	0	0	0	1	6341
+Parramatta	0	0	1	0	1881
+Parramatta	0	0	1	1	1143
+Parramatta	0	1	0	0	5605
+Parramatta	0	1	0	1	590
+Parramatta	0	1	1	0	1456
+Parramatta	0	1	1	1	398
+Parramatta	1	0	0	1	12149
+Parramatta	1	0	1	0	6702
+Parramatta	1	0	1	1	5277
+Parramatta	1	1	0	0	58532
+Parramatta	1	1	0	1	1976
+Parramatta	1	1	1	0	8841
+Parramatta	1	1	1	1	1942
+Paterson					1194
+Paterson	0	0	0	1	5668
+Paterson	0	0	1	0	1243
+Paterson	0	0	1	1	894
+Paterson	0	1	0	0	9428
+Paterson	0	1	0	1	1098
+Paterson	0	1	1	0	1920
+Paterson	0	1	1	1	556
+Paterson	1	0	0	1	11049
+Paterson	1	0	1	0	3872
+Paterson	1	0	1	1	3386
+Paterson	1	1	0	0	35941
+Paterson	1	1	0	1	2819
+Paterson	1	1	1	0	7828
+Paterson	1	1	1	1	1793
+Reid					2577
+Reid	0	0	0	1	5504
+Reid	0	0	1	0	2173
+Reid	0	0	1	1	846
+Reid	0	1	0	0	4300
+Reid	0	1	0	1	311
+Reid	0	1	1	0	1078
+Reid	0	1	1	1	123
+Reid	1	0	0	1	12313
+Reid	1	0	1	0	7557
+Reid	1	0	1	1	5347
+Reid	1	1	0	0	44452
+Reid	1	1	0	1	1058
+Reid	1	1	1	0	7781
+Reid	1	1	1	1	1092
+Richmond					1039
+Richmond	0	0	0	1	5537
+Richmond	0	0	1	0	1725
+Richmond	0	0	1	1	807
+Richmond	0	1	0	0	7334
+Richmond	0	1	0	1	831
+Richmond	0	1	1	0	1766
+Richmond	0	1	1	1	335
+Richmond	1	0	0	1	8415
+Richmond	1	0	1	0	3796
+Richmond	1	0	1	1	2397
+Richmond	1	1	0	0	30779
+Richmond	1	1	0	1	1798
+Richmond	1	1	1	0	6453
+Richmond	1	1	1	1	1151
+Riverina					1244
+Riverina	0	0	0	1	4642
+Riverina	0	0	1	0	1136
+Riverina	0	0	1	1	609
+Riverina	0	1	0	0	8226
+Riverina	0	1	0	1	943
+Riverina	0	1	1	0	1874
+Riverina	0	1	1	1	414
+Riverina	1	0	0	1	8670
+Riverina	1	0	1	0	3354
+Riverina	1	0	1	1	2459
+Riverina	1	1	0	0	34673
+Riverina	1	1	0	1	2524
+Riverina	1	1	1	0	7960
+Riverina	1	1	1	1	1782
+Robertson					1067
+Robertson	0	0	0	1	5803
+Robertson	0	0	1	0	1477
+Robertson	0	0	1	1	971
+Robertson	0	1	0	0	6275
+Robertson	0	1	0	1	841
+Robertson	0	1	1	0	1520
+Robertson	0	1	1	1	308
+Robertson	1	0	0	1	10370
+Robertson	1	0	1	0	4594
+Robertson	1	0	1	1	3859
+Robertson	1	1	0	0	32461
+Robertson	1	1	0	1	2015
+Robertson	1	1	1	0	6913
+Robertson	1	1	1	1	1295
+Shortland					1005
+Shortland	0	0	0	1	5897
+Shortland	0	0	1	0	1474
+Shortland	0	0	1	1	897
+Shortland	0	1	0	0	7264
+Shortland	0	1	0	1	957
+Shortland	0	1	1	0	1657
+Shortland	0	1	1	1	513
+Shortland	1	0	0	1	11116
+Shortland	1	0	1	0	4551
+Shortland	1	0	1	1	3704
+Shortland	1	1	0	0	32560
+Shortland	1	1	0	1	2440
+Shortland	1	1	1	0	7309
+Shortland	1	1	1	1	1546
+Sydney					3498
+Sydney	0	0	0	1	3283
+Sydney	0	0	1	0	1451
+Sydney	0	0	1	1	334
+Sydney	0	1	0	0	3216
+Sydney	0	1	0	1	258
+Sydney	0	1	1	0	508
+Sydney	0	1	1	1	93
+Sydney	1	0	0	1	3437
+Sydney	1	0	1	0	2419
+Sydney	1	0	1	1	941
+Sydney	1	1	0	0	22418
+Sydney	1	1	0	1	317
+Sydney	1	1	1	0	1824
+Sydney	1	1	1	1	103
+Warringah					1071
+Warringah	0	0	0	1	3390
+Warringah	0	0	1	0	1438
+Warringah	0	0	1	1	725
+Warringah	0	1	0	0	3572
+Warringah	0	1	0	1	209
+Warringah	0	1	1	0	972
+Warringah	0	1	1	1	97
+Warringah	1	0	0	1	7532
+Warringah	1	0	1	0	6590
+Warringah	1	0	1	1	3620
+Warringah	1	1	0	0	43625
+Warringah	1	1	0	1	815
+Warringah	1	1	1	0	8091
+Warringah	1	1	1	1	815
+Watson					2285
+Watson	0	0	0	1	7432
+Watson	0	0	1	0	2024
+Watson	0	0	1	1	1295
+Watson	0	1	0	0	6292
+Watson	0	1	0	1	729
+Watson	0	1	1	0	1898
+Watson	0	1	1	1	688
+Watson	1	0	0	1	15875
+Watson	1	0	1	0	6711
+Watson	1	0	1	1	6326
+Watson	1	1	0	0	47794
+Watson	1	1	0	1	2643
+Watson	1	1	1	0	11493
+Watson	1	1	1	1	3254
+Wentworth					1389
+Wentworth	0	0	0	1	2865
+Wentworth	0	0	1	0	1363
+Wentworth	0	0	1	1	494
+Wentworth	0	1	0	0	3353
+Wentworth	0	1	0	1	132
+Wentworth	0	1	1	0	693
+Wentworth	0	1	1	1	50
+Wentworth	1	0	0	1	5109
+Wentworth	1	0	1	0	5013
+Wentworth	1	0	1	1	2607
+Wentworth	1	1	0	0	33963
+Wentworth	1	1	0	1	378
+Wentworth	1	1	1	0	5647
+Wentworth	1	1	1	1	495
+Werriwa					1386
+Werriwa	0	0	0	1	7350
+Werriwa	0	0	1	0	1633
+Werriwa	0	0	1	1	1651
+Werriwa	0	1	0	0	8356
+Werriwa	0	1	0	1	1542
+Werriwa	0	1	1	0	2568
+Werriwa	0	1	1	1	841
+Werriwa	1	0	0	1	18623
+Werriwa	1	0	1	0	6926
+Werriwa	1	0	1	1	8149
+Werriwa	1	1	0	0	46158
+Werriwa	1	1	0	1	4668
+Werriwa	1	1	1	0	14992
+Werriwa	1	1	1	1	4088
+Whitlam					1037
+Whitlam	0	0	0	1	6001
+Whitlam	0	0	1	0	1510
+Whitlam	0	0	1	1	960
+Whitlam	0	1	0	0	7818
+Whitlam	0	1	0	1	1175
+Whitlam	0	1	1	0	1947
+Whitlam	0	1	1	1	548
+Whitlam	1	0	0	1	13002
+Whitlam	1	0	1	0	4484
+Whitlam	1	0	1	1	4271
+Whitlam	1	1	0	0	35132
+Whitlam	1	1	0	1	2916
+Whitlam	1	1	1	0	7708
+Whitlam	1	1	1	1	1986
+Aston					1077
+Aston	0	0	0	1	5069
+Aston	0	0	1	0	1648
+Aston	0	0	1	1	1224
+Aston	0	1	0	0	4276
+Aston	0	1	0	1	523
+Aston	0	1	1	0	1279
+Aston	0	1	1	1	261
+Aston	1	0	0	1	14022
+Aston	1	0	1	0	7479
+Aston	1	0	1	1	6202
+Aston	1	1	0	0	34675
+Aston	1	1	0	1	1575
+Aston	1	1	1	0	8465
+Aston	1	1	1	1	1495
+Ballarat					1079
+Ballarat	0	0	0	1	4777
+Ballarat	0	0	1	0	1543
+Ballarat	0	0	1	1	914
+Ballarat	0	1	0	0	7561
+Ballarat	0	1	0	1	897
+Ballarat	0	1	1	0	1784
+Ballarat	0	1	1	1	396
+Ballarat	1	0	0	1	9054
+Ballarat	1	0	1	0	4487
+Ballarat	1	0	1	1	3565
+Ballarat	1	1	0	0	36304
+Ballarat	1	1	0	1	1971
+Ballarat	1	1	1	0	7926
+Ballarat	1	1	1	1	1406
+Batman					2284
+Batman	0	0	0	1	5927
+Batman	0	0	1	0	1647
+Batman	0	0	1	1	842
+Batman	0	1	0	0	4658
+Batman	0	1	0	1	459
+Batman	0	1	1	0	963
+Batman	0	1	1	1	262
+Batman	1	0	0	1	9524
+Batman	1	0	1	0	5152
+Batman	1	0	1	1	3615
+Batman	1	1	0	0	39082
+Batman	1	1	0	1	1185
+Batman	1	1	1	0	6724
+Batman	1	1	1	1	883
+Bendigo					1214
+Bendigo	0	0	0	1	4594
+Bendigo	0	0	1	0	1547
+Bendigo	0	0	1	1	842
+Bendigo	0	1	0	0	7171
+Bendigo	0	1	0	1	748
+Bendigo	0	1	1	0	1913
+Bendigo	0	1	1	1	364
+Bendigo	1	0	0	1	8354
+Bendigo	1	0	1	0	4556
+Bendigo	1	0	1	1	2798
+Bendigo	1	1	0	0	34301
+Bendigo	1	1	0	1	1788
+Bendigo	1	1	1	0	7418
+Bendigo	1	1	1	1	1526
+Bruce					2109
+Bruce	0	0	0	1	5937
+Bruce	0	0	1	0	2080
+Bruce	0	0	1	1	1190
+Bruce	0	1	0	0	4993
+Bruce	0	1	0	1	635
+Bruce	0	1	1	0	1753
+Bruce	0	1	1	1	406
+Bruce	1	0	0	1	12745
+Bruce	1	0	1	0	8237
+Bruce	1	0	1	1	5438
+Bruce	1	1	0	0	38578
+Bruce	1	1	0	1	1580
+Bruce	1	1	1	0	9510
+Bruce	1	1	1	1	1486
+Calwell					1508
+Calwell	0	0	0	1	7342
+Calwell	0	0	1	0	1714
+Calwell	0	0	1	1	1758
+Calwell	0	1	0	0	6349
+Calwell	0	1	0	1	1085
+Calwell	0	1	1	0	2271
+Calwell	0	1	1	1	807
+Calwell	1	0	0	1	17962
+Calwell	1	0	1	0	7498
+Calwell	1	0	1	1	8437
+Calwell	1	1	0	0	40972
+Calwell	1	1	0	1	3440
+Calwell	1	1	1	0	12871
+Calwell	1	1	1	1	3896
+Casey					951
+Casey	0	0	0	1	5147
+Casey	0	0	1	0	1549
+Casey	0	0	1	1	1152
+Casey	0	1	0	0	5420
+Casey	0	1	0	1	666
+Casey	0	1	1	0	1482
+Casey	0	1	1	1	387
+Casey	1	0	0	1	12699
+Casey	1	0	1	0	4817
+Casey	1	0	1	1	5228
+Casey	1	1	0	0	36772
+Casey	1	1	0	1	2210
+Casey	1	1	1	0	8073
+Casey	1	1	1	1	1770
+Chisholm					2205
+Chisholm	0	0	0	1	5363
+Chisholm	0	0	1	0	2391
+Chisholm	0	0	1	1	1021
+Chisholm	0	1	0	0	3791
+Chisholm	0	1	0	1	336
+Chisholm	0	1	1	0	1287
+Chisholm	0	1	1	1	225
+Chisholm	1	0	0	1	10291
+Chisholm	1	0	1	0	8268
+Chisholm	1	0	1	1	4583
+Chisholm	1	1	0	0	39720
+Chisholm	1	1	0	1	878
+Chisholm	1	1	1	0	8155
+Chisholm	1	1	1	1	716
+Corangamite					951
+Corangamite	0	0	0	1	3695
+Corangamite	0	0	1	0	1404
+Corangamite	0	0	1	1	771
+Corangamite	0	1	0	0	5184
+Corangamite	0	1	0	1	460
+Corangamite	0	1	1	0	1418
+Corangamite	0	1	1	1	311
+Corangamite	1	0	0	1	8550
+Corangamite	1	0	1	0	5329
+Corangamite	1	0	1	1	3794
+Corangamite	1	1	0	0	41041
+Corangamite	1	1	0	1	1541
+Corangamite	1	1	1	0	8500
+Corangamite	1	1	1	1	1350
+Corio					1275
+Corio	0	0	0	1	5718
+Corio	0	0	1	0	1690
+Corio	0	0	1	1	1039
+Corio	0	1	0	0	7608
+Corio	0	1	0	1	891
+Corio	0	1	1	0	1916
+Corio	0	1	1	1	488
+Corio	1	0	0	1	9661
+Corio	1	0	1	0	4593
+Corio	1	0	1	1	3507
+Corio	1	1	0	0	32115
+Corio	1	1	0	1	1569
+Corio	1	1	1	0	6660
+Corio	1	1	1	1	1279
+Deakin					1343
+Deakin	0	0	0	1	5180
+Deakin	0	0	1	0	1929
+Deakin	0	0	1	1	994
+Deakin	0	1	0	0	4261
+Deakin	0	1	0	1	338
+Deakin	0	1	1	0	1306
+Deakin	0	1	1	1	227
+Deakin	1	0	0	1	9861
+Deakin	1	0	1	0	6730
+Deakin	1	0	1	1	4413
+Deakin	1	1	0	0	41354
+Deakin	1	1	0	1	999
+Deakin	1	1	1	0	8385
+Deakin	1	1	1	1	1044
+Dunkley					1218
+Dunkley	0	0	0	1	6036
+Dunkley	0	0	1	0	1763
+Dunkley	0	0	1	1	1180
+Dunkley	0	1	0	0	6704
+Dunkley	0	1	0	1	747
+Dunkley	0	1	1	0	1697
+Dunkley	0	1	1	1	372
+Dunkley	1	0	0	1	10546
+Dunkley	1	0	1	0	4777
+Dunkley	1	0	1	1	3918
+Dunkley	1	1	0	0	34371
+Dunkley	1	1	0	1	1859
+Dunkley	1	1	1	0	6839
+Dunkley	1	1	1	1	1263
+Flinders					841
+Flinders	0	0	0	1	4809
+Flinders	0	0	1	0	1370
+Flinders	0	0	1	1	769
+Flinders	0	1	0	0	6441
+Flinders	0	1	0	1	714
+Flinders	0	1	1	0	1444
+Flinders	0	1	1	1	294
+Flinders	1	0	0	1	10757
+Flinders	1	0	1	0	4239
+Flinders	1	0	1	1	3634
+Flinders	1	1	0	0	34198
+Flinders	1	1	0	1	2184
+Flinders	1	1	1	0	7271
+Flinders	1	1	1	1	1491
+Gellibrand					2460
+Gellibrand	0	0	0	1	6494
+Gellibrand	0	0	1	0	1816
+Gellibrand	0	0	1	1	1135
+Gellibrand	0	1	0	0	5813
+Gellibrand	0	1	0	1	541
+Gellibrand	0	1	1	0	1537
+Gellibrand	0	1	1	1	329
+Gellibrand	1	0	0	1	10363
+Gellibrand	1	0	1	0	5388
+Gellibrand	1	0	1	1	4071
+Gellibrand	1	1	0	0	43096
+Gellibrand	1	1	0	1	1314
+Gellibrand	1	1	1	0	6848
+Gellibrand	1	1	1	1	1336
+Gippsland					920
+Gippsland	0	0	0	1	3896
+Gippsland	0	0	1	0	1270
+Gippsland	0	0	1	1	632
+Gippsland	0	1	0	0	6908
+Gippsland	0	1	0	1	738
+Gippsland	0	1	1	0	1746
+Gippsland	0	1	1	1	326
+Gippsland	1	0	0	1	8171
+Gippsland	1	0	1	0	3624
+Gippsland	1	0	1	1	2458
+Gippsland	1	1	0	0	29393
+Gippsland	1	1	0	1	1506
+Gippsland	1	1	1	0	6228
+Gippsland	1	1	1	1	1147
+Goldstein					1085
+Goldstein	0	0	0	1	3714
+Goldstein	0	0	1	0	1927
+Goldstein	0	0	1	1	770
+Goldstein	0	1	0	0	3603
+Goldstein	0	1	0	1	185
+Goldstein	0	1	1	0	1210
+Goldstein	0	1	1	1	91
+Goldstein	1	0	0	1	8870
+Goldstein	1	0	1	0	9609
+Goldstein	1	0	1	1	5164
+Goldstein	1	1	0	0	41884
+Goldstein	1	1	0	1	751
+Goldstein	1	1	1	0	9979
+Goldstein	1	1	1	1	810
+Gorton					1623
+Gorton	0	0	0	1	6952
+Gorton	0	0	1	0	1909
+Gorton	0	0	1	1	1736
+Gorton	0	1	0	0	10473
+Gorton	0	1	0	1	1288
+Gorton	0	1	1	0	3098
+Gorton	0	1	1	1	911
+Gorton	1	0	0	1	15690
+Gorton	1	0	1	0	6720
+Gorton	1	0	1	1	6729
+Gorton	1	1	0	0	60385
+Gorton	1	1	0	1	3628
+Gorton	1	1	1	0	13444
+Gorton	1	1	1	1	3291
+Higgins					2169
+Higgins	0	0	0	1	3429
+Higgins	0	0	1	0	1618
+Higgins	0	0	1	1	631
+Higgins	0	1	0	0	2948
+Higgins	0	1	0	1	163
+Higgins	0	1	1	0	844
+Higgins	0	1	1	1	87
+Higgins	1	0	0	1	6299
+Higgins	1	0	1	0	7473
+Higgins	1	0	1	1	3542
+Higgins	1	1	0	0	34166
+Higgins	1	1	0	1	571
+Higgins	1	1	1	0	7189
+Higgins	1	1	1	1	493
+Holt					1674
+Holt	0	0	0	1	7125
+Holt	0	0	1	0	1832
+Holt	0	0	1	1	1639
+Holt	0	1	0	0	8643
+Holt	0	1	0	1	1308
+Holt	0	1	1	0	2556
+Holt	0	1	1	1	897
+Holt	1	0	0	1	15838
+Holt	1	0	1	0	7591
+Holt	1	0	1	1	7143
+Holt	1	1	0	0	63100
+Holt	1	1	0	1	3734
+Holt	1	1	1	0	14133
+Holt	1	1	1	1	3921
+Hotham					1957
+Hotham	0	0	0	1	6194
+Hotham	0	0	1	0	1999
+Hotham	0	0	1	1	1115
+Hotham	0	1	0	0	4953
+Hotham	0	1	0	1	539
+Hotham	0	1	1	0	1532
+Hotham	0	1	1	1	294
+Hotham	1	0	0	1	12797
+Hotham	1	0	1	0	6809
+Hotham	1	0	1	1	5192
+Hotham	1	1	0	0	41152
+Hotham	1	1	0	1	1354
+Hotham	1	1	1	0	8093
+Hotham	1	1	1	1	1180
+Indi					859
+Indi	0	0	0	1	3577
+Indi	0	0	1	0	1185
+Indi	0	0	1	1	605
+Indi	0	1	0	0	6490
+Indi	0	1	0	1	601
+Indi	0	1	1	0	1538
+Indi	0	1	1	1	268
+Indi	1	0	0	1	7424
+Indi	1	0	1	0	3679
+Indi	1	0	1	1	2480
+Indi	1	1	0	0	30478
+Indi	1	1	0	1	1559
+Indi	1	1	1	0	6602
+Indi	1	1	1	1	1297
+Isaacs					1421
+Isaacs	0	0	0	1	5691
+Isaacs	0	0	1	0	1910
+Isaacs	0	0	1	1	1197
+Isaacs	0	1	0	0	5853
+Isaacs	0	1	0	1	589
+Isaacs	0	1	1	0	1565
+Isaacs	0	1	1	1	403
+Isaacs	1	0	0	1	11828
+Isaacs	1	0	1	0	6507
+Isaacs	1	0	1	1	5106
+Isaacs	1	1	0	0	44137
+Isaacs	1	1	0	1	1901
+Isaacs	1	1	1	0	8881
+Isaacs	1	1	1	1	1766
+Jagajaga					1336
+Jagajaga	0	0	0	1	4875
+Jagajaga	0	0	1	0	1634
+Jagajaga	0	0	1	1	969
+Jagajaga	0	1	0	0	4080
+Jagajaga	0	1	0	1	423
+Jagajaga	0	1	1	0	1211
+Jagajaga	0	1	1	1	226
+Jagajaga	1	0	0	1	11367
+Jagajaga	1	0	1	0	7213
+Jagajaga	1	0	1	1	5285
+Jagajaga	1	1	0	0	39010
+Jagajaga	1	1	0	1	1101
+Jagajaga	1	1	1	0	7916
+Jagajaga	1	1	1	1	1059
+Kooyong					1841
+Kooyong	0	0	0	1	3267
+Kooyong	0	0	1	0	2058
+Kooyong	0	0	1	1	806
+Kooyong	0	1	0	0	3232
+Kooyong	0	1	0	1	161
+Kooyong	0	1	1	0	1344
+Kooyong	0	1	1	1	107
+Kooyong	1	0	0	1	8351
+Kooyong	1	0	1	0	10457
+Kooyong	1	0	1	1	5390
+Kooyong	1	1	0	0	35355
+Kooyong	1	1	0	1	584
+Kooyong	1	1	1	0	10162
+Kooyong	1	1	1	1	843
+La Trobe					970
+La Trobe	0	0	0	1	4526
+La Trobe	0	0	1	0	1603
+La Trobe	0	0	1	1	1103
+La Trobe	0	1	0	0	5124
+La Trobe	0	1	0	1	659
+La Trobe	0	1	1	0	1724
+La Trobe	0	1	1	1	448
+La Trobe	1	0	0	1	13151
+La Trobe	1	0	1	0	7575
+La Trobe	1	0	1	1	6838
+La Trobe	1	1	0	0	46721
+La Trobe	1	1	0	1	2231
+La Trobe	1	1	1	0	11867
+La Trobe	1	1	1	1	2329
+Lalor					1791
+Lalor	0	0	0	1	6856
+Lalor	0	0	1	0	2069
+Lalor	0	0	1	1	1533
+Lalor	0	1	0	0	10613
+Lalor	0	1	0	1	1203
+Lalor	0	1	1	0	2955
+Lalor	0	1	1	1	972
+Lalor	1	0	0	1	14671
+Lalor	1	0	1	0	7717
+Lalor	1	0	1	1	6565
+Lalor	1	1	0	0	83850
+Lalor	1	1	0	1	3356
+Lalor	1	1	1	0	14470
+Lalor	1	1	1	1	3084
+Mallee					1030
+Mallee	0	0	0	1	3754
+Mallee	0	0	1	0	1084
+Mallee	0	0	1	1	542
+Mallee	0	1	0	0	6472
+Mallee	0	1	0	1	582
+Mallee	0	1	1	0	1546
+Mallee	0	1	1	1	366
+Mallee	1	0	0	1	7493
+Mallee	1	0	1	0	3784
+Mallee	1	0	1	1	2484
+Mallee	1	1	0	0	28620
+Mallee	1	1	0	1	1689
+Mallee	1	1	1	0	7354
+Mallee	1	1	1	1	1464
+Maribyrnong					2510
+Maribyrnong	0	0	0	1	7268
+Maribyrnong	0	0	1	0	1997
+Maribyrnong	0	0	1	1	1455
+Maribyrnong	0	1	0	0	6030
+Maribyrnong	0	1	0	1	712
+Maribyrnong	0	1	1	0	1978
+Maribyrnong	0	1	1	1	508
+Maribyrnong	1	0	0	1	13570
+Maribyrnong	1	0	1	0	7072
+Maribyrnong	1	0	1	1	5686
+Maribyrnong	1	1	0	0	38804
+Maribyrnong	1	1	0	1	1662
+Maribyrnong	1	1	1	0	9172
+Maribyrnong	1	1	1	1	1462
+McEwen					1270
+McEwen	0	0	0	1	6327
+McEwen	0	0	1	0	1873
+McEwen	0	0	1	1	1510
+McEwen	0	1	0	0	9259
+McEwen	0	1	0	1	1170
+McEwen	0	1	1	0	2394
+McEwen	0	1	1	1	666
+McEwen	1	0	0	1	15474
+McEwen	1	0	1	0	7115
+McEwen	1	0	1	1	6956
+McEwen	1	1	0	0	68505
+McEwen	1	1	0	1	3602
+McEwen	1	1	1	0	13469
+McEwen	1	1	1	1	2921
+McMillan					1038
+McMillan	0	0	0	1	4949
+McMillan	0	0	1	0	1585
+McMillan	0	0	1	1	1013
+McMillan	0	1	0	0	8358
+McMillan	0	1	0	1	921
+McMillan	0	1	1	0	1936
+McMillan	0	1	1	1	597
+McMillan	1	0	0	1	9764
+McMillan	1	0	1	0	4485
+McMillan	1	0	1	1	3735
+McMillan	1	1	0	0	41600
+McMillan	1	1	0	1	2335
+McMillan	1	1	1	0	8871
+McMillan	1	1	1	1	2037
+Melbourne					5282
+Melbourne	0	0	0	1	3879
+Melbourne	0	0	1	0	2065
+Melbourne	0	0	1	1	630
+Melbourne	0	1	0	0	4872
+Melbourne	0	1	0	1	291
+Melbourne	0	1	1	0	1220
+Melbourne	0	1	1	1	215
+Melbourne	1	0	0	1	4298
+Melbourne	1	0	1	0	3570
+Melbourne	1	0	1	1	1552
+Melbourne	1	1	0	0	28091
+Melbourne	1	1	0	1	470
+Melbourne	1	1	1	0	3597
+Melbourne	1	1	1	1	262
+Melbourne Ports					2464
+Melbourne Ports	0	0	0	1	2779
+Melbourne Ports	0	0	1	0	1587
+Melbourne Ports	0	0	1	1	465
+Melbourne Ports	0	1	0	0	3309
+Melbourne Ports	0	1	0	1	97
+Melbourne Ports	0	1	1	0	617
+Melbourne Ports	0	1	1	1	73
+Melbourne Ports	1	0	0	1	4380
+Melbourne Ports	1	0	1	0	4157
+Melbourne Ports	1	0	1	1	1896
+Melbourne Ports	1	1	0	0	29286
+Melbourne Ports	1	1	0	1	389
+Melbourne Ports	1	1	1	0	4414
+Melbourne Ports	1	1	1	1	579
+Menzies					1149
+Menzies	0	0	0	1	4454
+Menzies	0	0	1	0	1760
+Menzies	0	0	1	1	872
+Menzies	0	1	0	0	3259
+Menzies	0	1	0	1	248
+Menzies	0	1	1	0	1100
+Menzies	0	1	1	1	191
+Menzies	1	0	0	1	14138
+Menzies	1	0	1	0	9091
+Menzies	1	0	1	1	6735
+Menzies	1	1	0	0	34413
+Menzies	1	1	0	1	1114
+Menzies	1	1	1	0	9086
+Menzies	1	1	1	1	1028
+Murray					889
+Murray	0	0	0	1	4233
+Murray	0	0	1	0	1180
+Murray	0	0	1	1	714
+Murray	0	1	0	0	6824
+Murray	0	1	0	1	707
+Murray	0	1	1	0	1738
+Murray	0	1	1	1	411
+Murray	1	0	0	1	8456
+Murray	1	0	1	0	3810
+Murray	1	0	1	1	2826
+Murray	1	1	0	0	30663
+Murray	1	1	0	1	1864
+Murray	1	1	1	0	8056
+Murray	1	1	1	1	1752
+Scullin					1606
+Scullin	0	0	0	1	6813
+Scullin	0	0	1	0	1573
+Scullin	0	0	1	1	1408
+Scullin	0	1	0	0	6185
+Scullin	0	1	0	1	907
+Scullin	0	1	1	0	1608
+Scullin	0	1	1	1	401
+Scullin	1	0	0	1	17935
+Scullin	1	0	1	0	6965
+Scullin	1	0	1	1	7085
+Scullin	1	1	0	0	46586
+Scullin	1	1	0	1	2590
+Scullin	1	1	1	0	10569
+Scullin	1	1	1	1	2262
+Wannon					884
+Wannon	0	0	0	1	3937
+Wannon	0	0	1	0	1117
+Wannon	0	0	1	1	606
+Wannon	0	1	0	0	5591
+Wannon	0	1	0	1	623
+Wannon	0	1	1	0	1243
+Wannon	0	1	1	1	257
+Wannon	1	0	0	1	7607
+Wannon	1	0	1	0	3426
+Wannon	1	0	1	1	2762
+Wannon	1	1	0	0	27855
+Wannon	1	1	0	1	1492
+Wannon	1	1	1	0	6571
+Wannon	1	1	1	1	1450
+Wills					2521
+Wills	0	0	0	1	6118
+Wills	0	0	1	0	1497
+Wills	0	0	1	1	837
+Wills	0	1	0	0	4387
+Wills	0	1	0	1	378
+Wills	0	1	1	0	1203
+Wills	0	1	1	1	249
+Wills	1	0	0	1	10062
+Wills	1	0	1	0	4860
+Wills	1	0	1	1	3987
+Wills	1	1	0	0	41851
+Wills	1	1	0	1	1327
+Wills	1	1	1	0	7036
+Wills	1	1	1	1	1381
+Blair					1365
+Blair	0	0	0	1	5394
+Blair	0	0	1	0	1318
+Blair	0	0	1	1	811
+Blair	0	1	0	0	11249
+Blair	0	1	0	1	1435
+Blair	0	1	1	0	2386
+Blair	0	1	1	1	768
+Blair	1	0	0	1	9807
+Blair	1	0	1	0	3720
+Blair	1	0	1	1	2866
+Blair	1	1	0	0	38587
+Blair	1	1	0	1	3156
+Blair	1	1	1	0	7903
+Blair	1	1	1	1	2303
+Bonner					1515
+Bonner	0	0	0	1	4994
+Bonner	0	0	1	0	1440
+Bonner	0	0	1	1	912
+Bonner	0	1	0	0	5737
+Bonner	0	1	0	1	725
+Bonner	0	1	1	0	1449
+Bonner	0	1	1	1	357
+Bonner	1	0	0	1	10089
+Bonner	1	0	1	0	6360
+Bonner	1	0	1	1	4386
+Bonner	1	1	0	0	40884
+Bonner	1	1	0	1	1857
+Bonner	1	1	1	0	8950
+Bonner	1	1	1	1	1382
+Bowman					972
+Bowman	0	0	0	1	4765
+Bowman	0	0	1	0	1370
+Bowman	0	0	1	1	865
+Bowman	0	1	0	0	6716
+Bowman	0	1	0	1	719
+Bowman	0	1	1	0	1475
+Bowman	0	1	1	1	359
+Bowman	1	0	0	1	11607
+Bowman	1	0	1	0	5559
+Bowman	1	0	1	1	4375
+Bowman	1	1	0	0	35695
+Bowman	1	1	0	1	2417
+Bowman	1	1	1	0	8329
+Bowman	1	1	1	1	1837
+Brisbane					2479
+Brisbane	0	0	0	1	2881
+Brisbane	0	0	1	0	1521
+Brisbane	0	0	1	1	475
+Brisbane	0	1	0	0	3625
+Brisbane	0	1	0	1	164
+Brisbane	0	1	1	0	810
+Brisbane	0	1	1	1	109
+Brisbane	1	0	0	1	4874
+Brisbane	1	0	1	0	5258
+Brisbane	1	0	1	1	2405
+Brisbane	1	1	0	0	33853
+Brisbane	1	1	0	1	570
+Brisbane	1	1	1	0	5760
+Brisbane	1	1	1	1	480
+Capricornia					1083
+Capricornia	0	0	0	1	3905
+Capricornia	0	0	1	0	953
+Capricornia	0	0	1	1	537
+Capricornia	0	1	0	0	7692
+Capricornia	0	1	0	1	802
+Capricornia	0	1	1	0	1593
+Capricornia	0	1	1	1	373
+Capricornia	1	0	0	1	8700
+Capricornia	1	0	1	0	3325
+Capricornia	1	0	1	1	2272
+Capricornia	1	1	0	0	37126
+Capricornia	1	1	0	1	2692
+Capricornia	1	1	1	0	7135
+Capricornia	1	1	1	1	1605
+Dawson					1099
+Dawson	0	0	0	1	3735
+Dawson	0	0	1	0	999
+Dawson	0	0	1	1	587
+Dawson	0	1	0	0	7966
+Dawson	0	1	0	1	965
+Dawson	0	1	1	0	1576
+Dawson	0	1	1	1	336
+Dawson	1	0	0	1	8921
+Dawson	1	0	1	0	3979
+Dawson	1	0	1	1	2769
+Dawson	1	1	0	0	36777
+Dawson	1	1	0	1	2486
+Dawson	1	1	1	0	7420
+Dawson	1	1	1	1	1559
+Dickson					1064
+Dickson	0	0	0	1	4170
+Dickson	0	0	1	0	1350
+Dickson	0	0	1	1	768
+Dickson	0	1	0	0	6593
+Dickson	0	1	0	1	655
+Dickson	0	1	1	0	1493
+Dickson	0	1	1	1	339
+Dickson	1	0	0	1	11337
+Dickson	1	0	1	0	5756
+Dickson	1	0	1	1	4555
+Dickson	1	1	0	0	43224
+Dickson	1	1	0	1	2461
+Dickson	1	1	1	0	9282
+Dickson	1	1	1	1	1749
+Fadden					1240
+Fadden	0	0	0	1	5732
+Fadden	0	0	1	0	1641
+Fadden	0	0	1	1	946
+Fadden	0	1	0	0	8813
+Fadden	0	1	0	1	961
+Fadden	0	1	1	0	1826
+Fadden	0	1	1	1	483
+Fadden	1	0	0	1	10443
+Fadden	1	0	1	0	5385
+Fadden	1	0	1	1	4031
+Fadden	1	1	0	0	40838
+Fadden	1	1	0	1	2937
+Fadden	1	1	1	0	8049
+Fadden	1	1	1	1	1634
+Fairfax					971
+Fairfax	0	0	0	1	4358
+Fairfax	0	0	1	0	1473
+Fairfax	0	0	1	1	596
+Fairfax	0	1	0	0	7210
+Fairfax	0	1	0	1	714
+Fairfax	0	1	1	0	1585
+Fairfax	0	1	1	1	305
+Fairfax	1	0	0	1	8954
+Fairfax	1	0	1	0	4283
+Fairfax	1	0	1	1	2744
+Fairfax	1	1	0	0	37058
+Fairfax	1	1	0	1	2221
+Fairfax	1	1	1	0	7383
+Fairfax	1	1	1	1	1371
+Fisher					919
+Fisher	0	0	0	1	4330
+Fisher	0	0	1	0	1405
+Fisher	0	0	1	1	666
+Fisher	0	1	0	0	6455
+Fisher	0	1	0	1	815
+Fisher	0	1	1	0	1468
+Fisher	0	1	1	1	251
+Fisher	1	0	0	1	8089
+Fisher	1	0	1	0	3827
+Fisher	1	0	1	1	2569
+Fisher	1	1	0	0	31358
+Fisher	1	1	0	1	2148
+Fisher	1	1	1	0	6756
+Fisher	1	1	1	1	1253
+Flynn					1007
+Flynn	0	0	0	1	3434
+Flynn	0	0	1	0	798
+Flynn	0	0	1	1	401
+Flynn	0	1	0	0	7688
+Flynn	0	1	0	1	876
+Flynn	0	1	1	0	1441
+Flynn	0	1	1	1	290
+Flynn	1	0	0	1	8101
+Flynn	1	0	1	0	2961
+Flynn	1	0	1	1	2224
+Flynn	1	1	0	0	41701
+Flynn	1	1	0	1	2774
+Flynn	1	1	1	0	7894
+Flynn	1	1	1	1	1696
+Forde					1351
+Forde	0	0	0	1	5630
+Forde	0	0	1	0	1249
+Forde	0	0	1	1	1173
+Forde	0	1	0	0	10430
+Forde	0	1	0	1	1445
+Forde	0	1	1	0	2209
+Forde	0	1	1	1	588
+Forde	1	0	0	1	12153
+Forde	1	0	1	0	4382
+Forde	1	0	1	1	3894
+Forde	1	1	0	0	44658
+Forde	1	1	0	1	3934
+Forde	1	1	1	0	8897
+Forde	1	1	1	1	2623
+Griffith					2318
+Griffith	0	0	0	1	3600
+Griffith	0	0	1	0	1612
+Griffith	0	0	1	1	556
+Griffith	0	1	0	0	4617
+Griffith	0	1	0	1	339
+Griffith	0	1	1	0	1081
+Griffith	0	1	1	1	191
+Griffith	1	0	0	1	5615
+Griffith	1	0	1	0	5472
+Griffith	1	0	1	1	2759
+Griffith	1	1	0	0	37368
+Griffith	1	1	0	1	848
+Griffith	1	1	1	0	7029
+Griffith	1	1	1	1	685
+Groom					1155
+Groom	0	0	0	1	4018
+Groom	0	0	1	0	1120
+Groom	0	0	1	1	693
+Groom	0	1	0	0	7521
+Groom	0	1	0	1	954
+Groom	0	1	1	0	1896
+Groom	0	1	1	1	474
+Groom	1	0	0	1	8167
+Groom	1	0	1	0	3601
+Groom	1	0	1	1	2541
+Groom	1	1	0	0	36039
+Groom	1	1	0	1	2334
+Groom	1	1	1	0	7974
+Groom	1	1	1	1	2028
+Herbert					1553
+Herbert	0	0	0	1	4644
+Herbert	0	0	1	0	1480
+Herbert	0	0	1	1	780
+Herbert	0	1	0	0	10104
+Herbert	0	1	0	1	1290
+Herbert	0	1	1	0	2183
+Herbert	0	1	1	1	556
+Herbert	1	0	0	1	7629
+Herbert	1	0	1	0	3994
+Herbert	1	0	1	1	2562
+Herbert	1	1	0	0	37853
+Herbert	1	1	0	1	2631
+Herbert	1	1	1	0	7636
+Herbert	1	1	1	1	1589
+Hinkler					1016
+Hinkler	0	0	0	1	4625
+Hinkler	0	0	1	0	1098
+Hinkler	0	0	1	1	638
+Hinkler	0	1	0	0	8643
+Hinkler	0	1	0	1	1200
+Hinkler	0	1	1	0	1855
+Hinkler	0	1	1	1	423
+Hinkler	1	0	0	1	7510
+Hinkler	1	0	1	0	2834
+Hinkler	1	0	1	1	1734
+Hinkler	1	1	0	0	26137
+Hinkler	1	1	0	1	2178
+Hinkler	1	1	1	0	5733
+Hinkler	1	1	1	1	1418
+Kennedy					1287
+Kennedy	0	0	0	1	4554
+Kennedy	0	0	1	0	853
+Kennedy	0	0	1	1	579
+Kennedy	0	1	0	0	9112
+Kennedy	0	1	0	1	1481
+Kennedy	0	1	1	0	1726
+Kennedy	0	1	1	1	589
+Kennedy	1	0	0	1	8547
+Kennedy	1	0	1	0	2660
+Kennedy	1	0	1	1	2078
+Kennedy	1	1	0	0	34004
+Kennedy	1	1	0	1	3426
+Kennedy	1	1	1	0	6771
+Kennedy	1	1	1	1	1803
+Leichhardt					1779
+Leichhardt	0	0	0	1	5280
+Leichhardt	0	0	1	0	1549
+Leichhardt	0	0	1	1	668
+Leichhardt	0	1	0	0	11961
+Leichhardt	0	1	0	1	1828
+Leichhardt	0	1	1	0	1854
+Leichhardt	0	1	1	1	640
+Leichhardt	1	0	0	1	7662
+Leichhardt	1	0	1	0	3447
+Leichhardt	1	0	1	1	2054
+Leichhardt	1	1	0	0	40432
+Leichhardt	1	1	0	1	3654
+Leichhardt	1	1	1	0	7243
+Leichhardt	1	1	1	1	2041
+Lilley					2089
+Lilley	0	0	0	1	5554
+Lilley	0	0	1	0	1524
+Lilley	0	0	1	1	860
+Lilley	0	1	0	0	5845
+Lilley	0	1	0	1	661
+Lilley	0	1	1	0	1301
+Lilley	0	1	1	1	345
+Lilley	1	0	0	1	8680
+Lilley	1	0	1	0	5245
+Lilley	1	0	1	1	3410
+Lilley	1	1	0	0	40294
+Lilley	1	1	0	1	1591
+Lilley	1	1	1	0	7286
+Lilley	1	1	1	1	1316
+Longman					1052
+Longman	0	0	0	1	5193
+Longman	0	0	1	0	1425
+Longman	0	0	1	1	842
+Longman	0	1	0	0	10094
+Longman	0	1	0	1	1372
+Longman	0	1	1	0	2024
+Longman	0	1	1	1	629
+Longman	1	0	0	1	11357
+Longman	1	0	1	0	4064
+Longman	1	0	1	1	3448
+Longman	1	1	0	0	37145
+Longman	1	1	0	1	3544
+Longman	1	1	1	0	8061
+Longman	1	1	1	1	2212
+Maranoa					1063
+Maranoa	0	0	0	1	3765
+Maranoa	0	0	1	0	705
+Maranoa	0	0	1	1	366
+Maranoa	0	1	0	0	7791
+Maranoa	0	1	0	1	967
+Maranoa	0	1	1	0	1487
+Maranoa	0	1	1	1	332
+Maranoa	1	0	0	1	7830
+Maranoa	1	0	1	0	2564
+Maranoa	1	0	1	1	1879
+Maranoa	1	1	0	0	34386
+Maranoa	1	1	0	1	2256
+Maranoa	1	1	1	0	6784
+Maranoa	1	1	1	1	1428
+McPherson					1200
+McPherson	0	0	0	1	5419
+McPherson	0	0	1	0	1865
+McPherson	0	0	1	1	927
+McPherson	0	1	0	0	7144
+McPherson	0	1	0	1	695
+McPherson	0	1	1	0	1764
+McPherson	0	1	1	1	426
+McPherson	1	0	0	1	9453
+McPherson	1	0	1	0	4788
+McPherson	1	0	1	1	3200
+McPherson	1	1	0	0	36102
+McPherson	1	1	0	1	2143
+McPherson	1	1	1	0	6735
+McPherson	1	1	1	1	1445
+Moncrieff					1548
+Moncrieff	0	0	0	1	5550
+Moncrieff	0	0	1	0	1772
+Moncrieff	0	0	1	1	680
+Moncrieff	0	1	0	0	6959
+Moncrieff	0	1	0	1	762
+Moncrieff	0	1	1	0	1483
+Moncrieff	0	1	1	1	265
+Moncrieff	1	0	0	1	7967
+Moncrieff	1	0	1	0	4367
+Moncrieff	1	0	1	1	2420
+Moncrieff	1	1	0	0	29236
+Moncrieff	1	1	0	1	1682
+Moncrieff	1	1	1	0	5425
+Moncrieff	1	1	1	1	853
+Moreton					2231
+Moreton	0	0	0	1	4810
+Moreton	0	0	1	0	1887
+Moreton	0	0	1	1	817
+Moreton	0	1	0	0	5174
+Moreton	0	1	0	1	566
+Moreton	0	1	1	0	1444
+Moreton	0	1	1	1	367
+Moreton	1	0	0	1	9127
+Moreton	1	0	1	0	6212
+Moreton	1	0	1	1	3750
+Moreton	1	1	0	0	40747
+Moreton	1	1	0	1	1432
+Moreton	1	1	1	0	8442
+Moreton	1	1	1	1	1556
+Oxley					1698
+Oxley	0	0	0	1	5382
+Oxley	0	0	1	0	1668
+Oxley	0	0	1	1	1294
+Oxley	0	1	0	0	8995
+Oxley	0	1	0	1	1279
+Oxley	0	1	1	0	2433
+Oxley	0	1	1	1	730
+Oxley	1	0	0	1	10371
+Oxley	1	0	1	0	5840
+Oxley	1	0	1	1	4385
+Oxley	1	1	0	0	45811
+Oxley	1	1	0	1	3530
+Oxley	1	1	1	0	10158
+Oxley	1	1	1	1	3082
+Petrie					1410
+Petrie	0	0	0	1	5822
+Petrie	0	0	1	0	1522
+Petrie	0	0	1	1	902
+Petrie	0	1	0	0	9454
+Petrie	0	1	0	1	1118
+Petrie	0	1	1	0	2025
+Petrie	0	1	1	1	488
+Petrie	1	0	0	1	10106
+Petrie	1	0	1	0	4624
+Petrie	1	0	1	1	3351
+Petrie	1	1	0	0	41623
+Petrie	1	1	0	1	2916
+Petrie	1	1	1	0	7943
+Petrie	1	1	1	1	1953
+Rankin					1758
+Rankin	0	0	0	1	6560
+Rankin	0	0	1	0	1676
+Rankin	0	0	1	1	1258
+Rankin	0	1	0	0	11297
+Rankin	0	1	0	1	1722
+Rankin	0	1	1	0	2621
+Rankin	0	1	1	1	1046
+Rankin	1	0	0	1	12681
+Rankin	1	0	1	0	5216
+Rankin	1	0	1	1	4683
+Rankin	1	1	0	0	49255
+Rankin	1	1	0	1	4252
+Rankin	1	1	1	0	10354
+Rankin	1	1	1	1	3291
+Ryan					1826
+Ryan	0	0	0	1	3269
+Ryan	0	0	1	0	1831
+Ryan	0	0	1	1	728
+Ryan	0	1	0	0	4107
+Ryan	0	1	0	1	321
+Ryan	0	1	1	0	1371
+Ryan	0	1	1	1	182
+Ryan	1	0	0	1	8246
+Ryan	1	0	1	0	8049
+Ryan	1	0	1	1	4081
+Ryan	1	1	0	0	41418
+Ryan	1	1	0	1	1147
+Ryan	1	1	1	0	9133
+Ryan	1	1	1	1	1124
+Wide Bay					906
+Wide Bay	0	0	0	1	4671
+Wide Bay	0	0	1	0	1184
+Wide Bay	0	0	1	1	610
+Wide Bay	0	1	0	0	7969
+Wide Bay	0	1	0	1	1002
+Wide Bay	0	1	1	0	1604
+Wide Bay	0	1	1	1	403
+Wide Bay	1	0	0	1	8221
+Wide Bay	1	0	1	0	3082
+Wide Bay	1	0	1	1	1941
+Wide Bay	1	1	0	0	27833
+Wide Bay	1	1	0	1	2228
+Wide Bay	1	1	1	0	6235
+Wide Bay	1	1	1	1	1441
+Wright					899
+Wright	0	0	0	1	3973
+Wright	0	0	1	0	1028
+Wright	0	0	1	1	652
+Wright	0	1	0	0	7247
+Wright	0	1	0	1	945
+Wright	0	1	1	0	1570
+Wright	0	1	1	1	455
+Wright	1	0	0	1	12237
+Wright	1	0	1	0	4525
+Wright	1	0	1	1	4083
+Wright	1	1	0	0	40234
+Wright	1	1	0	1	3740
+Wright	1	1	1	0	9321
+Wright	1	1	1	1	2524
+Adelaide					2277
+Adelaide	0	0	0	1	4419
+Adelaide	0	0	1	0	1929
+Adelaide	0	0	1	1	848
+Adelaide	0	1	0	0	4689
+Adelaide	0	1	0	1	357
+Adelaide	0	1	1	0	1308
+Adelaide	0	1	1	1	211
+Adelaide	1	0	0	1	7258
+Adelaide	1	0	1	0	6259
+Adelaide	1	0	1	1	3421
+Adelaide	1	1	0	0	36171
+Adelaide	1	1	0	1	850
+Adelaide	1	1	1	0	6571
+Adelaide	1	1	1	1	829
+Barker					989
+Barker	0	0	0	1	3905
+Barker	0	0	1	0	1214
+Barker	0	0	1	1	540
+Barker	0	1	0	0	7058
+Barker	0	1	0	1	673
+Barker	0	1	1	0	1519
+Barker	0	1	1	1	354
+Barker	1	0	0	1	8319
+Barker	1	0	1	0	3677
+Barker	1	0	1	1	2627
+Barker	1	1	0	0	32490
+Barker	1	1	0	1	1906
+Barker	1	1	1	0	7236
+Barker	1	1	1	1	1367
+Boothby					1364
+Boothby	0	0	0	1	4464
+Boothby	0	0	1	0	1691
+Boothby	0	0	1	1	815
+Boothby	0	1	0	0	4441
+Boothby	0	1	0	1	314
+Boothby	0	1	1	0	1329
+Boothby	0	1	1	1	253
+Boothby	1	0	0	1	9371
+Boothby	1	0	1	0	7305
+Boothby	1	0	1	1	4705
+Boothby	1	1	0	0	35745
+Boothby	1	1	0	1	1190
+Boothby	1	1	1	0	7707
+Boothby	1	1	1	1	1095
+Grey					972
+Grey	0	0	0	1	3779
+Grey	0	0	1	0	1056
+Grey	0	0	1	1	544
+Grey	0	1	0	0	7409
+Grey	0	1	0	1	894
+Grey	0	1	1	0	1523
+Grey	0	1	1	1	399
+Grey	1	0	0	1	6956
+Grey	1	0	1	0	2832
+Grey	1	0	1	1	1902
+Grey	1	1	0	0	29544
+Grey	1	1	0	1	1913
+Grey	1	1	1	0	6339
+Grey	1	1	1	1	1132
+Hindmarsh					1899
+Hindmarsh	0	0	0	1	5237
+Hindmarsh	0	0	1	0	1702
+Hindmarsh	0	0	1	1	1017
+Hindmarsh	0	1	0	0	4659
+Hindmarsh	0	1	0	1	395
+Hindmarsh	0	1	1	0	1080
+Hindmarsh	0	1	1	1	213
+Hindmarsh	1	0	0	1	9485
+Hindmarsh	1	0	1	0	5664
+Hindmarsh	1	0	1	1	4206
+Hindmarsh	1	1	0	0	32886
+Hindmarsh	1	1	0	1	1083
+Hindmarsh	1	1	1	0	6074
+Hindmarsh	1	1	1	1	931
+Kingston					1116
+Kingston	0	0	0	1	5321
+Kingston	0	0	1	0	1759
+Kingston	0	0	1	1	1045
+Kingston	0	1	0	0	8812
+Kingston	0	1	0	1	926
+Kingston	0	1	1	0	2068
+Kingston	0	1	1	1	366
+Kingston	1	0	0	1	10406
+Kingston	1	0	1	0	4658
+Kingston	1	0	1	1	3791
+Kingston	1	1	0	0	34857
+Kingston	1	1	0	1	2075
+Kingston	1	1	1	0	6927
+Kingston	1	1	1	1	1355
+Makin					1247
+Makin	0	0	0	1	5110
+Makin	0	0	1	0	1679
+Makin	0	0	1	1	1193
+Makin	0	1	0	0	6430
+Makin	0	1	0	1	654
+Makin	0	1	1	0	1715
+Makin	0	1	1	1	395
+Makin	1	0	0	1	11420
+Makin	1	0	1	0	5401
+Makin	1	0	1	1	4684
+Makin	1	1	0	0	35952
+Makin	1	1	0	1	2194
+Makin	1	1	1	0	8085
+Makin	1	1	1	1	1452
+Mayo					657
+Mayo	0	0	0	1	3199
+Mayo	0	0	1	0	1323
+Mayo	0	0	1	1	698
+Mayo	0	1	0	0	4741
+Mayo	0	1	0	1	476
+Mayo	0	1	1	0	1328
+Mayo	0	1	1	1	248
+Mayo	1	0	0	1	9020
+Mayo	1	0	1	0	5398
+Mayo	1	0	1	1	3698
+Mayo	1	1	0	0	32659
+Mayo	1	1	0	1	1551
+Mayo	1	1	1	0	7484
+Mayo	1	1	1	1	1564
+Port Adelaide					1967
+Port Adelaide	0	0	0	1	7707
+Port Adelaide	0	0	1	0	2141
+Port Adelaide	0	0	1	1	1391
+Port Adelaide	0	1	0	0	9181
+Port Adelaide	0	1	0	1	1231
+Port Adelaide	0	1	1	0	2486
+Port Adelaide	0	1	1	1	627
+Port Adelaide	1	0	0	1	11925
+Port Adelaide	1	0	1	0	5351
+Port Adelaide	1	0	1	1	4346
+Port Adelaide	1	1	0	0	37643
+Port Adelaide	1	1	0	1	2294
+Port Adelaide	1	1	1	0	8311
+Port Adelaide	1	1	1	1	1786
+Sturt					1473
+Sturt	0	0	0	1	4598
+Sturt	0	0	1	0	2121
+Sturt	0	0	1	1	1016
+Sturt	0	1	0	0	4748
+Sturt	0	1	0	1	356
+Sturt	0	1	1	0	1244
+Sturt	0	1	1	1	169
+Sturt	1	0	0	1	9678
+Sturt	1	0	1	0	7405
+Sturt	1	0	1	1	4632
+Sturt	1	1	0	0	36152
+Sturt	1	1	0	1	1041
+Sturt	1	1	1	0	8388
+Sturt	1	1	1	1	864
+Wakefield					1383
+Wakefield	0	0	0	1	5998
+Wakefield	0	0	1	0	1794
+Wakefield	0	0	1	1	1052
+Wakefield	0	1	0	0	11756
+Wakefield	0	1	0	1	1417
+Wakefield	0	1	1	0	2793
+Wakefield	0	1	1	1	786
+Wakefield	1	0	0	1	10878
+Wakefield	1	0	1	0	4348
+Wakefield	1	0	1	1	3904
+Wakefield	1	1	0	0	38643
+Wakefield	1	1	0	1	2768
+Wakefield	1	1	1	0	8913
+Wakefield	1	1	1	1	2187
+Brand					1169
+Brand	0	0	0	1	4459
+Brand	0	0	1	0	1230
+Brand	0	0	1	1	947
+Brand	0	1	0	0	9265
+Brand	0	1	0	1	1074
+Brand	0	1	1	0	1918
+Brand	0	1	1	1	491
+Brand	1	0	0	1	9858
+Brand	1	0	1	0	4383
+Brand	1	0	1	1	3721
+Brand	1	1	0	0	45709
+Brand	1	1	0	1	3434
+Brand	1	1	1	0	8824
+Brand	1	1	1	1	2011
+Burt					1801
+Burt	0	0	0	1	5224
+Burt	0	0	1	0	1497
+Burt	0	0	1	1	1175
+Burt	0	1	0	0	8497
+Burt	0	1	0	1	923
+Burt	0	1	1	0	1890
+Burt	0	1	1	1	536
+Burt	1	0	0	1	11728
+Burt	1	0	1	0	5654
+Burt	1	0	1	1	4739
+Burt	1	1	0	0	49959
+Burt	1	1	0	1	2818
+Burt	1	1	1	0	10092
+Burt	1	1	1	1	2560
+Canning					838
+Canning	0	0	0	1	3748
+Canning	0	0	1	0	1045
+Canning	0	0	1	1	706
+Canning	0	1	0	0	7054
+Canning	0	1	0	1	833
+Canning	0	1	1	0	1548
+Canning	0	1	1	1	290
+Canning	1	0	0	1	9373
+Canning	1	0	1	0	3782
+Canning	1	0	1	1	3480
+Canning	1	1	0	0	34335
+Canning	1	1	0	1	2578
+Canning	1	1	1	0	7045
+Canning	1	1	1	1	1980
+Cowan					1326
+Cowan	0	0	0	1	4914
+Cowan	0	0	1	0	1489
+Cowan	0	0	1	1	1222
+Cowan	0	1	0	0	6122
+Cowan	0	1	0	1	823
+Cowan	0	1	1	0	1738
+Cowan	0	1	1	1	526
+Cowan	1	0	0	1	11766
+Cowan	1	0	1	0	5557
+Cowan	1	0	1	1	5111
+Cowan	1	1	0	0	42126
+Cowan	1	1	0	1	3021
+Cowan	1	1	1	0	9912
+Cowan	1	1	1	1	2439
+Curtin					1382
+Curtin	0	0	0	1	2975
+Curtin	0	0	1	0	1607
+Curtin	0	0	1	1	739
+Curtin	0	1	0	0	3565
+Curtin	0	1	0	1	139
+Curtin	0	1	1	0	1108
+Curtin	0	1	1	1	151
+Curtin	1	0	0	1	6196
+Curtin	1	0	1	0	7399
+Curtin	1	0	1	1	3698
+Curtin	1	1	0	0	36444
+Curtin	1	1	0	1	609
+Curtin	1	1	1	0	8356
+Curtin	1	1	1	1	683
+Durack					1607
+Durack	0	0	0	1	3690
+Durack	0	0	1	0	739
+Durack	0	0	1	1	349
+Durack	0	1	0	0	9025
+Durack	0	1	0	1	1698
+Durack	0	1	1	0	1565
+Durack	0	1	1	1	516
+Durack	1	0	0	1	6950
+Durack	1	0	1	0	2443
+Durack	1	0	1	1	1808
+Durack	1	1	0	0	45008
+Durack	1	1	0	1	3138
+Durack	1	1	1	0	6421
+Durack	1	1	1	1	1643
+Forrest					756
+Forrest	0	0	0	1	3450
+Forrest	0	0	1	0	1199
+Forrest	0	0	1	1	555
+Forrest	0	1	0	0	7048
+Forrest	0	1	0	1	767
+Forrest	0	1	1	0	1634
+Forrest	0	1	1	1	320
+Forrest	1	0	0	1	7693
+Forrest	1	0	1	0	3582
+Forrest	1	0	1	1	2465
+Forrest	1	1	0	0	38046
+Forrest	1	1	0	1	2325
+Forrest	1	1	1	0	7430
+Forrest	1	1	1	1	1422
+Fremantle					1327
+Fremantle	0	0	0	1	4607
+Fremantle	0	0	1	0	1544
+Fremantle	0	0	1	1	774
+Fremantle	0	1	0	0	5670
+Fremantle	0	1	0	1	538
+Fremantle	0	1	1	0	1389
+Fremantle	0	1	1	1	279
+Fremantle	1	0	0	1	9526
+Fremantle	1	0	1	0	5134
+Fremantle	1	0	1	1	3948
+Fremantle	1	1	0	0	39562
+Fremantle	1	1	0	1	1792
+Fremantle	1	1	1	0	7305
+Fremantle	1	1	1	1	1208
+Hasluck					1310
+Hasluck	0	0	0	1	4753
+Hasluck	0	0	1	0	1289
+Hasluck	0	0	1	1	873
+Hasluck	0	1	0	0	5871
+Hasluck	0	1	0	1	801
+Hasluck	0	1	1	0	1495
+Hasluck	0	1	1	1	467
+Hasluck	1	0	0	1	10406
+Hasluck	1	0	1	0	4488
+Hasluck	1	0	1	1	3804
+Hasluck	1	1	0	0	35252
+Hasluck	1	1	0	1	2507
+Hasluck	1	1	1	0	7804
+Hasluck	1	1	1	1	2021
+Moore					1004
+Moore	0	0	0	1	3669
+Moore	0	0	1	0	1356
+Moore	0	0	1	1	966
+Moore	0	1	0	0	4142
+Moore	0	1	0	1	376
+Moore	0	1	1	0	1218
+Moore	0	1	1	1	280
+Moore	1	0	0	1	12626
+Moore	1	0	1	0	7559
+Moore	1	0	1	1	5934
+Moore	1	1	0	0	38479
+Moore	1	1	0	1	1936
+Moore	1	1	1	0	9127
+Moore	1	1	1	1	1548
+O'Connor					1086
+O'Connor	0	0	0	1	3686
+O'Connor	0	0	1	0	880
+O'Connor	0	0	1	1	452
+O'Connor	0	1	0	0	7123
+O'Connor	0	1	0	1	1002
+O'Connor	0	1	1	0	1314
+O'Connor	0	1	1	1	297
+O'Connor	1	0	0	1	7907
+O'Connor	1	0	1	0	2760
+O'Connor	1	0	1	1	2162
+O'Connor	1	1	0	0	37280
+O'Connor	1	1	0	1	2942
+O'Connor	1	1	1	0	6773
+O'Connor	1	1	1	1	1608
+Pearce					1123
+Pearce	0	0	0	1	4220
+Pearce	0	0	1	0	1593
+Pearce	0	0	1	1	1078
+Pearce	0	1	0	0	9597
+Pearce	0	1	0	1	1099
+Pearce	0	1	1	0	2200
+Pearce	0	1	1	1	686
+Pearce	1	0	0	1	10245
+Pearce	1	0	1	0	5454
+Pearce	1	0	1	1	4570
+Pearce	1	1	0	0	52625
+Pearce	1	1	0	1	3897
+Pearce	1	1	1	0	11107
+Pearce	1	1	1	1	2442
+Perth					1944
+Perth	0	0	0	1	4019
+Perth	0	0	1	0	1337
+Perth	0	0	1	1	618
+Perth	0	1	0	0	4147
+Perth	0	1	0	1	337
+Perth	0	1	1	0	901
+Perth	0	1	1	1	193
+Perth	1	0	0	1	7339
+Perth	1	0	1	0	4747
+Perth	1	0	1	1	2923
+Perth	1	1	0	0	32638
+Perth	1	1	0	1	852
+Perth	1	1	1	0	5193
+Perth	1	1	1	1	810
+Stirling					1968
+Stirling	0	0	0	1	4745
+Stirling	0	0	1	0	1534
+Stirling	0	0	1	1	802
+Stirling	0	1	0	0	5308
+Stirling	0	1	0	1	517
+Stirling	0	1	1	0	1094
+Stirling	0	1	1	1	294
+Stirling	1	0	0	1	8267
+Stirling	1	0	1	0	5080
+Stirling	1	0	1	1	3566
+Stirling	1	1	0	0	36750
+Stirling	1	1	0	1	1238
+Stirling	1	1	1	0	6787
+Stirling	1	1	1	1	1043
+Swan					3081
+Swan	0	0	0	1	4416
+Swan	0	0	1	0	1533
+Swan	0	0	1	1	806
+Swan	0	1	0	0	5170
+Swan	0	1	0	1	488
+Swan	0	1	1	0	1123
+Swan	0	1	1	1	289
+Swan	1	0	0	1	7063
+Swan	1	0	1	0	4400
+Swan	1	0	1	1	2673
+Swan	1	1	0	0	36344
+Swan	1	1	0	1	1389
+Swan	1	1	1	0	5688
+Swan	1	1	1	1	1064
+Tangney					1463
+Tangney	0	0	0	1	3693
+Tangney	0	0	1	0	1594
+Tangney	0	0	1	1	897
+Tangney	0	1	0	0	3797
+Tangney	0	1	0	1	339
+Tangney	0	1	1	0	1366
+Tangney	0	1	1	1	164
+Tangney	1	0	0	1	10651
+Tangney	1	0	1	0	8073
+Tangney	1	0	1	1	5449
+Tangney	1	1	0	0	33962
+Tangney	1	1	0	1	1186
+Tangney	1	1	1	0	9684
+Tangney	1	1	1	1	1149
+Bass					876
+Bass	0	0	0	1	3150
+Bass	0	0	1	0	1061
+Bass	0	0	1	1	474
+Bass	0	1	0	0	5292
+Bass	0	1	0	1	532
+Bass	0	1	1	0	1290
+Bass	0	1	1	1	248
+Bass	1	0	0	1	5439
+Bass	1	0	1	0	2811
+Bass	1	0	1	1	1904
+Bass	1	1	0	0	21417
+Bass	1	1	0	1	1200
+Bass	1	1	1	0	4882
+Bass	1	1	1	1	938
+Braddon					556
+Braddon	0	0	0	1	2946
+Braddon	0	0	1	0	926
+Braddon	0	0	1	1	464
+Braddon	0	1	0	0	5550
+Braddon	0	1	0	1	493
+Braddon	0	1	1	0	1240
+Braddon	0	1	1	1	278
+Braddon	1	0	0	1	5512
+Braddon	1	0	1	0	2332
+Braddon	1	0	1	1	1631
+Braddon	1	1	0	0	19837
+Braddon	1	1	0	1	1388
+Braddon	1	1	1	0	4650
+Braddon	1	1	1	1	865
+Denison					1019
+Denison	0	0	0	1	3077
+Denison	0	0	1	0	1259
+Denison	0	0	1	1	581
+Denison	0	1	0	0	5015
+Denison	0	1	0	1	430
+Denison	0	1	1	0	1245
+Denison	0	1	1	1	255
+Denison	1	0	0	1	4862
+Denison	1	0	1	0	3445
+Denison	1	0	1	1	1690
+Denison	1	1	0	0	20973
+Denison	1	1	0	1	958
+Denison	1	1	1	0	4550
+Denison	1	1	1	1	737
+Franklin					666
+Franklin	0	0	0	1	3119
+Franklin	0	0	1	0	1153
+Franklin	0	0	1	1	546
+Franklin	0	1	0	0	5048
+Franklin	0	1	0	1	503
+Franklin	0	1	1	0	1283
+Franklin	0	1	1	1	188
+Franklin	1	0	0	1	6114
+Franklin	1	0	1	0	3529
+Franklin	1	0	1	1	2068
+Franklin	1	1	0	0	24904
+Franklin	1	1	0	1	1286
+Franklin	1	1	1	0	5295
+Franklin	1	1	1	1	1017
+Lyons					590
+Lyons	0	0	0	1	3028
+Lyons	0	0	1	0	792
+Lyons	0	0	1	1	374
+Lyons	0	1	0	0	5704
+Lyons	0	1	0	1	655
+Lyons	0	1	1	0	1216
+Lyons	0	1	1	1	226
+Lyons	1	0	0	1	6367
+Lyons	1	0	1	0	2543
+Lyons	1	0	1	1	1828
+Lyons	1	1	0	0	20578
+Lyons	1	1	0	1	1761
+Lyons	1	1	1	0	4829
+Lyons	1	1	1	1	1054
+Lingiari					1427
+Lingiari	0	0	0	1	3096
+Lingiari	0	0	1	0	482
+Lingiari	0	0	1	1	261
+Lingiari	0	1	0	0	6914
+Lingiari	0	1	0	1	2715
+Lingiari	0	1	1	0	962
+Lingiari	0	1	1	1	499
+Lingiari	1	0	0	1	4740
+Lingiari	1	0	1	0	1393
+Lingiari	1	0	1	1	1204
+Lingiari	1	1	0	0	28882
+Lingiari	1	1	0	1	5398
+Lingiari	1	1	1	0	4370
+Lingiari	1	1	1	1	1719
+Solomon					1013
+Solomon	0	0	0	1	2682
+Solomon	0	0	1	0	757
+Solomon	0	0	1	1	373
+Solomon	0	1	0	0	4859
+Solomon	0	1	0	1	616
+Solomon	0	1	1	0	1031
+Solomon	0	1	1	1	224
+Solomon	1	0	0	1	5036
+Solomon	1	0	1	0	2546
+Solomon	1	0	1	1	1772
+Solomon	1	1	0	0	31189
+Solomon	1	1	0	1	1714
+Solomon	1	1	1	0	5285
+Solomon	1	1	1	1	1143
+Canberra					1351
+Canberra	0	0	0	1	5432
+Canberra	0	0	1	0	2054
+Canberra	0	0	1	1	1084
+Canberra	0	1	0	0	6719
+Canberra	0	1	0	1	675
+Canberra	0	1	1	0	1707
+Canberra	0	1	1	1	348
+Canberra	1	0	0	1	11429
+Canberra	1	0	1	0	8121
+Canberra	1	0	1	1	5102
+Canberra	1	1	0	0	48367
+Canberra	1	1	0	1	1868
+Canberra	1	1	1	0	9769
+Canberra	1	1	1	1	1586
+Fenner					1720
+Fenner	0	0	0	1	4797
+Fenner	0	0	1	0	1795
+Fenner	0	0	1	1	982
+Fenner	0	1	0	0	7272
+Fenner	0	1	0	1	616
+Fenner	0	1	1	0	1775
+Fenner	0	1	1	1	458
+Fenner	1	0	0	1	9053
+Fenner	1	0	1	0	7213
+Fenner	1	0	1	1	4027
+Fenner	1	1	0	0	61931
+Fenner	1	1	0	1	1961
+Fenner	1	1	1	0	10317
+Fenner	1	1	1	1	1506

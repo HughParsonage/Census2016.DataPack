@@ -1,0 +1,100 @@
+STE_NAME16	Age	persons
+New South Wales	0-4	465135
+New South Wales	5-14	921195
+New South Wales	15-19	448425
+New South Wales	20-24	489673
+New South Wales	25-34	1067524
+New South Wales	35-44	1002886
+New South Wales	45-54	977984
+New South Wales	55-64	889763
+New South Wales	65-74	677020
+New South Wales	75-84	373115
+New South Wales	85+	167506
+Victoria	0-4	371220
+Victoria	5-14	709702
+Victoria	15-19	356340
+Victoria	20-24	413792
+Victoria	25-34	889190
+Victoria	35-44	805920
+Victoria	45-54	780420
+Victoria	55-64	677453
+Victoria	65-74	509599
+Victoria	75-84	285006
+Victoria	85+	127993
+Queensland	0-4	296466
+Queensland	5-14	616236
+Queensland	15-19	296287
+Queensland	20-24	316860
+Queensland	25-34	646694
+Queensland	35-44	628124
+Queensland	45-54	631705
+Queensland	55-64	552886
+Queensland	65-74	422601
+Queensland	75-84	209818
+Queensland	85+	85528
+South Australia	0-4	97072
+South Australia	5-14	195930
+South Australia	15-19	100686
+South Australia	20-24	107986
+South Australia	25-34	218107
+South Australia	35-44	209468
+South Australia	45-54	226891
+South Australia	55-64	213923
+South Australia	65-74	168852
+South Australia	75-84	93258
+South Australia	85+	44479
+Western Australia	0-4	161727
+Western Australia	5-14	314955
+Western Australia	15-19	149997
+Western Australia	20-24	160332
+Western Australia	25-34	379178
+Western Australia	35-44	345038
+Western Australia	45-54	334959
+Western Australia	55-64	282042
+Western Australia	65-74	199669
+Western Australia	75-84	104095
+Western Australia	85+	42420
+Tasmania	0-4	28469
+Tasmania	5-14	61739
+Tasmania	15-19	31078
+Tasmania	20-24	29865
+Tasmania	25-34	58034
+Tasmania	35-44	59830
+Tasmania	45-54	70050
+Tasmania	55-64	72160
+Tasmania	65-74	57381
+Tasmania	75-84	29604
+Tasmania	85+	11767
+Northern Territory	0-4	17630
+Northern Territory	5-14	31845
+Northern Territory	15-19	14077
+Northern Territory	20-24	16644
+Northern Territory	25-34	43036
+Northern Territory	35-44	34630
+Northern Territory	45-54	31310
+Northern Territory	55-64	23296
+Northern Territory	65-74	11661
+Northern Territory	75-84	3771
+Northern Territory	85+	938
+Australian Capital Territory	0-4	26795
+Australian Capital Territory	5-14	47684
+Australian Capital Territory	15-19	24507
+Australian Capital Territory	20-24	31430
+Australian Capital Territory	25-34	66119
+Australian Capital Territory	35-44	58407
+Australian Capital Territory	45-54	50989
+Australian Capital Territory	55-64	41506
+Australian Capital Territory	65-74	29453
+Australian Capital Territory	75-84	14363
+Australian Capital Territory	85+	6158
+Other Territories	0-4	262
+Other Territories	5-14	547
+Other Territories	15-19	215
+Other Territories	20-24	210
+Other Territories	25-34	573
+Other Territories	35-44	642
+Other Territories	45-54	711
+Other Territories	55-64	709
+Other Territories	65-74	478
+Other Territories	75-84	182
+Other Territories	85+	58

@@ -1,0 +1,337 @@
+CED_NAME16	AustCitizen	persons
+Banks	0	30120
+Banks	1	125686
+Barton	0	47698
+Barton	1	125152
+Bennelong	0	42925
+Bennelong	1	126023
+Berowra	0	18351
+Berowra	1	126785
+Blaxland	0	42401
+Blaxland	1	132233
+Bradfield	0	32473
+Bradfield	1	127782
+Calare	0	20065
+Calare	1	141233
+Chifley	0	34240
+Chifley	1	137009
+Cook	0	16304
+Cook	1	122758
+Cowper	0	18504
+Cowper	1	140817
+Cunningham	0	22202
+Cunningham	1	133178
+Dobell	0	16436
+Dobell	1	137631
+Eden-Monaro	0	17704
+Eden-Monaro	1	129828
+Farrer	0	21213
+Farrer	1	142767
+Fowler	0	34073
+Fowler	1	130162
+Gilmore	0	16508
+Gilmore	1	133928
+Grayndler	0	31974
+Grayndler	1	117539
+Greenway	0	32612
+Greenway	1	137455
+Hughes	0	13327
+Hughes	1	130962
+Hume	0	15039
+Hume	1	135604
+Hunter	0	15630
+Hunter	1	141166
+Kingsford Smith	0	51477
+Kingsford Smith	1	124761
+Lindsay	0	23404
+Lindsay	1	143124
+Lyne	0	13499
+Lyne	1	131981
+Macarthur	0	24224
+Macarthur	1	137793
+Mackellar	0	21146
+Mackellar	1	127467
+Macquarie	0	14244
+Macquarie	1	127195
+McMahon	0	31616
+McMahon	1	134077
+Mitchell	0	22109
+Mitchell	1	131340
+New England	0	18584
+New England	1	135600
+Newcastle	0	17066
+Newcastle	1	135882
+North Sydney	0	36816
+North Sydney	1	124710
+Page	0	17098
+Page	1	142009
+Parkes	0	18948
+Parkes	1	134821
+Parramatta	0	60216
+Parramatta	1	126104
+Paterson	0	14810
+Paterson	1	140824
+Reid	0	58099
+Reid	1	123248
+Richmond	0	20640
+Richmond	1	132273
+Riverina	0	16959
+Riverina	1	138834
+Robertson	0	16598
+Robertson	1	126505
+Shortland	0	11243
+Shortland	1	133239
+Sydney	0	88711
+Sydney	1	111470
+Warringah	0	29618
+Warringah	1	117715
+Watson	0	42521
+Watson	1	132285
+Wentworth	0	36683
+Wentworth	1	109266
+Werriwa	0	26882
+Werriwa	1	144027
+Whitlam	0	15963
+Whitlam	1	136317
+No usual address (NSW)	0	5085
+No usual address (NSW)	1	7203
+Migratory - Offshore - Shipping (NSW)	0	87
+Migratory - Offshore - Shipping (NSW)	1	325
+Aston	0	20345
+Aston	1	115673
+Ballarat	0	16566
+Ballarat	1	137917
+Batman	0	35465
+Batman	1	126499
+Bendigo	0	16606
+Bendigo	1	133825
+Bruce	0	45314
+Bruce	1	111697
+Calwell	0	30191
+Calwell	1	135215
+Casey	0	16004
+Casey	1	126762
+Chisholm	0	48905
+Chisholm	1	115528
+Corangamite	0	16464
+Corangamite	1	136276
+Corio	0	20258
+Corio	1	129656
+Deakin	0	25784
+Deakin	1	120983
+Dunkley	0	20804
+Dunkley	1	125577
+Flinders	0	17581
+Flinders	1	135917
+Gellibrand	0	36222
+Gellibrand	1	129651
+Gippsland	0	18002
+Gippsland	1	125031
+Goldstein	0	23960
+Goldstein	1	123667
+Gorton	0	35251
+Gorton	1	159441
+Higgins	0	35780
+Higgins	1	118162
+Holt	0	43633
+Holt	1	156231
+Hotham	0	31741
+Hotham	1	119541
+Indi	0	15016
+Indi	1	125167
+Isaacs	0	28180
+Isaacs	1	130474
+Jagajaga	0	18047
+Jagajaga	1	123254
+Kooyong	0	27973
+Kooyong	1	117426
+La Trobe	0	21169
+La Trobe	1	135796
+Lalor	0	61003
+Lalor	1	170976
+Mallee	0	16910
+Mallee	1	121682
+Maribyrnong	0	34955
+Maribyrnong	1	131462
+McEwen	0	30508
+McEwen	1	180023
+McMillan	0	20748
+McMillan	1	146580
+Melbourne	0	84865
+Melbourne	1	123728
+Melbourne Ports	0	47156
+Melbourne Ports	1	113543
+Menzies	0	22927
+Menzies	1	114608
+Murray	0	19222
+Murray	1	126144
+Scullin	0	30398
+Scullin	1	137568
+Wannon	0	15358
+Wannon	1	118414
+Wills	0	35955
+Wills	1	133694
+No usual address (Vic.)	0	3210
+No usual address (Vic.)	1	4355
+Migratory - Offshore - Shipping (Vic.)	0	2
+Migratory - Offshore - Shipping (Vic.)	1	27
+Blair	0	22797
+Blair	1	133522
+Bonner	0	25680
+Bonner	1	123956
+Bowman	0	19545
+Bowman	1	127465
+Brisbane	0	40820
+Brisbane	1	123066
+Capricornia	0	20899
+Capricornia	1	129821
+Dawson	0	23863
+Dawson	1	132450
+Dickson	0	17064
+Dickson	1	129153
+Fadden	0	38388
+Fadden	1	131212
+Fairfax	0	21684
+Fairfax	1	131779
+Fisher	0	19555
+Fisher	1	120611
+Flynn	0	22975
+Flynn	1	132513
+Forde	0	32709
+Forde	1	132829
+Griffith	0	33076
+Griffith	1	124526
+Groom	0	18390
+Groom	1	130476
+Herbert	0	22115
+Herbert	1	137883
+Hinkler	0	17334
+Hinkler	1	124382
+Kennedy	0	22483
+Kennedy	1	132911
+Leichhardt	0	33000
+Leichhardt	1	142449
+Lilley	0	25278
+Lilley	1	130097
+Longman	0	23535
+Longman	1	137059
+Maranoa	0	17872
+Maranoa	1	131394
+McPherson	0	27073
+McPherson	1	124508
+Moncrieff	0	41661
+Moncrieff	1	119073
+Moreton	0	40917
+Moreton	1	117154
+Oxley	0	36719
+Oxley	1	126489
+Petrie	0	28811
+Petrie	1	134457
+Rankin	0	44525
+Rankin	1	134645
+Ryan	0	27943
+Ryan	1	127406
+Wide Bay	0	18118
+Wide Bay	1	125980
+Wright	0	22524
+Wright	1	133913
+No usual address (Qld)	0	4460
+No usual address (Qld)	1	8050
+Migratory - Offshore - Shipping (Qld)	0	34
+Migratory - Offshore - Shipping (Qld)	1	116
+Adelaide	0	37085
+Adelaide	1	126357
+Barker	0	16980
+Barker	1	132522
+Boothby	0	19710
+Boothby	1	126126
+Grey	0	16133
+Grey	1	127393
+Hindmarsh	0	24308
+Hindmarsh	1	126935
+Kingston	0	18273
+Kingston	1	129635
+Makin	0	20654
+Makin	1	128859
+Mayo	0	13893
+Mayo	1	126474
+Port Adelaide	0	24924
+Port Adelaide	1	140162
+Sturt	0	26118
+Sturt	1	123046
+Wakefield	0	22139
+Wakefield	1	146073
+No usual address (SA)	0	922
+No usual address (SA)	1	1941
+Migratory - Offshore - Shipping (SA)	0	-3
+Migratory - Offshore - Shipping (SA)	1	6
+Brand	0	36808
+Brand	1	127223
+Burt	0	40661
+Burt	1	128122
+Canning	0	25073
+Canning	1	120946
+Cowan	0	25963
+Cowan	1	121575
+Curtin	0	29778
+Curtin	1	113308
+Durack	0	37442
+Durack	1	144322
+Forrest	0	22954
+Forrest	1	124814
+Fremantle	0	29402
+Fremantle	1	119342
+Hasluck	0	27805
+Hasluck	1	115821
+Moore	0	22864
+Moore	1	117394
+O'Connor	0	27645
+O'Connor	1	128678
+Pearce	0	41330
+Pearce	1	140433
+Perth	0	38918
+Perth	1	112171
+Stirling	0	33661
+Stirling	1	114331
+Swan	0	50499
+Swan	1	112703
+Tangney	0	26399
+Tangney	1	109639
+No usual address (WA)	0	2366
+No usual address (WA)	1	3584
+Migratory - Offshore - Shipping (WA)	0	162
+Migratory - Offshore - Shipping (WA)	1	272
+Bass	0	12015
+Bass	1	89375
+Braddon	0	8890
+Braddon	1	88168
+Denison	0	14855
+Denison	1	87718
+Franklin	0	9851
+Franklin	1	94595
+Lyons	0	10227
+Lyons	1	93283
+No usual address (Tas.)	0	246
+No usual address (Tas.)	1	666
+Migratory - Offshore - Shipping (Tas.)	0	17
+Migratory - Offshore - Shipping (Tas.)	1	51
+Lingiari	0	21379
+Lingiari	1	93166
+Solomon	0	27574
+Solomon	1	86546
+No usual address (NT)	0	739
+No usual address (NT)	1	1750
+Migratory - Offshore - Shipping (NT)	0	49
+Migratory - Offshore - Shipping (NT)	1	21
+Canberra	0	28466
+Canberra	1	167571
+Fenner	0	33197
+Fenner	1	169758
+No usual address (ACT)	0	166
+No usual address (ACT)	1	372
+Migratory - Offshore - Shipping (ACT)	0	0
+Migratory - Offshore - Shipping (ACT)	1	0
+No usual address (OT)	0	16
+No usual address (OT)	1	39
+Migratory - Offshore - Shipping (OT)	0	0
+Migratory - Offshore - Shipping (OT)	1	6

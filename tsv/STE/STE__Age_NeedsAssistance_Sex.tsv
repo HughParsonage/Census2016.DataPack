@@ -1,0 +1,586 @@
+STE_NAME16	Age	NeedsAssistance	Sex	persons
+New South Wales	0-4		F	14391
+New South Wales	0-4		M	15085
+New South Wales	0-4	0	F	210018
+New South Wales	0-4	0	M	220324
+New South Wales	0-4	1	F	1866
+New South Wales	0-4	1	M	3449
+New South Wales	5-14		F	24705
+New South Wales	5-14		M	25703
+New South Wales	5-14	0	F	414418
+New South Wales	5-14	0	M	427462
+New South Wales	5-14	1	F	8985
+New South Wales	5-14	1	M	19925
+New South Wales	15-19		F	12187
+New South Wales	15-19		M	13410
+New South Wales	15-19	0	F	201878
+New South Wales	15-19	0	M	209384
+New South Wales	15-19	1	F	4254
+New South Wales	15-19	1	M	7311
+New South Wales	20-24		F	16558
+New South Wales	20-24		M	18919
+New South Wales	20-24	0	F	221052
+New South Wales	20-24	0	M	224202
+New South Wales	20-24	1	F	3578
+New South Wales	20-24	1	M	5371
+New South Wales	25-34		F	38949
+New South Wales	25-34		M	43993
+New South Wales	25-34	0	F	494511
+New South Wales	25-34	0	M	473885
+New South Wales	25-34	1	F	7501
+New South Wales	25-34	1	M	8679
+New South Wales	35-44		F	32753
+New South Wales	35-44		M	37475
+New South Wales	35-44	0	F	464992
+New South Wales	35-44	0	M	446039
+New South Wales	35-44	1	F	10877
+New South Wales	35-44	1	M	10749
+New South Wales	45-54		F	31723
+New South Wales	45-54		M	34829
+New South Wales	45-54	0	F	448952
+New South Wales	45-54	0	M	426664
+New South Wales	45-54	1	F	18855
+New South Wales	45-54	1	M	16960
+New South Wales	55-64		F	30135
+New South Wales	55-64		M	31020
+New South Wales	55-64	0	F	398738
+New South Wales	55-64	0	M	376911
+New South Wales	55-64	1	F	27832
+New South Wales	55-64	1	M	25130
+New South Wales	65-74		F	24876
+New South Wales	65-74		M	24515
+New South Wales	65-74	0	F	289840
+New South Wales	65-74	0	M	274666
+New South Wales	65-74	1	F	31840
+New South Wales	65-74	1	M	31286
+New South Wales	75-84		F	16786
+New South Wales	75-84		M	13970
+New South Wales	75-84	0	F	138994
+New South Wales	75-84	0	M	125463
+New South Wales	75-84	1	F	46421
+New South Wales	75-84	1	M	31483
+New South Wales	85+		F	11310
+New South Wales	85+		M	6174
+New South Wales	85+	0	F	39622
+New South Wales	85+	0	M	30702
+New South Wales	85+	1	F	54822
+New South Wales	85+	1	M	24878
+Victoria	0-4		F	11647
+Victoria	0-4		M	12183
+Victoria	0-4	0	F	167533
+Victoria	0-4	0	M	175682
+Victoria	0-4	1	F	1445
+Victoria	0-4	1	M	2728
+Victoria	5-14		F	18693
+Victoria	5-14		M	19896
+Victoria	5-14	0	F	319784
+Victoria	5-14	0	M	328244
+Victoria	5-14	1	F	7243
+Victoria	5-14	1	M	15844
+Victoria	15-19		F	9777
+Victoria	15-19		M	10052
+Victoria	15-19	0	F	161381
+Victoria	15-19	0	M	166124
+Victoria	15-19	1	F	3336
+Victoria	15-19	1	M	5667
+Victoria	20-24		F	13309
+Victoria	20-24		M	14403
+Victoria	20-24	0	F	187629
+Victoria	20-24	0	M	191123
+Victoria	20-24	1	F	3124
+Victoria	20-24	1	M	4208
+Victoria	25-34		F	31520
+Victoria	25-34		M	33446
+Victoria	25-34	0	F	414444
+Victoria	25-34	0	M	396961
+Victoria	25-34	1	F	6071
+Victoria	25-34	1	M	6760
+Victoria	35-44		F	25905
+Victoria	35-44		M	28249
+Victoria	35-44	0	F	375253
+Victoria	35-44	0	M	359468
+Victoria	35-44	1	F	8781
+Victoria	35-44	1	M	8261
+Victoria	45-54		F	24928
+Victoria	45-54		M	26182
+Victoria	45-54	0	F	361567
+Victoria	45-54	0	M	340805
+Victoria	45-54	1	F	14545
+Victoria	45-54	1	M	12381
+Victoria	55-64		F	23007
+Victoria	55-64		M	22862
+Victoria	55-64	0	F	306496
+Victoria	55-64	0	M	287482
+Victoria	55-64	1	F	20386
+Victoria	55-64	1	M	17225
+Victoria	65-74		F	19271
+Victoria	65-74		M	18195
+Victoria	65-74	0	F	221523
+Victoria	65-74	0	M	204481
+Victoria	65-74	1	F	23984
+Victoria	65-74	1	M	22147
+Victoria	75-84		F	12976
+Victoria	75-84		M	10809
+Victoria	75-84	0	F	105737
+Victoria	75-84	0	M	94815
+Victoria	75-84	1	F	36841
+Victoria	75-84	1	M	23827
+Victoria	85+		F	8649
+Victoria	85+		M	4858
+Victoria	85+	0	F	30583
+Victoria	85+	0	M	23760
+Victoria	85+	1	F	41190
+Victoria	85+	1	M	18948
+Queensland	0-4		F	9939
+Queensland	0-4		M	10429
+Queensland	0-4	0	F	133187
+Queensland	0-4	0	M	139369
+Queensland	0-4	1	F	1301
+Queensland	0-4	1	M	2234
+Queensland	5-14		F	17929
+Queensland	5-14		M	18746
+Queensland	5-14	0	F	274666
+Queensland	5-14	0	M	282721
+Queensland	5-14	1	F	7149
+Queensland	5-14	1	M	15022
+Queensland	15-19		F	9077
+Queensland	15-19		M	9625
+Queensland	15-19	0	F	133002
+Queensland	15-19	0	M	136159
+Queensland	15-19	1	F	3014
+Queensland	15-19	1	M	5408
+Queensland	20-24		F	11905
+Queensland	20-24		M	13594
+Queensland	20-24	0	F	143051
+Queensland	20-24	0	M	141804
+Queensland	20-24	1	F	2619
+Queensland	20-24	1	M	3885
+Queensland	25-34		F	25002
+Queensland	25-34		M	29135
+Queensland	25-34	0	F	298684
+Queensland	25-34	0	M	282492
+Queensland	25-34	1	F	5149
+Queensland	25-34	1	M	6228
+Queensland	35-44		F	21966
+Queensland	35-44		M	26154
+Queensland	35-44	0	F	291417
+Queensland	35-44	0	M	273685
+Queensland	35-44	1	F	7596
+Queensland	35-44	1	M	7307
+Queensland	45-54		F	22789
+Queensland	45-54		M	25855
+Queensland	45-54	0	F	288173
+Queensland	45-54	0	M	271672
+Queensland	45-54	1	F	12210
+Queensland	45-54	1	M	11013
+Queensland	55-64		F	20530
+Queensland	55-64		M	21911
+Queensland	55-64	0	F	245563
+Queensland	55-64	0	M	232266
+Queensland	55-64	1	F	16512
+Queensland	55-64	1	M	16105
+Queensland	65-74		F	16295
+Queensland	65-74		M	16705
+Queensland	65-74	0	F	179324
+Queensland	65-74	0	M	171226
+Queensland	65-74	1	F	18393
+Queensland	65-74	1	M	20665
+Queensland	75-84		F	9788
+Queensland	75-84		M	8532
+Queensland	75-84	0	F	77558
+Queensland	75-84	0	M	72324
+Queensland	75-84	1	F	23766
+Queensland	75-84	1	M	17848
+Queensland	85+		F	6664
+Queensland	85+		M	3681
+Queensland	85+	0	F	19839
+Queensland	85+	0	M	15490
+Queensland	85+	1	F	27249
+Queensland	85+	1	M	12594
+South Australia	0-4		F	2659
+South Australia	0-4		M	2857
+South Australia	0-4	0	F	44003
+South Australia	0-4	0	M	46087
+South Australia	0-4	1	F	496
+South Australia	0-4	1	M	964
+South Australia	5-14		F	4729
+South Australia	5-14		M	5038
+South Australia	5-14	0	F	88102
+South Australia	5-14	0	M	89765
+South Australia	5-14	1	F	2590
+South Australia	5-14	1	M	5698
+South Australia	15-19		F	2402
+South Australia	15-19		M	2513
+South Australia	15-19	0	F	45707
+South Australia	15-19	0	M	47071
+South Australia	15-19	1	F	1059
+South Australia	15-19	1	M	1933
+South Australia	20-24		F	2928
+South Australia	20-24		M	3371
+South Australia	20-24	0	F	48888
+South Australia	20-24	0	M	50538
+South Australia	20-24	1	F	952
+South Australia	20-24	1	M	1314
+South Australia	25-34		F	6365
+South Australia	25-34		M	7575
+South Australia	25-34	0	F	101457
+South Australia	25-34	0	M	98403
+South Australia	25-34	1	F	2016
+South Australia	25-34	1	M	2292
+South Australia	35-44		F	5855
+South Australia	35-44		M	7185
+South Australia	35-44	0	F	96609
+South Australia	35-44	0	M	94260
+South Australia	35-44	1	F	2815
+South Australia	35-44	1	M	2739
+South Australia	45-54		F	6547
+South Australia	45-54		M	7463
+South Australia	45-54	0	F	103238
+South Australia	45-54	0	M	100275
+South Australia	45-54	1	F	4986
+South Australia	45-54	1	M	4379
+South Australia	55-64		F	6453
+South Australia	55-64		M	6677
+South Australia	55-64	0	F	96634
+South Australia	55-64	0	M	91328
+South Australia	55-64	1	F	6672
+South Australia	55-64	1	M	6165
+South Australia	65-74		F	5589
+South Australia	65-74		M	5291
+South Australia	65-74	0	F	74689
+South Australia	65-74	0	M	68713
+South Australia	65-74	1	F	7255
+South Australia	65-74	1	M	7311
+South Australia	75-84		F	3607
+South Australia	75-84		M	2987
+South Australia	75-84	0	F	36074
+South Australia	75-84	0	M	32329
+South Australia	75-84	1	F	11142
+South Australia	75-84	1	M	7116
+South Australia	85+		F	2577
+South Australia	85+		M	1435
+South Australia	85+	0	F	11237
+South Australia	85+	0	M	8490
+South Australia	85+	1	F	14333
+South Australia	85+	1	M	6416
+Western Australia	0-4		F	5373
+Western Australia	0-4		M	5774
+Western Australia	0-4	0	F	72638
+Western Australia	0-4	0	M	76391
+Western Australia	0-4	1	F	564
+Western Australia	0-4	1	M	986
+Western Australia	5-14		F	9073
+Western Australia	5-14		M	9548
+Western Australia	5-14	0	F	141634
+Western Australia	5-14	0	M	146483
+Western Australia	5-14	1	F	2676
+Western Australia	5-14	1	M	5543
+Western Australia	15-19		F	4202
+Western Australia	15-19		M	4726
+Western Australia	15-19	0	F	67556
+Western Australia	15-19	0	M	70409
+Western Australia	15-19	1	F	1130
+Western Australia	15-19	1	M	1979
+Western Australia	20-24		F	5793
+Western Australia	20-24		M	7024
+Western Australia	20-24	0	F	71030
+Western Australia	20-24	0	M	74074
+Western Australia	20-24	1	F	955
+Western Australia	20-24	1	M	1461
+Western Australia	25-34		F	14902
+Western Australia	25-34		M	19741
+Western Australia	25-34	0	F	171294
+Western Australia	25-34	0	M	168803
+Western Australia	25-34	1	F	2023
+Western Australia	25-34	1	M	2411
+Western Australia	35-44		F	11872
+Western Australia	35-44		M	16426
+Western Australia	35-44	0	F	156896
+Western Australia	35-44	0	M	154641
+Western Australia	35-44	1	F	2751
+Western Australia	35-44	1	M	2451
+Western Australia	45-54		F	11352
+Western Australia	45-54		M	14725
+Western Australia	45-54	0	F	151182
+Western Australia	45-54	0	M	149667
+Western Australia	45-54	1	F	4296
+Western Australia	45-54	1	M	3736
+Western Australia	55-64		F	10112
+Western Australia	55-64		M	11565
+Western Australia	55-64	0	F	126709
+Western Australia	55-64	0	M	121964
+Western Australia	55-64	1	F	6260
+Western Australia	55-64	1	M	5419
+Western Australia	65-74		F	7750
+Western Australia	65-74		M	7909
+Western Australia	65-74	0	F	86007
+Western Australia	65-74	0	M	83552
+Western Australia	65-74	1	F	7151
+Western Australia	65-74	1	M	7294
+Western Australia	75-84		F	5377
+Western Australia	75-84		M	4411
+Western Australia	75-84	0	F	39858
+Western Australia	75-84	0	M	35997
+Western Australia	75-84	1	F	11007
+Western Australia	75-84	1	M	7450
+Western Australia	85+		F	3795
+Western Australia	85+		M	2003
+Western Australia	85+	0	F	10291
+Western Australia	85+	0	M	8226
+Western Australia	85+	1	F	12490
+Western Australia	85+	1	M	5616
+Tasmania	0-4		F	932
+Tasmania	0-4		M	941
+Tasmania	0-4	0	F	12874
+Tasmania	0-4	0	M	13398
+Tasmania	0-4	1	F	125
+Tasmania	0-4	1	M	204
+Tasmania	5-14		F	1751
+Tasmania	5-14		M	1874
+Tasmania	5-14	0	F	27522
+Tasmania	5-14	0	M	28255
+Tasmania	5-14	1	F	782
+Tasmania	5-14	1	M	1549
+Tasmania	15-19		F	925
+Tasmania	15-19		M	912
+Tasmania	15-19	0	F	13840
+Tasmania	15-19	0	M	14403
+Tasmania	15-19	1	F	351
+Tasmania	15-19	1	M	649
+Tasmania	20-24		F	964
+Tasmania	20-24		M	1115
+Tasmania	20-24	0	F	13285
+Tasmania	20-24	0	M	13701
+Tasmania	20-24	1	F	322
+Tasmania	20-24	1	M	478
+Tasmania	25-34		F	1978
+Tasmania	25-34		M	2183
+Tasmania	25-34	0	F	27056
+Tasmania	25-34	0	M	25373
+Tasmania	25-34	1	F	657
+Tasmania	25-34	1	M	778
+Tasmania	35-44		F	2058
+Tasmania	35-44		M	2125
+Tasmania	35-44	0	F	28166
+Tasmania	35-44	0	M	25535
+Tasmania	35-44	1	F	1004
+Tasmania	35-44	1	M	939
+Tasmania	45-54		F	2384
+Tasmania	45-54		M	2583
+Tasmania	45-54	0	F	31939
+Tasmania	45-54	0	M	29695
+Tasmania	45-54	1	F	1825
+Tasmania	45-54	1	M	1618
+Tasmania	55-64		F	2613
+Tasmania	55-64		M	2630
+Tasmania	55-64	0	F	31990
+Tasmania	55-64	0	M	30024
+Tasmania	55-64	1	F	2480
+Tasmania	55-64	1	M	2416
+Tasmania	65-74		F	2255
+Tasmania	65-74		M	2228
+Tasmania	65-74	0	F	24402
+Tasmania	65-74	0	M	23011
+Tasmania	65-74	1	F	2650
+Tasmania	65-74	1	M	2836
+Tasmania	75-84		F	1333
+Tasmania	75-84		M	1167
+Tasmania	75-84	0	F	11380
+Tasmania	75-84	0	M	10203
+Tasmania	75-84	1	F	3218
+Tasmania	75-84	1	M	2308
+Tasmania	85+		F	715
+Tasmania	85+		M	427
+Tasmania	85+	0	F	2906
+Tasmania	85+	0	M	2272
+Tasmania	85+	1	F	3801
+Tasmania	85+	1	M	1651
+Northern Territory	0-4		F	1113
+Northern Territory	0-4		M	1179
+Northern Territory	0-4	0	F	7455
+Northern Territory	0-4	0	M	7736
+Northern Territory	0-4	1	F	62
+Northern Territory	0-4	1	M	88
+Northern Territory	5-14		F	1685
+Northern Territory	5-14		M	1795
+Northern Territory	5-14	0	F	13496
+Northern Territory	5-14	0	M	14210
+Northern Territory	5-14	1	F	202
+Northern Territory	5-14	1	M	460
+Northern Territory	15-19		F	827
+Northern Territory	15-19		M	995
+Northern Territory	15-19	0	F	5668
+Northern Territory	15-19	0	M	6322
+Northern Territory	15-19	1	F	102
+Northern Territory	15-19	1	M	162
+Northern Territory	20-24		F	1123
+Northern Territory	20-24		M	1562
+Northern Territory	20-24	0	F	6598
+Northern Territory	20-24	0	M	7182
+Northern Territory	20-24	1	F	69
+Northern Territory	20-24	1	M	100
+Northern Territory	25-34		F	2860
+Northern Territory	25-34		M	3913
+Northern Territory	25-34	0	F	18009
+Northern Territory	25-34	0	M	17839
+Northern Territory	25-34	1	F	180
+Northern Territory	25-34	1	M	244
+Northern Territory	35-44		F	2093
+Northern Territory	35-44		M	2913
+Northern Territory	35-44	0	F	14468
+Northern Territory	35-44	0	M	14684
+Northern Territory	35-44	1	F	222
+Northern Territory	35-44	1	M	253
+Northern Territory	45-54		F	1929
+Northern Territory	45-54		M	2552
+Northern Territory	45-54	0	F	12683
+Northern Territory	45-54	0	M	13261
+Northern Territory	45-54	1	F	461
+Northern Territory	45-54	1	M	428
+Northern Territory	55-64		F	1453
+Northern Territory	55-64		M	1812
+Northern Territory	55-64	0	F	9141
+Northern Territory	55-64	0	M	9750
+Northern Territory	55-64	1	F	600
+Northern Territory	55-64	1	M	538
+Northern Territory	65-74		F	663
+Northern Territory	65-74		M	874
+Northern Territory	65-74	0	F	4074
+Northern Territory	65-74	0	M	4817
+Northern Territory	65-74	1	F	614
+Northern Territory	65-74	1	M	628
+Northern Territory	75-84		F	219
+Northern Territory	75-84		M	247
+Northern Territory	75-84	0	F	1096
+Northern Territory	75-84	0	M	1245
+Northern Territory	75-84	1	F	562
+Northern Territory	75-84	1	M	396
+Northern Territory	85+		F	82
+Northern Territory	85+		M	52
+Northern Territory	85+	0	F	144
+Northern Territory	85+	0	M	156
+Northern Territory	85+	1	F	319
+Northern Territory	85+	1	M	177
+Australian Capital Territory	0-4		F	610
+Australian Capital Territory	0-4		M	715
+Australian Capital Territory	0-4	0	F	12181
+Australian Capital Territory	0-4	0	M	13013
+Australian Capital Territory	0-4	1	F	106
+Australian Capital Territory	0-4	1	M	173
+Australian Capital Territory	5-14		F	899
+Australian Capital Territory	5-14		M	990
+Australian Capital Territory	5-14	0	F	21642
+Australian Capital Territory	5-14	0	M	22526
+Australian Capital Territory	5-14	1	F	516
+Australian Capital Territory	5-14	1	M	1101
+Australian Capital Territory	15-19		F	554
+Australian Capital Territory	15-19		M	573
+Australian Capital Territory	15-19	0	F	11302
+Australian Capital Territory	15-19	0	M	11418
+Australian Capital Territory	15-19	1	F	285
+Australian Capital Territory	15-19	1	M	369
+Australian Capital Territory	20-24		F	939
+Australian Capital Territory	20-24		M	1050
+Australian Capital Territory	20-24	0	F	14403
+Australian Capital Territory	20-24	0	M	14558
+Australian Capital Territory	20-24	1	F	218
+Australian Capital Territory	20-24	1	M	254
+Australian Capital Territory	25-34		F	2058
+Australian Capital Territory	25-34		M	2360
+Australian Capital Territory	25-34	0	F	31142
+Australian Capital Territory	25-34	0	M	29648
+Australian Capital Territory	25-34	1	F	483
+Australian Capital Territory	25-34	1	M	433
+Australian Capital Territory	35-44		F	1585
+Australian Capital Territory	35-44		M	1898
+Australian Capital Territory	35-44	0	F	27237
+Australian Capital Territory	35-44	0	M	26537
+Australian Capital Territory	35-44	1	F	644
+Australian Capital Territory	35-44	1	M	509
+Australian Capital Territory	45-54		F	1382
+Australian Capital Territory	45-54		M	1579
+Australian Capital Territory	45-54	0	F	23735
+Australian Capital Territory	45-54	0	M	22747
+Australian Capital Territory	45-54	1	F	867
+Australian Capital Territory	45-54	1	M	681
+Australian Capital Territory	55-64		F	1277
+Australian Capital Territory	55-64		M	1183
+Australian Capital Territory	55-64	0	F	19260
+Australian Capital Territory	55-64	0	M	17952
+Australian Capital Territory	55-64	1	F	1058
+Australian Capital Territory	55-64	1	M	768
+Australian Capital Territory	65-74		F	935
+Australian Capital Territory	65-74		M	876
+Australian Capital Territory	65-74	0	F	13380
+Australian Capital Territory	65-74	0	M	12047
+Australian Capital Territory	65-74	1	F	1193
+Australian Capital Territory	65-74	1	M	1019
+Australian Capital Territory	75-84		F	557
+Australian Capital Territory	75-84		M	511
+Australian Capital Territory	75-84	0	F	5546
+Australian Capital Territory	75-84	0	M	4792
+Australian Capital Territory	75-84	1	F	1814
+Australian Capital Territory	75-84	1	M	1146
+Australian Capital Territory	85+		F	301
+Australian Capital Territory	85+		M	161
+Australian Capital Territory	85+	0	F	1398
+Australian Capital Territory	85+	0	M	1173
+Australian Capital Territory	85+	1	F	2131
+Australian Capital Territory	85+	1	M	989
+Other Territories	0-4		F	8
+Other Territories	0-4		M	8
+Other Territories	0-4	0	F	116
+Other Territories	0-4	0	M	131
+Other Territories	0-4	1	M	4
+Other Territories	5-14		F	24
+Other Territories	5-14		M	22
+Other Territories	5-14	0	F	244
+Other Territories	5-14	0	M	250
+Other Territories	5-14	1	M	5
+Other Territories	15-19		F	12
+Other Territories	15-19		M	14
+Other Territories	15-19	0	F	90
+Other Territories	15-19	0	M	89
+Other Territories	15-19	1	M	7
+Other Territories	20-24		F	6
+Other Territories	20-24		M	58
+Other Territories	20-24	0	F	63
+Other Territories	20-24	0	M	77
+Other Territories	25-34		F	33
+Other Territories	25-34		M	141
+Other Territories	25-34	0	F	208
+Other Territories	25-34	0	M	188
+Other Territories	25-34	1	F	3
+Other Territories	35-44		F	29
+Other Territories	35-44		M	92
+Other Territories	35-44	0	F	262
+Other Territories	35-44	0	M	260
+Other Territories	45-54		F	44
+Other Territories	45-54		M	75
+Other Territories	45-54	0	F	286
+Other Territories	45-54	0	M	296
+Other Territories	45-54	1	F	7
+Other Territories	45-54	1	M	3
+Other Territories	55-64		F	51
+Other Territories	55-64		M	53
+Other Territories	55-64	0	F	283
+Other Territories	55-64	0	M	302
+Other Territories	55-64	1	F	10
+Other Territories	55-64	1	M	7
+Other Territories	65-74		F	25
+Other Territories	65-74		M	35
+Other Territories	65-74	0	F	172
+Other Territories	65-74	0	M	208
+Other Territories	65-74	1	F	18
+Other Territories	65-74	1	M	20
+Other Territories	75-84		F	9
+Other Territories	75-84		M	15
+Other Territories	75-84	0	F	60
+Other Territories	75-84	0	M	58
+Other Territories	75-84	1	F	13
+Other Territories	75-84	1	M	19
+Other Territories	85+		F	7
+Other Territories	85+	0	F	10
+Other Territories	85+	0	M	15
+Other Territories	85+	1	F	13
+Other Territories	85+	1	M	14

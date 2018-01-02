@@ -1,0 +1,242 @@
+STE_NAME16	Age	MaritalStatus	Registered	adults
+New South Wales	15-19	Married	0	4344
+New South Wales	15-19	Married	1	554
+New South Wales	15-19	Never married		400699
+New South Wales	20-24	Married	0	46326
+New South Wales	20-24	Married	1	20443
+New South Wales	20-24	Never married		358432
+New South Wales	25-34	Married	0	165365
+New South Wales	25-34	Married	1	375830
+New South Wales	25-34	Never married		406829
+New South Wales	35-44	Married	0	108132
+New South Wales	35-44	Married	1	569336
+New South Wales	35-44	Never married		234392
+New South Wales	45-54	Married	0	88737
+New South Wales	45-54	Married	1	549505
+New South Wales	45-54	Never married		251202
+New South Wales	55-64	Married	0	58126
+New South Wales	55-64	Married	1	500957
+New South Wales	55-64	Never married		239748
+New South Wales	65-74	Married	0	26769
+New South Wales	65-74	Married	1	381112
+New South Wales	65-74	Never married		188520
+New South Wales	75-84	Married	0	7101
+New South Wales	75-84	Married	1	176934
+New South Wales	75-84	Never married		135334
+New South Wales	85+	Married	0	1227
+New South Wales	85+	Married	1	37954
+New South Wales	85+	Never married		75732
+Victoria	15-19	Married	0	2782
+Victoria	15-19	Married	1	407
+Victoria	15-19	Never married		321363
+Victoria	20-24	Married	0	37479
+Victoria	20-24	Married	1	14128
+Victoria	20-24	Never married		313113
+Victoria	25-34	Married	0	151404
+Victoria	25-34	Married	1	307731
+Victoria	25-34	Never married		338541
+Victoria	35-44	Married	0	92905
+Victoria	35-44	Married	1	457711
+Victoria	35-44	Never married		186263
+Victoria	45-54	Married	0	71750
+Victoria	45-54	Married	1	443012
+Victoria	45-54	Never married		199402
+Victoria	55-64	Married	0	42826
+Victoria	55-64	Married	1	386076
+Victoria	55-64	Never married		179031
+Victoria	65-74	Married	0	17816
+Victoria	65-74	Married	1	287487
+Victoria	65-74	Never married		136654
+Victoria	75-84	Married	0	4464
+Victoria	75-84	Married	1	134850
+Victoria	75-84	Never married		100063
+Victoria	85+	Married	0	836
+Victoria	85+	Married	1	29356
+Victoria	85+	Never married		55797
+Queensland	15-19	Married	0	5541
+Queensland	15-19	Married	1	315
+Queensland	15-19	Never married		256183
+Queensland	20-24	Married	0	50361
+Queensland	20-24	Married	1	12675
+Queensland	20-24	Never married		206364
+Queensland	25-34	Married	0	130861
+Queensland	25-34	Married	1	211539
+Queensland	25-34	Never married		219160
+Queensland	35-44	Married	0	81713
+Queensland	35-44	Married	1	330027
+Queensland	35-44	Never married		149168
+Queensland	45-54	Married	0	64886
+Queensland	45-54	Married	1	336104
+Queensland	45-54	Never married		160894
+Queensland	55-64	Married	0	38806
+Queensland	55-64	Married	1	301486
+Queensland	55-64	Never married		144629
+Queensland	65-74	Married	0	17763
+Queensland	65-74	Married	1	235167
+Queensland	65-74	Never married		116001
+Queensland	75-84	Married	0	4185
+Queensland	75-84	Married	1	99754
+Queensland	75-84	Never married		75865
+Queensland	85+	Married	0	633
+Queensland	85+	Married	1	19421
+Queensland	85+	Never married		38754
+South Australia	15-19	Married	0	1268
+South Australia	15-19	Married	1	140
+South Australia	15-19	Never married		90238
+South Australia	20-24	Married	0	13099
+South Australia	20-24	Married	1	4182
+South Australia	20-24	Never married		77608
+South Australia	25-34	Married	0	40097
+South Australia	25-34	Married	1	74664
+South Australia	25-34	Never married		80096
+South Australia	35-44	Married	0	25552
+South Australia	35-44	Married	1	112497
+South Australia	35-44	Never married		53007
+South Australia	45-54	Married	0	22864
+South Australia	45-54	Married	1	120120
+South Australia	45-54	Never married		63532
+South Australia	55-64	Married	0	14967
+South Australia	55-64	Married	1	117789
+South Australia	55-64	Never married		59035
+South Australia	65-74	Married	0	6340
+South Australia	65-74	Married	1	96573
+South Australia	65-74	Never married		44910
+South Australia	75-84	Married	0	1534
+South Australia	75-84	Married	1	45941
+South Australia	75-84	Never married		32692
+South Australia	85+	Married	0	306
+South Australia	85+	Married	1	10345
+South Australia	85+	Never married		19419
+Western Australia	15-19	Married	0	2042
+Western Australia	15-19	Married	1	191
+Western Australia	15-19	Never married		132796
+Western Australia	20-24	Married	0	21901
+Western Australia	20-24	Married	1	6560
+Western Australia	20-24	Never married		108774
+Western Australia	25-34	Married	0	73796
+Western Australia	25-34	Married	1	125945
+Western Australia	25-34	Never married		122124
+Western Australia	35-44	Married	0	41422
+Western Australia	35-44	Married	1	187960
+Western Australia	35-44	Never married		72140
+Western Australia	45-54	Married	0	33053
+Western Australia	45-54	Married	1	183913
+Western Australia	45-54	Never married		76711
+Western Australia	55-64	Married	0	19343
+Western Australia	55-64	Married	1	156849
+Western Australia	55-64	Never married		69515
+Western Australia	65-74	Married	0	7880
+Western Australia	65-74	Married	1	113463
+Western Australia	65-74	Never married		51978
+Western Australia	75-84	Married	0	1955
+Western Australia	75-84	Married	1	50665
+Western Australia	75-84	Never married		36024
+Western Australia	85+	Married	0	325
+Western Australia	85+	Married	1	10403
+Western Australia	85+	Never married		18804
+Tasmania	15-19	Married	0	615
+Tasmania	15-19	Married	1	33
+Tasmania	15-19	Never married		26889
+Tasmania	20-24	Married	0	5048
+Tasmania	20-24	Married	1	1142
+Tasmania	20-24	Never married		19221
+Tasmania	25-34	Married	0	13187
+Tasmania	25-34	Married	1	17593
+Tasmania	25-34	Never married		20380
+Tasmania	35-44	Married	0	9445
+Tasmania	35-44	Married	1	28931
+Tasmania	35-44	Never married		15627
+Tasmania	45-54	Married	0	8585
+Tasmania	45-54	Married	1	35046
+Tasmania	45-54	Never married		19256
+Tasmania	55-64	Married	0	5532
+Tasmania	55-64	Married	1	38123
+Tasmania	55-64	Never married		19233
+Tasmania	65-74	Married	0	2441
+Tasmania	65-74	Married	1	30576
+Tasmania	65-74	Never married		15411
+Tasmania	75-84	Married	0	562
+Tasmania	75-84	Married	1	13334
+Tasmania	75-84	Never married		10980
+Tasmania	85+	Married	0	98
+Tasmania	85+	Married	1	2620
+Tasmania	85+	Never married		5389
+Northern Territory	15-19	Married	0	300
+Northern Territory	15-19	Married	1	239
+Northern Territory	15-19	Never married		11053
+Northern Territory	20-24	Married	0	2485
+Northern Territory	20-24	Married	1	1620
+Northern Territory	20-24	Never married		8291
+Northern Territory	25-34	Married	0	8096
+Northern Territory	25-34	Married	1	12626
+Northern Territory	25-34	Never married		12743
+Northern Territory	35-44	Married	0	4817
+Northern Territory	35-44	Married	1	15328
+Northern Territory	35-44	Never married		7808
+Northern Territory	45-54	Married	0	3911
+Northern Territory	45-54	Married	1	13099
+Northern Territory	45-54	Never married		7882
+Northern Territory	55-64	Married	0	2117
+Northern Territory	55-64	Married	1	9592
+Northern Territory	55-64	Never married		6574
+Northern Territory	65-74	Married	0	684
+Northern Territory	65-74	Married	1	4664
+Northern Territory	65-74	Never married		3876
+Northern Territory	75-84	Married	0	115
+Northern Territory	75-84	Married	1	1267
+Northern Territory	75-84	Never married		1654
+Northern Territory	85+	Married	0	13
+Northern Territory	85+	Married	1	163
+Northern Territory	85+	Never married		464
+Australian Capital Territory	15-19	Married	0	231
+Australian Capital Territory	15-19	Married	1	13
+Australian Capital Territory	15-19	Never married		20419
+Australian Capital Territory	20-24	Married	0	3727
+Australian Capital Territory	20-24	Married	1	939
+Australian Capital Territory	20-24	Never married		19811
+Australian Capital Territory	25-34	Married	0	12367
+Australian Capital Territory	25-34	Married	1	23384
+Australian Capital Territory	25-34	Never married		22550
+Australian Capital Territory	35-44	Married	0	6846
+Australian Capital Territory	35-44	Married	1	34025
+Australian Capital Territory	35-44	Never married		12455
+Australian Capital Territory	45-54	Married	0	5114
+Australian Capital Territory	45-54	Married	1	28995
+Australian Capital Territory	45-54	Never married		12443
+Australian Capital Territory	55-64	Married	0	2804
+Australian Capital Territory	55-64	Married	1	23381
+Australian Capital Territory	55-64	Never married		10790
+Australian Capital Territory	65-74	Married	0	1126
+Australian Capital Territory	65-74	Married	1	16588
+Australian Capital Territory	65-74	Never married		7790
+Australian Capital Territory	75-84	Married	0	246
+Australian Capital Territory	75-84	Married	1	6885
+Australian Capital Territory	75-84	Never married		4847
+Australian Capital Territory	85+	Married	0	42
+Australian Capital Territory	85+	Married	1	1497
+Australian Capital Territory	85+	Never married		2624
+Other Territories	15-19	Married	0	5
+Other Territories	15-19	Never married		169
+Other Territories	20-24	Married	0	15
+Other Territories	20-24	Married	1	12
+Other Territories	20-24	Never married		78
+Other Territories	25-34	Married	0	51
+Other Territories	25-34	Married	1	158
+Other Territories	25-34	Never married		103
+Other Territories	35-44	Married	0	82
+Other Territories	35-44	Married	1	293
+Other Territories	35-44	Never married		107
+Other Territories	45-54	Married	0	83
+Other Territories	45-54	Married	1	283
+Other Territories	45-54	Never married		145
+Other Territories	55-64	Married	0	50
+Other Territories	55-64	Married	1	307
+Other Territories	55-64	Never married		154
+Other Territories	65-74	Married	0	15
+Other Territories	65-74	Married	1	241
+Other Territories	65-74	Never married		105
+Other Territories	75-84	Married	0	3
+Other Territories	75-84	Married	1	74
+Other Territories	75-84	Never married		71
+Other Territories	85+	Married	1	14
+Other Territories	85+	Never married		28

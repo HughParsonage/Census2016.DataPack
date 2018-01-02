@@ -1,0 +1,188 @@
+SA4_NAME16	PrivateDwelling	persons
+Capital Region	0	34259
+Capital Region	1	195954
+Central Coast	0	19558
+Central Coast	1	304009
+Central West	0	23141
+Central West	1	181792
+Coffs Harbour - Grafton	0	15582
+Coffs Harbour - Grafton	1	123695
+Far West and Orana	0	16537
+Far West and Orana	1	99352
+Hunter Valley exc Newcastle	0	21639
+Hunter Valley exc Newcastle	1	239893
+Illawarra	0	17966
+Illawarra	1	272139
+Mid North Coast	0	20392
+Mid North Coast	1	192160
+Murray	0	13161
+Murray	1	102503
+New England and North West	0	22073
+New England and North West	1	159831
+Newcastle and Lake Macquarie	0	20634
+Newcastle and Lake Macquarie	1	333558
+Richmond - Tweed	0	27076
+Richmond - Tweed	1	216292
+Riverina	0	18094
+Riverina	1	137597
+Southern Highlands and Shoalhaven	0	13021
+Southern Highlands and Shoalhaven	1	131994
+Sydney - Baulkham Hills and Hawkesbury	0	8572
+Sydney - Baulkham Hills and Hawkesbury	1	217152
+Sydney - Blacktown	0	16402
+Sydney - Blacktown	1	321948
+Sydney - City and Inner South	0	62972
+Sydney - City and Inner South	1	270158
+Sydney - Eastern Suburbs	0	31502
+Sydney - Eastern Suburbs	1	234291
+Sydney - Inner South West	0	32653
+Sydney - Inner South West	1	537336
+Sydney - Inner West	0	21478
+Sydney - Inner West	1	268889
+Sydney - North Sydney and Hornsby	0	26063
+Sydney - North Sydney and Hornsby	1	376499
+Sydney - Northern Beaches	0	14240
+Sydney - Northern Beaches	1	234328
+Sydney - Outer South West	0	13436
+Sydney - Outer South West	1	247220
+Sydney - Outer West and Blue Mountains	0	19528
+Sydney - Outer West and Blue Mountains	1	285831
+Sydney - Parramatta	0	32667
+Sydney - Parramatta	1	417080
+Sydney - Ryde	0	11166
+Sydney - Ryde	1	170360
+Sydney - South West	0	22672
+Sydney - South West	1	382583
+Sydney - Sutherland	0	9361
+Sydney - Sutherland	1	205469
+Migratory - Offshore - Shipping (NSW)	0	3279
+Ballarat	0	13068
+Ballarat	1	141815
+Bendigo	0	13146
+Bendigo	1	137565
+Geelong	0	20581
+Geelong	1	252401
+Hume	0	25284
+Hume	1	150473
+Latrobe - Gippsland	0	24247
+Latrobe - Gippsland	1	240308
+Melbourne - Inner	0	86739
+Melbourne - Inner	1	522126
+Melbourne - Inner East	0	20247
+Melbourne - Inner East	1	334661
+Melbourne - Inner South	0	22587
+Melbourne - Inner South	1	374103
+Melbourne - North East	0	27948
+Melbourne - North East	1	462934
+Melbourne - North West	0	20256
+Melbourne - North West	1	340641
+Melbourne - Outer East	0	22758
+Melbourne - Outer East	1	468455
+Melbourne - South East	0	41856
+Melbourne - South East	1	707714
+Melbourne - West	0	41674
+Melbourne - West	1	681011
+Mornington Peninsula	0	19803
+Mornington Peninsula	1	263156
+North West	0	15373
+North West	1	132783
+Shepparton	0	11655
+Shepparton	1	115663
+Warrnambool and South West	0	10356
+Warrnambool and South West	1	109182
+Migratory - Offshore - Shipping (Vic.)	0	349
+Brisbane - East	0	9710
+Brisbane - East	1	209443
+Brisbane - North	0	10441
+Brisbane - North	1	193710
+Brisbane - South	0	19373
+Brisbane - South	1	317792
+Brisbane - West	0	10370
+Brisbane - West	1	165502
+Brisbane Inner City	0	35039
+Brisbane Inner City	1	220332
+Cairns	0	45999
+Cairns	1	213166
+Darling Downs - Maranoa	0	17664
+Darling Downs - Maranoa	1	111409
+Central Queensland	0	32251
+Central Queensland	1	195238
+Gold Coast	0	69077
+Gold Coast	1	517806
+Ipswich	0	25446
+Ipswich	1	294659
+Logan - Beaudesert	0	18661
+Logan - Beaudesert	1	295263
+Mackay - Isaac - Whitsunday	0	35378
+Mackay - Isaac - Whitsunday	1	146281
+Moreton Bay - North	0	16992
+Moreton Bay - North	1	217551
+Moreton Bay - South	0	7167
+Moreton Bay - South	1	184416
+Queensland - Outback	0	22760
+Queensland - Outback	1	68813
+Sunshine Coast	0	37520
+Sunshine Coast	1	318283
+Toowoomba	0	13186
+Toowoomba	1	135435
+Townsville	0	29064
+Townsville	1	204664
+Wide Bay	0	32435
+Wide Bay	1	260342
+Migratory - Offshore - Shipping (Qld)	0	1974
+Adelaide - Central and Hills	0	26461
+Adelaide - Central and Hills	1	264170
+Adelaide - North	0	22461
+Adelaide - North	1	395394
+Adelaide - South	0	19334
+Adelaide - South	1	329736
+Adelaide - West	0	12778
+Adelaide - West	1	211922
+Barossa - Yorke - Mid North	0	9231
+Barossa - Yorke - Mid North	1	99949
+South Australia - Outback	0	15410
+South Australia - Outback	1	72275
+South Australia - South East	0	15622
+South Australia - South East	1	165468
+Migratory - Offshore - Shipping (SA)	0	219
+Bunbury	0	15937
+Bunbury	1	155797
+Mandurah	0	6158
+Mandurah	1	86778
+Perth - Inner	0	25276
+Perth - Inner	1	147284
+Perth - North East	0	16436
+Perth - North East	1	229738
+Perth - North West	0	26925
+Perth - North West	1	497187
+Perth - South East	0	32324
+Perth - South East	1	448013
+Perth - South West	0	28433
+Perth - South West	1	367191
+Western Australia - Wheat Belt	0	17606
+Western Australia - Wheat Belt	1	116780
+Western Australia - Outback (North)	0	62858
+Western Australia - Outback (North)	1	68421
+Western Australia - Outback (South)	0	33687
+Western Australia - Outback (South)	1	100128
+Migratory - Offshore - Shipping (WA)	0	3668
+Hobart	0	16715
+Hobart	1	202902
+Launceston and North East	0	11817
+Launceston and North East	1	126052
+South East	0	3277
+South East	1	33093
+West and North West	0	7992
+West and North West	1	98662
+Migratory - Offshore - Shipping (Tas.)	0	691
+Darwin	0	30210
+Darwin	1	117096
+Northern Territory - Outback	0	27517
+Northern Territory - Outback	1	75053
+Migratory - Offshore - Shipping (NT)	0	252
+Australian Capital Territory	0	35718
+Australian Capital Territory	1	360035
+Migratory - Offshore - Shipping (ACT)	0	12
+Other Territories	0	1720
+Other Territories	1	3448
+Migratory - Offshore - Shipping (OT)	0	19

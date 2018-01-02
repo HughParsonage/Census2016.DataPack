@@ -1,0 +1,4158 @@
+SA3_NAME16	EduInstitutionType	Sex	students
+Queanbeyan		F	2421
+Queanbeyan		M	2410
+Queanbeyan	Infants/Primary	F	2414
+Queanbeyan	Infants/Primary	M	2516
+Queanbeyan	Pre-school	F	364
+Queanbeyan	Pre-school	M	502
+Queanbeyan	Secondary	F	1871
+Queanbeyan	Secondary	M	1968
+Queanbeyan	Technical or Further Educational Institution	F	615
+Queanbeyan	Technical or Further Educational Institution	M	596
+Queanbeyan	University or other tertiary	F	1366
+Queanbeyan	University or other tertiary	M	973
+Snowy Mountains		F	993
+Snowy Mountains		M	1200
+Snowy Mountains	Infants/Primary	F	732
+Snowy Mountains	Infants/Primary	M	809
+Snowy Mountains	Pre-school	F	127
+Snowy Mountains	Pre-school	M	163
+Snowy Mountains	Secondary	F	548
+Snowy Mountains	Secondary	M	577
+Snowy Mountains	Technical or Further Educational Institution	F	210
+Snowy Mountains	Technical or Further Educational Institution	M	164
+Snowy Mountains	University or other tertiary	F	266
+Snowy Mountains	University or other tertiary	M	129
+South Coast		F	3500
+South Coast		M	3263
+South Coast	Infants/Primary	F	2333
+South Coast	Infants/Primary	M	2504
+South Coast	Pre-school	F	437
+South Coast	Pre-school	M	487
+South Coast	Secondary	F	1934
+South Coast	Secondary	M	1927
+South Coast	Technical or Further Educational Institution	F	553
+South Coast	Technical or Further Educational Institution	M	434
+South Coast	University or other tertiary	F	673
+South Coast	University or other tertiary	M	257
+Goulburn - Mulwaree		F	1589
+Goulburn - Mulwaree		M	2083
+Goulburn - Mulwaree	Infants/Primary	F	1356
+Goulburn - Mulwaree	Infants/Primary	M	1476
+Goulburn - Mulwaree	Pre-school	F	302
+Goulburn - Mulwaree	Pre-school	M	317
+Goulburn - Mulwaree	Secondary	F	987
+Goulburn - Mulwaree	Secondary	M	1054
+Goulburn - Mulwaree	Technical or Further Educational Institution	F	394
+Goulburn - Mulwaree	Technical or Further Educational Institution	M	321
+Goulburn - Mulwaree	University or other tertiary	F	463
+Goulburn - Mulwaree	University or other tertiary	M	248
+Young - Yass		F	1573
+Young - Yass		M	1420
+Young - Yass	Infants/Primary	F	1619
+Young - Yass	Infants/Primary	M	1681
+Young - Yass	Pre-school	F	317
+Young - Yass	Pre-school	M	359
+Young - Yass	Secondary	F	1263
+Young - Yass	Secondary	M	1208
+Young - Yass	Technical or Further Educational Institution	F	411
+Young - Yass	Technical or Further Educational Institution	M	267
+Young - Yass	University or other tertiary	F	559
+Young - Yass	University or other tertiary	M	257
+Gosford		F	6130
+Gosford		M	5394
+Gosford	Infants/Primary	F	6641
+Gosford	Infants/Primary	M	6996
+Gosford	Pre-school	F	1544
+Gosford	Pre-school	M	1671
+Gosford	Secondary	F	5310
+Gosford	Secondary	M	5377
+Gosford	Technical or Further Educational Institution	F	1703
+Gosford	Technical or Further Educational Institution	M	1450
+Gosford	University or other tertiary	F	3628
+Gosford	University or other tertiary	M	2436
+Wyong		F	6469
+Wyong		M	5485
+Wyong	Infants/Primary	F	6525
+Wyong	Infants/Primary	M	7039
+Wyong	Pre-school	F	1548
+Wyong	Pre-school	M	1715
+Wyong	Secondary	F	4954
+Wyong	Secondary	M	5033
+Wyong	Technical or Further Educational Institution	F	1758
+Wyong	Technical or Further Educational Institution	M	1361
+Wyong	University or other tertiary	F	2668
+Wyong	University or other tertiary	M	1546
+Bathurst		F	2091
+Bathurst		M	2920
+Bathurst	Infants/Primary	F	1951
+Bathurst	Infants/Primary	M	2101
+Bathurst	Pre-school	F	404
+Bathurst	Pre-school	M	441
+Bathurst	Secondary	F	1574
+Bathurst	Secondary	M	1689
+Bathurst	Technical or Further Educational Institution	F	580
+Bathurst	Technical or Further Educational Institution	M	407
+Bathurst	University or other tertiary	F	1310
+Bathurst	University or other tertiary	M	835
+Lachlan Valley		F	3075
+Lachlan Valley		M	2874
+Lachlan Valley	Infants/Primary	F	2352
+Lachlan Valley	Infants/Primary	M	2435
+Lachlan Valley	Pre-school	F	520
+Lachlan Valley	Pre-school	M	512
+Lachlan Valley	Secondary	F	1698
+Lachlan Valley	Secondary	M	1657
+Lachlan Valley	Technical or Further Educational Institution	F	599
+Lachlan Valley	Technical or Further Educational Institution	M	344
+Lachlan Valley	University or other tertiary	F	526
+Lachlan Valley	University or other tertiary	M	232
+Lithgow - Mudgee		F	2727
+Lithgow - Mudgee		M	3125
+Lithgow - Mudgee	Infants/Primary	F	1797
+Lithgow - Mudgee	Infants/Primary	M	1884
+Lithgow - Mudgee	Pre-school	F	379
+Lithgow - Mudgee	Pre-school	M	384
+Lithgow - Mudgee	Secondary	F	1205
+Lithgow - Mudgee	Secondary	M	1369
+Lithgow - Mudgee	Technical or Further Educational Institution	F	580
+Lithgow - Mudgee	Technical or Further Educational Institution	M	395
+Lithgow - Mudgee	University or other tertiary	F	497
+Lithgow - Mudgee	University or other tertiary	M	217
+Orange		F	2378
+Orange		M	2277
+Orange	Infants/Primary	F	2620
+Orange	Infants/Primary	M	2801
+Orange	Pre-school	F	542
+Orange	Pre-school	M	593
+Orange	Secondary	F	2001
+Orange	Secondary	M	1947
+Orange	Technical or Further Educational Institution	F	769
+Orange	Technical or Further Educational Institution	M	639
+Orange	University or other tertiary	F	1055
+Orange	University or other tertiary	M	559
+Clarence Valley		F	2252
+Clarence Valley		M	2451
+Clarence Valley	Infants/Primary	F	1829
+Clarence Valley	Infants/Primary	M	1945
+Clarence Valley	Pre-school	F	358
+Clarence Valley	Pre-school	M	401
+Clarence Valley	Secondary	F	1410
+Clarence Valley	Secondary	M	1478
+Clarence Valley	Technical or Further Educational Institution	F	639
+Clarence Valley	Technical or Further Educational Institution	M	412
+Clarence Valley	University or other tertiary	F	451
+Clarence Valley	University or other tertiary	M	200
+Coffs Harbour		F	3947
+Coffs Harbour		M	3523
+Coffs Harbour	Infants/Primary	F	3499
+Coffs Harbour	Infants/Primary	M	3568
+Coffs Harbour	Pre-school	F	758
+Coffs Harbour	Pre-school	M	845
+Coffs Harbour	Secondary	F	2679
+Coffs Harbour	Secondary	M	2735
+Coffs Harbour	Technical or Further Educational Institution	F	1167
+Coffs Harbour	Technical or Further Educational Institution	M	744
+Coffs Harbour	University or other tertiary	F	1306
+Coffs Harbour	University or other tertiary	M	647
+Bourke - Cobar - Coonamble		F	1723
+Bourke - Cobar - Coonamble		M	1820
+Bourke - Cobar - Coonamble	Infants/Primary	F	1045
+Bourke - Cobar - Coonamble	Infants/Primary	M	1050
+Bourke - Cobar - Coonamble	Pre-school	F	267
+Bourke - Cobar - Coonamble	Pre-school	M	246
+Bourke - Cobar - Coonamble	Secondary	F	570
+Bourke - Cobar - Coonamble	Secondary	M	560
+Bourke - Cobar - Coonamble	Technical or Further Educational Institution	F	242
+Bourke - Cobar - Coonamble	Technical or Further Educational Institution	M	120
+Bourke - Cobar - Coonamble	University or other tertiary	F	231
+Bourke - Cobar - Coonamble	University or other tertiary	M	83
+Broken Hill and Far West		F	1064
+Broken Hill and Far West		M	1097
+Broken Hill and Far West	Infants/Primary	F	719
+Broken Hill and Far West	Infants/Primary	M	699
+Broken Hill and Far West	Pre-school	F	158
+Broken Hill and Far West	Pre-school	M	187
+Broken Hill and Far West	Secondary	F	523
+Broken Hill and Far West	Secondary	M	532
+Broken Hill and Far West	Technical or Further Educational Institution	F	260
+Broken Hill and Far West	Technical or Further Educational Institution	M	178
+Broken Hill and Far West	University or other tertiary	F	201
+Broken Hill and Far West	University or other tertiary	M	80
+Dubbo		F	3518
+Dubbo		M	3848
+Dubbo	Infants/Primary	F	2918
+Dubbo	Infants/Primary	M	3153
+Dubbo	Pre-school	F	700
+Dubbo	Pre-school	M	738
+Dubbo	Secondary	F	2120
+Dubbo	Secondary	M	2121
+Dubbo	Technical or Further Educational Institution	F	848
+Dubbo	Technical or Further Educational Institution	M	599
+Dubbo	University or other tertiary	F	862
+Dubbo	University or other tertiary	M	386
+Lower Hunter		F	3868
+Lower Hunter		M	4379
+Lower Hunter	Infants/Primary	F	3816
+Lower Hunter	Infants/Primary	M	4007
+Lower Hunter	Pre-school	F	849
+Lower Hunter	Pre-school	M	878
+Lower Hunter	Secondary	F	2799
+Lower Hunter	Secondary	M	2787
+Lower Hunter	Technical or Further Educational Institution	F	935
+Lower Hunter	Technical or Further Educational Institution	M	692
+Lower Hunter	University or other tertiary	F	1072
+Lower Hunter	University or other tertiary	M	572
+Maitland		F	2372
+Maitland		M	2249
+Maitland	Infants/Primary	F	3505
+Maitland	Infants/Primary	M	3667
+Maitland	Pre-school	F	768
+Maitland	Pre-school	M	870
+Maitland	Secondary	F	2450
+Maitland	Secondary	M	2571
+Maitland	Technical or Further Educational Institution	F	917
+Maitland	Technical or Further Educational Institution	M	727
+Maitland	University or other tertiary	F	1451
+Maitland	University or other tertiary	M	894
+Port Stephens		F	3144
+Port Stephens		M	2965
+Port Stephens	Infants/Primary	F	2779
+Port Stephens	Infants/Primary	M	2953
+Port Stephens	Pre-school	F	609
+Port Stephens	Pre-school	M	629
+Port Stephens	Secondary	F	2086
+Port Stephens	Secondary	M	2226
+Port Stephens	Technical or Further Educational Institution	F	671
+Port Stephens	Technical or Further Educational Institution	M	535
+Port Stephens	University or other tertiary	F	1037
+Port Stephens	University or other tertiary	M	537
+Upper Hunter		F	1394
+Upper Hunter		M	1575
+Upper Hunter	Infants/Primary	F	1432
+Upper Hunter	Infants/Primary	M	1479
+Upper Hunter	Pre-school	F	314
+Upper Hunter	Pre-school	M	347
+Upper Hunter	Secondary	F	953
+Upper Hunter	Secondary	M	922
+Upper Hunter	Technical or Further Educational Institution	F	343
+Upper Hunter	Technical or Further Educational Institution	M	260
+Upper Hunter	University or other tertiary	F	275
+Upper Hunter	University or other tertiary	M	119
+Dapto - Port Kembla		F	2560
+Dapto - Port Kembla		M	2386
+Dapto - Port Kembla	Infants/Primary	F	3086
+Dapto - Port Kembla	Infants/Primary	M	3246
+Dapto - Port Kembla	Pre-school	F	775
+Dapto - Port Kembla	Pre-school	M	845
+Dapto - Port Kembla	Secondary	F	2493
+Dapto - Port Kembla	Secondary	M	2538
+Dapto - Port Kembla	Technical or Further Educational Institution	F	745
+Dapto - Port Kembla	Technical or Further Educational Institution	M	696
+Dapto - Port Kembla	University or other tertiary	F	1365
+Dapto - Port Kembla	University or other tertiary	M	948
+Kiama - Shellharbour		F	3364
+Kiama - Shellharbour		M	2927
+Kiama - Shellharbour	Infants/Primary	F	3763
+Kiama - Shellharbour	Infants/Primary	M	3954
+Kiama - Shellharbour	Pre-school	F	885
+Kiama - Shellharbour	Pre-school	M	1035
+Kiama - Shellharbour	Secondary	F	3063
+Kiama - Shellharbour	Secondary	M	3081
+Kiama - Shellharbour	Technical or Further Educational Institution	F	918
+Kiama - Shellharbour	Technical or Further Educational Institution	M	877
+Kiama - Shellharbour	University or other tertiary	F	1688
+Kiama - Shellharbour	University or other tertiary	M	993
+Wollongong		F	4278
+Wollongong		M	3973
+Wollongong	Infants/Primary	F	4955
+Wollongong	Infants/Primary	M	5127
+Wollongong	Pre-school	F	1170
+Wollongong	Pre-school	M	1244
+Wollongong	Secondary	F	3795
+Wollongong	Secondary	M	3884
+Wollongong	Technical or Further Educational Institution	F	1297
+Wollongong	Technical or Further Educational Institution	M	1309
+Wollongong	University or other tertiary	F	5643
+Wollongong	University or other tertiary	M	5795
+Great Lakes		F	1498
+Great Lakes		M	1328
+Great Lakes	Infants/Primary	F	986
+Great Lakes	Infants/Primary	M	997
+Great Lakes	Pre-school	F	219
+Great Lakes	Pre-school	M	232
+Great Lakes	Secondary	F	772
+Great Lakes	Secondary	M	817
+Great Lakes	Technical or Further Educational Institution	F	338
+Great Lakes	Technical or Further Educational Institution	M	205
+Great Lakes	University or other tertiary	F	224
+Great Lakes	University or other tertiary	M	124
+Kempsey - Nambucca		F	2629
+Kempsey - Nambucca		M	2839
+Kempsey - Nambucca	Infants/Primary	F	1808
+Kempsey - Nambucca	Infants/Primary	M	1819
+Kempsey - Nambucca	Pre-school	F	359
+Kempsey - Nambucca	Pre-school	M	433
+Kempsey - Nambucca	Secondary	F	1339
+Kempsey - Nambucca	Secondary	M	1407
+Kempsey - Nambucca	Technical or Further Educational Institution	F	495
+Kempsey - Nambucca	Technical or Further Educational Institution	M	301
+Kempsey - Nambucca	University or other tertiary	F	432
+Kempsey - Nambucca	University or other tertiary	M	189
+Lord Howe Island		F	13
+Lord Howe Island		M	21
+Lord Howe Island	Infants/Primary	F	11
+Lord Howe Island	Infants/Primary	M	16
+Lord Howe Island	Pre-school	F	3
+Lord Howe Island	University or other tertiary	F	6
+Port Macquarie		F	3259
+Port Macquarie		M	2920
+Port Macquarie	Infants/Primary	F	2941
+Port Macquarie	Infants/Primary	M	3085
+Port Macquarie	Pre-school	F	665
+Port Macquarie	Pre-school	M	712
+Port Macquarie	Secondary	F	2473
+Port Macquarie	Secondary	M	2488
+Port Macquarie	Technical or Further Educational Institution	F	932
+Port Macquarie	Technical or Further Educational Institution	M	613
+Port Macquarie	University or other tertiary	F	1090
+Port Macquarie	University or other tertiary	M	520
+Taree - Gloucester		F	2460
+Taree - Gloucester		M	2145
+Taree - Gloucester	Infants/Primary	F	1956
+Taree - Gloucester	Infants/Primary	M	2134
+Taree - Gloucester	Pre-school	F	431
+Taree - Gloucester	Pre-school	M	491
+Taree - Gloucester	Secondary	F	1630
+Taree - Gloucester	Secondary	M	1562
+Taree - Gloucester	Technical or Further Educational Institution	F	629
+Taree - Gloucester	Technical or Further Educational Institution	M	394
+Taree - Gloucester	University or other tertiary	F	530
+Taree - Gloucester	University or other tertiary	M	186
+Albury		F	2673
+Albury		M	2440
+Albury	Infants/Primary	F	2542
+Albury	Infants/Primary	M	2634
+Albury	Pre-school	F	531
+Albury	Pre-school	M	555
+Albury	Secondary	F	2052
+Albury	Secondary	M	1993
+Albury	Technical or Further Educational Institution	F	765
+Albury	Technical or Further Educational Institution	M	624
+Albury	University or other tertiary	F	1252
+Albury	University or other tertiary	M	627
+Lower Murray		F	749
+Lower Murray		M	807
+Lower Murray	Infants/Primary	F	496
+Lower Murray	Infants/Primary	M	547
+Lower Murray	Pre-school	F	101
+Lower Murray	Pre-school	M	108
+Lower Murray	Secondary	F	363
+Lower Murray	Secondary	M	353
+Lower Murray	Technical or Further Educational Institution	F	91
+Lower Murray	Technical or Further Educational Institution	M	68
+Lower Murray	University or other tertiary	F	115
+Lower Murray	University or other tertiary	M	37
+Upper Murray exc. Albury		F	2277
+Upper Murray exc. Albury		M	2142
+Upper Murray exc. Albury	Infants/Primary	F	1596
+Upper Murray exc. Albury	Infants/Primary	M	1593
+Upper Murray exc. Albury	Pre-school	F	339
+Upper Murray exc. Albury	Pre-school	M	360
+Upper Murray exc. Albury	Secondary	F	1210
+Upper Murray exc. Albury	Secondary	M	1126
+Upper Murray exc. Albury	Technical or Further Educational Institution	F	381
+Upper Murray exc. Albury	Technical or Further Educational Institution	M	273
+Upper Murray exc. Albury	University or other tertiary	F	379
+Upper Murray exc. Albury	University or other tertiary	M	158
+Armidale		F	1723
+Armidale		M	1580
+Armidale	Infants/Primary	F	1508
+Armidale	Infants/Primary	M	1500
+Armidale	Pre-school	F	291
+Armidale	Pre-school	M	330
+Armidale	Secondary	F	1315
+Armidale	Secondary	M	1308
+Armidale	Technical or Further Educational Institution	F	361
+Armidale	Technical or Further Educational Institution	M	326
+Armidale	University or other tertiary	F	1936
+Armidale	University or other tertiary	M	1397
+Inverell - Tenterfield		F	2207
+Inverell - Tenterfield		M	2228
+Inverell - Tenterfield	Infants/Primary	F	1503
+Inverell - Tenterfield	Infants/Primary	M	1543
+Inverell - Tenterfield	Pre-school	F	288
+Inverell - Tenterfield	Pre-school	M	346
+Inverell - Tenterfield	Secondary	F	1138
+Inverell - Tenterfield	Secondary	M	1099
+Inverell - Tenterfield	Technical or Further Educational Institution	F	378
+Inverell - Tenterfield	Technical or Further Educational Institution	M	222
+Inverell - Tenterfield	University or other tertiary	F	322
+Inverell - Tenterfield	University or other tertiary	M	158
+Moree - Narrabri		F	1678
+Moree - Narrabri		M	1654
+Moree - Narrabri	Infants/Primary	F	1167
+Moree - Narrabri	Infants/Primary	M	1170
+Moree - Narrabri	Pre-school	F	266
+Moree - Narrabri	Pre-school	M	267
+Moree - Narrabri	Secondary	F	668
+Moree - Narrabri	Secondary	M	688
+Moree - Narrabri	Technical or Further Educational Institution	F	203
+Moree - Narrabri	Technical or Further Educational Institution	M	168
+Moree - Narrabri	University or other tertiary	F	247
+Moree - Narrabri	University or other tertiary	M	98
+Tamworth - Gunnedah		F	3883
+Tamworth - Gunnedah		M	3708
+Tamworth - Gunnedah	Infants/Primary	F	3396
+Tamworth - Gunnedah	Infants/Primary	M	3638
+Tamworth - Gunnedah	Pre-school	F	826
+Tamworth - Gunnedah	Pre-school	M	847
+Tamworth - Gunnedah	Secondary	F	2580
+Tamworth - Gunnedah	Secondary	M	2572
+Tamworth - Gunnedah	Technical or Further Educational Institution	F	892
+Tamworth - Gunnedah	Technical or Further Educational Institution	M	608
+Tamworth - Gunnedah	University or other tertiary	F	935
+Tamworth - Gunnedah	University or other tertiary	M	426
+Lake Macquarie - East		F	3513
+Lake Macquarie - East		M	3077
+Lake Macquarie - East	Infants/Primary	F	4855
+Lake Macquarie - East	Infants/Primary	M	5232
+Lake Macquarie - East	Pre-school	F	1164
+Lake Macquarie - East	Pre-school	M	1240
+Lake Macquarie - East	Secondary	F	3811
+Lake Macquarie - East	Secondary	M	3919
+Lake Macquarie - East	Technical or Further Educational Institution	F	1151
+Lake Macquarie - East	Technical or Further Educational Institution	M	1052
+Lake Macquarie - East	University or other tertiary	F	2545
+Lake Macquarie - East	University or other tertiary	M	1743
+Lake Macquarie - West		F	2452
+Lake Macquarie - West		M	2142
+Lake Macquarie - West	Infants/Primary	F	2961
+Lake Macquarie - West	Infants/Primary	M	3038
+Lake Macquarie - West	Pre-school	F	674
+Lake Macquarie - West	Pre-school	M	699
+Lake Macquarie - West	Secondary	F	2396
+Lake Macquarie - West	Secondary	M	2428
+Lake Macquarie - West	Technical or Further Educational Institution	F	788
+Lake Macquarie - West	Technical or Further Educational Institution	M	641
+Lake Macquarie - West	University or other tertiary	F	1319
+Lake Macquarie - West	University or other tertiary	M	882
+Newcastle		F	5709
+Newcastle		M	5136
+Newcastle	Infants/Primary	F	5957
+Newcastle	Infants/Primary	M	6305
+Newcastle	Pre-school	F	1356
+Newcastle	Pre-school	M	1646
+Newcastle	Secondary	F	4376
+Newcastle	Secondary	M	4619
+Newcastle	Technical or Further Educational Institution	F	1957
+Newcastle	Technical or Further Educational Institution	M	1715
+Newcastle	University or other tertiary	F	6913
+Newcastle	University or other tertiary	M	5923
+Richmond Valley - Coastal		F	4369
+Richmond Valley - Coastal		M	4011
+Richmond Valley - Coastal	Infants/Primary	F	2769
+Richmond Valley - Coastal	Infants/Primary	M	3049
+Richmond Valley - Coastal	Pre-school	F	627
+Richmond Valley - Coastal	Pre-school	M	624
+Richmond Valley - Coastal	Secondary	F	2383
+Richmond Valley - Coastal	Secondary	M	2328
+Richmond Valley - Coastal	Technical or Further Educational Institution	F	826
+Richmond Valley - Coastal	Technical or Further Educational Institution	M	567
+Richmond Valley - Coastal	University or other tertiary	F	1223
+Richmond Valley - Coastal	University or other tertiary	M	683
+Richmond Valley - Hinterland		F	3306
+Richmond Valley - Hinterland		M	3219
+Richmond Valley - Hinterland	Infants/Primary	F	2736
+Richmond Valley - Hinterland	Infants/Primary	M	2928
+Richmond Valley - Hinterland	Pre-school	F	597
+Richmond Valley - Hinterland	Pre-school	M	612
+Richmond Valley - Hinterland	Secondary	F	2353
+Richmond Valley - Hinterland	Secondary	M	2241
+Richmond Valley - Hinterland	Technical or Further Educational Institution	F	899
+Richmond Valley - Hinterland	Technical or Further Educational Institution	M	579
+Richmond Valley - Hinterland	University or other tertiary	F	1359
+Richmond Valley - Hinterland	University or other tertiary	M	834
+Tweed Valley		F	4318
+Tweed Valley		M	3893
+Tweed Valley	Infants/Primary	F	3360
+Tweed Valley	Infants/Primary	M	3531
+Tweed Valley	Pre-school	F	572
+Tweed Valley	Pre-school	M	702
+Tweed Valley	Secondary	F	2704
+Tweed Valley	Secondary	M	2593
+Tweed Valley	Technical or Further Educational Institution	F	1000
+Tweed Valley	Technical or Further Educational Institution	M	654
+Tweed Valley	University or other tertiary	F	1502
+Tweed Valley	University or other tertiary	M	818
+Griffith - Murrumbidgee (West)		F	2741
+Griffith - Murrumbidgee (West)		M	2666
+Griffith - Murrumbidgee (West)	Infants/Primary	F	2042
+Griffith - Murrumbidgee (West)	Infants/Primary	M	2105
+Griffith - Murrumbidgee (West)	Pre-school	F	424
+Griffith - Murrumbidgee (West)	Pre-school	M	484
+Griffith - Murrumbidgee (West)	Secondary	F	1689
+Griffith - Murrumbidgee (West)	Secondary	M	1656
+Griffith - Murrumbidgee (West)	Technical or Further Educational Institution	F	458
+Griffith - Murrumbidgee (West)	Technical or Further Educational Institution	M	373
+Griffith - Murrumbidgee (West)	University or other tertiary	F	433
+Griffith - Murrumbidgee (West)	University or other tertiary	M	248
+Tumut - Tumbarumba		F	766
+Tumut - Tumbarumba		M	898
+Tumut - Tumbarumba	Infants/Primary	F	569
+Tumut - Tumbarumba	Infants/Primary	M	601
+Tumut - Tumbarumba	Pre-school	F	126
+Tumut - Tumbarumba	Pre-school	M	118
+Tumut - Tumbarumba	Secondary	F	403
+Tumut - Tumbarumba	Secondary	M	407
+Tumut - Tumbarumba	Technical or Further Educational Institution	F	166
+Tumut - Tumbarumba	Technical or Further Educational Institution	M	114
+Tumut - Tumbarumba	University or other tertiary	F	133
+Tumut - Tumbarumba	University or other tertiary	M	53
+Wagga Wagga		F	3684
+Wagga Wagga		M	4529
+Wagga Wagga	Infants/Primary	F	3993
+Wagga Wagga	Infants/Primary	M	4227
+Wagga Wagga	Pre-school	F	817
+Wagga Wagga	Pre-school	M	935
+Wagga Wagga	Secondary	F	3004
+Wagga Wagga	Secondary	M	3026
+Wagga Wagga	Technical or Further Educational Institution	F	1101
+Wagga Wagga	Technical or Further Educational Institution	M	963
+Wagga Wagga	University or other tertiary	F	2355
+Wagga Wagga	University or other tertiary	M	1116
+Shoalhaven		F	4569
+Shoalhaven		M	4866
+Shoalhaven	Infants/Primary	F	3527
+Shoalhaven	Infants/Primary	M	3722
+Shoalhaven	Pre-school	F	866
+Shoalhaven	Pre-school	M	925
+Shoalhaven	Secondary	F	2691
+Shoalhaven	Secondary	M	2714
+Shoalhaven	Technical or Further Educational Institution	F	917
+Shoalhaven	Technical or Further Educational Institution	M	727
+Shoalhaven	University or other tertiary	F	1223
+Shoalhaven	University or other tertiary	M	610
+Southern Highlands		F	2049
+Southern Highlands		M	1799
+Southern Highlands	Infants/Primary	F	1911
+Southern Highlands	Infants/Primary	M	1962
+Southern Highlands	Pre-school	F	376
+Southern Highlands	Pre-school	M	453
+Southern Highlands	Secondary	F	1769
+Southern Highlands	Secondary	M	1587
+Southern Highlands	Technical or Further Educational Institution	F	408
+Southern Highlands	Technical or Further Educational Institution	M	356
+Southern Highlands	University or other tertiary	F	696
+Southern Highlands	University or other tertiary	M	372
+Baulkham Hills		F	3299
+Baulkham Hills		M	2689
+Baulkham Hills	Infants/Primary	F	6813
+Baulkham Hills	Infants/Primary	M	7265
+Baulkham Hills	Pre-school	F	1368
+Baulkham Hills	Pre-school	M	1446
+Baulkham Hills	Secondary	F	5672
+Baulkham Hills	Secondary	M	6039
+Baulkham Hills	Technical or Further Educational Institution	F	1160
+Baulkham Hills	Technical or Further Educational Institution	M	1095
+Baulkham Hills	University or other tertiary	F	4701
+Baulkham Hills	University or other tertiary	M	4326
+Dural - Wisemans Ferry		F	792
+Dural - Wisemans Ferry		M	702
+Dural - Wisemans Ferry	Infants/Primary	F	1139
+Dural - Wisemans Ferry	Infants/Primary	M	1223
+Dural - Wisemans Ferry	Pre-school	F	228
+Dural - Wisemans Ferry	Pre-school	M	266
+Dural - Wisemans Ferry	Secondary	F	1043
+Dural - Wisemans Ferry	Secondary	M	1176
+Dural - Wisemans Ferry	Technical or Further Educational Institution	F	200
+Dural - Wisemans Ferry	Technical or Further Educational Institution	M	258
+Dural - Wisemans Ferry	University or other tertiary	F	650
+Dural - Wisemans Ferry	University or other tertiary	M	542
+Hawkesbury		F	939
+Hawkesbury		M	961
+Hawkesbury	Infants/Primary	F	1068
+Hawkesbury	Infants/Primary	M	1127
+Hawkesbury	Pre-school	F	215
+Hawkesbury	Pre-school	M	279
+Hawkesbury	Secondary	F	924
+Hawkesbury	Secondary	M	872
+Hawkesbury	Technical or Further Educational Institution	F	245
+Hawkesbury	Technical or Further Educational Institution	M	274
+Hawkesbury	University or other tertiary	F	483
+Hawkesbury	University or other tertiary	M	258
+Rouse Hill - McGraths Hill		F	776
+Rouse Hill - McGraths Hill		M	694
+Rouse Hill - McGraths Hill	Infants/Primary	F	1886
+Rouse Hill - McGraths Hill	Infants/Primary	M	2031
+Rouse Hill - McGraths Hill	Pre-school	F	387
+Rouse Hill - McGraths Hill	Pre-school	M	436
+Rouse Hill - McGraths Hill	Secondary	F	1457
+Rouse Hill - McGraths Hill	Secondary	M	1507
+Rouse Hill - McGraths Hill	Technical or Further Educational Institution	F	296
+Rouse Hill - McGraths Hill	Technical or Further Educational Institution	M	289
+Rouse Hill - McGraths Hill	University or other tertiary	F	839
+Rouse Hill - McGraths Hill	University or other tertiary	M	654
+Blacktown		F	4607
+Blacktown		M	4266
+Blacktown	Infants/Primary	F	5652
+Blacktown	Infants/Primary	M	6043
+Blacktown	Pre-school	F	1128
+Blacktown	Pre-school	M	1252
+Blacktown	Secondary	F	4334
+Blacktown	Secondary	M	4546
+Blacktown	Technical or Further Educational Institution	F	1506
+Blacktown	Technical or Further Educational Institution	M	1306
+Blacktown	University or other tertiary	F	3452
+Blacktown	University or other tertiary	M	3044
+Blacktown - North		F	2383
+Blacktown - North		M	3264
+Blacktown - North	Infants/Primary	F	4964
+Blacktown - North	Infants/Primary	M	5392
+Blacktown - North	Pre-school	F	1043
+Blacktown - North	Pre-school	M	1146
+Blacktown - North	Secondary	F	3410
+Blacktown - North	Secondary	M	3549
+Blacktown - North	Technical or Further Educational Institution	F	844
+Blacktown - North	Technical or Further Educational Institution	M	771
+Blacktown - North	University or other tertiary	F	2559
+Blacktown - North	University or other tertiary	M	2235
+Mount Druitt		F	4834
+Mount Druitt		M	4469
+Mount Druitt	Infants/Primary	F	5519
+Mount Druitt	Infants/Primary	M	5893
+Mount Druitt	Pre-school	F	902
+Mount Druitt	Pre-school	M	989
+Mount Druitt	Secondary	F	4346
+Mount Druitt	Secondary	M	4365
+Mount Druitt	Technical or Further Educational Institution	F	1405
+Mount Druitt	Technical or Further Educational Institution	M	1041
+Mount Druitt	University or other tertiary	F	2475
+Mount Druitt	University or other tertiary	M	1928
+Botany		F	2102
+Botany		M	1967
+Botany	Infants/Primary	F	1602
+Botany	Infants/Primary	M	1750
+Botany	Pre-school	F	353
+Botany	Pre-school	M	380
+Botany	Secondary	F	1187
+Botany	Secondary	M	1251
+Botany	Technical or Further Educational Institution	F	556
+Botany	Technical or Further Educational Institution	M	456
+Botany	University or other tertiary	F	1758
+Botany	University or other tertiary	M	1732
+Marrickville - Sydenham - Petersham		F	2450
+Marrickville - Sydenham - Petersham		M	2529
+Marrickville - Sydenham - Petersham	Infants/Primary	F	1495
+Marrickville - Sydenham - Petersham	Infants/Primary	M	1689
+Marrickville - Sydenham - Petersham	Pre-school	F	336
+Marrickville - Sydenham - Petersham	Pre-school	M	380
+Marrickville - Sydenham - Petersham	Secondary	F	1020
+Marrickville - Sydenham - Petersham	Secondary	M	1077
+Marrickville - Sydenham - Petersham	Technical or Further Educational Institution	F	603
+Marrickville - Sydenham - Petersham	Technical or Further Educational Institution	M	522
+Marrickville - Sydenham - Petersham	University or other tertiary	F	2400
+Marrickville - Sydenham - Petersham	University or other tertiary	M	1768
+Sydney Inner City		F	16024
+Sydney Inner City		M	17844
+Sydney Inner City	Infants/Primary	F	2409
+Sydney Inner City	Infants/Primary	M	2376
+Sydney Inner City	Pre-school	F	675
+Sydney Inner City	Pre-school	M	716
+Sydney Inner City	Secondary	F	1986
+Sydney Inner City	Secondary	M	1752
+Sydney Inner City	Technical or Further Educational Institution	F	3223
+Sydney Inner City	Technical or Further Educational Institution	M	2740
+Sydney Inner City	University or other tertiary	F	16565
+Sydney Inner City	University or other tertiary	M	13513
+Eastern Suburbs - North		F	7703
+Eastern Suburbs - North		M	6752
+Eastern Suburbs - North	Infants/Primary	F	4064
+Eastern Suburbs - North	Infants/Primary	M	4193
+Eastern Suburbs - North	Pre-school	F	1036
+Eastern Suburbs - North	Pre-school	M	1200
+Eastern Suburbs - North	Secondary	F	3152
+Eastern Suburbs - North	Secondary	M	3068
+Eastern Suburbs - North	Technical or Further Educational Institution	F	977
+Eastern Suburbs - North	Technical or Further Educational Institution	M	744
+Eastern Suburbs - North	University or other tertiary	F	3990
+Eastern Suburbs - North	University or other tertiary	M	3037
+Eastern Suburbs - South		F	6136
+Eastern Suburbs - South		M	7381
+Eastern Suburbs - South	Infants/Primary	F	4439
+Eastern Suburbs - South	Infants/Primary	M	4579
+Eastern Suburbs - South	Pre-school	F	1074
+Eastern Suburbs - South	Pre-school	M	1134
+Eastern Suburbs - South	Secondary	F	3180
+Eastern Suburbs - South	Secondary	M	3250
+Eastern Suburbs - South	Technical or Further Educational Institution	F	1178
+Eastern Suburbs - South	Technical or Further Educational Institution	M	1051
+Eastern Suburbs - South	University or other tertiary	F	9202
+Eastern Suburbs - South	University or other tertiary	M	9073
+Bankstown		F	6925
+Bankstown		M	6214
+Bankstown	Infants/Primary	F	7530
+Bankstown	Infants/Primary	M	8009
+Bankstown	Pre-school	F	1403
+Bankstown	Pre-school	M	1581
+Bankstown	Secondary	F	6051
+Bankstown	Secondary	M	6184
+Bankstown	Technical or Further Educational Institution	F	1831
+Bankstown	Technical or Further Educational Institution	M	1617
+Bankstown	University or other tertiary	F	4777
+Bankstown	University or other tertiary	M	4118
+Canterbury		F	5682
+Canterbury		M	5444
+Canterbury	Infants/Primary	F	5416
+Canterbury	Infants/Primary	M	5823
+Canterbury	Pre-school	F	988
+Canterbury	Pre-school	M	1142
+Canterbury	Secondary	F	4206
+Canterbury	Secondary	M	4388
+Canterbury	Technical or Further Educational Institution	F	1512
+Canterbury	Technical or Further Educational Institution	M	1405
+Canterbury	University or other tertiary	F	3961
+Canterbury	University or other tertiary	M	4470
+Hurstville		F	4096
+Hurstville		M	3671
+Hurstville	Infants/Primary	F	4503
+Hurstville	Infants/Primary	M	4642
+Hurstville	Pre-school	F	905
+Hurstville	Pre-school	M	1013
+Hurstville	Secondary	F	4005
+Hurstville	Secondary	M	4070
+Hurstville	Technical or Further Educational Institution	F	1235
+Hurstville	Technical or Further Educational Institution	M	1098
+Hurstville	University or other tertiary	F	4897
+Hurstville	University or other tertiary	M	4801
+Kogarah - Rockdale		F	5763
+Kogarah - Rockdale		M	5487
+Kogarah - Rockdale	Infants/Primary	F	4431
+Kogarah - Rockdale	Infants/Primary	M	4707
+Kogarah - Rockdale	Pre-school	F	976
+Kogarah - Rockdale	Pre-school	M	1035
+Kogarah - Rockdale	Secondary	F	3527
+Kogarah - Rockdale	Secondary	M	3640
+Kogarah - Rockdale	Technical or Further Educational Institution	F	1526
+Kogarah - Rockdale	Technical or Further Educational Institution	M	1469
+Kogarah - Rockdale	University or other tertiary	F	4994
+Kogarah - Rockdale	University or other tertiary	M	4853
+Canada Bay		F	3129
+Canada Bay		M	2713
+Canada Bay	Infants/Primary	F	2947
+Canada Bay	Infants/Primary	M	3042
+Canada Bay	Pre-school	F	634
+Canada Bay	Pre-school	M	722
+Canada Bay	Secondary	F	2069
+Canada Bay	Secondary	M	2105
+Canada Bay	Technical or Further Educational Institution	F	673
+Canada Bay	Technical or Further Educational Institution	M	577
+Canada Bay	University or other tertiary	F	3332
+Canada Bay	University or other tertiary	M	2833
+Leichhardt		F	2455
+Leichhardt		M	2326
+Leichhardt	Infants/Primary	F	2083
+Leichhardt	Infants/Primary	M	2211
+Leichhardt	Pre-school	F	527
+Leichhardt	Pre-school	M	564
+Leichhardt	Secondary	F	1164
+Leichhardt	Secondary	M	1217
+Leichhardt	Technical or Further Educational Institution	F	391
+Leichhardt	Technical or Further Educational Institution	M	326
+Leichhardt	University or other tertiary	F	1989
+Leichhardt	University or other tertiary	M	1410
+Strathfield - Burwood - Ashfield		F	6215
+Strathfield - Burwood - Ashfield		M	6096
+Strathfield - Burwood - Ashfield	Infants/Primary	F	4602
+Strathfield - Burwood - Ashfield	Infants/Primary	M	4606
+Strathfield - Burwood - Ashfield	Pre-school	F	970
+Strathfield - Burwood - Ashfield	Pre-school	M	1005
+Strathfield - Burwood - Ashfield	Secondary	F	4032
+Strathfield - Burwood - Ashfield	Secondary	M	4006
+Strathfield - Burwood - Ashfield	Technical or Further Educational Institution	F	1745
+Strathfield - Burwood - Ashfield	Technical or Further Educational Institution	M	1523
+Strathfield - Burwood - Ashfield	University or other tertiary	F	7473
+Strathfield - Burwood - Ashfield	University or other tertiary	M	7230
+Chatswood - Lane Cove		F	3665
+Chatswood - Lane Cove		M	3182
+Chatswood - Lane Cove	Infants/Primary	F	4651
+Chatswood - Lane Cove	Infants/Primary	M	4890
+Chatswood - Lane Cove	Pre-school	F	1099
+Chatswood - Lane Cove	Pre-school	M	1214
+Chatswood - Lane Cove	Secondary	F	3244
+Chatswood - Lane Cove	Secondary	M	3804
+Chatswood - Lane Cove	Technical or Further Educational Institution	F	1043
+Chatswood - Lane Cove	Technical or Further Educational Institution	M	679
+Chatswood - Lane Cove	University or other tertiary	F	4240
+Chatswood - Lane Cove	University or other tertiary	M	3688
+Hornsby		F	1924
+Hornsby		M	1727
+Hornsby	Infants/Primary	F	3712
+Hornsby	Infants/Primary	M	3925
+Hornsby	Pre-school	F	840
+Hornsby	Pre-school	M	908
+Hornsby	Secondary	F	2992
+Hornsby	Secondary	M	2820
+Hornsby	Technical or Further Educational Institution	F	874
+Hornsby	Technical or Further Educational Institution	M	758
+Hornsby	University or other tertiary	F	2436
+Hornsby	University or other tertiary	M	2029
+Ku-ring-gai		F	3142
+Ku-ring-gai		M	2558
+Ku-ring-gai	Infants/Primary	F	5739
+Ku-ring-gai	Infants/Primary	M	6216
+Ku-ring-gai	Pre-school	F	1095
+Ku-ring-gai	Pre-school	M	1221
+Ku-ring-gai	Secondary	F	5432
+Ku-ring-gai	Secondary	M	5636
+Ku-ring-gai	Technical or Further Educational Institution	F	765
+Ku-ring-gai	Technical or Further Educational Institution	M	589
+Ku-ring-gai	University or other tertiary	F	4399
+Ku-ring-gai	University or other tertiary	M	3795
+North Sydney - Mosman		F	4244
+North Sydney - Mosman		M	3717
+North Sydney - Mosman	Infants/Primary	F	2708
+North Sydney - Mosman	Infants/Primary	M	2810
+North Sydney - Mosman	Pre-school	F	732
+North Sydney - Mosman	Pre-school	M	718
+North Sydney - Mosman	Secondary	F	1985
+North Sydney - Mosman	Secondary	M	1994
+North Sydney - Mosman	Technical or Further Educational Institution	F	713
+North Sydney - Mosman	Technical or Further Educational Institution	M	428
+North Sydney - Mosman	University or other tertiary	F	3197
+North Sydney - Mosman	University or other tertiary	M	2370
+Manly		F	1708
+Manly		M	1502
+Manly	Infants/Primary	F	1798
+Manly	Infants/Primary	M	1787
+Manly	Pre-school	F	437
+Manly	Pre-school	M	465
+Manly	Secondary	F	1237
+Manly	Secondary	M	1250
+Manly	Technical or Further Educational Institution	F	292
+Manly	Technical or Further Educational Institution	M	212
+Manly	University or other tertiary	F	1114
+Manly	University or other tertiary	M	920
+Pittwater		F	1948
+Pittwater		M	1620
+Pittwater	Infants/Primary	F	2749
+Pittwater	Infants/Primary	M	2843
+Pittwater	Pre-school	F	587
+Pittwater	Pre-school	M	668
+Pittwater	Secondary	F	2175
+Pittwater	Secondary	M	2168
+Pittwater	Technical or Further Educational Institution	F	419
+Pittwater	Technical or Further Educational Institution	M	508
+Pittwater	University or other tertiary	F	1289
+Pittwater	University or other tertiary	M	1016
+Warringah		F	4967
+Warringah		M	4260
+Warringah	Infants/Primary	F	6781
+Warringah	Infants/Primary	M	7303
+Warringah	Pre-school	F	1462
+Warringah	Pre-school	M	1646
+Warringah	Secondary	F	5062
+Warringah	Secondary	M	5503
+Warringah	Technical or Further Educational Institution	F	1440
+Warringah	Technical or Further Educational Institution	M	1352
+Warringah	University or other tertiary	F	3578
+Warringah	University or other tertiary	M	2825
+Camden		F	1636
+Camden		M	1324
+Camden	Infants/Primary	F	3360
+Camden	Infants/Primary	M	3473
+Camden	Pre-school	F	746
+Camden	Pre-school	M	762
+Camden	Secondary	F	2466
+Camden	Secondary	M	2436
+Camden	Technical or Further Educational Institution	F	589
+Camden	Technical or Further Educational Institution	M	620
+Camden	University or other tertiary	F	1433
+Camden	University or other tertiary	M	837
+Campbelltown (NSW)		F	6538
+Campbelltown (NSW)		M	5520
+Campbelltown (NSW)	Infants/Primary	F	7013
+Campbelltown (NSW)	Infants/Primary	M	7508
+Campbelltown (NSW)	Pre-school	F	1317
+Campbelltown (NSW)	Pre-school	M	1440
+Campbelltown (NSW)	Secondary	F	5390
+Campbelltown (NSW)	Secondary	M	5579
+Campbelltown (NSW)	Technical or Further Educational Institution	F	1641
+Campbelltown (NSW)	Technical or Further Educational Institution	M	1467
+Campbelltown (NSW)	University or other tertiary	F	3590
+Campbelltown (NSW)	University or other tertiary	M	2809
+Wollondilly		F	1410
+Wollondilly		M	1323
+Wollondilly	Infants/Primary	F	1972
+Wollondilly	Infants/Primary	M	2104
+Wollondilly	Pre-school	F	434
+Wollondilly	Pre-school	M	462
+Wollondilly	Secondary	F	1471
+Wollondilly	Secondary	M	1517
+Wollondilly	Technical or Further Educational Institution	F	354
+Wollondilly	Technical or Further Educational Institution	M	395
+Wollondilly	University or other tertiary	F	798
+Wollondilly	University or other tertiary	M	437
+Blue Mountains		F	2274
+Blue Mountains		M	1988
+Blue Mountains	Infants/Primary	F	3201
+Blue Mountains	Infants/Primary	M	3345
+Blue Mountains	Pre-school	F	707
+Blue Mountains	Pre-school	M	732
+Blue Mountains	Secondary	F	2526
+Blue Mountains	Secondary	M	2686
+Blue Mountains	Technical or Further Educational Institution	F	829
+Blue Mountains	Technical or Further Educational Institution	M	750
+Blue Mountains	University or other tertiary	F	2055
+Blue Mountains	University or other tertiary	M	1374
+Penrith		F	4700
+Penrith		M	4147
+Penrith	Infants/Primary	F	6439
+Penrith	Infants/Primary	M	6627
+Penrith	Pre-school	F	1453
+Penrith	Pre-school	M	1624
+Penrith	Secondary	F	4748
+Penrith	Secondary	M	4824
+Penrith	Technical or Further Educational Institution	F	1548
+Penrith	Technical or Further Educational Institution	M	1368
+Penrith	University or other tertiary	F	2991
+Penrith	University or other tertiary	M	2082
+Richmond - Windsor		F	1617
+Richmond - Windsor		M	1946
+Richmond - Windsor	Infants/Primary	F	1454
+Richmond - Windsor	Infants/Primary	M	1561
+Richmond - Windsor	Pre-school	F	326
+Richmond - Windsor	Pre-school	M	359
+Richmond - Windsor	Secondary	F	1161
+Richmond - Windsor	Secondary	M	1123
+Richmond - Windsor	Technical or Further Educational Institution	F	413
+Richmond - Windsor	Technical or Further Educational Institution	M	397
+Richmond - Windsor	University or other tertiary	F	808
+Richmond - Windsor	University or other tertiary	M	463
+St Marys		F	2228
+St Marys		M	1934
+St Marys	Infants/Primary	F	2324
+St Marys	Infants/Primary	M	2409
+St Marys	Pre-school	F	446
+St Marys	Pre-school	M	510
+St Marys	Secondary	F	1793
+St Marys	Secondary	M	1791
+St Marys	Technical or Further Educational Institution	F	617
+St Marys	Technical or Further Educational Institution	M	544
+St Marys	University or other tertiary	F	1020
+St Marys	University or other tertiary	M	750
+Auburn		F	4192
+Auburn		M	5671
+Auburn	Infants/Primary	F	2888
+Auburn	Infants/Primary	M	3090
+Auburn	Pre-school	F	539
+Auburn	Pre-school	M	607
+Auburn	Secondary	F	2395
+Auburn	Secondary	M	2426
+Auburn	Technical or Further Educational Institution	F	1066
+Auburn	Technical or Further Educational Institution	M	1143
+Auburn	University or other tertiary	F	3295
+Auburn	University or other tertiary	M	3798
+Carlingford		F	1917
+Carlingford		M	1761
+Carlingford	Infants/Primary	F	2729
+Carlingford	Infants/Primary	M	2892
+Carlingford	Pre-school	F	587
+Carlingford	Pre-school	M	562
+Carlingford	Secondary	F	2230
+Carlingford	Secondary	M	2478
+Carlingford	Technical or Further Educational Institution	F	659
+Carlingford	Technical or Further Educational Institution	M	544
+Carlingford	University or other tertiary	F	2266
+Carlingford	University or other tertiary	M	2045
+Merrylands - Guildford		F	6486
+Merrylands - Guildford		M	6406
+Merrylands - Guildford	Infants/Primary	F	6562
+Merrylands - Guildford	Infants/Primary	M	6860
+Merrylands - Guildford	Pre-school	F	1249
+Merrylands - Guildford	Pre-school	M	1400
+Merrylands - Guildford	Secondary	F	4952
+Merrylands - Guildford	Secondary	M	4977
+Merrylands - Guildford	Technical or Further Educational Institution	F	1781
+Merrylands - Guildford	Technical or Further Educational Institution	M	1572
+Merrylands - Guildford	University or other tertiary	F	3968
+Merrylands - Guildford	University or other tertiary	M	3538
+Parramatta		F	5638
+Parramatta		M	5450
+Parramatta	Infants/Primary	F	5266
+Parramatta	Infants/Primary	M	5619
+Parramatta	Pre-school	F	1179
+Parramatta	Pre-school	M	1304
+Parramatta	Secondary	F	3320
+Parramatta	Secondary	M	3630
+Parramatta	Technical or Further Educational Institution	F	1399
+Parramatta	Technical or Further Educational Institution	M	1094
+Parramatta	University or other tertiary	F	4336
+Parramatta	University or other tertiary	M	4370
+Pennant Hills - Epping		F	962
+Pennant Hills - Epping		M	877
+Pennant Hills - Epping	Infants/Primary	F	2043
+Pennant Hills - Epping	Infants/Primary	M	2122
+Pennant Hills - Epping	Pre-school	F	407
+Pennant Hills - Epping	Pre-school	M	421
+Pennant Hills - Epping	Secondary	F	1804
+Pennant Hills - Epping	Secondary	M	1799
+Pennant Hills - Epping	Technical or Further Educational Institution	F	434
+Pennant Hills - Epping	Technical or Further Educational Institution	M	374
+Pennant Hills - Epping	University or other tertiary	F	2107
+Pennant Hills - Epping	University or other tertiary	M	2052
+Ryde - Hunters Hill		F	4039
+Ryde - Hunters Hill		M	3614
+Ryde - Hunters Hill	Infants/Primary	F	4677
+Ryde - Hunters Hill	Infants/Primary	M	4993
+Ryde - Hunters Hill	Pre-school	F	1099
+Ryde - Hunters Hill	Pre-school	M	1132
+Ryde - Hunters Hill	Secondary	F	3542
+Ryde - Hunters Hill	Secondary	M	4286
+Ryde - Hunters Hill	Technical or Further Educational Institution	F	1538
+Ryde - Hunters Hill	Technical or Further Educational Institution	M	1195
+Ryde - Hunters Hill	University or other tertiary	F	6554
+Ryde - Hunters Hill	University or other tertiary	M	6040
+Bringelly - Green Valley		F	4199
+Bringelly - Green Valley		M	3957
+Bringelly - Green Valley	Infants/Primary	F	4920
+Bringelly - Green Valley	Infants/Primary	M	5170
+Bringelly - Green Valley	Pre-school	F	868
+Bringelly - Green Valley	Pre-school	M	1001
+Bringelly - Green Valley	Secondary	F	4228
+Bringelly - Green Valley	Secondary	M	4252
+Bringelly - Green Valley	Technical or Further Educational Institution	F	947
+Bringelly - Green Valley	Technical or Further Educational Institution	M	935
+Bringelly - Green Valley	University or other tertiary	F	2641
+Bringelly - Green Valley	University or other tertiary	M	1861
+Fairfield		F	7269
+Fairfield		M	6388
+Fairfield	Infants/Primary	F	7204
+Fairfield	Infants/Primary	M	7637
+Fairfield	Pre-school	F	1143
+Fairfield	Pre-school	M	1238
+Fairfield	Secondary	F	6954
+Fairfield	Secondary	M	7151
+Fairfield	Technical or Further Educational Institution	F	2256
+Fairfield	Technical or Further Educational Institution	M	2063
+Fairfield	University or other tertiary	F	5030
+Fairfield	University or other tertiary	M	4206
+Liverpool		F	5511
+Liverpool		M	5277
+Liverpool	Infants/Primary	F	5245
+Liverpool	Infants/Primary	M	5542
+Liverpool	Pre-school	F	948
+Liverpool	Pre-school	M	1036
+Liverpool	Secondary	F	4147
+Liverpool	Secondary	M	4257
+Liverpool	Technical or Further Educational Institution	F	1340
+Liverpool	Technical or Further Educational Institution	M	1141
+Liverpool	University or other tertiary	F	3151
+Liverpool	University or other tertiary	M	2332
+Cronulla - Miranda - Caringbah		F	3334
+Cronulla - Miranda - Caringbah		M	2982
+Cronulla - Miranda - Caringbah	Infants/Primary	F	4229
+Cronulla - Miranda - Caringbah	Infants/Primary	M	4588
+Cronulla - Miranda - Caringbah	Pre-school	F	919
+Cronulla - Miranda - Caringbah	Pre-school	M	1122
+Cronulla - Miranda - Caringbah	Secondary	F	3493
+Cronulla - Miranda - Caringbah	Secondary	M	3472
+Cronulla - Miranda - Caringbah	Technical or Further Educational Institution	F	873
+Cronulla - Miranda - Caringbah	Technical or Further Educational Institution	M	985
+Cronulla - Miranda - Caringbah	University or other tertiary	F	2650
+Cronulla - Miranda - Caringbah	University or other tertiary	M	1927
+Sutherland - Menai - Heathcote		F	2292
+Sutherland - Menai - Heathcote		M	2033
+Sutherland - Menai - Heathcote	Infants/Primary	F	4903
+Sutherland - Menai - Heathcote	Infants/Primary	M	5186
+Sutherland - Menai - Heathcote	Pre-school	F	1155
+Sutherland - Menai - Heathcote	Pre-school	M	1254
+Sutherland - Menai - Heathcote	Secondary	F	3810
+Sutherland - Menai - Heathcote	Secondary	M	3903
+Sutherland - Menai - Heathcote	Technical or Further Educational Institution	F	890
+Sutherland - Menai - Heathcote	Technical or Further Educational Institution	M	1045
+Sutherland - Menai - Heathcote	University or other tertiary	F	2851
+Sutherland - Menai - Heathcote	University or other tertiary	M	2071
+Migratory - Offshore - Shipping (NSW)		F	36
+Migratory - Offshore - Shipping (NSW)		M	21
+Migratory - Offshore - Shipping (NSW)	Infants/Primary	F	7
+Migratory - Offshore - Shipping (NSW)	Infants/Primary	M	3
+Migratory - Offshore - Shipping (NSW)	Secondary	F	14
+Migratory - Offshore - Shipping (NSW)	Secondary	M	4
+Migratory - Offshore - Shipping (NSW)	University or other tertiary	F	3
+No usual address (NSW)		F	1198
+No usual address (NSW)		M	2294
+No usual address (NSW)	Infants/Primary	F	131
+No usual address (NSW)	Infants/Primary	M	107
+No usual address (NSW)	Pre-school	F	19
+No usual address (NSW)	Pre-school	M	32
+No usual address (NSW)	Secondary	F	61
+No usual address (NSW)	Secondary	M	78
+No usual address (NSW)	Technical or Further Educational Institution	F	118
+No usual address (NSW)	Technical or Further Educational Institution	M	97
+No usual address (NSW)	University or other tertiary	F	255
+No usual address (NSW)	University or other tertiary	M	215
+Ballarat		F	4164
+Ballarat		M	3683
+Ballarat	Infants/Primary	F	4307
+Ballarat	Infants/Primary	M	4495
+Ballarat	Pre-school	F	869
+Ballarat	Pre-school	M	902
+Ballarat	Secondary	F	3370
+Ballarat	Secondary	M	3444
+Ballarat	Technical or Further Educational Institution	F	760
+Ballarat	Technical or Further Educational Institution	M	731
+Ballarat	University or other tertiary	F	3044
+Ballarat	University or other tertiary	M	2102
+Creswick - Daylesford - Ballan		F	1509
+Creswick - Daylesford - Ballan		M	1375
+Creswick - Daylesford - Ballan	Infants/Primary	F	1119
+Creswick - Daylesford - Ballan	Infants/Primary	M	1148
+Creswick - Daylesford - Ballan	Pre-school	F	187
+Creswick - Daylesford - Ballan	Pre-school	M	204
+Creswick - Daylesford - Ballan	Secondary	F	809
+Creswick - Daylesford - Ballan	Secondary	M	769
+Creswick - Daylesford - Ballan	Technical or Further Educational Institution	F	169
+Creswick - Daylesford - Ballan	Technical or Further Educational Institution	M	169
+Creswick - Daylesford - Ballan	University or other tertiary	F	462
+Creswick - Daylesford - Ballan	University or other tertiary	M	221
+Maryborough - Pyrenees		F	1158
+Maryborough - Pyrenees		M	1472
+Maryborough - Pyrenees	Infants/Primary	F	908
+Maryborough - Pyrenees	Infants/Primary	M	989
+Maryborough - Pyrenees	Pre-school	F	173
+Maryborough - Pyrenees	Pre-school	M	163
+Maryborough - Pyrenees	Secondary	F	706
+Maryborough - Pyrenees	Secondary	M	724
+Maryborough - Pyrenees	Technical or Further Educational Institution	F	120
+Maryborough - Pyrenees	Technical or Further Educational Institution	M	111
+Maryborough - Pyrenees	University or other tertiary	F	256
+Maryborough - Pyrenees	University or other tertiary	M	139
+Bendigo		F	4146
+Bendigo		M	3771
+Bendigo	Infants/Primary	F	3752
+Bendigo	Infants/Primary	M	4007
+Bendigo	Pre-school	F	716
+Bendigo	Pre-school	M	805
+Bendigo	Secondary	F	2876
+Bendigo	Secondary	M	3050
+Bendigo	Technical or Further Educational Institution	F	946
+Bendigo	Technical or Further Educational Institution	M	751
+Bendigo	University or other tertiary	F	2313
+Bendigo	University or other tertiary	M	1341
+Heathcote - Castlemaine - Kyneton		F	2360
+Heathcote - Castlemaine - Kyneton		M	2772
+Heathcote - Castlemaine - Kyneton	Infants/Primary	F	1809
+Heathcote - Castlemaine - Kyneton	Infants/Primary	M	1914
+Heathcote - Castlemaine - Kyneton	Pre-school	F	326
+Heathcote - Castlemaine - Kyneton	Pre-school	M	380
+Heathcote - Castlemaine - Kyneton	Secondary	F	1463
+Heathcote - Castlemaine - Kyneton	Secondary	M	1409
+Heathcote - Castlemaine - Kyneton	Technical or Further Educational Institution	F	307
+Heathcote - Castlemaine - Kyneton	Technical or Further Educational Institution	M	289
+Heathcote - Castlemaine - Kyneton	University or other tertiary	F	699
+Heathcote - Castlemaine - Kyneton	University or other tertiary	M	327
+Loddon - Elmore		F	615
+Loddon - Elmore		M	630
+Loddon - Elmore	Infants/Primary	F	423
+Loddon - Elmore	Infants/Primary	M	425
+Loddon - Elmore	Pre-school	F	62
+Loddon - Elmore	Pre-school	M	87
+Loddon - Elmore	Secondary	F	376
+Loddon - Elmore	Secondary	M	347
+Loddon - Elmore	Technical or Further Educational Institution	F	56
+Loddon - Elmore	Technical or Further Educational Institution	M	53
+Loddon - Elmore	University or other tertiary	F	97
+Loddon - Elmore	University or other tertiary	M	40
+Barwon - West		F	724
+Barwon - West		M	719
+Barwon - West	Infants/Primary	F	950
+Barwon - West	Infants/Primary	M	1009
+Barwon - West	Pre-school	F	169
+Barwon - West	Pre-school	M	201
+Barwon - West	Secondary	F	687
+Barwon - West	Secondary	M	743
+Barwon - West	Technical or Further Educational Institution	F	168
+Barwon - West	Technical or Further Educational Institution	M	136
+Barwon - West	University or other tertiary	F	303
+Barwon - West	University or other tertiary	M	170
+Geelong		F	7626
+Geelong		M	7670
+Geelong	Infants/Primary	F	7052
+Geelong	Infants/Primary	M	7332
+Geelong	Pre-school	F	1397
+Geelong	Pre-school	M	1553
+Geelong	Secondary	F	5900
+Geelong	Secondary	M	6107
+Geelong	Technical or Further Educational Institution	F	1783
+Geelong	Technical or Further Educational Institution	M	1596
+Geelong	University or other tertiary	F	5219
+Geelong	University or other tertiary	M	4065
+Surf Coast - Bellarine Peninsula		F	2612
+Surf Coast - Bellarine Peninsula		M	2346
+Surf Coast - Bellarine Peninsula	Infants/Primary	F	3111
+Surf Coast - Bellarine Peninsula	Infants/Primary	M	3300
+Surf Coast - Bellarine Peninsula	Pre-school	F	607
+Surf Coast - Bellarine Peninsula	Pre-school	M	685
+Surf Coast - Bellarine Peninsula	Secondary	F	2152
+Surf Coast - Bellarine Peninsula	Secondary	M	2317
+Surf Coast - Bellarine Peninsula	Technical or Further Educational Institution	F	528
+Surf Coast - Bellarine Peninsula	Technical or Further Educational Institution	M	540
+Surf Coast - Bellarine Peninsula	University or other tertiary	F	1389
+Surf Coast - Bellarine Peninsula	University or other tertiary	M	816
+Upper Goulburn Valley		F	2858
+Upper Goulburn Valley		M	2736
+Upper Goulburn Valley	Infants/Primary	F	1960
+Upper Goulburn Valley	Infants/Primary	M	2060
+Upper Goulburn Valley	Pre-school	F	363
+Upper Goulburn Valley	Pre-school	M	412
+Upper Goulburn Valley	Secondary	F	1650
+Upper Goulburn Valley	Secondary	M	1671
+Upper Goulburn Valley	Technical or Further Educational Institution	F	436
+Upper Goulburn Valley	Technical or Further Educational Institution	M	400
+Upper Goulburn Valley	University or other tertiary	F	631
+Upper Goulburn Valley	University or other tertiary	M	300
+Wangaratta - Benalla		F	2255
+Wangaratta - Benalla		M	1958
+Wangaratta - Benalla	Infants/Primary	F	1697
+Wangaratta - Benalla	Infants/Primary	M	1843
+Wangaratta - Benalla	Pre-school	F	308
+Wangaratta - Benalla	Pre-school	M	307
+Wangaratta - Benalla	Secondary	F	1464
+Wangaratta - Benalla	Secondary	M	1441
+Wangaratta - Benalla	Technical or Further Educational Institution	F	423
+Wangaratta - Benalla	Technical or Further Educational Institution	M	313
+Wangaratta - Benalla	University or other tertiary	F	495
+Wangaratta - Benalla	University or other tertiary	M	182
+Wodonga - Alpine		F	3041
+Wodonga - Alpine		M	3141
+Wodonga - Alpine	Infants/Primary	F	2916
+Wodonga - Alpine	Infants/Primary	M	3048
+Wodonga - Alpine	Pre-school	F	607
+Wodonga - Alpine	Pre-school	M	637
+Wodonga - Alpine	Secondary	F	2285
+Wodonga - Alpine	Secondary	M	2288
+Wodonga - Alpine	Technical or Further Educational Institution	F	845
+Wodonga - Alpine	Technical or Further Educational Institution	M	764
+Wodonga - Alpine	University or other tertiary	F	1002
+Wodonga - Alpine	University or other tertiary	M	446
+Baw Baw		F	2176
+Baw Baw		M	1879
+Baw Baw	Infants/Primary	F	2047
+Baw Baw	Infants/Primary	M	2178
+Baw Baw	Pre-school	F	374
+Baw Baw	Pre-school	M	383
+Baw Baw	Secondary	F	1564
+Baw Baw	Secondary	M	1503
+Baw Baw	Technical or Further Educational Institution	F	465
+Baw Baw	Technical or Further Educational Institution	M	350
+Baw Baw	University or other tertiary	F	819
+Baw Baw	University or other tertiary	M	367
+Gippsland - East		F	2500
+Gippsland - East		M	2246
+Gippsland - East	Infants/Primary	F	1528
+Gippsland - East	Infants/Primary	M	1609
+Gippsland - East	Pre-school	F	300
+Gippsland - East	Pre-school	M	299
+Gippsland - East	Secondary	F	1180
+Gippsland - East	Secondary	M	1224
+Gippsland - East	Technical or Further Educational Institution	F	380
+Gippsland - East	Technical or Further Educational Institution	M	242
+Gippsland - East	University or other tertiary	F	402
+Gippsland - East	University or other tertiary	M	133
+Gippsland - South West		F	3002
+Gippsland - South West		M	2744
+Gippsland - South West	Infants/Primary	F	2305
+Gippsland - South West	Infants/Primary	M	2329
+Gippsland - South West	Pre-school	F	430
+Gippsland - South West	Pre-school	M	467
+Gippsland - South West	Secondary	F	1769
+Gippsland - South West	Secondary	M	1725
+Gippsland - South West	Technical or Further Educational Institution	F	473
+Gippsland - South West	Technical or Further Educational Institution	M	381
+Gippsland - South West	University or other tertiary	F	624
+Gippsland - South West	University or other tertiary	M	258
+Latrobe Valley		F	3700
+Latrobe Valley		M	3390
+Latrobe Valley	Infants/Primary	F	2784
+Latrobe Valley	Infants/Primary	M	2943
+Latrobe Valley	Pre-school	F	464
+Latrobe Valley	Pre-school	M	482
+Latrobe Valley	Secondary	F	2207
+Latrobe Valley	Secondary	M	2146
+Latrobe Valley	Technical or Further Educational Institution	F	694
+Latrobe Valley	Technical or Further Educational Institution	M	568
+Latrobe Valley	University or other tertiary	F	1166
+Latrobe Valley	University or other tertiary	M	654
+Wellington		F	2002
+Wellington		M	2737
+Wellington	Infants/Primary	F	1628
+Wellington	Infants/Primary	M	1757
+Wellington	Pre-school	F	296
+Wellington	Pre-school	M	342
+Wellington	Secondary	F	1336
+Wellington	Secondary	M	1303
+Wellington	Technical or Further Educational Institution	F	329
+Wellington	Technical or Further Educational Institution	M	242
+Wellington	University or other tertiary	F	496
+Wellington	University or other tertiary	M	205
+Brunswick - Coburg		F	3150
+Brunswick - Coburg		M	2869
+Brunswick - Coburg	Infants/Primary	F	2428
+Brunswick - Coburg	Infants/Primary	M	2534
+Brunswick - Coburg	Pre-school	F	607
+Brunswick - Coburg	Pre-school	M	653
+Brunswick - Coburg	Secondary	F	1646
+Brunswick - Coburg	Secondary	M	1626
+Brunswick - Coburg	Technical or Further Educational Institution	F	716
+Brunswick - Coburg	Technical or Further Educational Institution	M	762
+Brunswick - Coburg	University or other tertiary	F	5166
+Brunswick - Coburg	University or other tertiary	M	3953
+Darebin - South		F	2023
+Darebin - South		M	1756
+Darebin - South	Infants/Primary	F	1912
+Darebin - South	Infants/Primary	M	1920
+Darebin - South	Pre-school	F	414
+Darebin - South	Pre-school	M	470
+Darebin - South	Secondary	F	1170
+Darebin - South	Secondary	M	1282
+Darebin - South	Technical or Further Educational Institution	F	428
+Darebin - South	Technical or Further Educational Institution	M	423
+Darebin - South	University or other tertiary	F	2500
+Darebin - South	University or other tertiary	M	1626
+Essendon		F	2973
+Essendon		M	2578
+Essendon	Infants/Primary	F	2294
+Essendon	Infants/Primary	M	2392
+Essendon	Pre-school	F	473
+Essendon	Pre-school	M	501
+Essendon	Secondary	F	1897
+Essendon	Secondary	M	1838
+Essendon	Technical or Further Educational Institution	F	549
+Essendon	Technical or Further Educational Institution	M	508
+Essendon	University or other tertiary	F	2859
+Essendon	University or other tertiary	M	2450
+Melbourne City		F	9935
+Melbourne City		M	9728
+Melbourne City	Infants/Primary	F	1330
+Melbourne City	Infants/Primary	M	1353
+Melbourne City	Pre-school	F	377
+Melbourne City	Pre-school	M	402
+Melbourne City	Secondary	F	1248
+Melbourne City	Secondary	M	1257
+Melbourne City	Technical or Further Educational Institution	F	2337
+Melbourne City	Technical or Further Educational Institution	M	1980
+Melbourne City	University or other tertiary	F	19016
+Melbourne City	University or other tertiary	M	15340
+Port Phillip		F	5903
+Port Phillip		M	5654
+Port Phillip	Infants/Primary	F	2258
+Port Phillip	Infants/Primary	M	2363
+Port Phillip	Pre-school	F	600
+Port Phillip	Pre-school	M	633
+Port Phillip	Secondary	F	1494
+Port Phillip	Secondary	M	1510
+Port Phillip	Technical or Further Educational Institution	F	850
+Port Phillip	Technical or Further Educational Institution	M	672
+Port Phillip	University or other tertiary	F	3696
+Port Phillip	University or other tertiary	M	2789
+Stonnington - West		F	3422
+Stonnington - West		M	3032
+Stonnington - West	Infants/Primary	F	1143
+Stonnington - West	Infants/Primary	M	1110
+Stonnington - West	Pre-school	F	312
+Stonnington - West	Pre-school	M	306
+Stonnington - West	Secondary	F	1035
+Stonnington - West	Secondary	M	867
+Stonnington - West	Technical or Further Educational Institution	F	506
+Stonnington - West	Technical or Further Educational Institution	M	445
+Stonnington - West	University or other tertiary	F	3326
+Stonnington - West	University or other tertiary	M	2535
+Yarra		F	4872
+Yarra		M	4434
+Yarra	Infants/Primary	F	1890
+Yarra	Infants/Primary	M	1921
+Yarra	Pre-school	F	464
+Yarra	Pre-school	M	446
+Yarra	Secondary	F	1359
+Yarra	Secondary	M	1233
+Yarra	Technical or Further Educational Institution	F	780
+Yarra	Technical or Further Educational Institution	M	711
+Yarra	University or other tertiary	F	4700
+Yarra	University or other tertiary	M	3456
+Boroondara		F	5207
+Boroondara		M	4613
+Boroondara	Infants/Primary	F	6832
+Boroondara	Infants/Primary	M	7128
+Boroondara	Pre-school	F	1331
+Boroondara	Pre-school	M	1440
+Boroondara	Secondary	F	6580
+Boroondara	Secondary	M	6589
+Boroondara	Technical or Further Educational Institution	F	977
+Boroondara	Technical or Further Educational Institution	M	1030
+Boroondara	University or other tertiary	F	8089
+Boroondara	University or other tertiary	M	7673
+Manningham - West		F	2801
+Manningham - West		M	2299
+Manningham - West	Infants/Primary	F	3063
+Manningham - West	Infants/Primary	M	3356
+Manningham - West	Pre-school	F	648
+Manningham - West	Pre-school	M	706
+Manningham - West	Secondary	F	2842
+Manningham - West	Secondary	M	2994
+Manningham - West	Technical or Further Educational Institution	F	635
+Manningham - West	Technical or Further Educational Institution	M	669
+Manningham - West	University or other tertiary	F	2979
+Manningham - West	University or other tertiary	M	2745
+Whitehorse - West		F	3243
+Whitehorse - West		M	2863
+Whitehorse - West	Infants/Primary	F	3668
+Whitehorse - West	Infants/Primary	M	3891
+Whitehorse - West	Pre-school	F	836
+Whitehorse - West	Pre-school	M	880
+Whitehorse - West	Secondary	F	3419
+Whitehorse - West	Secondary	M	3262
+Whitehorse - West	Technical or Further Educational Institution	F	920
+Whitehorse - West	Technical or Further Educational Institution	M	1088
+Whitehorse - West	University or other tertiary	F	5590
+Whitehorse - West	University or other tertiary	M	5336
+Bayside		F	3350
+Bayside		M	2825
+Bayside	Infants/Primary	F	4545
+Bayside	Infants/Primary	M	4483
+Bayside	Pre-school	F	850
+Bayside	Pre-school	M	953
+Bayside	Secondary	F	3598
+Bayside	Secondary	M	3846
+Bayside	Technical or Further Educational Institution	F	449
+Bayside	Technical or Further Educational Institution	M	414
+Bayside	University or other tertiary	F	2767
+Bayside	University or other tertiary	M	2409
+Glen Eira		F	4700
+Glen Eira		M	4287
+Glen Eira	Infants/Primary	F	5974
+Glen Eira	Infants/Primary	M	6402
+Glen Eira	Pre-school	F	1352
+Glen Eira	Pre-school	M	1475
+Glen Eira	Secondary	F	4534
+Glen Eira	Secondary	M	4686
+Glen Eira	Technical or Further Educational Institution	F	1055
+Glen Eira	Technical or Further Educational Institution	M	1048
+Glen Eira	University or other tertiary	F	6363
+Glen Eira	University or other tertiary	M	5415
+Kingston		F	4207
+Kingston		M	3576
+Kingston	Infants/Primary	F	4660
+Kingston	Infants/Primary	M	4958
+Kingston	Pre-school	F	1016
+Kingston	Pre-school	M	1103
+Kingston	Secondary	F	3571
+Kingston	Secondary	M	3479
+Kingston	Technical or Further Educational Institution	F	913
+Kingston	Technical or Further Educational Institution	M	1052
+Kingston	University or other tertiary	F	2898
+Kingston	University or other tertiary	M	2042
+Stonnington - East		F	1375
+Stonnington - East		M	1170
+Stonnington - East	Infants/Primary	F	1675
+Stonnington - East	Infants/Primary	M	1704
+Stonnington - East	Pre-school	F	327
+Stonnington - East	Pre-school	M	387
+Stonnington - East	Secondary	F	1346
+Stonnington - East	Secondary	M	1378
+Stonnington - East	Technical or Further Educational Institution	F	281
+Stonnington - East	Technical or Further Educational Institution	M	241
+Stonnington - East	University or other tertiary	F	2345
+Stonnington - East	University or other tertiary	M	1935
+Banyule		F	3934
+Banyule		M	3376
+Banyule	Infants/Primary	F	4761
+Banyule	Infants/Primary	M	5006
+Banyule	Pre-school	F	1115
+Banyule	Pre-school	M	1097
+Banyule	Secondary	F	3591
+Banyule	Secondary	M	3813
+Banyule	Technical or Further Educational Institution	F	855
+Banyule	Technical or Further Educational Institution	M	945
+Banyule	University or other tertiary	F	3803
+Banyule	University or other tertiary	M	3207
+Darebin - North		F	4643
+Darebin - North		M	4222
+Darebin - North	Infants/Primary	F	2870
+Darebin - North	Infants/Primary	M	3141
+Darebin - North	Pre-school	F	627
+Darebin - North	Pre-school	M	652
+Darebin - North	Secondary	F	2109
+Darebin - North	Secondary	M	2188
+Darebin - North	Technical or Further Educational Institution	F	965
+Darebin - North	Technical or Further Educational Institution	M	888
+Darebin - North	University or other tertiary	F	4438
+Darebin - North	University or other tertiary	M	3989
+Nillumbik - Kinglake		F	1844
+Nillumbik - Kinglake		M	1742
+Nillumbik - Kinglake	Infants/Primary	F	3029
+Nillumbik - Kinglake	Infants/Primary	M	3167
+Nillumbik - Kinglake	Pre-school	F	574
+Nillumbik - Kinglake	Pre-school	M	604
+Nillumbik - Kinglake	Secondary	F	2628
+Nillumbik - Kinglake	Secondary	M	2762
+Nillumbik - Kinglake	Technical or Further Educational Institution	F	439
+Nillumbik - Kinglake	Technical or Further Educational Institution	M	664
+Nillumbik - Kinglake	University or other tertiary	F	1852
+Nillumbik - Kinglake	University or other tertiary	M	1294
+Whittlesea - Wallan		F	7961
+Whittlesea - Wallan		M	7109
+Whittlesea - Wallan	Infants/Primary	F	9230
+Whittlesea - Wallan	Infants/Primary	M	9823
+Whittlesea - Wallan	Pre-school	F	1894
+Whittlesea - Wallan	Pre-school	M	2128
+Whittlesea - Wallan	Secondary	F	6553
+Whittlesea - Wallan	Secondary	M	6781
+Whittlesea - Wallan	Technical or Further Educational Institution	F	2042
+Whittlesea - Wallan	Technical or Further Educational Institution	M	1980
+Whittlesea - Wallan	University or other tertiary	F	5473
+Whittlesea - Wallan	University or other tertiary	M	4370
+Keilor		F	2023
+Keilor		M	1767
+Keilor	Infants/Primary	F	2130
+Keilor	Infants/Primary	M	2414
+Keilor	Pre-school	F	415
+Keilor	Pre-school	M	453
+Keilor	Secondary	F	1823
+Keilor	Secondary	M	1879
+Keilor	Technical or Further Educational Institution	F	269
+Keilor	Technical or Further Educational Institution	M	371
+Keilor	University or other tertiary	F	1454
+Keilor	University or other tertiary	M	1176
+Macedon Ranges		F	1151
+Macedon Ranges		M	1048
+Macedon Ranges	Infants/Primary	F	1415
+Macedon Ranges	Infants/Primary	M	1522
+Macedon Ranges	Pre-school	F	260
+Macedon Ranges	Pre-school	M	303
+Macedon Ranges	Secondary	F	1072
+Macedon Ranges	Secondary	M	1172
+Macedon Ranges	Technical or Further Educational Institution	F	192
+Macedon Ranges	Technical or Further Educational Institution	M	211
+Macedon Ranges	University or other tertiary	F	589
+Macedon Ranges	University or other tertiary	M	319
+Moreland - North		F	3308
+Moreland - North		M	3272
+Moreland - North	Infants/Primary	F	2704
+Moreland - North	Infants/Primary	M	2816
+Moreland - North	Pre-school	F	569
+Moreland - North	Pre-school	M	659
+Moreland - North	Secondary	F	1897
+Moreland - North	Secondary	M	1987
+Moreland - North	Technical or Further Educational Institution	F	599
+Moreland - North	Technical or Further Educational Institution	M	732
+Moreland - North	University or other tertiary	F	2092
+Moreland - North	University or other tertiary	M	2121
+Sunbury		F	1357
+Sunbury		M	1196
+Sunbury	Infants/Primary	F	1621
+Sunbury	Infants/Primary	M	1731
+Sunbury	Pre-school	F	318
+Sunbury	Pre-school	M	329
+Sunbury	Secondary	F	1345
+Sunbury	Secondary	M	1376
+Sunbury	Technical or Further Educational Institution	F	347
+Sunbury	Technical or Further Educational Institution	M	372
+Sunbury	University or other tertiary	F	906
+Sunbury	University or other tertiary	M	558
+Tullamarine - Broadmeadows		F	7254
+Tullamarine - Broadmeadows		M	6792
+Tullamarine - Broadmeadows	Infants/Primary	F	7215
+Tullamarine - Broadmeadows	Infants/Primary	M	7614
+Tullamarine - Broadmeadows	Pre-school	F	1253
+Tullamarine - Broadmeadows	Pre-school	M	1350
+Tullamarine - Broadmeadows	Secondary	F	5927
+Tullamarine - Broadmeadows	Secondary	M	5780
+Tullamarine - Broadmeadows	Technical or Further Educational Institution	F	1769
+Tullamarine - Broadmeadows	Technical or Further Educational Institution	M	1765
+Tullamarine - Broadmeadows	University or other tertiary	F	3927
+Tullamarine - Broadmeadows	University or other tertiary	M	3238
+Knox		F	4421
+Knox		M	3845
+Knox	Infants/Primary	F	5718
+Knox	Infants/Primary	M	6261
+Knox	Pre-school	F	1177
+Knox	Pre-school	M	1248
+Knox	Secondary	F	5264
+Knox	Secondary	M	5326
+Knox	Technical or Further Educational Institution	F	1408
+Knox	Technical or Further Educational Institution	M	1447
+Knox	University or other tertiary	F	3873
+Knox	University or other tertiary	M	3153
+Manningham - East		F	686
+Manningham - East		M	633
+Manningham - East	Infants/Primary	F	1116
+Manningham - East	Infants/Primary	M	1222
+Manningham - East	Pre-school	F	207
+Manningham - East	Pre-school	M	209
+Manningham - East	Secondary	F	1130
+Manningham - East	Secondary	M	1230
+Manningham - East	Technical or Further Educational Institution	F	139
+Manningham - East	Technical or Further Educational Institution	M	178
+Manningham - East	University or other tertiary	F	802
+Manningham - East	University or other tertiary	M	673
+Maroondah		F	3516
+Maroondah		M	2896
+Maroondah	Infants/Primary	F	4369
+Maroondah	Infants/Primary	M	4575
+Maroondah	Pre-school	F	977
+Maroondah	Pre-school	M	1011
+Maroondah	Secondary	F	3425
+Maroondah	Secondary	M	3677
+Maroondah	Technical or Further Educational Institution	F	976
+Maroondah	Technical or Further Educational Institution	M	1117
+Maroondah	University or other tertiary	F	2688
+Maroondah	University or other tertiary	M	2000
+Whitehorse - East		F	1772
+Whitehorse - East		M	1368
+Whitehorse - East	Infants/Primary	F	2497
+Whitehorse - East	Infants/Primary	M	2504
+Whitehorse - East	Pre-school	F	565
+Whitehorse - East	Pre-school	M	615
+Whitehorse - East	Secondary	F	1901
+Whitehorse - East	Secondary	M	2085
+Whitehorse - East	Technical or Further Educational Institution	F	510
+Whitehorse - East	Technical or Further Educational Institution	M	492
+Whitehorse - East	University or other tertiary	F	1807
+Whitehorse - East	University or other tertiary	M	1623
+Yarra Ranges		F	5021
+Yarra Ranges		M	4439
+Yarra Ranges	Infants/Primary	F	6167
+Yarra Ranges	Infants/Primary	M	6636
+Yarra Ranges	Pre-school	F	1268
+Yarra Ranges	Pre-school	M	1432
+Yarra Ranges	Secondary	F	5170
+Yarra Ranges	Secondary	M	5041
+Yarra Ranges	Technical or Further Educational Institution	F	1321
+Yarra Ranges	Technical or Further Educational Institution	M	1594
+Yarra Ranges	University or other tertiary	F	2934
+Yarra Ranges	University or other tertiary	M	1750
+Cardinia		F	3582
+Cardinia		M	3262
+Cardinia	Infants/Primary	F	4569
+Cardinia	Infants/Primary	M	4698
+Cardinia	Pre-school	F	920
+Cardinia	Pre-school	M	1070
+Cardinia	Secondary	F	3241
+Cardinia	Secondary	M	3314
+Cardinia	Technical or Further Educational Institution	F	971
+Cardinia	Technical or Further Educational Institution	M	928
+Cardinia	University or other tertiary	F	1794
+Cardinia	University or other tertiary	M	1016
+Casey - North		F	4387
+Casey - North		M	3987
+Casey - North	Infants/Primary	F	5725
+Casey - North	Infants/Primary	M	6043
+Casey - North	Pre-school	F	982
+Casey - North	Pre-school	M	1076
+Casey - North	Secondary	F	4891
+Casey - North	Secondary	M	5140
+Casey - North	Technical or Further Educational Institution	F	1333
+Casey - North	Technical or Further Educational Institution	M	1361
+Casey - North	University or other tertiary	F	3183
+Casey - North	University or other tertiary	M	2428
+Casey - South		F	6696
+Casey - South		M	6054
+Casey - South	Infants/Primary	F	8449
+Casey - South	Infants/Primary	M	8923
+Casey - South	Pre-school	F	1505
+Casey - South	Pre-school	M	1628
+Casey - South	Secondary	F	6093
+Casey - South	Secondary	M	6126
+Casey - South	Technical or Further Educational Institution	F	1984
+Casey - South	Technical or Further Educational Institution	M	1698
+Casey - South	University or other tertiary	F	3309
+Casey - South	University or other tertiary	M	2529
+Dandenong		F	7913
+Dandenong		M	7861
+Dandenong	Infants/Primary	F	6345
+Dandenong	Infants/Primary	M	6735
+Dandenong	Pre-school	F	1215
+Dandenong	Pre-school	M	1280
+Dandenong	Secondary	F	5487
+Dandenong	Secondary	M	5750
+Dandenong	Technical or Further Educational Institution	F	2087
+Dandenong	Technical or Further Educational Institution	M	2303
+Dandenong	University or other tertiary	F	5045
+Dandenong	University or other tertiary	M	5113
+Monash		F	5524
+Monash		M	5083
+Monash	Infants/Primary	F	6089
+Monash	Infants/Primary	M	6398
+Monash	Pre-school	F	1251
+Monash	Pre-school	M	1362
+Monash	Secondary	F	5180
+Monash	Secondary	M	5565
+Monash	Technical or Further Educational Institution	F	1572
+Monash	Technical or Further Educational Institution	M	1670
+Monash	University or other tertiary	F	10378
+Monash	University or other tertiary	M	10189
+Brimbank		F	8901
+Brimbank		M	8394
+Brimbank	Infants/Primary	F	6685
+Brimbank	Infants/Primary	M	7001
+Brimbank	Pre-school	F	1184
+Brimbank	Pre-school	M	1280
+Brimbank	Secondary	F	6086
+Brimbank	Secondary	M	5860
+Brimbank	Technical or Further Educational Institution	F	1807
+Brimbank	Technical or Further Educational Institution	M	1833
+Brimbank	University or other tertiary	F	5100
+Brimbank	University or other tertiary	M	4776
+Hobsons Bay		F	3127
+Hobsons Bay		M	2788
+Hobsons Bay	Infants/Primary	F	3300
+Hobsons Bay	Infants/Primary	M	3385
+Hobsons Bay	Pre-school	F	708
+Hobsons Bay	Pre-school	M	759
+Hobsons Bay	Secondary	F	2320
+Hobsons Bay	Secondary	M	2374
+Hobsons Bay	Technical or Further Educational Institution	F	552
+Hobsons Bay	Technical or Further Educational Institution	M	574
+Hobsons Bay	University or other tertiary	F	2275
+Hobsons Bay	University or other tertiary	M	1659
+Maribyrnong		F	3915
+Maribyrnong		M	3681
+Maribyrnong	Infants/Primary	F	2503
+Maribyrnong	Infants/Primary	M	2552
+Maribyrnong	Pre-school	F	579
+Maribyrnong	Pre-school	M	655
+Maribyrnong	Secondary	F	1714
+Maribyrnong	Secondary	M	1759
+Maribyrnong	Technical or Further Educational Institution	F	863
+Maribyrnong	Technical or Further Educational Institution	M	897
+Maribyrnong	University or other tertiary	F	3650
+Maribyrnong	University or other tertiary	M	3799
+Melton - Bacchus Marsh		F	6558
+Melton - Bacchus Marsh		M	6338
+Melton - Bacchus Marsh	Infants/Primary	F	8085
+Melton - Bacchus Marsh	Infants/Primary	M	8184
+Melton - Bacchus Marsh	Pre-school	F	1488
+Melton - Bacchus Marsh	Pre-school	M	1522
+Melton - Bacchus Marsh	Secondary	F	5481
+Melton - Bacchus Marsh	Secondary	M	5577
+Melton - Bacchus Marsh	Technical or Further Educational Institution	F	1153
+Melton - Bacchus Marsh	Technical or Further Educational Institution	M	1171
+Melton - Bacchus Marsh	University or other tertiary	F	3177
+Melton - Bacchus Marsh	University or other tertiary	M	2141
+Wyndham		F	8782
+Wyndham		M	8972
+Wyndham	Infants/Primary	F	10696
+Wyndham	Infants/Primary	M	11525
+Wyndham	Pre-school	F	2199
+Wyndham	Pre-school	M	2301
+Wyndham	Secondary	F	7047
+Wyndham	Secondary	M	7034
+Wyndham	Technical or Further Educational Institution	F	2075
+Wyndham	Technical or Further Educational Institution	M	1840
+Wyndham	University or other tertiary	F	5180
+Wyndham	University or other tertiary	M	4421
+Frankston		F	5523
+Frankston		M	4953
+Frankston	Infants/Primary	F	5248
+Frankston	Infants/Primary	M	5471
+Frankston	Pre-school	F	1097
+Frankston	Pre-school	M	1285
+Frankston	Secondary	F	3959
+Frankston	Secondary	M	4003
+Frankston	Technical or Further Educational Institution	F	1449
+Frankston	Technical or Further Educational Institution	M	1284
+Frankston	University or other tertiary	F	2677
+Frankston	University or other tertiary	M	1516
+Mornington Peninsula		F	6087
+Mornington Peninsula		M	5274
+Mornington Peninsula	Infants/Primary	F	6237
+Mornington Peninsula	Infants/Primary	M	6459
+Mornington Peninsula	Pre-school	F	1181
+Mornington Peninsula	Pre-school	M	1253
+Mornington Peninsula	Secondary	F	4681
+Mornington Peninsula	Secondary	M	4851
+Mornington Peninsula	Technical or Further Educational Institution	F	1211
+Mornington Peninsula	Technical or Further Educational Institution	M	1227
+Mornington Peninsula	University or other tertiary	F	2326
+Mornington Peninsula	University or other tertiary	M	1366
+Grampians		F	2552
+Grampians		M	3026
+Grampians	Infants/Primary	F	2139
+Grampians	Infants/Primary	M	2251
+Grampians	Pre-school	F	366
+Grampians	Pre-school	M	398
+Grampians	Secondary	F	1789
+Grampians	Secondary	M	1790
+Grampians	Technical or Further Educational Institution	F	268
+Grampians	Technical or Further Educational Institution	M	262
+Grampians	University or other tertiary	F	603
+Grampians	University or other tertiary	M	247
+Mildura		F	2795
+Mildura		M	2727
+Mildura	Infants/Primary	F	2092
+Mildura	Infants/Primary	M	2257
+Mildura	Pre-school	F	435
+Mildura	Pre-school	M	516
+Mildura	Secondary	F	1757
+Mildura	Secondary	M	1725
+Mildura	Technical or Further Educational Institution	F	537
+Mildura	Technical or Further Educational Institution	M	469
+Mildura	University or other tertiary	F	675
+Mildura	University or other tertiary	M	276
+Murray River - Swan Hill		F	2207
+Murray River - Swan Hill		M	2252
+Murray River - Swan Hill	Infants/Primary	F	1373
+Murray River - Swan Hill	Infants/Primary	M	1463
+Murray River - Swan Hill	Pre-school	F	260
+Murray River - Swan Hill	Pre-school	M	270
+Murray River - Swan Hill	Secondary	F	1188
+Murray River - Swan Hill	Secondary	M	1217
+Murray River - Swan Hill	Technical or Further Educational Institution	F	275
+Murray River - Swan Hill	Technical or Further Educational Institution	M	240
+Murray River - Swan Hill	University or other tertiary	F	327
+Murray River - Swan Hill	University or other tertiary	M	124
+Campaspe		F	1846
+Campaspe		M	1657
+Campaspe	Infants/Primary	F	1414
+Campaspe	Infants/Primary	M	1530
+Campaspe	Pre-school	F	250
+Campaspe	Pre-school	M	260
+Campaspe	Secondary	F	1153
+Campaspe	Secondary	M	1248
+Campaspe	Technical or Further Educational Institution	F	290
+Campaspe	Technical or Further Educational Institution	M	237
+Campaspe	University or other tertiary	F	340
+Campaspe	University or other tertiary	M	128
+Moira		F	1462
+Moira		M	1447
+Moira	Infants/Primary	F	1127
+Moira	Infants/Primary	M	1133
+Moira	Pre-school	F	195
+Moira	Pre-school	M	234
+Moira	Secondary	F	833
+Moira	Secondary	M	904
+Moira	Technical or Further Educational Institution	F	299
+Moira	Technical or Further Educational Institution	M	202
+Moira	University or other tertiary	F	248
+Moira	University or other tertiary	M	83
+Shepparton		F	3316
+Shepparton		M	3371
+Shepparton	Infants/Primary	F	2593
+Shepparton	Infants/Primary	M	2847
+Shepparton	Pre-school	F	456
+Shepparton	Pre-school	M	497
+Shepparton	Secondary	F	2163
+Shepparton	Secondary	M	2226
+Shepparton	Technical or Further Educational Institution	F	706
+Shepparton	Technical or Further Educational Institution	M	513
+Shepparton	University or other tertiary	F	808
+Shepparton	University or other tertiary	M	395
+Glenelg - Southern Grampians		F	1660
+Glenelg - Southern Grampians		M	1592
+Glenelg - Southern Grampians	Infants/Primary	F	1223
+Glenelg - Southern Grampians	Infants/Primary	M	1401
+Glenelg - Southern Grampians	Pre-school	F	240
+Glenelg - Southern Grampians	Pre-school	M	248
+Glenelg - Southern Grampians	Secondary	F	1152
+Glenelg - Southern Grampians	Secondary	M	1153
+Glenelg - Southern Grampians	Technical or Further Educational Institution	F	280
+Glenelg - Southern Grampians	Technical or Further Educational Institution	M	203
+Glenelg - Southern Grampians	University or other tertiary	F	307
+Glenelg - Southern Grampians	University or other tertiary	M	135
+Colac - Corangamite		F	1714
+Colac - Corangamite		M	1713
+Colac - Corangamite	Infants/Primary	F	1390
+Colac - Corangamite	Infants/Primary	M	1582
+Colac - Corangamite	Pre-school	F	276
+Colac - Corangamite	Pre-school	M	301
+Colac - Corangamite	Secondary	F	1104
+Colac - Corangamite	Secondary	M	1196
+Colac - Corangamite	Technical or Further Educational Institution	F	272
+Colac - Corangamite	Technical or Further Educational Institution	M	208
+Colac - Corangamite	University or other tertiary	F	338
+Colac - Corangamite	University or other tertiary	M	145
+Warrnambool		F	2311
+Warrnambool		M	2110
+Warrnambool	Infants/Primary	F	2105
+Warrnambool	Infants/Primary	M	2165
+Warrnambool	Pre-school	F	322
+Warrnambool	Pre-school	M	396
+Warrnambool	Secondary	F	1690
+Warrnambool	Secondary	M	1623
+Warrnambool	Technical or Further Educational Institution	F	552
+Warrnambool	Technical or Further Educational Institution	M	382
+Warrnambool	University or other tertiary	F	752
+Warrnambool	University or other tertiary	M	386
+Migratory - Offshore - Shipping (Vic.)		M	3
+No usual address (Vic.)		F	790
+No usual address (Vic.)		M	1364
+No usual address (Vic.)	Infants/Primary	F	100
+No usual address (Vic.)	Infants/Primary	M	79
+No usual address (Vic.)	Pre-school	F	25
+No usual address (Vic.)	Pre-school	M	27
+No usual address (Vic.)	Secondary	F	64
+No usual address (Vic.)	Secondary	M	74
+No usual address (Vic.)	Technical or Further Educational Institution	F	81
+No usual address (Vic.)	Technical or Further Educational Institution	M	47
+No usual address (Vic.)	University or other tertiary	F	214
+No usual address (Vic.)	University or other tertiary	M	142
+Capalaba		F	1895
+Capalaba		M	1711
+Capalaba	Infants/Primary	F	3108
+Capalaba	Infants/Primary	M	3276
+Capalaba	Pre-school	F	413
+Capalaba	Pre-school	M	468
+Capalaba	Secondary	F	2456
+Capalaba	Secondary	M	2675
+Capalaba	Technical or Further Educational Institution	F	663
+Capalaba	Technical or Further Educational Institution	M	509
+Capalaba	University or other tertiary	F	1632
+Capalaba	University or other tertiary	M	1119
+Cleveland - Stradbroke		F	2654
+Cleveland - Stradbroke		M	2425
+Cleveland - Stradbroke	Infants/Primary	F	3506
+Cleveland - Stradbroke	Infants/Primary	M	3634
+Cleveland - Stradbroke	Pre-school	F	430
+Cleveland - Stradbroke	Pre-school	M	453
+Cleveland - Stradbroke	Secondary	F	2850
+Cleveland - Stradbroke	Secondary	M	3036
+Cleveland - Stradbroke	Technical or Further Educational Institution	F	723
+Cleveland - Stradbroke	Technical or Further Educational Institution	M	558
+Cleveland - Stradbroke	University or other tertiary	F	1607
+Cleveland - Stradbroke	University or other tertiary	M	1013
+Wynnum - Manly		F	2124
+Wynnum - Manly		M	2025
+Wynnum - Manly	Infants/Primary	F	3202
+Wynnum - Manly	Infants/Primary	M	3281
+Wynnum - Manly	Pre-school	F	447
+Wynnum - Manly	Pre-school	M	561
+Wynnum - Manly	Secondary	F	2131
+Wynnum - Manly	Secondary	M	2267
+Wynnum - Manly	Technical or Further Educational Institution	F	577
+Wynnum - Manly	Technical or Further Educational Institution	M	429
+Wynnum - Manly	University or other tertiary	F	1653
+Wynnum - Manly	University or other tertiary	M	1122
+Bald Hills - Everton Park		F	1021
+Bald Hills - Everton Park		M	923
+Bald Hills - Everton Park	Infants/Primary	F	1634
+Bald Hills - Everton Park	Infants/Primary	M	1701
+Bald Hills - Everton Park	Pre-school	F	267
+Bald Hills - Everton Park	Pre-school	M	273
+Bald Hills - Everton Park	Secondary	F	1386
+Bald Hills - Everton Park	Secondary	M	1309
+Bald Hills - Everton Park	Technical or Further Educational Institution	F	319
+Bald Hills - Everton Park	Technical or Further Educational Institution	M	279
+Bald Hills - Everton Park	University or other tertiary	F	1307
+Bald Hills - Everton Park	University or other tertiary	M	956
+Chermside		F	2456
+Chermside		M	2106
+Chermside	Infants/Primary	F	2631
+Chermside	Infants/Primary	M	2736
+Chermside	Pre-school	F	394
+Chermside	Pre-school	M	414
+Chermside	Secondary	F	1868
+Chermside	Secondary	M	1981
+Chermside	Technical or Further Educational Institution	F	685
+Chermside	Technical or Further Educational Institution	M	521
+Chermside	University or other tertiary	F	2362
+Chermside	University or other tertiary	M	1589
+Nundah		F	1509
+Nundah		M	1309
+Nundah	Infants/Primary	F	1251
+Nundah	Infants/Primary	M	1332
+Nundah	Pre-school	F	197
+Nundah	Pre-school	M	233
+Nundah	Secondary	F	883
+Nundah	Secondary	M	1040
+Nundah	Technical or Further Educational Institution	F	399
+Nundah	Technical or Further Educational Institution	M	306
+Nundah	University or other tertiary	F	1225
+Nundah	University or other tertiary	M	988
+Sandgate		F	1926
+Sandgate		M	1712
+Sandgate	Infants/Primary	F	2301
+Sandgate	Infants/Primary	M	2381
+Sandgate	Pre-school	F	345
+Sandgate	Pre-school	M	399
+Sandgate	Secondary	F	1613
+Sandgate	Secondary	M	1714
+Sandgate	Technical or Further Educational Institution	F	580
+Sandgate	Technical or Further Educational Institution	M	442
+Sandgate	University or other tertiary	F	1574
+Sandgate	University or other tertiary	M	1106
+Carindale		F	1467
+Carindale		M	1350
+Carindale	Infants/Primary	F	1958
+Carindale	Infants/Primary	M	2107
+Carindale	Pre-school	F	344
+Carindale	Pre-school	M	317
+Carindale	Secondary	F	1539
+Carindale	Secondary	M	1640
+Carindale	Technical or Further Educational Institution	F	427
+Carindale	Technical or Further Educational Institution	M	313
+Carindale	University or other tertiary	F	1865
+Carindale	University or other tertiary	M	1500
+Holland Park - Yeronga		F	2659
+Holland Park - Yeronga		M	2676
+Holland Park - Yeronga	Infants/Primary	F	2110
+Holland Park - Yeronga	Infants/Primary	M	2297
+Holland Park - Yeronga	Pre-school	F	392
+Holland Park - Yeronga	Pre-school	M	364
+Holland Park - Yeronga	Secondary	F	1648
+Holland Park - Yeronga	Secondary	M	1755
+Holland Park - Yeronga	Technical or Further Educational Institution	F	752
+Holland Park - Yeronga	Technical or Further Educational Institution	M	584
+Holland Park - Yeronga	University or other tertiary	F	4294
+Holland Park - Yeronga	University or other tertiary	M	3789
+Mt Gravatt		F	2257
+Mt Gravatt		M	2059
+Mt Gravatt	Infants/Primary	F	2730
+Mt Gravatt	Infants/Primary	M	2776
+Mt Gravatt	Pre-school	F	416
+Mt Gravatt	Pre-school	M	392
+Mt Gravatt	Secondary	F	2275
+Mt Gravatt	Secondary	M	2319
+Mt Gravatt	Technical or Further Educational Institution	F	814
+Mt Gravatt	Technical or Further Educational Institution	M	703
+Mt Gravatt	University or other tertiary	F	3614
+Mt Gravatt	University or other tertiary	M	2996
+Nathan		F	1342
+Nathan		M	1310
+Nathan	Infants/Primary	F	1473
+Nathan	Infants/Primary	M	1547
+Nathan	Pre-school	F	250
+Nathan	Pre-school	M	282
+Nathan	Secondary	F	979
+Nathan	Secondary	M	1036
+Nathan	Technical or Further Educational Institution	F	388
+Nathan	Technical or Further Educational Institution	M	352
+Nathan	University or other tertiary	F	2047
+Nathan	University or other tertiary	M	2005
+Rocklea - Acacia Ridge		F	1813
+Rocklea - Acacia Ridge		M	1871
+Rocklea - Acacia Ridge	Infants/Primary	F	2536
+Rocklea - Acacia Ridge	Infants/Primary	M	2671
+Rocklea - Acacia Ridge	Pre-school	F	398
+Rocklea - Acacia Ridge	Pre-school	M	475
+Rocklea - Acacia Ridge	Secondary	F	1875
+Rocklea - Acacia Ridge	Secondary	M	1920
+Rocklea - Acacia Ridge	Technical or Further Educational Institution	F	751
+Rocklea - Acacia Ridge	Technical or Further Educational Institution	M	506
+Rocklea - Acacia Ridge	University or other tertiary	F	1984
+Rocklea - Acacia Ridge	University or other tertiary	M	1787
+Sunnybank		F	1750
+Sunnybank		M	1630
+Sunnybank	Infants/Primary	F	1857
+Sunnybank	Infants/Primary	M	1831
+Sunnybank	Pre-school	F	303
+Sunnybank	Pre-school	M	297
+Sunnybank	Secondary	F	1422
+Sunnybank	Secondary	M	1402
+Sunnybank	Technical or Further Educational Institution	F	657
+Sunnybank	Technical or Further Educational Institution	M	626
+Sunnybank	University or other tertiary	F	2244
+Sunnybank	University or other tertiary	M	2332
+Centenary		F	567
+Centenary		M	573
+Centenary	Infants/Primary	F	1461
+Centenary	Infants/Primary	M	1578
+Centenary	Pre-school	F	216
+Centenary	Pre-school	M	259
+Centenary	Secondary	F	1156
+Centenary	Secondary	M	1197
+Centenary	Technical or Further Educational Institution	F	243
+Centenary	Technical or Further Educational Institution	M	182
+Centenary	University or other tertiary	F	1132
+Centenary	University or other tertiary	M	919
+Kenmore - Brookfield - Moggill		F	1142
+Kenmore - Brookfield - Moggill		M	1005
+Kenmore - Brookfield - Moggill	Infants/Primary	F	2252
+Kenmore - Brookfield - Moggill	Infants/Primary	M	2443
+Kenmore - Brookfield - Moggill	Pre-school	F	316
+Kenmore - Brookfield - Moggill	Pre-school	M	373
+Kenmore - Brookfield - Moggill	Secondary	F	1812
+Kenmore - Brookfield - Moggill	Secondary	M	2095
+Kenmore - Brookfield - Moggill	Technical or Further Educational Institution	F	278
+Kenmore - Brookfield - Moggill	Technical or Further Educational Institution	M	218
+Kenmore - Brookfield - Moggill	University or other tertiary	F	1915
+Kenmore - Brookfield - Moggill	University or other tertiary	M	1653
+Sherwood - Indooroopilly		F	1641
+Sherwood - Indooroopilly		M	1504
+Sherwood - Indooroopilly	Infants/Primary	F	1649
+Sherwood - Indooroopilly	Infants/Primary	M	1801
+Sherwood - Indooroopilly	Pre-school	F	285
+Sherwood - Indooroopilly	Pre-school	M	304
+Sherwood - Indooroopilly	Secondary	F	1345
+Sherwood - Indooroopilly	Secondary	M	1381
+Sherwood - Indooroopilly	Technical or Further Educational Institution	F	334
+Sherwood - Indooroopilly	Technical or Further Educational Institution	M	273
+Sherwood - Indooroopilly	University or other tertiary	F	6344
+Sherwood - Indooroopilly	University or other tertiary	M	5594
+The Gap - Enoggera		F	1352
+The Gap - Enoggera		M	1154
+The Gap - Enoggera	Infants/Primary	F	2280
+The Gap - Enoggera	Infants/Primary	M	2519
+The Gap - Enoggera	Pre-school	F	373
+The Gap - Enoggera	Pre-school	M	398
+The Gap - Enoggera	Secondary	F	1668
+The Gap - Enoggera	Secondary	M	1808
+The Gap - Enoggera	Technical or Further Educational Institution	F	438
+The Gap - Enoggera	Technical or Further Educational Institution	M	327
+The Gap - Enoggera	University or other tertiary	F	1683
+The Gap - Enoggera	University or other tertiary	M	1299
+Brisbane Inner		F	4683
+Brisbane Inner		M	4914
+Brisbane Inner	Infants/Primary	F	988
+Brisbane Inner	Infants/Primary	M	1020
+Brisbane Inner	Pre-school	F	186
+Brisbane Inner	Pre-school	M	176
+Brisbane Inner	Secondary	F	1016
+Brisbane Inner	Secondary	M	1061
+Brisbane Inner	Technical or Further Educational Institution	F	985
+Brisbane Inner	Technical or Further Educational Institution	M	882
+Brisbane Inner	University or other tertiary	F	4606
+Brisbane Inner	University or other tertiary	M	4121
+Brisbane Inner - East		F	1517
+Brisbane Inner - East		M	1457
+Brisbane Inner - East	Infants/Primary	F	1556
+Brisbane Inner - East	Infants/Primary	M	1549
+Brisbane Inner - East	Pre-school	F	269
+Brisbane Inner - East	Pre-school	M	283
+Brisbane Inner - East	Secondary	F	1043
+Brisbane Inner - East	Secondary	M	1226
+Brisbane Inner - East	Technical or Further Educational Institution	F	368
+Brisbane Inner - East	Technical or Further Educational Institution	M	297
+Brisbane Inner - East	University or other tertiary	F	1760
+Brisbane Inner - East	University or other tertiary	M	1424
+Brisbane Inner - North		F	3800
+Brisbane Inner - North		M	3633
+Brisbane Inner - North	Infants/Primary	F	2656
+Brisbane Inner - North	Infants/Primary	M	2688
+Brisbane Inner - North	Pre-school	F	434
+Brisbane Inner - North	Pre-school	M	477
+Brisbane Inner - North	Secondary	F	2124
+Brisbane Inner - North	Secondary	M	2060
+Brisbane Inner - North	Technical or Further Educational Institution	F	797
+Brisbane Inner - North	Technical or Further Educational Institution	M	629
+Brisbane Inner - North	University or other tertiary	F	5409
+Brisbane Inner - North	University or other tertiary	M	4333
+Brisbane Inner - West		F	1905
+Brisbane Inner - West		M	1926
+Brisbane Inner - West	Infants/Primary	F	2119
+Brisbane Inner - West	Infants/Primary	M	2150
+Brisbane Inner - West	Pre-school	F	329
+Brisbane Inner - West	Pre-school	M	402
+Brisbane Inner - West	Secondary	F	1615
+Brisbane Inner - West	Secondary	M	1688
+Brisbane Inner - West	Technical or Further Educational Institution	F	393
+Brisbane Inner - West	Technical or Further Educational Institution	M	362
+Brisbane Inner - West	University or other tertiary	F	3932
+Brisbane Inner - West	University or other tertiary	M	3266
+Cairns - North		F	2266
+Cairns - North		M	2205
+Cairns - North	Infants/Primary	F	2407
+Cairns - North	Infants/Primary	M	2553
+Cairns - North	Pre-school	F	292
+Cairns - North	Pre-school	M	344
+Cairns - North	Secondary	F	1826
+Cairns - North	Secondary	M	1955
+Cairns - North	Technical or Further Educational Institution	F	497
+Cairns - North	Technical or Further Educational Institution	M	297
+Cairns - North	University or other tertiary	F	1474
+Cairns - North	University or other tertiary	M	865
+Cairns - South		F	6101
+Cairns - South		M	5910
+Cairns - South	Infants/Primary	F	4166
+Cairns - South	Infants/Primary	M	4392
+Cairns - South	Pre-school	F	533
+Cairns - South	Pre-school	M	542
+Cairns - South	Secondary	F	3114
+Cairns - South	Secondary	M	3258
+Cairns - South	Technical or Further Educational Institution	F	1139
+Cairns - South	Technical or Further Educational Institution	M	689
+Cairns - South	University or other tertiary	F	1906
+Cairns - South	University or other tertiary	M	982
+Innisfail - Cassowary Coast		F	1846
+Innisfail - Cassowary Coast		M	1940
+Innisfail - Cassowary Coast	Infants/Primary	F	1362
+Innisfail - Cassowary Coast	Infants/Primary	M	1544
+Innisfail - Cassowary Coast	Pre-school	F	136
+Innisfail - Cassowary Coast	Pre-school	M	144
+Innisfail - Cassowary Coast	Secondary	F	1033
+Innisfail - Cassowary Coast	Secondary	M	1064
+Innisfail - Cassowary Coast	Technical or Further Educational Institution	F	222
+Innisfail - Cassowary Coast	Technical or Further Educational Institution	M	125
+Innisfail - Cassowary Coast	University or other tertiary	F	281
+Innisfail - Cassowary Coast	University or other tertiary	M	119
+Port Douglas - Daintree		F	917
+Port Douglas - Daintree		M	816
+Port Douglas - Daintree	Infants/Primary	F	357
+Port Douglas - Daintree	Infants/Primary	M	440
+Port Douglas - Daintree	Pre-school	F	53
+Port Douglas - Daintree	Pre-school	M	51
+Port Douglas - Daintree	Secondary	F	252
+Port Douglas - Daintree	Secondary	M	261
+Port Douglas - Daintree	Technical or Further Educational Institution	F	66
+Port Douglas - Daintree	Technical or Further Educational Institution	M	33
+Port Douglas - Daintree	University or other tertiary	F	103
+Port Douglas - Daintree	University or other tertiary	M	45
+Tablelands (East) - Kuranda		F	2230
+Tablelands (East) - Kuranda		M	2136
+Tablelands (East) - Kuranda	Infants/Primary	F	1599
+Tablelands (East) - Kuranda	Infants/Primary	M	1730
+Tablelands (East) - Kuranda	Pre-school	F	172
+Tablelands (East) - Kuranda	Pre-school	M	188
+Tablelands (East) - Kuranda	Secondary	F	1224
+Tablelands (East) - Kuranda	Secondary	M	1213
+Tablelands (East) - Kuranda	Technical or Further Educational Institution	F	275
+Tablelands (East) - Kuranda	Technical or Further Educational Institution	M	118
+Tablelands (East) - Kuranda	University or other tertiary	F	454
+Tablelands (East) - Kuranda	University or other tertiary	M	152
+Darling Downs (West) - Maranoa		F	2760
+Darling Downs (West) - Maranoa		M	2970
+Darling Downs (West) - Maranoa	Infants/Primary	F	1891
+Darling Downs (West) - Maranoa	Infants/Primary	M	2123
+Darling Downs (West) - Maranoa	Pre-school	F	249
+Darling Downs (West) - Maranoa	Pre-school	M	249
+Darling Downs (West) - Maranoa	Secondary	F	1206
+Darling Downs (West) - Maranoa	Secondary	M	1256
+Darling Downs (West) - Maranoa	Technical or Further Educational Institution	F	340
+Darling Downs (West) - Maranoa	Technical or Further Educational Institution	M	211
+Darling Downs (West) - Maranoa	University or other tertiary	F	462
+Darling Downs (West) - Maranoa	University or other tertiary	M	160
+Darling Downs - East		F	2053
+Darling Downs - East		M	2055
+Darling Downs - East	Infants/Primary	F	1964
+Darling Downs - East	Infants/Primary	M	1974
+Darling Downs - East	Pre-school	F	261
+Darling Downs - East	Pre-school	M	251
+Darling Downs - East	Secondary	F	1325
+Darling Downs - East	Secondary	M	1457
+Darling Downs - East	Technical or Further Educational Institution	F	333
+Darling Downs - East	Technical or Further Educational Institution	M	206
+Darling Downs - East	University or other tertiary	F	428
+Darling Downs - East	University or other tertiary	M	213
+Granite Belt		F	1627
+Granite Belt		M	1557
+Granite Belt	Infants/Primary	F	1641
+Granite Belt	Infants/Primary	M	1798
+Granite Belt	Pre-school	F	151
+Granite Belt	Pre-school	M	190
+Granite Belt	Secondary	F	1277
+Granite Belt	Secondary	M	1438
+Granite Belt	Technical or Further Educational Institution	F	353
+Granite Belt	Technical or Further Educational Institution	M	170
+Granite Belt	University or other tertiary	F	403
+Granite Belt	University or other tertiary	M	183
+Central Highlands (Qld)		F	1733
+Central Highlands (Qld)		M	2166
+Central Highlands (Qld)	Infants/Primary	F	1467
+Central Highlands (Qld)	Infants/Primary	M	1534
+Central Highlands (Qld)	Pre-school	F	201
+Central Highlands (Qld)	Pre-school	M	222
+Central Highlands (Qld)	Secondary	F	798
+Central Highlands (Qld)	Secondary	M	913
+Central Highlands (Qld)	Technical or Further Educational Institution	F	252
+Central Highlands (Qld)	Technical or Further Educational Institution	M	141
+Central Highlands (Qld)	University or other tertiary	F	310
+Central Highlands (Qld)	University or other tertiary	M	139
+Rockhampton		F	5176
+Rockhampton		M	6115
+Rockhampton	Infants/Primary	F	4827
+Rockhampton	Infants/Primary	M	5257
+Rockhampton	Pre-school	F	567
+Rockhampton	Pre-school	M	526
+Rockhampton	Secondary	F	3968
+Rockhampton	Secondary	M	4149
+Rockhampton	Technical or Further Educational Institution	F	967
+Rockhampton	Technical or Further Educational Institution	M	648
+Rockhampton	University or other tertiary	F	2338
+Rockhampton	University or other tertiary	M	1266
+Biloela		F	661
+Biloela		M	741
+Biloela	Infants/Primary	F	671
+Biloela	Infants/Primary	M	729
+Biloela	Pre-school	F	88
+Biloela	Pre-school	M	83
+Biloela	Secondary	F	400
+Biloela	Secondary	M	409
+Biloela	Technical or Further Educational Institution	F	112
+Biloela	Technical or Further Educational Institution	M	79
+Biloela	University or other tertiary	F	150
+Biloela	University or other tertiary	M	59
+Gladstone		F	2627
+Gladstone		M	2756
+Gladstone	Infants/Primary	F	2971
+Gladstone	Infants/Primary	M	3087
+Gladstone	Pre-school	F	364
+Gladstone	Pre-school	M	397
+Gladstone	Secondary	F	2086
+Gladstone	Secondary	M	2161
+Gladstone	Technical or Further Educational Institution	F	616
+Gladstone	Technical or Further Educational Institution	M	300
+Gladstone	University or other tertiary	F	886
+Gladstone	University or other tertiary	M	399
+Broadbeach - Burleigh		F	2966
+Broadbeach - Burleigh		M	2681
+Broadbeach - Burleigh	Infants/Primary	F	1948
+Broadbeach - Burleigh	Infants/Primary	M	1960
+Broadbeach - Burleigh	Pre-school	F	355
+Broadbeach - Burleigh	Pre-school	M	337
+Broadbeach - Burleigh	Secondary	F	1419
+Broadbeach - Burleigh	Secondary	M	1506
+Broadbeach - Burleigh	Technical or Further Educational Institution	F	592
+Broadbeach - Burleigh	Technical or Further Educational Institution	M	475
+Broadbeach - Burleigh	University or other tertiary	F	1550
+Broadbeach - Burleigh	University or other tertiary	M	1071
+Coolangatta		F	2381
+Coolangatta		M	2136
+Coolangatta	Infants/Primary	F	1817
+Coolangatta	Infants/Primary	M	1997
+Coolangatta	Pre-school	F	328
+Coolangatta	Pre-school	M	304
+Coolangatta	Secondary	F	1406
+Coolangatta	Secondary	M	1626
+Coolangatta	Technical or Further Educational Institution	F	429
+Coolangatta	Technical or Further Educational Institution	M	422
+Coolangatta	University or other tertiary	F	1217
+Coolangatta	University or other tertiary	M	667
+Gold Coast - North		F	3252
+Gold Coast - North		M	2802
+Gold Coast - North	Infants/Primary	F	1943
+Gold Coast - North	Infants/Primary	M	2055
+Gold Coast - North	Pre-school	F	334
+Gold Coast - North	Pre-school	M	391
+Gold Coast - North	Secondary	F	1467
+Gold Coast - North	Secondary	M	1528
+Gold Coast - North	Technical or Further Educational Institution	F	707
+Gold Coast - North	Technical or Further Educational Institution	M	449
+Gold Coast - North	University or other tertiary	F	1636
+Gold Coast - North	University or other tertiary	M	1259
+Gold Coast Hinterland		F	987
+Gold Coast Hinterland		M	911
+Gold Coast Hinterland	Infants/Primary	F	726
+Gold Coast Hinterland	Infants/Primary	M	767
+Gold Coast Hinterland	Pre-school	F	96
+Gold Coast Hinterland	Pre-school	M	93
+Gold Coast Hinterland	Secondary	F	610
+Gold Coast Hinterland	Secondary	M	605
+Gold Coast Hinterland	Technical or Further Educational Institution	F	151
+Gold Coast Hinterland	Technical or Further Educational Institution	M	123
+Gold Coast Hinterland	University or other tertiary	F	299
+Gold Coast Hinterland	University or other tertiary	M	196
+Mudgeeraba - Tallebudgera		F	1084
+Mudgeeraba - Tallebudgera		M	1033
+Mudgeeraba - Tallebudgera	Infants/Primary	F	1820
+Mudgeeraba - Tallebudgera	Infants/Primary	M	1826
+Mudgeeraba - Tallebudgera	Pre-school	F	252
+Mudgeeraba - Tallebudgera	Pre-school	M	294
+Mudgeeraba - Tallebudgera	Secondary	F	1323
+Mudgeeraba - Tallebudgera	Secondary	M	1381
+Mudgeeraba - Tallebudgera	Technical or Further Educational Institution	F	293
+Mudgeeraba - Tallebudgera	Technical or Further Educational Institution	M	217
+Mudgeeraba - Tallebudgera	University or other tertiary	F	770
+Mudgeeraba - Tallebudgera	University or other tertiary	M	493
+Nerang		F	2635
+Nerang		M	2312
+Nerang	Infants/Primary	F	3012
+Nerang	Infants/Primary	M	3166
+Nerang	Pre-school	F	466
+Nerang	Pre-school	M	574
+Nerang	Secondary	F	2254
+Nerang	Secondary	M	2320
+Nerang	Technical or Further Educational Institution	F	684
+Nerang	Technical or Further Educational Institution	M	454
+Nerang	University or other tertiary	F	1415
+Nerang	University or other tertiary	M	849
+Ormeau - Oxenford		F	4940
+Ormeau - Oxenford		M	4526
+Ormeau - Oxenford	Infants/Primary	F	6286
+Ormeau - Oxenford	Infants/Primary	M	6470
+Ormeau - Oxenford	Pre-school	F	1078
+Ormeau - Oxenford	Pre-school	M	1115
+Ormeau - Oxenford	Secondary	F	4424
+Ormeau - Oxenford	Secondary	M	4521
+Ormeau - Oxenford	Technical or Further Educational Institution	F	1338
+Ormeau - Oxenford	Technical or Further Educational Institution	M	830
+Ormeau - Oxenford	University or other tertiary	F	2456
+Ormeau - Oxenford	University or other tertiary	M	1414
+Robina		F	2270
+Robina		M	1787
+Robina	Infants/Primary	F	1821
+Robina	Infants/Primary	M	1964
+Robina	Pre-school	F	345
+Robina	Pre-school	M	342
+Robina	Secondary	F	1615
+Robina	Secondary	M	1647
+Robina	Technical or Further Educational Institution	F	485
+Robina	Technical or Further Educational Institution	M	343
+Robina	University or other tertiary	F	1875
+Robina	University or other tertiary	M	1483
+Southport		F	2743
+Southport		M	2809
+Southport	Infants/Primary	F	1730
+Southport	Infants/Primary	M	1831
+Southport	Pre-school	F	311
+Southport	Pre-school	M	333
+Southport	Secondary	F	1589
+Southport	Secondary	M	1631
+Southport	Technical or Further Educational Institution	F	796
+Southport	Technical or Further Educational Institution	M	578
+Southport	University or other tertiary	F	2700
+Southport	University or other tertiary	M	2309
+Surfers Paradise		F	3103
+Surfers Paradise		M	3079
+Surfers Paradise	Infants/Primary	F	908
+Surfers Paradise	Infants/Primary	M	955
+Surfers Paradise	Pre-school	F	163
+Surfers Paradise	Pre-school	M	176
+Surfers Paradise	Secondary	F	848
+Surfers Paradise	Secondary	M	903
+Surfers Paradise	Technical or Further Educational Institution	F	545
+Surfers Paradise	Technical or Further Educational Institution	M	441
+Surfers Paradise	University or other tertiary	F	1237
+Surfers Paradise	University or other tertiary	M	1057
+Forest Lake - Oxley		F	3850
+Forest Lake - Oxley		M	5764
+Forest Lake - Oxley	Infants/Primary	F	3013
+Forest Lake - Oxley	Infants/Primary	M	3058
+Forest Lake - Oxley	Pre-school	F	424
+Forest Lake - Oxley	Pre-school	M	480
+Forest Lake - Oxley	Secondary	F	2383
+Forest Lake - Oxley	Secondary	M	2532
+Forest Lake - Oxley	Technical or Further Educational Institution	F	979
+Forest Lake - Oxley	Technical or Further Educational Institution	M	659
+Forest Lake - Oxley	University or other tertiary	F	1834
+Forest Lake - Oxley	University or other tertiary	M	1489
+Ipswich Hinterland		F	3068
+Ipswich Hinterland		M	3445
+Ipswich Hinterland	Infants/Primary	F	2653
+Ipswich Hinterland	Infants/Primary	M	2855
+Ipswich Hinterland	Pre-school	F	292
+Ipswich Hinterland	Pre-school	M	306
+Ipswich Hinterland	Secondary	F	1979
+Ipswich Hinterland	Secondary	M	2108
+Ipswich Hinterland	Technical or Further Educational Institution	F	530
+Ipswich Hinterland	Technical or Further Educational Institution	M	315
+Ipswich Hinterland	University or other tertiary	F	965
+Ipswich Hinterland	University or other tertiary	M	405
+Ipswich Inner		F	4316
+Ipswich Inner		M	3980
+Ipswich Inner	Infants/Primary	F	4844
+Ipswich Inner	Infants/Primary	M	5057
+Ipswich Inner	Pre-school	F	650
+Ipswich Inner	Pre-school	M	722
+Ipswich Inner	Secondary	F	3403
+Ipswich Inner	Secondary	M	3628
+Ipswich Inner	Technical or Further Educational Institution	F	1261
+Ipswich Inner	Technical or Further Educational Institution	M	686
+Ipswich Inner	University or other tertiary	F	2160
+Ipswich Inner	University or other tertiary	M	1368
+Springfield - Redbank		F	3462
+Springfield - Redbank		M	3201
+Springfield - Redbank	Infants/Primary	F	4524
+Springfield - Redbank	Infants/Primary	M	4775
+Springfield - Redbank	Pre-school	F	667
+Springfield - Redbank	Pre-school	M	743
+Springfield - Redbank	Secondary	F	3081
+Springfield - Redbank	Secondary	M	3156
+Springfield - Redbank	Technical or Further Educational Institution	F	1163
+Springfield - Redbank	Technical or Further Educational Institution	M	664
+Springfield - Redbank	University or other tertiary	F	1899
+Springfield - Redbank	University or other tertiary	M	1289
+Beaudesert		F	636
+Beaudesert		M	754
+Beaudesert	Infants/Primary	F	648
+Beaudesert	Infants/Primary	M	657
+Beaudesert	Pre-school	F	66
+Beaudesert	Pre-school	M	65
+Beaudesert	Secondary	F	458
+Beaudesert	Secondary	M	406
+Beaudesert	Technical or Further Educational Institution	F	145
+Beaudesert	Technical or Further Educational Institution	M	62
+Beaudesert	University or other tertiary	F	186
+Beaudesert	University or other tertiary	M	74
+Beenleigh		F	1812
+Beenleigh		M	1518
+Beenleigh	Infants/Primary	F	1832
+Beenleigh	Infants/Primary	M	1897
+Beenleigh	Pre-school	F	271
+Beenleigh	Pre-school	M	278
+Beenleigh	Secondary	F	1234
+Beenleigh	Secondary	M	1311
+Beenleigh	Technical or Further Educational Institution	F	497
+Beenleigh	Technical or Further Educational Institution	M	279
+Beenleigh	University or other tertiary	F	589
+Beenleigh	University or other tertiary	M	323
+Browns Plains		F	3505
+Browns Plains		M	3176
+Browns Plains	Infants/Primary	F	3933
+Browns Plains	Infants/Primary	M	4156
+Browns Plains	Pre-school	F	553
+Browns Plains	Pre-school	M	557
+Browns Plains	Secondary	F	2847
+Browns Plains	Secondary	M	2921
+Browns Plains	Technical or Further Educational Institution	F	935
+Browns Plains	Technical or Further Educational Institution	M	571
+Browns Plains	University or other tertiary	F	1344
+Browns Plains	University or other tertiary	M	799
+Jimboomba		F	1677
+Jimboomba		M	1664
+Jimboomba	Infants/Primary	F	2459
+Jimboomba	Infants/Primary	M	2528
+Jimboomba	Pre-school	F	308
+Jimboomba	Pre-school	M	332
+Jimboomba	Secondary	F	1866
+Jimboomba	Secondary	M	1894
+Jimboomba	Technical or Further Educational Institution	F	473
+Jimboomba	Technical or Further Educational Institution	M	284
+Jimboomba	University or other tertiary	F	769
+Jimboomba	University or other tertiary	M	394
+Loganlea - Carbrook		F	2463
+Loganlea - Carbrook		M	2166
+Loganlea - Carbrook	Infants/Primary	F	2563
+Loganlea - Carbrook	Infants/Primary	M	2780
+Loganlea - Carbrook	Pre-school	F	397
+Loganlea - Carbrook	Pre-school	M	428
+Loganlea - Carbrook	Secondary	F	1924
+Loganlea - Carbrook	Secondary	M	2004
+Loganlea - Carbrook	Technical or Further Educational Institution	F	660
+Loganlea - Carbrook	Technical or Further Educational Institution	M	517
+Loganlea - Carbrook	University or other tertiary	F	1205
+Loganlea - Carbrook	University or other tertiary	M	786
+Springwood - Kingston		F	3325
+Springwood - Kingston		M	3053
+Springwood - Kingston	Infants/Primary	F	3516
+Springwood - Kingston	Infants/Primary	M	3598
+Springwood - Kingston	Pre-school	F	508
+Springwood - Kingston	Pre-school	M	528
+Springwood - Kingston	Secondary	F	2672
+Springwood - Kingston	Secondary	M	2781
+Springwood - Kingston	Technical or Further Educational Institution	F	1023
+Springwood - Kingston	Technical or Further Educational Institution	M	745
+Springwood - Kingston	University or other tertiary	F	1440
+Springwood - Kingston	University or other tertiary	M	1212
+Bowen Basin - North		F	2000
+Bowen Basin - North		M	2848
+Bowen Basin - North	Infants/Primary	F	1562
+Bowen Basin - North	Infants/Primary	M	1624
+Bowen Basin - North	Pre-school	F	205
+Bowen Basin - North	Pre-school	M	229
+Bowen Basin - North	Secondary	F	830
+Bowen Basin - North	Secondary	M	895
+Bowen Basin - North	Technical or Further Educational Institution	F	264
+Bowen Basin - North	Technical or Further Educational Institution	M	124
+Bowen Basin - North	University or other tertiary	F	313
+Bowen Basin - North	University or other tertiary	M	158
+Mackay		F	4699
+Mackay		M	5931
+Mackay	Infants/Primary	F	5040
+Mackay	Infants/Primary	M	5367
+Mackay	Pre-school	F	621
+Mackay	Pre-school	M	686
+Mackay	Secondary	F	3840
+Mackay	Secondary	M	3933
+Mackay	Technical or Further Educational Institution	F	920
+Mackay	Technical or Further Educational Institution	M	574
+Mackay	University or other tertiary	F	1961
+Mackay	University or other tertiary	M	924
+Whitsunday		F	1505
+Whitsunday		M	1719
+Whitsunday	Infants/Primary	F	777
+Whitsunday	Infants/Primary	M	835
+Whitsunday	Pre-school	F	112
+Whitsunday	Pre-school	M	118
+Whitsunday	Secondary	F	526
+Whitsunday	Secondary	M	525
+Whitsunday	Technical or Further Educational Institution	F	201
+Whitsunday	Technical or Further Educational Institution	M	124
+Whitsunday	University or other tertiary	F	197
+Whitsunday	University or other tertiary	M	65
+Bribie - Beachmere		F	1487
+Bribie - Beachmere		M	1241
+Bribie - Beachmere	Infants/Primary	F	1016
+Bribie - Beachmere	Infants/Primary	M	1111
+Bribie - Beachmere	Pre-school	F	131
+Bribie - Beachmere	Pre-school	M	129
+Bribie - Beachmere	Secondary	F	761
+Bribie - Beachmere	Secondary	M	777
+Bribie - Beachmere	Technical or Further Educational Institution	F	273
+Bribie - Beachmere	Technical or Further Educational Institution	M	120
+Bribie - Beachmere	University or other tertiary	F	367
+Bribie - Beachmere	University or other tertiary	M	167
+Caboolture		F	3302
+Caboolture		M	2824
+Caboolture	Infants/Primary	F	3188
+Caboolture	Infants/Primary	M	3348
+Caboolture	Pre-school	F	442
+Caboolture	Pre-school	M	486
+Caboolture	Secondary	F	2197
+Caboolture	Secondary	M	2220
+Caboolture	Technical or Further Educational Institution	F	881
+Caboolture	Technical or Further Educational Institution	M	402
+Caboolture	University or other tertiary	F	1089
+Caboolture	University or other tertiary	M	564
+Caboolture Hinterland		F	658
+Caboolture Hinterland		M	1607
+Caboolture Hinterland	Infants/Primary	F	471
+Caboolture Hinterland	Infants/Primary	M	520
+Caboolture Hinterland	Pre-school	F	51
+Caboolture Hinterland	Pre-school	M	61
+Caboolture Hinterland	Secondary	F	393
+Caboolture Hinterland	Secondary	M	364
+Caboolture Hinterland	Technical or Further Educational Institution	F	87
+Caboolture Hinterland	Technical or Further Educational Institution	M	46
+Caboolture Hinterland	University or other tertiary	F	152
+Caboolture Hinterland	University or other tertiary	M	55
+Narangba - Burpengary		F	2431
+Narangba - Burpengary		M	2120
+Narangba - Burpengary	Infants/Primary	F	3078
+Narangba - Burpengary	Infants/Primary	M	3335
+Narangba - Burpengary	Pre-school	F	349
+Narangba - Burpengary	Pre-school	M	411
+Narangba - Burpengary	Secondary	F	2474
+Narangba - Burpengary	Secondary	M	2572
+Narangba - Burpengary	Technical or Further Educational Institution	F	631
+Narangba - Burpengary	Technical or Further Educational Institution	M	409
+Narangba - Burpengary	University or other tertiary	F	1107
+Narangba - Burpengary	University or other tertiary	M	625
+Redcliffe		F	2631
+Redcliffe		M	2189
+Redcliffe	Infants/Primary	F	2160
+Redcliffe	Infants/Primary	M	2298
+Redcliffe	Pre-school	F	258
+Redcliffe	Pre-school	M	273
+Redcliffe	Secondary	F	1633
+Redcliffe	Secondary	M	1766
+Redcliffe	Technical or Further Educational Institution	F	542
+Redcliffe	Technical or Further Educational Institution	M	333
+Redcliffe	University or other tertiary	F	1002
+Redcliffe	University or other tertiary	M	554
+The Hills District		F	2037
+The Hills District		M	1935
+The Hills District	Infants/Primary	F	4453
+The Hills District	Infants/Primary	M	4705
+The Hills District	Pre-school	F	613
+The Hills District	Pre-school	M	665
+The Hills District	Secondary	F	3345
+The Hills District	Secondary	M	3574
+The Hills District	Technical or Further Educational Institution	F	713
+The Hills District	Technical or Further Educational Institution	M	567
+The Hills District	University or other tertiary	F	2437
+The Hills District	University or other tertiary	M	1717
+North Lakes		F	2445
+North Lakes		M	2173
+North Lakes	Infants/Primary	F	3758
+North Lakes	Infants/Primary	M	3944
+North Lakes	Pre-school	F	556
+North Lakes	Pre-school	M	653
+North Lakes	Secondary	F	2420
+North Lakes	Secondary	M	2368
+North Lakes	Technical or Further Educational Institution	F	836
+North Lakes	Technical or Further Educational Institution	M	485
+North Lakes	University or other tertiary	F	1554
+North Lakes	University or other tertiary	M	917
+Strathpine		F	1282
+Strathpine		M	1208
+Strathpine	Infants/Primary	F	1654
+Strathpine	Infants/Primary	M	1803
+Strathpine	Pre-school	F	253
+Strathpine	Pre-school	M	264
+Strathpine	Secondary	F	1122
+Strathpine	Secondary	M	1214
+Strathpine	Technical or Further Educational Institution	F	425
+Strathpine	Technical or Further Educational Institution	M	310
+Strathpine	University or other tertiary	F	780
+Strathpine	University or other tertiary	M	471
+Far North		F	1792
+Far North		M	2921
+Far North	Infants/Primary	F	1764
+Far North	Infants/Primary	M	1793
+Far North	Pre-school	F	236
+Far North	Pre-school	M	260
+Far North	Secondary	F	923
+Far North	Secondary	M	930
+Far North	Technical or Further Educational Institution	F	222
+Far North	Technical or Further Educational Institution	M	114
+Far North	University or other tertiary	F	221
+Far North	University or other tertiary	M	82
+Outback - North		F	1733
+Outback - North		M	1972
+Outback - North	Infants/Primary	F	1385
+Outback - North	Infants/Primary	M	1429
+Outback - North	Pre-school	F	215
+Outback - North	Pre-school	M	217
+Outback - North	Secondary	F	762
+Outback - North	Secondary	M	757
+Outback - North	Technical or Further Educational Institution	F	242
+Outback - North	Technical or Further Educational Institution	M	163
+Outback - North	University or other tertiary	F	359
+Outback - North	University or other tertiary	M	172
+Outback - South		F	887
+Outback - South		M	843
+Outback - South	Infants/Primary	F	717
+Outback - South	Infants/Primary	M	787
+Outback - South	Pre-school	F	77
+Outback - South	Pre-school	M	88
+Outback - South	Secondary	F	397
+Outback - South	Secondary	M	367
+Outback - South	Technical or Further Educational Institution	F	128
+Outback - South	Technical or Further Educational Institution	M	69
+Outback - South	University or other tertiary	F	205
+Outback - South	University or other tertiary	M	98
+Buderim		F	1709
+Buderim		M	1603
+Buderim	Infants/Primary	F	2460
+Buderim	Infants/Primary	M	2518
+Buderim	Pre-school	F	337
+Buderim	Pre-school	M	365
+Buderim	Secondary	F	2075
+Buderim	Secondary	M	1948
+Buderim	Technical or Further Educational Institution	F	567
+Buderim	Technical or Further Educational Institution	M	335
+Buderim	University or other tertiary	F	2092
+Buderim	University or other tertiary	M	1288
+Caloundra		F	2832
+Caloundra		M	2463
+Caloundra	Infants/Primary	F	3239
+Caloundra	Infants/Primary	M	3488
+Caloundra	Pre-school	F	405
+Caloundra	Pre-school	M	505
+Caloundra	Secondary	F	2520
+Caloundra	Secondary	M	2705
+Caloundra	Technical or Further Educational Institution	F	642
+Caloundra	Technical or Further Educational Institution	M	423
+Caloundra	University or other tertiary	F	1639
+Caloundra	University or other tertiary	M	953
+Maroochy		F	2609
+Maroochy		M	2332
+Maroochy	Infants/Primary	F	1767
+Maroochy	Infants/Primary	M	1899
+Maroochy	Pre-school	F	223
+Maroochy	Pre-school	M	288
+Maroochy	Secondary	F	1341
+Maroochy	Secondary	M	1400
+Maroochy	Technical or Further Educational Institution	F	578
+Maroochy	Technical or Further Educational Institution	M	379
+Maroochy	University or other tertiary	F	1418
+Maroochy	University or other tertiary	M	848
+Noosa		F	1820
+Noosa		M	1560
+Noosa	Infants/Primary	F	1649
+Noosa	Infants/Primary	M	1770
+Noosa	Pre-school	F	215
+Noosa	Pre-school	M	240
+Noosa	Secondary	F	1301
+Noosa	Secondary	M	1358
+Noosa	Technical or Further Educational Institution	F	277
+Noosa	Technical or Further Educational Institution	M	187
+Noosa	University or other tertiary	F	673
+Noosa	University or other tertiary	M	365
+Sunshine Coast Hinterland		F	1875
+Sunshine Coast Hinterland		M	1785
+Sunshine Coast Hinterland	Infants/Primary	F	2003
+Sunshine Coast Hinterland	Infants/Primary	M	2124
+Sunshine Coast Hinterland	Pre-school	F	245
+Sunshine Coast Hinterland	Pre-school	M	232
+Sunshine Coast Hinterland	Secondary	F	1634
+Sunshine Coast Hinterland	Secondary	M	1664
+Sunshine Coast Hinterland	Technical or Further Educational Institution	F	379
+Sunshine Coast Hinterland	Technical or Further Educational Institution	M	246
+Sunshine Coast Hinterland	University or other tertiary	F	947
+Sunshine Coast Hinterland	University or other tertiary	M	464
+Nambour		F	1534
+Nambour		M	1484
+Nambour	Infants/Primary	F	1866
+Nambour	Infants/Primary	M	1943
+Nambour	Pre-school	F	245
+Nambour	Pre-school	M	277
+Nambour	Secondary	F	1333
+Nambour	Secondary	M	1338
+Nambour	Technical or Further Educational Institution	F	384
+Nambour	Technical or Further Educational Institution	M	242
+Nambour	University or other tertiary	F	893
+Nambour	University or other tertiary	M	436
+Noosa Hinterland		F	832
+Noosa Hinterland		M	825
+Noosa Hinterland	Infants/Primary	F	912
+Noosa Hinterland	Infants/Primary	M	1006
+Noosa Hinterland	Pre-school	F	119
+Noosa Hinterland	Pre-school	M	112
+Noosa Hinterland	Secondary	F	732
+Noosa Hinterland	Secondary	M	778
+Noosa Hinterland	Technical or Further Educational Institution	F	179
+Noosa Hinterland	Technical or Further Educational Institution	M	110
+Noosa Hinterland	University or other tertiary	F	328
+Noosa Hinterland	University or other tertiary	M	158
+Toowoomba		F	6487
+Toowoomba		M	5831
+Toowoomba	Infants/Primary	F	6710
+Toowoomba	Infants/Primary	M	6709
+Toowoomba	Pre-school	F	857
+Toowoomba	Pre-school	M	887
+Toowoomba	Secondary	F	5303
+Toowoomba	Secondary	M	5331
+Toowoomba	Technical or Further Educational Institution	F	1580
+Toowoomba	Technical or Further Educational Institution	M	982
+Toowoomba	University or other tertiary	F	3945
+Toowoomba	University or other tertiary	M	2761
+Charters Towers - Ayr - Ingham		F	2054
+Charters Towers - Ayr - Ingham		M	2030
+Charters Towers - Ayr - Ingham	Infants/Primary	F	1704
+Charters Towers - Ayr - Ingham	Infants/Primary	M	1819
+Charters Towers - Ayr - Ingham	Pre-school	F	194
+Charters Towers - Ayr - Ingham	Pre-school	M	173
+Charters Towers - Ayr - Ingham	Secondary	F	1446
+Charters Towers - Ayr - Ingham	Secondary	M	1584
+Charters Towers - Ayr - Ingham	Technical or Further Educational Institution	F	255
+Charters Towers - Ayr - Ingham	Technical or Further Educational Institution	M	138
+Charters Towers - Ayr - Ingham	University or other tertiary	F	342
+Charters Towers - Ayr - Ingham	University or other tertiary	M	169
+Townsville		F	7816
+Townsville		M	8990
+Townsville	Infants/Primary	F	8135
+Townsville	Infants/Primary	M	8260
+Townsville	Pre-school	F	1027
+Townsville	Pre-school	M	1166
+Townsville	Secondary	F	5980
+Townsville	Secondary	M	6314
+Townsville	Technical or Further Educational Institution	F	1923
+Townsville	Technical or Further Educational Institution	M	1219
+Townsville	University or other tertiary	F	6523
+Townsville	University or other tertiary	M	3965
+Bundaberg		F	3743
+Bundaberg		M	3637
+Bundaberg	Infants/Primary	F	3467
+Bundaberg	Infants/Primary	M	3721
+Bundaberg	Pre-school	F	396
+Bundaberg	Pre-school	M	448
+Bundaberg	Secondary	F	2636
+Bundaberg	Secondary	M	2836
+Bundaberg	Technical or Further Educational Institution	F	784
+Bundaberg	Technical or Further Educational Institution	M	388
+Bundaberg	University or other tertiary	F	1291
+Bundaberg	University or other tertiary	M	635
+Burnett		F	2413
+Burnett		M	2657
+Burnett	Infants/Primary	F	2000
+Burnett	Infants/Primary	M	2176
+Burnett	Pre-school	F	215
+Burnett	Pre-school	M	208
+Burnett	Secondary	F	1420
+Burnett	Secondary	M	1512
+Burnett	Technical or Further Educational Institution	F	426
+Burnett	Technical or Further Educational Institution	M	205
+Burnett	University or other tertiary	F	392
+Burnett	University or other tertiary	M	155
+Gympie - Cooloola		F	2507
+Gympie - Cooloola		M	2380
+Gympie - Cooloola	Infants/Primary	F	1882
+Gympie - Cooloola	Infants/Primary	M	2062
+Gympie - Cooloola	Pre-school	F	221
+Gympie - Cooloola	Pre-school	M	264
+Gympie - Cooloola	Secondary	F	1516
+Gympie - Cooloola	Secondary	M	1591
+Gympie - Cooloola	Technical or Further Educational Institution	F	425
+Gympie - Cooloola	Technical or Further Educational Institution	M	201
+Gympie - Cooloola	University or other tertiary	F	576
+Gympie - Cooloola	University or other tertiary	M	202
+Hervey Bay		F	2630
+Hervey Bay		M	2404
+Hervey Bay	Infants/Primary	F	2162
+Hervey Bay	Infants/Primary	M	2232
+Hervey Bay	Pre-school	F	261
+Hervey Bay	Pre-school	M	321
+Hervey Bay	Secondary	F	1650
+Hervey Bay	Secondary	M	1708
+Hervey Bay	Technical or Further Educational Institution	F	486
+Hervey Bay	Technical or Further Educational Institution	M	264
+Hervey Bay	University or other tertiary	F	806
+Hervey Bay	University or other tertiary	M	298
+Maryborough		F	2159
+Maryborough		M	2756
+Maryborough	Infants/Primary	F	1529
+Maryborough	Infants/Primary	M	1695
+Maryborough	Pre-school	F	190
+Maryborough	Pre-school	M	194
+Maryborough	Secondary	F	1287
+Maryborough	Secondary	M	1343
+Maryborough	Technical or Further Educational Institution	F	365
+Maryborough	Technical or Further Educational Institution	M	180
+Maryborough	University or other tertiary	F	468
+Maryborough	University or other tertiary	M	161
+Migratory - Offshore - Shipping (Qld)		F	12
+Migratory - Offshore - Shipping (Qld)		M	6
+Migratory - Offshore - Shipping (Qld)	Secondary	F	3
+No usual address (Qld)		F	1116
+No usual address (Qld)		M	1636
+No usual address (Qld)	Infants/Primary	F	132
+No usual address (Qld)	Infants/Primary	M	133
+No usual address (Qld)	Pre-school	F	15
+No usual address (Qld)	Pre-school	M	19
+No usual address (Qld)	Secondary	F	59
+No usual address (Qld)	Secondary	M	72
+No usual address (Qld)	Technical or Further Educational Institution	F	78
+No usual address (Qld)	Technical or Further Educational Institution	M	51
+No usual address (Qld)	University or other tertiary	F	175
+No usual address (Qld)	University or other tertiary	M	134
+Adelaide City		F	1174
+Adelaide City		M	1619
+Adelaide City	Infants/Primary	F	255
+Adelaide City	Infants/Primary	M	244
+Adelaide City	Pre-school	F	45
+Adelaide City	Pre-school	M	62
+Adelaide City	Secondary	F	199
+Adelaide City	Secondary	M	219
+Adelaide City	Technical or Further Educational Institution	F	289
+Adelaide City	Technical or Further Educational Institution	M	230
+Adelaide City	University or other tertiary	F	3092
+Adelaide City	University or other tertiary	M	2881
+Adelaide Hills		F	2275
+Adelaide Hills		M	2113
+Adelaide Hills	Infants/Primary	F	3544
+Adelaide Hills	Infants/Primary	M	3698
+Adelaide Hills	Pre-school	F	456
+Adelaide Hills	Pre-school	M	465
+Adelaide Hills	Secondary	F	2406
+Adelaide Hills	Secondary	M	2513
+Adelaide Hills	Technical or Further Educational Institution	F	724
+Adelaide Hills	Technical or Further Educational Institution	M	521
+Adelaide Hills	University or other tertiary	F	1780
+Adelaide Hills	University or other tertiary	M	1191
+Burnside		F	1189
+Burnside		M	1028
+Burnside	Infants/Primary	F	1985
+Burnside	Infants/Primary	M	2030
+Burnside	Pre-school	F	299
+Burnside	Pre-school	M	295
+Burnside	Secondary	F	1701
+Burnside	Secondary	M	1561
+Burnside	Technical or Further Educational Institution	F	334
+Burnside	Technical or Further Educational Institution	M	262
+Burnside	University or other tertiary	F	1787
+Burnside	University or other tertiary	M	1659
+Campbelltown (SA)		F	1244
+Campbelltown (SA)		M	1156
+Campbelltown (SA)	Infants/Primary	F	2005
+Campbelltown (SA)	Infants/Primary	M	2198
+Campbelltown (SA)	Pre-school	F	286
+Campbelltown (SA)	Pre-school	M	334
+Campbelltown (SA)	Secondary	F	1340
+Campbelltown (SA)	Secondary	M	1535
+Campbelltown (SA)	Technical or Further Educational Institution	F	515
+Campbelltown (SA)	Technical or Further Educational Institution	M	412
+Campbelltown (SA)	University or other tertiary	F	1773
+Campbelltown (SA)	University or other tertiary	M	1449
+Norwood - Payneham - St Peters		F	1140
+Norwood - Payneham - St Peters		M	1008
+Norwood - Payneham - St Peters	Infants/Primary	F	1223
+Norwood - Payneham - St Peters	Infants/Primary	M	1290
+Norwood - Payneham - St Peters	Pre-school	F	209
+Norwood - Payneham - St Peters	Pre-school	M	206
+Norwood - Payneham - St Peters	Secondary	F	824
+Norwood - Payneham - St Peters	Secondary	M	1030
+Norwood - Payneham - St Peters	Technical or Further Educational Institution	F	346
+Norwood - Payneham - St Peters	Technical or Further Educational Institution	M	288
+Norwood - Payneham - St Peters	University or other tertiary	F	1716
+Norwood - Payneham - St Peters	University or other tertiary	M	1481
+Prospect - Walkerville		F	818
+Prospect - Walkerville		M	816
+Prospect - Walkerville	Infants/Primary	F	1117
+Prospect - Walkerville	Infants/Primary	M	1184
+Prospect - Walkerville	Pre-school	F	176
+Prospect - Walkerville	Pre-school	M	204
+Prospect - Walkerville	Secondary	F	766
+Prospect - Walkerville	Secondary	M	772
+Prospect - Walkerville	Technical or Further Educational Institution	F	259
+Prospect - Walkerville	Technical or Further Educational Institution	M	221
+Prospect - Walkerville	University or other tertiary	F	1148
+Prospect - Walkerville	University or other tertiary	M	1135
+Unley		F	1135
+Unley		M	1016
+Unley	Infants/Primary	F	1547
+Unley	Infants/Primary	M	1582
+Unley	Pre-school	F	244
+Unley	Pre-school	M	243
+Unley	Secondary	F	1067
+Unley	Secondary	M	1017
+Unley	Technical or Further Educational Institution	F	337
+Unley	Technical or Further Educational Institution	M	254
+Unley	University or other tertiary	F	1848
+Unley	University or other tertiary	M	1515
+Gawler - Two Wells		F	1184
+Gawler - Two Wells		M	1146
+Gawler - Two Wells	Infants/Primary	F	1614
+Gawler - Two Wells	Infants/Primary	M	1694
+Gawler - Two Wells	Pre-school	F	199
+Gawler - Two Wells	Pre-school	M	212
+Gawler - Two Wells	Secondary	F	1110
+Gawler - Two Wells	Secondary	M	1141
+Gawler - Two Wells	Technical or Further Educational Institution	F	408
+Gawler - Two Wells	Technical or Further Educational Institution	M	270
+Gawler - Two Wells	University or other tertiary	F	632
+Gawler - Two Wells	University or other tertiary	M	339
+Playford		F	4169
+Playford		M	3952
+Playford	Infants/Primary	F	4444
+Playford	Infants/Primary	M	4679
+Playford	Pre-school	F	684
+Playford	Pre-school	M	729
+Playford	Secondary	F	2600
+Playford	Secondary	M	2725
+Playford	Technical or Further Educational Institution	F	1390
+Playford	Technical or Further Educational Institution	M	906
+Playford	University or other tertiary	F	1421
+Playford	University or other tertiary	M	955
+Port Adelaide - East		F	2547
+Port Adelaide - East		M	2956
+Port Adelaide - East	Infants/Primary	F	2668
+Port Adelaide - East	Infants/Primary	M	2769
+Port Adelaide - East	Pre-school	F	441
+Port Adelaide - East	Pre-school	M	447
+Port Adelaide - East	Secondary	F	1619
+Port Adelaide - East	Secondary	M	1706
+Port Adelaide - East	Technical or Further Educational Institution	F	973
+Port Adelaide - East	Technical or Further Educational Institution	M	787
+Port Adelaide - East	University or other tertiary	F	2113
+Port Adelaide - East	University or other tertiary	M	2003
+Salisbury		F	4835
+Salisbury		M	4423
+Salisbury	Infants/Primary	F	6179
+Salisbury	Infants/Primary	M	6520
+Salisbury	Pre-school	F	901
+Salisbury	Pre-school	M	891
+Salisbury	Secondary	F	3818
+Salisbury	Secondary	M	4051
+Salisbury	Technical or Further Educational Institution	F	1885
+Salisbury	Technical or Further Educational Institution	M	1325
+Salisbury	University or other tertiary	F	3088
+Salisbury	University or other tertiary	M	2497
+Tea Tree Gully		F	2406
+Tea Tree Gully		M	2082
+Tea Tree Gully	Infants/Primary	F	3996
+Tea Tree Gully	Infants/Primary	M	4295
+Tea Tree Gully	Pre-school	F	523
+Tea Tree Gully	Pre-school	M	554
+Tea Tree Gully	Secondary	F	2741
+Tea Tree Gully	Secondary	M	2802
+Tea Tree Gully	Technical or Further Educational Institution	F	972
+Tea Tree Gully	Technical or Further Educational Institution	M	813
+Tea Tree Gully	University or other tertiary	F	2335
+Tea Tree Gully	University or other tertiary	M	1707
+Holdfast Bay		F	1219
+Holdfast Bay		M	1046
+Holdfast Bay	Infants/Primary	F	1135
+Holdfast Bay	Infants/Primary	M	1112
+Holdfast Bay	Pre-school	F	157
+Holdfast Bay	Pre-school	M	179
+Holdfast Bay	Secondary	F	759
+Holdfast Bay	Secondary	M	872
+Holdfast Bay	Technical or Further Educational Institution	F	268
+Holdfast Bay	Technical or Further Educational Institution	M	266
+Holdfast Bay	University or other tertiary	F	1143
+Holdfast Bay	University or other tertiary	M	812
+Marion		F	2642
+Marion		M	2314
+Marion	Infants/Primary	F	3418
+Marion	Infants/Primary	M	3529
+Marion	Pre-school	F	502
+Marion	Pre-school	M	561
+Marion	Secondary	F	2317
+Marion	Secondary	M	2344
+Marion	Technical or Further Educational Institution	F	969
+Marion	Technical or Further Educational Institution	M	820
+Marion	University or other tertiary	F	3325
+Marion	University or other tertiary	M	2540
+Mitcham		F	1630
+Mitcham		M	1511
+Mitcham	Infants/Primary	F	2957
+Mitcham	Infants/Primary	M	2933
+Mitcham	Pre-school	F	398
+Mitcham	Pre-school	M	420
+Mitcham	Secondary	F	1962
+Mitcham	Secondary	M	2016
+Mitcham	Technical or Further Educational Institution	F	521
+Mitcham	Technical or Further Educational Institution	M	438
+Mitcham	University or other tertiary	F	2926
+Mitcham	University or other tertiary	M	2232
+Onkaparinga		F	5687
+Onkaparinga		M	5091
+Onkaparinga	Infants/Primary	F	7446
+Onkaparinga	Infants/Primary	M	8043
+Onkaparinga	Pre-school	F	1027
+Onkaparinga	Pre-school	M	1058
+Onkaparinga	Secondary	F	4943
+Onkaparinga	Secondary	M	5034
+Onkaparinga	Technical or Further Educational Institution	F	1772
+Onkaparinga	Technical or Further Educational Institution	M	1324
+Onkaparinga	University or other tertiary	F	3553
+Onkaparinga	University or other tertiary	M	2283
+Charles Sturt		F	3613
+Charles Sturt		M	3401
+Charles Sturt	Infants/Primary	F	4047
+Charles Sturt	Infants/Primary	M	4242
+Charles Sturt	Pre-school	F	568
+Charles Sturt	Pre-school	M	600
+Charles Sturt	Secondary	F	2719
+Charles Sturt	Secondary	M	2733
+Charles Sturt	Technical or Further Educational Institution	F	1083
+Charles Sturt	Technical or Further Educational Institution	M	904
+Charles Sturt	University or other tertiary	F	3192
+Charles Sturt	University or other tertiary	M	2637
+Port Adelaide - West		F	2181
+Port Adelaide - West		M	1911
+Port Adelaide - West	Infants/Primary	F	2104
+Port Adelaide - West	Infants/Primary	M	2273
+Port Adelaide - West	Pre-school	F	332
+Port Adelaide - West	Pre-school	M	328
+Port Adelaide - West	Secondary	F	1447
+Port Adelaide - West	Secondary	M	1525
+Port Adelaide - West	Technical or Further Educational Institution	F	778
+Port Adelaide - West	Technical or Further Educational Institution	M	565
+Port Adelaide - West	University or other tertiary	F	1541
+Port Adelaide - West	University or other tertiary	M	1121
+West Torrens		F	2112
+West Torrens		M	1841
+West Torrens	Infants/Primary	F	2120
+West Torrens	Infants/Primary	M	2174
+West Torrens	Pre-school	F	337
+West Torrens	Pre-school	M	348
+West Torrens	Secondary	F	1448
+West Torrens	Secondary	M	1366
+West Torrens	Technical or Further Educational Institution	F	694
+West Torrens	Technical or Further Educational Institution	M	644
+West Torrens	University or other tertiary	F	2725
+West Torrens	University or other tertiary	M	2227
+Barossa		F	1246
+Barossa		M	1203
+Barossa	Infants/Primary	F	1684
+Barossa	Infants/Primary	M	1871
+Barossa	Pre-school	F	201
+Barossa	Pre-school	M	259
+Barossa	Secondary	F	1039
+Barossa	Secondary	M	1069
+Barossa	Technical or Further Educational Institution	F	342
+Barossa	Technical or Further Educational Institution	M	244
+Barossa	University or other tertiary	F	509
+Barossa	University or other tertiary	M	239
+Lower North		F	944
+Lower North		M	906
+Lower North	Infants/Primary	F	966
+Lower North	Infants/Primary	M	984
+Lower North	Pre-school	F	138
+Lower North	Pre-school	M	148
+Lower North	Secondary	F	645
+Lower North	Secondary	M	636
+Lower North	Technical or Further Educational Institution	F	193
+Lower North	Technical or Further Educational Institution	M	128
+Lower North	University or other tertiary	F	167
+Lower North	University or other tertiary	M	71
+Mid North		F	1084
+Mid North		M	1055
+Mid North	Infants/Primary	F	1128
+Mid North	Infants/Primary	M	1149
+Mid North	Pre-school	F	129
+Mid North	Pre-school	M	160
+Mid North	Secondary	F	771
+Mid North	Secondary	M	790
+Mid North	Technical or Further Educational Institution	F	258
+Mid North	Technical or Further Educational Institution	M	169
+Mid North	University or other tertiary	F	201
+Mid North	University or other tertiary	M	81
+Yorke Peninsula		F	1076
+Yorke Peninsula		M	1068
+Yorke Peninsula	Infants/Primary	F	869
+Yorke Peninsula	Infants/Primary	M	978
+Yorke Peninsula	Pre-school	F	107
+Yorke Peninsula	Pre-school	M	127
+Yorke Peninsula	Secondary	F	563
+Yorke Peninsula	Secondary	M	660
+Yorke Peninsula	Technical or Further Educational Institution	F	153
+Yorke Peninsula	Technical or Further Educational Institution	M	86
+Yorke Peninsula	University or other tertiary	F	126
+Yorke Peninsula	University or other tertiary	M	43
+Eyre Peninsula and South West		F	2668
+Eyre Peninsula and South West		M	2798
+Eyre Peninsula and South West	Infants/Primary	F	2562
+Eyre Peninsula and South West	Infants/Primary	M	2713
+Eyre Peninsula and South West	Pre-school	F	357
+Eyre Peninsula and South West	Pre-school	M	387
+Eyre Peninsula and South West	Secondary	F	1554
+Eyre Peninsula and South West	Secondary	M	1573
+Eyre Peninsula and South West	Technical or Further Educational Institution	F	614
+Eyre Peninsula and South West	Technical or Further Educational Institution	M	315
+Eyre Peninsula and South West	University or other tertiary	F	560
+Eyre Peninsula and South West	University or other tertiary	M	191
+Outback - North and East		F	1476
+Outback - North and East		M	2183
+Outback - North and East	Infants/Primary	F	1072
+Outback - North and East	Infants/Primary	M	1174
+Outback - North and East	Pre-school	F	186
+Outback - North and East	Pre-school	M	183
+Outback - North and East	Secondary	F	595
+Outback - North and East	Secondary	M	564
+Outback - North and East	Technical or Further Educational Institution	F	216
+Outback - North and East	Technical or Further Educational Institution	M	190
+Outback - North and East	University or other tertiary	F	211
+Outback - North and East	University or other tertiary	M	104
+Fleurieu - Kangaroo Island		F	2051
+Fleurieu - Kangaroo Island		M	1928
+Fleurieu - Kangaroo Island	Infants/Primary	F	1779
+Fleurieu - Kangaroo Island	Infants/Primary	M	1882
+Fleurieu - Kangaroo Island	Pre-school	F	239
+Fleurieu - Kangaroo Island	Pre-school	M	227
+Fleurieu - Kangaroo Island	Secondary	F	1270
+Fleurieu - Kangaroo Island	Secondary	M	1185
+Fleurieu - Kangaroo Island	Technical or Further Educational Institution	F	423
+Fleurieu - Kangaroo Island	Technical or Further Educational Institution	M	238
+Fleurieu - Kangaroo Island	University or other tertiary	F	510
+Fleurieu - Kangaroo Island	University or other tertiary	M	229
+Limestone Coast		F	2564
+Limestone Coast		M	2931
+Limestone Coast	Infants/Primary	F	2991
+Limestone Coast	Infants/Primary	M	3305
+Limestone Coast	Pre-school	F	361
+Limestone Coast	Pre-school	M	413
+Limestone Coast	Secondary	F	1843
+Limestone Coast	Secondary	M	1876
+Limestone Coast	Technical or Further Educational Institution	F	655
+Limestone Coast	Technical or Further Educational Institution	M	417
+Limestone Coast	University or other tertiary	F	603
+Limestone Coast	University or other tertiary	M	246
+Murray and Mallee		F	2990
+Murray and Mallee		M	3461
+Murray and Mallee	Infants/Primary	F	2783
+Murray and Mallee	Infants/Primary	M	3046
+Murray and Mallee	Pre-school	F	352
+Murray and Mallee	Pre-school	M	369
+Murray and Mallee	Secondary	F	1885
+Murray and Mallee	Secondary	M	1897
+Murray and Mallee	Technical or Further Educational Institution	F	585
+Murray and Mallee	Technical or Further Educational Institution	M	394
+Murray and Mallee	University or other tertiary	F	561
+Murray and Mallee	University or other tertiary	M	247
+No usual address (SA)		F	233
+No usual address (SA)		M	421
+No usual address (SA)	Infants/Primary	F	38
+No usual address (SA)	Infants/Primary	M	28
+No usual address (SA)	Pre-school	F	8
+No usual address (SA)	Pre-school	M	5
+No usual address (SA)	Secondary	F	44
+No usual address (SA)	Secondary	M	38
+No usual address (SA)	Technical or Further Educational Institution	F	26
+No usual address (SA)	Technical or Further Educational Institution	M	14
+No usual address (SA)	University or other tertiary	F	43
+No usual address (SA)	University or other tertiary	M	45
+Augusta - Margaret River - Busselton		F	2253
+Augusta - Margaret River - Busselton		M	2215
+Augusta - Margaret River - Busselton	Infants/Primary	F	2278
+Augusta - Margaret River - Busselton	Infants/Primary	M	2451
+Augusta - Margaret River - Busselton	Pre-school	F	308
+Augusta - Margaret River - Busselton	Pre-school	M	325
+Augusta - Margaret River - Busselton	Secondary	F	1692
+Augusta - Margaret River - Busselton	Secondary	M	1752
+Augusta - Margaret River - Busselton	Technical or Further Educational Institution	F	525
+Augusta - Margaret River - Busselton	Technical or Further Educational Institution	M	342
+Augusta - Margaret River - Busselton	University or other tertiary	F	542
+Augusta - Margaret River - Busselton	University or other tertiary	M	206
+Bunbury		F	4491
+Bunbury		M	4685
+Bunbury	Infants/Primary	F	4522
+Bunbury	Infants/Primary	M	4746
+Bunbury	Pre-school	F	605
+Bunbury	Pre-school	M	697
+Bunbury	Secondary	F	3664
+Bunbury	Secondary	M	3674
+Bunbury	Technical or Further Educational Institution	F	1047
+Bunbury	Technical or Further Educational Institution	M	769
+Bunbury	University or other tertiary	F	1236
+Bunbury	University or other tertiary	M	442
+Manjimup		F	1193
+Manjimup		M	1103
+Manjimup	Infants/Primary	F	924
+Manjimup	Infants/Primary	M	895
+Manjimup	Pre-school	F	104
+Manjimup	Pre-school	M	129
+Manjimup	Secondary	F	725
+Manjimup	Secondary	M	763
+Manjimup	Technical or Further Educational Institution	F	166
+Manjimup	Technical or Further Educational Institution	M	119
+Manjimup	University or other tertiary	F	152
+Manjimup	University or other tertiary	M	56
+Mandurah		F	3993
+Mandurah		M	3913
+Mandurah	Infants/Primary	F	3936
+Mandurah	Infants/Primary	M	4051
+Mandurah	Pre-school	F	503
+Mandurah	Pre-school	M	547
+Mandurah	Secondary	F	2932
+Mandurah	Secondary	M	2927
+Mandurah	Technical or Further Educational Institution	F	897
+Mandurah	Technical or Further Educational Institution	M	685
+Mandurah	University or other tertiary	F	1502
+Mandurah	University or other tertiary	M	721
+Cottesloe - Claremont		F	2265
+Cottesloe - Claremont		M	2202
+Cottesloe - Claremont	Infants/Primary	F	2964
+Cottesloe - Claremont	Infants/Primary	M	3083
+Cottesloe - Claremont	Pre-school	F	385
+Cottesloe - Claremont	Pre-school	M	432
+Cottesloe - Claremont	Secondary	F	2956
+Cottesloe - Claremont	Secondary	M	2997
+Cottesloe - Claremont	Technical or Further Educational Institution	F	308
+Cottesloe - Claremont	Technical or Further Educational Institution	M	276
+Cottesloe - Claremont	University or other tertiary	F	3807
+Cottesloe - Claremont	University or other tertiary	M	3791
+Perth City		F	5609
+Perth City		M	5618
+Perth City	Infants/Primary	F	2787
+Perth City	Infants/Primary	M	2983
+Perth City	Pre-school	F	479
+Perth City	Pre-school	M	538
+Perth City	Secondary	F	2103
+Perth City	Secondary	M	1955
+Perth City	Technical or Further Educational Institution	F	1316
+Perth City	Technical or Further Educational Institution	M	1031
+Perth City	University or other tertiary	F	4121
+Perth City	University or other tertiary	M	3660
+Bayswater - Bassendean		F	3141
+Bayswater - Bassendean		M	3064
+Bayswater - Bassendean	Infants/Primary	F	2728
+Bayswater - Bassendean	Infants/Primary	M	2969
+Bayswater - Bassendean	Pre-school	F	415
+Bayswater - Bassendean	Pre-school	M	447
+Bayswater - Bassendean	Secondary	F	2011
+Bayswater - Bassendean	Secondary	M	2046
+Bayswater - Bassendean	Technical or Further Educational Institution	F	906
+Bayswater - Bassendean	Technical or Further Educational Institution	M	870
+Bayswater - Bassendean	University or other tertiary	F	2194
+Bayswater - Bassendean	University or other tertiary	M	1854
+Mundaring		F	1411
+Mundaring		M	3258
+Mundaring	Infants/Primary	F	1662
+Mundaring	Infants/Primary	M	1767
+Mundaring	Pre-school	F	218
+Mundaring	Pre-school	M	253
+Mundaring	Secondary	F	1401
+Mundaring	Secondary	M	1460
+Mundaring	Technical or Further Educational Institution	F	345
+Mundaring	Technical or Further Educational Institution	M	312
+Mundaring	University or other tertiary	F	763
+Mundaring	University or other tertiary	M	480
+Swan		F	5652
+Swan		M	5047
+Swan	Infants/Primary	F	5730
+Swan	Infants/Primary	M	6257
+Swan	Pre-school	F	851
+Swan	Pre-school	M	848
+Swan	Secondary	F	4446
+Swan	Secondary	M	4845
+Swan	Technical or Further Educational Institution	F	1386
+Swan	Technical or Further Educational Institution	M	1196
+Swan	University or other tertiary	F	2797
+Swan	University or other tertiary	M	1816
+Joondalup		F	3757
+Joondalup		M	3827
+Joondalup	Infants/Primary	F	7025
+Joondalup	Infants/Primary	M	7331
+Joondalup	Pre-school	F	876
+Joondalup	Pre-school	M	1008
+Joondalup	Secondary	F	5617
+Joondalup	Secondary	M	5891
+Joondalup	Technical or Further Educational Institution	F	1245
+Joondalup	Technical or Further Educational Institution	M	1272
+Joondalup	University or other tertiary	F	4585
+Joondalup	University or other tertiary	M	3590
+Stirling		F	8099
+Stirling		M	7365
+Stirling	Infants/Primary	F	6899
+Stirling	Infants/Primary	M	7134
+Stirling	Pre-school	F	1075
+Stirling	Pre-school	M	1119
+Stirling	Secondary	F	5316
+Stirling	Secondary	M	5461
+Stirling	Technical or Further Educational Institution	F	2112
+Stirling	Technical or Further Educational Institution	M	1961
+Stirling	University or other tertiary	F	5623
+Stirling	University or other tertiary	M	4723
+Wanneroo		F	7249
+Wanneroo		M	6783
+Wanneroo	Infants/Primary	F	9234
+Wanneroo	Infants/Primary	M	9839
+Wanneroo	Pre-school	F	1312
+Wanneroo	Pre-school	M	1391
+Wanneroo	Secondary	F	6894
+Wanneroo	Secondary	M	7134
+Wanneroo	Technical or Further Educational Institution	F	2028
+Wanneroo	Technical or Further Educational Institution	M	1829
+Wanneroo	University or other tertiary	F	4284
+Wanneroo	University or other tertiary	M	2977
+Armadale		F	3125
+Armadale		M	3037
+Armadale	Infants/Primary	F	3571
+Armadale	Infants/Primary	M	3754
+Armadale	Pre-school	F	612
+Armadale	Pre-school	M	633
+Armadale	Secondary	F	2430
+Armadale	Secondary	M	2417
+Armadale	Technical or Further Educational Institution	F	955
+Armadale	Technical or Further Educational Institution	M	744
+Armadale	University or other tertiary	F	1621
+Armadale	University or other tertiary	M	1062
+Belmont - Victoria Park		F	3837
+Belmont - Victoria Park		M	4171
+Belmont - Victoria Park	Infants/Primary	F	2091
+Belmont - Victoria Park	Infants/Primary	M	2178
+Belmont - Victoria Park	Pre-school	F	322
+Belmont - Victoria Park	Pre-school	M	341
+Belmont - Victoria Park	Secondary	F	1355
+Belmont - Victoria Park	Secondary	M	1388
+Belmont - Victoria Park	Technical or Further Educational Institution	F	962
+Belmont - Victoria Park	Technical or Further Educational Institution	M	938
+Belmont - Victoria Park	University or other tertiary	F	2375
+Belmont - Victoria Park	University or other tertiary	M	2222
+Canning		F	3160
+Canning		M	3124
+Canning	Infants/Primary	F	3518
+Canning	Infants/Primary	M	3788
+Canning	Pre-school	F	463
+Canning	Pre-school	M	501
+Canning	Secondary	F	3105
+Canning	Secondary	M	3224
+Canning	Technical or Further Educational Institution	F	1201
+Canning	Technical or Further Educational Institution	M	1274
+Canning	University or other tertiary	F	4236
+Canning	University or other tertiary	M	4413
+Gosnells		F	4041
+Gosnells		M	5105
+Gosnells	Infants/Primary	F	5141
+Gosnells	Infants/Primary	M	5573
+Gosnells	Pre-school	F	817
+Gosnells	Pre-school	M	811
+Gosnells	Secondary	F	3945
+Gosnells	Secondary	M	4193
+Gosnells	Technical or Further Educational Institution	F	1518
+Gosnells	Technical or Further Educational Institution	M	1279
+Gosnells	University or other tertiary	F	2711
+Gosnells	University or other tertiary	M	2132
+Kalamunda		F	2034
+Kalamunda		M	1990
+Kalamunda	Infants/Primary	F	2529
+Kalamunda	Infants/Primary	M	2597
+Kalamunda	Pre-school	F	319
+Kalamunda	Pre-school	M	373
+Kalamunda	Secondary	F	2113
+Kalamunda	Secondary	M	2108
+Kalamunda	Technical or Further Educational Institution	F	466
+Kalamunda	Technical or Further Educational Institution	M	460
+Kalamunda	University or other tertiary	F	1185
+Kalamunda	University or other tertiary	M	716
+Serpentine - Jarrahdale		F	926
+Serpentine - Jarrahdale		M	1320
+Serpentine - Jarrahdale	Infants/Primary	F	1293
+Serpentine - Jarrahdale	Infants/Primary	M	1406
+Serpentine - Jarrahdale	Pre-school	F	203
+Serpentine - Jarrahdale	Pre-school	M	205
+Serpentine - Jarrahdale	Secondary	F	902
+Serpentine - Jarrahdale	Secondary	M	887
+Serpentine - Jarrahdale	Technical or Further Educational Institution	F	258
+Serpentine - Jarrahdale	Technical or Further Educational Institution	M	219
+Serpentine - Jarrahdale	University or other tertiary	F	430
+Serpentine - Jarrahdale	University or other tertiary	M	239
+South Perth		F	1741
+South Perth		M	1606
+South Perth	Infants/Primary	F	1340
+South Perth	Infants/Primary	M	1360
+South Perth	Pre-school	F	186
+South Perth	Pre-school	M	211
+South Perth	Secondary	F	1077
+South Perth	Secondary	M	1469
+South Perth	Technical or Further Educational Institution	F	431
+South Perth	Technical or Further Educational Institution	M	367
+South Perth	University or other tertiary	F	2130
+South Perth	University or other tertiary	M	2057
+Cockburn		F	3833
+Cockburn		M	3731
+Cockburn	Infants/Primary	F	4409
+Cockburn	Infants/Primary	M	4685
+Cockburn	Pre-school	F	688
+Cockburn	Pre-school	M	656
+Cockburn	Secondary	F	3274
+Cockburn	Secondary	M	3192
+Cockburn	Technical or Further Educational Institution	F	1005
+Cockburn	Technical or Further Educational Institution	M	1002
+Cockburn	University or other tertiary	F	2740
+Cockburn	University or other tertiary	M	1760
+Fremantle		F	1858
+Fremantle		M	1786
+Fremantle	Infants/Primary	F	1222
+Fremantle	Infants/Primary	M	1176
+Fremantle	Pre-school	F	198
+Fremantle	Pre-school	M	182
+Fremantle	Secondary	F	960
+Fremantle	Secondary	M	905
+Fremantle	Technical or Further Educational Institution	F	268
+Fremantle	Technical or Further Educational Institution	M	244
+Fremantle	University or other tertiary	F	1342
+Fremantle	University or other tertiary	M	937
+Kwinana		F	1733
+Kwinana		M	2703
+Kwinana	Infants/Primary	F	1739
+Kwinana	Infants/Primary	M	1841
+Kwinana	Pre-school	F	261
+Kwinana	Pre-school	M	285
+Kwinana	Secondary	F	1091
+Kwinana	Secondary	M	1123
+Kwinana	Technical or Further Educational Institution	F	417
+Kwinana	Technical or Further Educational Institution	M	385
+Kwinana	University or other tertiary	F	794
+Kwinana	University or other tertiary	M	495
+Melville		F	3142
+Melville		M	2827
+Melville	Infants/Primary	F	3888
+Melville	Infants/Primary	M	4188
+Melville	Pre-school	F	595
+Melville	Pre-school	M	574
+Melville	Secondary	F	3620
+Melville	Secondary	M	3659
+Melville	Technical or Further Educational Institution	F	670
+Melville	Technical or Further Educational Institution	M	738
+Melville	University or other tertiary	F	3845
+Melville	University or other tertiary	M	3368
+Rockingham		F	5352
+Rockingham		M	5530
+Rockingham	Infants/Primary	F	6071
+Rockingham	Infants/Primary	M	6386
+Rockingham	Pre-school	F	793
+Rockingham	Pre-school	M	854
+Rockingham	Secondary	F	4266
+Rockingham	Secondary	M	4387
+Rockingham	Technical or Further Educational Institution	F	1374
+Rockingham	Technical or Further Educational Institution	M	1028
+Rockingham	University or other tertiary	F	2267
+Rockingham	University or other tertiary	M	1194
+Albany		F	2670
+Albany		M	3211
+Albany	Infants/Primary	F	2357
+Albany	Infants/Primary	M	2474
+Albany	Pre-school	F	310
+Albany	Pre-school	M	370
+Albany	Secondary	F	1835
+Albany	Secondary	M	1942
+Albany	Technical or Further Educational Institution	F	627
+Albany	Technical or Further Educational Institution	M	500
+Albany	University or other tertiary	F	470
+Albany	University or other tertiary	M	209
+Wheat Belt - North		F	2869
+Wheat Belt - North		M	3648
+Wheat Belt - North	Infants/Primary	F	2189
+Wheat Belt - North	Infants/Primary	M	2251
+Wheat Belt - North	Pre-school	F	298
+Wheat Belt - North	Pre-school	M	340
+Wheat Belt - North	Secondary	F	1443
+Wheat Belt - North	Secondary	M	1538
+Wheat Belt - North	Technical or Further Educational Institution	F	451
+Wheat Belt - North	Technical or Further Educational Institution	M	267
+Wheat Belt - North	University or other tertiary	F	406
+Wheat Belt - North	University or other tertiary	M	180
+Wheat Belt - South		F	1149
+Wheat Belt - South		M	1190
+Wheat Belt - South	Infants/Primary	F	919
+Wheat Belt - South	Infants/Primary	M	857
+Wheat Belt - South	Pre-school	F	107
+Wheat Belt - South	Pre-school	M	139
+Wheat Belt - South	Secondary	F	448
+Wheat Belt - South	Secondary	M	487
+Wheat Belt - South	Technical or Further Educational Institution	F	151
+Wheat Belt - South	Technical or Further Educational Institution	M	79
+Wheat Belt - South	University or other tertiary	F	139
+Wheat Belt - South	University or other tertiary	M	49
+Kimberley		F	2604
+Kimberley		M	2734
+Kimberley	Infants/Primary	F	1667
+Kimberley	Infants/Primary	M	1691
+Kimberley	Pre-school	F	221
+Kimberley	Pre-school	M	242
+Kimberley	Secondary	F	896
+Kimberley	Secondary	M	918
+Kimberley	Technical or Further Educational Institution	F	300
+Kimberley	Technical or Further Educational Institution	M	227
+Kimberley	University or other tertiary	F	378
+Kimberley	University or other tertiary	M	138
+East Pilbara		F	1689
+East Pilbara		M	2880
+East Pilbara	Infants/Primary	F	947
+East Pilbara	Infants/Primary	M	984
+East Pilbara	Pre-school	F	151
+East Pilbara	Pre-school	M	167
+East Pilbara	Secondary	F	505
+East Pilbara	Secondary	M	508
+East Pilbara	Technical or Further Educational Institution	F	255
+East Pilbara	Technical or Further Educational Institution	M	194
+East Pilbara	University or other tertiary	F	219
+East Pilbara	University or other tertiary	M	166
+West Pilbara		F	1605
+West Pilbara		M	3735
+West Pilbara	Infants/Primary	F	1426
+West Pilbara	Infants/Primary	M	1533
+West Pilbara	Pre-school	F	230
+West Pilbara	Pre-school	M	283
+West Pilbara	Secondary	F	654
+West Pilbara	Secondary	M	849
+West Pilbara	Technical or Further Educational Institution	F	290
+West Pilbara	Technical or Further Educational Institution	M	276
+West Pilbara	University or other tertiary	F	271
+West Pilbara	University or other tertiary	M	194
+Esperance		F	1010
+Esperance		M	1065
+Esperance	Infants/Primary	F	657
+Esperance	Infants/Primary	M	689
+Esperance	Pre-school	F	100
+Esperance	Pre-school	M	88
+Esperance	Secondary	F	536
+Esperance	Secondary	M	567
+Esperance	Technical or Further Educational Institution	F	119
+Esperance	Technical or Further Educational Institution	M	79
+Esperance	University or other tertiary	F	110
+Esperance	University or other tertiary	M	40
+Gascoyne		F	652
+Gascoyne		M	752
+Gascoyne	Infants/Primary	F	363
+Gascoyne	Infants/Primary	M	388
+Gascoyne	Pre-school	F	57
+Gascoyne	Pre-school	M	75
+Gascoyne	Secondary	F	208
+Gascoyne	Secondary	M	224
+Gascoyne	Technical or Further Educational Institution	F	74
+Gascoyne	Technical or Further Educational Institution	M	43
+Gascoyne	University or other tertiary	F	61
+Gascoyne	University or other tertiary	M	19
+Goldfields		F	2250
+Goldfields		M	2836
+Goldfields	Infants/Primary	F	1800
+Goldfields	Infants/Primary	M	1819
+Goldfields	Pre-school	F	245
+Goldfields	Pre-school	M	261
+Goldfields	Secondary	F	1107
+Goldfields	Secondary	M	1115
+Goldfields	Technical or Further Educational Institution	F	509
+Goldfields	Technical or Further Educational Institution	M	272
+Goldfields	University or other tertiary	F	361
+Goldfields	University or other tertiary	M	345
+Mid West		F	2806
+Mid West		M	3244
+Mid West	Infants/Primary	F	2329
+Mid West	Infants/Primary	M	2425
+Mid West	Pre-school	F	289
+Mid West	Pre-school	M	326
+Mid West	Secondary	F	1711
+Mid West	Secondary	M	1707
+Mid West	Technical or Further Educational Institution	F	586
+Mid West	Technical or Further Educational Institution	M	344
+Mid West	University or other tertiary	F	530
+Mid West	University or other tertiary	M	175
+Migratory - Offshore - Shipping (WA)		F	8
+Migratory - Offshore - Shipping (WA)		M	70
+Migratory - Offshore - Shipping (WA)	Secondary	M	3
+Migratory - Offshore - Shipping (WA)	Technical or Further Educational Institution	M	3
+Migratory - Offshore - Shipping (WA)	University or other tertiary	M	3
+No usual address (WA)		F	628
+No usual address (WA)		M	1004
+No usual address (WA)	Infants/Primary	F	68
+No usual address (WA)	Infants/Primary	M	77
+No usual address (WA)	Pre-school	F	7
+No usual address (WA)	Pre-school	M	14
+No usual address (WA)	Secondary	F	32
+No usual address (WA)	Secondary	M	24
+No usual address (WA)	Technical or Further Educational Institution	F	34
+No usual address (WA)	Technical or Further Educational Institution	M	36
+No usual address (WA)	University or other tertiary	F	70
+No usual address (WA)	University or other tertiary	M	65
+Brighton		F	789
+Brighton		M	692
+Brighton	Infants/Primary	F	884
+Brighton	Infants/Primary	M	966
+Brighton	Pre-school	F	77
+Brighton	Pre-school	M	62
+Brighton	Secondary	F	501
+Brighton	Secondary	M	579
+Brighton	Technical or Further Educational Institution	F	196
+Brighton	Technical or Further Educational Institution	M	175
+Brighton	University or other tertiary	F	182
+Brighton	University or other tertiary	M	84
+Hobart - North East		F	1692
+Hobart - North East		M	1932
+Hobart - North East	Infants/Primary	F	2356
+Hobart - North East	Infants/Primary	M	2439
+Hobart - North East	Pre-school	F	192
+Hobart - North East	Pre-school	M	200
+Hobart - North East	Secondary	F	1476
+Hobart - North East	Secondary	M	1588
+Hobart - North East	Technical or Further Educational Institution	F	524
+Hobart - North East	Technical or Further Educational Institution	M	471
+Hobart - North East	University or other tertiary	F	1028
+Hobart - North East	University or other tertiary	M	684
+Hobart - North West		F	2465
+Hobart - North West		M	2139
+Hobart - North West	Infants/Primary	F	2271
+Hobart - North West	Infants/Primary	M	2370
+Hobart - North West	Pre-school	F	198
+Hobart - North West	Pre-school	M	184
+Hobart - North West	Secondary	F	1500
+Hobart - North West	Secondary	M	1509
+Hobart - North West	Technical or Further Educational Institution	F	718
+Hobart - North West	Technical or Further Educational Institution	M	611
+Hobart - North West	University or other tertiary	F	830
+Hobart - North West	University or other tertiary	M	598
+Hobart - South and West		F	963
+Hobart - South and West		M	878
+Hobart - South and West	Infants/Primary	F	1580
+Hobart - South and West	Infants/Primary	M	1706
+Hobart - South and West	Pre-school	F	141
+Hobart - South and West	Pre-school	M	147
+Hobart - South and West	Secondary	F	1177
+Hobart - South and West	Secondary	M	1237
+Hobart - South and West	Technical or Further Educational Institution	F	305
+Hobart - South and West	Technical or Further Educational Institution	M	304
+Hobart - South and West	University or other tertiary	F	849
+Hobart - South and West	University or other tertiary	M	538
+Hobart Inner		F	1764
+Hobart Inner		M	1738
+Hobart Inner	Infants/Primary	F	1723
+Hobart Inner	Infants/Primary	M	1832
+Hobart Inner	Pre-school	F	187
+Hobart Inner	Pre-school	M	208
+Hobart Inner	Secondary	F	1378
+Hobart Inner	Secondary	M	1434
+Hobart Inner	Technical or Further Educational Institution	F	496
+Hobart Inner	Technical or Further Educational Institution	M	450
+Hobart Inner	University or other tertiary	F	3095
+Hobart Inner	University or other tertiary	M	2777
+Sorell - Dodges Ferry		F	657
+Sorell - Dodges Ferry		M	591
+Sorell - Dodges Ferry	Infants/Primary	F	679
+Sorell - Dodges Ferry	Infants/Primary	M	719
+Sorell - Dodges Ferry	Pre-school	F	58
+Sorell - Dodges Ferry	Pre-school	M	54
+Sorell - Dodges Ferry	Secondary	F	465
+Sorell - Dodges Ferry	Secondary	M	448
+Sorell - Dodges Ferry	Technical or Further Educational Institution	F	187
+Sorell - Dodges Ferry	Technical or Further Educational Institution	M	147
+Sorell - Dodges Ferry	University or other tertiary	F	236
+Sorell - Dodges Ferry	University or other tertiary	M	118
+Launceston		F	3398
+Launceston		M	3094
+Launceston	Infants/Primary	F	3378
+Launceston	Infants/Primary	M	3552
+Launceston	Pre-school	F	324
+Launceston	Pre-school	M	362
+Launceston	Secondary	F	2416
+Launceston	Secondary	M	2475
+Launceston	Technical or Further Educational Institution	F	1076
+Launceston	Technical or Further Educational Institution	M	886
+Launceston	University or other tertiary	F	2146
+Launceston	University or other tertiary	M	1795
+Meander Valley - West Tamar		F	1011
+Meander Valley - West Tamar		M	959
+Meander Valley - West Tamar	Infants/Primary	F	893
+Meander Valley - West Tamar	Infants/Primary	M	983
+Meander Valley - West Tamar	Pre-school	F	72
+Meander Valley - West Tamar	Pre-school	M	71
+Meander Valley - West Tamar	Secondary	F	664
+Meander Valley - West Tamar	Secondary	M	652
+Meander Valley - West Tamar	Technical or Further Educational Institution	F	257
+Meander Valley - West Tamar	Technical or Further Educational Institution	M	205
+Meander Valley - West Tamar	University or other tertiary	F	234
+Meander Valley - West Tamar	University or other tertiary	M	105
+North East		F	1764
+North East		M	1804
+North East	Infants/Primary	F	1482
+North East	Infants/Primary	M	1504
+North East	Pre-school	F	115
+North East	Pre-school	M	142
+North East	Secondary	F	904
+North East	Secondary	M	959
+North East	Technical or Further Educational Institution	F	377
+North East	Technical or Further Educational Institution	M	254
+North East	University or other tertiary	F	362
+North East	University or other tertiary	M	154
+Central Highlands (Tas.)		F	513
+Central Highlands (Tas.)		M	560
+Central Highlands (Tas.)	Infants/Primary	F	470
+Central Highlands (Tas.)	Infants/Primary	M	501
+Central Highlands (Tas.)	Pre-school	F	36
+Central Highlands (Tas.)	Pre-school	M	29
+Central Highlands (Tas.)	Secondary	F	325
+Central Highlands (Tas.)	Secondary	M	348
+Central Highlands (Tas.)	Technical or Further Educational Institution	F	116
+Central Highlands (Tas.)	Technical or Further Educational Institution	M	89
+Central Highlands (Tas.)	University or other tertiary	F	95
+Central Highlands (Tas.)	University or other tertiary	M	38
+Huon - Bruny Island		F	838
+Huon - Bruny Island		M	833
+Huon - Bruny Island	Infants/Primary	F	764
+Huon - Bruny Island	Infants/Primary	M	816
+Huon - Bruny Island	Pre-school	F	67
+Huon - Bruny Island	Pre-school	M	60
+Huon - Bruny Island	Secondary	F	476
+Huon - Bruny Island	Secondary	M	546
+Huon - Bruny Island	Technical or Further Educational Institution	F	200
+Huon - Bruny Island	Technical or Further Educational Institution	M	164
+Huon - Bruny Island	University or other tertiary	F	265
+Huon - Bruny Island	University or other tertiary	M	135
+South East Coast		F	406
+South East Coast		M	377
+South East Coast	Infants/Primary	F	199
+South East Coast	Infants/Primary	M	196
+South East Coast	Pre-school	F	15
+South East Coast	Pre-school	M	20
+South East Coast	Secondary	F	108
+South East Coast	Secondary	M	117
+South East Coast	Technical or Further Educational Institution	F	32
+South East Coast	Technical or Further Educational Institution	M	33
+South East Coast	University or other tertiary	F	41
+South East Coast	University or other tertiary	M	15
+Burnie - Ulverstone		F	2071
+Burnie - Ulverstone		M	1838
+Burnie - Ulverstone	Infants/Primary	F	1948
+Burnie - Ulverstone	Infants/Primary	M	2046
+Burnie - Ulverstone	Pre-school	F	132
+Burnie - Ulverstone	Pre-school	M	175
+Burnie - Ulverstone	Secondary	F	1422
+Burnie - Ulverstone	Secondary	M	1373
+Burnie - Ulverstone	Technical or Further Educational Institution	F	554
+Burnie - Ulverstone	Technical or Further Educational Institution	M	479
+Burnie - Ulverstone	University or other tertiary	F	645
+Burnie - Ulverstone	University or other tertiary	M	268
+Devonport		F	1854
+Devonport		M	1703
+Devonport	Infants/Primary	F	1892
+Devonport	Infants/Primary	M	1988
+Devonport	Pre-school	F	133
+Devonport	Pre-school	M	157
+Devonport	Secondary	F	1196
+Devonport	Secondary	M	1239
+Devonport	Technical or Further Educational Institution	F	606
+Devonport	Technical or Further Educational Institution	M	453
+Devonport	University or other tertiary	F	440
+Devonport	University or other tertiary	M	229
+West Coast		F	799
+West Coast		M	800
+West Coast	Infants/Primary	F	750
+West Coast	Infants/Primary	M	824
+West Coast	Pre-school	F	68
+West Coast	Pre-school	M	61
+West Coast	Secondary	F	419
+West Coast	Secondary	M	497
+West Coast	Technical or Further Educational Institution	F	152
+West Coast	Technical or Further Educational Institution	M	125
+West Coast	University or other tertiary	F	137
+West Coast	University or other tertiary	M	65
+Migratory - Offshore - Shipping (Tas.)		M	4
+No usual address (Tas.)		F	64
+No usual address (Tas.)		M	122
+No usual address (Tas.)	Infants/Primary	F	12
+No usual address (Tas.)	Infants/Primary	M	14
+No usual address (Tas.)	Pre-school	F	3
+No usual address (Tas.)	Pre-school	M	3
+No usual address (Tas.)	Secondary	F	12
+No usual address (Tas.)	Secondary	M	4
+No usual address (Tas.)	Technical or Further Educational Institution	F	13
+No usual address (Tas.)	Technical or Further Educational Institution	M	3
+No usual address (Tas.)	University or other tertiary	F	17
+No usual address (Tas.)	University or other tertiary	M	17
+Darwin City		F	1585
+Darwin City		M	1927
+Darwin City	Infants/Primary	F	681
+Darwin City	Infants/Primary	M	746
+Darwin City	Pre-school	F	129
+Darwin City	Pre-school	M	121
+Darwin City	Secondary	F	505
+Darwin City	Secondary	M	522
+Darwin City	Technical or Further Educational Institution	F	241
+Darwin City	Technical or Further Educational Institution	M	161
+Darwin City	University or other tertiary	F	811
+Darwin City	University or other tertiary	M	508
+Darwin Suburbs		F	3110
+Darwin Suburbs		M	3114
+Darwin Suburbs	Infants/Primary	F	2181
+Darwin Suburbs	Infants/Primary	M	2323
+Darwin Suburbs	Pre-school	F	407
+Darwin Suburbs	Pre-school	M	443
+Darwin Suburbs	Secondary	F	1728
+Darwin Suburbs	Secondary	M	1730
+Darwin Suburbs	Technical or Further Educational Institution	F	400
+Darwin Suburbs	Technical or Further Educational Institution	M	323
+Darwin Suburbs	University or other tertiary	F	1901
+Darwin Suburbs	University or other tertiary	M	1327
+Litchfield		F	1367
+Litchfield		M	3555
+Litchfield	Infants/Primary	F	815
+Litchfield	Infants/Primary	M	913
+Litchfield	Pre-school	F	138
+Litchfield	Pre-school	M	122
+Litchfield	Secondary	F	600
+Litchfield	Secondary	M	711
+Litchfield	Technical or Further Educational Institution	F	152
+Litchfield	Technical or Further Educational Institution	M	170
+Litchfield	University or other tertiary	F	350
+Litchfield	University or other tertiary	M	152
+Palmerston		F	1736
+Palmerston		M	1642
+Palmerston	Infants/Primary	F	1717
+Palmerston	Infants/Primary	M	1788
+Palmerston	Pre-school	F	326
+Palmerston	Pre-school	M	338
+Palmerston	Secondary	F	1096
+Palmerston	Secondary	M	1033
+Palmerston	Technical or Further Educational Institution	F	352
+Palmerston	Technical or Further Educational Institution	M	236
+Palmerston	University or other tertiary	F	845
+Palmerston	University or other tertiary	M	404
+Alice Springs		F	2676
+Alice Springs		M	3039
+Alice Springs	Infants/Primary	F	1642
+Alice Springs	Infants/Primary	M	1698
+Alice Springs	Pre-school	F	302
+Alice Springs	Pre-school	M	299
+Alice Springs	Secondary	F	928
+Alice Springs	Secondary	M	1060
+Alice Springs	Technical or Further Educational Institution	F	294
+Alice Springs	Technical or Further Educational Institution	M	207
+Alice Springs	University or other tertiary	F	716
+Alice Springs	University or other tertiary	M	314
+Barkly		F	294
+Barkly		M	434
+Barkly	Infants/Primary	F	304
+Barkly	Infants/Primary	M	324
+Barkly	Pre-school	F	49
+Barkly	Pre-school	M	49
+Barkly	Secondary	F	105
+Barkly	Secondary	M	138
+Barkly	Technical or Further Educational Institution	F	20
+Barkly	Technical or Further Educational Institution	M	33
+Barkly	University or other tertiary	F	60
+Barkly	University or other tertiary	M	28
+Daly - Tiwi - West Arnhem		F	1118
+Daly - Tiwi - West Arnhem		M	1296
+Daly - Tiwi - West Arnhem	Infants/Primary	F	801
+Daly - Tiwi - West Arnhem	Infants/Primary	M	874
+Daly - Tiwi - West Arnhem	Pre-school	F	159
+Daly - Tiwi - West Arnhem	Pre-school	M	147
+Daly - Tiwi - West Arnhem	Secondary	F	442
+Daly - Tiwi - West Arnhem	Secondary	M	452
+Daly - Tiwi - West Arnhem	Technical or Further Educational Institution	F	76
+Daly - Tiwi - West Arnhem	Technical or Further Educational Institution	M	28
+Daly - Tiwi - West Arnhem	University or other tertiary	F	96
+Daly - Tiwi - West Arnhem	University or other tertiary	M	51
+East Arnhem		F	830
+East Arnhem		M	953
+East Arnhem	Infants/Primary	F	744
+East Arnhem	Infants/Primary	M	798
+East Arnhem	Pre-school	F	154
+East Arnhem	Pre-school	M	163
+East Arnhem	Secondary	F	572
+East Arnhem	Secondary	M	549
+East Arnhem	Technical or Further Educational Institution	F	79
+East Arnhem	Technical or Further Educational Institution	M	42
+East Arnhem	University or other tertiary	F	119
+East Arnhem	University or other tertiary	M	48
+Katherine		F	1620
+Katherine		M	1823
+Katherine	Infants/Primary	F	906
+Katherine	Infants/Primary	M	1011
+Katherine	Pre-school	F	186
+Katherine	Pre-school	M	195
+Katherine	Secondary	F	511
+Katherine	Secondary	M	533
+Katherine	Technical or Further Educational Institution	F	90
+Katherine	Technical or Further Educational Institution	M	63
+Katherine	University or other tertiary	F	212
+Katherine	University or other tertiary	M	85
+Migratory - Offshore - Shipping (NT)		F	4
+Migratory - Offshore - Shipping (NT)		M	12
+No usual address (NT)		F	397
+No usual address (NT)		M	462
+No usual address (NT)	Infants/Primary	F	31
+No usual address (NT)	Infants/Primary	M	28
+No usual address (NT)	Pre-school	M	3
+No usual address (NT)	Secondary	F	7
+No usual address (NT)	Secondary	M	5
+No usual address (NT)	Technical or Further Educational Institution	F	8
+No usual address (NT)	Technical or Further Educational Institution	M	26
+No usual address (NT)	University or other tertiary	F	10
+No usual address (NT)	University or other tertiary	M	9
+Belconnen		F	3018
+Belconnen		M	2796
+Belconnen	Infants/Primary	F	3810
+Belconnen	Infants/Primary	M	4163
+Belconnen	Pre-school	F	685
+Belconnen	Pre-school	M	772
+Belconnen	Secondary	F	2668
+Belconnen	Secondary	M	2795
+Belconnen	Technical or Further Educational Institution	F	1094
+Belconnen	Technical or Further Educational Institution	M	981
+Belconnen	University or other tertiary	F	4537
+Belconnen	University or other tertiary	M	3933
+Canberra East		F	107
+Canberra East		M	527
+Canberra East	Infants/Primary	F	20
+Canberra East	Infants/Primary	M	14
+Canberra East	Pre-school	F	3
+Canberra East	Pre-school	M	6
+Canberra East	Secondary	F	25
+Canberra East	Secondary	M	22
+Canberra East	Technical or Further Educational Institution	F	15
+Canberra East	Technical or Further Educational Institution	M	3
+Canberra East	University or other tertiary	F	15
+Canberra East	University or other tertiary	M	13
+Gungahlin		F	2038
+Gungahlin		M	1914
+Gungahlin	Infants/Primary	F	3539
+Gungahlin	Infants/Primary	M	3668
+Gungahlin	Pre-school	F	670
+Gungahlin	Pre-school	M	805
+Gungahlin	Secondary	F	2355
+Gungahlin	Secondary	M	2411
+Gungahlin	Technical or Further Educational Institution	F	970
+Gungahlin	Technical or Further Educational Institution	M	771
+Gungahlin	University or other tertiary	F	2823
+Gungahlin	University or other tertiary	M	2464
+North Canberra		F	2108
+North Canberra		M	2344
+North Canberra	Infants/Primary	F	1423
+North Canberra	Infants/Primary	M	1463
+North Canberra	Pre-school	F	236
+North Canberra	Pre-school	M	289
+North Canberra	Secondary	F	1086
+North Canberra	Secondary	M	1050
+North Canberra	Technical or Further Educational Institution	F	440
+North Canberra	Technical or Further Educational Institution	M	442
+North Canberra	University or other tertiary	F	5656
+North Canberra	University or other tertiary	M	5495
+South Canberra		F	1224
+South Canberra		M	1103
+South Canberra	Infants/Primary	F	864
+South Canberra	Infants/Primary	M	878
+South Canberra	Pre-school	F	172
+South Canberra	Pre-school	M	171
+South Canberra	Secondary	F	838
+South Canberra	Secondary	M	901
+South Canberra	Technical or Further Educational Institution	F	195
+South Canberra	Technical or Further Educational Institution	M	158
+South Canberra	University or other tertiary	F	1095
+South Canberra	University or other tertiary	M	948
+Tuggeranong		F	2576
+Tuggeranong		M	2223
+Tuggeranong	Infants/Primary	F	3562
+Tuggeranong	Infants/Primary	M	3804
+Tuggeranong	Pre-school	F	589
+Tuggeranong	Pre-school	M	582
+Tuggeranong	Secondary	F	2987
+Tuggeranong	Secondary	M	3079
+Tuggeranong	Technical or Further Educational Institution	F	1018
+Tuggeranong	Technical or Further Educational Institution	M	910
+Tuggeranong	University or other tertiary	F	2180
+Tuggeranong	University or other tertiary	M	1528
+Weston Creek		F	817
+Weston Creek		M	665
+Weston Creek	Infants/Primary	F	1028
+Weston Creek	Infants/Primary	M	1139
+Weston Creek	Pre-school	F	181
+Weston Creek	Pre-school	M	198
+Weston Creek	Secondary	F	718
+Weston Creek	Secondary	M	761
+Weston Creek	Technical or Further Educational Institution	F	206
+Weston Creek	Technical or Further Educational Institution	M	195
+Weston Creek	University or other tertiary	F	608
+Weston Creek	University or other tertiary	M	465
+Woden Valley		F	1129
+Woden Valley		M	1169
+Woden Valley	Infants/Primary	F	1412
+Woden Valley	Infants/Primary	M	1562
+Woden Valley	Pre-school	F	214
+Woden Valley	Pre-school	M	229
+Woden Valley	Secondary	F	1095
+Woden Valley	Secondary	M	1169
+Woden Valley	Technical or Further Educational Institution	F	335
+Woden Valley	Technical or Further Educational Institution	M	318
+Woden Valley	University or other tertiary	F	1100
+Woden Valley	University or other tertiary	M	993
+Molonglo		F	196
+Molonglo		M	171
+Molonglo	Infants/Primary	F	184
+Molonglo	Infants/Primary	M	210
+Molonglo	Pre-school	F	36
+Molonglo	Pre-school	M	50
+Molonglo	Secondary	F	93
+Molonglo	Secondary	M	87
+Molonglo	Technical or Further Educational Institution	F	42
+Molonglo	Technical or Further Educational Institution	M	38
+Molonglo	University or other tertiary	F	190
+Molonglo	University or other tertiary	M	152
+Urriarra - Namadgi		F	35
+Urriarra - Namadgi		M	35
+Urriarra - Namadgi	Infants/Primary	F	28
+Urriarra - Namadgi	Infants/Primary	M	31
+Urriarra - Namadgi	Pre-school	M	7
+Urriarra - Namadgi	Secondary	F	23
+Urriarra - Namadgi	Secondary	M	12
+Urriarra - Namadgi	Technical or Further Educational Institution	F	8
+Urriarra - Namadgi	Technical or Further Educational Institution	M	10
+Urriarra - Namadgi	University or other tertiary	F	17
+Urriarra - Namadgi	University or other tertiary	M	7
+No usual address (ACT)		F	28
+No usual address (ACT)		M	76
+No usual address (ACT)	Infants/Primary	F	12
+No usual address (ACT)	Infants/Primary	M	11
+No usual address (ACT)	Pre-school	M	3
+No usual address (ACT)	Secondary	F	4
+No usual address (ACT)	Secondary	M	3
+No usual address (ACT)	Technical or Further Educational Institution	F	3
+No usual address (ACT)	University or other tertiary	F	28
+No usual address (ACT)	University or other tertiary	M	31
+Christmas Island		F	117
+Christmas Island		M	408
+Christmas Island	Infants/Primary	F	63
+Christmas Island	Infants/Primary	M	65
+Christmas Island	Pre-school	F	9
+Christmas Island	Pre-school	M	22
+Christmas Island	Secondary	F	57
+Christmas Island	Secondary	M	37
+Christmas Island	Technical or Further Educational Institution	F	3
+Christmas Island	Technical or Further Educational Institution	M	6
+Christmas Island	University or other tertiary	F	5
+Christmas Island	University or other tertiary	M	9
+Cocos (Keeling) Islands		F	15
+Cocos (Keeling) Islands		M	23
+Cocos (Keeling) Islands	Infants/Primary	F	21
+Cocos (Keeling) Islands	Infants/Primary	M	28
+Cocos (Keeling) Islands	Pre-school	F	3
+Cocos (Keeling) Islands	Pre-school	M	3
+Cocos (Keeling) Islands	Secondary	F	13
+Cocos (Keeling) Islands	Secondary	M	11
+Cocos (Keeling) Islands	Technical or Further Educational Institution	F	3
+Jervis Bay		F	44
+Jervis Bay		M	54
+Jervis Bay	Infants/Primary	F	10
+Jervis Bay	Infants/Primary	M	10
+Jervis Bay	Pre-school	F	3
+Jervis Bay	Pre-school	M	3
+Jervis Bay	Secondary	F	8
+Jervis Bay	Secondary	M	12
+Jervis Bay	Technical or Further Educational Institution	M	3
+Jervis Bay	University or other tertiary	M	3
+Norfolk Island		F	87
+Norfolk Island		M	65
+Norfolk Island	Infants/Primary	F	67
+Norfolk Island	Infants/Primary	M	76
+Norfolk Island	Pre-school	F	11
+Norfolk Island	Pre-school	M	21
+Norfolk Island	Secondary	F	50
+Norfolk Island	Secondary	M	54
+Norfolk Island	Technical or Further Educational Institution	F	8
+Norfolk Island	Technical or Further Educational Institution	M	9
+Norfolk Island	University or other tertiary	F	7
+Norfolk Island	University or other tertiary	M	3
+No usual address (OT)		F	4

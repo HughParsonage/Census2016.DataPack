@@ -1,0 +1,870 @@
+SED_NAME16	PrivateDwelling	persons
+Albury	0	7763
+Albury	1	70128
+Auburn	0	8468
+Auburn	1	95515
+Ballina	0	9602
+Ballina	1	65046
+Balmain	0	8806
+Balmain	1	72865
+Bankstown	0	6427
+Bankstown	1	79398
+Barwon	0	12175
+Barwon	1	66961
+Bathurst	0	9226
+Bathurst	1	68064
+Baulkham Hills	0	2337
+Baulkham Hills	1	76471
+Bega	0	7423
+Bega	1	61963
+Blacktown	0	3661
+Blacktown	1	83518
+Blue Mountains	0	4888
+Blue Mountains	1	65783
+Cabramatta	0	3341
+Cabramatta	1	78087
+Camden	0	4110
+Camden	1	83243
+Campbelltown	0	5214
+Campbelltown	1	73826
+Canterbury	0	4850
+Canterbury	1	82759
+Castle Hill	0	2133
+Castle Hill	1	76793
+Cessnock	0	6310
+Cessnock	1	69804
+Charlestown	0	2752
+Charlestown	1	67859
+Clarence	0	8559
+Clarence	1	66549
+Coffs Harbour	0	8156
+Coffs Harbour	1	66425
+Coogee	0	10590
+Coogee	1	73108
+Cootamundra	0	7651
+Cootamundra	1	63196
+Cronulla	0	3183
+Cronulla	1	69050
+Davidson	0	2768
+Davidson	1	74260
+Drummoyne	0	5142
+Drummoyne	1	74519
+Dubbo	0	9756
+Dubbo	1	67432
+East Hills	0	3528
+East Hills	1	73272
+Epping	0	2714
+Epping	1	76349
+Fairfield	0	4015
+Fairfield	1	82632
+Gosford	0	5225
+Gosford	1	68215
+Goulburn	0	7220
+Goulburn	1	67912
+Granville	0	4921
+Granville	1	85833
+Hawkesbury	0	4928
+Hawkesbury	1	68530
+Heathcote	0	2728
+Heathcote	1	72260
+Heffron	0	12222
+Heffron	1	92871
+Holsworthy	0	4879
+Holsworthy	1	79442
+Hornsby	0	2915
+Hornsby	1	75201
+Keira	0	3759
+Keira	1	73247
+Kiama	0	5613
+Kiama	1	64248
+Kogarah	0	5500
+Kogarah	1	86654
+Ku-ring-gai	0	5067
+Ku-ring-gai	1	74775
+Lake Macquarie	0	3673
+Lake Macquarie	1	65834
+Lakemba	0	5084
+Lakemba	1	86204
+Lane Cove	0	7323
+Lane Cove	1	75217
+Lismore	0	7755
+Lismore	1	66456
+Liverpool	0	7306
+Liverpool	1	84223
+Londonderry	0	6495
+Londonderry	1	84677
+Macquarie Fields	0	4171
+Macquarie Fields	1	81689
+Maitland	0	3856
+Maitland	1	72295
+Manly	0	5320
+Manly	1	73873
+Maroubra	0	6875
+Maroubra	1	74019
+Miranda	0	3795
+Miranda	1	69776
+Monaro	0	19939
+Monaro	1	68606
+Mount Druitt	0	4836
+Mount Druitt	1	83851
+Mulgoa	0	3269
+Mulgoa	1	77724
+Murray	0	10840
+Murray	1	72302
+Myall Lakes	0	6422
+Myall Lakes	1	64531
+Newcastle	0	5761
+Newcastle	1	64909
+Newtown	0	14187
+Newtown	1	70423
+North Shore	0	7654
+North Shore	1	69084
+Northern Tablelands	0	11029
+Northern Tablelands	1	68439
+Oatley	0	3189
+Oatley	1	72388
+Orange	0	7896
+Orange	1	69785
+Oxley	0	7681
+Oxley	1	65428
+Parramatta	0	9538
+Parramatta	1	93819
+Penrith	0	5466
+Penrith	1	73295
+Pittwater	0	4419
+Pittwater	1	65977
+Port Macquarie	0	6814
+Port Macquarie	1	66696
+Port Stephens	0	6383
+Port Stephens	1	64440
+Prospect	0	4107
+Prospect	1	77338
+Riverstone	0	3762
+Riverstone	1	85504
+Rockdale	0	5845
+Rockdale	1	80293
+Ryde	0	6429
+Ryde	1	86683
+Seven Hills	0	5743
+Seven Hills	1	79648
+Shellharbour	0	3553
+Shellharbour	1	76552
+South Coast	0	5817
+South Coast	1	62674
+Strathfield	0	6275
+Strathfield	1	86869
+Summer Hill	0	6611
+Summer Hill	1	73493
+Swansea	0	2589
+Swansea	1	67268
+Sydney	0	36193
+Sydney	1	78821
+Tamworth	0	7650
+Tamworth	1	69130
+Terrigal	0	3523
+Terrigal	1	68234
+The Entrance	0	4325
+The Entrance	1	67644
+Tweed	0	8327
+Tweed	1	69785
+Upper Hunter	0	7325
+Upper Hunter	1	67772
+Vaucluse	0	8667
+Vaucluse	1	70413
+Wagga Wagga	0	8704
+Wagga Wagga	1	68571
+Wakehurst	0	3591
+Wakehurst	1	74357
+Wallsend	0	6077
+Wallsend	1	74892
+Willoughby	0	5300
+Willoughby	1	78548
+Wollondilly	0	4798
+Wollondilly	1	68831
+Wollongong	0	7762
+Wollongong	1	75410
+Wyong	0	5374
+Wyong	1	71140
+Migratory - Offshore - Shipping (NSW)	0	3279
+Albert Park (Southern Metropolitan)	0	14328
+Albert Park (Southern Metropolitan)	1	65160
+Altona (Western Metropolitan)	0	4234
+Altona (Western Metropolitan)	1	86484
+Bass (Eastern Victoria)	0	5196
+Bass (Eastern Victoria)	1	66153
+Bayswater (Eastern Metropolitan)	0	3353
+Bayswater (Eastern Metropolitan)	1	57789
+Bellarine (Western Victoria)	0	3560
+Bellarine (Western Victoria)	1	53366
+Benambra (Northern Victoria)	0	5485
+Benambra (Northern Victoria)	1	57438
+Bendigo East (Northern Victoria)	0	4665
+Bendigo East (Northern Victoria)	1	58398
+Bendigo West (Northern Victoria)	0	5609
+Bendigo West (Northern Victoria)	1	53797
+Bentleigh (Southern Metropolitan)	0	2619
+Bentleigh (Southern Metropolitan)	1	57563
+Box Hill (Eastern Metropolitan)	0	4117
+Box Hill (Eastern Metropolitan)	1	64604
+Brighton (Southern Metropolitan)	0	4423
+Brighton (Southern Metropolitan)	1	56569
+Broadmeadows (Northern Metropolitan)	0	4916
+Broadmeadows (Northern Metropolitan)	1	67392
+Brunswick (Northern Metropolitan)	0	4734
+Brunswick (Northern Metropolitan)	1	65314
+Bulleen (Eastern Metropolitan)	0	2741
+Bulleen (Eastern Metropolitan)	1	58063
+Bundoora (Northern Metropolitan)	0	4377
+Bundoora (Northern Metropolitan)	1	56961
+Buninyong (Western Victoria)	0	4531
+Buninyong (Western Victoria)	1	53700
+Burwood (Southern Metropolitan)	0	4321
+Burwood (Southern Metropolitan)	1	61472
+Carrum (South-Eastern Metropolitan)	0	3803
+Carrum (South-Eastern Metropolitan)	1	62663
+Caulfield (Southern Metropolitan)	0	4678
+Caulfield (Southern Metropolitan)	1	59902
+Clarinda (South-Eastern Metropolitan)	0	4696
+Clarinda (South-Eastern Metropolitan)	1	69506
+Cranbourne (South-Eastern Metropolitan)	0	4552
+Cranbourne (South-Eastern Metropolitan)	1	91537
+Croydon (Eastern Metropolitan)	0	2746
+Croydon (Eastern Metropolitan)	1	55133
+Dandenong (South-Eastern Metropolitan)	0	6034
+Dandenong (South-Eastern Metropolitan)	1	68967
+Eildon (Northern Victoria)	0	8060
+Eildon (Northern Victoria)	1	51501
+Eltham (Eastern Metropolitan)	0	1908
+Eltham (Eastern Metropolitan)	1	55765
+Essendon (Western Metropolitan)	0	4545
+Essendon (Western Metropolitan)	1	61526
+Euroa (Northern Victoria)	0	6188
+Euroa (Northern Victoria)	1	56875
+Evelyn (Eastern Victoria)	0	2023
+Evelyn (Eastern Victoria)	1	53858
+Ferntree Gully (Eastern Metropolitan)	0	2829
+Ferntree Gully (Eastern Metropolitan)	1	54202
+Footscray (Western Metropolitan)	0	6140
+Footscray (Western Metropolitan)	1	75174
+Forest Hill (Eastern Metropolitan)	0	2431
+Forest Hill (Eastern Metropolitan)	1	56343
+Frankston (South-Eastern Metropolitan)	0	5204
+Frankston (South-Eastern Metropolitan)	1	55719
+Geelong (Western Victoria)	0	5153
+Geelong (Western Victoria)	1	57125
+Gembrook (Eastern Victoria)	0	3397
+Gembrook (Eastern Victoria)	1	63832
+Gippsland East (Eastern Victoria)	0	5554
+Gippsland East (Eastern Victoria)	1	51801
+Gippsland South (Eastern Victoria)	0	5794
+Gippsland South (Eastern Victoria)	1	49620
+Hastings (Eastern Victoria)	0	4178
+Hastings (Eastern Victoria)	1	62975
+Hawthorn (Southern Metropolitan)	0	4344
+Hawthorn (Southern Metropolitan)	1	59934
+Ivanhoe (Eastern Metropolitan)	0	4887
+Ivanhoe (Eastern Metropolitan)	1	59263
+Kew (Southern Metropolitan)	0	4059
+Kew (Southern Metropolitan)	1	58229
+Keysborough (South-Eastern Metropolitan)	0	2902
+Keysborough (South-Eastern Metropolitan)	1	66658
+Kororoit (Western Metropolitan)	0	5152
+Kororoit (Western Metropolitan)	1	78084
+Lara (Western Victoria)	0	5607
+Lara (Western Victoria)	1	58793
+Lowan (Western Victoria)	0	4651
+Lowan (Western Victoria)	1	50430
+Macedon (Northern Victoria)	0	4504
+Macedon (Northern Victoria)	1	52110
+Malvern (Southern Metropolitan)	0	3692
+Malvern (Southern Metropolitan)	1	54093
+Melbourne (Northern Metropolitan)	0	34755
+Melbourne (Northern Metropolitan)	1	96714
+Melton (Western Victoria)	0	4464
+Melton (Western Victoria)	1	73472
+Mildura (Northern Victoria)	0	6677
+Mildura (Northern Victoria)	1	56300
+Mill Park (Northern Metropolitan)	0	3106
+Mill Park (Northern Metropolitan)	1	65160
+Monbulk (Eastern Victoria)	0	2696
+Monbulk (Eastern Victoria)	1	53089
+Mordialloc (South-Eastern Metropolitan)	0	3095
+Mordialloc (South-Eastern Metropolitan)	1	58546
+Mornington (Eastern Victoria)	0	3298
+Mornington (Eastern Victoria)	1	56143
+Morwell (Eastern Victoria)	0	5661
+Morwell (Eastern Victoria)	1	57534
+Mount Waverley (Eastern Metropolitan)	0	2853
+Mount Waverley (Eastern Metropolitan)	1	58919
+Mulgrave (South-Eastern Metropolitan)	0	3324
+Mulgrave (South-Eastern Metropolitan)	1	58425
+Murray Plains (Northern Victoria)	0	6169
+Murray Plains (Northern Victoria)	1	55206
+Narracan (Eastern Victoria)	0	4643
+Narracan (Eastern Victoria)	1	60367
+Narre Warren North (South-Eastern Metrop	0	2965
+Narre Warren North (South-Eastern Metrop	1	62635
+Narre Warren South (South-Eastern Metrop	0	3173
+Narre Warren South (South-Eastern Metrop	1	78771
+Nepean (Eastern Victoria)	0	4955
+Nepean (Eastern Victoria)	1	52131
+Niddrie (Western Metropolitan)	0	2583
+Niddrie (Western Metropolitan)	1	56242
+Northcote (Northern Metropolitan)	0	4838
+Northcote (Northern Metropolitan)	1	59007
+Oakleigh (Southern Metropolitan)	0	6553
+Oakleigh (Southern Metropolitan)	1	64638
+Ovens Valley (Northern Victoria)	0	11644
+Ovens Valley (Northern Victoria)	1	50184
+Pascoe Vale (Northern Metropolitan)	0	4798
+Pascoe Vale (Northern Metropolitan)	1	69030
+Polwarth (Western Victoria)	0	4984
+Polwarth (Western Victoria)	1	53444
+Prahran (Southern Metropolitan)	0	11231
+Prahran (Southern Metropolitan)	1	63059
+Preston (Northern Metropolitan)	0	4775
+Preston (Northern Metropolitan)	1	62677
+Richmond (Northern Metropolitan)	0	8773
+Richmond (Northern Metropolitan)	1	64136
+Ringwood (Eastern Metropolitan)	0	2897
+Ringwood (Eastern Metropolitan)	1	58387
+Ripon (Western Victoria)	0	6142
+Ripon (Western Victoria)	1	55325
+Rowville (South-Eastern Metropolitan)	0	1361
+Rowville (South-Eastern Metropolitan)	1	53016
+Sandringham (Southern Metropolitan)	0	3156
+Sandringham (Southern Metropolitan)	1	54059
+Shepparton (Northern Victoria)	0	5989
+Shepparton (Northern Victoria)	1	62073
+South Barwon (Western Victoria)	0	4539
+South Barwon (Western Victoria)	1	63201
+South-West Coast (Western Victoria)	0	5411
+South-West Coast (Western Victoria)	1	55896
+St Albans (Western Metropolitan)	0	5158
+St Albans (Western Metropolitan)	1	70131
+Sunbury (Western Metropolitan)	0	3955
+Sunbury (Western Metropolitan)	1	56639
+Sydenham (Western Metropolitan)	0	3141
+Sydenham (Western Metropolitan)	1	71767
+Tarneit (Western Metropolitan)	0	5089
+Tarneit (Western Metropolitan)	1	90813
+Thomastown (Northern Metropolitan)	0	3366
+Thomastown (Northern Metropolitan)	1	65312
+Warrandyte (Eastern Metropolitan)	0	2401
+Warrandyte (Eastern Metropolitan)	1	56715
+Wendouree (Western Victoria)	0	4635
+Wendouree (Western Victoria)	1	51685
+Werribee (Western Metropolitan)	0	4084
+Werribee (Western Metropolitan)	1	66031
+Williamstown (Western Metropolitan)	0	4094
+Williamstown (Western Metropolitan)	1	66141
+Yan Yean (Northern Victoria)	0	3595
+Yan Yean (Northern Victoria)	1	75088
+Yuroke (Northern Metropolitan)	0	3658
+Yuroke (Northern Metropolitan)	1	85049
+Migratory - Offshore - Shipping (Vic.)	0	349
+Albert	0	3444
+Albert	1	65546
+Algester	0	2254
+Algester	1	51394
+Ashgrove	0	2481
+Ashgrove	1	43147
+Aspley	0	1632
+Aspley	1	42282
+Barron River	0	8121
+Barron River	1	55376
+Beaudesert	0	5411
+Beaudesert	1	53036
+Brisbane Central	0	17124
+Brisbane Central	1	51899
+Broadwater	0	5517
+Broadwater	1	46286
+Buderim	0	2702
+Buderim	1	46537
+Bulimba	0	3017
+Bulimba	1	47943
+Bundaberg	0	4630
+Bundaberg	1	39448
+Bundamba	0	4688
+Bundamba	1	73966
+Burdekin	0	8664
+Burdekin	1	41368
+Burleigh	0	5769
+Burleigh	1	47023
+Burnett	0	5822
+Burnett	1	44240
+Cairns	0	16283
+Cairns	1	51116
+Callide	0	8039
+Callide	1	40722
+Caloundra	0	5591
+Caloundra	1	47089
+Capalaba	0	1547
+Capalaba	1	45052
+Chatsworth	0	1719
+Chatsworth	1	48547
+Clayfield	0	4422
+Clayfield	1	47202
+Cleveland	0	2717
+Cleveland	1	47028
+Condamine	0	4815
+Condamine	1	51787
+Cook	0	16214
+Cook	1	45058
+Coomera	0	5751
+Coomera	1	68353
+Currumbin	0	7242
+Currumbin	1	44074
+Dalrymple	0	12095
+Dalrymple	1	41345
+Everton	0	1566
+Everton	1	43859
+Ferny Grove	0	1342
+Ferny Grove	1	43526
+Gaven	0	2872
+Gaven	1	54929
+Gladstone	0	6195
+Gladstone	1	49949
+Glass House	0	4844
+Glass House	1	50284
+Greenslopes	0	2926
+Greenslopes	1	43946
+Gregory	0	12290
+Gregory	1	35381
+Gympie	0	4700
+Gympie	1	44877
+Hervey Bay	0	8128
+Hervey Bay	1	48245
+Hinchinbrook	0	7393
+Hinchinbrook	1	47878
+Inala	0	6822
+Inala	1	51355
+Indooroopilly	0	5124
+Indooroopilly	1	44141
+Ipswich	0	4124
+Ipswich	1	47816
+Ipswich West	0	4195
+Ipswich West	1	50284
+Kallangur	0	2451
+Kallangur	1	49952
+Kawana	0	3489
+Kawana	1	49377
+Keppel	0	5273
+Keppel	1	48930
+Lockyer	0	4280
+Lockyer	1	50182
+Logan	0	2441
+Logan	1	47208
+Lytton	0	2297
+Lytton	1	46066
+Mackay	0	4613
+Mackay	1	38217
+Mansfield	0	2555
+Mansfield	1	43825
+Maroochydore	0	10605
+Maroochydore	1	47233
+Maryborough	0	5219
+Maryborough	1	45664
+Mermaid Beach	0	5587
+Mermaid Beach	1	48820
+Mirani	0	11564
+Mirani	1	45915
+Moggill	0	1464
+Moggill	1	44938
+Morayfield	0	2229
+Morayfield	1	52777
+Mount Coot-tha	0	4350
+Mount Coot-tha	1	41175
+Mount Isa	0	10569
+Mount Isa	1	28176
+Mount Ommaney	0	1833
+Mount Ommaney	1	43805
+Mudgeeraba	0	4049
+Mudgeeraba	1	52170
+Mulgrave	0	5004
+Mulgrave	1	47966
+Mundingburra	0	4608
+Mundingburra	1	40542
+Murrumba	0	3913
+Murrumba	1	68307
+Nanango	0	4280
+Nanango	1	45649
+Nicklin	0	3901
+Nicklin	1	47165
+Noosa	0	8782
+Noosa	1	47817
+Nudgee	0	2716
+Nudgee	1	51305
+Pine Rivers	0	2024
+Pine Rivers	1	50836
+Pumicestone	0	4507
+Pumicestone	1	50049
+Redcliffe	0	4147
+Redcliffe	1	45422
+Redlands	0	2390
+Redlands	1	48218
+Rockhampton	0	6419
+Rockhampton	1	43575
+Sandgate	0	2454
+Sandgate	1	46811
+South Brisbane	0	9126
+South Brisbane	1	48313
+Southern Downs	0	4939
+Southern Downs	1	44105
+Southport	0	7667
+Southport	1	52992
+Springwood	0	1857
+Springwood	1	46844
+Stafford	0	2983
+Stafford	1	43930
+Stretton	0	2271
+Stretton	1	56293
+Sunnybank	0	3351
+Sunnybank	1	51028
+Surfers Paradise	0	20441
+Surfers Paradise	1	50042
+Thuringowa	0	3316
+Thuringowa	1	48899
+Toowoomba North	0	5059
+Toowoomba North	1	45544
+Toowoomba South	0	4262
+Toowoomba South	1	46316
+Townsville	0	9322
+Townsville	1	43663
+Warrego	0	9142
+Warrego	1	35004
+Waterford	0	4671
+Waterford	1	59070
+Whitsunday	0	11884
+Whitsunday	1	51158
+Woodridge	0	4451
+Woodridge	1	58592
+Yeerongpilly	0	3539
+Yeerongpilly	1	46879
+Migratory - Offshore - Shipping (Qld)	0	1974
+Adelaide	0	12754
+Adelaide	1	34365
+Ashford	0	1887
+Ashford	1	32354
+Bragg	0	1736
+Bragg	1	31653
+Bright	0	1556
+Bright	1	30547
+Chaffey	0	3210
+Chaffey	1	31682
+Cheltenham	0	2189
+Cheltenham	1	35801
+Colton	0	1349
+Colton	1	32141
+Croydon	0	1986
+Croydon	1	33206
+Davenport	0	2164
+Davenport	1	31943
+Dunstan	0	2181
+Dunstan	1	32496
+Elder	0	1805
+Elder	1	32646
+Enfield	0	2141
+Enfield	1	36745
+Finniss	0	2953
+Finniss	1	29614
+Fisher	0	1019
+Fisher	1	32690
+Flinders	0	5227
+Flinders	1	29482
+Florey	0	1667
+Florey	1	29843
+Frome	0	3153
+Frome	1	31739
+Giles	0	5910
+Giles	1	30085
+Goyder (SA)	0	2761
+Goyder (SA)	1	29993
+Hammond	0	2473
+Hammond	1	30364
+Hartley	0	1795
+Hartley	1	33387
+Heysen	0	2004
+Heysen	1	32358
+Kaurna	0	2318
+Kaurna	1	34953
+Kavel	0	1906
+Kavel	1	34045
+Lee	0	2138
+Lee	1	31728
+Light	0	2068
+Light	1	35660
+Little Para	0	2912
+Little Para	1	36305
+Mackillop	0	2575
+Mackillop	1	29291
+Mawson	0	1687
+Mawson	1	31881
+Mitchell	0	1236
+Mitchell	1	33641
+Morialta	0	1195
+Morialta	1	33524
+Morphett	0	3128
+Morphett	1	29004
+Mount Gambier	0	2866
+Mount Gambier	1	31001
+Napier	0	2451
+Napier	1	36839
+Newland	0	1180
+Newland	1	31510
+Playford	0	2422
+Playford	1	33716
+Port Adelaide	0	1937
+Port Adelaide	1	38449
+Ramsay	0	2114
+Ramsay	1	35654
+Reynell	0	2153
+Reynell	1	31740
+Schubert	0	2452
+Schubert	1	32087
+Stuart (SA)	0	6169
+Stuart (SA)	1	28722
+Taylor	0	2138
+Taylor	1	38369
+Torrens	0	2127
+Torrens	1	36244
+Unley	0	2938
+Unley	1	31456
+Waite	0	2124
+Waite	1	31754
+West Torrens	0	2186
+West Torrens	1	33474
+Wright	0	960
+Wright	1	32719
+Migratory - Offshore - Shipping (SA)	0	219
+Albany (South West)	0	3537
+Albany (South West)	1	32229
+Alfred Cove (South Metropolitan)	0	1662
+Alfred Cove (South Metropolitan)	1	32470
+Armadale (East Metropolitan)	0	3185
+Armadale (East Metropolitan)	1	41672
+Balcatta (North Metropolitan)	0	2407
+Balcatta (North Metropolitan)	1	36102
+Bassendean (East Metropolitan)	0	1821
+Bassendean (East Metropolitan)	1	35302
+Bateman (South Metropolitan)	0	3198
+Bateman (South Metropolitan)	1	32094
+Belmont (East Metropolitan)	0	4631
+Belmont (East Metropolitan)	1	37027
+Bunbury (South West)	0	3506
+Bunbury (South West)	1	31690
+Butler (North Metropolitan)	0	4925
+Butler (North Metropolitan)	1	69306
+Cannington (South Metropolitan)	0	2575
+Cannington (South Metropolitan)	1	43602
+Carine (North Metropolitan)	0	1295
+Carine (North Metropolitan)	1	32590
+Central Wheatbelt (Agricultural)	0	4637
+Central Wheatbelt (Agricultural)	1	29428
+Churchlands (North Metropolitan)	0	2767
+Churchlands (North Metropolitan)	1	38138
+Cockburn (South Metropolitan)	0	2354
+Cockburn (South Metropolitan)	1	44821
+Collie-Preston (South West)	0	2549
+Collie-Preston (South West)	1	36116
+Cottesloe (North Metropolitan)	0	3689
+Cottesloe (North Metropolitan)	1	33087
+Darling Range (East Metropolitan)	0	2861
+Darling Range (East Metropolitan)	1	57747
+Dawesville (South West)	0	2154
+Dawesville (South West)	1	36282
+Eyre (Mining and Pastoral)	0	10480
+Eyre (Mining and Pastoral)	1	43865
+Forrestfield (East Metropolitan)	0	2094
+Forrestfield (East Metropolitan)	1	40015
+Fremantle (South Metropolitan)	0	4571
+Fremantle (South Metropolitan)	1	35964
+Geraldton (Agricultural)	0	4046
+Geraldton (Agricultural)	1	33606
+Girrawheen (North Metropolitan)	0	1956
+Girrawheen (North Metropolitan)	1	45670
+Gosnells (East Metropolitan)	0	2147
+Gosnells (East Metropolitan)	1	38956
+Hillarys (North Metropolitan)	0	1037
+Hillarys (North Metropolitan)	1	31941
+Jandakot (South Metropolitan)	0	1419
+Jandakot (South Metropolitan)	1	38125
+Joondalup (North Metropolitan)	0	2345
+Joondalup (North Metropolitan)	1	33935
+Kalamunda (East Metropolitan)	0	2122
+Kalamunda (East Metropolitan)	1	33506
+Kalgoorlie (Mining and Pastoral)	0	5014
+Kalgoorlie (Mining and Pastoral)	1	2987
+Kimberley (Mining and Pastoral)	0	17387
+Kimberley (Mining and Pastoral)	1	29081
+Kingsley (North Metropolitan)	0	1159
+Kingsley (North Metropolitan)	1	32007
+Kwinana (South Metropolitan)	0	5208
+Kwinana (South Metropolitan)	1	58287
+Mandurah (South West)	0	2940
+Mandurah (South West)	1	37998
+Maylands (East Metropolitan)	0	2822
+Maylands (East Metropolitan)	1	37324
+Midland (East Metropolitan)	0	3274
+Midland (East Metropolitan)	1	36401
+Mirrabooka (East Metropolitan)	0	2407
+Mirrabooka (East Metropolitan)	1	42087
+Moore (Agricultural)	0	6501
+Moore (Agricultural)	1	31150
+Morley (East Metropolitan)	0	1887
+Morley (East Metropolitan)	1	36132
+Mount Lawley (East Metropolitan)	0	3159
+Mount Lawley (East Metropolitan)	1	35302
+Murray-Wellington (South West)	0	3239
+Murray-Wellington (South West)	1	36777
+Nedlands (North Metropolitan)	0	5719
+Nedlands (North Metropolitan)	1	35144
+North West Central (Mining and Pastoral)	0	31185
+North West Central (Mining and Pastoral)	1	14918
+Ocean Reef (North Metropolitan)	0	1165
+Ocean Reef (North Metropolitan)	1	39969
+Perth (North Metropolitan)	0	12483
+Perth (North Metropolitan)	1	44416
+Pilbara (Mining and Pastoral)	0	25825
+Pilbara (Mining and Pastoral)	1	34112
+Riverton (South Metropolitan)	0	895
+Riverton (South Metropolitan)	1	36093
+Rockingham (South Metropolitan)	0	4096
+Rockingham (South Metropolitan)	1	33176
+Scarborough (North Metropolitan)	0	3314
+Scarborough (North Metropolitan)	1	36209
+South Perth (South Metropolitan)	0	4020
+South Perth (South Metropolitan)	1	34437
+Southern River (South Metropolitan)	0	2405
+Southern River (South Metropolitan)	1	48844
+Swan Hills (East Metropolitan)	0	4423
+Swan Hills (East Metropolitan)	1	42710
+Vasse (South West)	0	4018
+Vasse (South West)	1	34647
+Victoria Park (South Metropolitan)	0	5643
+Victoria Park (South Metropolitan)	1	41755
+Wagin (Agricultural)	0	4591
+Wagin (Agricultural)	1	28384
+Wanneroo (North Metropolitan)	0	1581
+Wanneroo (North Metropolitan)	1	43387
+Warnbro (South Metropolitan)	0	3197
+Warnbro (South Metropolitan)	1	55784
+Warren-Blackwood (South West)	0	4621
+Warren-Blackwood (South West)	1	34626
+West Swan (East Metropolitan)	0	3138
+West Swan (East Metropolitan)	1	54225
+Willagee (South Metropolitan)	0	2343
+Willagee (South Metropolitan)	1	33638
+Migratory - Offshore - Shipping (WA)	0	3668
+Bass (Apsley)	0	741
+Bass (Apsley)	1	9035
+Bass (Launceston)	0	3580
+Bass (Launceston)	1	29289
+Bass (Rosevears)	0	1210
+Bass (Rosevears)	1	21910
+Bass (Windermere)	0	3393
+Bass (Windermere)	1	30768
+Braddon (Mersey)	0	1958
+Braddon (Mersey)	1	29549
+Braddon (Montgomery)	0	1830
+Braddon (Montgomery)	1	28874
+Braddon (Murchison)	0	3084
+Braddon (Murchison)	1	29408
+Braddon (Western Tiers)	0	15
+Braddon (Western Tiers)	1	183
+Denison (Derwent)	0	339
+Denison (Derwent)	1	9080
+Denison (Elwick)	0	2432
+Denison (Elwick)	1	33210
+Denison (Hobart)	0	5468
+Denison (Hobart)	1	29419
+Denison (Huon)	0	24
+Denison (Huon)	1	382
+Denison (Nelson)	0	1847
+Denison (Nelson)	1	20133
+Franklin (Derwent)	0	180
+Franklin (Derwent)	1	3487
+Franklin (Huon)	0	2018
+Franklin (Huon)	1	32368
+Franklin (Nelson)	0	454
+Franklin (Nelson)	1	10201
+Franklin (Pembroke)	0	2313
+Franklin (Pembroke)	1	31104
+Franklin (Rumney)	0	1041
+Franklin (Rumney)	1	19048
+Lyons (Apsley)	0	1963
+Lyons (Apsley)	1	17770
+Lyons (Derwent)	0	1661
+Lyons (Derwent)	1	22697
+Lyons (Rosevears)	0	628
+Lyons (Rosevears)	1	8792
+Lyons (Rumney)	0	1134
+Lyons (Rumney)	1	15132
+Lyons (Western Tiers)	0	2484
+Lyons (Western Tiers)	1	28873
+Migratory - Offshore - Shipping (Tas.)	0	691
+Arafura	0	833
+Arafura	1	6582
+Araluen	0	3020
+Araluen	1	9632
+Arnhem	0	2471
+Arnhem	1	7440
+Barkly	0	3833
+Barkly	1	7261
+Blain	0	625
+Blain	1	8578
+Braitling	0	1728
+Braitling	1	8856
+Brennan	0	538
+Brennan	1	7704
+Casuarina	0	2230
+Casuarina	1	7817
+Daly	0	3588
+Daly	1	8064
+Drysdale	0	1157
+Drysdale	1	7613
+Fannie Bay	0	1561
+Fannie Bay	1	7464
+Fong Lim	0	884
+Fong Lim	1	7093
+Goyder (NT)	0	1600
+Goyder (NT)	1	8474
+Johnston	0	712
+Johnston	1	6877
+Karama	0	838
+Karama	1	7051
+Katherine	0	4340
+Katherine	1	7361
+Namatjira	0	5538
+Namatjira	1	6805
+Nelson	0	6823
+Nelson	1	7727
+Nhulunbuy	0	1045
+Nhulunbuy	1	8723
+Nightcliff	0	1017
+Nightcliff	1	7208
+Port Darwin	0	6866
+Port Darwin	1	7855
+Sanderson	0	775
+Sanderson	1	7600
+Spillett	0	3042
+Spillett	1	8010
+Stuart (NT)	0	2086
+Stuart (NT)	1	6145
+Wanguri	0	583
+Wanguri	1	8209
+Migratory - Offshore - Shipping (NT)	0	252
+Brindabella	0	2748
+Brindabella	1	66405
+Ginninderra	0	5685
+Ginninderra	1	70476
+Kurrajong	0	18464
+Kurrajong	1	66684
+Murrumbidgee	0	5287
+Murrumbidgee	1	71439
+Yerrabi	0	3534
+Yerrabi	1	85024
+Migratory - Offshore - Shipping (ACT)	0	12
+Unclassified (OT)	0	1720
+Unclassified (OT)	1	3448
+Migratory - Offshore - Shipping (OT)	0	19

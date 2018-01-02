@@ -1,0 +1,587 @@
+STE_NAME16	DwellingStructure	DwellingSubtype	NumberBedrooms.min	occupied_private_dwellings
+New South Wales				2499
+New South Wales			0	327
+New South Wales			1	1973
+New South Wales			2	3437
+New South Wales			3	3212
+New South Wales			4	1765
+New South Wales			5	503
+New South Wales			6	361
+New South Wales	(Other)			1737
+New South Wales	(Other)		0	1438
+New South Wales	(Other)		1	6136
+New South Wales	(Other)		2	7965
+New South Wales	(Other)		3	4275
+New South Wales	(Other)		4	1524
+New South Wales	(Other)		5	336
+New South Wales	(Other)		6	181
+New South Wales	Flat/apartment		0	66
+New South Wales	Flat/apartment		6	138
+New South Wales	Flat/apartment	1 or 2 storey block		5953
+New South Wales	Flat/apartment	1 or 2 storey block	0	2904
+New South Wales	Flat/apartment	1 or 2 storey block	1	30027
+New South Wales	Flat/apartment	1 or 2 storey block	2	73480
+New South Wales	Flat/apartment	1 or 2 storey block	3	21127
+New South Wales	Flat/apartment	1 or 2 storey block	4	2324
+New South Wales	Flat/apartment	1 or 2 storey block	5	444
+New South Wales	Flat/apartment	1 or 2 storey block	6	346
+New South Wales	Flat/apartment	3 storey block		4526
+New South Wales	Flat/apartment	3 storey block	0	2398
+New South Wales	Flat/apartment	3 storey block	1	24297
+New South Wales	Flat/apartment	3 storey block	2	108805
+New South Wales	Flat/apartment	3 storey block	3	21179
+New South Wales	Flat/apartment	3 storey block	4	970
+New South Wales	Flat/apartment	3 storey block	5	156
+New South Wales	Flat/apartment	4 storey block or more		5223
+New South Wales	Flat/apartment	4 storey block or more	0	5320
+New South Wales	Flat/apartment	4 storey block or more	1	51827
+New South Wales	Flat/apartment	4 storey block or more	2	120923
+New South Wales	Flat/apartment	4 storey block or more	3	32991
+New South Wales	Flat/apartment	4 storey block or more	4	1393
+New South Wales	Flat/apartment	4 storey block or more	5	204
+New South Wales	Flat/apartment	4 storey block or more	6	194
+New South Wales	Flat/apartment	Attached to a house		146
+New South Wales	Flat/apartment	Attached to a house	1	709
+New South Wales	Flat/apartment	Attached to a house	2	742
+New South Wales	Flat/apartment	Attached to a house	3	373
+New South Wales	Flat/apartment	Attached to a house	4	134
+New South Wales	Flat/apartment	Attached to a house	5	41
+New South Wales	Flat/apartment	Attached to a house	6	27
+New South Wales	Semi-detached, row/terrace house, townhouse etc.		0	597
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	1 storey		4915
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	1 storey	0	1082
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	1 storey	1	11614
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	1 storey	2	61234
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	1 storey	3	53721
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	1 storey	4	7880
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	1 storey	5	1006
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	1 storey	6	279
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more		4384
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	1	10150
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	2	41608
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	3	86945
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	4	27540
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	5	3679
+New South Wales	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	6	806
+New South Wales	Separate house			36493
+New South Wales	Separate house		0	3026
+New South Wales	Separate house		1	20466
+New South Wales	Separate house		2	159479
+New South Wales	Separate house		3	746180
+New South Wales	Separate house		4	589647
+New South Wales	Separate house		5	142480
+New South Wales	Separate house		6	32046
+Victoria				1106
+Victoria			0	113
+Victoria			1	840
+Victoria			2	1815
+Victoria			3	2360
+Victoria			4	1117
+Victoria			5	221
+Victoria			6	131
+Victoria	(Other)			757
+Victoria	(Other)		0	728
+Victoria	(Other)		1	3301
+Victoria	(Other)		2	3243
+Victoria	(Other)		3	2080
+Victoria	(Other)		4	757
+Victoria	(Other)		5	138
+Victoria	(Other)		6	81
+Victoria	Flat/apartment		0	7
+Victoria	Flat/apartment		6	51
+Victoria	Flat/apartment	1 or 2 storey block		3694
+Victoria	Flat/apartment	1 or 2 storey block	0	1212
+Victoria	Flat/apartment	1 or 2 storey block	1	23024
+Victoria	Flat/apartment	1 or 2 storey block	2	55035
+Victoria	Flat/apartment	1 or 2 storey block	3	17460
+Victoria	Flat/apartment	1 or 2 storey block	4	1771
+Victoria	Flat/apartment	1 or 2 storey block	5	214
+Victoria	Flat/apartment	1 or 2 storey block	6	194
+Victoria	Flat/apartment	3 storey block		1328
+Victoria	Flat/apartment	3 storey block	0	841
+Victoria	Flat/apartment	3 storey block	1	16214
+Victoria	Flat/apartment	3 storey block	2	27085
+Victoria	Flat/apartment	3 storey block	3	3845
+Victoria	Flat/apartment	3 storey block	4	223
+Victoria	Flat/apartment	3 storey block	5	47
+Victoria	Flat/apartment	4 storey block or more		2451
+Victoria	Flat/apartment	4 storey block or more	0	2463
+Victoria	Flat/apartment	4 storey block or more	1	31118
+Victoria	Flat/apartment	4 storey block or more	2	47834
+Victoria	Flat/apartment	4 storey block or more	3	8852
+Victoria	Flat/apartment	4 storey block or more	4	527
+Victoria	Flat/apartment	4 storey block or more	5	63
+Victoria	Flat/apartment	4 storey block or more	6	114
+Victoria	Flat/apartment	Attached to a house		17
+Victoria	Flat/apartment	Attached to a house	1	120
+Victoria	Flat/apartment	Attached to a house	2	139
+Victoria	Flat/apartment	Attached to a house	3	70
+Victoria	Flat/apartment	Attached to a house	4	15
+Victoria	Flat/apartment	Attached to a house	5	3
+Victoria	Flat/apartment	Attached to a house	6	4
+Victoria	Semi-detached, row/terrace house, townhouse etc.		0	237
+Victoria	Semi-detached, row/terrace house, townhouse etc.	1 storey		6018
+Victoria	Semi-detached, row/terrace house, townhouse etc.	1 storey	0	572
+Victoria	Semi-detached, row/terrace house, townhouse etc.	1 storey	1	16099
+Victoria	Semi-detached, row/terrace house, townhouse etc.	1 storey	2	95154
+Victoria	Semi-detached, row/terrace house, townhouse etc.	1 storey	3	61155
+Victoria	Semi-detached, row/terrace house, townhouse etc.	1 storey	4	11608
+Victoria	Semi-detached, row/terrace house, townhouse etc.	1 storey	5	1160
+Victoria	Semi-detached, row/terrace house, townhouse etc.	1 storey	6	296
+Victoria	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more		2198
+Victoria	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	1	3173
+Victoria	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	2	28237
+Victoria	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	3	56825
+Victoria	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	4	15668
+Victoria	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	5	2126
+Victoria	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	6	388
+Victoria	Separate house			33114
+Victoria	Separate house		0	2102
+Victoria	Separate house		1	13474
+Victoria	Separate house		2	149063
+Victoria	Separate house		3	777597
+Victoria	Separate house		4	476893
+Victoria	Separate house		5	79870
+Victoria	Separate house		6	14836
+Queensland				1880
+Queensland			0	190
+Queensland			1	1081
+Queensland			2	1650
+Queensland			3	2179
+Queensland			4	1152
+Queensland			5	278
+Queensland			6	189
+Queensland	(Other)			1641
+Queensland	(Other)		0	2389
+Queensland	(Other)		1	6448
+Queensland	(Other)		2	3391
+Queensland	(Other)		3	1847
+Queensland	(Other)		4	799
+Queensland	(Other)		5	177
+Queensland	(Other)		6	129
+Queensland	Flat/apartment		0	5
+Queensland	Flat/apartment		6	63
+Queensland	Flat/apartment	1 or 2 storey block		3112
+Queensland	Flat/apartment	1 or 2 storey block	0	1185
+Queensland	Flat/apartment	1 or 2 storey block	1	16683
+Queensland	Flat/apartment	1 or 2 storey block	2	38915
+Queensland	Flat/apartment	1 or 2 storey block	3	12053
+Queensland	Flat/apartment	1 or 2 storey block	4	1170
+Queensland	Flat/apartment	1 or 2 storey block	5	201
+Queensland	Flat/apartment	1 or 2 storey block	6	177
+Queensland	Flat/apartment	3 storey block		1332
+Queensland	Flat/apartment	3 storey block	0	512
+Queensland	Flat/apartment	3 storey block	1	7274
+Queensland	Flat/apartment	3 storey block	2	35003
+Queensland	Flat/apartment	3 storey block	3	7352
+Queensland	Flat/apartment	3 storey block	4	352
+Queensland	Flat/apartment	3 storey block	5	44
+Queensland	Flat/apartment	4 storey block or more		1549
+Queensland	Flat/apartment	4 storey block or more	0	794
+Queensland	Flat/apartment	4 storey block or more	1	12761
+Queensland	Flat/apartment	4 storey block or more	2	32346
+Queensland	Flat/apartment	4 storey block or more	3	12691
+Queensland	Flat/apartment	4 storey block or more	4	710
+Queensland	Flat/apartment	4 storey block or more	5	60
+Queensland	Flat/apartment	4 storey block or more	6	55
+Queensland	Flat/apartment	Attached to a house		29
+Queensland	Flat/apartment	Attached to a house	1	134
+Queensland	Flat/apartment	Attached to a house	2	121
+Queensland	Flat/apartment	Attached to a house	3	58
+Queensland	Flat/apartment	Attached to a house	4	20
+Queensland	Flat/apartment	Attached to a house	5	10
+Queensland	Flat/apartment	Attached to a house	6	8
+Queensland	Semi-detached, row/terrace house, townhouse etc.		0	312
+Queensland	Semi-detached, row/terrace house, townhouse etc.	1 storey		3365
+Queensland	Semi-detached, row/terrace house, townhouse etc.	1 storey	0	538
+Queensland	Semi-detached, row/terrace house, townhouse etc.	1 storey	1	7062
+Queensland	Semi-detached, row/terrace house, townhouse etc.	1 storey	2	38466
+Queensland	Semi-detached, row/terrace house, townhouse etc.	1 storey	3	24397
+Queensland	Semi-detached, row/terrace house, townhouse etc.	1 storey	4	1875
+Queensland	Semi-detached, row/terrace house, townhouse etc.	1 storey	5	178
+Queensland	Semi-detached, row/terrace house, townhouse etc.	1 storey	6	100
+Queensland	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more		2423
+Queensland	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	1	5045
+Queensland	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	2	29291
+Queensland	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	3	56400
+Queensland	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	4	4946
+Queensland	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	5	428
+Queensland	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	6	152
+Queensland	Separate house			25118
+Queensland	Separate house		0	2378
+Queensland	Separate house		1	14135
+Queensland	Separate house		2	96011
+Queensland	Separate house		3	541006
+Queensland	Separate house		4	476605
+Queensland	Separate house		5	93837
+Queensland	Separate house		6	20555
+South Australia				278
+South Australia			0	41
+South Australia			1	214
+South Australia			2	499
+South Australia			3	963
+South Australia			4	358
+South Australia			5	69
+South Australia			6	38
+South Australia	(Other)			207
+South Australia	(Other)		0	332
+South Australia	(Other)		1	988
+South Australia	(Other)		2	664
+South Australia	(Other)		3	555
+South Australia	(Other)		4	208
+South Australia	(Other)		5	44
+South Australia	(Other)		6	26
+South Australia	Flat/apartment		6	8
+South Australia	Flat/apartment	1 or 2 storey block		1081
+South Australia	Flat/apartment	1 or 2 storey block	0	208
+South Australia	Flat/apartment	1 or 2 storey block	1	5937
+South Australia	Flat/apartment	1 or 2 storey block	2	21375
+South Australia	Flat/apartment	1 or 2 storey block	3	3359
+South Australia	Flat/apartment	1 or 2 storey block	4	170
+South Australia	Flat/apartment	1 or 2 storey block	5	40
+South Australia	Flat/apartment	1 or 2 storey block	6	43
+South Australia	Flat/apartment	3 storey block		141
+South Australia	Flat/apartment	3 storey block	0	42
+South Australia	Flat/apartment	3 storey block	1	571
+South Australia	Flat/apartment	3 storey block	2	2880
+South Australia	Flat/apartment	3 storey block	3	374
+South Australia	Flat/apartment	3 storey block	4	21
+South Australia	Flat/apartment	4 storey block or more		123
+South Australia	Flat/apartment	4 storey block or more	0	69
+South Australia	Flat/apartment	4 storey block or more	1	1258
+South Australia	Flat/apartment	4 storey block or more	2	3303
+South Australia	Flat/apartment	4 storey block or more	3	821
+South Australia	Flat/apartment	4 storey block or more	4	56
+South Australia	Flat/apartment	4 storey block or more	5	11
+South Australia	Flat/apartment	4 storey block or more	6	6
+South Australia	Flat/apartment	Attached to a house		4
+South Australia	Flat/apartment	Attached to a house	1	41
+South Australia	Flat/apartment	Attached to a house	2	34
+South Australia	Flat/apartment	Attached to a house	3	22
+South Australia	Flat/apartment	Attached to a house	4	3
+South Australia	Semi-detached, row/terrace house, townhouse etc.		0	26
+South Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey		2450
+South Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey	0	237
+South Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey	1	6360
+South Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey	2	32729
+South Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey	3	28466
+South Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey	4	2496
+South Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey	5	304
+South Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey	6	169
+South Australia	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more		466
+South Australia	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	1	751
+South Australia	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	2	6069
+South Australia	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	3	11660
+South Australia	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	4	1996
+South Australia	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	5	282
+South Australia	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	6	46
+South Australia	Separate house			8710
+South Australia	Separate house		0	655
+South Australia	Separate house		1	5391
+South Australia	Separate house		2	51235
+South Australia	Separate house		3	286817
+South Australia	Separate house		4	122056
+South Australia	Separate house		5	18492
+South Australia	Separate house		6	3445
+Western Australia				497
+Western Australia			0	64
+Western Australia			1	299
+Western Australia			2	485
+Western Australia			3	866
+Western Australia			4	588
+Western Australia			5	98
+Western Australia			6	86
+Western Australia	(Other)			516
+Western Australia	(Other)		0	816
+Western Australia	(Other)		1	2229
+Western Australia	(Other)		2	1551
+Western Australia	(Other)		3	682
+Western Australia	(Other)		4	383
+Western Australia	(Other)		5	78
+Western Australia	(Other)		6	66
+Western Australia	Flat/apartment		6	9
+Western Australia	Flat/apartment	1 or 2 storey block		864
+Western Australia	Flat/apartment	1 or 2 storey block	0	165
+Western Australia	Flat/apartment	1 or 2 storey block	1	4703
+Western Australia	Flat/apartment	1 or 2 storey block	2	10853
+Western Australia	Flat/apartment	1 or 2 storey block	3	3475
+Western Australia	Flat/apartment	1 or 2 storey block	4	311
+Western Australia	Flat/apartment	1 or 2 storey block	5	30
+Western Australia	Flat/apartment	1 or 2 storey block	6	33
+Western Australia	Flat/apartment	3 storey block		306
+Western Australia	Flat/apartment	3 storey block	0	124
+Western Australia	Flat/apartment	3 storey block	1	3262
+Western Australia	Flat/apartment	3 storey block	2	6398
+Western Australia	Flat/apartment	3 storey block	3	1418
+Western Australia	Flat/apartment	3 storey block	4	63
+Western Australia	Flat/apartment	3 storey block	5	12
+Western Australia	Flat/apartment	4 storey block or more		396
+Western Australia	Flat/apartment	4 storey block or more	0	188
+Western Australia	Flat/apartment	4 storey block or more	1	4650
+Western Australia	Flat/apartment	4 storey block or more	2	8777
+Western Australia	Flat/apartment	4 storey block or more	3	2806
+Western Australia	Flat/apartment	4 storey block or more	4	131
+Western Australia	Flat/apartment	4 storey block or more	5	17
+Western Australia	Flat/apartment	4 storey block or more	6	11
+Western Australia	Flat/apartment	Attached to a house		19
+Western Australia	Flat/apartment	Attached to a house	1	27
+Western Australia	Flat/apartment	Attached to a house	2	22
+Western Australia	Flat/apartment	Attached to a house	3	6
+Western Australia	Flat/apartment	Attached to a house	4	11
+Western Australia	Flat/apartment	Attached to a house	5	4
+Western Australia	Semi-detached, row/terrace house, townhouse etc.		0	76
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey		2918
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey	0	221
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey	1	6930
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey	2	29461
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey	3	46423
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey	4	5643
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey	5	440
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	1 storey	6	166
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more		613
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	1	1830
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	2	7085
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	3	15903
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	4	4241
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	5	503
+Western Australia	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	6	104
+Western Australia	Separate house			12145
+Western Australia	Separate house		0	779
+Western Australia	Separate house		1	6110
+Western Australia	Separate house		2	42403
+Western Australia	Separate house		3	256076
+Western Australia	Separate house		4	318040
+Western Australia	Separate house		5	42679
+Western Australia	Separate house		6	7586
+Tasmania				84
+Tasmania			0	11
+Tasmania			1	71
+Tasmania			2	189
+Tasmania			3	239
+Tasmania			4	96
+Tasmania			5	22
+Tasmania			6	19
+Tasmania	(Other)			77
+Tasmania	(Other)		0	104
+Tasmania	(Other)		1	393
+Tasmania	(Other)		2	284
+Tasmania	(Other)		3	239
+Tasmania	(Other)		4	71
+Tasmania	(Other)		5	13
+Tasmania	(Other)		6	15
+Tasmania	Flat/apartment		6	6
+Tasmania	Flat/apartment	1 or 2 storey block		328
+Tasmania	Flat/apartment	1 or 2 storey block	0	113
+Tasmania	Flat/apartment	1 or 2 storey block	1	2551
+Tasmania	Flat/apartment	1 or 2 storey block	2	4997
+Tasmania	Flat/apartment	1 or 2 storey block	3	991
+Tasmania	Flat/apartment	1 or 2 storey block	4	167
+Tasmania	Flat/apartment	1 or 2 storey block	5	30
+Tasmania	Flat/apartment	1 or 2 storey block	6	18
+Tasmania	Flat/apartment	3 storey block		24
+Tasmania	Flat/apartment	3 storey block	0	59
+Tasmania	Flat/apartment	3 storey block	1	280
+Tasmania	Flat/apartment	3 storey block	2	569
+Tasmania	Flat/apartment	3 storey block	3	121
+Tasmania	Flat/apartment	3 storey block	4	12
+Tasmania	Flat/apartment	3 storey block	5	3
+Tasmania	Flat/apartment	4 storey block or more		31
+Tasmania	Flat/apartment	4 storey block or more	0	47
+Tasmania	Flat/apartment	4 storey block or more	1	262
+Tasmania	Flat/apartment	4 storey block or more	2	397
+Tasmania	Flat/apartment	4 storey block or more	3	76
+Tasmania	Flat/apartment	4 storey block or more	4	3
+Tasmania	Flat/apartment	4 storey block or more	5	4
+Tasmania	Flat/apartment	Attached to a house		10
+Tasmania	Flat/apartment	Attached to a house	1	71
+Tasmania	Flat/apartment	Attached to a house	2	53
+Tasmania	Flat/apartment	Attached to a house	3	18
+Tasmania	Flat/apartment	Attached to a house	4	6
+Tasmania	Flat/apartment	Attached to a house	5	4
+Tasmania	Semi-detached, row/terrace house, townhouse etc.		0	18
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	1 storey		404
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	1 storey	0	53
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	1 storey	1	2227
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	1 storey	2	4462
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	1 storey	3	891
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	1 storey	4	127
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	1 storey	5	29
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	1 storey	6	13
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more		80
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	1	297
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	2	1645
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	3	836
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	4	222
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	5	58
+Tasmania	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	6	24
+Tasmania	Separate house			3500
+Tasmania	Separate house		0	363
+Tasmania	Separate house		1	3230
+Tasmania	Separate house		2	27921
+Tasmania	Separate house		3	95974
+Tasmania	Separate house		4	34040
+Tasmania	Separate house		5	6512
+Tasmania	Separate house		6	1465
+Northern Territory				85
+Northern Territory			0	28
+Northern Territory			1	103
+Northern Territory			2	127
+Northern Territory			3	152
+Northern Territory			4	50
+Northern Territory			5	19
+Northern Territory			6	15
+Northern Territory	(Other)			280
+Northern Territory	(Other)		0	402
+Northern Territory	(Other)		1	740
+Northern Territory	(Other)		2	281
+Northern Territory	(Other)		3	293
+Northern Territory	(Other)		4	138
+Northern Territory	(Other)		5	25
+Northern Territory	(Other)		6	15
+Northern Territory	Flat/apartment		6	3
+Northern Territory	Flat/apartment	1 or 2 storey block		247
+Northern Territory	Flat/apartment	1 or 2 storey block	0	64
+Northern Territory	Flat/apartment	1 or 2 storey block	1	1005
+Northern Territory	Flat/apartment	1 or 2 storey block	2	2503
+Northern Territory	Flat/apartment	1 or 2 storey block	3	1010
+Northern Territory	Flat/apartment	1 or 2 storey block	4	90
+Northern Territory	Flat/apartment	1 or 2 storey block	5	6
+Northern Territory	Flat/apartment	1 or 2 storey block	6	7
+Northern Territory	Flat/apartment	3 storey block		62
+Northern Territory	Flat/apartment	3 storey block	0	51
+Northern Territory	Flat/apartment	3 storey block	1	286
+Northern Territory	Flat/apartment	3 storey block	2	1155
+Northern Territory	Flat/apartment	3 storey block	3	322
+Northern Territory	Flat/apartment	3 storey block	4	3
+Northern Territory	Flat/apartment	4 storey block or more		122
+Northern Territory	Flat/apartment	4 storey block or more	0	32
+Northern Territory	Flat/apartment	4 storey block or more	1	583
+Northern Territory	Flat/apartment	4 storey block or more	2	2207
+Northern Territory	Flat/apartment	4 storey block or more	3	1515
+Northern Territory	Flat/apartment	4 storey block or more	4	40
+Northern Territory	Flat/apartment	4 storey block or more	6	8
+Northern Territory	Flat/apartment	Attached to a house		3
+Northern Territory	Flat/apartment	Attached to a house	1	10
+Northern Territory	Flat/apartment	Attached to a house	2	11
+Northern Territory	Flat/apartment	Attached to a house	3	3
+Northern Territory	Flat/apartment	Attached to a house	4	5
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.		0	8
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey		211
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey	0	37
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey	1	802
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey	2	2797
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey	3	1180
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey	4	97
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey	5	21
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey	6	6
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more		67
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	1	145
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	2	1500
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	3	865
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	4	101
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	5	3
+Northern Territory	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	6	3
+Northern Territory	Separate house			1283
+Northern Territory	Separate house		0	250
+Northern Territory	Separate house		1	1196
+Northern Territory	Separate house		2	3730
+Northern Territory	Separate house		3	22264
+Northern Territory	Separate house		4	11675
+Northern Territory	Separate house		5	2126
+Northern Territory	Separate house		6	571
+Australian Capital Territory				25
+Australian Capital Territory			0	5
+Australian Capital Territory			1	75
+Australian Capital Territory			2	60
+Australian Capital Territory			3	68
+Australian Capital Territory			4	37
+Australian Capital Territory			5	3
+Australian Capital Territory	(Other)			22
+Australian Capital Territory	(Other)		0	17
+Australian Capital Territory	(Other)		1	60
+Australian Capital Territory	(Other)		2	36
+Australian Capital Territory	(Other)		3	31
+Australian Capital Territory	(Other)		4	24
+Australian Capital Territory	(Other)		5	10
+Australian Capital Territory	Flat/apartment		0	3
+Australian Capital Territory	Flat/apartment	1 or 2 storey block		202
+Australian Capital Territory	Flat/apartment	1 or 2 storey block	0	39
+Australian Capital Territory	Flat/apartment	1 or 2 storey block	1	1365
+Australian Capital Territory	Flat/apartment	1 or 2 storey block	2	2256
+Australian Capital Territory	Flat/apartment	1 or 2 storey block	3	654
+Australian Capital Territory	Flat/apartment	1 or 2 storey block	4	67
+Australian Capital Territory	Flat/apartment	1 or 2 storey block	5	5
+Australian Capital Territory	Flat/apartment	1 or 2 storey block	6	7
+Australian Capital Territory	Flat/apartment	3 storey block		153
+Australian Capital Territory	Flat/apartment	3 storey block	0	61
+Australian Capital Territory	Flat/apartment	3 storey block	1	2307
+Australian Capital Territory	Flat/apartment	3 storey block	2	3994
+Australian Capital Territory	Flat/apartment	3 storey block	3	740
+Australian Capital Territory	Flat/apartment	3 storey block	4	54
+Australian Capital Territory	Flat/apartment	4 storey block or more		162
+Australian Capital Territory	Flat/apartment	4 storey block or more	0	47
+Australian Capital Territory	Flat/apartment	4 storey block or more	1	4039
+Australian Capital Territory	Flat/apartment	4 storey block or more	2	4172
+Australian Capital Territory	Flat/apartment	4 storey block or more	3	828
+Australian Capital Territory	Flat/apartment	4 storey block or more	4	44
+Australian Capital Territory	Flat/apartment	4 storey block or more	5	3
+Australian Capital Territory	Flat/apartment	Attached to a house		8
+Australian Capital Territory	Flat/apartment	Attached to a house	1	102
+Australian Capital Territory	Flat/apartment	Attached to a house	2	52
+Australian Capital Territory	Flat/apartment	Attached to a house	3	26
+Australian Capital Territory	Flat/apartment	Attached to a house	4	3
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.		0	42
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey		381
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey	0	24
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey	1	858
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey	2	4591
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey	3	7288
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey	4	671
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey	5	47
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	1 storey	6	13
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more		219
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	1	772
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	2	2857
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	3	5972
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	4	1400
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	5	124
+Australian Capital Territory	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	6	27
+Australian Capital Territory	Separate house			1461
+Australian Capital Territory	Separate house		0	67
+Australian Capital Territory	Separate house		1	630
+Australian Capital Territory	Separate house		2	3285
+Australian Capital Territory	Separate house		3	41074
+Australian Capital Territory	Separate house		4	39654
+Australian Capital Territory	Separate house		5	7944
+Australian Capital Territory	Separate house		6	1409
+Other Territories			2	3
+Other Territories			3	9
+Other Territories			6	3
+Other Territories	(Other)			3
+Other Territories	(Other)		0	3
+Other Territories	(Other)		1	3
+Other Territories	Flat/apartment	1 or 2 storey block		5
+Other Territories	Flat/apartment	1 or 2 storey block	0	3
+Other Territories	Flat/apartment	1 or 2 storey block	1	17
+Other Territories	Flat/apartment	1 or 2 storey block	2	17
+Other Territories	Flat/apartment	1 or 2 storey block	3	3
+Other Territories	Flat/apartment	3 storey block		3
+Other Territories	Flat/apartment	3 storey block	2	16
+Other Territories	Flat/apartment	3 storey block	3	29
+Other Territories	Flat/apartment	3 storey block	4	4
+Other Territories	Flat/apartment	4 storey block or more	3	3
+Other Territories	Semi-detached, row/terrace house, townhouse etc.	1 storey	1	3
+Other Territories	Semi-detached, row/terrace house, townhouse etc.	1 storey	2	24
+Other Territories	Semi-detached, row/terrace house, townhouse etc.	1 storey	3	23
+Other Territories	Semi-detached, row/terrace house, townhouse etc.	1 storey	6	3
+Other Territories	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more		3
+Other Territories	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	2	15
+Other Territories	Semi-detached, row/terrace house, townhouse etc.	2 storeys or more	3	8
+Other Territories	Separate house			38
+Other Territories	Separate house		0	4
+Other Territories	Separate house		1	52
+Other Territories	Separate house		2	231
+Other Territories	Separate house		3	523
+Other Territories	Separate house		4	231
+Other Territories	Separate house		5	45
+Other Territories	Separate house		6	8

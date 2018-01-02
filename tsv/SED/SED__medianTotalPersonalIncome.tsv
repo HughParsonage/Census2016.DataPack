@@ -1,0 +1,449 @@
+SED_NAME16	medianTotalPersonalIncome
+Albury	32240
+Auburn	25688
+Ballina	31148
+Balmain	55640
+Bankstown	23920
+Barwon	28392
+Bathurst	30836
+Baulkham Hills	41912
+Bega	27196
+Blacktown	32916
+Blue Mountains	35256
+Cabramatta	22724
+Camden	41600
+Campbelltown	31928
+Canterbury	29380
+Castle Hill	43472
+Cessnock	29588
+Charlestown	34320
+Clarence	25064
+Coffs Harbour	29432
+Coogee	59800
+Cootamundra	28288
+Cronulla	46540
+Davidson	47164
+Drummoyne	46800
+Dubbo	32968
+East Hills	32240
+Epping	38844
+Fairfield	21996
+Gosford	31044
+Goulburn	34736
+Granville	27092
+Hawkesbury	37960
+Heathcote	43160
+Heffron	41392
+Holsworthy	34684
+Hornsby	41132
+Keira	32916
+Kiama	32240
+Kogarah	29588
+Ku-ring-gai	47164
+Lake Macquarie	30160
+Lakemba	22828
+Lane Cove	53300
+Lismore	26468
+Liverpool	25740
+Londonderry	33644
+Macquarie Fields	33904
+Maitland	33436
+Manly	57252
+Maroubra	39208
+Miranda	40924
+Monaro	44044
+Mount Druitt	31252
+Mulgoa	40248
+Murray	31616
+Myall Lakes	24856
+Newcastle	38012
+Newtown	48932
+North Shore	71604
+Northern Tablelands	28392
+Oatley	36816
+Orange	32500
+Oxley	25012
+Parramatta	35620
+Penrith	37388
+Pittwater	45760
+Port Macquarie	27768
+Port Stephens	29276
+Prospect	30784
+Riverstone	43888
+Rockdale	35932
+Ryde	36556
+Seven Hills	37908
+Shellharbour	29588
+South Coast	25532
+Strathfield	33488
+Summer Hill	40872
+Swansea	28964
+Sydney	55120
+Tamworth	32396
+Terrigal	35100
+The Entrance	31512
+Tweed	28496
+Upper Hunter	31876
+Vaucluse	64116
+Wagga Wagga	35100
+Wakehurst	42588
+Wallsend	30264
+Willoughby	53404
+Wollondilly	36296
+Wollongong	26936
+Wyong	29484
+No usual address (NSW)	21060
+Migratory - Offshore - Shipping (NSW)	28080
+Albert Park (Southern Metropolitan)	56368
+Altona (Western Metropolitan)	37492
+Bass (Eastern Victoria)	30056
+Bayswater (Eastern Metropolitan)	35360
+Bellarine (Western Victoria)	31824
+Benambra (Northern Victoria)	33592
+Bendigo East (Northern Victoria)	32604
+Bendigo West (Northern Victoria)	29952
+Bentleigh (Southern Metropolitan)	37544
+Box Hill (Eastern Metropolitan)	34632
+Brighton (Southern Metropolitan)	52988
+Broadmeadows (Northern Metropolitan)	21060
+Brunswick (Northern Metropolitan)	41080
+Bulleen (Eastern Metropolitan)	32188
+Bundoora (Northern Metropolitan)	29900
+Buninyong (Western Victoria)	29796
+Burwood (Southern Metropolitan)	34268
+Carrum (South-Eastern Metropolitan)	36816
+Caulfield (Southern Metropolitan)	45656
+Clarinda (South-Eastern Metropolitan)	26104
+Cranbourne (South-Eastern Metropolitan)	35828
+Croydon (Eastern Metropolitan)	35412
+Dandenong (South-Eastern Metropolitan)	24752
+Eildon (Northern Victoria)	30680
+Eltham (Eastern Metropolitan)	41080
+Essendon (Western Metropolitan)	42484
+Euroa (Northern Victoria)	28756
+Evelyn (Eastern Victoria)	35100
+Ferntree Gully (Eastern Metropolitan)	33280
+Footscray (Western Metropolitan)	29796
+Forest Hill (Eastern Metropolitan)	30680
+Frankston (South-Eastern Metropolitan)	31616
+Geelong (Western Victoria)	32968
+Gembrook (Eastern Victoria)	36816
+Gippsland East (Eastern Victoria)	26988
+Gippsland South (Eastern Victoria)	28444
+Hastings (Eastern Victoria)	34528
+Hawthorn (Southern Metropolitan)	49244
+Ivanhoe (Eastern Metropolitan)	38532
+Kew (Southern Metropolitan)	41964
+Keysborough (South-Eastern Metropolitan)	27352
+Kororoit (Western Metropolitan)	29952
+Lara (Western Victoria)	26884
+Lowan (Western Victoria)	29484
+Macedon (Northern Victoria)	34788
+Malvern (Southern Metropolitan)	51116
+Melbourne (Northern Metropolitan)	30004
+Melton (Western Victoria)	31876
+Mildura (Northern Victoria)	28444
+Mill Park (Northern Metropolitan)	32552
+Monbulk (Eastern Victoria)	36972
+Mordialloc (South-Eastern Metropolitan)	39104
+Mornington (Eastern Victoria)	35828
+Morwell (Eastern Victoria)	29172
+Mount Waverley (Eastern Metropolitan)	31304
+Mulgrave (South-Eastern Metropolitan)	29120
+Murray Plains (Northern Victoria)	29068
+Narracan (Eastern Victoria)	29640
+Narre Warren North (South-Eastern Metrop	30472
+Narre Warren South (South-Eastern Metrop	33020
+Nepean (Eastern Victoria)	30212
+Niddrie (Western Metropolitan)	34008
+Northcote (Northern Metropolitan)	42848
+Oakleigh (Southern Metropolitan)	31200
+Ovens Valley (Northern Victoria)	29432
+Pascoe Vale (Northern Metropolitan)	33904
+Polwarth (Western Victoria)	30836
+Prahran (Southern Metropolitan)	56316
+Preston (Northern Metropolitan)	29432
+Richmond (Northern Metropolitan)	54912
+Ringwood (Eastern Metropolitan)	36244
+Ripon (Western Victoria)	25688
+Rowville (South-Eastern Metropolitan)	36088
+Sandringham (Southern Metropolitan)	44512
+Shepparton (Northern Victoria)	30212
+South Barwon (Western Victoria)	35516
+South-West Coast (Western Victoria)	31356
+St Albans (Western Metropolitan)	23348
+Sunbury (Western Metropolitan)	34736
+Sydenham (Western Metropolitan)	34164
+Tarneit (Western Metropolitan)	35568
+Thomastown (Northern Metropolitan)	24544
+Warrandyte (Eastern Metropolitan)	34320
+Wendouree (Western Victoria)	30992
+Werribee (Western Metropolitan)	32032
+Williamstown (Western Metropolitan)	43368
+Yan Yean (Northern Victoria)	39156
+Yuroke (Northern Metropolitan)	30836
+No usual address (Vic.)	20696
+Migratory - Offshore - Shipping (Vic.)	156000
+Albert	37752
+Algester	36712
+Ashgrove	47892
+Aspley	39884
+Barron River	39000
+Beaudesert	32032
+Brisbane Central	46696
+Broadwater	31460
+Buderim	34580
+Bulimba	51584
+Bundaberg	25584
+Bundamba	36400
+Burdekin	34632
+Burleigh	35984
+Burnett	25636
+Cairns	33488
+Callide	26052
+Caloundra	30628
+Capalaba	36972
+Chatsworth	44044
+Clayfield	49244
+Cleveland	36712
+Condamine	34216
+Cook	28860
+Coomera	35100
+Currumbin	33228
+Dalrymple	29952
+Everton	42744
+Ferny Grove	41392
+Gaven	34632
+Gladstone	37492
+Glass House	30264
+Greenslopes	45812
+Gregory	39728
+Gympie	25428
+Hervey Bay	24700
+Hinchinbrook	34164
+Inala	27820
+Indooroopilly	33696
+Ipswich	32708
+Ipswich West	32032
+Kallangur	36452
+Kawana	31460
+Keppel	34008
+Lockyer	30784
+Logan	33956
+Lytton	38636
+Mackay	34268
+Mansfield	35152
+Maroochydore	34112
+Maryborough	23816
+Mermaid Beach	35724
+Mirani	36036
+Moggill	44252
+Morayfield	32396
+Mount Coot-tha	47996
+Mount Isa	42120
+Mount Ommaney	41496
+Mudgeeraba	35620
+Mulgrave	32136
+Mundingburra	31564
+Murrumba	35152
+Nanango	25740
+Nicklin	30160
+Noosa	32084
+Nudgee	40040
+Pine Rivers	37492
+Pumicestone	25636
+Redcliffe	31408
+Redlands	33280
+Rockhampton	31408
+Sandgate	37076
+South Brisbane	41912
+Southern Downs	27872
+Southport	29276
+Springwood	39104
+Stafford	44460
+Stretton	31356
+Sunnybank	26260
+Surfers Paradise	35308
+Thuringowa	35568
+Toowoomba North	33852
+Toowoomba South	33956
+Townsville	37024
+Warrego	33644
+Waterford	31512
+Whitsunday	38636
+Woodridge	27248
+Yeerongpilly	40248
+No usual address (Qld)	21164
+Migratory - Offshore - Shipping (Qld)	31512
+Adelaide	34112
+Ashford	35048
+Bragg	43680
+Bright	37128
+Chaffey	28184
+Cheltenham	29692
+Colton	33904
+Croydon	28496
+Davenport	36868
+Dunstan	36868
+Elder	29380
+Enfield	26572
+Finniss	26312
+Fisher	34424
+Flinders	32032
+Florey	29796
+Frome	26572
+Giles	28704
+Goyder (SA)	25636
+Hammond	25792
+Hartley	30160
+Heysen	36712
+Kaurna	30784
+Kavel	34580
+Lee	34060
+Light	32344
+Little Para	25012
+Mackillop	31304
+Mawson	29744
+Mitchell	33332
+Morialta	34060
+Morphett	38896
+Mount Gambier	31512
+Napier	26416
+Newland	34736
+Playford	27404
+Port Adelaide	31356
+Ramsay	24128
+Reynell	26312
+Schubert	32136
+Stuart (SA)	28652
+Taylor	29848
+Torrens	31772
+Unley	41392
+Waite	37752
+West Torrens	31096
+Wright	34268
+No usual address (SA)	19240
+Migratory - Offshore - Shipping (SA)	90948
+Albany (South West)	31772
+Alfred Cove (South Metropolitan)	45344
+Armadale (East Metropolitan)	30992
+Balcatta (North Metropolitan)	39624
+Bassendean (East Metropolitan)	33176
+Bateman (South Metropolitan)	34268
+Belmont (East Metropolitan)	37752
+Bunbury (South West)	32916
+Butler (North Metropolitan)	37700
+Cannington (South Metropolitan)	30576
+Carine (North Metropolitan)	44304
+Central Wheatbelt (Agricultural)	31876
+Churchlands (North Metropolitan)	46696
+Cockburn (South Metropolitan)	41184
+Collie-Preston (South West)	33956
+Cottesloe (North Metropolitan)	52624
+Darling Range (East Metropolitan)	42796
+Dawesville (South West)	29640
+Eyre (Mining and Pastoral)	43524
+Forrestfield (East Metropolitan)	37544
+Fremantle (South Metropolitan)	42276
+Geraldton (Agricultural)	34424
+Girrawheen (North Metropolitan)	34008
+Gosnells (East Metropolitan)	31148
+Hillarys (North Metropolitan)	42692
+Jandakot (South Metropolitan)	41028
+Joondalup (North Metropolitan)	38428
+Kalamunda (East Metropolitan)	34112
+Kalgoorlie (Mining and Pastoral)	45500
+Kimberley (Mining and Pastoral)	38896
+Kingsley (North Metropolitan)	39104
+Kwinana (South Metropolitan)	36400
+Mandurah (South West)	27820
+Maylands (East Metropolitan)	42900
+Midland (East Metropolitan)	34996
+Mirrabooka (East Metropolitan)	28600
+Moore (Agricultural)	32032
+Morley (East Metropolitan)	34476
+Mount Lawley (East Metropolitan)	40560
+Murray-Wellington (South West)	31824
+Nedlands (North Metropolitan)	46488
+North West Central (Mining and Pastoral)	75660
+Ocean Reef (North Metropolitan)	42068
+Perth (North Metropolitan)	51584
+Pilbara (Mining and Pastoral)	76024
+Riverton (South Metropolitan)	33384
+Rockingham (South Metropolitan)	30316
+Scarborough (North Metropolitan)	51220
+South Perth (South Metropolitan)	43368
+Southern River (South Metropolitan)	38584
+Swan Hills (East Metropolitan)	39572
+Vasse (South West)	34164
+Victoria Park (South Metropolitan)	36504
+Wagin (Agricultural)	34112
+Wanneroo (North Metropolitan)	39624
+Warnbro (South Metropolitan)	38584
+Warren-Blackwood (South West)	30732
+West Swan (East Metropolitan)	38428
+Willagee (South Metropolitan)	34112
+No usual address (WA)	22568
+Migratory - Offshore - Shipping (WA)	138008
+Bass (Apsley)	26000
+Bass (Launceston)	32864
+Bass (Rosevears)	33540
+Bass (Windermere)	24544
+Braddon (Mersey)	27196
+Braddon (Montgomery)	26936
+Braddon (Murchison)	27456
+Braddon (Western Tiers)	30680
+Denison (Derwent)	32396
+Denison (Elwick)	28236
+Denison (Hobart)	38272
+Denison (Huon)	37700
+Denison (Nelson)	36244
+Franklin (Derwent)	38792
+Franklin (Huon)	30836
+Franklin (Nelson)	32396
+Franklin (Pembroke)	34164
+Franklin (Rumney)	36400
+Lyons (Apsley)	24960
+Lyons (Derwent)	26364
+Lyons (Rosevears)	25428
+Lyons (Rumney)	29328
+Lyons (Western Tiers)	27196
+No usual address (Tas.)	20020
+Migratory - Offshore - Shipping (Tas.)	56628
+Arafura	12688
+Araluen	54600
+Arnhem	18200
+Barkly	21580
+Blain	53768
+Braitling	52156
+Brennan	57720
+Casuarina	49972
+Daly	24180
+Drysdale	45344
+Fannie Bay	57304
+Fong Lim	62972
+Goyder (NT)	50596
+Johnston	46904
+Karama	43316
+Katherine	47840
+Namatjira	24388
+Nelson	61464
+Nhulunbuy	14976
+Nightcliff	54756
+Port Darwin	62920
+Sanderson	50336
+Spillett	59540
+Stuart (NT)	14508
+Wanguri	55016
+No usual address (NT)	23348
+Migratory - Offshore - Shipping (NT)	36400
+Brindabella	50128
+Ginninderra	47892
+Kurrajong	55536
+Murrumbidgee	53664
+Yerrabi	53144
+No usual address (ACT)	23244
+Migratory - Offshore - Shipping (ACT)	
+Unclassified (OT)	37180
+No usual address (OT)	21424
+Migratory - Offshore - Shipping (OT)	95316

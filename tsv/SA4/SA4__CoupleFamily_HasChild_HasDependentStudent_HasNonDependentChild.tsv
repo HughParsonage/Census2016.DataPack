@@ -1,0 +1,1336 @@
+SA4_NAME16	CoupleFamily	HasChild	HasDependentStudent	HasNonDependentChild	persons_in_families
+Capital Region					1376
+Capital Region	0	0	0	1	6308
+Capital Region	0	0	1	0	1673
+Capital Region	0	0	1	1	820
+Capital Region	0	1	0	0	9694
+Capital Region	0	1	0	1	1113
+Capital Region	0	1	1	0	1997
+Capital Region	0	1	1	1	471
+Capital Region	1	0	0	1	13283
+Capital Region	1	0	1	0	5724
+Capital Region	1	0	1	1	3912
+Capital Region	1	1	0	0	47205
+Capital Region	1	1	0	1	3147
+Capital Region	1	1	1	0	10680
+Capital Region	1	1	1	1	2098
+Central Coast					2480
+Central Coast	0	0	0	1	13715
+Central Coast	0	0	1	0	3205
+Central Coast	0	0	1	1	2212
+Central Coast	0	1	0	0	17179
+Central Coast	0	1	0	1	2482
+Central Coast	0	1	1	0	4010
+Central Coast	0	1	1	1	1055
+Central Coast	1	0	0	1	23892
+Central Coast	1	0	1	0	9242
+Central Coast	1	0	1	1	8482
+Central Coast	1	1	0	0	73365
+Central Coast	1	1	0	1	5724
+Central Coast	1	1	1	0	15903
+Central Coast	1	1	1	1	3639
+Central West					1421
+Central West	0	0	0	1	6119
+Central West	0	0	1	0	1605
+Central West	0	0	1	1	762
+Central West	0	1	0	0	10898
+Central West	0	1	0	1	1166
+Central West	0	1	1	0	2365
+Central West	0	1	1	1	561
+Central West	1	0	0	1	11661
+Central West	1	0	1	0	4569
+Central West	1	0	1	1	3385
+Central West	1	1	0	0	47187
+Central West	1	1	0	1	3058
+Central West	1	1	1	0	10141
+Central West	1	1	1	1	2101
+Coffs Harbour - Grafton					891
+Coffs Harbour - Grafton	0	0	0	1	4855
+Coffs Harbour - Grafton	0	0	1	0	1219
+Coffs Harbour - Grafton	0	0	1	1	743
+Coffs Harbour - Grafton	0	1	0	0	7783
+Coffs Harbour - Grafton	0	1	0	1	1016
+Coffs Harbour - Grafton	0	1	1	0	1866
+Coffs Harbour - Grafton	0	1	1	1	393
+Coffs Harbour - Grafton	1	0	0	1	7902
+Coffs Harbour - Grafton	1	0	1	0	3068
+Coffs Harbour - Grafton	1	0	1	1	2047
+Coffs Harbour - Grafton	1	1	0	0	26301
+Coffs Harbour - Grafton	1	1	0	1	1989
+Coffs Harbour - Grafton	1	1	1	0	6175
+Coffs Harbour - Grafton	1	1	1	1	1270
+Far West and Orana					1085
+Far West and Orana	0	0	0	1	3934
+Far West and Orana	0	0	1	0	764
+Far West and Orana	0	0	1	1	448
+Far West and Orana	0	1	0	0	7988
+Far West and Orana	0	1	0	1	995
+Far West and Orana	0	1	1	0	1466
+Far West and Orana	0	1	1	1	402
+Far West and Orana	1	0	0	1	6081
+Far West and Orana	1	0	1	0	1988
+Far West and Orana	1	0	1	1	1543
+Far West and Orana	1	1	0	0	23396
+Far West and Orana	1	1	0	1	1640
+Far West and Orana	1	1	1	0	4705
+Far West and Orana	1	1	1	1	991
+Hunter Valley exc Newcastle					1803
+Hunter Valley exc Newcastle	0	0	0	1	8608
+Hunter Valley exc Newcastle	0	0	1	0	1984
+Hunter Valley exc Newcastle	0	0	1	1	1311
+Hunter Valley exc Newcastle	0	1	0	0	15445
+Hunter Valley exc Newcastle	0	1	0	1	1805
+Hunter Valley exc Newcastle	0	1	1	0	2985
+Hunter Valley exc Newcastle	0	1	1	1	778
+Hunter Valley exc Newcastle	1	0	0	1	18197
+Hunter Valley exc Newcastle	1	0	1	0	6591
+Hunter Valley exc Newcastle	1	0	1	1	5887
+Hunter Valley exc Newcastle	1	1	0	0	62027
+Hunter Valley exc Newcastle	1	1	0	1	4676
+Hunter Valley exc Newcastle	1	1	1	0	13696
+Hunter Valley exc Newcastle	1	1	1	1	2997
+Illawarra					2366
+Illawarra	0	0	0	1	11213
+Illawarra	0	0	1	0	3007
+Illawarra	0	0	1	1	1866
+Illawarra	0	1	0	0	13066
+Illawarra	0	1	0	1	1745
+Illawarra	0	1	1	0	3333
+Illawarra	0	1	1	1	806
+Illawarra	1	0	0	1	23613
+Illawarra	1	0	1	0	9956
+Illawarra	1	0	1	1	8639
+Illawarra	1	1	0	0	69102
+Illawarra	1	1	0	1	4506
+Illawarra	1	1	1	0	14829
+Illawarra	1	1	1	1	3367
+Mid North Coast					1510
+Mid North Coast	0	0	0	1	7648
+Mid North Coast	0	0	1	0	1887
+Mid North Coast	0	0	1	1	917
+Mid North Coast	0	1	0	0	12094
+Mid North Coast	0	1	0	1	1493
+Mid North Coast	0	1	1	0	2833
+Mid North Coast	0	1	1	1	612
+Mid North Coast	1	0	0	1	11798
+Mid North Coast	1	0	1	0	4588
+Mid North Coast	1	0	1	1	2682
+Mid North Coast	1	1	0	0	36694
+Mid North Coast	1	1	0	1	2870
+Mid North Coast	1	1	1	0	9299
+Mid North Coast	1	1	1	1	1822
+Murray					703
+Murray	0	0	0	1	3060
+Murray	0	0	1	0	831
+Murray	0	0	1	1	421
+Murray	0	1	0	0	5439
+Murray	0	1	0	1	567
+Murray	0	1	1	0	1194
+Murray	0	1	1	1	250
+Murray	1	0	0	1	5801
+Murray	1	0	1	0	2714
+Murray	1	0	1	1	2069
+Murray	1	1	0	0	25442
+Murray	1	1	0	1	1490
+Murray	1	1	1	0	5509
+Murray	1	1	1	1	1123
+New England and North West					1523
+New England and North West	0	0	0	1	5605
+New England and North West	0	0	1	0	1261
+New England and North West	0	0	1	1	625
+New England and North West	0	1	0	0	10865
+New England and North West	0	1	0	1	1321
+New England and North West	0	1	1	0	2170
+New England and North West	0	1	1	1	537
+New England and North West	1	0	0	1	9621
+New England and North West	1	0	1	0	3843
+New England and North West	1	0	1	1	2403
+New England and North West	1	1	0	0	38781
+New England and North West	1	1	0	1	2691
+New England and North West	1	1	1	0	7955
+New England and North West	1	1	1	1	1782
+Newcastle and Lake Macquarie					3087
+Newcastle and Lake Macquarie	0	0	0	1	13870
+Newcastle and Lake Macquarie	0	0	1	0	3723
+Newcastle and Lake Macquarie	0	0	1	1	1960
+Newcastle and Lake Macquarie	0	1	0	0	17194
+Newcastle and Lake Macquarie	0	1	0	1	1999
+Newcastle and Lake Macquarie	0	1	1	0	3843
+Newcastle and Lake Macquarie	0	1	1	1	1021
+Newcastle and Lake Macquarie	1	0	0	1	24946
+Newcastle and Lake Macquarie	1	0	1	0	10870
+Newcastle and Lake Macquarie	1	0	1	1	8184
+Newcastle and Lake Macquarie	1	1	0	0	81447
+Newcastle and Lake Macquarie	1	1	0	1	5342
+Newcastle and Lake Macquarie	1	1	1	0	17132
+Newcastle and Lake Macquarie	1	1	1	1	3072
+Richmond - Tweed					1807
+Richmond - Tweed	0	0	0	1	8654
+Richmond - Tweed	0	0	1	0	2677
+Richmond - Tweed	0	0	1	1	1290
+Richmond - Tweed	0	1	0	0	12567
+Richmond - Tweed	0	1	0	1	1391
+Richmond - Tweed	0	1	1	0	2951
+Richmond - Tweed	0	1	1	1	653
+Richmond - Tweed	1	0	0	1	13576
+Richmond - Tweed	1	0	1	0	5999
+Richmond - Tweed	1	0	1	1	3771
+Richmond - Tweed	1	1	0	0	47464
+Richmond - Tweed	1	1	0	1	3036
+Richmond - Tweed	1	1	1	0	10704
+Richmond - Tweed	1	1	1	1	1864
+Riverina					1235
+Riverina	0	0	0	1	4566
+Riverina	0	0	1	0	995
+Riverina	0	0	1	1	573
+Riverina	0	1	0	0	7742
+Riverina	0	1	0	1	1015
+Riverina	0	1	1	0	1726
+Riverina	0	1	1	1	399
+Riverina	1	0	0	1	9088
+Riverina	1	0	1	0	3470
+Riverina	1	0	1	1	2554
+Riverina	1	1	0	0	36018
+Riverina	1	1	0	1	2628
+Riverina	1	1	1	0	8125
+Riverina	1	1	1	1	1847
+Southern Highlands and Shoalhaven					874
+Southern Highlands and Shoalhaven	0	0	0	1	4863
+Southern Highlands and Shoalhaven	0	0	1	0	1207
+Southern Highlands and Shoalhaven	0	0	1	1	675
+Southern Highlands and Shoalhaven	0	1	0	0	6778
+Southern Highlands and Shoalhaven	0	1	0	1	944
+Southern Highlands and Shoalhaven	0	1	1	0	1577
+Southern Highlands and Shoalhaven	0	1	1	1	383
+Southern Highlands and Shoalhaven	1	0	0	1	8966
+Southern Highlands and Shoalhaven	1	0	1	0	3253
+Southern Highlands and Shoalhaven	1	0	1	1	2409
+Southern Highlands and Shoalhaven	1	1	0	0	28960
+Southern Highlands and Shoalhaven	1	1	0	1	2167
+Southern Highlands and Shoalhaven	1	1	1	0	6133
+Southern Highlands and Shoalhaven	1	1	1	1	1522
+Sydney - Baulkham Hills and Hawkesbury					1115
+Sydney - Baulkham Hills and Hawkesbury	0	0	0	1	5841
+Sydney - Baulkham Hills and Hawkesbury	0	0	1	0	1889
+Sydney - Baulkham Hills and Hawkesbury	0	0	1	1	1329
+Sydney - Baulkham Hills and Hawkesbury	0	1	0	0	4937
+Sydney - Baulkham Hills and Hawkesbury	0	1	0	1	625
+Sydney - Baulkham Hills and Hawkesbury	0	1	1	0	1737
+Sydney - Baulkham Hills and Hawkesbury	0	1	1	1	365
+Sydney - Baulkham Hills and Hawkesbury	1	0	0	1	24594
+Sydney - Baulkham Hills and Hawkesbury	1	0	1	0	13712
+Sydney - Baulkham Hills and Hawkesbury	1	0	1	1	11488
+Sydney - Baulkham Hills and Hawkesbury	1	1	0	0	69432
+Sydney - Baulkham Hills and Hawkesbury	1	1	0	1	3725
+Sydney - Baulkham Hills and Hawkesbury	1	1	1	0	18707
+Sydney - Baulkham Hills and Hawkesbury	1	1	1	1	3516
+Sydney - Blacktown					3213
+Sydney - Blacktown	0	0	0	1	13729
+Sydney - Blacktown	0	0	1	0	3092
+Sydney - Blacktown	0	0	1	1	2723
+Sydney - Blacktown	0	1	0	0	16602
+Sydney - Blacktown	0	1	0	1	2964
+Sydney - Blacktown	0	1	1	0	4546
+Sydney - Blacktown	0	1	1	1	1654
+Sydney - Blacktown	1	0	0	1	30551
+Sydney - Blacktown	1	0	1	0	13229
+Sydney - Blacktown	1	0	1	1	13041
+Sydney - Blacktown	1	1	0	0	103441
+Sydney - Blacktown	1	1	0	1	7172
+Sydney - Blacktown	1	1	1	0	23407
+Sydney - Blacktown	1	1	1	1	6114
+Sydney - City and Inner South					5107
+Sydney - City and Inner South	0	0	0	1	7282
+Sydney - City and Inner South	0	0	1	0	2452
+Sydney - City and Inner South	0	0	1	1	851
+Sydney - City and Inner South	0	1	0	0	6424
+Sydney - City and Inner South	0	1	0	1	667
+Sydney - City and Inner South	0	1	1	0	1198
+Sydney - City and Inner South	0	1	1	1	264
+Sydney - City and Inner South	1	0	0	1	9802
+Sydney - City and Inner South	1	0	1	0	5199
+Sydney - City and Inner South	1	0	1	1	3124
+Sydney - City and Inner South	1	1	0	0	48204
+Sydney - City and Inner South	1	1	0	1	1202
+Sydney - City and Inner South	1	1	1	0	5616
+Sydney - City and Inner South	1	1	1	1	741
+Sydney - Eastern Suburbs					3343
+Sydney - Eastern Suburbs	0	0	0	1	6714
+Sydney - Eastern Suburbs	0	0	1	0	2606
+Sydney - Eastern Suburbs	0	0	1	1	1012
+Sydney - Eastern Suburbs	0	1	0	0	6611
+Sydney - Eastern Suburbs	0	1	0	1	449
+Sydney - Eastern Suburbs	0	1	1	0	1332
+Sydney - Eastern Suburbs	0	1	1	1	208
+Sydney - Eastern Suburbs	1	0	0	1	12191
+Sydney - Eastern Suburbs	1	0	1	0	9165
+Sydney - Eastern Suburbs	1	0	1	1	5188
+Sydney - Eastern Suburbs	1	1	0	0	61895
+Sydney - Eastern Suburbs	1	1	0	1	1153
+Sydney - Eastern Suburbs	1	1	1	0	10593
+Sydney - Eastern Suburbs	1	1	1	1	982
+Sydney - Inner South West					7236
+Sydney - Inner South West	0	0	0	1	24168
+Sydney - Inner South West	0	0	1	0	6632
+Sydney - Inner South West	0	0	1	1	4346
+Sydney - Inner South West	0	1	0	0	20005
+Sydney - Inner South West	0	1	0	1	2631
+Sydney - Inner South West	0	1	1	0	5654
+Sydney - Inner South West	0	1	1	1	1785
+Sydney - Inner South West	1	0	0	1	51364
+Sydney - Inner South West	1	0	1	0	22661
+Sydney - Inner South West	1	0	1	1	19942
+Sydney - Inner South West	1	1	0	0	149670
+Sydney - Inner South West	1	1	0	1	8288
+Sydney - Inner South West	1	1	1	0	34325
+Sydney - Inner South West	1	1	1	1	8361
+Sydney - Inner West					3872
+Sydney - Inner West	0	0	0	1	9217
+Sydney - Inner West	0	0	1	0	3521
+Sydney - Inner West	0	0	1	1	1396
+Sydney - Inner West	0	1	0	0	7576
+Sydney - Inner West	0	1	0	1	501
+Sydney - Inner West	0	1	1	0	1740
+Sydney - Inner West	0	1	1	1	171
+Sydney - Inner West	1	0	0	1	18790
+Sydney - Inner West	1	0	1	0	11533
+Sydney - Inner West	1	0	1	1	7554
+Sydney - Inner West	1	1	0	0	74734
+Sydney - Inner West	1	1	0	1	1643
+Sydney - Inner West	1	1	1	0	12074
+Sydney - Inner West	1	1	1	1	1468
+Sydney - North Sydney and Hornsby					3604
+Sydney - North Sydney and Hornsby	0	0	0	1	9519
+Sydney - North Sydney and Hornsby	0	0	1	0	4825
+Sydney - North Sydney and Hornsby	0	0	1	1	2067
+Sydney - North Sydney and Hornsby	0	1	0	0	9143
+Sydney - North Sydney and Hornsby	0	1	0	1	467
+Sydney - North Sydney and Hornsby	0	1	1	0	2795
+Sydney - North Sydney and Hornsby	0	1	1	1	255
+Sydney - North Sydney and Hornsby	1	0	0	1	23458
+Sydney - North Sydney and Hornsby	1	0	1	0	23465
+Sydney - North Sydney and Hornsby	1	0	1	1	12366
+Sydney - North Sydney and Hornsby	1	1	0	0	120052
+Sydney - North Sydney and Hornsby	1	1	0	1	2241
+Sydney - North Sydney and Hornsby	1	1	1	0	23990
+Sydney - North Sydney and Hornsby	1	1	1	1	2304
+Sydney - Northern Beaches					1586
+Sydney - Northern Beaches	0	0	0	1	6955
+Sydney - Northern Beaches	0	0	1	0	2231
+Sydney - Northern Beaches	0	0	1	1	1446
+Sydney - Northern Beaches	0	1	0	0	6181
+Sydney - Northern Beaches	0	1	0	1	527
+Sydney - Northern Beaches	0	1	1	0	1748
+Sydney - Northern Beaches	0	1	1	1	252
+Sydney - Northern Beaches	1	0	0	1	17412
+Sydney - Northern Beaches	1	0	1	0	11068
+Sydney - Northern Beaches	1	0	1	1	8076
+Sydney - Northern Beaches	1	1	0	0	76563
+Sydney - Northern Beaches	1	1	0	1	2295
+Sydney - Northern Beaches	1	1	1	0	15272
+Sydney - Northern Beaches	1	1	1	1	1995
+Sydney - Outer South West					1968
+Sydney - Outer South West	0	0	0	1	10544
+Sydney - Outer South West	0	0	1	0	2301
+Sydney - Outer South West	0	0	1	1	1925
+Sydney - Outer South West	0	1	0	0	14084
+Sydney - Outer South West	0	1	0	1	2314
+Sydney - Outer South West	0	1	1	0	3561
+Sydney - Outer South West	0	1	1	1	1196
+Sydney - Outer South West	1	0	0	1	24981
+Sydney - Outer South West	1	0	1	0	8538
+Sydney - Outer South West	1	0	1	1	8868
+Sydney - Outer South West	1	1	0	0	71367
+Sydney - Outer South West	1	1	0	1	7247
+Sydney - Outer South West	1	1	1	0	16263
+Sydney - Outer South West	1	1	1	1	4937
+Sydney - Outer West and Blue Mountains					2409
+Sydney - Outer West and Blue Mountains	0	0	0	1	12450
+Sydney - Outer West and Blue Mountains	0	0	1	0	2913
+Sydney - Outer West and Blue Mountains	0	0	1	1	2014
+Sydney - Outer West and Blue Mountains	0	1	0	0	15979
+Sydney - Outer West and Blue Mountains	0	1	0	1	2059
+Sydney - Outer West and Blue Mountains	0	1	1	0	3552
+Sydney - Outer West and Blue Mountains	0	1	1	1	1029
+Sydney - Outer West and Blue Mountains	1	0	0	1	27214
+Sydney - Outer West and Blue Mountains	1	0	1	0	9404
+Sydney - Outer West and Blue Mountains	1	0	1	1	9452
+Sydney - Outer West and Blue Mountains	1	1	0	0	77621
+Sydney - Outer West and Blue Mountains	1	1	0	1	6554
+Sydney - Outer West and Blue Mountains	1	1	1	0	16897
+Sydney - Outer West and Blue Mountains	1	1	1	1	4648
+Sydney - Parramatta					5573
+Sydney - Parramatta	0	0	0	1	16374
+Sydney - Parramatta	0	0	1	0	4426
+Sydney - Parramatta	0	0	1	1	2964
+Sydney - Parramatta	0	1	0	0	14694
+Sydney - Parramatta	0	1	0	1	1788
+Sydney - Parramatta	0	1	1	0	4137
+Sydney - Parramatta	0	1	1	1	1391
+Sydney - Parramatta	1	0	0	1	34844
+Sydney - Parramatta	1	0	1	0	16758
+Sydney - Parramatta	1	0	1	1	14419
+Sydney - Parramatta	1	1	0	0	131667
+Sydney - Parramatta	1	1	0	1	6097
+Sydney - Parramatta	1	1	1	0	25321
+Sydney - Parramatta	1	1	1	1	6580
+Sydney - Ryde					2074
+Sydney - Ryde	0	0	0	1	5351
+Sydney - Ryde	0	0	1	0	2029
+Sydney - Ryde	0	0	1	1	948
+Sydney - Ryde	0	1	0	0	4227
+Sydney - Ryde	0	1	0	1	295
+Sydney - Ryde	0	1	1	0	1050
+Sydney - Ryde	0	1	1	1	117
+Sydney - Ryde	1	0	0	1	13742
+Sydney - Ryde	1	0	1	0	10083
+Sydney - Ryde	1	0	1	1	6635
+Sydney - Ryde	1	1	0	0	50333
+Sydney - Ryde	1	1	0	1	1142
+Sydney - Ryde	1	1	1	0	10163
+Sydney - Ryde	1	1	1	1	1119
+Sydney - South West					4352
+Sydney - South West	0	0	0	1	19748
+Sydney - South West	0	0	1	0	4807
+Sydney - South West	0	0	1	1	4181
+Sydney - South West	0	1	0	0	19713
+Sydney - South West	0	1	0	1	3277
+Sydney - South West	0	1	1	0	5986
+Sydney - South West	0	1	1	1	1920
+Sydney - South West	1	0	0	1	44875
+Sydney - South West	1	0	1	0	16155
+Sydney - South West	1	0	1	1	19085
+Sydney - South West	1	1	0	0	103288
+Sydney - South West	1	1	0	1	9343
+Sydney - South West	1	1	1	0	30569
+Sydney - South West	1	1	1	1	8677
+Sydney - Sutherland					1503
+Sydney - Sutherland	0	0	0	1	7369
+Sydney - Sutherland	0	0	1	0	2004
+Sydney - Sutherland	0	0	1	1	1458
+Sydney - Sutherland	0	1	0	0	6320
+Sydney - Sutherland	0	1	0	1	660
+Sydney - Sutherland	0	1	1	0	1626
+Sydney - Sutherland	0	1	1	1	313
+Sydney - Sutherland	1	0	0	1	21368
+Sydney - Sutherland	1	0	1	0	9229
+Sydney - Sutherland	1	0	1	1	8954
+Sydney - Sutherland	1	1	0	0	61286
+Sydney - Sutherland	1	1	0	1	2673
+Sydney - Sutherland	1	1	1	0	12736
+Sydney - Sutherland	1	1	1	1	2461
+Ballarat					1097
+Ballarat	0	0	0	1	4878
+Ballarat	0	0	1	0	1533
+Ballarat	0	0	1	1	886
+Ballarat	0	1	0	0	7657
+Ballarat	0	1	0	1	911
+Ballarat	0	1	1	0	1724
+Ballarat	0	1	1	1	406
+Ballarat	1	0	0	1	8841
+Ballarat	1	0	1	0	4225
+Ballarat	1	0	1	1	3370
+Ballarat	1	1	0	0	34934
+Ballarat	1	1	0	1	1865
+Ballarat	1	1	1	0	7744
+Ballarat	1	1	1	1	1431
+Bendigo					1245
+Bendigo	0	0	0	1	4724
+Bendigo	0	0	1	0	1557
+Bendigo	0	0	1	1	843
+Bendigo	0	1	0	0	7287
+Bendigo	0	1	0	1	765
+Bendigo	0	1	1	0	1934
+Bendigo	0	1	1	1	384
+Bendigo	1	0	0	1	8365
+Bendigo	1	0	1	0	4546
+Bendigo	1	0	1	1	2784
+Bendigo	1	1	0	0	34370
+Bendigo	1	1	0	1	1799
+Bendigo	1	1	1	0	7530
+Bendigo	1	1	1	1	1544
+Geelong					2027
+Geelong	0	0	0	1	8697
+Geelong	0	0	1	0	2929
+Geelong	0	0	1	1	1711
+Geelong	0	1	0	0	11773
+Geelong	0	1	0	1	1244
+Geelong	0	1	1	0	3111
+Geelong	0	1	1	1	699
+Geelong	1	0	0	1	16811
+Geelong	1	0	1	0	9365
+Geelong	1	0	1	1	6893
+Geelong	1	1	0	0	68051
+Geelong	1	1	0	1	2813
+Geelong	1	1	1	0	14011
+Geelong	1	1	1	1	2400
+Hume					1061
+Hume	0	0	0	1	4586
+Hume	0	0	1	0	1486
+Hume	0	0	1	1	767
+Hume	0	1	0	0	7893
+Hume	0	1	0	1	818
+Hume	0	1	1	0	1889
+Hume	0	1	1	1	360
+Hume	1	0	0	1	9292
+Hume	1	0	1	0	4449
+Hume	1	0	1	1	2943
+Hume	1	1	0	0	36589
+Hume	1	1	0	1	1930
+Hume	1	1	1	0	8114
+Hume	1	1	1	1	1516
+Latrobe - Gippsland					1654
+Latrobe - Gippsland	0	0	0	1	7617
+Latrobe - Gippsland	0	0	1	0	2481
+Latrobe - Gippsland	0	0	1	1	1316
+Latrobe - Gippsland	0	1	0	0	12946
+Latrobe - Gippsland	0	1	0	1	1355
+Latrobe - Gippsland	0	1	1	0	3043
+Latrobe - Gippsland	0	1	1	1	718
+Latrobe - Gippsland	1	0	0	1	15491
+Latrobe - Gippsland	1	0	1	0	7127
+Latrobe - Gippsland	1	0	1	1	4889
+Latrobe - Gippsland	1	1	0	0	56332
+Latrobe - Gippsland	1	1	0	1	3068
+Latrobe - Gippsland	1	1	1	0	12453
+Latrobe - Gippsland	1	1	1	1	2381
+Melbourne - Inner					11227
+Melbourne - Inner	0	0	0	1	12970
+Melbourne - Inner	0	0	1	0	5657
+Melbourne - Inner	0	0	1	1	1892
+Melbourne - Inner	0	1	0	0	13046
+Melbourne - Inner	0	1	0	1	655
+Melbourne - Inner	0	1	1	0	2998
+Melbourne - Inner	0	1	1	1	436
+Melbourne - Inner	1	0	0	1	18929
+Melbourne - Inner	1	0	1	0	15313
+Melbourne - Inner	1	0	1	1	8090
+Melbourne - Inner	1	1	0	0	103272
+Melbourne - Inner	1	1	0	1	1841
+Melbourne - Inner	1	1	1	0	15834
+Melbourne - Inner	1	1	1	1	1443
+Melbourne - Inner East					4146
+Melbourne - Inner East	0	0	0	1	10283
+Melbourne - Inner East	0	0	1	0	5175
+Melbourne - Inner East	0	0	1	1	2146
+Melbourne - Inner East	0	1	0	0	8266
+Melbourne - Inner East	0	1	0	1	471
+Melbourne - Inner East	0	1	1	0	3009
+Melbourne - Inner East	0	1	1	1	366
+Melbourne - Inner East	1	0	0	1	25173
+Melbourne - Inner East	1	0	1	0	23928
+Melbourne - Inner East	1	0	1	1	13122
+Melbourne - Inner East	1	1	0	0	90415
+Melbourne - Inner East	1	1	0	1	1902
+Melbourne - Inner East	1	1	1	0	22833
+Melbourne - Inner East	1	1	1	1	1873
+Melbourne - Inner South					3754
+Melbourne - Inner South	0	0	0	1	11466
+Melbourne - Inner South	0	0	1	0	5001
+Melbourne - Inner South	0	0	1	1	2269
+Melbourne - Inner South	0	1	0	0	10276
+Melbourne - Inner South	0	1	0	1	675
+Melbourne - Inner South	0	1	1	0	3059
+Melbourne - Inner South	0	1	1	1	342
+Melbourne - Inner South	1	0	0	1	24324
+Melbourne - Inner South	1	0	1	0	21593
+Melbourne - Inner South	1	0	1	1	12646
+Melbourne - Inner South	1	1	0	0	112768
+Melbourne - Inner South	1	1	0	1	2396
+Melbourne - Inner South	1	1	1	0	23822
+Melbourne - Inner South	1	1	1	1	2468
+Melbourne - North East					4898
+Melbourne - North East	0	0	0	1	18315
+Melbourne - North East	0	0	1	0	4999
+Melbourne - North East	0	0	1	1	3568
+Melbourne - North East	0	1	0	0	17481
+Melbourne - North East	0	1	0	1	2190
+Melbourne - North East	0	1	1	0	4393
+Melbourne - North East	0	1	1	1	1105
+Melbourne - North East	1	0	0	1	42072
+Melbourne - North East	1	0	1	0	19892
+Melbourne - North East	1	0	1	1	17616
+Melbourne - North East	1	1	0	0	139264
+Melbourne - North East	1	1	0	1	6210
+Melbourne - North East	1	1	1	0	28281
+Melbourne - North East	1	1	1	1	5062
+Melbourne - North West					3464
+Melbourne - North West	0	0	0	1	14590
+Melbourne - North West	0	0	1	0	3530
+Melbourne - North West	0	0	1	1	3085
+Melbourne - North West	0	1	0	0	13335
+Melbourne - North West	0	1	0	1	1853
+Melbourne - North West	0	1	1	0	4223
+Melbourne - North West	0	1	1	1	1198
+Melbourne - North West	1	0	0	1	31491
+Melbourne - North West	1	0	1	0	13585
+Melbourne - North West	1	0	1	1	13911
+Melbourne - North West	1	1	0	0	101332
+Melbourne - North West	1	1	0	1	5823
+Melbourne - North West	1	1	1	0	23940
+Melbourne - North West	1	1	1	1	6267
+Melbourne - Outer East					3796
+Melbourne - Outer East	0	0	0	1	17685
+Melbourne - Outer East	0	0	1	0	5854
+Melbourne - Outer East	0	0	1	1	3902
+Melbourne - Outer East	0	1	0	0	16035
+Melbourne - Outer East	0	1	0	1	1828
+Melbourne - Outer East	0	1	1	0	4696
+Melbourne - Outer East	0	1	1	1	1065
+Melbourne - Outer East	1	0	0	1	44469
+Melbourne - Outer East	1	0	1	0	23005
+Melbourne - Outer East	1	0	1	1	19663
+Melbourne - Outer East	1	1	0	0	131410
+Melbourne - Outer East	1	1	0	1	5621
+Melbourne - Outer East	1	1	1	0	30226
+Melbourne - Outer East	1	1	1	1	5235
+Melbourne - South East					7787
+Melbourne - South East	0	0	0	1	26254
+Melbourne - South East	0	0	1	0	8312
+Melbourne - South East	0	0	1	1	5534
+Melbourne - South East	0	1	0	0	27709
+Melbourne - South East	0	1	0	1	3625
+Melbourne - South East	0	1	1	0	8685
+Melbourne - South East	0	1	1	1	2458
+Melbourne - South East	1	0	0	1	60026
+Melbourne - South East	1	0	1	0	32825
+Melbourne - South East	1	0	1	1	26917
+Melbourne - South East	1	1	0	0	212970
+Melbourne - South East	1	1	0	1	10502
+Melbourne - South East	1	1	1	0	48405
+Melbourne - South East	1	1	1	1	10527
+Melbourne - West					7770
+Melbourne - West	0	0	0	1	26416
+Melbourne - West	0	0	1	0	7482
+Melbourne - West	0	0	1	1	5820
+Melbourne - West	0	1	0	0	32814
+Melbourne - West	0	1	0	1	3843
+Melbourne - West	0	1	1	0	9636
+Melbourne - West	0	1	1	1	2818
+Melbourne - West	1	0	0	1	53463
+Melbourne - West	1	0	1	0	25398
+Melbourne - West	1	0	1	1	22584
+Melbourne - West	1	1	0	0	217880
+Melbourne - West	1	1	0	1	10313
+Melbourne - West	1	1	1	0	42262
+Melbourne - West	1	1	1	1	9436
+Mornington Peninsula					2084
+Mornington Peninsula	0	0	0	1	10861
+Mornington Peninsula	0	0	1	0	3178
+Mornington Peninsula	0	0	1	1	2082
+Mornington Peninsula	0	1	0	0	12949
+Mornington Peninsula	0	1	0	1	1462
+Mornington Peninsula	0	1	1	0	3153
+Mornington Peninsula	0	1	1	1	686
+Mornington Peninsula	1	0	0	1	20491
+Mornington Peninsula	1	0	1	0	8883
+Mornington Peninsula	1	0	1	1	7471
+Mornington Peninsula	1	1	0	0	67460
+Mornington Peninsula	1	1	0	1	3863
+Mornington Peninsula	1	1	1	0	13930
+Mornington Peninsula	1	1	1	1	2619
+North West					1118
+North West	0	0	0	1	4076
+North West	0	0	1	0	1183
+North West	0	0	1	1	572
+North West	0	1	0	0	6964
+North West	0	1	0	1	640
+North West	0	1	1	0	1646
+North West	0	1	1	1	374
+North West	1	0	0	1	8091
+North West	1	0	1	0	3998
+North West	1	0	1	1	2683
+North West	1	1	0	0	30724
+North West	1	1	0	1	1839
+North West	1	1	1	0	7777
+North West	1	1	1	1	1565
+Shepparton					804
+Shepparton	0	0	0	1	3755
+Shepparton	0	0	1	0	1077
+Shepparton	0	0	1	1	655
+Shepparton	0	1	0	0	6280
+Shepparton	0	1	0	1	659
+Shepparton	0	1	1	0	1597
+Shepparton	0	1	1	1	376
+Shepparton	1	0	0	1	7681
+Shepparton	1	0	1	0	3481
+Shepparton	1	0	1	1	2669
+Shepparton	1	1	0	0	27926
+Shepparton	1	1	0	1	1745
+Shepparton	1	1	1	0	7320
+Shepparton	1	1	1	1	1668
+Warrnambool and South West					868
+Warrnambool and South West	0	0	0	1	3515
+Warrnambool and South West	0	0	1	0	985
+Warrnambool and South West	0	0	1	1	571
+Warrnambool and South West	0	1	0	0	4966
+Warrnambool and South West	0	1	0	1	545
+Warrnambool and South West	0	1	1	0	1173
+Warrnambool and South West	0	1	1	1	309
+Warrnambool and South West	1	0	0	1	7014
+Warrnambool and South West	1	0	1	0	3266
+Warrnambool and South West	1	0	1	1	2576
+Warrnambool and South West	1	1	0	0	26803
+Warrnambool and South West	1	1	0	1	1373
+Warrnambool and South West	1	1	1	0	6308
+Warrnambool and South West	1	1	1	1	1322
+Brisbane - East					1688
+Brisbane - East	0	0	0	1	7383
+Brisbane - East	0	0	1	0	2098
+Brisbane - East	0	0	1	1	1306
+Brisbane - East	0	1	0	0	10091
+Brisbane - East	0	1	0	1	1161
+Brisbane - East	0	1	1	0	2210
+Brisbane - East	0	1	1	1	562
+Brisbane - East	1	0	0	1	16610
+Brisbane - East	1	0	1	0	8420
+Brisbane - East	1	0	1	1	6400
+Brisbane - East	1	1	0	0	57820
+Brisbane - East	1	1	0	1	3486
+Brisbane - East	1	1	1	0	12764
+Brisbane - East	1	1	1	1	2479
+Brisbane - North					2633
+Brisbane - North	0	0	0	1	7245
+Brisbane - North	0	0	1	0	1991
+Brisbane - North	0	0	1	1	1160
+Brisbane - North	0	1	0	0	7803
+Brisbane - North	0	1	0	1	889
+Brisbane - North	0	1	1	0	1741
+Brisbane - North	0	1	1	1	464
+Brisbane - North	1	0	0	1	12267
+Brisbane - North	1	0	1	0	7076
+Brisbane - North	1	0	1	1	4617
+Brisbane - North	1	1	0	0	54238
+Brisbane - North	1	1	0	1	2272
+Brisbane - North	1	1	1	0	9795
+Brisbane - North	1	1	1	1	1792
+Brisbane - South					4507
+Brisbane - South	0	0	0	1	10155
+Brisbane - South	0	0	1	0	3545
+Brisbane - South	0	0	1	1	1823
+Brisbane - South	0	1	0	0	11216
+Brisbane - South	0	1	0	1	1243
+Brisbane - South	0	1	1	0	2866
+Brisbane - South	0	1	1	1	763
+Brisbane - South	1	0	0	1	20158
+Brisbane - South	1	0	1	0	13832
+Brisbane - South	1	0	1	1	8869
+Brisbane - South	1	1	0	0	89992
+Brisbane - South	1	1	0	1	3497
+Brisbane - South	1	1	1	0	18078
+Brisbane - South	1	1	1	1	3280
+Brisbane - West					1791
+Brisbane - West	0	0	0	1	4130
+Brisbane - West	0	0	1	0	2128
+Brisbane - West	0	0	1	1	907
+Brisbane - West	0	1	0	0	5124
+Brisbane - West	0	1	0	1	409
+Brisbane - West	0	1	1	0	1631
+Brisbane - West	0	1	1	1	230
+Brisbane - West	1	0	0	1	10602
+Brisbane - West	1	0	1	0	9708
+Brisbane - West	1	0	1	1	5105
+Brisbane - West	1	1	0	0	49828
+Brisbane - West	1	1	0	1	1554
+Brisbane - West	1	1	1	0	11432
+Brisbane - West	1	1	1	1	1392
+Brisbane Inner City					3872
+Brisbane Inner City	0	0	0	1	4382
+Brisbane Inner City	0	0	1	0	2459
+Brisbane Inner City	0	0	1	1	759
+Brisbane Inner City	0	1	0	0	5623
+Brisbane Inner City	0	1	0	1	274
+Brisbane Inner City	0	1	1	0	1402
+Brisbane Inner City	0	1	1	1	152
+Brisbane Inner City	1	0	0	1	7502
+Brisbane Inner City	1	0	1	0	8544
+Brisbane Inner City	1	0	1	1	3770
+Brisbane Inner City	1	1	0	0	52144
+Brisbane Inner City	1	1	0	1	914
+Brisbane Inner City	1	1	1	0	9406
+Brisbane Inner City	1	1	1	1	760
+Cairns					2032
+Cairns	0	0	0	1	7184
+Cairns	0	0	1	0	2037
+Cairns	0	0	1	1	1027
+Cairns	0	1	0	0	15089
+Cairns	0	1	0	1	1998
+Cairns	0	1	1	0	2787
+Cairns	0	1	1	1	814
+Cairns	1	0	0	1	11588
+Cairns	1	0	1	0	4925
+Cairns	1	0	1	1	3225
+Cairns	1	1	0	0	52858
+Cairns	1	1	0	1	4074
+Cairns	1	1	1	0	10557
+Cairns	1	1	1	1	2664
+Darling Downs - Maranoa					855
+Darling Downs - Maranoa	0	0	0	1	3099
+Darling Downs - Maranoa	0	0	1	0	591
+Darling Downs - Maranoa	0	0	1	1	324
+Darling Downs - Maranoa	0	1	0	0	6269
+Darling Downs - Maranoa	0	1	0	1	804
+Darling Downs - Maranoa	0	1	1	0	1173
+Darling Downs - Maranoa	0	1	1	1	305
+Darling Downs - Maranoa	1	0	0	1	6822
+Darling Downs - Maranoa	1	0	1	0	2365
+Darling Downs - Maranoa	1	0	1	1	1882
+Darling Downs - Maranoa	1	1	0	0	29793
+Darling Downs - Maranoa	1	1	0	1	2039
+Darling Downs - Maranoa	1	1	1	0	6098
+Darling Downs - Maranoa	1	1	1	1	1522
+Central Queensland					1624
+Central Queensland	0	0	0	1	5600
+Central Queensland	0	0	1	0	1325
+Central Queensland	0	0	1	1	738
+Central Queensland	0	1	0	0	11693
+Central Queensland	0	1	0	1	1290
+Central Queensland	0	1	1	0	2364
+Central Queensland	0	1	1	1	491
+Central Queensland	1	0	0	1	12072
+Central Queensland	1	0	1	0	4619
+Central Queensland	1	0	1	1	3396
+Central Queensland	1	1	0	0	57357
+Central Queensland	1	1	0	1	3807
+Central Queensland	1	1	1	0	10896
+Central Queensland	1	1	1	1	2413
+Gold Coast					4426
+Gold Coast	0	0	0	1	18723
+Gold Coast	0	0	1	0	5894
+Gold Coast	0	0	1	1	3005
+Gold Coast	0	1	0	0	26915
+Gold Coast	0	1	0	1	2931
+Gold Coast	0	1	1	0	6025
+Gold Coast	0	1	1	1	1425
+Gold Coast	1	0	0	1	34052
+Gold Coast	1	0	1	0	17480
+Gold Coast	1	0	1	1	12009
+Gold Coast	1	1	0	0	133706
+Gold Coast	1	1	0	1	8844
+Gold Coast	1	1	1	0	26109
+Gold Coast	1	1	1	1	5232
+Ipswich					3077
+Ipswich	0	0	0	1	11001
+Ipswich	0	0	1	0	2901
+Ipswich	0	0	1	1	2077
+Ipswich	0	1	0	0	20872
+Ipswich	0	1	0	1	2856
+Ipswich	0	1	1	0	4954
+Ipswich	0	1	1	1	1612
+Ipswich	1	0	0	1	19930
+Ipswich	1	0	1	0	8469
+Ipswich	1	0	1	1	6892
+Ipswich	1	1	0	0	83335
+Ipswich	1	1	0	1	6847
+Ipswich	1	1	1	0	17749
+Ipswich	1	1	1	1	5618
+Logan - Beaudesert					2779
+Logan - Beaudesert	0	0	0	1	11415
+Logan - Beaudesert	0	0	1	0	2663
+Logan - Beaudesert	0	0	1	1	2102
+Logan - Beaudesert	0	1	0	0	20928
+Logan - Beaudesert	0	1	0	1	3028
+Logan - Beaudesert	0	1	1	0	4530
+Logan - Beaudesert	0	1	1	1	1528
+Logan - Beaudesert	1	0	0	1	24035
+Logan - Beaudesert	1	0	1	0	7962
+Logan - Beaudesert	1	0	1	1	7734
+Logan - Beaudesert	1	1	0	0	80974
+Logan - Beaudesert	1	1	0	1	7925
+Logan - Beaudesert	1	1	1	0	17532
+Logan - Beaudesert	1	1	1	1	5696
+Mackay - Isaac - Whitsunday					1056
+Mackay - Isaac - Whitsunday	0	0	0	1	3642
+Mackay - Isaac - Whitsunday	0	0	1	0	938
+Mackay - Isaac - Whitsunday	0	0	1	1	535
+Mackay - Isaac - Whitsunday	0	1	0	0	8402
+Mackay - Isaac - Whitsunday	0	1	0	1	967
+Mackay - Isaac - Whitsunday	0	1	1	0	1559
+Mackay - Isaac - Whitsunday	0	1	1	1	330
+Mackay - Isaac - Whitsunday	1	0	0	1	9125
+Mackay - Isaac - Whitsunday	1	0	1	0	3637
+Mackay - Isaac - Whitsunday	1	0	1	1	2493
+Mackay - Isaac - Whitsunday	1	1	0	0	43117
+Mackay - Isaac - Whitsunday	1	1	0	1	2870
+Mackay - Isaac - Whitsunday	1	1	1	0	7745
+Mackay - Isaac - Whitsunday	1	1	1	1	1661
+Moreton Bay - North					1750
+Moreton Bay - North	0	0	0	1	8554
+Moreton Bay - North	0	0	1	0	2208
+Moreton Bay - North	0	0	1	1	1275
+Moreton Bay - North	0	1	0	0	14919
+Moreton Bay - North	0	1	0	1	1995
+Moreton Bay - North	0	1	1	0	3081
+Moreton Bay - North	0	1	1	1	820
+Moreton Bay - North	1	0	0	1	16193
+Moreton Bay - North	1	0	1	0	5783
+Moreton Bay - North	1	0	1	1	4794
+Moreton Bay - North	1	1	0	0	50191
+Moreton Bay - North	1	1	0	1	4935
+Moreton Bay - North	1	1	1	0	11313
+Moreton Bay - North	1	1	1	1	3082
+Moreton Bay - South					1340
+Moreton Bay - South	0	0	0	1	5194
+Moreton Bay - South	0	0	1	0	1732
+Moreton Bay - South	0	0	1	1	986
+Moreton Bay - South	0	1	0	0	9774
+Moreton Bay - South	0	1	0	1	970
+Moreton Bay - South	0	1	1	0	2119
+Moreton Bay - South	0	1	1	1	527
+Moreton Bay - South	1	0	0	1	13639
+Moreton Bay - South	1	0	1	0	7126
+Moreton Bay - South	1	0	1	1	5514
+Moreton Bay - South	1	1	0	0	60583
+Moreton Bay - South	1	1	0	1	3464
+Moreton Bay - South	1	1	1	0	11954
+Moreton Bay - South	1	1	1	1	2433
+Queensland - Outback					979
+Queensland - Outback	0	0	0	1	2247
+Queensland - Outback	0	0	1	0	261
+Queensland - Outback	0	0	1	1	162
+Queensland - Outback	0	1	0	0	5658
+Queensland - Outback	0	1	0	1	1235
+Queensland - Outback	0	1	1	0	683
+Queensland - Outback	0	1	1	1	373
+Queensland - Outback	1	0	0	1	3698
+Queensland - Outback	1	0	1	0	806
+Queensland - Outback	1	0	1	1	641
+Queensland - Outback	1	1	0	0	19721
+Queensland - Outback	1	1	0	1	2759
+Queensland - Outback	1	1	1	0	2628
+Queensland - Outback	1	1	1	1	1033
+Sunshine Coast					2141
+Sunshine Coast	0	0	0	1	10382
+Sunshine Coast	0	0	1	0	3356
+Sunshine Coast	0	0	1	1	1520
+Sunshine Coast	0	1	0	0	15981
+Sunshine Coast	0	1	0	1	1846
+Sunshine Coast	0	1	1	0	3588
+Sunshine Coast	0	1	1	1	654
+Sunshine Coast	1	0	0	1	20121
+Sunshine Coast	1	0	1	0	9550
+Sunshine Coast	1	0	1	1	6036
+Sunshine Coast	1	1	0	0	79160
+Sunshine Coast	1	1	0	1	4979
+Sunshine Coast	1	1	1	0	16557
+Sunshine Coast	1	1	1	1	2997
+Toowoomba					1208
+Toowoomba	0	0	0	1	4069
+Toowoomba	0	0	1	0	1136
+Toowoomba	0	0	1	1	707
+Toowoomba	0	1	0	0	7541
+Toowoomba	0	1	0	1	954
+Toowoomba	0	1	1	0	1920
+Toowoomba	0	1	1	1	487
+Toowoomba	1	0	0	1	8162
+Toowoomba	1	0	1	0	3637
+Toowoomba	1	0	1	1	2524
+Toowoomba	1	1	0	0	35848
+Toowoomba	1	1	0	1	2301
+Toowoomba	1	1	1	0	7994
+Toowoomba	1	1	1	1	1950
+Townsville					2036
+Townsville	0	0	0	1	6483
+Townsville	0	0	1	0	1937
+Townsville	0	0	1	1	1028
+Townsville	0	1	0	0	13112
+Townsville	0	1	0	1	1685
+Townsville	0	1	1	0	2900
+Townsville	0	1	1	1	708
+Townsville	1	0	0	1	12205
+Townsville	1	0	1	0	5962
+Townsville	1	0	1	1	3932
+Townsville	1	1	0	0	53034
+Townsville	1	1	0	1	3778
+Townsville	1	1	1	0	11307
+Townsville	1	1	1	1	2268
+Wide Bay					2077
+Wide Bay	0	0	0	1	9111
+Wide Bay	0	0	1	0	2126
+Wide Bay	0	0	1	1	1142
+Wide Bay	0	1	0	0	17225
+Wide Bay	0	1	0	1	2249
+Wide Bay	0	1	1	0	3500
+Wide Bay	0	1	1	1	856
+Wide Bay	1	0	0	1	15705
+Wide Bay	1	0	1	0	5485
+Wide Bay	1	0	1	1	3601
+Wide Bay	1	1	0	0	53982
+Wide Bay	1	1	0	1	4851
+Wide Bay	1	1	1	0	12108
+Wide Bay	1	1	1	1	3004
+Adelaide - Central and Hills					2793
+Adelaide - Central and Hills	0	0	0	1	7213
+Adelaide - Central and Hills	0	0	1	0	3651
+Adelaide - Central and Hills	0	0	1	1	1596
+Adelaide - Central and Hills	0	1	0	0	8029
+Adelaide - Central and Hills	0	1	0	1	549
+Adelaide - Central and Hills	0	1	1	0	2245
+Adelaide - Central and Hills	0	1	1	1	262
+Adelaide - Central and Hills	1	0	0	1	16884
+Adelaide - Central and Hills	1	0	1	0	14076
+Adelaide - Central and Hills	1	0	1	1	8314
+Adelaide - Central and Hills	1	1	0	0	68332
+Adelaide - Central and Hills	1	1	0	1	1930
+Adelaide - Central and Hills	1	1	1	0	15351
+Adelaide - Central and Hills	1	1	1	1	1867
+Adelaide - North					3949
+Adelaide - North	0	0	0	1	15882
+Adelaide - North	0	0	1	0	4911
+Adelaide - North	0	0	1	1	3267
+Adelaide - North	0	1	0	0	24513
+Adelaide - North	0	1	0	1	2889
+Adelaide - North	0	1	1	0	6029
+Adelaide - North	0	1	1	1	1589
+Adelaide - North	1	0	0	1	29348
+Adelaide - North	1	0	1	0	13071
+Adelaide - North	1	0	1	1	11200
+Adelaide - North	1	1	0	0	101700
+Adelaide - North	1	1	0	1	6232
+Adelaide - North	1	1	1	0	22638
+Adelaide - North	1	1	1	1	4806
+Adelaide - South					3227
+Adelaide - South	0	0	0	1	11712
+Adelaide - South	0	0	1	0	4127
+Adelaide - South	0	0	1	1	2243
+Adelaide - South	0	1	0	0	15209
+Adelaide - South	0	1	0	1	1421
+Adelaide - South	0	1	1	0	3825
+Adelaide - South	0	1	1	1	686
+Adelaide - South	1	0	0	1	23110
+Adelaide - South	1	0	1	0	14326
+Adelaide - South	1	0	1	1	10093
+Adelaide - South	1	1	0	0	83998
+Adelaide - South	1	1	0	1	3720
+Adelaide - South	1	1	1	0	17125
+Adelaide - South	1	1	1	1	2922
+Adelaide - West					3016
+Adelaide - West	0	0	0	1	9274
+Adelaide - West	0	0	1	0	2833
+Adelaide - West	0	0	1	1	1667
+Adelaide - West	0	1	0	0	8589
+Adelaide - West	0	1	0	1	878
+Adelaide - West	0	1	1	0	2313
+Adelaide - West	0	1	1	1	500
+Adelaide - West	1	0	0	1	15345
+Adelaide - West	1	0	1	0	8275
+Adelaide - West	1	0	1	1	6220
+Adelaide - West	1	1	0	0	49031
+Adelaide - West	1	1	0	1	2094
+Adelaide - West	1	1	1	0	9654
+Adelaide - West	1	1	1	1	1650
+Barossa - Yorke - Mid North					635
+Barossa - Yorke - Mid North	0	0	0	1	2775
+Barossa - Yorke - Mid North	0	0	1	0	842
+Barossa - Yorke - Mid North	0	0	1	1	454
+Barossa - Yorke - Mid North	0	1	0	0	4445
+Barossa - Yorke - Mid North	0	1	0	1	503
+Barossa - Yorke - Mid North	0	1	1	0	1276
+Barossa - Yorke - Mid North	0	1	1	1	355
+Barossa - Yorke - Mid North	1	0	0	1	6311
+Barossa - Yorke - Mid North	1	0	1	0	2732
+Barossa - Yorke - Mid North	1	0	1	1	2138
+Barossa - Yorke - Mid North	1	1	0	0	23331
+Barossa - Yorke - Mid North	1	1	0	1	1371
+Barossa - Yorke - Mid North	1	1	1	0	5247
+Barossa - Yorke - Mid North	1	1	1	1	962
+South Australia - Outback					591
+South Australia - Outback	0	0	0	1	2182
+South Australia - Outback	0	0	1	0	617
+South Australia - Outback	0	0	1	1	273
+South Australia - Outback	0	1	0	0	4780
+South Australia - Outback	0	1	0	1	593
+South Australia - Outback	0	1	1	0	870
+South Australia - Outback	0	1	1	1	161
+South Australia - Outback	1	0	0	1	3760
+South Australia - Outback	1	0	1	0	1582
+South Australia - Outback	1	0	1	1	919
+South Australia - Outback	1	1	0	0	18464
+South Australia - Outback	1	1	0	1	1213
+South Australia - Outback	1	1	1	0	3589
+South Australia - Outback	1	1	1	1	669
+South Australia - South East					1122
+South Australia - South East	0	0	0	1	4729
+South Australia - South East	0	0	1	0	1426
+South Australia - South East	0	0	1	1	655
+South Australia - South East	0	1	0	0	8354
+South Australia - South East	0	1	0	1	846
+South Australia - South East	0	1	1	0	1827
+South Australia - South East	0	1	1	1	454
+South Australia - South East	1	0	0	1	9958
+South Australia - South East	1	0	1	0	4239
+South Australia - South East	1	0	1	1	3012
+South Australia - South East	1	1	0	0	37891
+South Australia - South East	1	1	0	1	2298
+South Australia - South East	1	1	1	0	8436
+South Australia - South East	1	1	1	1	1680
+Bunbury					928
+Bunbury	0	0	0	1	4149
+Bunbury	0	0	1	0	1393
+Bunbury	0	0	1	1	649
+Bunbury	0	1	0	0	8387
+Bunbury	0	1	0	1	907
+Bunbury	0	1	1	0	1936
+Bunbury	0	1	1	1	362
+Bunbury	1	0	0	1	9378
+Bunbury	1	0	1	0	4164
+Bunbury	1	0	1	1	2922
+Bunbury	1	1	0	0	44102
+Bunbury	1	1	0	1	2845
+Bunbury	1	1	1	0	8712
+Bunbury	1	1	1	1	1731
+Mandurah					572
+Mandurah	0	0	0	1	2646
+Mandurah	0	0	1	0	749
+Mandurah	0	0	1	1	519
+Mandurah	0	1	0	0	5218
+Mandurah	0	1	0	1	589
+Mandurah	0	1	1	0	1233
+Mandurah	0	1	1	1	212
+Mandurah	1	0	0	1	5493
+Mandurah	1	0	1	0	2450
+Mandurah	1	0	1	1	2003
+Mandurah	1	1	0	0	20410
+Mandurah	1	1	0	1	1490
+Mandurah	1	1	1	0	4337
+Mandurah	1	1	1	1	1100
+Perth - Inner					1875
+Perth - Inner	0	0	0	1	3117
+Perth - Inner	0	0	1	0	1605
+Perth - Inner	0	0	1	1	658
+Perth - Inner	0	1	0	0	3457
+Perth - Inner	0	1	0	1	134
+Perth - Inner	0	1	1	0	996
+Perth - Inner	0	1	1	1	100
+Perth - Inner	1	0	0	1	6559
+Perth - Inner	1	0	1	0	7509
+Perth - Inner	1	0	1	1	3719
+Perth - Inner	1	1	0	0	38877
+Perth - Inner	1	1	0	1	570
+Perth - Inner	1	1	1	0	8118
+Perth - Inner	1	1	1	1	712
+Perth - North East					2397
+Perth - North East	0	0	0	1	8102
+Perth - North East	0	0	1	0	2373
+Perth - North East	0	0	1	1	1602
+Perth - North East	0	1	0	0	10785
+Perth - North East	0	1	0	1	1298
+Perth - North East	0	1	1	0	2658
+Perth - North East	0	1	1	1	844
+Perth - North East	1	0	0	1	16841
+Perth - North East	1	0	1	0	8137
+Perth - North East	1	0	1	1	6791
+Perth - North East	1	1	0	0	65163
+Perth - North East	1	1	0	1	3896
+Perth - North East	1	1	1	0	13351
+Perth - North East	1	1	1	1	2914
+Perth - North West					5004
+Perth - North West	0	0	0	1	15146
+Perth - North West	0	0	1	0	5448
+Perth - North West	0	0	1	1	3517
+Perth - North West	0	1	0	0	20545
+Perth - North West	0	1	0	1	2123
+Perth - North West	0	1	1	0	5079
+Perth - North West	0	1	1	1	1357
+Perth - North West	1	0	0	1	36577
+Perth - North West	1	0	1	0	21901
+Perth - North West	1	0	1	1	16796
+Perth - North West	1	1	0	0	146461
+Perth - North West	1	1	0	1	7709
+Perth - North West	1	1	1	0	31314
+Perth - North West	1	1	1	1	5891
+Perth - South East					6269
+Perth - South East	0	0	0	1	14017
+Perth - South East	0	0	1	0	4490
+Perth - South East	0	0	1	1	2862
+Perth - South East	0	1	0	0	19245
+Perth - South East	0	1	0	1	2104
+Perth - South East	0	1	1	0	4557
+Perth - South East	0	1	1	1	1186
+Perth - South East	1	0	0	1	30849
+Perth - South East	1	0	1	0	16237
+Perth - South East	1	0	1	1	12436
+Perth - South East	1	1	0	0	128227
+Perth - South East	1	1	0	1	6966
+Perth - South East	1	1	1	0	26127
+Perth - South East	1	1	1	1	5915
+Perth - South West					3458
+Perth - South West	0	0	0	1	11466
+Perth - South West	0	0	1	0	3789
+Perth - South West	0	0	1	1	2341
+Perth - South West	0	1	0	0	17354
+Perth - South West	0	1	0	1	1850
+Perth - South West	0	1	1	0	4100
+Perth - South West	0	1	1	1	871
+Perth - South West	1	0	0	1	26477
+Perth - South West	1	0	1	0	14760
+Perth - South West	1	0	1	1	11311
+Perth - South West	1	1	0	0	107250
+Perth - South West	1	1	0	1	5894
+Perth - South West	1	1	1	0	22000
+Perth - South West	1	1	1	1	3955
+Western Australia - Wheat Belt					798
+Western Australia - Wheat Belt	0	0	0	1	3197
+Western Australia - Wheat Belt	0	0	1	0	722
+Western Australia - Wheat Belt	0	0	1	1	356
+Western Australia - Wheat Belt	0	1	0	0	5693
+Western Australia - Wheat Belt	0	1	0	1	754
+Western Australia - Wheat Belt	0	1	1	0	1175
+Western Australia - Wheat Belt	0	1	1	1	275
+Western Australia - Wheat Belt	1	0	0	1	7099
+Western Australia - Wheat Belt	1	0	1	0	2297
+Western Australia - Wheat Belt	1	0	1	1	1691
+Western Australia - Wheat Belt	1	1	0	0	30398
+Western Australia - Wheat Belt	1	1	0	1	2199
+Western Australia - Wheat Belt	1	1	1	0	5467
+Western Australia - Wheat Belt	1	1	1	1	1334
+Western Australia - Outback (North)					934
+Western Australia - Outback (North)	0	0	0	1	1622
+Western Australia - Outback (North)	0	0	1	0	261
+Western Australia - Outback (North)	0	0	1	1	118
+Western Australia - Outback (North)	0	1	0	0	4674
+Western Australia - Outback (North)	0	1	0	1	1041
+Western Australia - Outback (North)	0	1	1	0	705
+Western Australia - Outback (North)	0	1	1	1	234
+Western Australia - Outback (North)	1	0	0	1	2604
+Western Australia - Outback (North)	1	0	1	0	1008
+Western Australia - Outback (North)	1	0	1	1	722
+Western Australia - Outback (North)	1	1	0	0	24918
+Western Australia - Outback (North)	1	1	0	1	1796
+Western Australia - Outback (North)	1	1	1	0	3046
+Western Australia - Outback (North)	1	1	1	1	811
+Western Australia - Outback (South)					948
+Western Australia - Outback (South)	0	0	0	1	2798
+Western Australia - Outback (South)	0	0	1	0	635
+Western Australia - Outback (South)	0	0	1	1	342
+Western Australia - Outback (South)	0	1	0	0	6054
+Western Australia - Outback (South)	0	1	0	1	962
+Western Australia - Outback (South)	0	1	1	0	1069
+Western Australia - Outback (South)	0	1	1	1	332
+Western Australia - Outback (South)	1	0	0	1	5723
+Western Australia - Outback (South)	1	0	1	0	2049
+Western Australia - Outback (South)	1	0	1	1	1659
+Western Australia - Outback (South)	1	1	0	0	28710
+Western Australia - Outback (South)	1	1	0	1	2283
+Western Australia - Outback (South)	1	1	1	0	5070
+Western Australia - Outback (South)	1	1	1	1	1265
+Hobart					1844
+Hobart	0	0	0	1	6888
+Hobart	0	0	1	0	2630
+Hobart	0	0	1	1	1264
+Hobart	0	1	0	0	12225
+Hobart	0	1	0	1	1164
+Hobart	0	1	1	0	2902
+Hobart	0	1	1	1	529
+Hobart	1	0	0	1	12174
+Hobart	1	0	1	0	7275
+Hobart	1	0	1	1	4132
+Hobart	1	1	0	0	49243
+Hobart	1	1	0	1	2642
+Hobart	1	1	1	0	10399
+Hobart	1	1	1	1	1955
+Launceston and North East					1059
+Launceston and North East	0	0	0	1	4174
+Launceston and North East	0	0	1	0	1327
+Launceston and North East	0	0	1	1	585
+Launceston and North East	0	1	0	0	6819
+Launceston and North East	0	1	0	1	718
+Launceston and North East	0	1	1	0	1681
+Launceston and North East	0	1	1	1	326
+Launceston and North East	1	0	0	1	7721
+Launceston and North East	1	0	1	0	3855
+Launceston and North East	1	0	1	1	2595
+Launceston and North East	1	1	0	0	29038
+Launceston and North East	1	1	0	1	1814
+Launceston and North East	1	1	1	0	6781
+Launceston and North East	1	1	1	1	1267
+South East					184
+South East	0	0	0	1	1005
+South East	0	0	1	0	234
+South East	0	0	1	1	103
+South East	0	1	0	0	1521
+South East	0	1	0	1	187
+South East	0	1	1	0	340
+South East	0	1	1	1	40
+South East	1	0	0	1	2151
+South East	1	0	1	0	867
+South East	1	0	1	1	544
+South East	1	1	0	0	7308
+South East	1	1	0	1	583
+South East	1	1	1	0	1728
+South East	1	1	1	1	410
+West and North West					622
+West and North West	0	0	0	1	3252
+West and North West	0	0	1	0	997
+West and North West	0	0	1	1	493
+West and North West	0	1	0	0	6047
+West and North West	0	1	0	1	540
+West and North West	0	1	1	0	1346
+West and North West	0	1	1	1	302
+West and North West	1	0	0	1	6250
+West and North West	1	0	1	0	2664
+West and North West	1	0	1	1	1838
+West and North West	1	1	0	0	22117
+West and North West	1	1	0	1	1556
+West and North West	1	1	1	0	5299
+West and North West	1	1	1	1	972
+Darwin					1120
+Darwin	0	0	0	1	3093
+Darwin	0	0	1	0	863
+Darwin	0	0	1	1	436
+Darwin	0	1	0	0	5564
+Darwin	0	1	0	1	725
+Darwin	0	1	1	0	1161
+Darwin	0	1	1	1	254
+Darwin	1	0	0	1	6325
+Darwin	1	0	1	0	3042
+Darwin	1	0	1	1	2224
+Darwin	1	1	0	0	36515
+Darwin	1	1	0	1	2141
+Darwin	1	1	1	0	6198
+Darwin	1	1	1	1	1380
+Northern Territory - Outback					1308
+Northern Territory - Outback	0	0	0	1	2648
+Northern Territory - Outback	0	0	1	0	363
+Northern Territory - Outback	0	0	1	1	197
+Northern Territory - Outback	0	1	0	0	6181
+Northern Territory - Outback	0	1	0	1	2605
+Northern Territory - Outback	0	1	1	0	817
+Northern Territory - Outback	0	1	1	1	467
+Northern Territory - Outback	1	0	0	1	3302
+Northern Territory - Outback	1	0	1	0	876
+Northern Territory - Outback	1	0	1	1	727
+Northern Territory - Outback	1	1	0	0	22957
+Northern Territory - Outback	1	1	0	1	4929
+Northern Territory - Outback	1	1	1	0	3373
+Northern Territory - Outback	1	1	1	1	1453
+Australian Capital Territory					3054
+Australian Capital Territory	0	0	0	1	10148
+Australian Capital Territory	0	0	1	0	3821
+Australian Capital Territory	0	0	1	1	2048
+Australian Capital Territory	0	1	0	0	13872
+Australian Capital Territory	0	1	0	1	1266
+Australian Capital Territory	0	1	1	0	3463
+Australian Capital Territory	0	1	1	1	800
+Australian Capital Territory	1	0	0	1	20429
+Australian Capital Territory	1	0	1	0	15281
+Australian Capital Territory	1	0	1	1	9121
+Australian Capital Territory	1	1	0	0	109833
+Australian Capital Territory	1	1	0	1	3784
+Australian Capital Territory	1	1	1	0	20003
+Australian Capital Territory	1	1	1	1	3092
+Other Territories					29
+Other Territories	0	0	0	1	119
+Other Territories	0	0	1	0	35
+Other Territories	0	0	1	1	15
+Other Territories	0	1	0	0	147
+Other Territories	0	1	0	1	29
+Other Territories	0	1	1	0	30
+Other Territories	0	1	1	1	9
+Other Territories	1	0	0	1	205
+Other Territories	1	0	1	0	73
+Other Territories	1	0	1	1	41
+Other Territories	1	1	0	0	1072
+Other Territories	1	1	0	1	91
+Other Territories	1	1	1	0	164
+Other Territories	1	1	1	1	28

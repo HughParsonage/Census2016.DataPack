@@ -1,0 +1,4877 @@
+SA3_NAME16	DwellingStructure	InternetAccessedFromDwelling	occupied_private_dwellings
+Queanbeyan			8
+Queanbeyan		0	10
+Queanbeyan		1	59
+Queanbeyan	(Other)		8
+Queanbeyan	(Other)	0	25
+Queanbeyan	(Other)	1	69
+Queanbeyan	Flat/apartment		62
+Queanbeyan	Flat/apartment	0	486
+Queanbeyan	Flat/apartment	1	1826
+Queanbeyan	Semi-detached, row/terrace house, townhouse etc.		98
+Queanbeyan	Semi-detached, row/terrace house, townhouse etc.	0	479
+Queanbeyan	Semi-detached, row/terrace house, townhouse etc.	1	2242
+Queanbeyan	Separate house		339
+Queanbeyan	Separate house	0	1684
+Queanbeyan	Separate house	1	13061
+Snowy Mountains			41
+Snowy Mountains		0	27
+Snowy Mountains		1	171
+Snowy Mountains	(Other)		10
+Snowy Mountains	(Other)	0	31
+Snowy Mountains	(Other)	1	68
+Snowy Mountains	Flat/apartment		48
+Snowy Mountains	Flat/apartment	0	110
+Snowy Mountains	Flat/apartment	1	253
+Snowy Mountains	Semi-detached, row/terrace house, townhouse etc.		21
+Snowy Mountains	Semi-detached, row/terrace house, townhouse etc.	0	97
+Snowy Mountains	Semi-detached, row/terrace house, townhouse etc.	1	228
+Snowy Mountains	Separate house		169
+Snowy Mountains	Separate house	0	1165
+Snowy Mountains	Separate house	1	4816
+South Coast			21
+South Coast		0	29
+South Coast		1	181
+South Coast	(Other)		36
+South Coast	(Other)	0	216
+South Coast	(Other)	1	337
+South Coast	Flat/apartment		81
+South Coast	Flat/apartment	0	517
+South Coast	Flat/apartment	1	926
+South Coast	Semi-detached, row/terrace house, townhouse etc.		112
+South Coast	Semi-detached, row/terrace house, townhouse etc.	0	739
+South Coast	Semi-detached, row/terrace house, townhouse etc.	1	1675
+South Coast	Separate house		662
+South Coast	Separate house	0	3949
+South Coast	Separate house	1	18832
+Goulburn - Mulwaree			8
+Goulburn - Mulwaree		0	19
+Goulburn - Mulwaree		1	55
+Goulburn - Mulwaree	(Other)		16
+Goulburn - Mulwaree	(Other)	0	55
+Goulburn - Mulwaree	(Other)	1	71
+Goulburn - Mulwaree	Flat/apartment		17
+Goulburn - Mulwaree	Flat/apartment	0	153
+Goulburn - Mulwaree	Flat/apartment	1	197
+Goulburn - Mulwaree	Semi-detached, row/terrace house, townhouse etc.		55
+Goulburn - Mulwaree	Semi-detached, row/terrace house, townhouse etc.	0	352
+Goulburn - Mulwaree	Semi-detached, row/terrace house, townhouse etc.	1	525
+Goulburn - Mulwaree	Separate house		322
+Goulburn - Mulwaree	Separate house	0	2510
+Goulburn - Mulwaree	Separate house	1	8833
+Young - Yass			10
+Young - Yass		0	22
+Young - Yass		1	72
+Young - Yass	(Other)	0	43
+Young - Yass	(Other)	1	65
+Young - Yass	Flat/apartment		20
+Young - Yass	Flat/apartment	0	160
+Young - Yass	Flat/apartment	1	155
+Young - Yass	Semi-detached, row/terrace house, townhouse etc.		36
+Young - Yass	Semi-detached, row/terrace house, townhouse etc.	0	217
+Young - Yass	Semi-detached, row/terrace house, townhouse etc.	1	290
+Young - Yass	Separate house		316
+Young - Yass	Separate house	0	2240
+Young - Yass	Separate house	1	9459
+Gosford			54
+Gosford		0	63
+Gosford		1	181
+Gosford	(Other)		23
+Gosford	(Other)	0	235
+Gosford	(Other)	1	434
+Gosford	Flat/apartment		250
+Gosford	Flat/apartment	0	1346
+Gosford	Flat/apartment	1	4239
+Gosford	Semi-detached, row/terrace house, townhouse etc.		358
+Gosford	Semi-detached, row/terrace house, townhouse etc.	0	2312
+Gosford	Semi-detached, row/terrace house, townhouse etc.	1	6440
+Gosford	Separate house		1020
+Gosford	Separate house	0	5508
+Gosford	Separate house	1	40742
+Wyong			76
+Wyong		0	57
+Wyong		1	115
+Wyong	(Other)		39
+Wyong	(Other)	0	185
+Wyong	(Other)	1	236
+Wyong	Flat/apartment		172
+Wyong	Flat/apartment	0	1115
+Wyong	Flat/apartment	1	2137
+Wyong	Semi-detached, row/terrace house, townhouse etc.		275
+Wyong	Semi-detached, row/terrace house, townhouse etc.	0	1746
+Wyong	Semi-detached, row/terrace house, townhouse etc.	1	3888
+Wyong	Separate house		1262
+Wyong	Separate house	0	7333
+Wyong	Separate house	1	39209
+Bathurst			51
+Bathurst		0	59
+Bathurst		1	112
+Bathurst	(Other)	0	14
+Bathurst	(Other)	1	44
+Bathurst	Flat/apartment		30
+Bathurst	Flat/apartment	0	230
+Bathurst	Flat/apartment	1	368
+Bathurst	Semi-detached, row/terrace house, townhouse etc.		49
+Bathurst	Semi-detached, row/terrace house, townhouse etc.	0	448
+Bathurst	Semi-detached, row/terrace house, townhouse etc.	1	972
+Bathurst	Separate house		330
+Bathurst	Separate house	0	2307
+Bathurst	Separate house	1	11273
+Lachlan Valley			17
+Lachlan Valley		0	70
+Lachlan Valley		1	150
+Lachlan Valley	(Other)		16
+Lachlan Valley	(Other)	0	54
+Lachlan Valley	(Other)	1	126
+Lachlan Valley	Flat/apartment		59
+Lachlan Valley	Flat/apartment	0	390
+Lachlan Valley	Flat/apartment	1	371
+Lachlan Valley	Semi-detached, row/terrace house, townhouse etc.		21
+Lachlan Valley	Semi-detached, row/terrace house, townhouse etc.	0	237
+Lachlan Valley	Semi-detached, row/terrace house, townhouse etc.	1	262
+Lachlan Valley	Separate house		649
+Lachlan Valley	Separate house	0	4754
+Lachlan Valley	Separate house	1	13399
+Lithgow - Mudgee			12
+Lithgow - Mudgee		0	45
+Lithgow - Mudgee		1	97
+Lithgow - Mudgee	(Other)		35
+Lithgow - Mudgee	(Other)	0	129
+Lithgow - Mudgee	(Other)	1	320
+Lithgow - Mudgee	Flat/apartment		23
+Lithgow - Mudgee	Flat/apartment	0	155
+Lithgow - Mudgee	Flat/apartment	1	190
+Lithgow - Mudgee	Semi-detached, row/terrace house, townhouse etc.		61
+Lithgow - Mudgee	Semi-detached, row/terrace house, townhouse etc.	0	379
+Lithgow - Mudgee	Semi-detached, row/terrace house, townhouse etc.	1	439
+Lithgow - Mudgee	Separate house		449
+Lithgow - Mudgee	Separate house	0	3361
+Lithgow - Mudgee	Separate house	1	11438
+Orange			83
+Orange		0	23
+Orange		1	73
+Orange	(Other)		7
+Orange	(Other)	0	31
+Orange	(Other)	1	50
+Orange	Flat/apartment		32
+Orange	Flat/apartment	0	277
+Orange	Flat/apartment	1	345
+Orange	Semi-detached, row/terrace house, townhouse etc.		65
+Orange	Semi-detached, row/terrace house, townhouse etc.	0	473
+Orange	Semi-detached, row/terrace house, townhouse etc.	1	917
+Orange	Separate house		503
+Orange	Separate house	0	3268
+Orange	Separate house	1	14611
+Clarence Valley			14
+Clarence Valley		0	24
+Clarence Valley		1	110
+Clarence Valley	(Other)		34
+Clarence Valley	(Other)	0	227
+Clarence Valley	(Other)	1	338
+Clarence Valley	Flat/apartment		53
+Clarence Valley	Flat/apartment	0	370
+Clarence Valley	Flat/apartment	1	530
+Clarence Valley	Semi-detached, row/terrace house, townhouse etc.		45
+Clarence Valley	Semi-detached, row/terrace house, townhouse etc.	0	404
+Clarence Valley	Semi-detached, row/terrace house, townhouse etc.	1	639
+Clarence Valley	Separate house		470
+Clarence Valley	Separate house	0	3460
+Clarence Valley	Separate house	1	12732
+Coffs Harbour			52
+Coffs Harbour		0	57
+Coffs Harbour		1	216
+Coffs Harbour	(Other)		49
+Coffs Harbour	(Other)	0	263
+Coffs Harbour	(Other)	1	399
+Coffs Harbour	Flat/apartment		129
+Coffs Harbour	Flat/apartment	0	798
+Coffs Harbour	Flat/apartment	1	1932
+Coffs Harbour	Semi-detached, row/terrace house, townhouse etc.		152
+Coffs Harbour	Semi-detached, row/terrace house, townhouse etc.	0	872
+Coffs Harbour	Semi-detached, row/terrace house, townhouse etc.	1	2522
+Coffs Harbour	Separate house		566
+Coffs Harbour	Separate house	0	3308
+Coffs Harbour	Separate house	1	20842
+Bourke - Cobar - Coonamble			18
+Bourke - Cobar - Coonamble		0	40
+Bourke - Cobar - Coonamble		1	77
+Bourke - Cobar - Coonamble	(Other)		36
+Bourke - Cobar - Coonamble	(Other)	0	111
+Bourke - Cobar - Coonamble	(Other)	1	145
+Bourke - Cobar - Coonamble	Flat/apartment		25
+Bourke - Cobar - Coonamble	Flat/apartment	0	182
+Bourke - Cobar - Coonamble	Flat/apartment	1	199
+Bourke - Cobar - Coonamble	Semi-detached, row/terrace house, townhouse etc.	0	32
+Bourke - Cobar - Coonamble	Semi-detached, row/terrace house, townhouse etc.	1	66
+Bourke - Cobar - Coonamble	Separate house		353
+Bourke - Cobar - Coonamble	Separate house	0	2408
+Bourke - Cobar - Coonamble	Separate house	1	4882
+Broken Hill and Far West			6
+Broken Hill and Far West		0	5
+Broken Hill and Far West		1	29
+Broken Hill and Far West	(Other)		11
+Broken Hill and Far West	(Other)	0	12
+Broken Hill and Far West	(Other)	1	19
+Broken Hill and Far West	Flat/apartment		19
+Broken Hill and Far West	Flat/apartment	0	105
+Broken Hill and Far West	Flat/apartment	1	74
+Broken Hill and Far West	Semi-detached, row/terrace house, townhouse etc.		12
+Broken Hill and Far West	Semi-detached, row/terrace house, townhouse etc.	0	72
+Broken Hill and Far West	Semi-detached, row/terrace house, townhouse etc.	1	96
+Broken Hill and Far West	Separate house		289
+Broken Hill and Far West	Separate house	0	2005
+Broken Hill and Far West	Separate house	1	5239
+Dubbo			18
+Dubbo		0	39
+Dubbo		1	111
+Dubbo	(Other)		31
+Dubbo	(Other)	0	102
+Dubbo	(Other)	1	264
+Dubbo	Flat/apartment		77
+Dubbo	Flat/apartment	0	578
+Dubbo	Flat/apartment	1	756
+Dubbo	Semi-detached, row/terrace house, townhouse etc.		30
+Dubbo	Semi-detached, row/terrace house, townhouse etc.	0	420
+Dubbo	Semi-detached, row/terrace house, townhouse etc.	1	682
+Dubbo	Separate house		601
+Dubbo	Separate house	0	4656
+Dubbo	Separate house	1	16302
+Lower Hunter			25
+Lower Hunter		0	36
+Lower Hunter		1	126
+Lower Hunter	(Other)		7
+Lower Hunter	(Other)	0	58
+Lower Hunter	(Other)	1	100
+Lower Hunter	Flat/apartment		26
+Lower Hunter	Flat/apartment	0	262
+Lower Hunter	Flat/apartment	1	310
+Lower Hunter	Semi-detached, row/terrace house, townhouse etc.		112
+Lower Hunter	Semi-detached, row/terrace house, townhouse etc.	0	665
+Lower Hunter	Semi-detached, row/terrace house, townhouse etc.	1	1284
+Lower Hunter	Separate house		655
+Lower Hunter	Separate house	0	4992
+Lower Hunter	Separate house	1	21754
+Maitland			104
+Maitland		0	119
+Maitland		1	156
+Maitland	(Other)		8
+Maitland	(Other)	0	31
+Maitland	(Other)	1	64
+Maitland	Flat/apartment		27
+Maitland	Flat/apartment	0	228
+Maitland	Flat/apartment	1	346
+Maitland	Semi-detached, row/terrace house, townhouse etc.		65
+Maitland	Semi-detached, row/terrace house, townhouse etc.	0	678
+Maitland	Semi-detached, row/terrace house, townhouse etc.	1	1650
+Maitland	Separate house		458
+Maitland	Separate house	0	2917
+Maitland	Separate house	1	19404
+Port Stephens			23
+Port Stephens		0	22
+Port Stephens		1	77
+Port Stephens	(Other)		132
+Port Stephens	(Other)	0	181
+Port Stephens	(Other)	1	299
+Port Stephens	Flat/apartment		65
+Port Stephens	Flat/apartment	0	270
+Port Stephens	Flat/apartment	1	672
+Port Stephens	Semi-detached, row/terrace house, townhouse etc.		117
+Port Stephens	Semi-detached, row/terrace house, townhouse etc.	0	877
+Port Stephens	Semi-detached, row/terrace house, townhouse etc.	1	2618
+Port Stephens	Separate house		520
+Port Stephens	Separate house	0	2991
+Port Stephens	Separate house	1	17422
+Upper Hunter			12
+Upper Hunter		0	12
+Upper Hunter		1	78
+Upper Hunter	(Other)		4
+Upper Hunter	(Other)	0	34
+Upper Hunter	(Other)	1	57
+Upper Hunter	Flat/apartment		24
+Upper Hunter	Flat/apartment	0	128
+Upper Hunter	Flat/apartment	1	148
+Upper Hunter	Semi-detached, row/terrace house, townhouse etc.		30
+Upper Hunter	Semi-detached, row/terrace house, townhouse etc.	0	231
+Upper Hunter	Semi-detached, row/terrace house, townhouse etc.	1	409
+Upper Hunter	Separate house		268
+Upper Hunter	Separate house	0	1967
+Upper Hunter	Separate house	1	7523
+Dapto - Port Kembla			10
+Dapto - Port Kembla		0	15
+Dapto - Port Kembla		1	57
+Dapto - Port Kembla	(Other)		21
+Dapto - Port Kembla	(Other)	0	23
+Dapto - Port Kembla	(Other)	1	76
+Dapto - Port Kembla	Flat/apartment		117
+Dapto - Port Kembla	Flat/apartment	0	704
+Dapto - Port Kembla	Flat/apartment	1	786
+Dapto - Port Kembla	Semi-detached, row/terrace house, townhouse etc.		101
+Dapto - Port Kembla	Semi-detached, row/terrace house, townhouse etc.	0	687
+Dapto - Port Kembla	Semi-detached, row/terrace house, townhouse etc.	1	1377
+Dapto - Port Kembla	Separate house		583
+Dapto - Port Kembla	Separate house	0	3997
+Dapto - Port Kembla	Separate house	1	18242
+Kiama - Shellharbour			18
+Kiama - Shellharbour		0	28
+Kiama - Shellharbour		1	130
+Kiama - Shellharbour	(Other)		25
+Kiama - Shellharbour	(Other)	0	172
+Kiama - Shellharbour	(Other)	1	200
+Kiama - Shellharbour	Flat/apartment		61
+Kiama - Shellharbour	Flat/apartment	0	534
+Kiama - Shellharbour	Flat/apartment	1	986
+Kiama - Shellharbour	Semi-detached, row/terrace house, townhouse etc.		147
+Kiama - Shellharbour	Semi-detached, row/terrace house, townhouse etc.	0	948
+Kiama - Shellharbour	Semi-detached, row/terrace house, townhouse etc.	1	3091
+Kiama - Shellharbour	Separate house		520
+Kiama - Shellharbour	Separate house	0	3120
+Kiama - Shellharbour	Separate house	1	21336
+Wollongong			120
+Wollongong		0	61
+Wollongong		1	198
+Wollongong	(Other)		11
+Wollongong	(Other)	0	131
+Wollongong	(Other)	1	254
+Wollongong	Flat/apartment		351
+Wollongong	Flat/apartment	0	2032
+Wollongong	Flat/apartment	1	8470
+Wollongong	Semi-detached, row/terrace house, townhouse etc.		202
+Wollongong	Semi-detached, row/terrace house, townhouse etc.	0	1499
+Wollongong	Semi-detached, row/terrace house, townhouse etc.	1	5281
+Wollongong	Separate house		580
+Wollongong	Separate house	0	3605
+Wollongong	Separate house	1	24373
+Great Lakes			4
+Great Lakes		0	24
+Great Lakes		1	66
+Great Lakes	(Other)		25
+Great Lakes	(Other)	0	120
+Great Lakes	(Other)	1	191
+Great Lakes	Flat/apartment		71
+Great Lakes	Flat/apartment	0	445
+Great Lakes	Flat/apartment	1	825
+Great Lakes	Semi-detached, row/terrace house, townhouse etc.		72
+Great Lakes	Semi-detached, row/terrace house, townhouse etc.	0	640
+Great Lakes	Semi-detached, row/terrace house, townhouse etc.	1	1048
+Great Lakes	Separate house		286
+Great Lakes	Separate house	0	1816
+Great Lakes	Separate house	1	7280
+Kempsey - Nambucca			21
+Kempsey - Nambucca		0	30
+Kempsey - Nambucca		1	121
+Kempsey - Nambucca	(Other)		29
+Kempsey - Nambucca	(Other)	0	201
+Kempsey - Nambucca	(Other)	1	263
+Kempsey - Nambucca	Flat/apartment		47
+Kempsey - Nambucca	Flat/apartment	0	380
+Kempsey - Nambucca	Flat/apartment	1	471
+Kempsey - Nambucca	Semi-detached, row/terrace house, townhouse etc.		35
+Kempsey - Nambucca	Semi-detached, row/terrace house, townhouse etc.	0	318
+Kempsey - Nambucca	Semi-detached, row/terrace house, townhouse etc.	1	368
+Kempsey - Nambucca	Separate house		505
+Kempsey - Nambucca	Separate house	0	3685
+Kempsey - Nambucca	Separate house	1	11882
+Lord Howe Island	Separate house		9
+Lord Howe Island	Separate house	0	10
+Lord Howe Island	Separate house	1	118
+Port Macquarie			22
+Port Macquarie		0	34
+Port Macquarie		1	126
+Port Macquarie	(Other)		43
+Port Macquarie	(Other)	0	293
+Port Macquarie	(Other)	1	371
+Port Macquarie	Flat/apartment		144
+Port Macquarie	Flat/apartment	0	1037
+Port Macquarie	Flat/apartment	1	2114
+Port Macquarie	Semi-detached, row/terrace house, townhouse etc.		152
+Port Macquarie	Semi-detached, row/terrace house, townhouse etc.	0	1132
+Port Macquarie	Semi-detached, row/terrace house, townhouse etc.	1	2741
+Port Macquarie	Separate house		543
+Port Macquarie	Separate house	0	3377
+Port Macquarie	Separate house	1	18727
+Taree - Gloucester			20
+Taree - Gloucester		0	28
+Taree - Gloucester		1	106
+Taree - Gloucester	(Other)		30
+Taree - Gloucester	(Other)	0	127
+Taree - Gloucester	(Other)	1	217
+Taree - Gloucester	Flat/apartment		40
+Taree - Gloucester	Flat/apartment	0	406
+Taree - Gloucester	Flat/apartment	1	498
+Taree - Gloucester	Semi-detached, row/terrace house, townhouse etc.		67
+Taree - Gloucester	Semi-detached, row/terrace house, townhouse etc.	0	535
+Taree - Gloucester	Semi-detached, row/terrace house, townhouse etc.	1	920
+Taree - Gloucester	Separate house		461
+Taree - Gloucester	Separate house	0	3720
+Taree - Gloucester	Separate house	1	13899
+Albury			8
+Albury		0	21
+Albury		1	64
+Albury	(Other)		3
+Albury	(Other)	0	35
+Albury	(Other)	1	75
+Albury	Flat/apartment		38
+Albury	Flat/apartment	0	123
+Albury	Flat/apartment	1	255
+Albury	Semi-detached, row/terrace house, townhouse etc.		145
+Albury	Semi-detached, row/terrace house, townhouse etc.	0	1011
+Albury	Semi-detached, row/terrace house, townhouse etc.	1	2216
+Albury	Separate house		463
+Albury	Separate house	0	3075
+Albury	Separate house	1	15606
+Lower Murray			3
+Lower Murray		0	8
+Lower Murray		1	30
+Lower Murray	(Other)		16
+Lower Murray	(Other)	0	38
+Lower Murray	(Other)	1	59
+Lower Murray	Flat/apartment		13
+Lower Murray	Flat/apartment	0	98
+Lower Murray	Flat/apartment	1	99
+Lower Murray	Semi-detached, row/terrace house, townhouse etc.		3
+Lower Murray	Semi-detached, row/terrace house, townhouse etc.	0	40
+Lower Murray	Semi-detached, row/terrace house, townhouse etc.	1	35
+Lower Murray	Separate house		147
+Lower Murray	Separate house	0	1018
+Lower Murray	Separate house	1	2895
+Upper Murray exc. Albury			12
+Upper Murray exc. Albury		0	22
+Upper Murray exc. Albury		1	61
+Upper Murray exc. Albury	(Other)		18
+Upper Murray exc. Albury	(Other)	0	128
+Upper Murray exc. Albury	(Other)	1	207
+Upper Murray exc. Albury	Flat/apartment		60
+Upper Murray exc. Albury	Flat/apartment	0	379
+Upper Murray exc. Albury	Flat/apartment	1	450
+Upper Murray exc. Albury	Semi-detached, row/terrace house, townhouse etc.		33
+Upper Murray exc. Albury	Semi-detached, row/terrace house, townhouse etc.	0	198
+Upper Murray exc. Albury	Semi-detached, row/terrace house, townhouse etc.	1	298
+Upper Murray exc. Albury	Separate house		441
+Upper Murray exc. Albury	Separate house	0	3106
+Upper Murray exc. Albury	Separate house	1	10776
+Armidale			12
+Armidale		0	18
+Armidale		1	88
+Armidale	(Other)		3
+Armidale	(Other)	0	22
+Armidale	(Other)	1	58
+Armidale	Flat/apartment		30
+Armidale	Flat/apartment	0	176
+Armidale	Flat/apartment	1	380
+Armidale	Semi-detached, row/terrace house, townhouse etc.		38
+Armidale	Semi-detached, row/terrace house, townhouse etc.	0	229
+Armidale	Semi-detached, row/terrace house, townhouse etc.	1	667
+Armidale	Separate house		287
+Armidale	Separate house	0	2096
+Armidale	Separate house	1	9101
+Inverell - Tenterfield			19
+Inverell - Tenterfield		0	60
+Inverell - Tenterfield		1	114
+Inverell - Tenterfield	(Other)		14
+Inverell - Tenterfield	(Other)	0	61
+Inverell - Tenterfield	(Other)	1	114
+Inverell - Tenterfield	Flat/apartment		41
+Inverell - Tenterfield	Flat/apartment	0	261
+Inverell - Tenterfield	Flat/apartment	1	237
+Inverell - Tenterfield	Semi-detached, row/terrace house, townhouse etc.		15
+Inverell - Tenterfield	Semi-detached, row/terrace house, townhouse etc.	0	122
+Inverell - Tenterfield	Semi-detached, row/terrace house, townhouse etc.	1	143
+Inverell - Tenterfield	Separate house		464
+Inverell - Tenterfield	Separate house	0	3716
+Inverell - Tenterfield	Separate house	1	9252
+Moree - Narrabri			4
+Moree - Narrabri		0	11
+Moree - Narrabri		1	36
+Moree - Narrabri	(Other)		15
+Moree - Narrabri	(Other)	0	49
+Moree - Narrabri	(Other)	1	88
+Moree - Narrabri	Flat/apartment		48
+Moree - Narrabri	Flat/apartment	0	306
+Moree - Narrabri	Flat/apartment	1	314
+Moree - Narrabri	Semi-detached, row/terrace house, townhouse etc.		22
+Moree - Narrabri	Semi-detached, row/terrace house, townhouse etc.	0	142
+Moree - Narrabri	Semi-detached, row/terrace house, townhouse etc.	1	239
+Moree - Narrabri	Separate house		321
+Moree - Narrabri	Separate house	0	1903
+Moree - Narrabri	Separate house	1	5421
+Tamworth - Gunnedah			15
+Tamworth - Gunnedah		0	32
+Tamworth - Gunnedah		1	128
+Tamworth - Gunnedah	(Other)		30
+Tamworth - Gunnedah	(Other)	0	189
+Tamworth - Gunnedah	(Other)	1	276
+Tamworth - Gunnedah	Flat/apartment		53
+Tamworth - Gunnedah	Flat/apartment	0	357
+Tamworth - Gunnedah	Flat/apartment	1	376
+Tamworth - Gunnedah	Semi-detached, row/terrace house, townhouse etc.		129
+Tamworth - Gunnedah	Semi-detached, row/terrace house, townhouse etc.	0	751
+Tamworth - Gunnedah	Semi-detached, row/terrace house, townhouse etc.	1	1116
+Tamworth - Gunnedah	Separate house		737
+Tamworth - Gunnedah	Separate house	0	5511
+Tamworth - Gunnedah	Separate house	1	19833
+Lake Macquarie - East			17
+Lake Macquarie - East		0	13
+Lake Macquarie - East		1	59
+Lake Macquarie - East	(Other)		13
+Lake Macquarie - East	(Other)	0	131
+Lake Macquarie - East	(Other)	1	177
+Lake Macquarie - East	Flat/apartment		97
+Lake Macquarie - East	Flat/apartment	0	798
+Lake Macquarie - East	Flat/apartment	1	1325
+Lake Macquarie - East	Semi-detached, row/terrace house, townhouse etc.		175
+Lake Macquarie - East	Semi-detached, row/terrace house, townhouse etc.	0	1539
+Lake Macquarie - East	Semi-detached, row/terrace house, townhouse etc.	1	3521
+Lake Macquarie - East	Separate house		710
+Lake Macquarie - East	Separate house	0	5141
+Lake Macquarie - East	Separate house	1	31433
+Lake Macquarie - West			14
+Lake Macquarie - West		0	9
+Lake Macquarie - West		1	45
+Lake Macquarie - West	(Other)		33
+Lake Macquarie - West	(Other)	0	141
+Lake Macquarie - West	(Other)	1	140
+Lake Macquarie - West	Flat/apartment		25
+Lake Macquarie - West	Flat/apartment	0	162
+Lake Macquarie - West	Flat/apartment	1	357
+Lake Macquarie - West	Semi-detached, row/terrace house, townhouse etc.		83
+Lake Macquarie - West	Semi-detached, row/terrace house, townhouse etc.	0	599
+Lake Macquarie - West	Semi-detached, row/terrace house, townhouse etc.	1	1157
+Lake Macquarie - West	Separate house		522
+Lake Macquarie - West	Separate house	0	3326
+Lake Macquarie - West	Separate house	1	20534
+Newcastle			38
+Newcastle		0	41
+Newcastle		1	194
+Newcastle	(Other)		16
+Newcastle	(Other)	0	44
+Newcastle	(Other)	1	151
+Newcastle	Flat/apartment		306
+Newcastle	Flat/apartment	0	1979
+Newcastle	Flat/apartment	1	5380
+Newcastle	Semi-detached, row/terrace house, townhouse etc.		260
+Newcastle	Semi-detached, row/terrace house, townhouse etc.	0	1920
+Newcastle	Semi-detached, row/terrace house, townhouse etc.	1	7177
+Newcastle	Separate house		998
+Newcastle	Separate house	0	6534
+Newcastle	Separate house	1	38161
+Richmond Valley - Coastal			44
+Richmond Valley - Coastal		0	58
+Richmond Valley - Coastal		1	176
+Richmond Valley - Coastal	(Other)		62
+Richmond Valley - Coastal	(Other)	0	339
+Richmond Valley - Coastal	(Other)	1	583
+Richmond Valley - Coastal	Flat/apartment		61
+Richmond Valley - Coastal	Flat/apartment	0	376
+Richmond Valley - Coastal	Flat/apartment	1	1216
+Richmond Valley - Coastal	Semi-detached, row/terrace house, townhouse etc.		187
+Richmond Valley - Coastal	Semi-detached, row/terrace house, townhouse etc.	0	1122
+Richmond Valley - Coastal	Semi-detached, row/terrace house, townhouse etc.	1	3517
+Richmond Valley - Coastal	Separate house		588
+Richmond Valley - Coastal	Separate house	0	2661
+Richmond Valley - Coastal	Separate house	1	18589
+Richmond Valley - Hinterland			9
+Richmond Valley - Hinterland		0	34
+Richmond Valley - Hinterland		1	97
+Richmond Valley - Hinterland	(Other)		32
+Richmond Valley - Hinterland	(Other)	0	195
+Richmond Valley - Hinterland	(Other)	1	344
+Richmond Valley - Hinterland	Flat/apartment		99
+Richmond Valley - Hinterland	Flat/apartment	0	499
+Richmond Valley - Hinterland	Flat/apartment	1	731
+Richmond Valley - Hinterland	Semi-detached, row/terrace house, townhouse etc.		61
+Richmond Valley - Hinterland	Semi-detached, row/terrace house, townhouse etc.	0	542
+Richmond Valley - Hinterland	Semi-detached, row/terrace house, townhouse etc.	1	1042
+Richmond Valley - Hinterland	Separate house		620
+Richmond Valley - Hinterland	Separate house	0	4351
+Richmond Valley - Hinterland	Separate house	1	17620
+Tweed Valley			27
+Tweed Valley		0	47
+Tweed Valley		1	207
+Tweed Valley	(Other)		75
+Tweed Valley	(Other)	0	461
+Tweed Valley	(Other)	1	680
+Tweed Valley	Flat/apartment		209
+Tweed Valley	Flat/apartment	0	1169
+Tweed Valley	Flat/apartment	1	2806
+Tweed Valley	Semi-detached, row/terrace house, townhouse etc.		264
+Tweed Valley	Semi-detached, row/terrace house, townhouse etc.	0	1632
+Tweed Valley	Semi-detached, row/terrace house, townhouse etc.	1	4590
+Tweed Valley	Separate house		564
+Tweed Valley	Separate house	0	3184
+Tweed Valley	Separate house	1	19181
+Griffith - Murrumbidgee (West)			12
+Griffith - Murrumbidgee (West)		0	28
+Griffith - Murrumbidgee (West)		1	87
+Griffith - Murrumbidgee (West)	(Other)		18
+Griffith - Murrumbidgee (West)	(Other)	0	86
+Griffith - Murrumbidgee (West)	(Other)	1	80
+Griffith - Murrumbidgee (West)	Flat/apartment		88
+Griffith - Murrumbidgee (West)	Flat/apartment	0	392
+Griffith - Murrumbidgee (West)	Flat/apartment	1	708
+Griffith - Murrumbidgee (West)	Semi-detached, row/terrace house, townhouse etc.		33
+Griffith - Murrumbidgee (West)	Semi-detached, row/terrace house, townhouse etc.	0	240
+Griffith - Murrumbidgee (West)	Semi-detached, row/terrace house, townhouse etc.	1	374
+Griffith - Murrumbidgee (West)	Separate house		446
+Griffith - Murrumbidgee (West)	Separate house	0	3217
+Griffith - Murrumbidgee (West)	Separate house	1	10658
+Tumut - Tumbarumba			4
+Tumut - Tumbarumba		0	9
+Tumut - Tumbarumba		1	24
+Tumut - Tumbarumba	(Other)		4
+Tumut - Tumbarumba	(Other)	0	5
+Tumut - Tumbarumba	(Other)	1	22
+Tumut - Tumbarumba	Flat/apartment		14
+Tumut - Tumbarumba	Flat/apartment	0	66
+Tumut - Tumbarumba	Flat/apartment	1	77
+Tumut - Tumbarumba	Semi-detached, row/terrace house, townhouse etc.		10
+Tumut - Tumbarumba	Semi-detached, row/terrace house, townhouse etc.	0	62
+Tumut - Tumbarumba	Semi-detached, row/terrace house, townhouse etc.	1	62
+Tumut - Tumbarumba	Separate house		133
+Tumut - Tumbarumba	Separate house	0	1269
+Tumut - Tumbarumba	Separate house	1	3644
+Wagga Wagga			9
+Wagga Wagga		0	24
+Wagga Wagga		1	110
+Wagga Wagga	(Other)		20
+Wagga Wagga	(Other)	0	72
+Wagga Wagga	(Other)	1	205
+Wagga Wagga	Flat/apartment		118
+Wagga Wagga	Flat/apartment	0	844
+Wagga Wagga	Flat/apartment	1	1526
+Wagga Wagga	Semi-detached, row/terrace house, townhouse etc.		44
+Wagga Wagga	Semi-detached, row/terrace house, townhouse etc.	0	411
+Wagga Wagga	Semi-detached, row/terrace house, townhouse etc.	1	705
+Wagga Wagga	Separate house		842
+Wagga Wagga	Separate house	0	5420
+Wagga Wagga	Separate house	1	23291
+Shoalhaven			30
+Shoalhaven		0	70
+Shoalhaven		1	180
+Shoalhaven	(Other)		60
+Shoalhaven	(Other)	0	404
+Shoalhaven	(Other)	1	534
+Shoalhaven	Flat/apartment		70
+Shoalhaven	Flat/apartment	0	284
+Shoalhaven	Flat/apartment	1	609
+Shoalhaven	Semi-detached, row/terrace house, townhouse etc.		116
+Shoalhaven	Semi-detached, row/terrace house, townhouse etc.	0	851
+Shoalhaven	Semi-detached, row/terrace house, townhouse etc.	1	1617
+Shoalhaven	Separate house		920
+Shoalhaven	Separate house	0	5773
+Shoalhaven	Separate house	1	26606
+Southern Highlands			21
+Southern Highlands		0	13
+Southern Highlands		1	99
+Southern Highlands	(Other)		18
+Southern Highlands	(Other)	0	49
+Southern Highlands	(Other)	1	68
+Southern Highlands	Flat/apartment		21
+Southern Highlands	Flat/apartment	0	98
+Southern Highlands	Flat/apartment	1	203
+Southern Highlands	Semi-detached, row/terrace house, townhouse etc.		26
+Southern Highlands	Semi-detached, row/terrace house, townhouse etc.	0	258
+Southern Highlands	Semi-detached, row/terrace house, townhouse etc.	1	769
+Southern Highlands	Separate house		340
+Southern Highlands	Separate house	0	1953
+Southern Highlands	Separate house	1	13837
+Baulkham Hills			18
+Baulkham Hills		0	12
+Baulkham Hills		1	69
+Baulkham Hills	(Other)	0	3
+Baulkham Hills	(Other)	1	13
+Baulkham Hills	Flat/apartment		93
+Baulkham Hills	Flat/apartment	0	494
+Baulkham Hills	Flat/apartment	1	2486
+Baulkham Hills	Semi-detached, row/terrace house, townhouse etc.		100
+Baulkham Hills	Semi-detached, row/terrace house, townhouse etc.	0	552
+Baulkham Hills	Semi-detached, row/terrace house, townhouse etc.	1	5139
+Baulkham Hills	Separate house		489
+Baulkham Hills	Separate house	0	1463
+Baulkham Hills	Separate house	1	33794
+Dural - Wisemans Ferry			10
+Dural - Wisemans Ferry		0	5
+Dural - Wisemans Ferry		1	41
+Dural - Wisemans Ferry	(Other)		12
+Dural - Wisemans Ferry	(Other)	0	33
+Dural - Wisemans Ferry	(Other)	1	93
+Dural - Wisemans Ferry	Flat/apartment		4
+Dural - Wisemans Ferry	Flat/apartment	0	72
+Dural - Wisemans Ferry	Flat/apartment	1	122
+Dural - Wisemans Ferry	Semi-detached, row/terrace house, townhouse etc.		7
+Dural - Wisemans Ferry	Semi-detached, row/terrace house, townhouse etc.	0	48
+Dural - Wisemans Ferry	Semi-detached, row/terrace house, townhouse etc.	1	268
+Dural - Wisemans Ferry	Separate house		138
+Dural - Wisemans Ferry	Separate house	0	510
+Dural - Wisemans Ferry	Separate house	1	6503
+Hawkesbury			13
+Hawkesbury		0	11
+Hawkesbury		1	51
+Hawkesbury	(Other)		9
+Hawkesbury	(Other)	0	34
+Hawkesbury	(Other)	1	30
+Hawkesbury	Flat/apartment	0	10
+Hawkesbury	Flat/apartment	1	18
+Hawkesbury	Semi-detached, row/terrace house, townhouse etc.	0	8
+Hawkesbury	Semi-detached, row/terrace house, townhouse etc.	1	20
+Hawkesbury	Separate house		156
+Hawkesbury	Separate house	0	701
+Hawkesbury	Separate house	1	6584
+Rouse Hill - McGraths Hill			8
+Rouse Hill - McGraths Hill		0	5
+Rouse Hill - McGraths Hill		1	33
+Rouse Hill - McGraths Hill	(Other)		8
+Rouse Hill - McGraths Hill	(Other)	0	22
+Rouse Hill - McGraths Hill	(Other)	1	23
+Rouse Hill - McGraths Hill	Flat/apartment		3
+Rouse Hill - McGraths Hill	Flat/apartment	0	20
+Rouse Hill - McGraths Hill	Flat/apartment	1	118
+Rouse Hill - McGraths Hill	Semi-detached, row/terrace house, townhouse etc.		20
+Rouse Hill - McGraths Hill	Semi-detached, row/terrace house, townhouse etc.	0	70
+Rouse Hill - McGraths Hill	Semi-detached, row/terrace house, townhouse etc.	1	947
+Rouse Hill - McGraths Hill	Separate house		147
+Rouse Hill - McGraths Hill	Separate house	0	471
+Rouse Hill - McGraths Hill	Separate house	1	7661
+Blacktown			30
+Blacktown		0	18
+Blacktown		1	96
+Blacktown	(Other)	0	19
+Blacktown	(Other)	1	65
+Blacktown	Flat/apartment		124
+Blacktown	Flat/apartment	0	581
+Blacktown	Flat/apartment	1	2154
+Blacktown	Semi-detached, row/terrace house, townhouse etc.		215
+Blacktown	Semi-detached, row/terrace house, townhouse etc.	0	826
+Blacktown	Semi-detached, row/terrace house, townhouse etc.	1	4563
+Blacktown	Separate house		1009
+Blacktown	Separate house	0	4362
+Blacktown	Separate house	1	28725
+Blacktown - North			23
+Blacktown - North		0	10
+Blacktown - North		1	101
+Blacktown - North	(Other)		57
+Blacktown - North	(Other)	0	74
+Blacktown - North	(Other)	1	163
+Blacktown - North	Flat/apartment		13
+Blacktown - North	Flat/apartment	0	56
+Blacktown - North	Flat/apartment	1	696
+Blacktown - North	Semi-detached, row/terrace house, townhouse etc.		86
+Blacktown - North	Semi-detached, row/terrace house, townhouse etc.	0	324
+Blacktown - North	Semi-detached, row/terrace house, townhouse etc.	1	6532
+Blacktown - North	Separate house		386
+Blacktown - North	Separate house	0	1134
+Blacktown - North	Separate house	1	17117
+Mount Druitt			14
+Mount Druitt		0	12
+Mount Druitt		1	42
+Mount Druitt	(Other)	0	28
+Mount Druitt	(Other)	1	52
+Mount Druitt	Flat/apartment		89
+Mount Druitt	Flat/apartment	0	509
+Mount Druitt	Flat/apartment	1	1209
+Mount Druitt	Semi-detached, row/terrace house, townhouse etc.		133
+Mount Druitt	Semi-detached, row/terrace house, townhouse etc.	0	744
+Mount Druitt	Semi-detached, row/terrace house, townhouse etc.	1	3079
+Mount Druitt	Separate house		799
+Mount Druitt	Separate house	0	3779
+Mount Druitt	Separate house	1	21865
+Botany			9
+Botany		0	16
+Botany		1	49
+Botany	(Other)		8
+Botany	(Other)	0	10
+Botany	(Other)	1	101
+Botany	Flat/apartment		287
+Botany	Flat/apartment	0	1193
+Botany	Flat/apartment	1	7093
+Botany	Semi-detached, row/terrace house, townhouse etc.		69
+Botany	Semi-detached, row/terrace house, townhouse etc.	0	347
+Botany	Semi-detached, row/terrace house, townhouse etc.	1	1757
+Botany	Separate house		155
+Botany	Separate house	0	869
+Botany	Separate house	1	4458
+Marrickville - Sydenham - Petersham			46
+Marrickville - Sydenham - Petersham		0	18
+Marrickville - Sydenham - Petersham		1	109
+Marrickville - Sydenham - Petersham	(Other)		23
+Marrickville - Sydenham - Petersham	(Other)	0	46
+Marrickville - Sydenham - Petersham	(Other)	1	332
+Marrickville - Sydenham - Petersham	Flat/apartment		240
+Marrickville - Sydenham - Petersham	Flat/apartment	0	972
+Marrickville - Sydenham - Petersham	Flat/apartment	1	6860
+Marrickville - Sydenham - Petersham	Semi-detached, row/terrace house, townhouse etc.		143
+Marrickville - Sydenham - Petersham	Semi-detached, row/terrace house, townhouse etc.	0	523
+Marrickville - Sydenham - Petersham	Semi-detached, row/terrace house, townhouse etc.	1	5158
+Marrickville - Sydenham - Petersham	Separate house		171
+Marrickville - Sydenham - Petersham	Separate house	0	863
+Marrickville - Sydenham - Petersham	Separate house	1	4939
+Sydney Inner City			178
+Sydney Inner City		0	40
+Sydney Inner City		1	354
+Sydney Inner City	(Other)		49
+Sydney Inner City	(Other)	0	57
+Sydney Inner City	(Other)	1	413
+Sydney Inner City	Flat/apartment		2001
+Sydney Inner City	Flat/apartment	0	6383
+Sydney Inner City	Flat/apartment	1	57868
+Sydney Inner City	Semi-detached, row/terrace house, townhouse etc.		587
+Sydney Inner City	Semi-detached, row/terrace house, townhouse etc.	0	1636
+Sydney Inner City	Semi-detached, row/terrace house, townhouse etc.	1	16396
+Sydney Inner City	Separate house		85
+Sydney Inner City	Separate house	0	235
+Sydney Inner City	Separate house	1	1504
+Eastern Suburbs - North			30
+Eastern Suburbs - North		0	21
+Eastern Suburbs - North		1	198
+Eastern Suburbs - North	(Other)		21
+Eastern Suburbs - North	(Other)	0	46
+Eastern Suburbs - North	(Other)	1	447
+Eastern Suburbs - North	Flat/apartment		895
+Eastern Suburbs - North	Flat/apartment	0	2639
+Eastern Suburbs - North	Flat/apartment	1	25067
+Eastern Suburbs - North	Semi-detached, row/terrace house, townhouse etc.		232
+Eastern Suburbs - North	Semi-detached, row/terrace house, townhouse etc.	0	564
+Eastern Suburbs - North	Semi-detached, row/terrace house, townhouse etc.	1	9508
+Eastern Suburbs - North	Separate house		192
+Eastern Suburbs - North	Separate house	0	419
+Eastern Suburbs - North	Separate house	1	8164
+Eastern Suburbs - South			52
+Eastern Suburbs - South		0	12
+Eastern Suburbs - South		1	125
+Eastern Suburbs - South	(Other)		16
+Eastern Suburbs - South	(Other)	0	46
+Eastern Suburbs - South	(Other)	1	395
+Eastern Suburbs - South	Flat/apartment		1003
+Eastern Suburbs - South	Flat/apartment	0	3452
+Eastern Suburbs - South	Flat/apartment	1	23656
+Eastern Suburbs - South	Semi-detached, row/terrace house, townhouse etc.		206
+Eastern Suburbs - South	Semi-detached, row/terrace house, townhouse etc.	0	793
+Eastern Suburbs - South	Semi-detached, row/terrace house, townhouse etc.	1	7304
+Eastern Suburbs - South	Separate house		283
+Eastern Suburbs - South	Separate house	0	1427
+Eastern Suburbs - South	Separate house	1	11601
+Bankstown			31
+Bankstown		0	33
+Bankstown		1	136
+Bankstown	(Other)		13
+Bankstown	(Other)	0	39
+Bankstown	(Other)	1	202
+Bankstown	Flat/apartment		316
+Bankstown	Flat/apartment	0	1896
+Bankstown	Flat/apartment	1	5799
+Bankstown	Semi-detached, row/terrace house, townhouse etc.		322
+Bankstown	Semi-detached, row/terrace house, townhouse etc.	0	1520
+Bankstown	Semi-detached, row/terrace house, townhouse etc.	1	8740
+Bankstown	Separate house		970
+Bankstown	Separate house	0	5239
+Bankstown	Separate house	1	26913
+Canterbury			33
+Canterbury		0	19
+Canterbury		1	112
+Canterbury	(Other)		16
+Canterbury	(Other)	0	38
+Canterbury	(Other)	1	174
+Canterbury	Flat/apartment		602
+Canterbury	Flat/apartment	0	2661
+Canterbury	Flat/apartment	1	12453
+Canterbury	Semi-detached, row/terrace house, townhouse etc.		182
+Canterbury	Semi-detached, row/terrace house, townhouse etc.	0	754
+Canterbury	Semi-detached, row/terrace house, townhouse etc.	1	3902
+Canterbury	Separate house		664
+Canterbury	Separate house	0	3563
+Canterbury	Separate house	1	17072
+Hurstville			41
+Hurstville		0	12
+Hurstville		1	97
+Hurstville	(Other)		8
+Hurstville	(Other)	0	33
+Hurstville	(Other)	1	148
+Hurstville	Flat/apartment		416
+Hurstville	Flat/apartment	0	1928
+Hurstville	Flat/apartment	1	11190
+Hurstville	Semi-detached, row/terrace house, townhouse etc.		159
+Hurstville	Semi-detached, row/terrace house, townhouse etc.	0	980
+Hurstville	Semi-detached, row/terrace house, townhouse etc.	1	4410
+Hurstville	Separate house		514
+Hurstville	Separate house	0	2628
+Hurstville	Separate house	1	19856
+Kogarah - Rockdale			28
+Kogarah - Rockdale		0	28
+Kogarah - Rockdale		1	120
+Kogarah - Rockdale	(Other)		20
+Kogarah - Rockdale	(Other)	0	103
+Kogarah - Rockdale	(Other)	1	317
+Kogarah - Rockdale	Flat/apartment		644
+Kogarah - Rockdale	Flat/apartment	0	2555
+Kogarah - Rockdale	Flat/apartment	1	17369
+Kogarah - Rockdale	Semi-detached, row/terrace house, townhouse etc.		177
+Kogarah - Rockdale	Semi-detached, row/terrace house, townhouse etc.	0	880
+Kogarah - Rockdale	Semi-detached, row/terrace house, townhouse etc.	1	4971
+Kogarah - Rockdale	Separate house		570
+Kogarah - Rockdale	Separate house	0	3150
+Kogarah - Rockdale	Separate house	1	16677
+Canada Bay			19
+Canada Bay		0	19
+Canada Bay		1	117
+Canada Bay	(Other)		13
+Canada Bay	(Other)	0	37
+Canada Bay	(Other)	1	264
+Canada Bay	Flat/apartment		332
+Canada Bay	Flat/apartment	0	1321
+Canada Bay	Flat/apartment	1	13904
+Canada Bay	Semi-detached, row/terrace house, townhouse etc.		65
+Canada Bay	Semi-detached, row/terrace house, townhouse etc.	0	279
+Canada Bay	Semi-detached, row/terrace house, townhouse etc.	1	2594
+Canada Bay	Separate house		229
+Canada Bay	Separate house	0	1604
+Canada Bay	Separate house	1	10464
+Leichhardt			11
+Leichhardt		0	14
+Leichhardt		1	117
+Leichhardt	(Other)		12
+Leichhardt	(Other)	0	12
+Leichhardt	(Other)	1	204
+Leichhardt	Flat/apartment		164
+Leichhardt	Flat/apartment	0	737
+Leichhardt	Flat/apartment	1	5112
+Leichhardt	Semi-detached, row/terrace house, townhouse etc.		194
+Leichhardt	Semi-detached, row/terrace house, townhouse etc.	0	684
+Leichhardt	Semi-detached, row/terrace house, townhouse etc.	1	10652
+Leichhardt	Separate house		64
+Leichhardt	Separate house	0	315
+Leichhardt	Separate house	1	3215
+Strathfield - Burwood - Ashfield			200
+Strathfield - Burwood - Ashfield		0	29
+Strathfield - Burwood - Ashfield		1	236
+Strathfield - Burwood - Ashfield	(Other)		26
+Strathfield - Burwood - Ashfield	(Other)	0	66
+Strathfield - Burwood - Ashfield	(Other)	1	486
+Strathfield - Burwood - Ashfield	Flat/apartment		892
+Strathfield - Burwood - Ashfield	Flat/apartment	0	2733
+Strathfield - Burwood - Ashfield	Flat/apartment	1	22007
+Strathfield - Burwood - Ashfield	Semi-detached, row/terrace house, townhouse etc.		149
+Strathfield - Burwood - Ashfield	Semi-detached, row/terrace house, townhouse etc.	0	604
+Strathfield - Burwood - Ashfield	Semi-detached, row/terrace house, townhouse etc.	1	5345
+Strathfield - Burwood - Ashfield	Separate house		454
+Strathfield - Burwood - Ashfield	Separate house	0	2536
+Strathfield - Burwood - Ashfield	Separate house	1	16423
+Chatswood - Lane Cove			11
+Chatswood - Lane Cove		0	6
+Chatswood - Lane Cove		1	104
+Chatswood - Lane Cove	(Other)		5
+Chatswood - Lane Cove	(Other)	0	8
+Chatswood - Lane Cove	(Other)	1	73
+Chatswood - Lane Cove	Flat/apartment		432
+Chatswood - Lane Cove	Flat/apartment	0	1511
+Chatswood - Lane Cove	Flat/apartment	1	17809
+Chatswood - Lane Cove	Semi-detached, row/terrace house, townhouse etc.		48
+Chatswood - Lane Cove	Semi-detached, row/terrace house, townhouse etc.	0	181
+Chatswood - Lane Cove	Semi-detached, row/terrace house, townhouse etc.	1	2603
+Chatswood - Lane Cove	Separate house		271
+Chatswood - Lane Cove	Separate house	0	1026
+Chatswood - Lane Cove	Separate house	1	16509
+Hornsby			22
+Hornsby		0	12
+Hornsby		1	64
+Hornsby	(Other)		3
+Hornsby	(Other)	0	5
+Hornsby	(Other)	1	35
+Hornsby	Flat/apartment		147
+Hornsby	Flat/apartment	0	722
+Hornsby	Flat/apartment	1	6087
+Hornsby	Semi-detached, row/terrace house, townhouse etc.		50
+Hornsby	Semi-detached, row/terrace house, townhouse etc.	0	214
+Hornsby	Semi-detached, row/terrace house, townhouse etc.	1	1741
+Hornsby	Separate house		286
+Hornsby	Separate house	0	1078
+Hornsby	Separate house	1	16924
+Ku-ring-gai			11
+Ku-ring-gai		0	5
+Ku-ring-gai		1	61
+Ku-ring-gai	(Other)	0	4
+Ku-ring-gai	(Other)	1	19
+Ku-ring-gai	Flat/apartment		175
+Ku-ring-gai	Flat/apartment	0	716
+Ku-ring-gai	Flat/apartment	1	7624
+Ku-ring-gai	Semi-detached, row/terrace house, townhouse etc.		36
+Ku-ring-gai	Semi-detached, row/terrace house, townhouse etc.	0	173
+Ku-ring-gai	Semi-detached, row/terrace house, townhouse etc.	1	1346
+Ku-ring-gai	Separate house		354
+Ku-ring-gai	Separate house	0	1186
+Ku-ring-gai	Separate house	1	26837
+North Sydney - Mosman			17
+North Sydney - Mosman		0	10
+North Sydney - Mosman		1	90
+North Sydney - Mosman	(Other)		4
+North Sydney - Mosman	(Other)	0	12
+North Sydney - Mosman	(Other)	1	111
+North Sydney - Mosman	Flat/apartment		549
+North Sydney - Mosman	Flat/apartment	0	2198
+North Sydney - Mosman	Flat/apartment	1	24408
+North Sydney - Mosman	Semi-detached, row/terrace house, townhouse etc.		101
+North Sydney - Mosman	Semi-detached, row/terrace house, townhouse etc.	0	233
+North Sydney - Mosman	Semi-detached, row/terrace house, townhouse etc.	1	5215
+North Sydney - Mosman	Separate house		98
+North Sydney - Mosman	Separate house	0	271
+North Sydney - Mosman	Separate house	1	6825
+Manly			5
+Manly		0	11
+Manly		1	34
+Manly	(Other)		6
+Manly	(Other)	0	4
+Manly	(Other)	1	69
+Manly	Flat/apartment		178
+Manly	Flat/apartment	0	710
+Manly	Flat/apartment	1	6620
+Manly	Semi-detached, row/terrace house, townhouse etc.		40
+Manly	Semi-detached, row/terrace house, townhouse etc.	0	124
+Manly	Semi-detached, row/terrace house, townhouse etc.	1	1999
+Manly	Separate house		92
+Manly	Separate house	0	313
+Manly	Separate house	1	5358
+Pittwater			8
+Pittwater		0	21
+Pittwater		1	104
+Pittwater	(Other)		17
+Pittwater	(Other)	0	20
+Pittwater	(Other)	1	178
+Pittwater	Flat/apartment		128
+Pittwater	Flat/apartment	0	427
+Pittwater	Flat/apartment	1	2957
+Pittwater	Semi-detached, row/terrace house, townhouse etc.		53
+Pittwater	Semi-detached, row/terrace house, townhouse etc.	0	234
+Pittwater	Semi-detached, row/terrace house, townhouse etc.	1	1787
+Pittwater	Separate house		268
+Pittwater	Separate house	0	754
+Pittwater	Separate house	1	13597
+Warringah			36
+Warringah		0	20
+Warringah		1	134
+Warringah	(Other)		27
+Warringah	(Other)	0	25
+Warringah	(Other)	1	112
+Warringah	Flat/apartment		456
+Warringah	Flat/apartment	0	2233
+Warringah	Flat/apartment	1	14782
+Warringah	Semi-detached, row/terrace house, townhouse etc.		173
+Warringah	Semi-detached, row/terrace house, townhouse etc.	0	726
+Warringah	Semi-detached, row/terrace house, townhouse etc.	1	2751
+Warringah	Separate house		527
+Warringah	Separate house	0	1920
+Warringah	Separate house	1	27888
+Camden			3
+Camden		0	11
+Camden		1	20
+Camden	(Other)	0	10
+Camden	(Other)	1	28
+Camden	Flat/apartment		4
+Camden	Flat/apartment	0	63
+Camden	Flat/apartment	1	109
+Camden	Semi-detached, row/terrace house, townhouse etc.		47
+Camden	Semi-detached, row/terrace house, townhouse etc.	0	326
+Camden	Semi-detached, row/terrace house, townhouse etc.	1	965
+Camden	Separate house		276
+Camden	Separate house	0	1326
+Camden	Separate house	1	16300
+Campbelltown (NSW)			17
+Campbelltown (NSW)		0	28
+Campbelltown (NSW)		1	152
+Campbelltown (NSW)	(Other)		8
+Campbelltown (NSW)	(Other)	0	34
+Campbelltown (NSW)	(Other)	1	71
+Campbelltown (NSW)	Flat/apartment		88
+Campbelltown (NSW)	Flat/apartment	0	524
+Campbelltown (NSW)	Flat/apartment	1	1601
+Campbelltown (NSW)	Semi-detached, row/terrace house, townhouse etc.		300
+Campbelltown (NSW)	Semi-detached, row/terrace house, townhouse etc.	0	1967
+Campbelltown (NSW)	Semi-detached, row/terrace house, townhouse etc.	1	6007
+Campbelltown (NSW)	Separate house		975
+Campbelltown (NSW)	Separate house	0	4858
+Campbelltown (NSW)	Separate house	1	33695
+Wollondilly			4
+Wollondilly		0	4
+Wollondilly		1	35
+Wollondilly	(Other)		3
+Wollondilly	(Other)	0	43
+Wollondilly	(Other)	1	60
+Wollondilly	Flat/apartment	0	38
+Wollondilly	Flat/apartment	1	67
+Wollondilly	Semi-detached, row/terrace house, townhouse etc.		30
+Wollondilly	Semi-detached, row/terrace house, townhouse etc.	0	175
+Wollondilly	Semi-detached, row/terrace house, townhouse etc.	1	424
+Wollondilly	Separate house		280
+Wollondilly	Separate house	0	1284
+Wollondilly	Separate house	1	10436
+Blue Mountains			20
+Blue Mountains		0	20
+Blue Mountains		1	69
+Blue Mountains	(Other)		5
+Blue Mountains	(Other)	0	4
+Blue Mountains	(Other)	1	39
+Blue Mountains	Flat/apartment		33
+Blue Mountains	Flat/apartment	0	177
+Blue Mountains	Flat/apartment	1	376
+Blue Mountains	Semi-detached, row/terrace house, townhouse etc.		39
+Blue Mountains	Semi-detached, row/terrace house, townhouse etc.	0	395
+Blue Mountains	Semi-detached, row/terrace house, townhouse etc.	1	964
+Blue Mountains	Separate house		453
+Blue Mountains	Separate house	0	2402
+Blue Mountains	Separate house	1	23566
+Blue Mountains - South	Separate house	0	3
+Penrith			19
+Penrith		0	30
+Penrith		1	115
+Penrith	(Other)		24
+Penrith	(Other)	0	69
+Penrith	(Other)	1	105
+Penrith	Flat/apartment		107
+Penrith	Flat/apartment	0	784
+Penrith	Flat/apartment	1	2090
+Penrith	Semi-detached, row/terrace house, townhouse etc.		259
+Penrith	Semi-detached, row/terrace house, townhouse etc.	0	1130
+Penrith	Semi-detached, row/terrace house, townhouse etc.	1	4324
+Penrith	Separate house		764
+Penrith	Separate house	0	3695
+Penrith	Separate house	1	32781
+Richmond - Windsor			13
+Richmond - Windsor		0	13
+Richmond - Windsor		1	79
+Richmond - Windsor	(Other)	0	6
+Richmond - Windsor	(Other)	1	24
+Richmond - Windsor	Flat/apartment		15
+Richmond - Windsor	Flat/apartment	0	121
+Richmond - Windsor	Flat/apartment	1	277
+Richmond - Windsor	Semi-detached, row/terrace house, townhouse etc.		64
+Richmond - Windsor	Semi-detached, row/terrace house, townhouse etc.	0	521
+Richmond - Windsor	Semi-detached, row/terrace house, townhouse etc.	1	1476
+Richmond - Windsor	Separate house		214
+Richmond - Windsor	Separate house	0	1249
+Richmond - Windsor	Separate house	1	7995
+St Marys			8
+St Marys		0	9
+St Marys		1	29
+St Marys	(Other)	0	15
+St Marys	(Other)	1	19
+St Marys	Flat/apartment		38
+St Marys	Flat/apartment	0	247
+St Marys	Flat/apartment	1	550
+St Marys	Semi-detached, row/terrace house, townhouse etc.		69
+St Marys	Semi-detached, row/terrace house, townhouse etc.	0	313
+St Marys	Semi-detached, row/terrace house, townhouse etc.	1	1395
+St Marys	Separate house		411
+St Marys	Separate house	0	1996
+St Marys	Separate house	1	12163
+Auburn			41
+Auburn		0	12
+Auburn		1	68
+Auburn	(Other)		9
+Auburn	(Other)	0	33
+Auburn	(Other)	1	124
+Auburn	Flat/apartment		453
+Auburn	Flat/apartment	0	1198
+Auburn	Flat/apartment	1	10134
+Auburn	Semi-detached, row/terrace house, townhouse etc.		119
+Auburn	Semi-detached, row/terrace house, townhouse etc.	0	302
+Auburn	Semi-detached, row/terrace house, townhouse etc.	1	2775
+Auburn	Separate house		422
+Auburn	Separate house	0	1442
+Auburn	Separate house	1	9112
+Carlingford			11
+Carlingford		0	5
+Carlingford		1	67
+Carlingford	(Other)	0	3
+Carlingford	(Other)	1	44
+Carlingford	Flat/apartment		100
+Carlingford	Flat/apartment	0	566
+Carlingford	Flat/apartment	1	2262
+Carlingford	Semi-detached, row/terrace house, townhouse etc.		114
+Carlingford	Semi-detached, row/terrace house, townhouse etc.	0	508
+Carlingford	Semi-detached, row/terrace house, townhouse etc.	1	4495
+Carlingford	Separate house		287
+Carlingford	Separate house	0	1270
+Carlingford	Separate house	1	12064
+Merrylands - Guildford			24
+Merrylands - Guildford		0	45
+Merrylands - Guildford		1	116
+Merrylands - Guildford	(Other)		17
+Merrylands - Guildford	(Other)	0	37
+Merrylands - Guildford	(Other)	1	186
+Merrylands - Guildford	Flat/apartment		366
+Merrylands - Guildford	Flat/apartment	0	1967
+Merrylands - Guildford	Flat/apartment	1	6593
+Merrylands - Guildford	Semi-detached, row/terrace house, townhouse etc.		263
+Merrylands - Guildford	Semi-detached, row/terrace house, townhouse etc.	0	1339
+Merrylands - Guildford	Semi-detached, row/terrace house, townhouse etc.	1	5284
+Merrylands - Guildford	Separate house		934
+Merrylands - Guildford	Separate house	0	4605
+Merrylands - Guildford	Separate house	1	23607
+Parramatta			65
+Parramatta		0	20
+Parramatta		1	167
+Parramatta	(Other)		4
+Parramatta	(Other)	0	19
+Parramatta	(Other)	1	167
+Parramatta	Flat/apartment		685
+Parramatta	Flat/apartment	0	2314
+Parramatta	Flat/apartment	1	18190
+Parramatta	Semi-detached, row/terrace house, townhouse etc.		214
+Parramatta	Semi-detached, row/terrace house, townhouse etc.	0	802
+Parramatta	Semi-detached, row/terrace house, townhouse etc.	1	5742
+Parramatta	Separate house		439
+Parramatta	Separate house	0	2122
+Parramatta	Separate house	1	16486
+Pennant Hills - Epping			8
+Pennant Hills - Epping		0	6
+Pennant Hills - Epping		1	22
+Pennant Hills - Epping	(Other)	1	13
+Pennant Hills - Epping	Flat/apartment		66
+Pennant Hills - Epping	Flat/apartment	0	275
+Pennant Hills - Epping	Flat/apartment	1	2676
+Pennant Hills - Epping	Semi-detached, row/terrace house, townhouse etc.		52
+Pennant Hills - Epping	Semi-detached, row/terrace house, townhouse etc.	0	102
+Pennant Hills - Epping	Semi-detached, row/terrace house, townhouse etc.	1	1279
+Pennant Hills - Epping	Separate house		166
+Pennant Hills - Epping	Separate house	0	565
+Pennant Hills - Epping	Separate house	1	10309
+Ryde - Hunters Hill			45
+Ryde - Hunters Hill		0	19
+Ryde - Hunters Hill		1	175
+Ryde - Hunters Hill	(Other)		3
+Ryde - Hunters Hill	(Other)	0	20
+Ryde - Hunters Hill	(Other)	1	96
+Ryde - Hunters Hill	Flat/apartment		369
+Ryde - Hunters Hill	Flat/apartment	0	1817
+Ryde - Hunters Hill	Flat/apartment	1	13920
+Ryde - Hunters Hill	Semi-detached, row/terrace house, townhouse etc.		184
+Ryde - Hunters Hill	Semi-detached, row/terrace house, townhouse etc.	0	841
+Ryde - Hunters Hill	Semi-detached, row/terrace house, townhouse etc.	1	6691
+Ryde - Hunters Hill	Separate house		463
+Ryde - Hunters Hill	Separate house	0	2141
+Ryde - Hunters Hill	Separate house	1	20455
+Bringelly - Green Valley			65
+Bringelly - Green Valley		0	26
+Bringelly - Green Valley		1	85
+Bringelly - Green Valley	(Other)		8
+Bringelly - Green Valley	(Other)	0	14
+Bringelly - Green Valley	(Other)	1	32
+Bringelly - Green Valley	Flat/apartment		58
+Bringelly - Green Valley	Flat/apartment	0	376
+Bringelly - Green Valley	Flat/apartment	1	308
+Bringelly - Green Valley	Semi-detached, row/terrace house, townhouse etc.		80
+Bringelly - Green Valley	Semi-detached, row/terrace house, townhouse etc.	0	325
+Bringelly - Green Valley	Semi-detached, row/terrace house, townhouse etc.	1	1462
+Bringelly - Green Valley	Separate house		738
+Bringelly - Green Valley	Separate house	0	2923
+Bringelly - Green Valley	Separate house	1	21799
+Fairfield			53
+Fairfield		0	62
+Fairfield		1	145
+Fairfield	(Other)		30
+Fairfield	(Other)	0	131
+Fairfield	(Other)	1	276
+Fairfield	Flat/apartment		279
+Fairfield	Flat/apartment	0	1999
+Fairfield	Flat/apartment	1	4543
+Fairfield	Semi-detached, row/terrace house, townhouse etc.		264
+Fairfield	Semi-detached, row/terrace house, townhouse etc.	0	1390
+Fairfield	Semi-detached, row/terrace house, townhouse etc.	1	5327
+Fairfield	Separate house		1220
+Fairfield	Separate house	0	6021
+Fairfield	Separate house	1	31672
+Liverpool			8
+Liverpool		0	25
+Liverpool		1	70
+Liverpool	(Other)		6
+Liverpool	(Other)	0	11
+Liverpool	(Other)	1	51
+Liverpool	Flat/apartment		294
+Liverpool	Flat/apartment	0	1576
+Liverpool	Flat/apartment	1	5174
+Liverpool	Semi-detached, row/terrace house, townhouse etc.		192
+Liverpool	Semi-detached, row/terrace house, townhouse etc.	0	831
+Liverpool	Semi-detached, row/terrace house, townhouse etc.	1	3369
+Liverpool	Separate house		661
+Liverpool	Separate house	0	2706
+Liverpool	Separate house	1	20207
+Cronulla - Miranda - Caringbah			16
+Cronulla - Miranda - Caringbah		0	8
+Cronulla - Miranda - Caringbah		1	79
+Cronulla - Miranda - Caringbah	(Other)		14
+Cronulla - Miranda - Caringbah	(Other)	0	44
+Cronulla - Miranda - Caringbah	(Other)	1	151
+Cronulla - Miranda - Caringbah	Flat/apartment		294
+Cronulla - Miranda - Caringbah	Flat/apartment	0	1822
+Cronulla - Miranda - Caringbah	Flat/apartment	1	9461
+Cronulla - Miranda - Caringbah	Semi-detached, row/terrace house, townhouse etc.		167
+Cronulla - Miranda - Caringbah	Semi-detached, row/terrace house, townhouse etc.	0	904
+Cronulla - Miranda - Caringbah	Semi-detached, row/terrace house, townhouse etc.	1	5076
+Cronulla - Miranda - Caringbah	Separate house		409
+Cronulla - Miranda - Caringbah	Separate house	0	1887
+Cronulla - Miranda - Caringbah	Separate house	1	19705
+Sutherland - Menai - Heathcote			24
+Sutherland - Menai - Heathcote		0	13
+Sutherland - Menai - Heathcote		1	59
+Sutherland - Menai - Heathcote	(Other)		10
+Sutherland - Menai - Heathcote	(Other)	0	54
+Sutherland - Menai - Heathcote	(Other)	1	98
+Sutherland - Menai - Heathcote	Flat/apartment		146
+Sutherland - Menai - Heathcote	Flat/apartment	0	803
+Sutherland - Menai - Heathcote	Flat/apartment	1	4196
+Sutherland - Menai - Heathcote	Semi-detached, row/terrace house, townhouse etc.		86
+Sutherland - Menai - Heathcote	Semi-detached, row/terrace house, townhouse etc.	0	531
+Sutherland - Menai - Heathcote	Semi-detached, row/terrace house, townhouse etc.	1	3608
+Sutherland - Menai - Heathcote	Separate house		398
+Sutherland - Menai - Heathcote	Separate house	0	1702
+Sutherland - Menai - Heathcote	Separate house	1	24416
+Ballarat			31
+Ballarat		0	33
+Ballarat		1	110
+Ballarat	(Other)		3
+Ballarat	(Other)	0	18
+Ballarat	(Other)	1	91
+Ballarat	Flat/apartment		54
+Ballarat	Flat/apartment	0	332
+Ballarat	Flat/apartment	1	795
+Ballarat	Semi-detached, row/terrace house, townhouse etc.		172
+Ballarat	Semi-detached, row/terrace house, townhouse etc.	0	1332
+Ballarat	Semi-detached, row/terrace house, townhouse etc.	1	3860
+Ballarat	Separate house		783
+Ballarat	Separate house	0	4727
+Ballarat	Separate house	1	26722
+Creswick - Daylesford - Ballan			20
+Creswick - Daylesford - Ballan		0	35
+Creswick - Daylesford - Ballan		1	80
+Creswick - Daylesford - Ballan	(Other)		17
+Creswick - Daylesford - Ballan	(Other)	0	77
+Creswick - Daylesford - Ballan	(Other)	1	294
+Creswick - Daylesford - Ballan	Flat/apartment		13
+Creswick - Daylesford - Ballan	Flat/apartment	0	47
+Creswick - Daylesford - Ballan	Flat/apartment	1	56
+Creswick - Daylesford - Ballan	Semi-detached, row/terrace house, townhouse etc.		30
+Creswick - Daylesford - Ballan	Semi-detached, row/terrace house, townhouse etc.	0	45
+Creswick - Daylesford - Ballan	Semi-detached, row/terrace house, townhouse etc.	1	63
+Creswick - Daylesford - Ballan	Separate house		244
+Creswick - Daylesford - Ballan	Separate house	0	1712
+Creswick - Daylesford - Ballan	Separate house	1	7862
+Maryborough - Pyrenees			3
+Maryborough - Pyrenees		0	15
+Maryborough - Pyrenees		1	23
+Maryborough - Pyrenees	(Other)		4
+Maryborough - Pyrenees	(Other)	0	70
+Maryborough - Pyrenees	(Other)	1	105
+Maryborough - Pyrenees	Flat/apartment		11
+Maryborough - Pyrenees	Flat/apartment	0	54
+Maryborough - Pyrenees	Flat/apartment	1	31
+Maryborough - Pyrenees	Semi-detached, row/terrace house, townhouse etc.		18
+Maryborough - Pyrenees	Semi-detached, row/terrace house, townhouse etc.	0	144
+Maryborough - Pyrenees	Semi-detached, row/terrace house, townhouse etc.	1	163
+Maryborough - Pyrenees	Separate house		292
+Maryborough - Pyrenees	Separate house	0	2298
+Maryborough - Pyrenees	Separate house	1	6854
+Bendigo			15
+Bendigo		0	32
+Bendigo		1	79
+Bendigo	(Other)		13
+Bendigo	(Other)	0	55
+Bendigo	(Other)	1	94
+Bendigo	Flat/apartment		37
+Bendigo	Flat/apartment	0	154
+Bendigo	Flat/apartment	1	341
+Bendigo	Semi-detached, row/terrace house, townhouse etc.		161
+Bendigo	Semi-detached, row/terrace house, townhouse etc.	0	999
+Bendigo	Semi-detached, row/terrace house, townhouse etc.	1	2037
+Bendigo	Separate house		767
+Bendigo	Separate house	0	4853
+Bendigo	Separate house	1	25925
+Heathcote - Castlemaine - Kyneton			25
+Heathcote - Castlemaine - Kyneton		0	20
+Heathcote - Castlemaine - Kyneton		1	113
+Heathcote - Castlemaine - Kyneton	(Other)		4
+Heathcote - Castlemaine - Kyneton	(Other)	0	37
+Heathcote - Castlemaine - Kyneton	(Other)	1	88
+Heathcote - Castlemaine - Kyneton	Flat/apartment		6
+Heathcote - Castlemaine - Kyneton	Flat/apartment	0	57
+Heathcote - Castlemaine - Kyneton	Flat/apartment	1	92
+Heathcote - Castlemaine - Kyneton	Semi-detached, row/terrace house, townhouse etc.		27
+Heathcote - Castlemaine - Kyneton	Semi-detached, row/terrace house, townhouse etc.	0	190
+Heathcote - Castlemaine - Kyneton	Semi-detached, row/terrace house, townhouse etc.	1	285
+Heathcote - Castlemaine - Kyneton	Separate house		409
+Heathcote - Castlemaine - Kyneton	Separate house	0	2455
+Heathcote - Castlemaine - Kyneton	Separate house	1	13774
+Loddon - Elmore			5
+Loddon - Elmore		0	8
+Loddon - Elmore		1	26
+Loddon - Elmore	(Other)		9
+Loddon - Elmore	(Other)	0	40
+Loddon - Elmore	(Other)	1	51
+Loddon - Elmore	Flat/apartment		7
+Loddon - Elmore	Flat/apartment	0	29
+Loddon - Elmore	Flat/apartment	1	15
+Loddon - Elmore	Semi-detached, row/terrace house, townhouse etc.		4
+Loddon - Elmore	Semi-detached, row/terrace house, townhouse etc.	0	11
+Loddon - Elmore	Semi-detached, row/terrace house, townhouse etc.	1	8
+Loddon - Elmore	Separate house		145
+Loddon - Elmore	Separate house	0	1023
+Loddon - Elmore	Separate house	1	2989
+Barwon - West		0	3
+Barwon - West		1	16
+Barwon - West	(Other)	0	3
+Barwon - West	(Other)	1	17
+Barwon - West	Flat/apartment	0	11
+Barwon - West	Flat/apartment	1	19
+Barwon - West	Semi-detached, row/terrace house, townhouse etc.	0	6
+Barwon - West	Semi-detached, row/terrace house, townhouse etc.	1	12
+Barwon - West	Separate house		127
+Barwon - West	Separate house	0	757
+Barwon - West	Separate house	1	5317
+Geelong			17
+Geelong		0	29
+Geelong		1	145
+Geelong	(Other)		22
+Geelong	(Other)	0	149
+Geelong	(Other)	1	354
+Geelong	Flat/apartment		111
+Geelong	Flat/apartment	0	603
+Geelong	Flat/apartment	1	1520
+Geelong	Semi-detached, row/terrace house, townhouse etc.		300
+Geelong	Semi-detached, row/terrace house, townhouse etc.	0	2197
+Geelong	Semi-detached, row/terrace house, townhouse etc.	1	5990
+Geelong	Separate house		1456
+Geelong	Separate house	0	9092
+Geelong	Separate house	1	48304
+Surf Coast - Bellarine Peninsula			13
+Surf Coast - Bellarine Peninsula		0	19
+Surf Coast - Bellarine Peninsula		1	100
+Surf Coast - Bellarine Peninsula	(Other)		5
+Surf Coast - Bellarine Peninsula	(Other)	0	17
+Surf Coast - Bellarine Peninsula	(Other)	1	64
+Surf Coast - Bellarine Peninsula	Flat/apartment		21
+Surf Coast - Bellarine Peninsula	Flat/apartment	0	114
+Surf Coast - Bellarine Peninsula	Flat/apartment	1	246
+Surf Coast - Bellarine Peninsula	Semi-detached, row/terrace house, townhouse etc.		46
+Surf Coast - Bellarine Peninsula	Semi-detached, row/terrace house, townhouse etc.	0	344
+Surf Coast - Bellarine Peninsula	Semi-detached, row/terrace house, townhouse etc.	1	1277
+Surf Coast - Bellarine Peninsula	Separate house		495
+Surf Coast - Bellarine Peninsula	Separate house	0	2627
+Surf Coast - Bellarine Peninsula	Separate house	1	20674
+Upper Goulburn Valley			14
+Upper Goulburn Valley		0	18
+Upper Goulburn Valley		1	109
+Upper Goulburn Valley	(Other)		55
+Upper Goulburn Valley	(Other)	0	96
+Upper Goulburn Valley	(Other)	1	159
+Upper Goulburn Valley	Flat/apartment		41
+Upper Goulburn Valley	Flat/apartment	0	225
+Upper Goulburn Valley	Flat/apartment	1	238
+Upper Goulburn Valley	Semi-detached, row/terrace house, townhouse etc.		50
+Upper Goulburn Valley	Semi-detached, row/terrace house, townhouse etc.	0	222
+Upper Goulburn Valley	Semi-detached, row/terrace house, townhouse etc.	1	346
+Upper Goulburn Valley	Separate house		578
+Upper Goulburn Valley	Separate house	0	3352
+Upper Goulburn Valley	Separate house	1	14611
+Wangaratta - Benalla			3
+Wangaratta - Benalla		0	11
+Wangaratta - Benalla		1	61
+Wangaratta - Benalla	(Other)		11
+Wangaratta - Benalla	(Other)	0	36
+Wangaratta - Benalla	(Other)	1	71
+Wangaratta - Benalla	Flat/apartment		40
+Wangaratta - Benalla	Flat/apartment	0	238
+Wangaratta - Benalla	Flat/apartment	1	304
+Wangaratta - Benalla	Semi-detached, row/terrace house, townhouse etc.		63
+Wangaratta - Benalla	Semi-detached, row/terrace house, townhouse etc.	0	440
+Wangaratta - Benalla	Semi-detached, row/terrace house, townhouse etc.	1	650
+Wangaratta - Benalla	Separate house		450
+Wangaratta - Benalla	Separate house	0	3178
+Wangaratta - Benalla	Separate house	1	12565
+Wodonga - Alpine			10
+Wodonga - Alpine		0	30
+Wodonga - Alpine		1	161
+Wodonga - Alpine	(Other)		8
+Wodonga - Alpine	(Other)	0	47
+Wodonga - Alpine	(Other)	1	103
+Wodonga - Alpine	Flat/apartment		36
+Wodonga - Alpine	Flat/apartment	0	210
+Wodonga - Alpine	Flat/apartment	1	365
+Wodonga - Alpine	Semi-detached, row/terrace house, townhouse etc.		88
+Wodonga - Alpine	Semi-detached, row/terrace house, townhouse etc.	0	559
+Wodonga - Alpine	Semi-detached, row/terrace house, townhouse etc.	1	1099
+Wodonga - Alpine	Separate house		577
+Wodonga - Alpine	Separate house	0	3579
+Wodonga - Alpine	Separate house	1	19013
+Baw Baw			12
+Baw Baw		0	11
+Baw Baw		1	62
+Baw Baw	(Other)		11
+Baw Baw	(Other)	0	72
+Baw Baw	(Other)	1	73
+Baw Baw	Flat/apartment		33
+Baw Baw	Flat/apartment	0	289
+Baw Baw	Flat/apartment	1	457
+Baw Baw	Semi-detached, row/terrace house, townhouse etc.		26
+Baw Baw	Semi-detached, row/terrace house, townhouse etc.	0	244
+Baw Baw	Semi-detached, row/terrace house, townhouse etc.	1	381
+Baw Baw	Separate house		396
+Baw Baw	Separate house	0	2276
+Baw Baw	Separate house	1	13316
+Gippsland - East			72
+Gippsland - East		0	32
+Gippsland - East		1	108
+Gippsland - East	(Other)		18
+Gippsland - East	(Other)	0	124
+Gippsland - East	(Other)	1	162
+Gippsland - East	Flat/apartment		14
+Gippsland - East	Flat/apartment	0	117
+Gippsland - East	Flat/apartment	1	173
+Gippsland - East	Semi-detached, row/terrace house, townhouse etc.		36
+Gippsland - East	Semi-detached, row/terrace house, townhouse etc.	0	251
+Gippsland - East	Semi-detached, row/terrace house, townhouse etc.	1	362
+Gippsland - East	Separate house		486
+Gippsland - East	Separate house	0	3312
+Gippsland - East	Separate house	1	12351
+Gippsland - South West			17
+Gippsland - South West		0	12
+Gippsland - South West		1	94
+Gippsland - South West	(Other)		16
+Gippsland - South West	(Other)	0	114
+Gippsland - South West	(Other)	1	132
+Gippsland - South West	Flat/apartment		19
+Gippsland - South West	Flat/apartment	0	182
+Gippsland - South West	Flat/apartment	1	251
+Gippsland - South West	Semi-detached, row/terrace house, townhouse etc.		51
+Gippsland - South West	Semi-detached, row/terrace house, townhouse etc.	0	348
+Gippsland - South West	Semi-detached, row/terrace house, townhouse etc.	1	562
+Gippsland - South West	Separate house		615
+Gippsland - South West	Separate house	0	3963
+Gippsland - South West	Separate house	1	17663
+Latrobe Valley			37
+Latrobe Valley		0	12
+Latrobe Valley		1	49
+Latrobe Valley	(Other)		8
+Latrobe Valley	(Other)	0	34
+Latrobe Valley	(Other)	1	74
+Latrobe Valley	Flat/apartment		95
+Latrobe Valley	Flat/apartment	0	553
+Latrobe Valley	Flat/apartment	1	814
+Latrobe Valley	Semi-detached, row/terrace house, townhouse etc.		92
+Latrobe Valley	Semi-detached, row/terrace house, townhouse etc.	0	680
+Latrobe Valley	Semi-detached, row/terrace house, townhouse etc.	1	933
+Latrobe Valley	Separate house		680
+Latrobe Valley	Separate house	0	4216
+Latrobe Valley	Separate house	1	19879
+Wellington			5
+Wellington		0	15
+Wellington		1	61
+Wellington	(Other)		6
+Wellington	(Other)	0	58
+Wellington	(Other)	1	84
+Wellington	Flat/apartment		17
+Wellington	Flat/apartment	0	144
+Wellington	Flat/apartment	1	242
+Wellington	Semi-detached, row/terrace house, townhouse etc.		36
+Wellington	Semi-detached, row/terrace house, townhouse etc.	0	221
+Wellington	Semi-detached, row/terrace house, townhouse etc.	1	293
+Wellington	Separate house		397
+Wellington	Separate house	0	2673
+Wellington	Separate house	1	11795
+Brunswick - Coburg			18
+Brunswick - Coburg		0	18
+Brunswick - Coburg		1	115
+Brunswick - Coburg	(Other)		11
+Brunswick - Coburg	(Other)	0	15
+Brunswick - Coburg	(Other)	1	167
+Brunswick - Coburg	Flat/apartment		217
+Brunswick - Coburg	Flat/apartment	0	844
+Brunswick - Coburg	Flat/apartment	1	7594
+Brunswick - Coburg	Semi-detached, row/terrace house, townhouse etc.		196
+Brunswick - Coburg	Semi-detached, row/terrace house, townhouse etc.	0	793
+Brunswick - Coburg	Semi-detached, row/terrace house, townhouse etc.	1	7578
+Brunswick - Coburg	Separate house		393
+Brunswick - Coburg	Separate house	0	2615
+Brunswick - Coburg	Separate house	1	13485
+Darebin - South			7
+Darebin - South		0	8
+Darebin - South		1	66
+Darebin - South	(Other)		4
+Darebin - South	(Other)	0	10
+Darebin - South	(Other)	1	101
+Darebin - South	Flat/apartment		138
+Darebin - South	Flat/apartment	0	653
+Darebin - South	Flat/apartment	1	3908
+Darebin - South	Semi-detached, row/terrace house, townhouse etc.		93
+Darebin - South	Semi-detached, row/terrace house, townhouse etc.	0	509
+Darebin - South	Semi-detached, row/terrace house, townhouse etc.	1	4581
+Darebin - South	Separate house		244
+Darebin - South	Separate house	0	1434
+Darebin - South	Separate house	1	8516
+Essendon			21
+Essendon		0	11
+Essendon		1	80
+Essendon	(Other)		3
+Essendon	(Other)	0	11
+Essendon	(Other)	1	84
+Essendon	Flat/apartment		367
+Essendon	Flat/apartment	0	1620
+Essendon	Flat/apartment	1	6966
+Essendon	Semi-detached, row/terrace house, townhouse etc.		112
+Essendon	Semi-detached, row/terrace house, townhouse etc.	0	499
+Essendon	Semi-detached, row/terrace house, townhouse etc.	1	4422
+Essendon	Separate house		226
+Essendon	Separate house	0	1227
+Essendon	Separate house	1	9940
+Melbourne City			43
+Melbourne City		0	21
+Melbourne City		1	325
+Melbourne City	(Other)		48
+Melbourne City	(Other)	0	17
+Melbourne City	(Other)	1	91
+Melbourne City	Flat/apartment		1375
+Melbourne City	Flat/apartment	0	3612
+Melbourne City	Flat/apartment	1	42564
+Melbourne City	Semi-detached, row/terrace house, townhouse etc.		177
+Melbourne City	Semi-detached, row/terrace house, townhouse etc.	0	462
+Melbourne City	Semi-detached, row/terrace house, townhouse etc.	1	6612
+Melbourne City	Separate house		54
+Melbourne City	Separate house	0	146
+Melbourne City	Separate house	1	1455
+Port Phillip			35
+Port Phillip		0	14
+Port Phillip		1	136
+Port Phillip	(Other)		13
+Port Phillip	(Other)	0	31
+Port Phillip	(Other)	1	437
+Port Phillip	Flat/apartment		810
+Port Phillip	Flat/apartment	0	3139
+Port Phillip	Flat/apartment	1	25762
+Port Phillip	Semi-detached, row/terrace house, townhouse etc.		237
+Port Phillip	Semi-detached, row/terrace house, townhouse etc.	0	939
+Port Phillip	Semi-detached, row/terrace house, townhouse etc.	1	9585
+Port Phillip	Separate house		82
+Port Phillip	Separate house	0	343
+Port Phillip	Separate house	1	3546
+Stonnington - West			8
+Stonnington - West		0	8
+Stonnington - West		1	78
+Stonnington - West	(Other)		3
+Stonnington - West	(Other)	0	3
+Stonnington - West	(Other)	1	61
+Stonnington - West	Flat/apartment		492
+Stonnington - West	Flat/apartment	0	1842
+Stonnington - West	Flat/apartment	1	15563
+Stonnington - West	Semi-detached, row/terrace house, townhouse etc.		136
+Stonnington - West	Semi-detached, row/terrace house, townhouse etc.	0	410
+Stonnington - West	Semi-detached, row/terrace house, townhouse etc.	1	5258
+Stonnington - West	Separate house		109
+Stonnington - West	Separate house	0	327
+Stonnington - West	Separate house	1	4019
+Yarra			20
+Yarra		0	19
+Yarra		1	155
+Yarra	(Other)		14
+Yarra	(Other)	0	11
+Yarra	(Other)	1	195
+Yarra	Flat/apartment		535
+Yarra	Flat/apartment	0	2034
+Yarra	Flat/apartment	1	14197
+Yarra	Semi-detached, row/terrace house, townhouse etc.		330
+Yarra	Semi-detached, row/terrace house, townhouse etc.	0	960
+Yarra	Semi-detached, row/terrace house, townhouse etc.	1	12842
+Yarra	Separate house		128
+Yarra	Separate house	0	538
+Yarra	Separate house	1	4568
+Boroondara			13
+Boroondara		0	16
+Boroondara		1	167
+Boroondara	(Other)		5
+Boroondara	(Other)	0	11
+Boroondara	(Other)	1	168
+Boroondara	Flat/apartment		412
+Boroondara	Flat/apartment	0	1159
+Boroondara	Flat/apartment	1	12051
+Boroondara	Semi-detached, row/terrace house, townhouse etc.		197
+Boroondara	Semi-detached, row/terrace house, townhouse etc.	0	1063
+Boroondara	Semi-detached, row/terrace house, townhouse etc.	1	11009
+Boroondara	Separate house		567
+Boroondara	Separate house	0	2253
+Boroondara	Separate house	1	30749
+Manningham - West			80
+Manningham - West		0	10
+Manningham - West		1	49
+Manningham - West	(Other)	1	12
+Manningham - West	Flat/apartment		79
+Manningham - West	Flat/apartment	0	332
+Manningham - West	Flat/apartment	1	2144
+Manningham - West	Semi-detached, row/terrace house, townhouse etc.		168
+Manningham - West	Semi-detached, row/terrace house, townhouse etc.	0	633
+Manningham - West	Semi-detached, row/terrace house, townhouse etc.	1	5167
+Manningham - West	Separate house		479
+Manningham - West	Separate house	0	2687
+Manningham - West	Separate house	1	19988
+Whitehorse - West			15
+Whitehorse - West		0	8
+Whitehorse - West		1	81
+Whitehorse - West	(Other)	0	3
+Whitehorse - West	(Other)	1	34
+Whitehorse - West	Flat/apartment		146
+Whitehorse - West	Flat/apartment	0	613
+Whitehorse - West	Flat/apartment	1	3249
+Whitehorse - West	Semi-detached, row/terrace house, townhouse etc.		191
+Whitehorse - West	Semi-detached, row/terrace house, townhouse etc.	0	1093
+Whitehorse - West	Semi-detached, row/terrace house, townhouse etc.	1	7676
+Whitehorse - West	Separate house		503
+Whitehorse - West	Separate house	0	2515
+Whitehorse - West	Separate house	1	20523
+Bayside			10
+Bayside		0	12
+Bayside		1	130
+Bayside	(Other)		3
+Bayside	(Other)	0	8
+Bayside	(Other)	1	177
+Bayside	Flat/apartment		134
+Bayside	Flat/apartment	0	671
+Bayside	Flat/apartment	1	3495
+Bayside	Semi-detached, row/terrace house, townhouse etc.		176
+Bayside	Semi-detached, row/terrace house, townhouse etc.	0	910
+Bayside	Semi-detached, row/terrace house, townhouse etc.	1	7251
+Bayside	Separate house		383
+Bayside	Separate house	0	1576
+Bayside	Separate house	1	20087
+Glen Eira			21
+Glen Eira		0	14
+Glen Eira		1	140
+Glen Eira	(Other)		4
+Glen Eira	(Other)	0	19
+Glen Eira	(Other)	1	152
+Glen Eira	Flat/apartment		326
+Glen Eira	Flat/apartment	0	1542
+Glen Eira	Flat/apartment	1	11303
+Glen Eira	Semi-detached, row/terrace house, townhouse etc.		321
+Glen Eira	Semi-detached, row/terrace house, townhouse etc.	0	1381
+Glen Eira	Semi-detached, row/terrace house, townhouse etc.	1	11852
+Glen Eira	Separate house		552
+Glen Eira	Separate house	0	2844
+Glen Eira	Separate house	1	24590
+Kingston			32
+Kingston		0	34
+Kingston		1	122
+Kingston	(Other)		7
+Kingston	(Other)	0	73
+Kingston	(Other)	1	194
+Kingston	Flat/apartment		278
+Kingston	Flat/apartment	0	1222
+Kingston	Flat/apartment	1	5637
+Kingston	Semi-detached, row/terrace house, townhouse etc.		273
+Kingston	Semi-detached, row/terrace house, townhouse etc.	0	1531
+Kingston	Semi-detached, row/terrace house, townhouse etc.	1	10189
+Kingston	Separate house		485
+Kingston	Separate house	0	2570
+Kingston	Separate house	1	21569
+Stonnington - East			4
+Stonnington - East		0	6
+Stonnington - East		1	49
+Stonnington - East	(Other)		5
+Stonnington - East	(Other)	0	14
+Stonnington - East	(Other)	1	167
+Stonnington - East	Flat/apartment		101
+Stonnington - East	Flat/apartment	0	446
+Stonnington - East	Flat/apartment	1	3902
+Stonnington - East	Semi-detached, row/terrace house, townhouse etc.		54
+Stonnington - East	Semi-detached, row/terrace house, townhouse etc.	0	266
+Stonnington - East	Semi-detached, row/terrace house, townhouse etc.	1	2944
+Stonnington - East	Separate house		118
+Stonnington - East	Separate house	0	553
+Stonnington - East	Separate house	1	6770
+Banyule			21
+Banyule		0	25
+Banyule		1	85
+Banyule	(Other)	0	5
+Banyule	(Other)	1	47
+Banyule	Flat/apartment		86
+Banyule	Flat/apartment	0	390
+Banyule	Flat/apartment	1	2279
+Banyule	Semi-detached, row/terrace house, townhouse etc.		191
+Banyule	Semi-detached, row/terrace house, townhouse etc.	0	1097
+Banyule	Semi-detached, row/terrace house, townhouse etc.	1	5673
+Banyule	Separate house		722
+Banyule	Separate house	0	3672
+Banyule	Separate house	1	30148
+Darebin - North			18
+Darebin - North		0	16
+Darebin - North		1	74
+Darebin - North	(Other)		5
+Darebin - North	(Other)	0	24
+Darebin - North	(Other)	1	158
+Darebin - North	Flat/apartment		109
+Darebin - North	Flat/apartment	0	520
+Darebin - North	Flat/apartment	1	2492
+Darebin - North	Semi-detached, row/terrace house, townhouse etc.		311
+Darebin - North	Semi-detached, row/terrace house, townhouse etc.	0	1531
+Darebin - North	Semi-detached, row/terrace house, townhouse etc.	1	7196
+Darebin - North	Separate house		699
+Darebin - North	Separate house	0	4521
+Darebin - North	Separate house	1	16793
+Nillumbik - Kinglake			7
+Nillumbik - Kinglake		0	3
+Nillumbik - Kinglake		1	54
+Nillumbik - Kinglake	(Other)	0	5
+Nillumbik - Kinglake	(Other)	1	24
+Nillumbik - Kinglake	Flat/apartment		14
+Nillumbik - Kinglake	Flat/apartment	0	95
+Nillumbik - Kinglake	Flat/apartment	1	411
+Nillumbik - Kinglake	Semi-detached, row/terrace house, townhouse etc.		16
+Nillumbik - Kinglake	Semi-detached, row/terrace house, townhouse etc.	0	104
+Nillumbik - Kinglake	Semi-detached, row/terrace house, townhouse etc.	1	558
+Nillumbik - Kinglake	Separate house		320
+Nillumbik - Kinglake	Separate house	0	1135
+Nillumbik - Kinglake	Separate house	1	18310
+Whittlesea - Wallan			16
+Whittlesea - Wallan		0	13
+Whittlesea - Wallan		1	93
+Whittlesea - Wallan	(Other)		3
+Whittlesea - Wallan	(Other)	0	10
+Whittlesea - Wallan	(Other)	1	29
+Whittlesea - Wallan	Flat/apartment		70
+Whittlesea - Wallan	Flat/apartment	0	430
+Whittlesea - Wallan	Flat/apartment	1	1601
+Whittlesea - Wallan	Semi-detached, row/terrace house, townhouse etc.		200
+Whittlesea - Wallan	Semi-detached, row/terrace house, townhouse etc.	0	1153
+Whittlesea - Wallan	Semi-detached, row/terrace house, townhouse etc.	1	6898
+Whittlesea - Wallan	Separate house		1441
+Whittlesea - Wallan	Separate house	0	7534
+Whittlesea - Wallan	Separate house	1	49238
+Keilor			10
+Keilor		0	3
+Keilor		1	37
+Keilor	(Other)		3
+Keilor	(Other)	0	23
+Keilor	(Other)	1	95
+Keilor	Flat/apartment		6
+Keilor	Flat/apartment	0	48
+Keilor	Flat/apartment	1	182
+Keilor	Semi-detached, row/terrace house, townhouse etc.		121
+Keilor	Semi-detached, row/terrace house, townhouse etc.	0	659
+Keilor	Semi-detached, row/terrace house, townhouse etc.	1	3584
+Keilor	Separate house		406
+Keilor	Separate house	0	2774
+Keilor	Separate house	1	12969
+Macedon Ranges		0	8
+Macedon Ranges		1	29
+Macedon Ranges	(Other)		7
+Macedon Ranges	(Other)	0	9
+Macedon Ranges	(Other)	1	23
+Macedon Ranges	Flat/apartment	0	19
+Macedon Ranges	Flat/apartment	1	57
+Macedon Ranges	Semi-detached, row/terrace house, townhouse etc.		11
+Macedon Ranges	Semi-detached, row/terrace house, townhouse etc.	0	113
+Macedon Ranges	Semi-detached, row/terrace house, townhouse etc.	1	341
+Macedon Ranges	Separate house		181
+Macedon Ranges	Separate house	0	775
+Macedon Ranges	Separate house	1	8252
+Moreland - North			4
+Moreland - North		0	18
+Moreland - North		1	63
+Moreland - North	(Other)		7
+Moreland - North	(Other)	0	15
+Moreland - North	(Other)	1	64
+Moreland - North	Flat/apartment		58
+Moreland - North	Flat/apartment	0	322
+Moreland - North	Flat/apartment	1	1054
+Moreland - North	Semi-detached, row/terrace house, townhouse etc.		243
+Moreland - North	Semi-detached, row/terrace house, townhouse etc.	0	991
+Moreland - North	Semi-detached, row/terrace house, townhouse etc.	1	6237
+Moreland - North	Separate house		517
+Moreland - North	Separate house	0	3793
+Moreland - North	Separate house	1	13483
+Sunbury			4
+Sunbury		0	3
+Sunbury		1	13
+Sunbury	(Other)	1	5
+Sunbury	Flat/apartment		28
+Sunbury	Flat/apartment	0	222
+Sunbury	Flat/apartment	1	663
+Sunbury	Semi-detached, row/terrace house, townhouse etc.		25
+Sunbury	Semi-detached, row/terrace house, townhouse etc.	0	131
+Sunbury	Semi-detached, row/terrace house, townhouse etc.	1	363
+Sunbury	Separate house		233
+Sunbury	Separate house	0	1126
+Sunbury	Separate house	1	10829
+Tullamarine - Broadmeadows			38
+Tullamarine - Broadmeadows		0	16
+Tullamarine - Broadmeadows		1	76
+Tullamarine - Broadmeadows	(Other)		28
+Tullamarine - Broadmeadows	(Other)	0	125
+Tullamarine - Broadmeadows	(Other)	1	173
+Tullamarine - Broadmeadows	Flat/apartment		59
+Tullamarine - Broadmeadows	Flat/apartment	0	259
+Tullamarine - Broadmeadows	Flat/apartment	1	898
+Tullamarine - Broadmeadows	Semi-detached, row/terrace house, townhouse etc.		188
+Tullamarine - Broadmeadows	Semi-detached, row/terrace house, townhouse etc.	0	875
+Tullamarine - Broadmeadows	Semi-detached, row/terrace house, townhouse etc.	1	4184
+Tullamarine - Broadmeadows	Separate house		1222
+Tullamarine - Broadmeadows	Separate house	0	4935
+Tullamarine - Broadmeadows	Separate house	1	34282
+Knox			15
+Knox		0	15
+Knox		1	76
+Knox	(Other)		14
+Knox	(Other)	0	65
+Knox	(Other)	1	188
+Knox	Flat/apartment		76
+Knox	Flat/apartment	0	342
+Knox	Flat/apartment	1	907
+Knox	Semi-detached, row/terrace house, townhouse etc.		217
+Knox	Semi-detached, row/terrace house, townhouse etc.	0	1159
+Knox	Semi-detached, row/terrace house, townhouse etc.	1	5134
+Knox	Separate house		856
+Knox	Separate house	0	3750
+Knox	Separate house	1	40855
+Manningham - East		1	13
+Manningham - East	(Other)	1	16
+Manningham - East	Flat/apartment		9
+Manningham - East	Flat/apartment	0	58
+Manningham - East	Flat/apartment	1	59
+Manningham - East	Semi-detached, row/terrace house, townhouse etc.		11
+Manningham - East	Semi-detached, row/terrace house, townhouse etc.	0	75
+Manningham - East	Semi-detached, row/terrace house, townhouse etc.	1	281
+Manningham - East	Separate house		131
+Manningham - East	Separate house	0	451
+Manningham - East	Separate house	1	7154
+Maroondah			19
+Maroondah		0	15
+Maroondah		1	65
+Maroondah	(Other)	0	3
+Maroondah	(Other)	1	20
+Maroondah	Flat/apartment		27
+Maroondah	Flat/apartment	0	128
+Maroondah	Flat/apartment	1	781
+Maroondah	Semi-detached, row/terrace house, townhouse etc.		116
+Maroondah	Semi-detached, row/terrace house, townhouse etc.	0	604
+Maroondah	Semi-detached, row/terrace house, townhouse etc.	1	2657
+Maroondah	Separate house		689
+Maroondah	Separate house	0	3337
+Maroondah	Separate house	1	31361
+Whitehorse - East			11
+Whitehorse - East		0	3
+Whitehorse - East		1	34
+Whitehorse - East	(Other)	1	14
+Whitehorse - East	Flat/apartment		22
+Whitehorse - East	Flat/apartment	0	92
+Whitehorse - East	Flat/apartment	1	466
+Whitehorse - East	Semi-detached, row/terrace house, townhouse etc.		130
+Whitehorse - East	Semi-detached, row/terrace house, townhouse etc.	0	715
+Whitehorse - East	Semi-detached, row/terrace house, townhouse etc.	1	4100
+Whitehorse - East	Separate house		298
+Whitehorse - East	Separate house	0	1557
+Whitehorse - East	Separate house	1	14462
+Yarra Ranges			21
+Yarra Ranges		0	24
+Yarra Ranges		1	155
+Yarra Ranges	(Other)		15
+Yarra Ranges	(Other)	0	110
+Yarra Ranges	(Other)	1	143
+Yarra Ranges	Flat/apartment		6
+Yarra Ranges	Flat/apartment	0	38
+Yarra Ranges	Flat/apartment	1	194
+Yarra Ranges	Semi-detached, row/terrace house, townhouse etc.		101
+Yarra Ranges	Semi-detached, row/terrace house, townhouse etc.	0	684
+Yarra Ranges	Semi-detached, row/terrace house, townhouse etc.	1	1863
+Yarra Ranges	Separate house		963
+Yarra Ranges	Separate house	0	4720
+Yarra Ranges	Separate house	1	42606
+Cardinia			14
+Cardinia		0	11
+Cardinia		1	63
+Cardinia	(Other)		7
+Cardinia	(Other)	0	56
+Cardinia	(Other)	1	69
+Cardinia	Flat/apartment		18
+Cardinia	Flat/apartment	0	52
+Cardinia	Flat/apartment	1	68
+Cardinia	Semi-detached, row/terrace house, townhouse etc.		96
+Cardinia	Semi-detached, row/terrace house, townhouse etc.	0	470
+Cardinia	Semi-detached, row/terrace house, townhouse etc.	1	1767
+Cardinia	Separate house		601
+Cardinia	Separate house	0	2824
+Cardinia	Separate house	1	24949
+Casey - North			13
+Casey - North		0	8
+Casey - North		1	44
+Casey - North	(Other)		17
+Casey - North	(Other)	0	80
+Casey - North	(Other)	1	115
+Casey - North	Flat/apartment		22
+Casey - North	Flat/apartment	0	190
+Casey - North	Flat/apartment	1	277
+Casey - North	Semi-detached, row/terrace house, townhouse etc.		132
+Casey - North	Semi-detached, row/terrace house, townhouse etc.	0	736
+Casey - North	Semi-detached, row/terrace house, townhouse etc.	1	3176
+Casey - North	Separate house		876
+Casey - North	Separate house	0	3420
+Casey - North	Separate house	1	32742
+Casey - South			18
+Casey - South		0	10
+Casey - South		1	44
+Casey - South	(Other)		4
+Casey - South	(Other)	0	14
+Casey - South	(Other)	1	34
+Casey - South	Flat/apartment		35
+Casey - South	Flat/apartment	0	133
+Casey - South	Flat/apartment	1	306
+Casey - South	Semi-detached, row/terrace house, townhouse etc.		154
+Casey - South	Semi-detached, row/terrace house, townhouse etc.	0	742
+Casey - South	Semi-detached, row/terrace house, townhouse etc.	1	3376
+Casey - South	Separate house		1192
+Casey - South	Separate house	0	3715
+Casey - South	Separate house	1	40516
+Dandenong			31
+Dandenong		0	26
+Dandenong		1	99
+Dandenong	(Other)		36
+Dandenong	(Other)	0	160
+Dandenong	(Other)	1	248
+Dandenong	Flat/apartment		267
+Dandenong	Flat/apartment	0	1229
+Dandenong	Flat/apartment	1	4139
+Dandenong	Semi-detached, row/terrace house, townhouse etc.		464
+Dandenong	Semi-detached, row/terrace house, townhouse etc.	0	1958
+Dandenong	Semi-detached, row/terrace house, townhouse etc.	1	8072
+Dandenong	Separate house		1428
+Dandenong	Separate house	0	6531
+Dandenong	Separate house	1	35686
+Monash			32
+Monash		0	16
+Monash		1	152
+Monash	(Other)		3
+Monash	(Other)	0	4
+Monash	(Other)	1	38
+Monash	Flat/apartment		161
+Monash	Flat/apartment	0	837
+Monash	Flat/apartment	1	6434
+Monash	Semi-detached, row/terrace house, townhouse etc.		273
+Monash	Semi-detached, row/terrace house, townhouse etc.	0	898
+Monash	Semi-detached, row/terrace house, townhouse etc.	1	7543
+Monash	Separate house		952
+Monash	Separate house	0	4803
+Monash	Separate house	1	37317
+Brimbank			17
+Brimbank		0	27
+Brimbank		1	67
+Brimbank	(Other)		27
+Brimbank	(Other)	0	14
+Brimbank	(Other)	1	63
+Brimbank	Flat/apartment		136
+Brimbank	Flat/apartment	0	765
+Brimbank	Flat/apartment	1	1834
+Brimbank	Semi-detached, row/terrace house, townhouse etc.		297
+Brimbank	Semi-detached, row/terrace house, townhouse etc.	0	1250
+Brimbank	Semi-detached, row/terrace house, townhouse etc.	1	6147
+Brimbank	Separate house		1706
+Brimbank	Separate house	0	8105
+Brimbank	Separate house	1	38110
+Hobsons Bay			6
+Hobsons Bay		0	10
+Hobsons Bay		1	81
+Hobsons Bay	(Other)		5
+Hobsons Bay	(Other)	0	35
+Hobsons Bay	(Other)	1	89
+Hobsons Bay	Flat/apartment		107
+Hobsons Bay	Flat/apartment	0	530
+Hobsons Bay	Flat/apartment	1	1585
+Hobsons Bay	Semi-detached, row/terrace house, townhouse etc.		189
+Hobsons Bay	Semi-detached, row/terrace house, townhouse etc.	0	1086
+Hobsons Bay	Semi-detached, row/terrace house, townhouse etc.	1	7025
+Hobsons Bay	Separate house		471
+Hobsons Bay	Separate house	0	3182
+Hobsons Bay	Separate house	1	16460
+Maribyrnong			24
+Maribyrnong		0	28
+Maribyrnong		1	76
+Maribyrnong	(Other)		8
+Maribyrnong	(Other)	0	25
+Maribyrnong	(Other)	1	145
+Maribyrnong	Flat/apartment		212
+Maribyrnong	Flat/apartment	0	1054
+Maribyrnong	Flat/apartment	1	5919
+Maribyrnong	Semi-detached, row/terrace house, townhouse etc.		221
+Maribyrnong	Semi-detached, row/terrace house, townhouse etc.	0	912
+Maribyrnong	Semi-detached, row/terrace house, townhouse etc.	1	6291
+Maribyrnong	Separate house		419
+Maribyrnong	Separate house	0	2138
+Maribyrnong	Separate house	1	13018
+Melton - Bacchus Marsh			14
+Melton - Bacchus Marsh		0	6
+Melton - Bacchus Marsh		1	82
+Melton - Bacchus Marsh	(Other)		3
+Melton - Bacchus Marsh	(Other)	0	69
+Melton - Bacchus Marsh	(Other)	1	88
+Melton - Bacchus Marsh	Flat/apartment		15
+Melton - Bacchus Marsh	Flat/apartment	0	140
+Melton - Bacchus Marsh	Flat/apartment	1	253
+Melton - Bacchus Marsh	Semi-detached, row/terrace house, townhouse etc.		190
+Melton - Bacchus Marsh	Semi-detached, row/terrace house, townhouse etc.	0	1056
+Melton - Bacchus Marsh	Semi-detached, row/terrace house, townhouse etc.	1	4104
+Melton - Bacchus Marsh	Separate house		1097
+Melton - Bacchus Marsh	Separate house	0	4078
+Melton - Bacchus Marsh	Separate house	1	36725
+Wyndham			18
+Wyndham		0	14
+Wyndham		1	58
+Wyndham	(Other)		4
+Wyndham	(Other)	0	53
+Wyndham	(Other)	1	69
+Wyndham	Flat/apartment		59
+Wyndham	Flat/apartment	0	320
+Wyndham	Flat/apartment	1	1151
+Wyndham	Semi-detached, row/terrace house, townhouse etc.		245
+Wyndham	Semi-detached, row/terrace house, townhouse etc.	0	1157
+Wyndham	Semi-detached, row/terrace house, townhouse etc.	1	8137
+Wyndham	Separate house		1396
+Wyndham	Separate house	0	4831
+Wyndham	Separate house	1	51089
+Frankston			11
+Frankston		0	5
+Frankston		1	49
+Frankston	(Other)		19
+Frankston	(Other)	0	172
+Frankston	(Other)	1	241
+Frankston	Flat/apartment		76
+Frankston	Flat/apartment	0	397
+Frankston	Flat/apartment	1	866
+Frankston	Semi-detached, row/terrace house, townhouse etc.		317
+Frankston	Semi-detached, row/terrace house, townhouse etc.	0	1885
+Frankston	Semi-detached, row/terrace house, townhouse etc.	1	6350
+Frankston	Separate house		942
+Frankston	Separate house	0	4034
+Frankston	Separate house	1	34321
+Mornington Peninsula			15
+Mornington Peninsula		0	38
+Mornington Peninsula		1	113
+Mornington Peninsula	(Other)		32
+Mornington Peninsula	(Other)	0	186
+Mornington Peninsula	(Other)	1	253
+Mornington Peninsula	Flat/apartment		126
+Mornington Peninsula	Flat/apartment	0	671
+Mornington Peninsula	Flat/apartment	1	1910
+Mornington Peninsula	Semi-detached, row/terrace house, townhouse etc.		225
+Mornington Peninsula	Semi-detached, row/terrace house, townhouse etc.	0	1333
+Mornington Peninsula	Semi-detached, row/terrace house, townhouse etc.	1	4225
+Mornington Peninsula	Separate house		1243
+Mornington Peninsula	Separate house	0	5797
+Mornington Peninsula	Separate house	1	41636
+Grampians			15
+Grampians		0	35
+Grampians		1	117
+Grampians	(Other)		14
+Grampians	(Other)	0	56
+Grampians	(Other)	1	106
+Grampians	Flat/apartment		43
+Grampians	Flat/apartment	0	369
+Grampians	Flat/apartment	1	407
+Grampians	Semi-detached, row/terrace house, townhouse etc.		44
+Grampians	Semi-detached, row/terrace house, townhouse etc.	0	367
+Grampians	Semi-detached, row/terrace house, townhouse etc.	1	392
+Grampians	Separate house		595
+Grampians	Separate house	0	4757
+Grampians	Separate house	1	15887
+Mildura			17
+Mildura		0	21
+Mildura		1	78
+Mildura	(Other)		8
+Mildura	(Other)	0	102
+Mildura	(Other)	1	112
+Mildura	Flat/apartment		90
+Mildura	Flat/apartment	0	514
+Mildura	Flat/apartment	1	545
+Mildura	Semi-detached, row/terrace house, townhouse etc.		85
+Mildura	Semi-detached, row/terrace house, townhouse etc.	0	608
+Mildura	Semi-detached, row/terrace house, townhouse etc.	1	1019
+Mildura	Separate house		531
+Mildura	Separate house	0	3191
+Mildura	Separate house	1	12907
+Murray River - Swan Hill			15
+Murray River - Swan Hill		0	17
+Murray River - Swan Hill		1	86
+Murray River - Swan Hill	(Other)		12
+Murray River - Swan Hill	(Other)	0	65
+Murray River - Swan Hill	(Other)	1	102
+Murray River - Swan Hill	Flat/apartment		47
+Murray River - Swan Hill	Flat/apartment	0	261
+Murray River - Swan Hill	Flat/apartment	1	271
+Murray River - Swan Hill	Semi-detached, row/terrace house, townhouse etc.		20
+Murray River - Swan Hill	Semi-detached, row/terrace house, townhouse etc.	0	126
+Murray River - Swan Hill	Semi-detached, row/terrace house, townhouse etc.	1	177
+Murray River - Swan Hill	Separate house		431
+Murray River - Swan Hill	Separate house	0	3119
+Murray River - Swan Hill	Separate house	1	9110
+Campaspe			7
+Campaspe		0	7
+Campaspe		1	36
+Campaspe	(Other)		7
+Campaspe	(Other)	0	54
+Campaspe	(Other)	1	63
+Campaspe	Flat/apartment		21
+Campaspe	Flat/apartment	0	217
+Campaspe	Flat/apartment	1	206
+Campaspe	Semi-detached, row/terrace house, townhouse etc.		52
+Campaspe	Semi-detached, row/terrace house, townhouse etc.	0	302
+Campaspe	Semi-detached, row/terrace house, townhouse etc.	1	430
+Campaspe	Separate house		380
+Campaspe	Separate house	0	2473
+Campaspe	Separate house	1	9639
+Moira			8
+Moira		0	33
+Moira		1	67
+Moira	(Other)		3
+Moira	(Other)	0	34
+Moira	(Other)	1	64
+Moira	Flat/apartment		37
+Moira	Flat/apartment	0	261
+Moira	Flat/apartment	1	200
+Moira	Semi-detached, row/terrace house, townhouse etc.		22
+Moira	Semi-detached, row/terrace house, townhouse etc.	0	137
+Moira	Semi-detached, row/terrace house, townhouse etc.	1	175
+Moira	Separate house		320
+Moira	Separate house	0	2084
+Moira	Separate house	1	7453
+Shepparton			7
+Shepparton		0	10
+Shepparton		1	33
+Shepparton	(Other)		25
+Shepparton	(Other)	0	135
+Shepparton	(Other)	1	138
+Shepparton	Flat/apartment		21
+Shepparton	Flat/apartment	0	66
+Shepparton	Flat/apartment	1	82
+Shepparton	Semi-detached, row/terrace house, townhouse etc.		123
+Shepparton	Semi-detached, row/terrace house, townhouse etc.	0	712
+Shepparton	Semi-detached, row/terrace house, townhouse etc.	1	1321
+Shepparton	Separate house		595
+Shepparton	Separate house	0	3384
+Shepparton	Separate house	1	15859
+Glenelg - Southern Grampians			8
+Glenelg - Southern Grampians		0	28
+Glenelg - Southern Grampians		1	83
+Glenelg - Southern Grampians	(Other)		9
+Glenelg - Southern Grampians	(Other)	0	29
+Glenelg - Southern Grampians	(Other)	1	68
+Glenelg - Southern Grampians	Flat/apartment		21
+Glenelg - Southern Grampians	Flat/apartment	0	162
+Glenelg - Southern Grampians	Flat/apartment	1	192
+Glenelg - Southern Grampians	Semi-detached, row/terrace house, townhouse etc.		27
+Glenelg - Southern Grampians	Semi-detached, row/terrace house, townhouse etc.	0	144
+Glenelg - Southern Grampians	Semi-detached, row/terrace house, townhouse etc.	1	213
+Glenelg - Southern Grampians	Separate house		381
+Glenelg - Southern Grampians	Separate house	0	2769
+Glenelg - Southern Grampians	Separate house	1	9881
+Colac - Corangamite			18
+Colac - Corangamite		0	21
+Colac - Corangamite		1	74
+Colac - Corangamite	(Other)		8
+Colac - Corangamite	(Other)	0	21
+Colac - Corangamite	(Other)	1	68
+Colac - Corangamite	Flat/apartment		21
+Colac - Corangamite	Flat/apartment	0	82
+Colac - Corangamite	Flat/apartment	1	91
+Colac - Corangamite	Semi-detached, row/terrace house, townhouse etc.		37
+Colac - Corangamite	Semi-detached, row/terrace house, townhouse etc.	0	298
+Colac - Corangamite	Semi-detached, row/terrace house, townhouse etc.	1	331
+Colac - Corangamite	Separate house		384
+Colac - Corangamite	Separate house	0	2820
+Colac - Corangamite	Separate house	1	9757
+Warrnambool			9
+Warrnambool		0	13
+Warrnambool		1	79
+Warrnambool	(Other)	0	37
+Warrnambool	(Other)	1	88
+Warrnambool	Flat/apartment		74
+Warrnambool	Flat/apartment	0	246
+Warrnambool	Flat/apartment	1	346
+Warrnambool	Semi-detached, row/terrace house, townhouse etc.		58
+Warrnambool	Semi-detached, row/terrace house, townhouse etc.	0	521
+Warrnambool	Semi-detached, row/terrace house, townhouse etc.	1	1039
+Warrnambool	Separate house		394
+Warrnambool	Separate house	0	2697
+Warrnambool	Separate house	1	12905
+Capalaba			9
+Capalaba		0	3
+Capalaba		1	29
+Capalaba	(Other)		15
+Capalaba	(Other)	0	110
+Capalaba	(Other)	1	192
+Capalaba	Flat/apartment		19
+Capalaba	Flat/apartment	0	134
+Capalaba	Flat/apartment	1	337
+Capalaba	Semi-detached, row/terrace house, townhouse etc.		81
+Capalaba	Semi-detached, row/terrace house, townhouse etc.	0	561
+Capalaba	Semi-detached, row/terrace house, townhouse etc.	1	2108
+Capalaba	Separate house		373
+Capalaba	Separate house	0	1567
+Capalaba	Separate house	1	19316
+Cleveland - Stradbroke			43
+Cleveland - Stradbroke		0	23
+Cleveland - Stradbroke		1	115
+Cleveland - Stradbroke	(Other)		7
+Cleveland - Stradbroke	(Other)	0	38
+Cleveland - Stradbroke	(Other)	1	39
+Cleveland - Stradbroke	Flat/apartment		59
+Cleveland - Stradbroke	Flat/apartment	0	572
+Cleveland - Stradbroke	Flat/apartment	1	1244
+Cleveland - Stradbroke	Semi-detached, row/terrace house, townhouse etc.		76
+Cleveland - Stradbroke	Semi-detached, row/terrace house, townhouse etc.	0	538
+Cleveland - Stradbroke	Semi-detached, row/terrace house, townhouse etc.	1	1710
+Cleveland - Stradbroke	Separate house		533
+Cleveland - Stradbroke	Separate house	0	2337
+Cleveland - Stradbroke	Separate house	1	22551
+Wynnum - Manly			10
+Wynnum - Manly		0	6
+Wynnum - Manly		1	45
+Wynnum - Manly	(Other)		9
+Wynnum - Manly	(Other)	0	16
+Wynnum - Manly	(Other)	1	105
+Wynnum - Manly	Flat/apartment		43
+Wynnum - Manly	Flat/apartment	0	334
+Wynnum - Manly	Flat/apartment	1	691
+Wynnum - Manly	Semi-detached, row/terrace house, townhouse etc.		292
+Wynnum - Manly	Semi-detached, row/terrace house, townhouse etc.	0	561
+Wynnum - Manly	Semi-detached, row/terrace house, townhouse etc.	1	2731
+Wynnum - Manly	Separate house		350
+Wynnum - Manly	Separate house	0	1817
+Wynnum - Manly	Separate house	1	17469
+Bald Hills - Everton Park			3
+Bald Hills - Everton Park		0	6
+Bald Hills - Everton Park		1	33
+Bald Hills - Everton Park	(Other)	1	8
+Bald Hills - Everton Park	Flat/apartment		17
+Bald Hills - Everton Park	Flat/apartment	0	122
+Bald Hills - Everton Park	Flat/apartment	1	489
+Bald Hills - Everton Park	Semi-detached, row/terrace house, townhouse etc.		41
+Bald Hills - Everton Park	Semi-detached, row/terrace house, townhouse etc.	0	242
+Bald Hills - Everton Park	Semi-detached, row/terrace house, townhouse etc.	1	1659
+Bald Hills - Everton Park	Separate house		179
+Bald Hills - Everton Park	Separate house	0	900
+Bald Hills - Everton Park	Separate house	1	10748
+Chermside			40
+Chermside		0	16
+Chermside		1	53
+Chermside	(Other)		10
+Chermside	(Other)	0	85
+Chermside	(Other)	1	76
+Chermside	Flat/apartment		146
+Chermside	Flat/apartment	0	810
+Chermside	Flat/apartment	1	3585
+Chermside	Semi-detached, row/terrace house, townhouse etc.		154
+Chermside	Semi-detached, row/terrace house, townhouse etc.	0	588
+Chermside	Semi-detached, row/terrace house, townhouse etc.	1	2148
+Chermside	Separate house		449
+Chermside	Separate house	0	1999
+Chermside	Separate house	1	16771
+Nundah			21
+Nundah		0	3
+Nundah		1	30
+Nundah	(Other)	1	17
+Nundah	Flat/apartment		118
+Nundah	Flat/apartment	0	604
+Nundah	Flat/apartment	1	3369
+Nundah	Semi-detached, row/terrace house, townhouse etc.		47
+Nundah	Semi-detached, row/terrace house, townhouse etc.	0	211
+Nundah	Semi-detached, row/terrace house, townhouse etc.	1	1326
+Nundah	Separate house		197
+Nundah	Separate house	0	932
+Nundah	Separate house	1	8099
+Sandgate			9
+Sandgate		0	11
+Sandgate		1	80
+Sandgate	(Other)		15
+Sandgate	(Other)	0	91
+Sandgate	(Other)	1	67
+Sandgate	Flat/apartment		68
+Sandgate	Flat/apartment	0	553
+Sandgate	Flat/apartment	1	1404
+Sandgate	Semi-detached, row/terrace house, townhouse etc.		89
+Sandgate	Semi-detached, row/terrace house, townhouse etc.	0	564
+Sandgate	Semi-detached, row/terrace house, townhouse etc.	1	2406
+Sandgate	Separate house		317
+Sandgate	Separate house	0	1845
+Sandgate	Separate house	1	14184
+Carindale			3
+Carindale		0	5
+Carindale		1	43
+Carindale	(Other)		11
+Carindale	(Other)	0	44
+Carindale	(Other)	1	72
+Carindale	Flat/apartment		29
+Carindale	Flat/apartment	0	191
+Carindale	Flat/apartment	1	896
+Carindale	Semi-detached, row/terrace house, townhouse etc.		68
+Carindale	Semi-detached, row/terrace house, townhouse etc.	0	278
+Carindale	Semi-detached, row/terrace house, townhouse etc.	1	2743
+Carindale	Separate house		247
+Carindale	Separate house	0	1281
+Carindale	Separate house	1	12015
+Holland Park - Yeronga			21
+Holland Park - Yeronga		0	15
+Holland Park - Yeronga		1	104
+Holland Park - Yeronga	(Other)		3
+Holland Park - Yeronga	(Other)	0	13
+Holland Park - Yeronga	(Other)	1	116
+Holland Park - Yeronga	Flat/apartment		312
+Holland Park - Yeronga	Flat/apartment	0	1558
+Holland Park - Yeronga	Flat/apartment	1	8515
+Holland Park - Yeronga	Semi-detached, row/terrace house, townhouse etc.		70
+Holland Park - Yeronga	Semi-detached, row/terrace house, townhouse etc.	0	265
+Holland Park - Yeronga	Semi-detached, row/terrace house, townhouse etc.	1	2412
+Holland Park - Yeronga	Separate house		277
+Holland Park - Yeronga	Separate house	0	1033
+Holland Park - Yeronga	Separate house	1	12787
+Mt Gravatt			13
+Mt Gravatt		0	17
+Mt Gravatt		1	65
+Mt Gravatt	(Other)		18
+Mt Gravatt	(Other)	0	149
+Mt Gravatt	(Other)	1	233
+Mt Gravatt	Flat/apartment		62
+Mt Gravatt	Flat/apartment	0	340
+Mt Gravatt	Flat/apartment	1	1626
+Mt Gravatt	Semi-detached, row/terrace house, townhouse etc.		57
+Mt Gravatt	Semi-detached, row/terrace house, townhouse etc.	0	224
+Mt Gravatt	Semi-detached, row/terrace house, townhouse etc.	1	2567
+Mt Gravatt	Separate house		370
+Mt Gravatt	Separate house	0	1654
+Mt Gravatt	Separate house	1	16465
+Nathan			27
+Nathan		0	8
+Nathan		1	37
+Nathan	(Other)	0	3
+Nathan	(Other)	1	4
+Nathan	Flat/apartment		49
+Nathan	Flat/apartment	0	304
+Nathan	Flat/apartment	1	1005
+Nathan	Semi-detached, row/terrace house, townhouse etc.		140
+Nathan	Semi-detached, row/terrace house, townhouse etc.	0	138
+Nathan	Semi-detached, row/terrace house, townhouse etc.	1	1072
+Nathan	Separate house		246
+Nathan	Separate house	0	972
+Nathan	Separate house	1	9456
+Rocklea - Acacia Ridge			8
+Rocklea - Acacia Ridge		0	3
+Rocklea - Acacia Ridge		1	26
+Rocklea - Acacia Ridge	(Other)		3
+Rocklea - Acacia Ridge	(Other)	0	26
+Rocklea - Acacia Ridge	(Other)	1	39
+Rocklea - Acacia Ridge	Flat/apartment		9
+Rocklea - Acacia Ridge	Flat/apartment	0	44
+Rocklea - Acacia Ridge	Flat/apartment	1	129
+Rocklea - Acacia Ridge	Semi-detached, row/terrace house, townhouse etc.		70
+Rocklea - Acacia Ridge	Semi-detached, row/terrace house, townhouse etc.	0	255
+Rocklea - Acacia Ridge	Semi-detached, row/terrace house, townhouse etc.	1	2380
+Rocklea - Acacia Ridge	Separate house		317
+Rocklea - Acacia Ridge	Separate house	0	1173
+Rocklea - Acacia Ridge	Separate house	1	14114
+Sunnybank			67
+Sunnybank		0	20
+Sunnybank		1	33
+Sunnybank	(Other)		8
+Sunnybank	(Other)	0	33
+Sunnybank	(Other)	1	45
+Sunnybank	Flat/apartment		6
+Sunnybank	Flat/apartment	0	28
+Sunnybank	Flat/apartment	1	68
+Sunnybank	Semi-detached, row/terrace house, townhouse etc.		169
+Sunnybank	Semi-detached, row/terrace house, townhouse etc.	0	231
+Sunnybank	Semi-detached, row/terrace house, townhouse etc.	1	2270
+Sunnybank	Separate house		286
+Sunnybank	Separate house	0	981
+Sunnybank	Separate house	1	11229
+Centenary			3
+Centenary		1	5
+Centenary	(Other)	1	4
+Centenary	Flat/apartment		3
+Centenary	Flat/apartment	0	24
+Centenary	Flat/apartment	1	27
+Centenary	Semi-detached, row/terrace house, townhouse etc.		6
+Centenary	Semi-detached, row/terrace house, townhouse etc.	0	61
+Centenary	Semi-detached, row/terrace house, townhouse etc.	1	714
+Centenary	Separate house		106
+Centenary	Separate house	0	471
+Centenary	Separate house	1	9554
+Kenmore - Brookfield - Moggill			5
+Kenmore - Brookfield - Moggill		1	24
+Kenmore - Brookfield - Moggill	(Other)	1	8
+Kenmore - Brookfield - Moggill	Flat/apartment	0	14
+Kenmore - Brookfield - Moggill	Flat/apartment	1	59
+Kenmore - Brookfield - Moggill	Semi-detached, row/terrace house, townhouse etc.		19
+Kenmore - Brookfield - Moggill	Semi-detached, row/terrace house, townhouse etc.	0	98
+Kenmore - Brookfield - Moggill	Semi-detached, row/terrace house, townhouse etc.	1	380
+Kenmore - Brookfield - Moggill	Separate house		195
+Kenmore - Brookfield - Moggill	Separate house	0	515
+Kenmore - Brookfield - Moggill	Separate house	1	13400
+Sherwood - Indooroopilly			46
+Sherwood - Indooroopilly		0	5
+Sherwood - Indooroopilly		1	85
+Sherwood - Indooroopilly	(Other)	1	12
+Sherwood - Indooroopilly	Flat/apartment		142
+Sherwood - Indooroopilly	Flat/apartment	0	505
+Sherwood - Indooroopilly	Flat/apartment	1	6495
+Sherwood - Indooroopilly	Semi-detached, row/terrace house, townhouse etc.		43
+Sherwood - Indooroopilly	Semi-detached, row/terrace house, townhouse etc.	0	120
+Sherwood - Indooroopilly	Semi-detached, row/terrace house, townhouse etc.	1	1339
+Sherwood - Indooroopilly	Separate house		145
+Sherwood - Indooroopilly	Separate house	0	486
+Sherwood - Indooroopilly	Separate house	1	8601
+The Gap - Enoggera			12
+The Gap - Enoggera		0	3
+The Gap - Enoggera		1	28
+The Gap - Enoggera	(Other)	1	3
+The Gap - Enoggera	Flat/apartment		52
+The Gap - Enoggera	Flat/apartment	0	336
+The Gap - Enoggera	Flat/apartment	1	1471
+The Gap - Enoggera	Semi-detached, row/terrace house, townhouse etc.		47
+The Gap - Enoggera	Semi-detached, row/terrace house, townhouse etc.	0	151
+The Gap - Enoggera	Semi-detached, row/terrace house, townhouse etc.	1	736
+The Gap - Enoggera	Separate house		193
+The Gap - Enoggera	Separate house	0	988
+The Gap - Enoggera	Separate house	1	13458
+Brisbane Inner			48
+Brisbane Inner		0	16
+Brisbane Inner		1	139
+Brisbane Inner	(Other)		35
+Brisbane Inner	(Other)	0	19
+Brisbane Inner	(Other)	1	59
+Brisbane Inner	Flat/apartment		581
+Brisbane Inner	Flat/apartment	0	2038
+Brisbane Inner	Flat/apartment	1	18789
+Brisbane Inner	Semi-detached, row/terrace house, townhouse etc.		44
+Brisbane Inner	Semi-detached, row/terrace house, townhouse etc.	0	95
+Brisbane Inner	Semi-detached, row/terrace house, townhouse etc.	1	929
+Brisbane Inner	Separate house		144
+Brisbane Inner	Separate house	0	377
+Brisbane Inner	Separate house	1	4108
+Brisbane Inner - East			9
+Brisbane Inner - East		0	3
+Brisbane Inner - East		1	41
+Brisbane Inner - East	(Other)	1	6
+Brisbane Inner - East	Flat/apartment		106
+Brisbane Inner - East	Flat/apartment	0	532
+Brisbane Inner - East	Flat/apartment	1	3664
+Brisbane Inner - East	Semi-detached, row/terrace house, townhouse etc.		50
+Brisbane Inner - East	Semi-detached, row/terrace house, townhouse etc.	0	152
+Brisbane Inner - East	Semi-detached, row/terrace house, townhouse etc.	1	2217
+Brisbane Inner - East	Separate house		173
+Brisbane Inner - East	Separate house	0	511
+Brisbane Inner - East	Separate house	1	7694
+Brisbane Inner - North			102
+Brisbane Inner - North		0	7
+Brisbane Inner - North		1	121
+Brisbane Inner - North	(Other)		3
+Brisbane Inner - North	(Other)	0	9
+Brisbane Inner - North	(Other)	1	51
+Brisbane Inner - North	Flat/apartment		402
+Brisbane Inner - North	Flat/apartment	0	1720
+Brisbane Inner - North	Flat/apartment	1	14199
+Brisbane Inner - North	Semi-detached, row/terrace house, townhouse etc.		68
+Brisbane Inner - North	Semi-detached, row/terrace house, townhouse etc.	0	224
+Brisbane Inner - North	Semi-detached, row/terrace house, townhouse etc.	1	2350
+Brisbane Inner - North	Separate house		307
+Brisbane Inner - North	Separate house	0	926
+Brisbane Inner - North	Separate house	1	13519
+Brisbane Inner - West			23
+Brisbane Inner - West		0	9
+Brisbane Inner - West		1	54
+Brisbane Inner - West	(Other)		6
+Brisbane Inner - West	(Other)	0	7
+Brisbane Inner - West	(Other)	1	42
+Brisbane Inner - West	Flat/apartment		146
+Brisbane Inner - West	Flat/apartment	0	518
+Brisbane Inner - West	Flat/apartment	1	6177
+Brisbane Inner - West	Semi-detached, row/terrace house, townhouse etc.		18
+Brisbane Inner - West	Semi-detached, row/terrace house, townhouse etc.	0	66
+Brisbane Inner - West	Semi-detached, row/terrace house, townhouse etc.	1	962
+Brisbane Inner - West	Separate house		230
+Brisbane Inner - West	Separate house	0	632
+Brisbane Inner - West	Separate house	1	11516
+Cairns - North			13
+Cairns - North		0	34
+Cairns - North		1	108
+Cairns - North	(Other)		5
+Cairns - North	(Other)	0	31
+Cairns - North	(Other)	1	121
+Cairns - North	Flat/apartment		73
+Cairns - North	Flat/apartment	0	317
+Cairns - North	Flat/apartment	1	1759
+Cairns - North	Semi-detached, row/terrace house, townhouse etc.		49
+Cairns - North	Semi-detached, row/terrace house, townhouse etc.	0	282
+Cairns - North	Semi-detached, row/terrace house, townhouse etc.	1	1301
+Cairns - North	Separate house		273
+Cairns - North	Separate house	0	1027
+Cairns - North	Separate house	1	13501
+Cairns - South			100
+Cairns - South		0	34
+Cairns - South		1	112
+Cairns - South	(Other)		51
+Cairns - South	(Other)	0	117
+Cairns - South	(Other)	1	186
+Cairns - South	Flat/apartment		330
+Cairns - South	Flat/apartment	0	1798
+Cairns - South	Flat/apartment	1	5290
+Cairns - South	Semi-detached, row/terrace house, townhouse etc.		161
+Cairns - South	Semi-detached, row/terrace house, townhouse etc.	0	1082
+Cairns - South	Semi-detached, row/terrace house, townhouse etc.	1	2447
+Cairns - South	Separate house		663
+Cairns - South	Separate house	0	3124
+Cairns - South	Separate house	1	20093
+Innisfail - Cassowary Coast			16
+Innisfail - Cassowary Coast		0	20
+Innisfail - Cassowary Coast		1	70
+Innisfail - Cassowary Coast	(Other)		43
+Innisfail - Cassowary Coast	(Other)	0	177
+Innisfail - Cassowary Coast	(Other)	1	240
+Innisfail - Cassowary Coast	Flat/apartment		40
+Innisfail - Cassowary Coast	Flat/apartment	0	317
+Innisfail - Cassowary Coast	Flat/apartment	1	441
+Innisfail - Cassowary Coast	Semi-detached, row/terrace house, townhouse etc.		12
+Innisfail - Cassowary Coast	Semi-detached, row/terrace house, townhouse etc.	0	102
+Innisfail - Cassowary Coast	Semi-detached, row/terrace house, townhouse etc.	1	179
+Innisfail - Cassowary Coast	Separate house		309
+Innisfail - Cassowary Coast	Separate house	0	2349
+Innisfail - Cassowary Coast	Separate house	1	8089
+Port Douglas - Daintree			7
+Port Douglas - Daintree		0	18
+Port Douglas - Daintree		1	51
+Port Douglas - Daintree	(Other)		11
+Port Douglas - Daintree	(Other)	0	38
+Port Douglas - Daintree	(Other)	1	98
+Port Douglas - Daintree	Flat/apartment		31
+Port Douglas - Daintree	Flat/apartment	0	136
+Port Douglas - Daintree	Flat/apartment	1	316
+Port Douglas - Daintree	Semi-detached, row/terrace house, townhouse etc.		19
+Port Douglas - Daintree	Semi-detached, row/terrace house, townhouse etc.	0	104
+Port Douglas - Daintree	Semi-detached, row/terrace house, townhouse etc.	1	354
+Port Douglas - Daintree	Separate house		97
+Port Douglas - Daintree	Separate house	0	447
+Port Douglas - Daintree	Separate house	1	2454
+Tablelands (East) - Kuranda			14
+Tablelands (East) - Kuranda		0	17
+Tablelands (East) - Kuranda		1	56
+Tablelands (East) - Kuranda	(Other)		23
+Tablelands (East) - Kuranda	(Other)	0	126
+Tablelands (East) - Kuranda	(Other)	1	210
+Tablelands (East) - Kuranda	Flat/apartment		45
+Tablelands (East) - Kuranda	Flat/apartment	0	287
+Tablelands (East) - Kuranda	Flat/apartment	1	319
+Tablelands (East) - Kuranda	Semi-detached, row/terrace house, townhouse etc.		15
+Tablelands (East) - Kuranda	Semi-detached, row/terrace house, townhouse etc.	0	175
+Tablelands (East) - Kuranda	Semi-detached, row/terrace house, townhouse etc.	1	170
+Tablelands (East) - Kuranda	Separate house		409
+Tablelands (East) - Kuranda	Separate house	0	2681
+Tablelands (East) - Kuranda	Separate house	1	10446
+Darling Downs (West) - Maranoa			18
+Darling Downs (West) - Maranoa		0	50
+Darling Downs (West) - Maranoa		1	96
+Darling Downs (West) - Maranoa	(Other)		45
+Darling Downs (West) - Maranoa	(Other)	0	67
+Darling Downs (West) - Maranoa	(Other)	1	120
+Darling Downs (West) - Maranoa	Flat/apartment		29
+Darling Downs (West) - Maranoa	Flat/apartment	0	184
+Darling Downs (West) - Maranoa	Flat/apartment	1	336
+Darling Downs (West) - Maranoa	Semi-detached, row/terrace house, townhouse etc.		41
+Darling Downs (West) - Maranoa	Semi-detached, row/terrace house, townhouse etc.	0	167
+Darling Downs (West) - Maranoa	Semi-detached, row/terrace house, townhouse etc.	1	277
+Darling Downs (West) - Maranoa	Separate house		388
+Darling Downs (West) - Maranoa	Separate house	0	3113
+Darling Downs (West) - Maranoa	Separate house	1	10284
+Darling Downs - East			18
+Darling Downs - East		0	24
+Darling Downs - East		1	85
+Darling Downs - East	(Other)		9
+Darling Downs - East	(Other)	0	54
+Darling Downs - East	(Other)	1	94
+Darling Downs - East	Flat/apartment		22
+Darling Downs - East	Flat/apartment	0	128
+Darling Downs - East	Flat/apartment	1	160
+Darling Downs - East	Semi-detached, row/terrace house, townhouse etc.		18
+Darling Downs - East	Semi-detached, row/terrace house, townhouse etc.	0	116
+Darling Downs - East	Semi-detached, row/terrace house, townhouse etc.	1	144
+Darling Downs - East	Separate house		349
+Darling Downs - East	Separate house	0	2925
+Darling Downs - East	Separate house	1	10600
+Granite Belt			5
+Granite Belt		0	14
+Granite Belt		1	68
+Granite Belt	(Other)		16
+Granite Belt	(Other)	0	91
+Granite Belt	(Other)	1	104
+Granite Belt	Flat/apartment		19
+Granite Belt	Flat/apartment	0	144
+Granite Belt	Flat/apartment	1	181
+Granite Belt	Semi-detached, row/terrace house, townhouse etc.		40
+Granite Belt	Semi-detached, row/terrace house, townhouse etc.	0	287
+Granite Belt	Semi-detached, row/terrace house, townhouse etc.	1	419
+Granite Belt	Separate house		363
+Granite Belt	Separate house	0	2867
+Granite Belt	Separate house	1	10531
+Central Highlands (Qld)			22
+Central Highlands (Qld)		0	61
+Central Highlands (Qld)		1	236
+Central Highlands (Qld)	(Other)		18
+Central Highlands (Qld)	(Other)	0	75
+Central Highlands (Qld)	(Other)	1	140
+Central Highlands (Qld)	Flat/apartment		24
+Central Highlands (Qld)	Flat/apartment	0	114
+Central Highlands (Qld)	Flat/apartment	1	381
+Central Highlands (Qld)	Semi-detached, row/terrace house, townhouse etc.		18
+Central Highlands (Qld)	Semi-detached, row/terrace house, townhouse etc.	0	67
+Central Highlands (Qld)	Semi-detached, row/terrace house, townhouse etc.	1	266
+Central Highlands (Qld)	Separate house		208
+Central Highlands (Qld)	Separate house	0	1127
+Central Highlands (Qld)	Separate house	1	6393
+Rockhampton			129
+Rockhampton		0	25
+Rockhampton		1	130
+Rockhampton	(Other)		65
+Rockhampton	(Other)	0	208
+Rockhampton	(Other)	1	301
+Rockhampton	Flat/apartment		89
+Rockhampton	Flat/apartment	0	678
+Rockhampton	Flat/apartment	1	1149
+Rockhampton	Semi-detached, row/terrace house, townhouse etc.		116
+Rockhampton	Semi-detached, row/terrace house, townhouse etc.	0	880
+Rockhampton	Semi-detached, row/terrace house, townhouse etc.	1	1476
+Rockhampton	Separate house		890
+Rockhampton	Separate house	0	5869
+Rockhampton	Separate house	1	29040
+Biloela			7
+Biloela		0	9
+Biloela		1	24
+Biloela	(Other)		13
+Biloela	(Other)	0	31
+Biloela	(Other)	1	41
+Biloela	Flat/apartment		14
+Biloela	Flat/apartment	0	44
+Biloela	Flat/apartment	1	129
+Biloela	Semi-detached, row/terrace house, townhouse etc.		3
+Biloela	Semi-detached, row/terrace house, townhouse etc.	0	23
+Biloela	Semi-detached, row/terrace house, townhouse etc.	1	35
+Biloela	Separate house		140
+Biloela	Separate house	0	878
+Biloela	Separate house	1	3585
+Gladstone			4
+Gladstone		0	18
+Gladstone		1	51
+Gladstone	(Other)		30
+Gladstone	(Other)	0	104
+Gladstone	(Other)	1	229
+Gladstone	Flat/apartment		54
+Gladstone	Flat/apartment	0	358
+Gladstone	Flat/apartment	1	927
+Gladstone	Semi-detached, row/terrace house, townhouse etc.		25
+Gladstone	Semi-detached, row/terrace house, townhouse etc.	0	237
+Gladstone	Semi-detached, row/terrace house, townhouse etc.	1	732
+Gladstone	Separate house		370
+Gladstone	Separate house	0	2221
+Gladstone	Separate house	1	16022
+Broadbeach - Burleigh			8
+Broadbeach - Burleigh		0	13
+Broadbeach - Burleigh		1	59
+Broadbeach - Burleigh	(Other)		8
+Broadbeach - Burleigh	(Other)	0	35
+Broadbeach - Burleigh	(Other)	1	80
+Broadbeach - Burleigh	Flat/apartment		247
+Broadbeach - Burleigh	Flat/apartment	0	1240
+Broadbeach - Burleigh	Flat/apartment	1	6153
+Broadbeach - Burleigh	Semi-detached, row/terrace house, townhouse etc.		153
+Broadbeach - Burleigh	Semi-detached, row/terrace house, townhouse etc.	0	806
+Broadbeach - Burleigh	Semi-detached, row/terrace house, townhouse etc.	1	3896
+Broadbeach - Burleigh	Separate house		292
+Broadbeach - Burleigh	Separate house	0	1145
+Broadbeach - Burleigh	Separate house	1	10084
+Coolangatta			12
+Coolangatta		0	10
+Coolangatta		1	59
+Coolangatta	(Other)		13
+Coolangatta	(Other)	0	44
+Coolangatta	(Other)	1	83
+Coolangatta	Flat/apartment		203
+Coolangatta	Flat/apartment	0	1275
+Coolangatta	Flat/apartment	1	4362
+Coolangatta	Semi-detached, row/terrace house, townhouse etc.		122
+Coolangatta	Semi-detached, row/terrace house, townhouse etc.	0	704
+Coolangatta	Semi-detached, row/terrace house, townhouse etc.	1	2918
+Coolangatta	Separate house		246
+Coolangatta	Separate house	0	1156
+Coolangatta	Separate house	1	9317
+Gold Coast - North			15
+Gold Coast - North		0	33
+Gold Coast - North		1	92
+Gold Coast - North	(Other)		18
+Gold Coast - North	(Other)	0	104
+Gold Coast - North	(Other)	1	180
+Gold Coast - North	Flat/apartment		176
+Gold Coast - North	Flat/apartment	0	1017
+Gold Coast - North	Flat/apartment	1	4636
+Gold Coast - North	Semi-detached, row/terrace house, townhouse etc.		229
+Gold Coast - North	Semi-detached, row/terrace house, townhouse etc.	0	1406
+Gold Coast - North	Semi-detached, row/terrace house, townhouse etc.	1	6899
+Gold Coast - North	Separate house		276
+Gold Coast - North	Separate house	0	1357
+Gold Coast - North	Separate house	1	9898
+Gold Coast Hinterland		0	3
+Gold Coast Hinterland		1	13
+Gold Coast Hinterland	(Other)		3
+Gold Coast Hinterland	(Other)	0	23
+Gold Coast Hinterland	(Other)	1	75
+Gold Coast Hinterland	Flat/apartment		3
+Gold Coast Hinterland	Flat/apartment	0	7
+Gold Coast Hinterland	Flat/apartment	1	21
+Gold Coast Hinterland	Semi-detached, row/terrace house, townhouse etc.	0	18
+Gold Coast Hinterland	Semi-detached, row/terrace house, townhouse etc.	1	53
+Gold Coast Hinterland	Separate house		124
+Gold Coast Hinterland	Separate house	0	576
+Gold Coast Hinterland	Separate house	1	5470
+Mudgeeraba - Tallebudgera		1	16
+Mudgeeraba - Tallebudgera	(Other)		4
+Mudgeeraba - Tallebudgera	(Other)	0	19
+Mudgeeraba - Tallebudgera	(Other)	1	22
+Mudgeeraba - Tallebudgera	Flat/apartment		7
+Mudgeeraba - Tallebudgera	Flat/apartment	0	9
+Mudgeeraba - Tallebudgera	Flat/apartment	1	31
+Mudgeeraba - Tallebudgera	Semi-detached, row/terrace house, townhouse etc.		23
+Mudgeeraba - Tallebudgera	Semi-detached, row/terrace house, townhouse etc.	0	170
+Mudgeeraba - Tallebudgera	Semi-detached, row/terrace house, townhouse etc.	1	1280
+Mudgeeraba - Tallebudgera	Separate house		170
+Mudgeeraba - Tallebudgera	Separate house	0	476
+Mudgeeraba - Tallebudgera	Separate house	1	8207
+Nerang			130
+Nerang		0	3
+Nerang		1	23
+Nerang	(Other)		30
+Nerang	(Other)	0	174
+Nerang	(Other)	1	215
+Nerang	Flat/apartment		39
+Nerang	Flat/apartment	0	238
+Nerang	Flat/apartment	1	689
+Nerang	Semi-detached, row/terrace house, townhouse etc.		146
+Nerang	Semi-detached, row/terrace house, townhouse etc.	0	770
+Nerang	Semi-detached, row/terrace house, townhouse etc.	1	3783
+Nerang	Separate house		346
+Nerang	Separate house	0	1178
+Nerang	Separate house	1	14958
+Ormeau - Oxenford			12
+Ormeau - Oxenford		0	14
+Ormeau - Oxenford		1	93
+Ormeau - Oxenford	(Other)		14
+Ormeau - Oxenford	(Other)	0	62
+Ormeau - Oxenford	(Other)	1	183
+Ormeau - Oxenford	Flat/apartment		34
+Ormeau - Oxenford	Flat/apartment	0	112
+Ormeau - Oxenford	Flat/apartment	1	854
+Ormeau - Oxenford	Semi-detached, row/terrace house, townhouse etc.		128
+Ormeau - Oxenford	Semi-detached, row/terrace house, townhouse etc.	0	771
+Ormeau - Oxenford	Semi-detached, row/terrace house, townhouse etc.	1	5004
+Ormeau - Oxenford	Separate house		610
+Ormeau - Oxenford	Separate house	0	1867
+Ormeau - Oxenford	Separate house	1	27995
+Robina		0	5
+Robina		1	23
+Robina	(Other)	0	3
+Robina	(Other)	1	3
+Robina	Flat/apartment		81
+Robina	Flat/apartment	0	382
+Robina	Flat/apartment	1	1697
+Robina	Semi-detached, row/terrace house, townhouse etc.		136
+Robina	Semi-detached, row/terrace house, townhouse etc.	0	547
+Robina	Semi-detached, row/terrace house, townhouse etc.	1	4980
+Robina	Separate house		192
+Robina	Separate house	0	679
+Robina	Separate house	1	8716
+Southport			72
+Southport		0	14
+Southport		1	70
+Southport	(Other)		3
+Southport	(Other)	0	16
+Southport	(Other)	1	48
+Southport	Flat/apartment		311
+Southport	Flat/apartment	0	1150
+Southport	Flat/apartment	1	5144
+Southport	Semi-detached, row/terrace house, townhouse etc.		278
+Southport	Semi-detached, row/terrace house, townhouse etc.	0	683
+Southport	Semi-detached, row/terrace house, townhouse etc.	1	3316
+Southport	Separate house		307
+Southport	Separate house	0	963
+Southport	Separate house	1	9519
+Surfers Paradise			16
+Surfers Paradise		0	11
+Surfers Paradise		1	103
+Surfers Paradise	(Other)		6
+Surfers Paradise	(Other)	0	4
+Surfers Paradise	(Other)	1	62
+Surfers Paradise	Flat/apartment		306
+Surfers Paradise	Flat/apartment	0	1510
+Surfers Paradise	Flat/apartment	1	7575
+Surfers Paradise	Semi-detached, row/terrace house, townhouse etc.		41
+Surfers Paradise	Semi-detached, row/terrace house, townhouse etc.	0	176
+Surfers Paradise	Semi-detached, row/terrace house, townhouse etc.	1	1655
+Surfers Paradise	Separate house		104
+Surfers Paradise	Separate house	0	303
+Surfers Paradise	Separate house	1	3997
+Forest Lake - Oxley			12
+Forest Lake - Oxley		0	14
+Forest Lake - Oxley		1	55
+Forest Lake - Oxley	(Other)		12
+Forest Lake - Oxley	(Other)	0	84
+Forest Lake - Oxley	(Other)	1	102
+Forest Lake - Oxley	Flat/apartment		39
+Forest Lake - Oxley	Flat/apartment	0	181
+Forest Lake - Oxley	Flat/apartment	1	272
+Forest Lake - Oxley	Semi-detached, row/terrace house, townhouse etc.		95
+Forest Lake - Oxley	Semi-detached, row/terrace house, townhouse etc.	0	450
+Forest Lake - Oxley	Semi-detached, row/terrace house, townhouse etc.	1	2035
+Forest Lake - Oxley	Separate house		503
+Forest Lake - Oxley	Separate house	0	2455
+Forest Lake - Oxley	Separate house	1	15915
+Ipswich Hinterland			15
+Ipswich Hinterland		0	27
+Ipswich Hinterland		1	83
+Ipswich Hinterland	(Other)		114
+Ipswich Hinterland	(Other)	0	104
+Ipswich Hinterland	(Other)	1	150
+Ipswich Hinterland	Flat/apartment		20
+Ipswich Hinterland	Flat/apartment	0	80
+Ipswich Hinterland	Flat/apartment	1	95
+Ipswich Hinterland	Semi-detached, row/terrace house, townhouse etc.		14
+Ipswich Hinterland	Semi-detached, row/terrace house, townhouse etc.	0	132
+Ipswich Hinterland	Semi-detached, row/terrace house, townhouse etc.	1	114
+Ipswich Hinterland	Separate house		516
+Ipswich Hinterland	Separate house	0	3731
+Ipswich Hinterland	Separate house	1	16163
+Ipswich Inner			13
+Ipswich Inner		0	18
+Ipswich Inner		1	61
+Ipswich Inner	(Other)		3
+Ipswich Inner	(Other)	0	38
+Ipswich Inner	(Other)	1	78
+Ipswich Inner	Flat/apartment		43
+Ipswich Inner	Flat/apartment	0	298
+Ipswich Inner	Flat/apartment	1	462
+Ipswich Inner	Semi-detached, row/terrace house, townhouse etc.		130
+Ipswich Inner	Semi-detached, row/terrace house, townhouse etc.	0	1011
+Ipswich Inner	Semi-detached, row/terrace house, townhouse etc.	1	1883
+Ipswich Inner	Separate house		677
+Ipswich Inner	Separate house	0	4298
+Ipswich Inner	Separate house	1	27172
+Springfield - Redbank			15
+Springfield - Redbank		0	6
+Springfield - Redbank		1	35
+Springfield - Redbank	(Other)		8
+Springfield - Redbank	(Other)	0	30
+Springfield - Redbank	(Other)	1	39
+Springfield - Redbank	Flat/apartment		3
+Springfield - Redbank	Flat/apartment	0	25
+Springfield - Redbank	Flat/apartment	1	70
+Springfield - Redbank	Semi-detached, row/terrace house, townhouse etc.		82
+Springfield - Redbank	Semi-detached, row/terrace house, townhouse etc.	0	363
+Springfield - Redbank	Semi-detached, row/terrace house, townhouse etc.	1	1763
+Springfield - Redbank	Separate house		518
+Springfield - Redbank	Separate house	0	2084
+Springfield - Redbank	Separate house	1	20624
+Beaudesert			3
+Beaudesert		0	7
+Beaudesert		1	10
+Beaudesert	(Other)		7
+Beaudesert	(Other)	0	23
+Beaudesert	(Other)	1	34
+Beaudesert	Flat/apartment		9
+Beaudesert	Flat/apartment	0	60
+Beaudesert	Flat/apartment	1	59
+Beaudesert	Semi-detached, row/terrace house, townhouse etc.		17
+Beaudesert	Semi-detached, row/terrace house, townhouse etc.	0	145
+Beaudesert	Semi-detached, row/terrace house, townhouse etc.	1	245
+Beaudesert	Separate house		127
+Beaudesert	Separate house	0	798
+Beaudesert	Separate house	1	3327
+Beenleigh			4
+Beenleigh		0	3
+Beenleigh		1	14
+Beenleigh	(Other)		3
+Beenleigh	(Other)	0	15
+Beenleigh	(Other)	1	8
+Beenleigh	Flat/apartment		30
+Beenleigh	Flat/apartment	0	251
+Beenleigh	Flat/apartment	1	481
+Beenleigh	Semi-detached, row/terrace house, townhouse etc.		88
+Beenleigh	Semi-detached, row/terrace house, townhouse etc.	0	566
+Beenleigh	Semi-detached, row/terrace house, townhouse etc.	1	1552
+Beenleigh	Separate house		313
+Beenleigh	Separate house	0	1456
+Beenleigh	Separate house	1	9700
+Browns Plains			10
+Browns Plains		0	18
+Browns Plains		1	41
+Browns Plains	(Other)		15
+Browns Plains	(Other)	0	78
+Browns Plains	(Other)	1	142
+Browns Plains	Flat/apartment		6
+Browns Plains	Flat/apartment	0	55
+Browns Plains	Flat/apartment	1	64
+Browns Plains	Semi-detached, row/terrace house, townhouse etc.		68
+Browns Plains	Semi-detached, row/terrace house, townhouse etc.	0	351
+Browns Plains	Semi-detached, row/terrace house, townhouse etc.	1	1280
+Browns Plains	Separate house		523
+Browns Plains	Separate house	0	2351
+Browns Plains	Separate house	1	19226
+Jimboomba			8
+Jimboomba		0	3
+Jimboomba		1	34
+Jimboomba	(Other)	0	3
+Jimboomba	(Other)	1	9
+Jimboomba	Flat/apartment	0	3
+Jimboomba	Semi-detached, row/terrace house, townhouse etc.	0	35
+Jimboomba	Semi-detached, row/terrace house, townhouse etc.	1	138
+Jimboomba	Separate house		260
+Jimboomba	Separate house	0	1085
+Jimboomba	Separate house	1	11792
+Loganlea - Carbrook			13
+Loganlea - Carbrook		0	9
+Loganlea - Carbrook		1	46
+Loganlea - Carbrook	(Other)		14
+Loganlea - Carbrook	(Other)	0	40
+Loganlea - Carbrook	(Other)	1	86
+Loganlea - Carbrook	Flat/apartment		37
+Loganlea - Carbrook	Flat/apartment	0	220
+Loganlea - Carbrook	Flat/apartment	1	562
+Loganlea - Carbrook	Semi-detached, row/terrace house, townhouse etc.		60
+Loganlea - Carbrook	Semi-detached, row/terrace house, townhouse etc.	0	343
+Loganlea - Carbrook	Semi-detached, row/terrace house, townhouse etc.	1	1254
+Loganlea - Carbrook	Separate house		396
+Loganlea - Carbrook	Separate house	0	1593
+Loganlea - Carbrook	Separate house	1	14950
+Springwood - Kingston			15
+Springwood - Kingston		0	34
+Springwood - Kingston		1	41
+Springwood - Kingston	(Other)		14
+Springwood - Kingston	(Other)	0	63
+Springwood - Kingston	(Other)	1	104
+Springwood - Kingston	Flat/apartment		74
+Springwood - Kingston	Flat/apartment	0	379
+Springwood - Kingston	Flat/apartment	1	502
+Springwood - Kingston	Semi-detached, row/terrace house, townhouse etc.		145
+Springwood - Kingston	Semi-detached, row/terrace house, townhouse etc.	0	974
+Springwood - Kingston	Semi-detached, row/terrace house, townhouse etc.	1	3271
+Springwood - Kingston	Separate house		502
+Springwood - Kingston	Separate house	0	2328
+Springwood - Kingston	Separate house	1	17058
+Bowen Basin - North			21
+Bowen Basin - North		0	14
+Bowen Basin - North		1	56
+Bowen Basin - North	(Other)		25
+Bowen Basin - North	(Other)	0	74
+Bowen Basin - North	(Other)	1	167
+Bowen Basin - North	Flat/apartment		27
+Bowen Basin - North	Flat/apartment	0	147
+Bowen Basin - North	Flat/apartment	1	361
+Bowen Basin - North	Semi-detached, row/terrace house, townhouse etc.		33
+Bowen Basin - North	Semi-detached, row/terrace house, townhouse etc.	0	138
+Bowen Basin - North	Semi-detached, row/terrace house, townhouse etc.	1	449
+Bowen Basin - North	Separate house		268
+Bowen Basin - North	Separate house	0	1465
+Bowen Basin - North	Separate house	1	7485
+Mackay			64
+Mackay		0	46
+Mackay		1	133
+Mackay	(Other)		122
+Mackay	(Other)	0	141
+Mackay	(Other)	1	290
+Mackay	Flat/apartment		108
+Mackay	Flat/apartment	0	525
+Mackay	Flat/apartment	1	1233
+Mackay	Semi-detached, row/terrace house, townhouse etc.		134
+Mackay	Semi-detached, row/terrace house, townhouse etc.	0	993
+Mackay	Semi-detached, row/terrace house, townhouse etc.	1	2298
+Mackay	Separate house		808
+Mackay	Separate house	0	4832
+Mackay	Separate house	1	28947
+Whitsunday			35
+Whitsunday		0	20
+Whitsunday		1	101
+Whitsunday	(Other)		26
+Whitsunday	(Other)	0	25
+Whitsunday	(Other)	1	87
+Whitsunday	Flat/apartment		64
+Whitsunday	Flat/apartment	0	166
+Whitsunday	Flat/apartment	1	528
+Whitsunday	Semi-detached, row/terrace house, townhouse etc.		31
+Whitsunday	Semi-detached, row/terrace house, townhouse etc.	0	157
+Whitsunday	Semi-detached, row/terrace house, townhouse etc.	1	468
+Whitsunday	Separate house		160
+Whitsunday	Separate house	0	633
+Whitsunday	Separate house	1	4225
+Bribie - Beachmere			5
+Bribie - Beachmere		0	12
+Bribie - Beachmere		1	35
+Bribie - Beachmere	(Other)		23
+Bribie - Beachmere	(Other)	0	209
+Bribie - Beachmere	(Other)	1	257
+Bribie - Beachmere	Flat/apartment		21
+Bribie - Beachmere	Flat/apartment	0	199
+Bribie - Beachmere	Flat/apartment	1	409
+Bribie - Beachmere	Semi-detached, row/terrace house, townhouse etc.		80
+Bribie - Beachmere	Semi-detached, row/terrace house, townhouse etc.	0	594
+Bribie - Beachmere	Semi-detached, row/terrace house, townhouse etc.	1	1495
+Bribie - Beachmere	Separate house		271
+Bribie - Beachmere	Separate house	0	1519
+Bribie - Beachmere	Separate house	1	8649
+Caboolture			13
+Caboolture		0	15
+Caboolture		1	41
+Caboolture	(Other)		9
+Caboolture	(Other)	0	32
+Caboolture	(Other)	1	51
+Caboolture	Flat/apartment		63
+Caboolture	Flat/apartment	0	406
+Caboolture	Flat/apartment	1	322
+Caboolture	Semi-detached, row/terrace house, townhouse etc.		107
+Caboolture	Semi-detached, row/terrace house, townhouse etc.	0	620
+Caboolture	Semi-detached, row/terrace house, townhouse etc.	1	1774
+Caboolture	Separate house		418
+Caboolture	Separate house	0	2107
+Caboolture	Separate house	1	16382
+Caboolture Hinterland			3
+Caboolture Hinterland		0	8
+Caboolture Hinterland		1	21
+Caboolture Hinterland	(Other)		6
+Caboolture Hinterland	(Other)	0	25
+Caboolture Hinterland	(Other)	1	51
+Caboolture Hinterland	Flat/apartment		3
+Caboolture Hinterland	Flat/apartment	0	8
+Caboolture Hinterland	Flat/apartment	1	7
+Caboolture Hinterland	Semi-detached, row/terrace house, townhouse etc.		5
+Caboolture Hinterland	Semi-detached, row/terrace house, townhouse etc.	0	6
+Caboolture Hinterland	Semi-detached, row/terrace house, townhouse etc.	1	28
+Caboolture Hinterland	Separate house		105
+Caboolture Hinterland	Separate house	0	720
+Caboolture Hinterland	Separate house	1	3267
+Narangba - Burpengary			5
+Narangba - Burpengary		0	10
+Narangba - Burpengary		1	37
+Narangba - Burpengary	(Other)		5
+Narangba - Burpengary	(Other)	0	49
+Narangba - Burpengary	(Other)	1	47
+Narangba - Burpengary	Flat/apartment		14
+Narangba - Burpengary	Flat/apartment	0	81
+Narangba - Burpengary	Flat/apartment	1	155
+Narangba - Burpengary	Semi-detached, row/terrace house, townhouse etc.		44
+Narangba - Burpengary	Semi-detached, row/terrace house, townhouse etc.	0	212
+Narangba - Burpengary	Semi-detached, row/terrace house, townhouse etc.	1	988
+Narangba - Burpengary	Separate house		409
+Narangba - Burpengary	Separate house	0	2062
+Narangba - Burpengary	Separate house	1	16403
+Redcliffe			11
+Redcliffe		0	6
+Redcliffe		1	58
+Redcliffe	(Other)		8
+Redcliffe	(Other)	0	69
+Redcliffe	(Other)	1	145
+Redcliffe	Flat/apartment		143
+Redcliffe	Flat/apartment	0	1234
+Redcliffe	Flat/apartment	1	3186
+Redcliffe	Semi-detached, row/terrace house, townhouse etc.		77
+Redcliffe	Semi-detached, row/terrace house, townhouse etc.	0	714
+Redcliffe	Semi-detached, row/terrace house, townhouse etc.	1	1721
+Redcliffe	Separate house		346
+Redcliffe	Separate house	0	2181
+Redcliffe	Separate house	1	13770
+The Hills District			4
+The Hills District		0	3
+The Hills District		1	32
+The Hills District	(Other)	0	3
+The Hills District	(Other)	1	28
+The Hills District	Flat/apartment		14
+The Hills District	Flat/apartment	0	101
+The Hills District	Flat/apartment	1	154
+The Hills District	Semi-detached, row/terrace house, townhouse etc.		32
+The Hills District	Semi-detached, row/terrace house, townhouse etc.	0	193
+The Hills District	Semi-detached, row/terrace house, townhouse etc.	1	1158
+The Hills District	Separate house		337
+The Hills District	Separate house	0	1124
+The Hills District	Separate house	1	24787
+North Lakes			5
+North Lakes		0	12
+North Lakes		1	40
+North Lakes	(Other)		19
+North Lakes	(Other)	0	86
+North Lakes	(Other)	1	106
+North Lakes	Flat/apartment		12
+North Lakes	Flat/apartment	0	108
+North Lakes	Flat/apartment	1	217
+North Lakes	Semi-detached, row/terrace house, townhouse etc.		115
+North Lakes	Semi-detached, row/terrace house, townhouse etc.	0	836
+North Lakes	Semi-detached, row/terrace house, townhouse etc.	1	3528
+North Lakes	Separate house		296
+North Lakes	Separate house	0	1149
+North Lakes	Separate house	1	17506
+Strathpine		1	8
+Strathpine	(Other)	1	9
+Strathpine	Flat/apartment		22
+Strathpine	Flat/apartment	0	159
+Strathpine	Flat/apartment	1	379
+Strathpine	Semi-detached, row/terrace house, townhouse etc.		51
+Strathpine	Semi-detached, row/terrace house, townhouse etc.	0	391
+Strathpine	Semi-detached, row/terrace house, townhouse etc.	1	1479
+Strathpine	Separate house		192
+Strathpine	Separate house	0	1005
+Strathpine	Separate house	1	9405
+Far North			21
+Far North		0	9
+Far North		1	44
+Far North	(Other)		108
+Far North	(Other)	0	116
+Far North	(Other)	1	190
+Far North	Flat/apartment		22
+Far North	Flat/apartment	0	128
+Far North	Flat/apartment	1	198
+Far North	Semi-detached, row/terrace house, townhouse etc.		28
+Far North	Semi-detached, row/terrace house, townhouse etc.	0	132
+Far North	Semi-detached, row/terrace house, townhouse etc.	1	506
+Far North	Separate house		341
+Far North	Separate house	0	1820
+Far North	Separate house	1	5195
+Outback - North			20
+Outback - North		0	37
+Outback - North		1	126
+Outback - North	(Other)		30
+Outback - North	(Other)	0	81
+Outback - North	(Other)	1	150
+Outback - North	Flat/apartment		33
+Outback - North	Flat/apartment	0	159
+Outback - North	Flat/apartment	1	318
+Outback - North	Semi-detached, row/terrace house, townhouse etc.		58
+Outback - North	Semi-detached, row/terrace house, townhouse etc.	0	275
+Outback - North	Semi-detached, row/terrace house, townhouse etc.	1	827
+Outback - North	Separate house		244
+Outback - North	Separate house	0	1429
+Outback - North	Separate house	1	5632
+Outback - South			11
+Outback - South		0	20
+Outback - South		1	69
+Outback - South	(Other)		14
+Outback - South	(Other)	0	62
+Outback - South	(Other)	1	142
+Outback - South	Flat/apartment		20
+Outback - South	Flat/apartment	0	61
+Outback - South	Flat/apartment	1	98
+Outback - South	Semi-detached, row/terrace house, townhouse etc.		9
+Outback - South	Semi-detached, row/terrace house, townhouse etc.	0	85
+Outback - South	Semi-detached, row/terrace house, townhouse etc.	1	58
+Outback - South	Separate house		235
+Outback - South	Separate house	0	1483
+Outback - South	Separate house	1	4369
+Buderim			10
+Buderim		0	11
+Buderim		1	45
+Buderim	(Other)		3
+Buderim	(Other)	0	28
+Buderim	(Other)	1	52
+Buderim	Flat/apartment		63
+Buderim	Flat/apartment	0	221
+Buderim	Flat/apartment	1	1314
+Buderim	Semi-detached, row/terrace house, townhouse etc.		138
+Buderim	Semi-detached, row/terrace house, townhouse etc.	0	716
+Buderim	Semi-detached, row/terrace house, townhouse etc.	1	2036
+Buderim	Separate house		281
+Buderim	Separate house	0	783
+Buderim	Separate house	1	13522
+Caloundra			21
+Caloundra		0	69
+Caloundra		1	59
+Caloundra	(Other)		21
+Caloundra	(Other)	0	180
+Caloundra	(Other)	1	249
+Caloundra	Flat/apartment		126
+Caloundra	Flat/apartment	0	751
+Caloundra	Flat/apartment	1	3349
+Caloundra	Semi-detached, row/terrace house, townhouse etc.		140
+Caloundra	Semi-detached, row/terrace house, townhouse etc.	0	1073
+Caloundra	Semi-detached, row/terrace house, townhouse etc.	1	3053
+Caloundra	Separate house		361
+Caloundra	Separate house	0	2036
+Caloundra	Separate house	1	19043
+Maroochy			23
+Maroochy		0	26
+Maroochy		1	89
+Maroochy	(Other)		28
+Maroochy	(Other)	0	100
+Maroochy	(Other)	1	233
+Maroochy	Flat/apartment		238
+Maroochy	Flat/apartment	0	1059
+Maroochy	Flat/apartment	1	4944
+Maroochy	Semi-detached, row/terrace house, townhouse etc.		111
+Maroochy	Semi-detached, row/terrace house, townhouse etc.	0	706
+Maroochy	Semi-detached, row/terrace house, townhouse etc.	1	3312
+Maroochy	Separate house		237
+Maroochy	Separate house	0	1053
+Maroochy	Separate house	1	10393
+Noosa			18
+Noosa		0	9
+Noosa		1	86
+Noosa	(Other)		5
+Noosa	(Other)	0	16
+Noosa	(Other)	1	35
+Noosa	Flat/apartment		47
+Noosa	Flat/apartment	0	254
+Noosa	Flat/apartment	1	1061
+Noosa	Semi-detached, row/terrace house, townhouse etc.		105
+Noosa	Semi-detached, row/terrace house, townhouse etc.	0	485
+Noosa	Semi-detached, row/terrace house, townhouse etc.	1	2198
+Noosa	Separate house		233
+Noosa	Separate house	0	891
+Noosa	Separate house	1	10336
+Sunshine Coast Hinterland			10
+Sunshine Coast Hinterland		0	17
+Sunshine Coast Hinterland		1	93
+Sunshine Coast Hinterland	(Other)		12
+Sunshine Coast Hinterland	(Other)	0	99
+Sunshine Coast Hinterland	(Other)	1	200
+Sunshine Coast Hinterland	Flat/apartment		6
+Sunshine Coast Hinterland	Flat/apartment	0	42
+Sunshine Coast Hinterland	Flat/apartment	1	88
+Sunshine Coast Hinterland	Semi-detached, row/terrace house, townhouse etc.		16
+Sunshine Coast Hinterland	Semi-detached, row/terrace house, townhouse etc.	0	141
+Sunshine Coast Hinterland	Semi-detached, row/terrace house, townhouse etc.	1	403
+Sunshine Coast Hinterland	Separate house		327
+Sunshine Coast Hinterland	Separate house	0	1728
+Sunshine Coast Hinterland	Separate house	1	14522
+Nambour			11
+Nambour		0	18
+Nambour		1	63
+Nambour	(Other)		22
+Nambour	(Other)	0	148
+Nambour	(Other)	1	213
+Nambour	Flat/apartment		31
+Nambour	Flat/apartment	0	261
+Nambour	Flat/apartment	1	403
+Nambour	Semi-detached, row/terrace house, townhouse etc.		32
+Nambour	Semi-detached, row/terrace house, townhouse etc.	0	258
+Nambour	Semi-detached, row/terrace house, townhouse etc.	1	972
+Nambour	Separate house		268
+Nambour	Separate house	0	1293
+Nambour	Separate house	1	11154
+Noosa Hinterland			14
+Noosa Hinterland		0	15
+Noosa Hinterland		1	32
+Noosa Hinterland	(Other)		3
+Noosa Hinterland	(Other)	0	29
+Noosa Hinterland	(Other)	1	60
+Noosa Hinterland	Flat/apartment	0	24
+Noosa Hinterland	Flat/apartment	1	75
+Noosa Hinterland	Semi-detached, row/terrace house, townhouse etc.		3
+Noosa Hinterland	Semi-detached, row/terrace house, townhouse etc.	0	10
+Noosa Hinterland	Semi-detached, row/terrace house, townhouse etc.	1	36
+Noosa Hinterland	Separate house		159
+Noosa Hinterland	Separate house	0	772
+Noosa Hinterland	Separate house	1	6549
+Toowoomba			106
+Toowoomba		0	51
+Toowoomba		1	201
+Toowoomba	(Other)		19
+Toowoomba	(Other)	0	128
+Toowoomba	(Other)	1	294
+Toowoomba	Flat/apartment		95
+Toowoomba	Flat/apartment	0	849
+Toowoomba	Flat/apartment	1	1688
+Toowoomba	Semi-detached, row/terrace house, townhouse etc.		245
+Toowoomba	Semi-detached, row/terrace house, townhouse etc.	0	1905
+Toowoomba	Semi-detached, row/terrace house, townhouse etc.	1	4442
+Toowoomba	Separate house		908
+Toowoomba	Separate house	0	5770
+Toowoomba	Separate house	1	37133
+Charters Towers - Ayr - Ingham			37
+Charters Towers - Ayr - Ingham		0	13
+Charters Towers - Ayr - Ingham		1	51
+Charters Towers - Ayr - Ingham	(Other)		24
+Charters Towers - Ayr - Ingham	(Other)	0	99
+Charters Towers - Ayr - Ingham	(Other)	1	206
+Charters Towers - Ayr - Ingham	Flat/apartment		45
+Charters Towers - Ayr - Ingham	Flat/apartment	0	458
+Charters Towers - Ayr - Ingham	Flat/apartment	1	404
+Charters Towers - Ayr - Ingham	Semi-detached, row/terrace house, townhouse etc.		12
+Charters Towers - Ayr - Ingham	Semi-detached, row/terrace house, townhouse etc.	0	78
+Charters Towers - Ayr - Ingham	Semi-detached, row/terrace house, townhouse etc.	1	97
+Charters Towers - Ayr - Ingham	Separate house		386
+Charters Towers - Ayr - Ingham	Separate house	0	3414
+Charters Towers - Ayr - Ingham	Separate house	1	10102
+Townsville			60
+Townsville		0	37
+Townsville		1	159
+Townsville	(Other)		24
+Townsville	(Other)	0	165
+Townsville	(Other)	1	371
+Townsville	Flat/apartment		174
+Townsville	Flat/apartment	0	945
+Townsville	Flat/apartment	1	3731
+Townsville	Semi-detached, row/terrace house, townhouse etc.		259
+Townsville	Semi-detached, row/terrace house, townhouse etc.	0	1974
+Townsville	Semi-detached, row/terrace house, townhouse etc.	1	4531
+Townsville	Separate house		1136
+Townsville	Separate house	0	6118
+Townsville	Separate house	1	45930
+Bundaberg			27
+Bundaberg		0	25
+Bundaberg		1	94
+Bundaberg	(Other)		39
+Bundaberg	(Other)	0	224
+Bundaberg	(Other)	1	328
+Bundaberg	Flat/apartment		81
+Bundaberg	Flat/apartment	0	627
+Bundaberg	Flat/apartment	1	1078
+Bundaberg	Semi-detached, row/terrace house, townhouse etc.		128
+Bundaberg	Semi-detached, row/terrace house, townhouse etc.	0	837
+Bundaberg	Semi-detached, row/terrace house, townhouse etc.	1	1372
+Bundaberg	Separate house		734
+Bundaberg	Separate house	0	5100
+Bundaberg	Separate house	1	22574
+Burnett			7
+Burnett		0	20
+Burnett		1	68
+Burnett	(Other)		46
+Burnett	(Other)	0	176
+Burnett	(Other)	1	256
+Burnett	Flat/apartment		46
+Burnett	Flat/apartment	0	233
+Burnett	Flat/apartment	1	268
+Burnett	Semi-detached, row/terrace house, townhouse etc.		19
+Burnett	Semi-detached, row/terrace house, townhouse etc.	0	139
+Burnett	Semi-detached, row/terrace house, townhouse etc.	1	205
+Burnett	Separate house		530
+Burnett	Separate house	0	4062
+Burnett	Separate house	1	12375
+Gympie - Cooloola			10
+Gympie - Cooloola		0	36
+Gympie - Cooloola		1	49
+Gympie - Cooloola	(Other)		31
+Gympie - Cooloola	(Other)	0	148
+Gympie - Cooloola	(Other)	1	279
+Gympie - Cooloola	Flat/apartment		18
+Gympie - Cooloola	Flat/apartment	0	184
+Gympie - Cooloola	Flat/apartment	1	213
+Gympie - Cooloola	Semi-detached, row/terrace house, townhouse etc.		45
+Gympie - Cooloola	Semi-detached, row/terrace house, townhouse etc.	0	295
+Gympie - Cooloola	Semi-detached, row/terrace house, townhouse etc.	1	457
+Gympie - Cooloola	Separate house		439
+Gympie - Cooloola	Separate house	0	3123
+Gympie - Cooloola	Separate house	1	13320
+Hervey Bay			70
+Hervey Bay		0	25
+Hervey Bay		1	107
+Hervey Bay	(Other)		35
+Hervey Bay	(Other)	0	172
+Hervey Bay	(Other)	1	290
+Hervey Bay	Flat/apartment		45
+Hervey Bay	Flat/apartment	0	238
+Hervey Bay	Flat/apartment	1	523
+Hervey Bay	Semi-detached, row/terrace house, townhouse etc.		89
+Hervey Bay	Semi-detached, row/terrace house, townhouse etc.	0	792
+Hervey Bay	Semi-detached, row/terrace house, townhouse etc.	1	1574
+Hervey Bay	Separate house		428
+Hervey Bay	Separate house	0	2661
+Hervey Bay	Separate house	1	14872
+Maryborough			16
+Maryborough		0	20
+Maryborough		1	82
+Maryborough	(Other)		30
+Maryborough	(Other)	0	146
+Maryborough	(Other)	1	225
+Maryborough	Flat/apartment		29
+Maryborough	Flat/apartment	0	159
+Maryborough	Flat/apartment	1	227
+Maryborough	Semi-detached, row/terrace house, townhouse etc.		41
+Maryborough	Semi-detached, row/terrace house, townhouse etc.	0	358
+Maryborough	Semi-detached, row/terrace house, townhouse etc.	1	327
+Maryborough	Separate house		452
+Maryborough	Separate house	0	3011
+Maryborough	Separate house	1	11982
+Adelaide City			31
+Adelaide City		0	3
+Adelaide City		1	47
+Adelaide City	(Other)		10
+Adelaide City	(Other)	0	8
+Adelaide City	(Other)	1	61
+Adelaide City	Flat/apartment		126
+Adelaide City	Flat/apartment	0	492
+Adelaide City	Flat/apartment	1	3811
+Adelaide City	Semi-detached, row/terrace house, townhouse etc.		94
+Adelaide City	Semi-detached, row/terrace house, townhouse etc.	0	305
+Adelaide City	Semi-detached, row/terrace house, townhouse etc.	1	2638
+Adelaide City	Separate house		19
+Adelaide City	Separate house	0	73
+Adelaide City	Separate house	1	971
+Adelaide Hills			12
+Adelaide Hills		0	36
+Adelaide Hills		1	86
+Adelaide Hills	(Other)		5
+Adelaide Hills	(Other)	0	30
+Adelaide Hills	(Other)	1	69
+Adelaide Hills	Flat/apartment		5
+Adelaide Hills	Flat/apartment	0	57
+Adelaide Hills	Flat/apartment	1	107
+Adelaide Hills	Semi-detached, row/terrace house, townhouse etc.		33
+Adelaide Hills	Semi-detached, row/terrace house, townhouse etc.	0	271
+Adelaide Hills	Semi-detached, row/terrace house, townhouse etc.	1	514
+Adelaide Hills	Separate house		358
+Adelaide Hills	Separate house	0	2301
+Adelaide Hills	Separate house	1	21776
+Burnside		0	3
+Burnside		1	24
+Burnside	(Other)	1	12
+Burnside	Flat/apartment		56
+Burnside	Flat/apartment	0	349
+Burnside	Flat/apartment	1	1332
+Burnside	Semi-detached, row/terrace house, townhouse etc.		102
+Burnside	Semi-detached, row/terrace house, townhouse etc.	0	576
+Burnside	Semi-detached, row/terrace house, townhouse etc.	1	3057
+Burnside	Separate house		131
+Burnside	Separate house	0	891
+Burnside	Separate house	1	10253
+Campbelltown (SA)			5
+Campbelltown (SA)		0	5
+Campbelltown (SA)		1	36
+Campbelltown (SA)	(Other)	1	9
+Campbelltown (SA)	Flat/apartment		44
+Campbelltown (SA)	Flat/apartment	0	409
+Campbelltown (SA)	Flat/apartment	1	1100
+Campbelltown (SA)	Semi-detached, row/terrace house, townhouse etc.		108
+Campbelltown (SA)	Semi-detached, row/terrace house, townhouse etc.	0	650
+Campbelltown (SA)	Semi-detached, row/terrace house, townhouse etc.	1	2654
+Campbelltown (SA)	Separate house		252
+Campbelltown (SA)	Separate house	0	2386
+Campbelltown (SA)	Separate house	1	11751
+Norwood - Payneham - St Peters			4
+Norwood - Payneham - St Peters		0	9
+Norwood - Payneham - St Peters		1	48
+Norwood - Payneham - St Peters	(Other)	0	7
+Norwood - Payneham - St Peters	(Other)	1	31
+Norwood - Payneham - St Peters	Flat/apartment		52
+Norwood - Payneham - St Peters	Flat/apartment	0	471
+Norwood - Payneham - St Peters	Flat/apartment	1	1916
+Norwood - Payneham - St Peters	Semi-detached, row/terrace house, townhouse etc.		102
+Norwood - Payneham - St Peters	Semi-detached, row/terrace house, townhouse etc.	0	725
+Norwood - Payneham - St Peters	Semi-detached, row/terrace house, townhouse etc.	1	3639
+Norwood - Payneham - St Peters	Separate house		146
+Norwood - Payneham - St Peters	Separate house	0	1172
+Norwood - Payneham - St Peters	Separate house	1	6493
+Prospect - Walkerville			6
+Prospect - Walkerville		0	3
+Prospect - Walkerville		1	25
+Prospect - Walkerville	(Other)		3
+Prospect - Walkerville	(Other)	0	6
+Prospect - Walkerville	(Other)	1	32
+Prospect - Walkerville	Flat/apartment		53
+Prospect - Walkerville	Flat/apartment	0	263
+Prospect - Walkerville	Flat/apartment	1	1014
+Prospect - Walkerville	Semi-detached, row/terrace house, townhouse etc.		62
+Prospect - Walkerville	Semi-detached, row/terrace house, townhouse etc.	0	348
+Prospect - Walkerville	Semi-detached, row/terrace house, townhouse etc.	1	1687
+Prospect - Walkerville	Separate house		109
+Prospect - Walkerville	Separate house	0	774
+Prospect - Walkerville	Separate house	1	6318
+Unley			3
+Unley		0	11
+Unley		1	20
+Unley	(Other)	0	3
+Unley	(Other)	1	12
+Unley	Flat/apartment		77
+Unley	Flat/apartment	0	534
+Unley	Flat/apartment	1	2655
+Unley	Semi-detached, row/terrace house, townhouse etc.		53
+Unley	Semi-detached, row/terrace house, townhouse etc.	0	369
+Unley	Semi-detached, row/terrace house, townhouse etc.	1	2293
+Unley	Separate house		134
+Unley	Separate house	0	810
+Unley	Separate house	1	7768
+Gawler - Two Wells			6
+Gawler - Two Wells		0	14
+Gawler - Two Wells		1	27
+Gawler - Two Wells	(Other)		6
+Gawler - Two Wells	(Other)	0	27
+Gawler - Two Wells	(Other)	1	46
+Gawler - Two Wells	Flat/apartment		8
+Gawler - Two Wells	Flat/apartment	0	53
+Gawler - Two Wells	Flat/apartment	1	67
+Gawler - Two Wells	Semi-detached, row/terrace house, townhouse etc.		53
+Gawler - Two Wells	Semi-detached, row/terrace house, townhouse etc.	0	482
+Gawler - Two Wells	Semi-detached, row/terrace house, townhouse etc.	1	808
+Gawler - Two Wells	Separate house		213
+Gawler - Two Wells	Separate house	0	1529
+Gawler - Two Wells	Separate house	1	9395
+Playford			7
+Playford		0	26
+Playford		1	50
+Playford	(Other)		4
+Playford	(Other)	0	40
+Playford	(Other)	1	51
+Playford	Flat/apartment		36
+Playford	Flat/apartment	0	287
+Playford	Flat/apartment	1	254
+Playford	Semi-detached, row/terrace house, townhouse etc.		268
+Playford	Semi-detached, row/terrace house, townhouse etc.	0	1925
+Playford	Semi-detached, row/terrace house, townhouse etc.	1	3346
+Playford	Separate house		625
+Playford	Separate house	0	3969
+Playford	Separate house	1	21122
+Port Adelaide - East			11
+Port Adelaide - East		0	13
+Port Adelaide - East		1	76
+Port Adelaide - East	(Other)		3
+Port Adelaide - East	(Other)	0	21
+Port Adelaide - East	(Other)	1	44
+Port Adelaide - East	Flat/apartment		67
+Port Adelaide - East	Flat/apartment	0	441
+Port Adelaide - East	Flat/apartment	1	1128
+Port Adelaide - East	Semi-detached, row/terrace house, townhouse etc.		167
+Port Adelaide - East	Semi-detached, row/terrace house, townhouse etc.	0	1034
+Port Adelaide - East	Semi-detached, row/terrace house, townhouse etc.	1	3827
+Port Adelaide - East	Separate house		400
+Port Adelaide - East	Separate house	0	2950
+Port Adelaide - East	Separate house	1	15237
+Salisbury			16
+Salisbury		0	16
+Salisbury		1	44
+Salisbury	(Other)		4
+Salisbury	(Other)	0	58
+Salisbury	(Other)	1	115
+Salisbury	Flat/apartment		73
+Salisbury	Flat/apartment	0	622
+Salisbury	Flat/apartment	1	1397
+Salisbury	Semi-detached, row/terrace house, townhouse etc.		168
+Salisbury	Semi-detached, row/terrace house, townhouse etc.	0	1575
+Salisbury	Semi-detached, row/terrace house, townhouse etc.	1	4016
+Salisbury	Separate house		917
+Salisbury	Separate house	0	5930
+Salisbury	Separate house	1	33940
+Tea Tree Gully			9
+Tea Tree Gully		0	10
+Tea Tree Gully		1	48
+Tea Tree Gully	(Other)	0	4
+Tea Tree Gully	(Other)	1	19
+Tea Tree Gully	Flat/apartment		19
+Tea Tree Gully	Flat/apartment	0	187
+Tea Tree Gully	Flat/apartment	1	566
+Tea Tree Gully	Semi-detached, row/terrace house, townhouse etc.		94
+Tea Tree Gully	Semi-detached, row/terrace house, townhouse etc.	0	731
+Tea Tree Gully	Semi-detached, row/terrace house, townhouse etc.	1	1974
+Tea Tree Gully	Separate house		499
+Tea Tree Gully	Separate house	0	3267
+Tea Tree Gully	Separate house	1	27659
+Holdfast Bay			14
+Holdfast Bay		0	7
+Holdfast Bay		1	43
+Holdfast Bay	(Other)	0	16
+Holdfast Bay	(Other)	1	22
+Holdfast Bay	Flat/apartment		88
+Holdfast Bay	Flat/apartment	0	634
+Holdfast Bay	Flat/apartment	1	2007
+Holdfast Bay	Semi-detached, row/terrace house, townhouse etc.		94
+Holdfast Bay	Semi-detached, row/terrace house, townhouse etc.	0	756
+Holdfast Bay	Semi-detached, row/terrace house, townhouse etc.	1	3163
+Holdfast Bay	Separate house		122
+Holdfast Bay	Separate house	0	720
+Holdfast Bay	Separate house	1	6477
+Marion			4
+Marion		0	16
+Marion		1	98
+Marion	(Other)	0	6
+Marion	(Other)	1	12
+Marion	Flat/apartment		85
+Marion	Flat/apartment	0	696
+Marion	Flat/apartment	1	1649
+Marion	Semi-detached, row/terrace house, townhouse etc.		244
+Marion	Semi-detached, row/terrace house, townhouse etc.	0	1854
+Marion	Semi-detached, row/terrace house, townhouse etc.	1	6362
+Marion	Separate house		464
+Marion	Separate house	0	3140
+Marion	Separate house	1	21280
+Mitcham			11
+Mitcham		0	7
+Mitcham		1	68
+Mitcham	(Other)	0	6
+Mitcham	(Other)	1	33
+Mitcham	Flat/apartment		61
+Mitcham	Flat/apartment	0	553
+Mitcham	Flat/apartment	1	1696
+Mitcham	Semi-detached, row/terrace house, townhouse etc.		108
+Mitcham	Semi-detached, row/terrace house, townhouse etc.	0	354
+Mitcham	Semi-detached, row/terrace house, townhouse etc.	1	1908
+Mitcham	Separate house		293
+Mitcham	Separate house	0	1645
+Mitcham	Separate house	1	16634
+Onkaparinga			12
+Onkaparinga		0	21
+Onkaparinga		1	103
+Onkaparinga	(Other)		13
+Onkaparinga	(Other)	0	113
+Onkaparinga	(Other)	1	185
+Onkaparinga	Flat/apartment		55
+Onkaparinga	Flat/apartment	0	453
+Onkaparinga	Flat/apartment	1	912
+Onkaparinga	Semi-detached, row/terrace house, townhouse etc.		227
+Onkaparinga	Semi-detached, row/terrace house, townhouse etc.	0	1661
+Onkaparinga	Semi-detached, row/terrace house, townhouse etc.	1	3229
+Onkaparinga	Separate house		1011
+Onkaparinga	Separate house	0	6272
+Onkaparinga	Separate house	1	49196
+Charles Sturt			5
+Charles Sturt		0	24
+Charles Sturt		1	120
+Charles Sturt	(Other)		4
+Charles Sturt	(Other)	0	17
+Charles Sturt	(Other)	1	65
+Charles Sturt	Flat/apartment		139
+Charles Sturt	Flat/apartment	0	914
+Charles Sturt	Flat/apartment	1	2688
+Charles Sturt	Semi-detached, row/terrace house, townhouse etc.		339
+Charles Sturt	Semi-detached, row/terrace house, townhouse etc.	0	2546
+Charles Sturt	Semi-detached, row/terrace house, townhouse etc.	1	8766
+Charles Sturt	Separate house		593
+Charles Sturt	Separate house	0	4932
+Charles Sturt	Separate house	1	21899
+Port Adelaide - West			11
+Port Adelaide - West		0	18
+Port Adelaide - West		1	53
+Port Adelaide - West	(Other)	0	15
+Port Adelaide - West	(Other)	1	74
+Port Adelaide - West	Flat/apartment		62
+Port Adelaide - West	Flat/apartment	0	618
+Port Adelaide - West	Flat/apartment	1	1260
+Port Adelaide - West	Semi-detached, row/terrace house, townhouse etc.		177
+Port Adelaide - West	Semi-detached, row/terrace house, townhouse etc.	0	1566
+Port Adelaide - West	Semi-detached, row/terrace house, townhouse etc.	1	3616
+Port Adelaide - West	Separate house		329
+Port Adelaide - West	Separate house	0	2750
+Port Adelaide - West	Separate house	1	12413
+West Torrens			12
+West Torrens		0	10
+West Torrens		1	75
+West Torrens	(Other)		4
+West Torrens	(Other)	0	7
+West Torrens	(Other)	1	44
+West Torrens	Flat/apartment		102
+West Torrens	Flat/apartment	0	721
+West Torrens	Flat/apartment	1	2780
+West Torrens	Semi-detached, row/terrace house, townhouse etc.		158
+West Torrens	Semi-detached, row/terrace house, townhouse etc.	0	1081
+West Torrens	Semi-detached, row/terrace house, townhouse etc.	1	4070
+West Torrens	Separate house		303
+West Torrens	Separate house	0	2482
+West Torrens	Separate house	1	12776
+Barossa			5
+Barossa		0	13
+Barossa		1	46
+Barossa	(Other)	0	27
+Barossa	(Other)	1	83
+Barossa	Flat/apartment		13
+Barossa	Flat/apartment	0	64
+Barossa	Flat/apartment	1	70
+Barossa	Semi-detached, row/terrace house, townhouse etc.		19
+Barossa	Semi-detached, row/terrace house, townhouse etc.	0	224
+Barossa	Semi-detached, row/terrace house, townhouse etc.	1	329
+Barossa	Separate house		190
+Barossa	Separate house	0	1896
+Barossa	Separate house	1	10309
+Lower North			9
+Lower North		0	15
+Lower North		1	57
+Lower North	(Other)		14
+Lower North	(Other)	0	19
+Lower North	(Other)	1	84
+Lower North	Flat/apartment		6
+Lower North	Flat/apartment	0	52
+Lower North	Flat/apartment	1	42
+Lower North	Semi-detached, row/terrace house, townhouse etc.		9
+Lower North	Semi-detached, row/terrace house, townhouse etc.	0	108
+Lower North	Semi-detached, row/terrace house, townhouse etc.	1	130
+Lower North	Separate house		185
+Lower North	Separate house	0	1690
+Lower North	Separate house	1	6407
+Mid North			8
+Mid North		0	27
+Mid North		1	61
+Mid North	(Other)		10
+Mid North	(Other)	0	30
+Mid North	(Other)	1	50
+Mid North	Flat/apartment		7
+Mid North	Flat/apartment	0	78
+Mid North	Flat/apartment	1	42
+Mid North	Semi-detached, row/terrace house, townhouse etc.		41
+Mid North	Semi-detached, row/terrace house, townhouse etc.	0	450
+Mid North	Semi-detached, row/terrace house, townhouse etc.	1	387
+Mid North	Separate house		218
+Mid North	Separate house	0	2389
+Mid North	Separate house	1	7182
+Yorke Peninsula			4
+Yorke Peninsula		0	12
+Yorke Peninsula		1	35
+Yorke Peninsula	(Other)		10
+Yorke Peninsula	(Other)	0	57
+Yorke Peninsula	(Other)	1	110
+Yorke Peninsula	Flat/apartment		7
+Yorke Peninsula	Flat/apartment	0	83
+Yorke Peninsula	Flat/apartment	1	73
+Yorke Peninsula	Semi-detached, row/terrace house, townhouse etc.		14
+Yorke Peninsula	Semi-detached, row/terrace house, townhouse etc.	0	197
+Yorke Peninsula	Semi-detached, row/terrace house, townhouse etc.	1	143
+Yorke Peninsula	Separate house		216
+Yorke Peninsula	Separate house	0	2322
+Yorke Peninsula	Separate house	1	7100
+Eyre Peninsula and South West			17
+Eyre Peninsula and South West		0	25
+Eyre Peninsula and South West		1	78
+Eyre Peninsula and South West	(Other)		18
+Eyre Peninsula and South West	(Other)	0	94
+Eyre Peninsula and South West	(Other)	1	176
+Eyre Peninsula and South West	Flat/apartment		46
+Eyre Peninsula and South West	Flat/apartment	0	355
+Eyre Peninsula and South West	Flat/apartment	1	388
+Eyre Peninsula and South West	Semi-detached, row/terrace house, townhouse etc.		187
+Eyre Peninsula and South West	Semi-detached, row/terrace house, townhouse etc.	0	1540
+Eyre Peninsula and South West	Semi-detached, row/terrace house, townhouse etc.	1	2526
+Eyre Peninsula and South West	Separate house		391
+Eyre Peninsula and South West	Separate house	0	2962
+Eyre Peninsula and South West	Separate house	1	13013
+Outback - North and East			8
+Outback - North and East		0	35
+Outback - North and East		1	107
+Outback - North and East	(Other)		27
+Outback - North and East	(Other)	0	49
+Outback - North and East	(Other)	1	58
+Outback - North and East	Flat/apartment		23
+Outback - North and East	Flat/apartment	0	163
+Outback - North and East	Flat/apartment	1	173
+Outback - North and East	Semi-detached, row/terrace house, townhouse etc.		51
+Outback - North and East	Semi-detached, row/terrace house, townhouse etc.	0	310
+Outback - North and East	Semi-detached, row/terrace house, townhouse etc.	1	482
+Outback - North and East	Separate house		238
+Outback - North and East	Separate house	0	1899
+Outback - North and East	Separate house	1	5326
+Fleurieu - Kangaroo Island			10
+Fleurieu - Kangaroo Island		0	16
+Fleurieu - Kangaroo Island		1	71
+Fleurieu - Kangaroo Island	(Other)		18
+Fleurieu - Kangaroo Island	(Other)	0	79
+Fleurieu - Kangaroo Island	(Other)	1	126
+Fleurieu - Kangaroo Island	Flat/apartment		13
+Fleurieu - Kangaroo Island	Flat/apartment	0	148
+Fleurieu - Kangaroo Island	Flat/apartment	1	182
+Fleurieu - Kangaroo Island	Semi-detached, row/terrace house, townhouse etc.		38
+Fleurieu - Kangaroo Island	Semi-detached, row/terrace house, townhouse etc.	0	324
+Fleurieu - Kangaroo Island	Semi-detached, row/terrace house, townhouse etc.	1	597
+Fleurieu - Kangaroo Island	Separate house		408
+Fleurieu - Kangaroo Island	Separate house	0	3082
+Fleurieu - Kangaroo Island	Separate house	1	15320
+Limestone Coast			13
+Limestone Coast		0	23
+Limestone Coast		1	71
+Limestone Coast	(Other)		3
+Limestone Coast	(Other)	0	33
+Limestone Coast	(Other)	1	101
+Limestone Coast	Flat/apartment		47
+Limestone Coast	Flat/apartment	0	406
+Limestone Coast	Flat/apartment	1	610
+Limestone Coast	Semi-detached, row/terrace house, townhouse etc.		60
+Limestone Coast	Semi-detached, row/terrace house, townhouse etc.	0	671
+Limestone Coast	Semi-detached, row/terrace house, townhouse etc.	1	1015
+Limestone Coast	Separate house		481
+Limestone Coast	Separate house	0	4185
+Limestone Coast	Separate house	1	16908
+Murray and Mallee			27
+Murray and Mallee		0	43
+Murray and Mallee		1	124
+Murray and Mallee	(Other)		18
+Murray and Mallee	(Other)	0	117
+Murray and Mallee	(Other)	1	242
+Murray and Mallee	Flat/apartment		42
+Murray and Mallee	Flat/apartment	0	284
+Murray and Mallee	Flat/apartment	1	273
+Murray and Mallee	Semi-detached, row/terrace house, townhouse etc.		100
+Murray and Mallee	Semi-detached, row/terrace house, townhouse etc.	0	732
+Murray and Mallee	Semi-detached, row/terrace house, townhouse etc.	1	820
+Murray and Mallee	Separate house		670
+Murray and Mallee	Separate house	0	5278
+Murray and Mallee	Separate house	1	18281
+Augusta - Margaret River - Busselton			12
+Augusta - Margaret River - Busselton		0	14
+Augusta - Margaret River - Busselton		1	75
+Augusta - Margaret River - Busselton	(Other)		37
+Augusta - Margaret River - Busselton	(Other)	0	162
+Augusta - Margaret River - Busselton	(Other)	1	346
+Augusta - Margaret River - Busselton	Flat/apartment		10
+Augusta - Margaret River - Busselton	Flat/apartment	0	45
+Augusta - Margaret River - Busselton	Flat/apartment	1	50
+Augusta - Margaret River - Busselton	Semi-detached, row/terrace house, townhouse etc.		59
+Augusta - Margaret River - Busselton	Semi-detached, row/terrace house, townhouse etc.	0	394
+Augusta - Margaret River - Busselton	Semi-detached, row/terrace house, townhouse etc.	1	833
+Augusta - Margaret River - Busselton	Separate house		302
+Augusta - Margaret River - Busselton	Separate house	0	1780
+Augusta - Margaret River - Busselton	Separate house	1	13872
+Bunbury			28
+Bunbury		0	12
+Bunbury		1	95
+Bunbury	(Other)		19
+Bunbury	(Other)	0	137
+Bunbury	(Other)	1	205
+Bunbury	Flat/apartment		54
+Bunbury	Flat/apartment	0	389
+Bunbury	Flat/apartment	1	530
+Bunbury	Semi-detached, row/terrace house, townhouse etc.		114
+Bunbury	Semi-detached, row/terrace house, townhouse etc.	0	922
+Bunbury	Semi-detached, row/terrace house, townhouse etc.	1	2031
+Bunbury	Separate house		680
+Bunbury	Separate house	0	4267
+Bunbury	Separate house	1	27032
+Manjimup			3
+Manjimup		0	14
+Manjimup		1	41
+Manjimup	(Other)		9
+Manjimup	(Other)	0	13
+Manjimup	(Other)	1	63
+Manjimup	Flat/apartment		6
+Manjimup	Flat/apartment	0	51
+Manjimup	Flat/apartment	1	68
+Manjimup	Semi-detached, row/terrace house, townhouse etc.		14
+Manjimup	Semi-detached, row/terrace house, townhouse etc.	0	94
+Manjimup	Semi-detached, row/terrace house, townhouse etc.	1	130
+Manjimup	Separate house		197
+Manjimup	Separate house	0	1534
+Manjimup	Separate house	1	6402
+Mandurah			5
+Mandurah		0	16
+Mandurah		1	58
+Mandurah	(Other)		29
+Mandurah	(Other)	0	150
+Mandurah	(Other)	1	217
+Mandurah	Flat/apartment		53
+Mandurah	Flat/apartment	0	343
+Mandurah	Flat/apartment	1	881
+Mandurah	Semi-detached, row/terrace house, townhouse etc.		186
+Mandurah	Semi-detached, row/terrace house, townhouse etc.	0	1225
+Mandurah	Semi-detached, row/terrace house, townhouse etc.	1	2987
+Mandurah	Separate house		648
+Mandurah	Separate house	0	3679
+Mandurah	Separate house	1	25718
+Cottesloe - Claremont			12
+Cottesloe - Claremont		1	34
+Cottesloe - Claremont	(Other)	1	9
+Cottesloe - Claremont	Flat/apartment		103
+Cottesloe - Claremont	Flat/apartment	0	642
+Cottesloe - Claremont	Flat/apartment	1	3049
+Cottesloe - Claremont	Semi-detached, row/terrace house, townhouse etc.		74
+Cottesloe - Claremont	Semi-detached, row/terrace house, townhouse etc.	0	361
+Cottesloe - Claremont	Semi-detached, row/terrace house, townhouse etc.	1	2899
+Cottesloe - Claremont	Separate house		252
+Cottesloe - Claremont	Separate house	0	760
+Cottesloe - Claremont	Separate house	1	15293
+Perth City			20
+Perth City		0	21
+Perth City		1	103
+Perth City	(Other)		16
+Perth City	(Other)	0	12
+Perth City	(Other)	1	82
+Perth City	Flat/apartment		453
+Perth City	Flat/apartment	0	2150
+Perth City	Flat/apartment	1	14747
+Perth City	Semi-detached, row/terrace house, townhouse etc.		149
+Perth City	Semi-detached, row/terrace house, townhouse etc.	0	588
+Perth City	Semi-detached, row/terrace house, townhouse etc.	1	6302
+Perth City	Separate house		374
+Perth City	Separate house	0	1286
+Perth City	Separate house	1	14550
+Bayswater - Bassendean			9
+Bayswater - Bassendean		0	8
+Bayswater - Bassendean		1	64
+Bayswater - Bassendean	(Other)		3
+Bayswater - Bassendean	(Other)	0	3
+Bayswater - Bassendean	(Other)	1	8
+Bayswater - Bassendean	Flat/apartment		68
+Bayswater - Bassendean	Flat/apartment	0	481
+Bayswater - Bassendean	Flat/apartment	1	1868
+Bayswater - Bassendean	Semi-detached, row/terrace house, townhouse etc.		159
+Bayswater - Bassendean	Semi-detached, row/terrace house, townhouse etc.	0	1181
+Bayswater - Bassendean	Semi-detached, row/terrace house, townhouse etc.	1	4788
+Bayswater - Bassendean	Separate house		498
+Bayswater - Bassendean	Separate house	0	2746
+Bayswater - Bassendean	Separate house	1	19178
+Mundaring			7
+Mundaring		0	7
+Mundaring		1	14
+Mundaring	(Other)		3
+Mundaring	(Other)	0	9
+Mundaring	(Other)	1	19
+Mundaring	Flat/apartment		3
+Mundaring	Flat/apartment	0	12
+Mundaring	Flat/apartment	1	16
+Mundaring	Semi-detached, row/terrace house, townhouse etc.		36
+Mundaring	Semi-detached, row/terrace house, townhouse etc.	0	276
+Mundaring	Semi-detached, row/terrace house, townhouse etc.	1	412
+Mundaring	Separate house		238
+Mundaring	Separate house	0	1354
+Mundaring	Separate house	1	11922
+Swan			13
+Swan		0	11
+Swan		1	70
+Swan	(Other)		24
+Swan	(Other)	0	73
+Swan	(Other)	1	171
+Swan	Flat/apartment		22
+Swan	Flat/apartment	0	117
+Swan	Flat/apartment	1	343
+Swan	Semi-detached, row/terrace house, townhouse etc.		135
+Swan	Semi-detached, row/terrace house, townhouse etc.	0	967
+Swan	Semi-detached, row/terrace house, townhouse etc.	1	3929
+Swan	Separate house		718
+Swan	Separate house	0	3292
+Swan	Separate house	1	32606
+Joondalup			8
+Joondalup		0	3
+Joondalup		1	49
+Joondalup	(Other)		7
+Joondalup	(Other)	0	60
+Joondalup	(Other)	1	100
+Joondalup	Flat/apartment		50
+Joondalup	Flat/apartment	0	250
+Joondalup	Flat/apartment	1	931
+Joondalup	Semi-detached, row/terrace house, townhouse etc.		121
+Joondalup	Semi-detached, row/terrace house, townhouse etc.	0	796
+Joondalup	Semi-detached, row/terrace house, townhouse etc.	1	3594
+Joondalup	Separate house		692
+Joondalup	Separate house	0	2718
+Joondalup	Separate house	1	44521
+Stirling			19
+Stirling		0	21
+Stirling		1	136
+Stirling	(Other)		3
+Stirling	(Other)	0	9
+Stirling	(Other)	1	43
+Stirling	Flat/apartment		174
+Stirling	Flat/apartment	0	1109
+Stirling	Flat/apartment	1	3287
+Stirling	Semi-detached, row/terrace house, townhouse etc.		776
+Stirling	Semi-detached, row/terrace house, townhouse etc.	0	4128
+Stirling	Semi-detached, row/terrace house, townhouse etc.	1	22808
+Stirling	Separate house		830
+Stirling	Separate house	0	4942
+Stirling	Separate house	1	36025
+Wanneroo			5
+Wanneroo		0	4
+Wanneroo		1	54
+Wanneroo	(Other)		12
+Wanneroo	(Other)	0	62
+Wanneroo	(Other)	1	87
+Wanneroo	Flat/apartment		5
+Wanneroo	Flat/apartment	0	31
+Wanneroo	Flat/apartment	1	93
+Wanneroo	Semi-detached, row/terrace house, townhouse etc.		198
+Wanneroo	Semi-detached, row/terrace house, townhouse etc.	0	1249
+Wanneroo	Semi-detached, row/terrace house, townhouse etc.	1	4727
+Wanneroo	Separate house		986
+Wanneroo	Separate house	0	4347
+Wanneroo	Separate house	1	49523
+Armadale			7
+Armadale		0	12
+Armadale		1	39
+Armadale	(Other)		4
+Armadale	(Other)	0	31
+Armadale	(Other)	1	55
+Armadale	Flat/apartment		7
+Armadale	Flat/apartment	0	60
+Armadale	Flat/apartment	1	156
+Armadale	Semi-detached, row/terrace house, townhouse etc.		145
+Armadale	Semi-detached, row/terrace house, townhouse etc.	0	717
+Armadale	Semi-detached, row/terrace house, townhouse etc.	1	2334
+Armadale	Separate house		497
+Armadale	Separate house	0	2471
+Armadale	Separate house	1	20935
+Belmont - Victoria Park			15
+Belmont - Victoria Park		0	3
+Belmont - Victoria Park		1	66
+Belmont - Victoria Park	(Other)		3
+Belmont - Victoria Park	(Other)	0	13
+Belmont - Victoria Park	(Other)	1	25
+Belmont - Victoria Park	Flat/apartment		165
+Belmont - Victoria Park	Flat/apartment	0	479
+Belmont - Victoria Park	Flat/apartment	1	3133
+Belmont - Victoria Park	Semi-detached, row/terrace house, townhouse etc.		237
+Belmont - Victoria Park	Semi-detached, row/terrace house, townhouse etc.	0	1059
+Belmont - Victoria Park	Semi-detached, row/terrace house, townhouse etc.	1	5234
+Belmont - Victoria Park	Separate house		407
+Belmont - Victoria Park	Separate house	0	2188
+Belmont - Victoria Park	Separate house	1	13881
+Canning			8
+Canning		0	7
+Canning		1	55
+Canning	(Other)	0	3
+Canning	(Other)	1	17
+Canning	Flat/apartment		61
+Canning	Flat/apartment	0	323
+Canning	Flat/apartment	1	875
+Canning	Semi-detached, row/terrace house, townhouse etc.		210
+Canning	Semi-detached, row/terrace house, townhouse etc.	0	958
+Canning	Semi-detached, row/terrace house, townhouse etc.	1	4419
+Canning	Separate house		491
+Canning	Separate house	0	2276
+Canning	Separate house	1	22214
+Gosnells			22
+Gosnells		0	5
+Gosnells		1	51
+Gosnells	(Other)		11
+Gosnells	(Other)	0	46
+Gosnells	(Other)	1	128
+Gosnells	Flat/apartment		10
+Gosnells	Flat/apartment	0	97
+Gosnells	Flat/apartment	1	366
+Gosnells	Semi-detached, row/terrace house, townhouse etc.		136
+Gosnells	Semi-detached, row/terrace house, townhouse etc.	0	890
+Gosnells	Semi-detached, row/terrace house, townhouse etc.	1	2909
+Gosnells	Separate house		741
+Gosnells	Separate house	0	3668
+Gosnells	Separate house	1	29911
+Kalamunda			3
+Kalamunda		0	6
+Kalamunda		1	38
+Kalamunda	(Other)		3
+Kalamunda	(Other)	0	25
+Kalamunda	(Other)	1	72
+Kalamunda	Flat/apartment		3
+Kalamunda	Flat/apartment	0	20
+Kalamunda	Flat/apartment	1	32
+Kalamunda	Semi-detached, row/terrace house, townhouse etc.		35
+Kalamunda	Semi-detached, row/terrace house, townhouse etc.	0	284
+Kalamunda	Semi-detached, row/terrace house, townhouse etc.	1	693
+Kalamunda	Separate house		355
+Kalamunda	Separate house	0	1734
+Kalamunda	Separate house	1	16783
+Serpentine - Jarrahdale		0	3
+Serpentine - Jarrahdale		1	22
+Serpentine - Jarrahdale	(Other)	0	5
+Serpentine - Jarrahdale	(Other)	1	18
+Serpentine - Jarrahdale	Flat/apartment		4
+Serpentine - Jarrahdale	Flat/apartment	0	3
+Serpentine - Jarrahdale	Flat/apartment	1	8
+Serpentine - Jarrahdale	Semi-detached, row/terrace house, townhouse etc.	0	21
+Serpentine - Jarrahdale	Semi-detached, row/terrace house, townhouse etc.	1	62
+Serpentine - Jarrahdale	Separate house		135
+Serpentine - Jarrahdale	Separate house	0	629
+Serpentine - Jarrahdale	Separate house	1	7506
+South Perth			8
+South Perth		0	13
+South Perth		1	42
+South Perth	(Other)	1	4
+South Perth	Flat/apartment		64
+South Perth	Flat/apartment	0	290
+South Perth	Flat/apartment	1	1889
+South Perth	Semi-detached, row/terrace house, townhouse etc.		121
+South Perth	Semi-detached, row/terrace house, townhouse etc.	0	583
+South Perth	Semi-detached, row/terrace house, townhouse etc.	1	5204
+South Perth	Separate house		153
+South Perth	Separate house	0	617
+South Perth	Separate house	1	7356
+Cockburn			62
+Cockburn		0	6
+Cockburn		1	56
+Cockburn	(Other)		6
+Cockburn	(Other)	0	46
+Cockburn	(Other)	1	90
+Cockburn	Flat/apartment		48
+Cockburn	Flat/apartment	0	295
+Cockburn	Flat/apartment	1	1387
+Cockburn	Semi-detached, row/terrace house, townhouse etc.		132
+Cockburn	Semi-detached, row/terrace house, townhouse etc.	0	1037
+Cockburn	Semi-detached, row/terrace house, townhouse etc.	1	3471
+Cockburn	Separate house		555
+Cockburn	Separate house	0	2856
+Cockburn	Separate house	1	25725
+Fremantle			38
+Fremantle		0	9
+Fremantle		1	59
+Fremantle	(Other)		4
+Fremantle	(Other)	0	29
+Fremantle	(Other)	1	89
+Fremantle	Flat/apartment		59
+Fremantle	Flat/apartment	0	318
+Fremantle	Flat/apartment	1	1343
+Fremantle	Semi-detached, row/terrace house, townhouse etc.		79
+Fremantle	Semi-detached, row/terrace house, townhouse etc.	0	522
+Fremantle	Semi-detached, row/terrace house, townhouse etc.	1	2799
+Fremantle	Separate house		185
+Fremantle	Separate house	0	978
+Fremantle	Separate house	1	7755
+Kwinana			6
+Kwinana		0	3
+Kwinana		1	28
+Kwinana	(Other)		4
+Kwinana	(Other)	0	7
+Kwinana	(Other)	1	54
+Kwinana	Flat/apartment		12
+Kwinana	Flat/apartment	0	134
+Kwinana	Flat/apartment	1	294
+Kwinana	Semi-detached, row/terrace house, townhouse etc.		29
+Kwinana	Semi-detached, row/terrace house, townhouse etc.	0	182
+Kwinana	Semi-detached, row/terrace house, townhouse etc.	1	477
+Kwinana	Separate house		253
+Kwinana	Separate house	0	1292
+Kwinana	Separate house	1	10109
+Melville			18
+Melville		0	10
+Melville		1	75
+Melville	(Other)	1	9
+Melville	Flat/apartment		48
+Melville	Flat/apartment	0	322
+Melville	Flat/apartment	1	907
+Melville	Semi-detached, row/terrace house, townhouse etc.		197
+Melville	Semi-detached, row/terrace house, townhouse etc.	0	1178
+Melville	Semi-detached, row/terrace house, townhouse etc.	1	5928
+Melville	Separate house		428
+Melville	Separate house	0	2089
+Melville	Separate house	1	25498
+Rockingham			6
+Rockingham		0	10
+Rockingham		1	39
+Rockingham	(Other)		7
+Rockingham	(Other)	0	73
+Rockingham	(Other)	1	114
+Rockingham	Flat/apartment		47
+Rockingham	Flat/apartment	0	304
+Rockingham	Flat/apartment	1	603
+Rockingham	Semi-detached, row/terrace house, townhouse etc.		119
+Rockingham	Semi-detached, row/terrace house, townhouse etc.	0	809
+Rockingham	Semi-detached, row/terrace house, townhouse etc.	1	1865
+Rockingham	Separate house		770
+Rockingham	Separate house	0	3616
+Rockingham	Separate house	1	34091
+Albany			6
+Albany		0	21
+Albany		1	109
+Albany	(Other)		10
+Albany	(Other)	0	95
+Albany	(Other)	1	163
+Albany	Flat/apartment		7
+Albany	Flat/apartment	0	47
+Albany	Flat/apartment	1	48
+Albany	Semi-detached, row/terrace house, townhouse etc.		78
+Albany	Semi-detached, row/terrace house, townhouse etc.	0	524
+Albany	Semi-detached, row/terrace house, townhouse etc.	1	655
+Albany	Separate house		465
+Albany	Separate house	0	3476
+Albany	Separate house	1	15835
+Wheat Belt - North			28
+Wheat Belt - North		0	34
+Wheat Belt - North		1	143
+Wheat Belt - North	(Other)		23
+Wheat Belt - North	(Other)	0	71
+Wheat Belt - North	(Other)	1	203
+Wheat Belt - North	Flat/apartment		17
+Wheat Belt - North	Flat/apartment	0	72
+Wheat Belt - North	Flat/apartment	1	101
+Wheat Belt - North	Semi-detached, row/terrace house, townhouse etc.		15
+Wheat Belt - North	Semi-detached, row/terrace house, townhouse etc.	0	178
+Wheat Belt - North	Semi-detached, row/terrace house, townhouse etc.	1	172
+Wheat Belt - North	Separate house		524
+Wheat Belt - North	Separate house	0	3567
+Wheat Belt - North	Separate house	1	15181
+Wheat Belt - South			4
+Wheat Belt - South		0	18
+Wheat Belt - South		1	44
+Wheat Belt - South	(Other)		8
+Wheat Belt - South	(Other)	0	67
+Wheat Belt - South	(Other)	1	58
+Wheat Belt - South	Flat/apartment		7
+Wheat Belt - South	Flat/apartment	0	38
+Wheat Belt - South	Flat/apartment	1	36
+Wheat Belt - South	Semi-detached, row/terrace house, townhouse etc.		16
+Wheat Belt - South	Semi-detached, row/terrace house, townhouse etc.	0	105
+Wheat Belt - South	Semi-detached, row/terrace house, townhouse etc.	1	108
+Wheat Belt - South	Separate house		187
+Wheat Belt - South	Separate house	0	1442
+Wheat Belt - South	Separate house	1	5319
+Kimberley			16
+Kimberley		0	55
+Kimberley		1	105
+Kimberley	(Other)		101
+Kimberley	(Other)	0	232
+Kimberley	(Other)	1	579
+Kimberley	Flat/apartment		32
+Kimberley	Flat/apartment	0	126
+Kimberley	Flat/apartment	1	346
+Kimberley	Semi-detached, row/terrace house, townhouse etc.		58
+Kimberley	Semi-detached, row/terrace house, townhouse etc.	0	276
+Kimberley	Semi-detached, row/terrace house, townhouse etc.	1	557
+Kimberley	Separate house		292
+Kimberley	Separate house	0	1813
+Kimberley	Separate house	1	5446
+East Pilbara			15
+East Pilbara		0	17
+East Pilbara		1	30
+East Pilbara	(Other)		26
+East Pilbara	(Other)	0	23
+East Pilbara	(Other)	1	71
+East Pilbara	Flat/apartment		24
+East Pilbara	Flat/apartment	0	96
+East Pilbara	Flat/apartment	1	412
+East Pilbara	Semi-detached, row/terrace house, townhouse etc.		17
+East Pilbara	Semi-detached, row/terrace house, townhouse etc.	0	94
+East Pilbara	Semi-detached, row/terrace house, townhouse etc.	1	293
+East Pilbara	Separate house		164
+East Pilbara	Separate house	0	671
+East Pilbara	Separate house	1	3873
+West Pilbara			11
+West Pilbara		0	5
+West Pilbara		1	29
+West Pilbara	(Other)		10
+West Pilbara	(Other)	0	38
+West Pilbara	(Other)	1	136
+West Pilbara	Flat/apartment		5
+West Pilbara	Flat/apartment	0	45
+West Pilbara	Flat/apartment	1	212
+West Pilbara	Semi-detached, row/terrace house, townhouse etc.		28
+West Pilbara	Semi-detached, row/terrace house, townhouse etc.	0	200
+West Pilbara	Semi-detached, row/terrace house, townhouse etc.	1	630
+West Pilbara	Separate house		150
+West Pilbara	Separate house	0	624
+West Pilbara	Separate house	1	5960
+Esperance			11
+Esperance		0	18
+Esperance		1	55
+Esperance	(Other)		7
+Esperance	(Other)	0	13
+Esperance	(Other)	1	46
+Esperance	Flat/apartment	0	13
+Esperance	Flat/apartment	1	61
+Esperance	Semi-detached, row/terrace house, townhouse etc.		33
+Esperance	Semi-detached, row/terrace house, townhouse etc.	0	159
+Esperance	Semi-detached, row/terrace house, townhouse etc.	1	208
+Esperance	Separate house		132
+Esperance	Separate house	0	746
+Esperance	Separate house	1	3926
+Gascoyne			9
+Gascoyne		0	5
+Gascoyne		1	24
+Gascoyne	(Other)		35
+Gascoyne	(Other)	0	110
+Gascoyne	(Other)	1	208
+Gascoyne	Flat/apartment	0	13
+Gascoyne	Flat/apartment	1	46
+Gascoyne	Semi-detached, row/terrace house, townhouse etc.		37
+Gascoyne	Semi-detached, row/terrace house, townhouse etc.	0	82
+Gascoyne	Semi-detached, row/terrace house, townhouse etc.	1	94
+Gascoyne	Separate house		113
+Gascoyne	Separate house	0	467
+Gascoyne	Separate house	1	1997
+Goldfields			30
+Goldfields		0	19
+Goldfields		1	54
+Goldfields	(Other)		23
+Goldfields	(Other)	0	75
+Goldfields	(Other)	1	154
+Goldfields	Flat/apartment		12
+Goldfields	Flat/apartment	0	94
+Goldfields	Flat/apartment	1	132
+Goldfields	Semi-detached, row/terrace house, townhouse etc.		65
+Goldfields	Semi-detached, row/terrace house, townhouse etc.	0	390
+Goldfields	Semi-detached, row/terrace house, townhouse etc.	1	1210
+Goldfields	Separate house		274
+Goldfields	Separate house	0	1570
+Goldfields	Separate house	1	8292
+Mid West			26
+Mid West		0	32
+Mid West		1	81
+Mid West	(Other)		38
+Mid West	(Other)	0	162
+Mid West	(Other)	1	296
+Mid West	Flat/apartment		34
+Mid West	Flat/apartment	0	161
+Mid West	Flat/apartment	1	209
+Mid West	Semi-detached, row/terrace house, townhouse etc.		56
+Mid West	Semi-detached, row/terrace house, townhouse etc.	0	548
+Mid West	Semi-detached, row/terrace house, townhouse etc.	1	936
+Mid West	Separate house		418
+Mid West	Separate house	0	2743
+Mid West	Separate house	1	13273
+Brighton			3
+Brighton		0	3
+Brighton		1	13
+Brighton	(Other)	0	4
+Brighton	(Other)	1	7
+Brighton	Flat/apartment		17
+Brighton	Flat/apartment	0	197
+Brighton	Flat/apartment	1	305
+Brighton	Semi-detached, row/terrace house, townhouse etc.		3
+Brighton	Semi-detached, row/terrace house, townhouse etc.	0	39
+Brighton	Semi-detached, row/terrace house, townhouse etc.	1	47
+Brighton	Separate house		128
+Brighton	Separate house	0	1147
+Brighton	Separate house	1	4121
+Hobart - North East			3
+Hobart - North East		0	6
+Hobart - North East		1	31
+Hobart - North East	(Other)		11
+Hobart - North East	(Other)	0	9
+Hobart - North East	(Other)	1	43
+Hobart - North East	Flat/apartment		14
+Hobart - North East	Flat/apartment	0	131
+Hobart - North East	Flat/apartment	1	233
+Hobart - North East	Semi-detached, row/terrace house, townhouse etc.		41
+Hobart - North East	Semi-detached, row/terrace house, townhouse etc.	0	325
+Hobart - North East	Semi-detached, row/terrace house, townhouse etc.	1	529
+Hobart - North East	Separate house		370
+Hobart - North East	Separate house	0	2741
+Hobart - North East	Separate house	1	15745
+Hobart - North West			3
+Hobart - North West		0	10
+Hobart - North West		1	21
+Hobart - North West	(Other)		3
+Hobart - North West	(Other)	0	27
+Hobart - North West	(Other)	1	72
+Hobart - North West	Flat/apartment		94
+Hobart - North West	Flat/apartment	0	910
+Hobart - North West	Flat/apartment	1	1250
+Hobart - North West	Semi-detached, row/terrace house, townhouse etc.		70
+Hobart - North West	Semi-detached, row/terrace house, townhouse etc.	0	548
+Hobart - North West	Semi-detached, row/terrace house, townhouse etc.	1	673
+Hobart - North West	Separate house		424
+Hobart - North West	Separate house	0	3741
+Hobart - North West	Separate house	1	13344
+Hobart - South and West		0	3
+Hobart - South and West		1	12
+Hobart - South and West	(Other)		9
+Hobart - South and West	(Other)	0	9
+Hobart - South and West	(Other)	1	25
+Hobart - South and West	Flat/apartment		7
+Hobart - South and West	Flat/apartment	0	71
+Hobart - South and West	Flat/apartment	1	188
+Hobart - South and West	Semi-detached, row/terrace house, townhouse etc.		13
+Hobart - South and West	Semi-detached, row/terrace house, townhouse etc.	0	132
+Hobart - South and West	Semi-detached, row/terrace house, townhouse etc.	1	460
+Hobart - South and West	Separate house		196
+Hobart - South and West	Separate house	0	1156
+Hobart - South and West	Separate house	1	9835
+Hobart Inner			22
+Hobart Inner		0	7
+Hobart Inner		1	72
+Hobart Inner	(Other)		5
+Hobart Inner	(Other)	0	15
+Hobart Inner	(Other)	1	71
+Hobart Inner	Flat/apartment		107
+Hobart Inner	Flat/apartment	0	741
+Hobart Inner	Flat/apartment	1	3058
+Hobart Inner	Semi-detached, row/terrace house, townhouse etc.		60
+Hobart Inner	Semi-detached, row/terrace house, townhouse etc.	0	307
+Hobart Inner	Semi-detached, row/terrace house, townhouse etc.	1	1771
+Hobart Inner	Separate house		239
+Hobart Inner	Separate house	0	1244
+Hobart Inner	Separate house	1	12202
+Sorell - Dodges Ferry			3
+Sorell - Dodges Ferry		0	5
+Sorell - Dodges Ferry		1	15
+Sorell - Dodges Ferry	(Other)		3
+Sorell - Dodges Ferry	(Other)	0	21
+Sorell - Dodges Ferry	(Other)	1	31
+Sorell - Dodges Ferry	Flat/apartment	1	7
+Sorell - Dodges Ferry	Semi-detached, row/terrace house, townhouse etc.		8
+Sorell - Dodges Ferry	Semi-detached, row/terrace house, townhouse etc.	0	28
+Sorell - Dodges Ferry	Semi-detached, row/terrace house, townhouse etc.	1	51
+Sorell - Dodges Ferry	Separate house		141
+Sorell - Dodges Ferry	Separate house	0	1093
+Sorell - Dodges Ferry	Separate house	1	4758
+Launceston			15
+Launceston		0	23
+Launceston		1	79
+Launceston	(Other)		4
+Launceston	(Other)	0	21
+Launceston	(Other)	1	86
+Launceston	Flat/apartment		113
+Launceston	Flat/apartment	0	909
+Launceston	Flat/apartment	1	1718
+Launceston	Semi-detached, row/terrace house, townhouse etc.		123
+Launceston	Semi-detached, row/terrace house, townhouse etc.	0	857
+Launceston	Semi-detached, row/terrace house, townhouse etc.	1	1832
+Launceston	Separate house		576
+Launceston	Separate house	0	3982
+Launceston	Separate house	1	21056
+Meander Valley - West Tamar			4
+Meander Valley - West Tamar		0	9
+Meander Valley - West Tamar		1	18
+Meander Valley - West Tamar	(Other)		6
+Meander Valley - West Tamar	(Other)	0	20
+Meander Valley - West Tamar	(Other)	1	73
+Meander Valley - West Tamar	Flat/apartment	0	26
+Meander Valley - West Tamar	Flat/apartment	1	41
+Meander Valley - West Tamar	Semi-detached, row/terrace house, townhouse etc.		7
+Meander Valley - West Tamar	Semi-detached, row/terrace house, townhouse etc.	0	55
+Meander Valley - West Tamar	Semi-detached, row/terrace house, townhouse etc.	1	96
+Meander Valley - West Tamar	Separate house		210
+Meander Valley - West Tamar	Separate house	0	1578
+Meander Valley - West Tamar	Separate house	1	6474
+North East			15
+North East		0	32
+North East		1	68
+North East	(Other)		6
+North East	(Other)	0	42
+North East	(Other)	1	69
+North East	Flat/apartment		21
+North East	Flat/apartment	0	141
+North East	Flat/apartment	1	147
+North East	Semi-detached, row/terrace house, townhouse etc.		18
+North East	Semi-detached, row/terrace house, townhouse etc.	0	172
+North East	Semi-detached, row/terrace house, townhouse etc.	1	148
+North East	Separate house		349
+North East	Separate house	0	3133
+North East	Separate house	1	10229
+Central Highlands (Tas.)			3
+Central Highlands (Tas.)		0	7
+Central Highlands (Tas.)		1	25
+Central Highlands (Tas.)	(Other)	0	19
+Central Highlands (Tas.)	(Other)	1	24
+Central Highlands (Tas.)	Flat/apartment	1	8
+Central Highlands (Tas.)	Semi-detached, row/terrace house, townhouse etc.	1	4
+Central Highlands (Tas.)	Separate house		113
+Central Highlands (Tas.)	Separate house	0	1149
+Central Highlands (Tas.)	Separate house	1	2902
+Huon - Bruny Island			3
+Huon - Bruny Island		0	4
+Huon - Bruny Island		1	15
+Huon - Bruny Island	(Other)		10
+Huon - Bruny Island	(Other)	0	32
+Huon - Bruny Island	(Other)	1	74
+Huon - Bruny Island	Flat/apartment		7
+Huon - Bruny Island	Flat/apartment	0	46
+Huon - Bruny Island	Flat/apartment	1	37
+Huon - Bruny Island	Semi-detached, row/terrace house, townhouse etc.		11
+Huon - Bruny Island	Semi-detached, row/terrace house, townhouse etc.	0	30
+Huon - Bruny Island	Semi-detached, row/terrace house, townhouse etc.	1	55
+Huon - Bruny Island	Separate house		157
+Huon - Bruny Island	Separate house	0	1235
+Huon - Bruny Island	Separate house	1	5694
+South East Coast		0	5
+South East Coast		1	20
+South East Coast	(Other)	0	19
+South East Coast	(Other)	1	25
+South East Coast	Flat/apartment		4
+South East Coast	Flat/apartment	0	9
+South East Coast	Flat/apartment	1	13
+South East Coast	Semi-detached, row/terrace house, townhouse etc.		3
+South East Coast	Semi-detached, row/terrace house, townhouse etc.	0	16
+South East Coast	Semi-detached, row/terrace house, townhouse etc.	1	22
+South East Coast	Separate house		84
+South East Coast	Separate house	0	630
+South East Coast	Separate house	1	1879
+Burnie - Ulverstone			12
+Burnie - Ulverstone		0	8
+Burnie - Ulverstone		1	40
+Burnie - Ulverstone	(Other)		4
+Burnie - Ulverstone	(Other)	0	52
+Burnie - Ulverstone	(Other)	1	79
+Burnie - Ulverstone	Flat/apartment		12
+Burnie - Ulverstone	Flat/apartment	0	107
+Burnie - Ulverstone	Flat/apartment	1	138
+Burnie - Ulverstone	Semi-detached, row/terrace house, townhouse etc.		89
+Burnie - Ulverstone	Semi-detached, row/terrace house, townhouse etc.	0	669
+Burnie - Ulverstone	Semi-detached, row/terrace house, townhouse etc.	1	700
+Burnie - Ulverstone	Separate house		405
+Burnie - Ulverstone	Separate house	0	3572
+Burnie - Ulverstone	Separate house	1	13093
+Devonport			3
+Devonport		0	8
+Devonport		1	29
+Devonport	(Other)		12
+Devonport	(Other)	0	50
+Devonport	(Other)	1	87
+Devonport	Flat/apartment		13
+Devonport	Flat/apartment	0	140
+Devonport	Flat/apartment	1	151
+Devonport	Semi-detached, row/terrace house, townhouse etc.		65
+Devonport	Semi-detached, row/terrace house, townhouse etc.	0	571
+Devonport	Semi-detached, row/terrace house, townhouse etc.	1	643
+Devonport	Separate house		372
+Devonport	Separate house	0	2941
+Devonport	Separate house	1	12222
+West Coast			6
+West Coast		0	8
+West Coast		1	37
+West Coast	(Other)	0	16
+West Coast	(Other)	1	24
+West Coast	Flat/apartment		12
+West Coast	Flat/apartment	0	51
+West Coast	Flat/apartment	1	63
+West Coast	Semi-detached, row/terrace house, townhouse etc.		5
+West Coast	Semi-detached, row/terrace house, townhouse etc.	0	33
+West Coast	Semi-detached, row/terrace house, townhouse etc.	1	58
+West Coast	Separate house		176
+West Coast	Separate house	0	1403
+West Coast	Separate house	1	4775
+Darwin City			22
+Darwin City		0	12
+Darwin City		1	59
+Darwin City	(Other)		18
+Darwin City	(Other)	0	24
+Darwin City	(Other)	1	101
+Darwin City	Flat/apartment		148
+Darwin City	Flat/apartment	0	520
+Darwin City	Flat/apartment	1	4430
+Darwin City	Semi-detached, row/terrace house, townhouse etc.		51
+Darwin City	Semi-detached, row/terrace house, townhouse etc.	0	240
+Darwin City	Semi-detached, row/terrace house, townhouse etc.	1	1309
+Darwin City	Separate house		70
+Darwin City	Separate house	0	176
+Darwin City	Separate house	1	2038
+Darwin Suburbs			6
+Darwin Suburbs		0	14
+Darwin Suburbs		1	56
+Darwin Suburbs	(Other)		53
+Darwin Suburbs	(Other)	0	46
+Darwin Suburbs	(Other)	1	217
+Darwin Suburbs	Flat/apartment		137
+Darwin Suburbs	Flat/apartment	0	523
+Darwin Suburbs	Flat/apartment	1	2621
+Darwin Suburbs	Semi-detached, row/terrace house, townhouse etc.		69
+Darwin Suburbs	Semi-detached, row/terrace house, townhouse etc.	0	423
+Darwin Suburbs	Semi-detached, row/terrace house, townhouse etc.	1	1361
+Darwin Suburbs	Separate house		342
+Darwin Suburbs	Separate house	0	1015
+Darwin Suburbs	Separate house	1	10067
+Litchfield			7
+Litchfield		0	13
+Litchfield		1	56
+Litchfield	(Other)		33
+Litchfield	(Other)	0	76
+Litchfield	(Other)	1	271
+Litchfield	Flat/apartment		3
+Litchfield	Flat/apartment	0	30
+Litchfield	Flat/apartment	1	96
+Litchfield	Semi-detached, row/terrace house, townhouse etc.		3
+Litchfield	Semi-detached, row/terrace house, townhouse etc.	0	5
+Litchfield	Semi-detached, row/terrace house, townhouse etc.	1	54
+Litchfield	Separate house		164
+Litchfield	Separate house	0	692
+Litchfield	Separate house	1	4605
+Palmerston			4
+Palmerston		0	3
+Palmerston		1	13
+Palmerston	(Other)	0	4
+Palmerston	(Other)	1	10
+Palmerston	Flat/apartment		79
+Palmerston	Flat/apartment	0	371
+Palmerston	Flat/apartment	1	1089
+Palmerston	Semi-detached, row/terrace house, townhouse etc.		43
+Palmerston	Semi-detached, row/terrace house, townhouse etc.	0	204
+Palmerston	Semi-detached, row/terrace house, townhouse etc.	1	876
+Palmerston	Separate house		230
+Palmerston	Separate house	0	639
+Palmerston	Separate house	1	7201
+Alice Springs			22
+Alice Springs		0	14
+Alice Springs		1	52
+Alice Springs	(Other)		56
+Alice Springs	(Other)	0	161
+Alice Springs	(Other)	1	436
+Alice Springs	Flat/apartment		39
+Alice Springs	Flat/apartment	0	188
+Alice Springs	Flat/apartment	1	454
+Alice Springs	Semi-detached, row/terrace house, townhouse etc.		82
+Alice Springs	Semi-detached, row/terrace house, townhouse etc.	0	460
+Alice Springs	Semi-detached, row/terrace house, townhouse etc.	1	1750
+Alice Springs	Separate house		252
+Alice Springs	Separate house	0	1582
+Alice Springs	Separate house	1	4773
+Barkly		0	4
+Barkly		1	4
+Barkly	(Other)		11
+Barkly	(Other)	0	26
+Barkly	(Other)	1	51
+Barkly	Flat/apartment		10
+Barkly	Flat/apartment	0	46
+Barkly	Flat/apartment	1	111
+Barkly	Semi-detached, row/terrace house, townhouse etc.		3
+Barkly	Semi-detached, row/terrace house, townhouse etc.	0	8
+Barkly	Semi-detached, row/terrace house, townhouse etc.	1	31
+Barkly	Separate house		58
+Barkly	Separate house	0	386
+Barkly	Separate house	1	620
+Daly - Tiwi - West Arnhem			7
+Daly - Tiwi - West Arnhem		0	12
+Daly - Tiwi - West Arnhem		1	38
+Daly - Tiwi - West Arnhem	(Other)		46
+Daly - Tiwi - West Arnhem	(Other)	0	58
+Daly - Tiwi - West Arnhem	(Other)	1	101
+Daly - Tiwi - West Arnhem	Flat/apartment		6
+Daly - Tiwi - West Arnhem	Flat/apartment	0	32
+Daly - Tiwi - West Arnhem	Flat/apartment	1	58
+Daly - Tiwi - West Arnhem	Semi-detached, row/terrace house, townhouse etc.		12
+Daly - Tiwi - West Arnhem	Semi-detached, row/terrace house, townhouse etc.	0	108
+Daly - Tiwi - West Arnhem	Semi-detached, row/terrace house, townhouse etc.	1	150
+Daly - Tiwi - West Arnhem	Separate house		149
+Daly - Tiwi - West Arnhem	Separate house	0	1025
+Daly - Tiwi - West Arnhem	Separate house	1	1770
+East Arnhem		1	9
+East Arnhem	(Other)		4
+East Arnhem	(Other)	0	15
+East Arnhem	(Other)	1	18
+East Arnhem	Flat/apartment		16
+East Arnhem	Flat/apartment	0	23
+East Arnhem	Flat/apartment	1	86
+East Arnhem	Semi-detached, row/terrace house, townhouse etc.		19
+East Arnhem	Semi-detached, row/terrace house, townhouse etc.	0	80
+East Arnhem	Semi-detached, row/terrace house, townhouse etc.	1	179
+East Arnhem	Separate house		119
+East Arnhem	Separate house	0	538
+East Arnhem	Separate house	1	1400
+Katherine			19
+Katherine		0	39
+Katherine		1	99
+Katherine	(Other)		66
+Katherine	(Other)	0	95
+Katherine	(Other)	1	199
+Katherine	Flat/apartment		16
+Katherine	Flat/apartment	0	92
+Katherine	Flat/apartment	1	126
+Katherine	Semi-detached, row/terrace house, townhouse etc.		32
+Katherine	Semi-detached, row/terrace house, townhouse etc.	0	106
+Katherine	Semi-detached, row/terrace house, townhouse etc.	1	168
+Katherine	Separate house		158
+Katherine	Separate house	0	842
+Katherine	Separate house	1	2184
+Belconnen			3
+Belconnen		0	8
+Belconnen		1	28
+Belconnen	(Other)	1	18
+Belconnen	Flat/apartment		73
+Belconnen	Flat/apartment	0	330
+Belconnen	Flat/apartment	1	3317
+Belconnen	Semi-detached, row/terrace house, townhouse etc.		141
+Belconnen	Semi-detached, row/terrace house, townhouse etc.	0	701
+Belconnen	Semi-detached, row/terrace house, townhouse etc.	1	4967
+Belconnen	Separate house		443
+Belconnen	Separate house	0	1921
+Belconnen	Separate house	1	22772
+Canberra East		0	3
+Canberra East		1	9
+Canberra East	(Other)		13
+Canberra East	(Other)	0	56
+Canberra East	(Other)	1	47
+Canberra East	Flat/apartment		3
+Canberra East	Flat/apartment	0	33
+Canberra East	Flat/apartment	1	45
+Canberra East	Semi-detached, row/terrace house, townhouse etc.	1	15
+Canberra East	Separate house		6
+Canberra East	Separate house	0	62
+Canberra East	Separate house	1	217
+Gungahlin		0	3
+Gungahlin		1	28
+Gungahlin	(Other)	1	5
+Gungahlin	Flat/apartment		43
+Gungahlin	Flat/apartment	0	157
+Gungahlin	Flat/apartment	1	1829
+Gungahlin	Semi-detached, row/terrace house, townhouse etc.		128
+Gungahlin	Semi-detached, row/terrace house, townhouse etc.	0	387
+Gungahlin	Semi-detached, row/terrace house, townhouse etc.	1	5781
+Gungahlin	Separate house		254
+Gungahlin	Separate house	0	521
+Gungahlin	Separate house	1	14516
+North Canberra			8
+North Canberra		0	8
+North Canberra		1	74
+North Canberra	(Other)		11
+North Canberra	(Other)	1	5
+North Canberra	Flat/apartment		202
+North Canberra	Flat/apartment	0	750
+North Canberra	Flat/apartment	1	6395
+North Canberra	Semi-detached, row/terrace house, townhouse etc.		122
+North Canberra	Semi-detached, row/terrace house, townhouse etc.	0	344
+North Canberra	Semi-detached, row/terrace house, townhouse etc.	1	2743
+North Canberra	Separate house		160
+North Canberra	Separate house	0	749
+North Canberra	Separate house	1	7736
+South Canberra		0	4
+South Canberra		1	20
+South Canberra	(Other)	0	3
+South Canberra	(Other)	1	3
+South Canberra	Flat/apartment		66
+South Canberra	Flat/apartment	0	332
+South Canberra	Flat/apartment	1	4138
+South Canberra	Semi-detached, row/terrace house, townhouse etc.		33
+South Canberra	Semi-detached, row/terrace house, townhouse etc.	0	157
+South Canberra	Semi-detached, row/terrace house, townhouse etc.	1	1162
+South Canberra	Separate house		95
+South Canberra	Separate house	0	398
+South Canberra	Separate house	1	4416
+Tuggeranong			4
+Tuggeranong		0	3
+Tuggeranong		1	24
+Tuggeranong	(Other)	1	4
+Tuggeranong	Flat/apartment		97
+Tuggeranong	Flat/apartment	0	116
+Tuggeranong	Flat/apartment	1	583
+Tuggeranong	Semi-detached, row/terrace house, townhouse etc.		127
+Tuggeranong	Semi-detached, row/terrace house, townhouse etc.	0	647
+Tuggeranong	Semi-detached, row/terrace house, townhouse etc.	1	3486
+Tuggeranong	Separate house		417
+Tuggeranong	Separate house	0	1601
+Tuggeranong	Separate house	1	23044
+Weston Creek		1	11
+Weston Creek	(Other)	1	20
+Weston Creek	Flat/apartment		3
+Weston Creek	Flat/apartment	0	37
+Weston Creek	Flat/apartment	1	172
+Weston Creek	Semi-detached, row/terrace house, townhouse etc.		44
+Weston Creek	Semi-detached, row/terrace house, townhouse etc.	0	256
+Weston Creek	Semi-detached, row/terrace house, townhouse etc.	1	918
+Weston Creek	Separate house		110
+Weston Creek	Separate house	0	484
+Weston Creek	Separate house	1	6354
+Woden Valley		0	5
+Woden Valley		1	16
+Woden Valley	(Other)	1	3
+Woden Valley	Flat/apartment		64
+Woden Valley	Flat/apartment	0	317
+Woden Valley	Flat/apartment	1	1713
+Woden Valley	Semi-detached, row/terrace house, townhouse etc.		58
+Woden Valley	Semi-detached, row/terrace house, townhouse etc.	0	343
+Woden Valley	Semi-detached, row/terrace house, townhouse etc.	1	2282
+Woden Valley	Separate house		159
+Woden Valley	Separate house	0	611
+Woden Valley	Separate house	1	7585
+Molonglo	Flat/apartment		12
+Molonglo	Flat/apartment	0	26
+Molonglo	Flat/apartment	1	556
+Molonglo	Semi-detached, row/terrace house, townhouse etc.		6
+Molonglo	Semi-detached, row/terrace house, townhouse etc.	0	16
+Molonglo	Semi-detached, row/terrace house, townhouse etc.	1	401
+Molonglo	Separate house		8
+Molonglo	Separate house	0	9
+Molonglo	Separate house	1	676
+Urriarra - Namadgi	(Other)	1	3
+Urriarra - Namadgi	Separate house		3
+Urriarra - Namadgi	Separate house	0	17
+Urriarra - Namadgi	Separate house	1	144
+Christmas Island		0	3
+Christmas Island		1	3
+Christmas Island	(Other)	1	3
+Christmas Island	Flat/apartment		10
+Christmas Island	Flat/apartment	0	19
+Christmas Island	Flat/apartment	1	81
+Christmas Island	Semi-detached, row/terrace house, townhouse etc.		3
+Christmas Island	Semi-detached, row/terrace house, townhouse etc.	0	18
+Christmas Island	Semi-detached, row/terrace house, townhouse etc.	1	64
+Christmas Island	Separate house		4
+Christmas Island	Separate house	0	27
+Christmas Island	Separate house	1	172
+Cocos (Keeling) Islands	Separate house		8
+Cocos (Keeling) Islands	Separate house	0	25
+Cocos (Keeling) Islands	Separate house	1	103
+Jervis Bay	(Other)		3
+Jervis Bay	(Other)	0	3
+Jervis Bay	Separate house		9
+Jervis Bay	Separate house	0	22
+Jervis Bay	Separate house	1	53
+Norfolk Island		1	4
+Norfolk Island	(Other)	0	3
+Norfolk Island	(Other)	1	6
+Norfolk Island	Flat/apartment	0	3
+Norfolk Island	Flat/apartment	1	3
+Norfolk Island	Separate house		23
+Norfolk Island	Separate house	0	118
+Norfolk Island	Separate house	1	580

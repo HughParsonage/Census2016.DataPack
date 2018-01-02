@@ -253,6 +253,22 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
         DwellingSubtype := "4 storey block or more"]
   }
   
+  if ("MaritalStatus" %chin% names(out)) {
+    out[MaritalStatus == "Not married",
+        MaritalStatus := "Never married"]
+  }
+  
+  if ("EduInstitutionType" %chin% names(out)) {
+    out[, EduInstitutionType := factor(EduInstitutionType,
+                                       levels = c(NA,
+                                                  "Infants/Primary",
+                                                  "Pre-school",
+                                                  "Secondary",
+                                                  "Technical or Further Educational Institution",
+                                                  "University or other tertiary"),
+                                       ordered = TRUE)]
+  }
+  
   out <- 
     out %>%
     drop_col("variable") %>%
@@ -403,6 +419,7 @@ Mop <- function(DT, value.name = "persons", suborder = NULL) {
   }
   
   assign(object_name, out, envir = .GlobalEnv)
+  if (in_for_loop) cat("=")
   
   decoded_out[]
 }
@@ -1179,6 +1196,7 @@ freadG(14) %>%
   .[, Denomination := gsub("_", " ", Denomination)] %>%
   .[Denomination %pin% "nfd$", Denomination := NA_character_] %>%
   .[Denomination %pin% "Asyrin", Denomination := "Assyrian Apostolic"] %>%
+  .[Denomination == "Church Christ", Denomination := "Churches Of Christ"] %>%
   Mop(suborder = c("Religion", "Denomination"))
 ```
 
@@ -1196,10 +1214,12 @@ freadG(15) %>%
   .[variable %pin% "^Secondary",                          EduInstitutionType := "Secondary"] %>%
   .[variable %pin% "^Tec.Furt",                           EduInstitutionType := "Technical or Further Educational Institution"] %>%
   .[variable %pin% "^Uni",                                EduInstitutionType := "University or other tertiary"] %>%
-  .[variable %pin% "^Oth",                                EduInstitutionType := "(Other)"] %>%
+  .[variable %pin% "^Oth",                                EduInstitutionType := NA_character_] %>%
   #
   .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
   .[] %>%
+  .[, .(students = sum(students)),
+    keyby = c(Region_key, "EduInstitutionType", "Sex")] %>%
   Mop("students")
 ```
 
@@ -1216,7 +1236,7 @@ freadG(15) %>%
   .[variable %pin% "^Secondary",                          EduInstitutionType := "Secondary"] %>%
   .[variable %pin% "^Tec.Furt",                           EduInstitutionType := "Technical or Further Educational Institution"] %>%
   .[variable %pin% "^Uni",                                EduInstitutionType := "University or other tertiary"] %>%
-  .[variable %pin% "^Oth",                                EduInstitutionType := "(Other)"] %>%
+  .[variable %pin% "^Oth",                                EduInstitutionType := NA_character_] %>%
   #
   .[variable %pin% c("Primary", "^Secondary"), SchoolSector := gsub("^.*(Government|Catholic|Non_Govt).*$", "\\1", variable)] %>%
   #
@@ -1225,6 +1245,8 @@ freadG(15) %>%
   .[variable %pin% c("25_ov", "15_24"), AgedUnder25 := variable %pin% "15_24"] %>%
   #
   .[, Sex := gsub("^.*([MF])$", "\\1", variable)] %>%
+  .[, .(students = sum(students)),
+    keyby = c(Region_key, "EduInstitutionType", "Sex")] %>%
   .[] %>%
   Mop("students")
 ```
@@ -1687,7 +1709,12 @@ ced_tbls <-
   grep(pattern = paste0("^", Region, "_"), x = ., value = TRUE)
 
 library(Census2016.spec)
-test_check(data_list = mget(ced_tbls), show.progress = FALSE)
+ced_data_list <- mget(ced_tbls)
+tryCatch(test_check(data_list = ced_data_list, show.progress = FALSE), 
+         error = function(e) {
+           test_check(data_list = ced_data_list, show.progress = TRUE)
+         })
+cat("| ")
 cat(crayon::green(Region), crayon::green("OK"), "\n")
 
 provide_normalize <- function(x) {
@@ -1697,20 +1724,14 @@ provide_normalize <- function(x) {
 
 if (Region == "SA1") {
   data_path <- provide_normalize("~/Census2016.DataPack.SA1/data")
-  csv_path <- provide_normalize(paste(data_path, ".",
-                                       "..", "data-raw", "data",
-                                       paste0(Region, "/"),
-                                       sep = "/"))
+  tsv_path <- provide_normalize(paste0("~/Census2016.DataPack.SA1/tsv/", Region))
 } else {
   if (Region == "SSC") {
     data_path <- provide_normalize("~/Census2016.DataPack.SSC/data")
-    csv_path <- provide_normalize(paste(data_path, ".",
-                                       "..", "data-raw", "data",
-                                       paste0(Region, "/"),
-                                       sep = "/"))
+    tsv_path <- provide_normalize(paste0("~/Census2016.DataPack.SSC/tsv/", Region))
   } else {
     data_path <- "data"
-    csv_path <- file.path("data-raw", "data", Region)
+    tsv_path <- provide_normalize(paste0("./tsv/", Region))
   }
 }
 
@@ -1753,62 +1774,48 @@ vapply(region_dtas,
 library(foreach)
 library(doParallel)
 cl <- makeCluster(8)
-registerDoParallel(cl)
+registerDoParallel(cl, cores = 8)
+# force data_path eval
 invisible(nchar(data_path))
 
-foreach(tbl = ced_tbls, .inorder = FALSE, .export = c(ced_tbls, "data_path")) %dopar% {
+foreach(tbl = ced_tbls, .inorder = FALSE, .export = c(ced_tbls)) %dopar% {
   save(list = tbl,
        file = file.path(data_path, paste0(tbl, ".rda")),
        compress = "gzip",
        compression_level = 9)
 }
+stopImplicitCluster()
+stopCluster(cl)
 
+fwrite <- function(...) data.table::fwrite(..., sep = "\t")
+refwrite <- function(DT, file.tsv) {
+  fwrite(DT, file.tsv)
+  if ((file.size(file.tsv) / (50 * 1024^2)) > 1) {
+    NN <- nrow(DT)
+    DT1 <- DT[seq_len(NN %/% 2)]
+    DT2 <- DT[-seq_len(NN %/% 2)]
+    file.remove(file.tsv)
+    refwrite(DT1, sub("\\.tsv$", "1.tsv", file.tsv))
+    refwrite(DT2, sub("\\.tsv$", "2.tsv", file.tsv)) 
+  }
+}
+
+rm_zeros <- function(DT) {
+  v <- DT[[ncol(DT)]]
+  if (is.integer(v) &&
+      !anyNA(v) &&
+      min(v) == 0L) {
+    w <- which(v > 0L)
+    DT[w]
+  } else {
+    DT
+  }
+}
 
 for (tbl in ced_tbls) {
-  
-  file.csv <- file.path(csv_path, paste0(tbl, ".csv"))
-  
-  .ced_tbl <- get(tbl)
-  fwrite(.ced_tbl, file = file.csv)
-  
-  switch (ceiling(file.size(file.csv) / (95 * 1024^2)),
-          {
-            NULL
-          },
-          {
-            DT <- .ced_tbl
-            lastv <- .subset2(DT, last(names(DT)))
-            if (is.integer(lastv) && min(lastv) == 0L) {
-              DT <- DT[lastv > 0L]
-            }
-            NN <- nrow(DT)
-            DT1 <- DT[seq_len(NN %/% 2)]
-            DT2 <- DT[-seq_len(NN %/% 2)]
-            file.remove(file.csv)
-            fwrite(DT1, sub("\\.csv$", "1.csv", file.csv))
-            fwrite(DT2, sub("\\.csv$", "2.csv", file.csv))
-          },
-          {
-            DT <- .ced_tbl
-            lastv <- .subset2(DT, last(names(DT)))
-            if (is.integer(lastv) && min(lastv) == 0L) {
-              DT <- DT[lastv > 0L]
-            }
-            NN <- nrow(DT)
-            DT1 <- DT[seq_len(NN %/% 2)]
-            DT2 <- DT[-seq_len(NN %/% 2)]
-            DT11 <- DT1[seq_len(nrow(DT1) %/% 2)]
-            DT12 <- DT1[-seq_len(nrow(DT1) %/% 2)]
-            DT21 <- DT2[seq_len(nrow(DT2) %/% 2)]
-            DT22 <- DT2[-seq_len(nrow(DT2) %/% 2)]
-            stopifnot(nrow(DT11) + nrow(DT12) +
-                        nrow(DT21) + nrow(DT22) == nrow(DT))
-            file.remove(file.csv)
-            fwrite(DT11, sub("\\.csv$", "11.csv", file.csv))
-            fwrite(DT12, sub("\\.csv$", "12.csv", file.csv))
-            fwrite(DT21, sub("\\.csv$", "21.csv", file.csv))
-            fwrite(DT22, sub("\\.csv$", "22.csv", file.csv))
-          })
+  file.tsv <- file.path(tsv_path, paste0(tbl, ".tsv"))
+  .ced_tbl <- rm_zeros(get(tbl))
+  refwrite(.ced_tbl, file = file.tsv)
 }
 
 region_dtas <- list.files(path = "data/",

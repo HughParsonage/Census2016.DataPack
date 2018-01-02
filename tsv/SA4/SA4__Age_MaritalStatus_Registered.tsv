@@ -1,0 +1,2403 @@
+SA4_NAME16	Age	MaritalStatus	Registered	adults
+Capital Region	15-19	Married	0	219
+Capital Region	15-19	Married	1	6
+Capital Region	15-19	Never married		10989
+Capital Region	20-24	Married	0	1712
+Capital Region	20-24	Married	1	439
+Capital Region	20-24	Never married		6415
+Capital Region	25-34	Married	0	4430
+Capital Region	25-34	Married	1	7517
+Capital Region	25-34	Never married		7193
+Capital Region	35-44	Married	0	3441
+Capital Region	35-44	Married	1	13289
+Capital Region	35-44	Never married		5683
+Capital Region	45-54	Married	0	3697
+Capital Region	45-54	Married	1	16227
+Capital Region	45-54	Never married		7804
+Capital Region	55-64	Married	0	2777
+Capital Region	55-64	Married	1	17341
+Capital Region	55-64	Never married		8230
+Capital Region	65-74	Married	0	1333
+Capital Region	65-74	Married	1	14611
+Capital Region	65-74	Never married		6625
+Capital Region	75-84	Married	0	339
+Capital Region	75-84	Married	1	6136
+Capital Region	75-84	Never married		4550
+Capital Region	85+	Married	0	54
+Capital Region	85+	Married	1	1129
+Capital Region	85+	Never married		2354
+Central Coast	15-19	Married	0	210
+Central Coast	15-19	Married	1	16
+Central Coast	15-19	Never married		18214
+Central Coast	20-24	Married	0	2302
+Central Coast	20-24	Married	1	596
+Central Coast	20-24	Never married		13210
+Central Coast	25-34	Married	0	7046
+Central Coast	25-34	Married	1	12139
+Central Coast	25-34	Never married		12728
+Central Coast	35-44	Married	0	5380
+Central Coast	35-44	Married	1	20944
+Central Coast	35-44	Never married		9902
+Central Coast	45-54	Married	0	4840
+Central Coast	45-54	Married	1	22695
+Central Coast	45-54	Never married		12508
+Central Coast	55-64	Married	0	3111
+Central Coast	55-64	Married	1	22788
+Central Coast	55-64	Never married		12417
+Central Coast	65-74	Married	0	1609
+Central Coast	65-74	Married	1	19735
+Central Coast	65-74	Never married		11096
+Central Coast	75-84	Married	0	482
+Central Coast	75-84	Married	1	10137
+Central Coast	75-84	Never married		8236
+Central Coast	85+	Married	0	110
+Central Coast	85+	Married	1	2375
+Central Coast	85+	Never married		4859
+Central West	15-19	Married	0	267
+Central West	15-19	Married	1	8
+Central West	15-19	Never married		10559
+Central West	20-24	Married	0	2048
+Central West	20-24	Married	1	516
+Central West	20-24	Never married		6412
+Central West	25-34	Married	0	4525
+Central West	25-34	Married	1	8020
+Central West	25-34	Never married		7139
+Central West	35-44	Married	0	2833
+Central West	35-44	Married	1	12273
+Central West	35-44	Never married		5479
+Central West	45-54	Married	0	2703
+Central West	45-54	Married	1	13984
+Central West	45-54	Never married		6938
+Central West	55-64	Married	0	1702
+Central West	55-64	Married	1	14530
+Central West	55-64	Never married		6922
+Central West	65-74	Married	0	921
+Central West	65-74	Married	1	11822
+Central West	65-74	Never married		6233
+Central West	75-84	Married	0	225
+Central West	75-84	Married	1	5451
+Central West	75-84	Never married		4670
+Central West	85+	Married	0	33
+Central West	85+	Married	1	1075
+Central West	85+	Never married		2270
+Coffs Harbour - Grafton	15-19	Married	0	120
+Coffs Harbour - Grafton	15-19	Married	1	12
+Coffs Harbour - Grafton	15-19	Never married		7022
+Coffs Harbour - Grafton	20-24	Married	0	925
+Coffs Harbour - Grafton	20-24	Married	1	265
+Coffs Harbour - Grafton	20-24	Never married		3932
+Coffs Harbour - Grafton	25-34	Married	0	2491
+Coffs Harbour - Grafton	25-34	Married	1	4017
+Coffs Harbour - Grafton	25-34	Never married		4598
+Coffs Harbour - Grafton	35-44	Married	0	2180
+Coffs Harbour - Grafton	35-44	Married	1	6861
+Coffs Harbour - Grafton	35-44	Never married		4063
+Coffs Harbour - Grafton	45-54	Married	0	2206
+Coffs Harbour - Grafton	45-54	Married	1	8708
+Coffs Harbour - Grafton	45-54	Never married		5267
+Coffs Harbour - Grafton	55-64	Married	0	1925
+Coffs Harbour - Grafton	55-64	Married	1	10544
+Coffs Harbour - Grafton	55-64	Never married		6127
+Coffs Harbour - Grafton	65-74	Married	0	977
+Coffs Harbour - Grafton	65-74	Married	1	9537
+Coffs Harbour - Grafton	65-74	Never married		4771
+Coffs Harbour - Grafton	75-84	Married	0	255
+Coffs Harbour - Grafton	75-84	Married	1	4634
+Coffs Harbour - Grafton	75-84	Never married		3424
+Coffs Harbour - Grafton	85+	Married	0	38
+Coffs Harbour - Grafton	85+	Married	1	973
+Coffs Harbour - Grafton	85+	Never married		1765
+Far West and Orana	15-19	Married	0	127
+Far West and Orana	15-19	Married	1	4
+Far West and Orana	15-19	Never married		5350
+Far West and Orana	20-24	Married	0	1239
+Far West and Orana	20-24	Married	1	253
+Far West and Orana	20-24	Never married		3625
+Far West and Orana	25-34	Married	0	2651
+Far West and Orana	25-34	Married	1	4176
+Far West and Orana	25-34	Never married		4685
+Far West and Orana	35-44	Married	0	1663
+Far West and Orana	35-44	Married	1	5756
+Far West and Orana	35-44	Never married		3335
+Far West and Orana	45-54	Married	0	1601
+Far West and Orana	45-54	Married	1	6787
+Far West and Orana	45-54	Never married		4254
+Far West and Orana	55-64	Married	0	1091
+Far West and Orana	55-64	Married	1	7523
+Far West and Orana	55-64	Never married		4347
+Far West and Orana	65-74	Married	0	474
+Far West and Orana	65-74	Married	1	5853
+Far West and Orana	65-74	Never married		3560
+Far West and Orana	75-84	Married	0	121
+Far West and Orana	75-84	Married	1	2809
+Far West and Orana	75-84	Never married		2594
+Far West and Orana	85+	Married	0	21
+Far West and Orana	85+	Married	1	562
+Far West and Orana	85+	Never married		1169
+Hunter Valley exc Newcastle	15-19	Married	0	283
+Hunter Valley exc Newcastle	15-19	Married	1	5
+Hunter Valley exc Newcastle	15-19	Never married		14485
+Hunter Valley exc Newcastle	20-24	Married	0	2711
+Hunter Valley exc Newcastle	20-24	Married	1	648
+Hunter Valley exc Newcastle	20-24	Never married		9486
+Hunter Valley exc Newcastle	25-34	Married	0	6547
+Hunter Valley exc Newcastle	25-34	Married	1	11319
+Hunter Valley exc Newcastle	25-34	Never married		9636
+Hunter Valley exc Newcastle	35-44	Married	0	4340
+Hunter Valley exc Newcastle	35-44	Married	1	17089
+Hunter Valley exc Newcastle	35-44	Never married		7684
+Hunter Valley exc Newcastle	45-54	Married	0	3665
+Hunter Valley exc Newcastle	45-54	Married	1	18670
+Hunter Valley exc Newcastle	45-54	Never married		8877
+Hunter Valley exc Newcastle	55-64	Married	0	2279
+Hunter Valley exc Newcastle	55-64	Married	1	19131
+Hunter Valley exc Newcastle	55-64	Never married		8257
+Hunter Valley exc Newcastle	65-74	Married	0	1096
+Hunter Valley exc Newcastle	65-74	Married	1	15685
+Hunter Valley exc Newcastle	65-74	Never married		6888
+Hunter Valley exc Newcastle	75-84	Married	0	234
+Hunter Valley exc Newcastle	75-84	Married	1	6605
+Hunter Valley exc Newcastle	75-84	Never married		4762
+Hunter Valley exc Newcastle	85+	Married	0	57
+Hunter Valley exc Newcastle	85+	Married	1	1118
+Hunter Valley exc Newcastle	85+	Never married		2375
+Illawarra	15-19	Married	0	234
+Illawarra	15-19	Married	1	13
+Illawarra	15-19	Never married		16988
+Illawarra	20-24	Married	0	2099
+Illawarra	20-24	Married	1	635
+Illawarra	20-24	Never married		15513
+Illawarra	25-34	Married	0	6193
+Illawarra	25-34	Married	1	12715
+Illawarra	25-34	Never married		13381
+Illawarra	35-44	Married	0	4215
+Illawarra	35-44	Married	1	21253
+Illawarra	35-44	Never married		8586
+Illawarra	45-54	Married	0	3552
+Illawarra	45-54	Married	1	21726
+Illawarra	45-54	Never married		10257
+Illawarra	55-64	Married	0	2307
+Illawarra	55-64	Married	1	20900
+Illawarra	55-64	Never married		9591
+Illawarra	65-74	Married	0	979
+Illawarra	65-74	Married	1	16493
+Illawarra	65-74	Never married		7314
+Illawarra	75-84	Married	0	325
+Illawarra	75-84	Married	1	8447
+Illawarra	75-84	Never married		6014
+Illawarra	85+	Married	0	50
+Illawarra	85+	Married	1	1780
+Illawarra	85+	Never married		3387
+Mid North Coast	15-19	Married	0	170
+Mid North Coast	15-19	Married	1	6
+Mid North Coast	15-19	Never married		10342
+Mid North Coast	20-24	Married	0	1391
+Mid North Coast	20-24	Married	1	352
+Mid North Coast	20-24	Never married		5382
+Mid North Coast	25-34	Married	0	3291
+Mid North Coast	25-34	Married	1	5276
+Mid North Coast	25-34	Never married		6411
+Mid North Coast	35-44	Married	0	2912
+Mid North Coast	35-44	Married	1	9914
+Mid North Coast	35-44	Never married		5774
+Mid North Coast	45-54	Married	0	3192
+Mid North Coast	45-54	Married	1	12862
+Mid North Coast	45-54	Never married		8185
+Mid North Coast	55-64	Married	0	2831
+Mid North Coast	55-64	Married	1	16880
+Mid North Coast	55-64	Never married		9387
+Mid North Coast	65-74	Married	0	1647
+Mid North Coast	65-74	Married	1	18311
+Mid North Coast	65-74	Never married		8451
+Mid North Coast	75-84	Married	0	487
+Mid North Coast	75-84	Married	1	9000
+Mid North Coast	75-84	Never married		6246
+Mid North Coast	85+	Married	0	75
+Mid North Coast	85+	Married	1	1940
+Mid North Coast	85+	Never married		3401
+Murray	15-19	Married	0	157
+Murray	15-19	Married	1	9
+Murray	15-19	Never married		5784
+Murray	20-24	Married	0	1096
+Murray	20-24	Married	1	237
+Murray	20-24	Never married		3850
+Murray	25-34	Married	0	2462
+Murray	25-34	Married	1	4319
+Murray	25-34	Never married		3907
+Murray	35-44	Married	0	1546
+Murray	35-44	Married	1	6854
+Murray	35-44	Never married		3030
+Murray	45-54	Married	0	1491
+Murray	45-54	Married	1	7734
+Murray	45-54	Never married		3881
+Murray	55-64	Married	0	1138
+Murray	55-64	Married	1	8852
+Murray	55-64	Never married		4039
+Murray	65-74	Married	0	543
+Murray	65-74	Married	1	7393
+Murray	65-74	Never married		3398
+Murray	75-84	Married	0	148
+Murray	75-84	Married	1	3411
+Murray	75-84	Never married		2681
+Murray	85+	Married	0	12
+Murray	85+	Married	1	697
+Murray	85+	Never married		1352
+New England and North West	15-19	Married	0	273
+New England and North West	15-19	Married	1	14
+New England and North West	15-19	Never married		8816
+New England and North West	20-24	Married	0	1906
+New England and North West	20-24	Married	1	425
+New England and North West	20-24	Never married		5768
+New England and North West	25-34	Married	0	3931
+New England and North West	25-34	Married	1	6556
+New England and North West	25-34	Never married		6784
+New England and North West	35-44	Married	0	2506
+New England and North West	35-44	Married	1	10194
+New England and North West	35-44	Never married		5108
+New England and North West	45-54	Married	0	2334
+New England and North West	45-54	Married	1	11913
+New England and North West	45-54	Never married		6290
+New England and North West	55-64	Married	0	1624
+New England and North West	55-64	Married	1	12870
+New England and North West	55-64	Never married		6522
+New England and North West	65-74	Married	0	742
+New England and North West	65-74	Married	1	10624
+New England and North West	65-74	Never married		5526
+New England and North West	75-84	Married	0	176
+New England and North West	75-84	Married	1	5056
+New England and North West	75-84	Never married		4080
+New England and North West	85+	Married	0	26
+New England and North West	85+	Married	1	859
+New England and North West	85+	Never married		1941
+Newcastle and Lake Macquarie	15-19	Married	0	271
+Newcastle and Lake Macquarie	15-19	Married	1	12
+Newcastle and Lake Macquarie	15-19	Never married		19266
+Newcastle and Lake Macquarie	20-24	Married	0	3077
+Newcastle and Lake Macquarie	20-24	Married	1	700
+Newcastle and Lake Macquarie	20-24	Never married		17653
+Newcastle and Lake Macquarie	25-34	Married	0	9540
+Newcastle and Lake Macquarie	25-34	Married	1	15386
+Newcastle and Lake Macquarie	25-34	Never married		16844
+Newcastle and Lake Macquarie	35-44	Married	0	5731
+Newcastle and Lake Macquarie	35-44	Married	1	23822
+Newcastle and Lake Macquarie	35-44	Never married		11372
+Newcastle and Lake Macquarie	45-54	Married	0	4712
+Newcastle and Lake Macquarie	45-54	Married	1	24638
+Newcastle and Lake Macquarie	45-54	Never married		13376
+Newcastle and Lake Macquarie	55-64	Married	0	3042
+Newcastle and Lake Macquarie	55-64	Married	1	24978
+Newcastle and Lake Macquarie	55-64	Never married		12877
+Newcastle and Lake Macquarie	65-74	Married	0	1430
+Newcastle and Lake Macquarie	65-74	Married	1	20733
+Newcastle and Lake Macquarie	65-74	Never married		10252
+Newcastle and Lake Macquarie	75-84	Married	0	403
+Newcastle and Lake Macquarie	75-84	Married	1	10002
+Newcastle and Lake Macquarie	75-84	Never married		7768
+Newcastle and Lake Macquarie	85+	Married	0	51
+Newcastle and Lake Macquarie	85+	Married	1	2239
+Newcastle and Lake Macquarie	85+	Never married		4664
+Richmond - Tweed	15-19	Married	0	171
+Richmond - Tweed	15-19	Married	1	24
+Richmond - Tweed	15-19	Never married		12120
+Richmond - Tweed	20-24	Married	0	1442
+Richmond - Tweed	20-24	Married	1	329
+Richmond - Tweed	20-24	Never married		7156
+Richmond - Tweed	25-34	Married	0	4437
+Richmond - Tweed	25-34	Married	1	6500
+Richmond - Tweed	25-34	Never married		8206
+Richmond - Tweed	35-44	Married	0	4414
+Richmond - Tweed	35-44	Married	1	12537
+Richmond - Tweed	35-44	Never married		7651
+Richmond - Tweed	45-54	Married	0	4147
+Richmond - Tweed	45-54	Married	1	14831
+Richmond - Tweed	45-54	Never married		10128
+Richmond - Tweed	55-64	Married	0	3377
+Richmond - Tweed	55-64	Married	1	17512
+Richmond - Tweed	55-64	Never married		11436
+Richmond - Tweed	65-74	Married	0	1591
+Richmond - Tweed	65-74	Married	1	15292
+Richmond - Tweed	65-74	Never married		8594
+Richmond - Tweed	75-84	Married	0	392
+Richmond - Tweed	75-84	Married	1	7743
+Richmond - Tweed	75-84	Never married		6018
+Richmond - Tweed	85+	Married	0	64
+Richmond - Tweed	85+	Married	1	1818
+Richmond - Tweed	85+	Never married		3603
+Riverina	15-19	Married	0	211
+Riverina	15-19	Married	1	8
+Riverina	15-19	Never married		8184
+Riverina	20-24	Married	0	1740
+Riverina	20-24	Married	1	376
+Riverina	20-24	Never married		5599
+Riverina	25-34	Married	0	3487
+Riverina	25-34	Married	1	6625
+Riverina	25-34	Never married		6085
+Riverina	35-44	Married	0	1945
+Riverina	35-44	Married	1	9740
+Riverina	35-44	Never married		4222
+Riverina	45-54	Married	0	1729
+Riverina	45-54	Married	1	10975
+Riverina	45-54	Never married		4835
+Riverina	55-64	Married	0	1161
+Riverina	55-64	Married	1	11132
+Riverina	55-64	Never married		4845
+Riverina	65-74	Married	0	454
+Riverina	65-74	Married	1	8321
+Riverina	65-74	Never married		3879
+Riverina	75-84	Married	0	117
+Riverina	75-84	Married	1	4201
+Riverina	75-84	Never married		3151
+Riverina	85+	Married	0	18
+Riverina	85+	Married	1	838
+Riverina	85+	Never married		1668
+Southern Highlands and Shoalhaven	15-19	Married	0	119
+Southern Highlands and Shoalhaven	15-19	Married	1	9
+Southern Highlands and Shoalhaven	15-19	Never married		7052
+Southern Highlands and Shoalhaven	20-24	Married	0	1077
+Southern Highlands and Shoalhaven	20-24	Married	1	314
+Southern Highlands and Shoalhaven	20-24	Never married		3961
+Southern Highlands and Shoalhaven	25-34	Married	0	2603
+Southern Highlands and Shoalhaven	25-34	Married	1	4476
+Southern Highlands and Shoalhaven	25-34	Never married		4271
+Southern Highlands and Shoalhaven	35-44	Married	0	2020
+Southern Highlands and Shoalhaven	35-44	Married	1	7645
+Southern Highlands and Shoalhaven	35-44	Never married		3654
+Southern Highlands and Shoalhaven	45-54	Married	0	2105
+Southern Highlands and Shoalhaven	45-54	Married	1	9526
+Southern Highlands and Shoalhaven	45-54	Never married		4976
+Southern Highlands and Shoalhaven	55-64	Married	0	1676
+Southern Highlands and Shoalhaven	55-64	Married	1	11814
+Southern Highlands and Shoalhaven	55-64	Never married		5693
+Southern Highlands and Shoalhaven	65-74	Married	0	991
+Southern Highlands and Shoalhaven	65-74	Married	1	12569
+Southern Highlands and Shoalhaven	65-74	Never married		5524
+Southern Highlands and Shoalhaven	75-84	Married	0	278
+Southern Highlands and Shoalhaven	75-84	Married	1	6097
+Southern Highlands and Shoalhaven	75-84	Never married		3888
+Southern Highlands and Shoalhaven	85+	Married	0	56
+Southern Highlands and Shoalhaven	85+	Married	1	1135
+Southern Highlands and Shoalhaven	85+	Never married		1959
+Sydney - Baulkham Hills and Hawkesbury	15-19	Married	0	47
+Sydney - Baulkham Hills and Hawkesbury	15-19	Married	1	8
+Sydney - Baulkham Hills and Hawkesbury	15-19	Never married		15851
+Sydney - Baulkham Hills and Hawkesbury	20-24	Married	0	579
+Sydney - Baulkham Hills and Hawkesbury	20-24	Married	1	322
+Sydney - Baulkham Hills and Hawkesbury	20-24	Never married		12398
+Sydney - Baulkham Hills and Hawkesbury	25-34	Married	0	2078
+Sydney - Baulkham Hills and Hawkesbury	25-34	Married	1	9877
+Sydney - Baulkham Hills and Hawkesbury	25-34	Never married		9429
+Sydney - Baulkham Hills and Hawkesbury	35-44	Married	0	1951
+Sydney - Baulkham Hills and Hawkesbury	35-44	Married	1	24418
+Sydney - Baulkham Hills and Hawkesbury	35-44	Never married		4229
+Sydney - Baulkham Hills and Hawkesbury	45-54	Married	0	1987
+Sydney - Baulkham Hills and Hawkesbury	45-54	Married	1	25312
+Sydney - Baulkham Hills and Hawkesbury	45-54	Never married		4709
+Sydney - Baulkham Hills and Hawkesbury	55-64	Married	0	1273
+Sydney - Baulkham Hills and Hawkesbury	55-64	Married	1	20633
+Sydney - Baulkham Hills and Hawkesbury	55-64	Never married		4287
+Sydney - Baulkham Hills and Hawkesbury	65-74	Married	0	551
+Sydney - Baulkham Hills and Hawkesbury	65-74	Married	1	13981
+Sydney - Baulkham Hills and Hawkesbury	65-74	Never married		3964
+Sydney - Baulkham Hills and Hawkesbury	75-84	Married	0	117
+Sydney - Baulkham Hills and Hawkesbury	75-84	Married	1	5080
+Sydney - Baulkham Hills and Hawkesbury	75-84	Never married		2725
+Sydney - Baulkham Hills and Hawkesbury	85+	Married	0	29
+Sydney - Baulkham Hills and Hawkesbury	85+	Married	1	1029
+Sydney - Baulkham Hills and Hawkesbury	85+	Never married		1659
+Sydney - Blacktown	15-19	Married	0	161
+Sydney - Blacktown	15-19	Married	1	29
+Sydney - Blacktown	15-19	Never married		21936
+Sydney - Blacktown	20-24	Married	0	1513
+Sydney - Blacktown	20-24	Married	1	1176
+Sydney - Blacktown	20-24	Never married		18452
+Sydney - Blacktown	25-34	Married	0	5083
+Sydney - Blacktown	25-34	Married	1	24454
+Sydney - Blacktown	25-34	Never married		19149
+Sydney - Blacktown	35-44	Married	0	3750
+Sydney - Blacktown	35-44	Married	1	34416
+Sydney - Blacktown	35-44	Never married		10407
+Sydney - Blacktown	45-54	Married	0	2985
+Sydney - Blacktown	45-54	Married	1	26377
+Sydney - Blacktown	45-54	Never married		10229
+Sydney - Blacktown	55-64	Married	0	1678
+Sydney - Blacktown	55-64	Married	1	20837
+Sydney - Blacktown	55-64	Never married		9132
+Sydney - Blacktown	65-74	Married	0	665
+Sydney - Blacktown	65-74	Married	1	12619
+Sydney - Blacktown	65-74	Never married		6671
+Sydney - Blacktown	75-84	Married	0	140
+Sydney - Blacktown	75-84	Married	1	4318
+Sydney - Blacktown	75-84	Never married		4049
+Sydney - Blacktown	85+	Married	0	26
+Sydney - Blacktown	85+	Married	1	747
+Sydney - Blacktown	85+	Never married		1666
+Sydney - City and Inner South	15-19	Married	0	194
+Sydney - City and Inner South	15-19	Married	1	22
+Sydney - City and Inner South	15-19	Never married		9957
+Sydney - City and Inner South	20-24	Married	0	3573
+Sydney - City and Inner South	20-24	Married	1	815
+Sydney - City and Inner South	20-24	Never married		24744
+Sydney - City and Inner South	25-34	Married	0	19820
+Sydney - City and Inner South	25-34	Married	1	16914
+Sydney - City and Inner South	25-34	Never married		40202
+Sydney - City and Inner South	35-44	Married	0	9360
+Sydney - City and Inner South	35-44	Married	1	18173
+Sydney - City and Inner South	35-44	Never married		16922
+Sydney - City and Inner South	45-54	Married	0	5534
+Sydney - City and Inner South	45-54	Married	1	11680
+Sydney - City and Inner South	45-54	Never married		12777
+Sydney - City and Inner South	55-64	Married	0	2720
+Sydney - City and Inner South	55-64	Married	1	9101
+Sydney - City and Inner South	55-64	Never married		10254
+Sydney - City and Inner South	65-74	Married	0	1006
+Sydney - City and Inner South	65-74	Married	1	6544
+Sydney - City and Inner South	65-74	Never married		6905
+Sydney - City and Inner South	75-84	Married	0	235
+Sydney - City and Inner South	75-84	Married	1	3206
+Sydney - City and Inner South	75-84	Never married		3930
+Sydney - City and Inner South	85+	Married	0	33
+Sydney - City and Inner South	85+	Married	1	667
+Sydney - City and Inner South	85+	Never married		1672
+Sydney - Eastern Suburbs	15-19	Married	0	87
+Sydney - Eastern Suburbs	15-19	Married	1	4
+Sydney - Eastern Suburbs	15-19	Never married		10754
+Sydney - Eastern Suburbs	20-24	Married	0	1498
+Sydney - Eastern Suburbs	20-24	Married	1	197
+Sydney - Eastern Suburbs	20-24	Never married		15917
+Sydney - Eastern Suburbs	25-34	Married	0	11700
+Sydney - Eastern Suburbs	25-34	Married	1	10502
+Sydney - Eastern Suburbs	25-34	Never married		22932
+Sydney - Eastern Suburbs	35-44	Married	0	6214
+Sydney - Eastern Suburbs	35-44	Married	1	20163
+Sydney - Eastern Suburbs	35-44	Never married		10057
+Sydney - Eastern Suburbs	45-54	Married	0	3508
+Sydney - Eastern Suburbs	45-54	Married	1	16825
+Sydney - Eastern Suburbs	45-54	Never married		8705
+Sydney - Eastern Suburbs	55-64	Married	0	1915
+Sydney - Eastern Suburbs	55-64	Married	1	12504
+Sydney - Eastern Suburbs	55-64	Never married		7643
+Sydney - Eastern Suburbs	65-74	Married	0	968
+Sydney - Eastern Suburbs	65-74	Married	1	9914
+Sydney - Eastern Suburbs	65-74	Never married		6500
+Sydney - Eastern Suburbs	75-84	Married	0	275
+Sydney - Eastern Suburbs	75-84	Married	1	4952
+Sydney - Eastern Suburbs	75-84	Never married		4565
+Sydney - Eastern Suburbs	85+	Married	0	69
+Sydney - Eastern Suburbs	85+	Married	1	1362
+Sydney - Eastern Suburbs	85+	Never married		2886
+Sydney - Inner South West	15-19	Married	0	102
+Sydney - Inner South West	15-19	Married	1	115
+Sydney - Inner South West	15-19	Never married		32272
+Sydney - Inner South West	20-24	Married	0	1757
+Sydney - Inner South West	20-24	Married	1	3269
+Sydney - Inner South West	20-24	Never married		33469
+Sydney - Inner South West	25-34	Married	0	8061
+Sydney - Inner South West	25-34	Married	1	39376
+Sydney - Inner South West	25-34	Never married		39914
+Sydney - Inner South West	35-44	Married	0	5352
+Sydney - Inner South West	35-44	Married	1	47592
+Sydney - Inner South West	35-44	Never married		19266
+Sydney - Inner South West	45-54	Married	0	4278
+Sydney - Inner South West	45-54	Married	1	43046
+Sydney - Inner South West	45-54	Never married		19563
+Sydney - Inner South West	55-64	Married	0	2925
+Sydney - Inner South West	55-64	Married	1	35677
+Sydney - Inner South West	55-64	Never married		18005
+Sydney - Inner South West	65-74	Married	0	1289
+Sydney - Inner South West	65-74	Married	1	24631
+Sydney - Inner South West	65-74	Never married		12966
+Sydney - Inner South West	75-84	Married	0	397
+Sydney - Inner South West	75-84	Married	1	13410
+Sydney - Inner South West	75-84	Never married		9923
+Sydney - Inner South West	85+	Married	0	54
+Sydney - Inner South West	85+	Married	1	3170
+Sydney - Inner South West	85+	Never married		6115
+Sydney - Inner West	15-19	Married	0	79
+Sydney - Inner West	15-19	Married	1	21
+Sydney - Inner West	15-19	Never married		12663
+Sydney - Inner West	20-24	Married	0	1665
+Sydney - Inner West	20-24	Married	1	834
+Sydney - Inner West	20-24	Never married		17996
+Sydney - Inner West	25-34	Married	0	8400
+Sydney - Inner West	25-34	Married	1	18891
+Sydney - Inner West	25-34	Never married		23734
+Sydney - Inner West	35-44	Married	0	5037
+Sydney - Inner West	35-44	Married	1	25139
+Sydney - Inner West	35-44	Never married		10553
+Sydney - Inner West	45-54	Married	0	3757
+Sydney - Inner West	45-54	Married	1	21068
+Sydney - Inner West	45-54	Never married		10360
+Sydney - Inner West	55-64	Married	0	2317
+Sydney - Inner West	55-64	Married	1	16070
+Sydney - Inner West	55-64	Never married		8993
+Sydney - Inner West	65-74	Married	0	969
+Sydney - Inner West	65-74	Married	1	11066
+Sydney - Inner West	65-74	Never married		6526
+Sydney - Inner West	75-84	Married	0	228
+Sydney - Inner West	75-84	Married	1	5638
+Sydney - Inner West	75-84	Never married		4659
+Sydney - Inner West	85+	Married	0	48
+Sydney - Inner West	85+	Married	1	1314
+Sydney - Inner West	85+	Never married		2730
+Sydney - North Sydney and Hornsby	15-19	Married	0	77
+Sydney - North Sydney and Hornsby	15-19	Married	1	8
+Sydney - North Sydney and Hornsby	15-19	Never married		21446
+Sydney - North Sydney and Hornsby	20-24	Married	0	1464
+Sydney - North Sydney and Hornsby	20-24	Married	1	518
+Sydney - North Sydney and Hornsby	20-24	Never married		17926
+Sydney - North Sydney and Hornsby	25-34	Married	0	9748
+Sydney - North Sydney and Hornsby	25-34	Married	1	20817
+Sydney - North Sydney and Hornsby	25-34	Never married		20689
+Sydney - North Sydney and Hornsby	35-44	Married	0	5590
+Sydney - North Sydney and Hornsby	35-44	Married	1	40940
+Sydney - North Sydney and Hornsby	35-44	Never married		11817
+Sydney - North Sydney and Hornsby	45-54	Married	0	4030
+Sydney - North Sydney and Hornsby	45-54	Married	1	37796
+Sydney - North Sydney and Hornsby	45-54	Never married		11452
+Sydney - North Sydney and Hornsby	55-64	Married	0	2448
+Sydney - North Sydney and Hornsby	55-64	Married	1	27774
+Sydney - North Sydney and Hornsby	55-64	Never married		10534
+Sydney - North Sydney and Hornsby	65-74	Married	0	1185
+Sydney - North Sydney and Hornsby	65-74	Married	1	20768
+Sydney - North Sydney and Hornsby	65-74	Never married		8758
+Sydney - North Sydney and Hornsby	75-84	Married	0	337
+Sydney - North Sydney and Hornsby	75-84	Married	1	9891
+Sydney - North Sydney and Hornsby	75-84	Never married		6484
+Sydney - North Sydney and Hornsby	85+	Married	0	71
+Sydney - North Sydney and Hornsby	85+	Married	1	2524
+Sydney - North Sydney and Hornsby	85+	Never married		4415
+Sydney - Northern Beaches	15-19	Married	0	48
+Sydney - Northern Beaches	15-19	Married	1	8
+Sydney - Northern Beaches	15-19	Never married		13481
+Sydney - Northern Beaches	20-24	Married	0	989
+Sydney - Northern Beaches	20-24	Married	1	281
+Sydney - Northern Beaches	20-24	Never married		10061
+Sydney - Northern Beaches	25-34	Married	0	6317
+Sydney - Northern Beaches	25-34	Married	1	9622
+Sydney - Northern Beaches	25-34	Never married		10731
+Sydney - Northern Beaches	35-44	Married	0	4809
+Sydney - Northern Beaches	35-44	Married	1	23996
+Sydney - Northern Beaches	35-44	Never married		6495
+Sydney - Northern Beaches	45-54	Married	0	3597
+Sydney - Northern Beaches	45-54	Married	1	23572
+Sydney - Northern Beaches	45-54	Never married		7441
+Sydney - Northern Beaches	55-64	Married	0	2024
+Sydney - Northern Beaches	55-64	Married	1	17100
+Sydney - Northern Beaches	55-64	Never married		6673
+Sydney - Northern Beaches	65-74	Married	0	895
+Sydney - Northern Beaches	65-74	Married	1	13261
+Sydney - Northern Beaches	65-74	Never married		5739
+Sydney - Northern Beaches	75-84	Married	0	222
+Sydney - Northern Beaches	75-84	Married	1	6592
+Sydney - Northern Beaches	75-84	Never married		4442
+Sydney - Northern Beaches	85+	Married	0	38
+Sydney - Northern Beaches	85+	Married	1	1643
+Sydney - Northern Beaches	85+	Never married		3149
+Sydney - Outer South West	15-19	Married	0	164
+Sydney - Outer South West	15-19	Married	1	19
+Sydney - Outer South West	15-19	Never married		16659
+Sydney - Outer South West	20-24	Married	0	1859
+Sydney - Outer South West	20-24	Married	1	819
+Sydney - Outer South West	20-24	Never married		13366
+Sydney - Outer South West	25-34	Married	0	5254
+Sydney - Outer South West	25-34	Married	1	15609
+Sydney - Outer South West	25-34	Never married		13032
+Sydney - Outer South West	35-44	Married	0	3799
+Sydney - Outer South West	35-44	Married	1	21985
+Sydney - Outer South West	35-44	Never married		8177
+Sydney - Outer South West	45-54	Married	0	3060
+Sydney - Outer South West	45-54	Married	1	20523
+Sydney - Outer South West	45-54	Never married		7929
+Sydney - Outer South West	55-64	Married	0	1847
+Sydney - Outer South West	55-64	Married	1	18635
+Sydney - Outer South West	55-64	Never married		7152
+Sydney - Outer South West	65-74	Married	0	745
+Sydney - Outer South West	65-74	Married	1	11725
+Sydney - Outer South West	65-74	Never married		5459
+Sydney - Outer South West	75-84	Married	0	171
+Sydney - Outer South West	75-84	Married	1	3935
+Sydney - Outer South West	75-84	Never married		3114
+Sydney - Outer South West	85+	Married	0	23
+Sydney - Outer South West	85+	Married	1	646
+Sydney - Outer South West	85+	Never married		1457
+Sydney - Outer West and Blue Mountains	15-19	Married	0	255
+Sydney - Outer West and Blue Mountains	15-19	Married	1	11
+Sydney - Outer West and Blue Mountains	15-19	Never married		18345
+Sydney - Outer West and Blue Mountains	20-24	Married	0	2452
+Sydney - Outer West and Blue Mountains	20-24	Married	1	911
+Sydney - Outer West and Blue Mountains	20-24	Never married		14545
+Sydney - Outer West and Blue Mountains	25-34	Married	0	7396
+Sydney - Outer West and Blue Mountains	25-34	Married	1	15911
+Sydney - Outer West and Blue Mountains	25-34	Never married		14538
+Sydney - Outer West and Blue Mountains	35-44	Married	0	5171
+Sydney - Outer West and Blue Mountains	35-44	Married	1	23006
+Sydney - Outer West and Blue Mountains	35-44	Never married		9786
+Sydney - Outer West and Blue Mountains	45-54	Married	0	4188
+Sydney - Outer West and Blue Mountains	45-54	Married	1	22507
+Sydney - Outer West and Blue Mountains	45-54	Never married		10475
+Sydney - Outer West and Blue Mountains	55-64	Married	0	2538
+Sydney - Outer West and Blue Mountains	55-64	Married	1	21939
+Sydney - Outer West and Blue Mountains	55-64	Never married		10156
+Sydney - Outer West and Blue Mountains	65-74	Married	0	1111
+Sydney - Outer West and Blue Mountains	65-74	Married	1	14748
+Sydney - Outer West and Blue Mountains	65-74	Never married		7829
+Sydney - Outer West and Blue Mountains	75-84	Married	0	246
+Sydney - Outer West and Blue Mountains	75-84	Married	1	5251
+Sydney - Outer West and Blue Mountains	75-84	Never married		4648
+Sydney - Outer West and Blue Mountains	85+	Married	0	24
+Sydney - Outer West and Blue Mountains	85+	Married	1	856
+Sydney - Outer West and Blue Mountains	85+	Never married		2215
+Sydney - Parramatta	15-19	Married	0	81
+Sydney - Parramatta	15-19	Married	1	68
+Sydney - Parramatta	15-19	Never married		22941
+Sydney - Parramatta	20-24	Married	0	1351
+Sydney - Parramatta	20-24	Married	1	2559
+Sydney - Parramatta	20-24	Never married		25305
+Sydney - Parramatta	25-34	Married	0	5714
+Sydney - Parramatta	25-34	Married	1	40279
+Sydney - Parramatta	25-34	Never married		33746
+Sydney - Parramatta	35-44	Married	0	3573
+Sydney - Parramatta	35-44	Married	1	41434
+Sydney - Parramatta	35-44	Never married		15825
+Sydney - Parramatta	45-54	Married	0	2806
+Sydney - Parramatta	45-54	Married	1	31082
+Sydney - Parramatta	45-54	Never married		14320
+Sydney - Parramatta	55-64	Married	0	1910
+Sydney - Parramatta	55-64	Married	1	25028
+Sydney - Parramatta	55-64	Never married		12926
+Sydney - Parramatta	65-74	Married	0	773
+Sydney - Parramatta	65-74	Married	1	16645
+Sydney - Parramatta	65-74	Never married		8587
+Sydney - Parramatta	75-84	Married	0	244
+Sydney - Parramatta	75-84	Married	1	7732
+Sydney - Parramatta	75-84	Never married		6202
+Sydney - Parramatta	85+	Married	0	44
+Sydney - Parramatta	85+	Married	1	1591
+Sydney - Parramatta	85+	Never married		3568
+Sydney - Ryde	15-19	Married	0	52
+Sydney - Ryde	15-19	Married	1	8
+Sydney - Ryde	15-19	Never married		9622
+Sydney - Ryde	20-24	Married	0	850
+Sydney - Ryde	20-24	Married	1	353
+Sydney - Ryde	20-24	Never married		11458
+Sydney - Ryde	25-34	Married	0	3136
+Sydney - Ryde	25-34	Married	1	11524
+Sydney - Ryde	25-34	Never married		11972
+Sydney - Ryde	35-44	Married	0	1746
+Sydney - Ryde	35-44	Married	1	17357
+Sydney - Ryde	35-44	Never married		5192
+Sydney - Ryde	45-54	Married	0	1303
+Sydney - Ryde	45-54	Married	1	15829
+Sydney - Ryde	45-54	Never married		5078
+Sydney - Ryde	55-64	Married	0	854
+Sydney - Ryde	55-64	Married	1	13044
+Sydney - Ryde	55-64	Never married		5085
+Sydney - Ryde	65-74	Married	0	417
+Sydney - Ryde	65-74	Married	1	8676
+Sydney - Ryde	65-74	Never married		3656
+Sydney - Ryde	75-84	Married	0	107
+Sydney - Ryde	75-84	Married	1	4327
+Sydney - Ryde	75-84	Never married		3073
+Sydney - Ryde	85+	Married	0	22
+Sydney - Ryde	85+	Married	1	1133
+Sydney - Ryde	85+	Never married		2130
+Sydney - South West	15-19	Married	0	112
+Sydney - South West	15-19	Married	1	81
+Sydney - South West	15-19	Never married		27177
+Sydney - South West	20-24	Married	0	1155
+Sydney - South West	20-24	Married	1	2012
+Sydney - South West	20-24	Never married		24276
+Sydney - South West	25-34	Married	0	4379
+Sydney - South West	25-34	Married	1	23202
+Sydney - South West	25-34	Never married		25416
+Sydney - South West	35-44	Married	0	3710
+Sydney - South West	35-44	Married	1	32896
+Sydney - South West	35-44	Never married		14570
+Sydney - South West	45-54	Married	0	3253
+Sydney - South West	45-54	Married	1	33142
+Sydney - South West	45-54	Never married		14148
+Sydney - South West	55-64	Married	0	2105
+Sydney - South West	55-64	Married	1	27957
+Sydney - South West	55-64	Never married		12288
+Sydney - South West	65-74	Married	0	815
+Sydney - South West	65-74	Married	1	16772
+Sydney - South West	65-74	Never married		7984
+Sydney - South West	75-84	Married	0	221
+Sydney - South West	75-84	Married	1	7056
+Sydney - South West	75-84	Never married		5770
+Sydney - South West	85+	Married	0	35
+Sydney - South West	85+	Married	1	1303
+Sydney - South West	85+	Never married		2712
+Sydney - Sutherland	15-19	Married	0	68
+Sydney - Sutherland	15-19	Married	1	3
+Sydney - Sutherland	15-19	Never married		12426
+Sydney - Sutherland	20-24	Married	0	873
+Sydney - Sutherland	20-24	Married	1	289
+Sydney - Sutherland	20-24	Never married		10584
+Sydney - Sutherland	25-34	Married	0	4628
+Sydney - Sutherland	25-34	Married	1	9830
+Sydney - Sutherland	25-34	Never married		9476
+Sydney - Sutherland	35-44	Married	0	2955
+Sydney - Sutherland	35-44	Married	1	19660
+Sydney - Sutherland	35-44	Never married		5545
+Sydney - Sutherland	45-54	Married	0	2473
+Sydney - Sutherland	45-54	Married	1	19472
+Sydney - Sutherland	45-54	Never married		6454
+Sydney - Sutherland	55-64	Married	0	1523
+Sydney - Sutherland	55-64	Married	1	17856
+Sydney - Sutherland	55-64	Never married		5941
+Sydney - Sutherland	65-74	Married	0	609
+Sydney - Sutherland	65-74	Married	1	12784
+Sydney - Sutherland	65-74	Never married		4834
+Sydney - Sutherland	75-84	Married	0	183
+Sydney - Sutherland	75-84	Married	1	5812
+Sydney - Sutherland	75-84	Never married		3681
+Sydney - Sutherland	85+	Married	0	39
+Sydney - Sutherland	85+	Married	1	1443
+Sydney - Sutherland	85+	Never married		2588
+Ballarat	15-19	Married	0	109
+Ballarat	15-19	Married	1	6
+Ballarat	15-19	Never married		8218
+Ballarat	20-24	Married	0	1399
+Ballarat	20-24	Married	1	238
+Ballarat	20-24	Never married		6757
+Ballarat	25-34	Married	0	3753
+Ballarat	25-34	Married	1	5627
+Ballarat	25-34	Never married		6167
+Ballarat	35-44	Married	0	2651
+Ballarat	35-44	Married	1	9598
+Ballarat	35-44	Never married		4720
+Ballarat	45-54	Married	0	2417
+Ballarat	45-54	Married	1	10776
+Ballarat	45-54	Never married		5857
+Ballarat	55-64	Married	0	1534
+Ballarat	55-64	Married	1	11163
+Ballarat	55-64	Never married		5953
+Ballarat	65-74	Married	0	681
+Ballarat	65-74	Married	1	9132
+Ballarat	65-74	Never married		4898
+Ballarat	75-84	Married	0	174
+Ballarat	75-84	Married	1	3895
+Ballarat	75-84	Never married		3265
+Ballarat	85+	Married	0	25
+Ballarat	85+	Married	1	758
+Ballarat	85+	Never married		1773
+Bendigo	15-19	Married	0	109
+Bendigo	15-19	Married	1	12
+Bendigo	15-19	Never married		8207
+Bendigo	20-24	Married	0	1455
+Bendigo	20-24	Married	1	292
+Bendigo	20-24	Never married		6079
+Bendigo	25-34	Married	0	3537
+Bendigo	25-34	Married	1	5574
+Bendigo	25-34	Never married		5816
+Bendigo	35-44	Married	0	2508
+Bendigo	35-44	Married	1	9339
+Bendigo	35-44	Never married		4443
+Bendigo	45-54	Married	0	2215
+Bendigo	45-54	Married	1	10527
+Bendigo	45-54	Never married		5577
+Bendigo	55-64	Married	0	1497
+Bendigo	55-64	Married	1	11000
+Bendigo	55-64	Never married		5862
+Bendigo	65-74	Married	0	686
+Bendigo	65-74	Married	1	8768
+Bendigo	65-74	Never married		4674
+Bendigo	75-84	Married	0	160
+Bendigo	75-84	Married	1	4133
+Bendigo	75-84	Never married		3095
+Bendigo	85+	Married	0	26
+Bendigo	85+	Married	1	860
+Bendigo	85+	Never married		1664
+Geelong	15-19	Married	0	145
+Geelong	15-19	Married	1	12
+Geelong	15-19	Never married		14789
+Geelong	20-24	Married	0	2059
+Geelong	20-24	Married	1	443
+Geelong	20-24	Never married		12469
+Geelong	25-34	Married	0	6886
+Geelong	25-34	Married	1	11689
+Geelong	25-34	Never married		11804
+Geelong	35-44	Married	0	4510
+Geelong	35-44	Married	1	19803
+Geelong	35-44	Never married		8090
+Geelong	45-54	Married	0	3487
+Geelong	45-54	Married	1	20099
+Geelong	45-54	Never married		9583
+Geelong	55-64	Married	0	2246
+Geelong	55-64	Married	1	19716
+Geelong	55-64	Never married		9106
+Geelong	65-74	Married	0	945
+Geelong	65-74	Married	1	15934
+Geelong	65-74	Never married		7203
+Geelong	75-84	Married	0	238
+Geelong	75-84	Married	1	7433
+Geelong	75-84	Never married		5209
+Geelong	85+	Married	0	39
+Geelong	85+	Married	1	1628
+Geelong	85+	Never married		3138
+Hume	15-19	Married	0	170
+Hume	15-19	Married	1	9
+Hume	15-19	Never married		8489
+Hume	20-24	Married	0	1430
+Hume	20-24	Married	1	294
+Hume	20-24	Never married		5012
+Hume	25-34	Married	0	3638
+Hume	25-34	Married	1	5612
+Hume	25-34	Never married		5395
+Hume	35-44	Married	0	2762
+Hume	35-44	Married	1	9876
+Hume	35-44	Never married		4445
+Hume	45-54	Married	0	2572
+Hume	45-54	Married	1	12122
+Hume	45-54	Never married		6078
+Hume	55-64	Married	0	1834
+Hume	55-64	Married	1	13577
+Hume	55-64	Never married		6369
+Hume	65-74	Married	0	900
+Hume	65-74	Married	1	11040
+Hume	65-74	Never married		5321
+Hume	75-84	Married	0	212
+Hume	75-84	Married	1	4910
+Hume	75-84	Never married		3557
+Hume	85+	Married	0	40
+Hume	85+	Married	1	1017
+Hume	85+	Never married		1910
+Latrobe - Gippsland	15-19	Married	0	243
+Latrobe - Gippsland	15-19	Married	1	11
+Latrobe - Gippsland	15-19	Never married		13604
+Latrobe - Gippsland	20-24	Married	0	2404
+Latrobe - Gippsland	20-24	Married	1	470
+Latrobe - Gippsland	20-24	Never married		8433
+Latrobe - Gippsland	25-34	Married	0	5941
+Latrobe - Gippsland	25-34	Married	1	9556
+Latrobe - Gippsland	25-34	Never married		9130
+Latrobe - Gippsland	35-44	Married	0	4105
+Latrobe - Gippsland	35-44	Married	1	14516
+Latrobe - Gippsland	35-44	Never married		7362
+Latrobe - Gippsland	45-54	Married	0	3927
+Latrobe - Gippsland	45-54	Married	1	18116
+Latrobe - Gippsland	45-54	Never married		9558
+Latrobe - Gippsland	55-64	Married	0	2935
+Latrobe - Gippsland	55-64	Married	1	21290
+Latrobe - Gippsland	55-64	Never married		10391
+Latrobe - Gippsland	65-74	Married	0	1349
+Latrobe - Gippsland	65-74	Married	1	19064
+Latrobe - Gippsland	65-74	Never married		8569
+Latrobe - Gippsland	75-84	Married	0	325
+Latrobe - Gippsland	75-84	Married	1	8290
+Latrobe - Gippsland	75-84	Never married		6126
+Latrobe - Gippsland	85+	Married	0	46
+Latrobe - Gippsland	85+	Married	1	1650
+Latrobe - Gippsland	85+	Never married		3063
+Melbourne - Inner	15-19	Married	0	385
+Melbourne - Inner	15-19	Married	1	34
+Melbourne - Inner	15-19	Never married		22499
+Melbourne - Inner	20-24	Married	0	6509
+Melbourne - Inner	20-24	Married	1	1161
+Melbourne - Inner	20-24	Never married		47828
+Melbourne - Inner	25-34	Married	0	35685
+Melbourne - Inner	25-34	Married	1	30159
+Melbourne - Inner	25-34	Never married		72038
+Melbourne - Inner	35-44	Married	0	15082
+Melbourne - Inner	35-44	Married	1	34961
+Melbourne - Inner	35-44	Never married		28509
+Melbourne - Inner	45-54	Married	0	8261
+Melbourne - Inner	45-54	Married	1	28190
+Melbourne - Inner	45-54	Never married		21841
+Melbourne - Inner	55-64	Married	0	4645
+Melbourne - Inner	55-64	Married	1	21543
+Melbourne - Inner	55-64	Never married		17718
+Melbourne - Inner	65-74	Married	0	1763
+Melbourne - Inner	65-74	Married	1	15633
+Melbourne - Inner	65-74	Never married		12014
+Melbourne - Inner	75-84	Married	0	377
+Melbourne - Inner	75-84	Married	1	7990
+Melbourne - Inner	75-84	Never married		8085
+Melbourne - Inner	85+	Married	0	87
+Melbourne - Inner	85+	Married	1	1973
+Melbourne - Inner	85+	Never married		4169
+Melbourne - Inner East	15-19	Married	0	100
+Melbourne - Inner East	15-19	Married	1	16
+Melbourne - Inner East	15-19	Never married		22354
+Melbourne - Inner East	20-24	Married	0	1650
+Melbourne - Inner East	20-24	Married	1	440
+Melbourne - Inner East	20-24	Never married		23911
+Melbourne - Inner East	25-34	Married	0	7027
+Melbourne - Inner East	25-34	Married	1	15356
+Melbourne - Inner East	25-34	Never married		21860
+Melbourne - Inner East	35-44	Married	0	3453
+Melbourne - Inner East	35-44	Married	1	29039
+Melbourne - Inner East	35-44	Never married		9231
+Melbourne - Inner East	45-54	Married	0	2879
+Melbourne - Inner East	45-54	Married	1	33249
+Melbourne - Inner East	45-54	Never married		10444
+Melbourne - Inner East	55-64	Married	0	1822
+Melbourne - Inner East	55-64	Married	1	26427
+Melbourne - Inner East	55-64	Never married		9275
+Melbourne - Inner East	65-74	Married	0	864
+Melbourne - Inner East	65-74	Married	1	19785
+Melbourne - Inner East	65-74	Never married		7589
+Melbourne - Inner East	75-84	Married	0	278
+Melbourne - Inner East	75-84	Married	1	11044
+Melbourne - Inner East	75-84	Never married		6977
+Melbourne - Inner East	85+	Married	0	73
+Melbourne - Inner East	85+	Married	1	2786
+Melbourne - Inner East	85+	Never married		4718
+Melbourne - Inner South	15-19	Married	0	90
+Melbourne - Inner South	15-19	Married	1	10
+Melbourne - Inner South	15-19	Never married		21649
+Melbourne - Inner South	20-24	Married	0	1779
+Melbourne - Inner South	20-24	Married	1	527
+Melbourne - Inner South	20-24	Never married		20871
+Melbourne - Inner South	25-34	Married	0	9578
+Melbourne - Inner South	25-34	Married	1	17940
+Melbourne - Inner South	25-34	Never married		20109
+Melbourne - Inner South	35-44	Married	0	6255
+Melbourne - Inner South	35-44	Married	1	35508
+Melbourne - Inner South	35-44	Never married		11104
+Melbourne - Inner South	45-54	Married	0	5033
+Melbourne - Inner South	45-54	Married	1	36385
+Melbourne - Inner South	45-54	Never married		12939
+Melbourne - Inner South	55-64	Married	0	2945
+Melbourne - Inner South	55-64	Married	1	27116
+Melbourne - Inner South	55-64	Never married		12274
+Melbourne - Inner South	65-74	Married	0	1254
+Melbourne - Inner South	65-74	Married	1	19073
+Melbourne - Inner South	65-74	Never married		9921
+Melbourne - Inner South	75-84	Married	0	343
+Melbourne - Inner South	75-84	Married	1	9374
+Melbourne - Inner South	75-84	Never married		7610
+Melbourne - Inner South	85+	Married	0	93
+Melbourne - Inner South	85+	Married	1	2752
+Melbourne - Inner South	85+	Never married		5575
+Melbourne - North East	15-19	Married	0	112
+Melbourne - North East	15-19	Married	1	33
+Melbourne - North East	15-19	Never married		26975
+Melbourne - North East	20-24	Married	0	2128
+Melbourne - North East	20-24	Married	1	1265
+Melbourne - North East	20-24	Never married		27066
+Melbourne - North East	25-34	Married	0	11225
+Melbourne - North East	25-34	Married	1	30194
+Melbourne - North East	25-34	Never married		28374
+Melbourne - North East	35-44	Married	0	8049
+Melbourne - North East	35-44	Married	1	43284
+Melbourne - North East	35-44	Never married		15395
+Melbourne - North East	45-54	Married	0	5731
+Melbourne - North East	45-54	Married	1	38988
+Melbourne - North East	45-54	Never married		16228
+Melbourne - North East	55-64	Married	0	3164
+Melbourne - North East	55-64	Married	1	32891
+Melbourne - North East	55-64	Never married		13719
+Melbourne - North East	65-74	Married	0	1114
+Melbourne - North East	65-74	Married	1	23445
+Melbourne - North East	65-74	Never married		9770
+Melbourne - North East	75-84	Married	0	274
+Melbourne - North East	75-84	Married	1	10800
+Melbourne - North East	75-84	Never married		7360
+Melbourne - North East	85+	Married	0	50
+Melbourne - North East	85+	Married	1	2090
+Melbourne - North East	85+	Never married		4074
+Melbourne - North West	15-19	Married	0	96
+Melbourne - North West	15-19	Married	1	54
+Melbourne - North West	15-19	Never married		21660
+Melbourne - North West	20-24	Married	0	1445
+Melbourne - North West	20-24	Married	1	1460
+Melbourne - North West	20-24	Never married		19523
+Melbourne - North West	25-34	Married	0	6907
+Melbourne - North West	25-34	Married	1	23351
+Melbourne - North West	25-34	Never married		20386
+Melbourne - North West	35-44	Married	0	4735
+Melbourne - North West	35-44	Married	1	31383
+Melbourne - North West	35-44	Never married		11090
+Melbourne - North West	45-54	Married	0	3832
+Melbourne - North West	45-54	Married	1	29061
+Melbourne - North West	45-54	Never married		12026
+Melbourne - North West	55-64	Married	0	2019
+Melbourne - North West	55-64	Married	1	22298
+Melbourne - North West	55-64	Never married		9696
+Melbourne - North West	65-74	Married	0	742
+Melbourne - North West	65-74	Married	1	16040
+Melbourne - North West	65-74	Never married		7021
+Melbourne - North West	75-84	Married	0	220
+Melbourne - North West	75-84	Married	1	8068
+Melbourne - North West	75-84	Never married		5679
+Melbourne - North West	85+	Married	0	33
+Melbourne - North West	85+	Married	1	1678
+Melbourne - North West	85+	Never married		3100
+Melbourne - Outer East	15-19	Married	0	169
+Melbourne - Outer East	15-19	Married	1	17
+Melbourne - Outer East	15-19	Never married		30012
+Melbourne - Outer East	20-24	Married	0	2372
+Melbourne - Outer East	20-24	Married	1	694
+Melbourne - Outer East	20-24	Never married		25367
+Melbourne - Outer East	25-34	Married	0	10873
+Melbourne - Outer East	25-34	Married	1	24722
+Melbourne - Outer East	25-34	Never married		23022
+Melbourne - Outer East	35-44	Married	0	7438
+Melbourne - Outer East	35-44	Married	1	42108
+Melbourne - Outer East	35-44	Never married		13927
+Melbourne - Outer East	45-54	Married	0	6530
+Melbourne - Outer East	45-54	Married	1	43643
+Melbourne - Outer East	45-54	Never married		16482
+Melbourne - Outer East	55-64	Married	0	3692
+Melbourne - Outer East	55-64	Married	1	39067
+Melbourne - Outer East	55-64	Never married		14682
+Melbourne - Outer East	65-74	Married	0	1432
+Melbourne - Outer East	65-74	Married	1	27925
+Melbourne - Outer East	65-74	Never married		11529
+Melbourne - Outer East	75-84	Married	0	320
+Melbourne - Outer East	75-84	Married	1	11816
+Melbourne - Outer East	75-84	Never married		8196
+Melbourne - Outer East	85+	Married	0	48
+Melbourne - Outer East	85+	Married	1	2324
+Melbourne - Outer East	85+	Never married		4399
+Melbourne - South East	15-19	Married	0	288
+Melbourne - South East	15-19	Married	1	78
+Melbourne - South East	15-19	Never married		46028
+Melbourne - South East	20-24	Married	0	3825
+Melbourne - South East	20-24	Married	1	2935
+Melbourne - South East	20-24	Never married		45984
+Melbourne - South East	25-34	Married	0	13771
+Melbourne - South East	25-34	Married	1	50133
+Melbourne - South East	25-34	Never married		43574
+Melbourne - South East	35-44	Married	0	8604
+Melbourne - South East	35-44	Married	1	67457
+Melbourne - South East	35-44	Never married		22710
+Melbourne - South East	45-54	Married	0	7015
+Melbourne - South East	45-54	Married	1	59855
+Melbourne - South East	45-54	Never married		23324
+Melbourne - South East	55-64	Married	0	3933
+Melbourne - South East	55-64	Married	1	47738
+Melbourne - South East	55-64	Never married		19588
+Melbourne - South East	65-74	Married	0	1601
+Melbourne - South East	65-74	Married	1	33302
+Melbourne - South East	65-74	Never married		14682
+Melbourne - South East	75-84	Married	0	410
+Melbourne - South East	75-84	Married	1	16199
+Melbourne - South East	75-84	Never married		10779
+Melbourne - South East	85+	Married	0	66
+Melbourne - South East	85+	Married	1	3283
+Melbourne - South East	85+	Never married		5718
+Melbourne - West	15-19	Married	0	239
+Melbourne - West	15-19	Married	1	80
+Melbourne - West	15-19	Never married		39870
+Melbourne - West	20-24	Married	0	3571
+Melbourne - West	20-24	Married	1	2689
+Melbourne - West	20-24	Never married		39226
+Melbourne - West	25-34	Married	0	16959
+Melbourne - West	25-34	Married	1	53076
+Melbourne - West	25-34	Never married		45449
+Melbourne - West	35-44	Married	0	11938
+Melbourne - West	35-44	Married	1	68305
+Melbourne - West	35-44	Never married		25630
+Melbourne - West	45-54	Married	0	8127
+Melbourne - West	45-54	Married	1	51755
+Melbourne - West	45-54	Never married		24306
+Melbourne - West	55-64	Married	0	4269
+Melbourne - West	55-64	Married	1	41066
+Melbourne - West	55-64	Never married		19867
+Melbourne - West	65-74	Married	0	1554
+Melbourne - West	65-74	Married	1	25943
+Melbourne - West	65-74	Never married		13085
+Melbourne - West	75-84	Married	0	329
+Melbourne - West	75-84	Married	1	10159
+Melbourne - West	75-84	Never married		8509
+Melbourne - West	85+	Married	0	47
+Melbourne - West	85+	Married	1	1905
+Melbourne - West	85+	Never married		4095
+Mornington Peninsula	15-19	Married	0	154
+Mornington Peninsula	15-19	Married	1	9
+Mornington Peninsula	15-19	Never married		15083
+Mornington Peninsula	20-24	Married	0	1841
+Mornington Peninsula	20-24	Married	1	371
+Mornington Peninsula	20-24	Never married		11516
+Mornington Peninsula	25-34	Married	0	7137
+Mornington Peninsula	25-34	Married	1	10340
+Mornington Peninsula	25-34	Never married		11235
+Mornington Peninsula	35-44	Married	0	5308
+Mornington Peninsula	35-44	Married	1	19300
+Mornington Peninsula	35-44	Never married		8758
+Mornington Peninsula	45-54	Married	0	4552
+Mornington Peninsula	45-54	Married	1	20992
+Mornington Peninsula	45-54	Never married		11094
+Mornington Peninsula	55-64	Married	0	2812
+Mornington Peninsula	55-64	Married	1	19921
+Mornington Peninsula	55-64	Never married		10312
+Mornington Peninsula	65-74	Married	0	1378
+Mornington Peninsula	65-74	Married	1	17645
+Mornington Peninsula	65-74	Never married		8714
+Mornington Peninsula	75-84	Married	0	388
+Mornington Peninsula	75-84	Married	1	8560
+Mornington Peninsula	75-84	Never married		6331
+Mornington Peninsula	85+	Married	0	73
+Mornington Peninsula	85+	Married	1	1904
+Mornington Peninsula	85+	Never married		3438
+North West	15-19	Married	0	160
+North West	15-19	Married	1	6
+North West	15-19	Never married		7884
+North West	20-24	Married	0	1409
+North West	20-24	Married	1	322
+North West	20-24	Never married		4765
+North West	25-34	Married	0	3195
+North West	25-34	Married	1	5364
+North West	25-34	Never married		5446
+North West	35-44	Married	0	1948
+North West	35-44	Married	1	8329
+North West	35-44	Never married		4002
+North West	45-54	Married	0	1774
+North West	45-54	Married	1	10638
+North West	45-54	Never married		5278
+North West	55-64	Married	0	1188
+North West	55-64	Married	1	11817
+North West	55-64	Never married		5436
+North West	65-74	Married	0	583
+North West	65-74	Married	1	9209
+North West	65-74	Never married		4531
+North West	75-84	Married	0	155
+North West	75-84	Married	1	4741
+North West	75-84	Never married		3627
+North West	85+	Married	0	31
+North West	85+	Married	1	1125
+North West	85+	Never married		2074
+Shepparton	15-19	Married	0	109
+Shepparton	15-19	Married	1	14
+Shepparton	15-19	Never married		7429
+Shepparton	20-24	Married	0	1052
+Shepparton	20-24	Married	1	357
+Shepparton	20-24	Never married		4253
+Shepparton	25-34	Married	0	2625
+Shepparton	25-34	Married	1	5040
+Shepparton	25-34	Never married		4554
+Shepparton	35-44	Married	0	1747
+Shepparton	35-44	Married	1	7643
+Shepparton	35-44	Never married		3627
+Shepparton	45-54	Married	0	1668
+Shepparton	45-54	Married	1	9376
+Shepparton	45-54	Never married		4495
+Shepparton	55-64	Married	0	1088
+Shepparton	55-64	Married	1	9717
+Shepparton	55-64	Never married		4324
+Shepparton	65-74	Married	0	541
+Shepparton	65-74	Married	1	7875
+Shepparton	65-74	Never married		3581
+Shepparton	75-84	Married	0	146
+Shepparton	75-84	Married	1	3955
+Shepparton	75-84	Never married		2841
+Shepparton	85+	Married	0	31
+Shepparton	85+	Married	1	892
+Shepparton	85+	Never married		1377
+Warrnambool and South West	15-19	Married	0	111
+Warrnambool and South West	15-19	Married	1	5
+Warrnambool and South West	15-19	Never married		6620
+Warrnambool and South West	20-24	Married	0	1146
+Warrnambool and South West	20-24	Married	1	174
+Warrnambool and South West	20-24	Never married		4051
+Warrnambool and South West	25-34	Married	0	2668
+Warrnambool and South West	25-34	Married	1	4004
+Warrnambool and South West	25-34	Never married		4182
+Warrnambool and South West	35-44	Married	0	1805
+Warrnambool and South West	35-44	Married	1	7261
+Warrnambool and South West	35-44	Never married		3226
+Warrnambool and South West	45-54	Married	0	1718
+Warrnambool and South West	45-54	Married	1	9233
+Warrnambool and South West	45-54	Never married		4306
+Warrnambool and South West	55-64	Married	0	1204
+Warrnambool and South West	55-64	Married	1	9739
+Warrnambool and South West	55-64	Never married		4440
+Warrnambool and South West	65-74	Married	0	432
+Warrnambool and South West	65-74	Married	1	7683
+Warrnambool and South West	65-74	Never married		3555
+Warrnambool and South West	75-84	Married	0	116
+Warrnambool and South West	75-84	Married	1	3482
+Warrnambool and South West	75-84	Never married		2821
+Warrnambool and South West	85+	Married	0	30
+Warrnambool and South West	85+	Married	1	724
+Warrnambool and South West	85+	Never married		1516
+Brisbane - East	15-19	Married	0	179
+Brisbane - East	15-19	Married	1	14
+Brisbane - East	15-19	Never married		13495
+Brisbane - East	20-24	Married	0	1730
+Brisbane - East	20-24	Married	1	438
+Brisbane - East	20-24	Never married		9081
+Brisbane - East	25-34	Married	0	5193
+Brisbane - East	25-34	Married	1	9340
+Brisbane - East	25-34	Never married		8171
+Brisbane - East	35-44	Married	0	3816
+Brisbane - East	35-44	Married	1	17868
+Brisbane - East	35-44	Never married		6378
+Brisbane - East	45-54	Married	0	3221
+Brisbane - East	45-54	Married	1	19473
+Brisbane - East	45-54	Never married		7340
+Brisbane - East	55-64	Married	0	1948
+Brisbane - East	55-64	Married	1	17126
+Brisbane - East	55-64	Never married		6839
+Brisbane - East	65-74	Married	0	879
+Brisbane - East	65-74	Married	1	12748
+Brisbane - East	65-74	Never married		5671
+Brisbane - East	75-84	Married	0	218
+Brisbane - East	75-84	Married	1	5233
+Brisbane - East	75-84	Never married		3936
+Brisbane - East	85+	Married	0	31
+Brisbane - East	85+	Married	1	1057
+Brisbane - East	85+	Never married		2119
+Brisbane - North	15-19	Married	0	161
+Brisbane - North	15-19	Married	1	8
+Brisbane - North	15-19	Never married		10427
+Brisbane - North	20-24	Married	0	2268
+Brisbane - North	20-24	Married	1	542
+Brisbane - North	20-24	Never married		9895
+Brisbane - North	25-34	Married	0	6707
+Brisbane - North	25-34	Married	1	12043
+Brisbane - North	25-34	Never married		11288
+Brisbane - North	35-44	Married	0	3861
+Brisbane - North	35-44	Married	1	17189
+Brisbane - North	35-44	Never married		7130
+Brisbane - North	45-54	Married	0	2687
+Brisbane - North	45-54	Married	1	14774
+Brisbane - North	45-54	Never married		7629
+Brisbane - North	55-64	Married	0	1468
+Brisbane - North	55-64	Married	1	11865
+Brisbane - North	55-64	Never married		6993
+Brisbane - North	65-74	Married	0	589
+Brisbane - North	65-74	Married	1	8719
+Brisbane - North	65-74	Never married		5421
+Brisbane - North	75-84	Married	0	135
+Brisbane - North	75-84	Married	1	4699
+Brisbane - North	75-84	Never married		4019
+Brisbane - North	85+	Married	0	29
+Brisbane - North	85+	Married	1	1141
+Brisbane - North	85+	Never married		2519
+Brisbane - South	15-19	Married	0	216
+Brisbane - South	15-19	Married	1	29
+Brisbane - South	15-19	Never married		18964
+Brisbane - South	20-24	Married	0	2931
+Brisbane - South	20-24	Married	1	1005
+Brisbane - South	20-24	Never married		23085
+Brisbane - South	25-34	Married	0	9691
+Brisbane - South	25-34	Married	1	21795
+Brisbane - South	25-34	Never married		24244
+Brisbane - South	35-44	Married	0	4991
+Brisbane - South	35-44	Married	1	29628
+Brisbane - South	35-44	Never married		11151
+Brisbane - South	45-54	Married	0	3373
+Brisbane - South	45-54	Married	1	25024
+Brisbane - South	45-54	Never married		10627
+Brisbane - South	55-64	Married	0	1825
+Brisbane - South	55-64	Married	1	19499
+Brisbane - South	55-64	Never married		9490
+Brisbane - South	65-74	Married	0	687
+Brisbane - South	65-74	Married	1	13192
+Brisbane - South	65-74	Never married		6674
+Brisbane - South	75-84	Married	0	156
+Brisbane - South	75-84	Married	1	6051
+Brisbane - South	75-84	Never married		4809
+Brisbane - South	85+	Married	0	33
+Brisbane - South	85+	Married	1	1359
+Brisbane - South	85+	Never married		2889
+Brisbane - West	15-19	Married	0	93
+Brisbane - West	15-19	Married	1	14
+Brisbane - West	15-19	Never married		11308
+Brisbane - West	20-24	Married	0	1236
+Brisbane - West	20-24	Married	1	265
+Brisbane - West	20-24	Never married		12321
+Brisbane - West	25-34	Married	0	3876
+Brisbane - West	25-34	Married	1	7689
+Brisbane - West	25-34	Never married		8265
+Brisbane - West	35-44	Married	0	2558
+Brisbane - West	35-44	Married	1	16246
+Brisbane - West	35-44	Never married		4450
+Brisbane - West	45-54	Married	0	1871
+Brisbane - West	45-54	Married	1	15762
+Brisbane - West	45-54	Never married		4567
+Brisbane - West	55-64	Married	0	1025
+Brisbane - West	55-64	Married	1	12380
+Brisbane - West	55-64	Never married		3969
+Brisbane - West	65-74	Married	0	432
+Brisbane - West	65-74	Married	1	9384
+Brisbane - West	65-74	Never married		3374
+Brisbane - West	75-84	Married	0	89
+Brisbane - West	75-84	Married	1	3671
+Brisbane - West	75-84	Never married		2354
+Brisbane - West	85+	Married	0	13
+Brisbane - West	85+	Married	1	851
+Brisbane - West	85+	Never married		1567
+Brisbane Inner City	15-19	Married	0	273
+Brisbane Inner City	15-19	Married	1	13
+Brisbane Inner City	15-19	Never married		11099
+Brisbane Inner City	20-24	Married	0	3603
+Brisbane Inner City	20-24	Married	1	572
+Brisbane Inner City	20-24	Never married		19101
+Brisbane Inner City	25-34	Married	0	12705
+Brisbane Inner City	25-34	Married	1	12362
+Brisbane Inner City	25-34	Never married		24080
+Brisbane Inner City	35-44	Married	0	5070
+Brisbane Inner City	35-44	Married	1	17486
+Brisbane Inner City	35-44	Never married		10319
+Brisbane Inner City	45-54	Married	0	3093
+Brisbane Inner City	45-54	Married	1	15815
+Brisbane Inner City	45-54	Never married		8601
+Brisbane Inner City	55-64	Married	0	1606
+Brisbane Inner City	55-64	Married	1	11049
+Brisbane Inner City	55-64	Never married		6952
+Brisbane Inner City	65-74	Married	0	629
+Brisbane Inner City	65-74	Married	1	6529
+Brisbane Inner City	65-74	Never married		4781
+Brisbane Inner City	75-84	Married	0	106
+Brisbane Inner City	75-84	Married	1	2608
+Brisbane Inner City	75-84	Never married		2678
+Brisbane Inner City	85+	Married	0	24
+Brisbane Inner City	85+	Married	1	587
+Brisbane Inner City	85+	Never married		1610
+Cairns	15-19	Married	0	296
+Cairns	15-19	Married	1	16
+Cairns	15-19	Never married		12127
+Cairns	20-24	Married	0	2364
+Cairns	20-24	Married	1	473
+Cairns	20-24	Never married		7759
+Cairns	25-34	Married	0	6627
+Cairns	25-34	Married	1	8275
+Cairns	25-34	Never married		10029
+Cairns	35-44	Married	0	5071
+Cairns	35-44	Married	1	14321
+Cairns	35-44	Never married		8344
+Cairns	45-54	Married	0	4299
+Cairns	45-54	Married	1	15702
+Cairns	45-54	Never married		9716
+Cairns	55-64	Married	0	2790
+Cairns	55-64	Married	1	14956
+Cairns	55-64	Never married		9299
+Cairns	65-74	Married	0	1123
+Cairns	65-74	Married	1	11261
+Cairns	65-74	Never married		6807
+Cairns	75-84	Married	0	219
+Cairns	75-84	Married	1	4558
+Cairns	75-84	Never married		3792
+Cairns	85+	Married	0	35
+Cairns	85+	Married	1	771
+Cairns	85+	Never married		1714
+Darling Downs - Maranoa	15-19	Married	0	226
+Darling Downs - Maranoa	15-19	Married	1	6
+Darling Downs - Maranoa	15-19	Never married		6109
+Darling Downs - Maranoa	20-24	Married	0	1451
+Darling Downs - Maranoa	20-24	Married	1	391
+Darling Downs - Maranoa	20-24	Never married		3597
+Darling Downs - Maranoa	25-34	Married	0	2696
+Darling Downs - Maranoa	25-34	Married	1	5068
+Darling Downs - Maranoa	25-34	Never married		3903
+Darling Downs - Maranoa	35-44	Married	0	1704
+Darling Downs - Maranoa	35-44	Married	1	7850
+Darling Downs - Maranoa	35-44	Never married		3107
+Darling Downs - Maranoa	45-54	Married	0	1551
+Darling Downs - Maranoa	45-54	Married	1	9166
+Darling Downs - Maranoa	45-54	Never married		3881
+Darling Downs - Maranoa	55-64	Married	0	1043
+Darling Downs - Maranoa	55-64	Married	1	9518
+Darling Downs - Maranoa	55-64	Never married		3897
+Darling Downs - Maranoa	65-74	Married	0	548
+Darling Downs - Maranoa	65-74	Married	1	7751
+Darling Downs - Maranoa	65-74	Never married		3479
+Darling Downs - Maranoa	75-84	Married	0	128
+Darling Downs - Maranoa	75-84	Married	1	3411
+Darling Downs - Maranoa	75-84	Never married		2508
+Darling Downs - Maranoa	85+	Married	0	22
+Darling Downs - Maranoa	85+	Married	1	588
+Darling Downs - Maranoa	85+	Never married		1099
+Central Queensland	15-19	Married	0	437
+Central Queensland	15-19	Married	1	22
+Central Queensland	15-19	Never married		11469
+Central Queensland	20-24	Married	0	3121
+Central Queensland	20-24	Married	1	731
+Central Queensland	20-24	Never married		7252
+Central Queensland	25-34	Married	0	6131
+Central Queensland	25-34	Married	1	10923
+Central Queensland	25-34	Never married		8062
+Central Queensland	35-44	Married	0	3599
+Central Queensland	35-44	Married	1	15166
+Central Queensland	35-44	Never married		6036
+Central Queensland	45-54	Married	0	3114
+Central Queensland	45-54	Married	1	15793
+Central Queensland	45-54	Never married		7266
+Central Queensland	55-64	Married	0	1804
+Central Queensland	55-64	Married	1	14273
+Central Queensland	55-64	Never married		6293
+Central Queensland	65-74	Married	0	697
+Central Queensland	65-74	Married	1	9161
+Central Queensland	65-74	Never married		4668
+Central Queensland	75-84	Married	0	166
+Central Queensland	75-84	Married	1	3848
+Central Queensland	75-84	Never married		3243
+Central Queensland	85+	Married	0	26
+Central Queensland	85+	Married	1	657
+Central Queensland	85+	Never married		1449
+Gold Coast	15-19	Married	0	517
+Gold Coast	15-19	Married	1	27
+Gold Coast	15-19	Never married		30779
+Gold Coast	20-24	Married	0	5759
+Gold Coast	20-24	Married	1	1167
+Gold Coast	20-24	Never married		25475
+Gold Coast	25-34	Married	0	17234
+Gold Coast	25-34	Married	1	23196
+Gold Coast	25-34	Never married		27210
+Gold Coast	35-44	Married	0	10647
+Gold Coast	35-44	Married	1	40534
+Gold Coast	35-44	Never married		19226
+Gold Coast	45-54	Married	0	8302
+Gold Coast	45-54	Married	1	40523
+Gold Coast	45-54	Never married		20428
+Gold Coast	55-64	Married	0	5012
+Gold Coast	55-64	Married	1	34978
+Gold Coast	55-64	Never married		18455
+Gold Coast	65-74	Married	0	2568
+Gold Coast	65-74	Married	1	29951
+Gold Coast	65-74	Never married		15522
+Gold Coast	75-84	Married	0	679
+Gold Coast	75-84	Married	1	13067
+Gold Coast	75-84	Never married		9831
+Gold Coast	85+	Married	0	114
+Gold Coast	85+	Married	1	2750
+Gold Coast	85+	Never married		5213
+Ipswich	15-19	Married	0	393
+Ipswich	15-19	Married	1	26
+Ipswich	15-19	Never married		19369
+Ipswich	20-24	Married	0	3896
+Ipswich	20-24	Married	1	1208
+Ipswich	20-24	Never married		13973
+Ipswich	25-34	Married	0	9087
+Ipswich	25-34	Married	1	17114
+Ipswich	25-34	Never married		14664
+Ipswich	35-44	Married	0	5722
+Ipswich	35-44	Married	1	22352
+Ipswich	35-44	Never married		10918
+Ipswich	45-54	Married	0	4204
+Ipswich	45-54	Married	1	21901
+Ipswich	45-54	Never married		11617
+Ipswich	55-64	Married	0	2133
+Ipswich	55-64	Married	1	18511
+Ipswich	55-64	Never married		9498
+Ipswich	65-74	Married	0	879
+Ipswich	65-74	Married	1	12852
+Ipswich	65-74	Never married		6717
+Ipswich	75-84	Married	0	195
+Ipswich	75-84	Married	1	5225
+Ipswich	75-84	Never married		4469
+Ipswich	85+	Married	0	16
+Ipswich	85+	Married	1	930
+Ipswich	85+	Never married		1959
+Logan - Beaudesert	15-19	Married	0	423
+Logan - Beaudesert	15-19	Married	1	29
+Logan - Beaudesert	15-19	Never married		19906
+Logan - Beaudesert	20-24	Married	0	3485
+Logan - Beaudesert	20-24	Married	1	1254
+Logan - Beaudesert	20-24	Never married		14700
+Logan - Beaudesert	25-34	Married	0	8751
+Logan - Beaudesert	25-34	Married	1	15898
+Logan - Beaudesert	25-34	Never married		15115
+Logan - Beaudesert	35-44	Married	0	5814
+Logan - Beaudesert	35-44	Married	1	22251
+Logan - Beaudesert	35-44	Never married		11213
+Logan - Beaudesert	45-54	Married	0	4443
+Logan - Beaudesert	45-54	Married	1	21873
+Logan - Beaudesert	45-54	Never married		10941
+Logan - Beaudesert	55-64	Married	0	2393
+Logan - Beaudesert	55-64	Married	1	19903
+Logan - Beaudesert	55-64	Never married		9088
+Logan - Beaudesert	65-74	Married	0	1000
+Logan - Beaudesert	65-74	Married	1	14240
+Logan - Beaudesert	65-74	Never married		7272
+Logan - Beaudesert	75-84	Married	0	217
+Logan - Beaudesert	75-84	Married	1	4784
+Logan - Beaudesert	75-84	Never married		3939
+Logan - Beaudesert	85+	Married	0	45
+Logan - Beaudesert	85+	Married	1	812
+Logan - Beaudesert	85+	Never married		1643
+Mackay - Isaac - Whitsunday	15-19	Married	0	289
+Mackay - Isaac - Whitsunday	15-19	Married	1	9
+Mackay - Isaac - Whitsunday	15-19	Never married		8352
+Mackay - Isaac - Whitsunday	20-24	Married	0	2217
+Mackay - Isaac - Whitsunday	20-24	Married	1	487
+Mackay - Isaac - Whitsunday	20-24	Never married		5057
+Mackay - Isaac - Whitsunday	25-34	Married	0	5065
+Mackay - Isaac - Whitsunday	25-34	Married	1	8106
+Mackay - Isaac - Whitsunday	25-34	Never married		6149
+Mackay - Isaac - Whitsunday	35-44	Married	0	2955
+Mackay - Isaac - Whitsunday	35-44	Married	1	11369
+Mackay - Isaac - Whitsunday	35-44	Never married		4760
+Mackay - Isaac - Whitsunday	45-54	Married	0	2572
+Mackay - Isaac - Whitsunday	45-54	Married	1	12039
+Mackay - Isaac - Whitsunday	45-54	Never married		5257
+Mackay - Isaac - Whitsunday	55-64	Married	0	1428
+Mackay - Isaac - Whitsunday	55-64	Married	1	11010
+Mackay - Isaac - Whitsunday	55-64	Never married		4700
+Mackay - Isaac - Whitsunday	65-74	Married	0	518
+Mackay - Isaac - Whitsunday	65-74	Married	1	6969
+Mackay - Isaac - Whitsunday	65-74	Never married		3399
+Mackay - Isaac - Whitsunday	75-84	Married	0	120
+Mackay - Isaac - Whitsunday	75-84	Married	1	2715
+Mackay - Isaac - Whitsunday	75-84	Never married		2266
+Mackay - Isaac - Whitsunday	85+	Married	0	10
+Mackay - Isaac - Whitsunday	85+	Married	1	478
+Mackay - Isaac - Whitsunday	85+	Never married		1002
+Moreton Bay - North	15-19	Married	0	314
+Moreton Bay - North	15-19	Married	1	16
+Moreton Bay - North	15-19	Never married		13386
+Moreton Bay - North	20-24	Married	0	2348
+Moreton Bay - North	20-24	Married	1	641
+Moreton Bay - North	20-24	Never married		8959
+Moreton Bay - North	25-34	Married	0	5448
+Moreton Bay - North	25-34	Married	1	8462
+Moreton Bay - North	25-34	Never married		9419
+Moreton Bay - North	35-44	Married	0	4269
+Moreton Bay - North	35-44	Married	1	14023
+Moreton Bay - North	35-44	Never married		7794
+Moreton Bay - North	45-54	Married	0	3573
+Moreton Bay - North	45-54	Married	1	16201
+Moreton Bay - North	45-54	Never married		8991
+Moreton Bay - North	55-64	Married	0	2205
+Moreton Bay - North	55-64	Married	1	16391
+Moreton Bay - North	55-64	Never married		8030
+Moreton Bay - North	65-74	Married	0	1249
+Moreton Bay - North	65-74	Married	1	14900
+Moreton Bay - North	65-74	Never married		7439
+Moreton Bay - North	75-84	Married	0	305
+Moreton Bay - North	75-84	Married	1	6401
+Moreton Bay - North	75-84	Never married		4794
+Moreton Bay - North	85+	Married	0	33
+Moreton Bay - North	85+	Married	1	1174
+Moreton Bay - North	85+	Never married		2340
+Moreton Bay - South	15-19	Married	0	207
+Moreton Bay - South	15-19	Married	1	14
+Moreton Bay - South	15-19	Never married		12010
+Moreton Bay - South	20-24	Married	0	2275
+Moreton Bay - South	20-24	Married	1	645
+Moreton Bay - South	20-24	Never married		8280
+Moreton Bay - South	25-34	Married	0	5615
+Moreton Bay - South	25-34	Married	1	10845
+Moreton Bay - South	25-34	Never married		7579
+Moreton Bay - South	35-44	Married	0	3664
+Moreton Bay - South	35-44	Married	1	18065
+Moreton Bay - South	35-44	Never married		5690
+Moreton Bay - South	45-54	Married	0	2662
+Moreton Bay - South	45-54	Married	1	16927
+Moreton Bay - South	45-54	Never married		5447
+Moreton Bay - South	55-64	Married	0	1239
+Moreton Bay - South	55-64	Married	1	13074
+Moreton Bay - South	55-64	Never married		4201
+Moreton Bay - South	65-74	Married	0	482
+Moreton Bay - South	65-74	Married	1	9376
+Moreton Bay - South	65-74	Never married		3403
+Moreton Bay - South	75-84	Married	0	87
+Moreton Bay - South	75-84	Married	1	2924
+Moreton Bay - South	75-84	Never married		1935
+Moreton Bay - South	85+	Married	0	9
+Moreton Bay - South	85+	Married	1	486
+Moreton Bay - South	85+	Never married		1041
+Queensland - Outback	15-19	Married	0	168
+Queensland - Outback	15-19	Married	1	6
+Queensland - Outback	15-19	Never married		3572
+Queensland - Outback	20-24	Married	0	1233
+Queensland - Outback	20-24	Married	1	189
+Queensland - Outback	20-24	Never married		2823
+Queensland - Outback	25-34	Married	0	3130
+Queensland - Outback	25-34	Married	1	2770
+Queensland - Outback	25-34	Never married		3708
+Queensland - Outback	35-44	Married	0	2093
+Queensland - Outback	35-44	Married	1	3771
+Queensland - Outback	35-44	Never married		2536
+Queensland - Outback	45-54	Married	0	1605
+Queensland - Outback	45-54	Married	1	4367
+Queensland - Outback	45-54	Never married		2824
+Queensland - Outback	55-64	Married	0	878
+Queensland - Outback	55-64	Married	1	3900
+Queensland - Outback	55-64	Never married		2665
+Queensland - Outback	65-74	Married	0	283
+Queensland - Outback	65-74	Married	1	2291
+Queensland - Outback	65-74	Never married		1909
+Queensland - Outback	75-84	Married	0	51
+Queensland - Outback	75-84	Married	1	810
+Queensland - Outback	75-84	Never married		972
+Queensland - Outback	85+	Married	0	14
+Queensland - Outback	85+	Married	1	121
+Queensland - Outback	85+	Never married		326
+Sunshine Coast	15-19	Married	0	273
+Sunshine Coast	15-19	Married	1	17
+Sunshine Coast	15-19	Never married		18318
+Sunshine Coast	20-24	Married	0	2560
+Sunshine Coast	20-24	Married	1	658
+Sunshine Coast	20-24	Never married		11481
+Sunshine Coast	25-34	Married	0	7380
+Sunshine Coast	25-34	Married	1	11760
+Sunshine Coast	25-34	Never married		11838
+Sunshine Coast	35-44	Married	0	5982
+Sunshine Coast	35-44	Married	1	23045
+Sunshine Coast	35-44	Never married		9988
+Sunshine Coast	45-54	Married	0	5586
+Sunshine Coast	45-54	Married	1	26219
+Sunshine Coast	45-54	Never married		12408
+Sunshine Coast	55-64	Married	0	3909
+Sunshine Coast	55-64	Married	1	25924
+Sunshine Coast	55-64	Never married		11923
+Sunshine Coast	65-74	Married	0	2029
+Sunshine Coast	65-74	Married	1	24230
+Sunshine Coast	65-74	Never married		9993
+Sunshine Coast	75-84	Married	0	491
+Sunshine Coast	75-84	Married	1	11527
+Sunshine Coast	75-84	Never married		6928
+Sunshine Coast	85+	Married	0	56
+Sunshine Coast	85+	Married	1	2343
+Sunshine Coast	85+	Never married		3853
+Toowoomba	15-19	Married	0	227
+Toowoomba	15-19	Married	1	22
+Toowoomba	15-19	Never married		8423
+Toowoomba	20-24	Married	0	1808
+Toowoomba	20-24	Married	1	601
+Toowoomba	20-24	Never married		5897
+Toowoomba	25-34	Married	0	3415
+Toowoomba	25-34	Married	1	7498
+Toowoomba	25-34	Never married		6187
+Toowoomba	35-44	Married	0	1688
+Toowoomba	35-44	Married	1	10104
+Toowoomba	35-44	Never married		4357
+Toowoomba	45-54	Married	0	1549
+Toowoomba	45-54	Married	1	10584
+Toowoomba	45-54	Never married		4824
+Toowoomba	55-64	Married	0	926
+Toowoomba	55-64	Married	1	10094
+Toowoomba	55-64	Never married		4322
+Toowoomba	65-74	Married	0	424
+Toowoomba	65-74	Married	1	7948
+Toowoomba	65-74	Never married		3649
+Toowoomba	75-84	Married	0	94
+Toowoomba	75-84	Married	1	3792
+Toowoomba	75-84	Never married		2862
+Toowoomba	85+	Married	0	17
+Toowoomba	85+	Married	1	771
+Toowoomba	85+	Never married		1640
+Townsville	15-19	Married	0	402
+Townsville	15-19	Married	1	11
+Townsville	15-19	Never married		12793
+Townsville	20-24	Married	0	3503
+Townsville	20-24	Married	1	710
+Townsville	20-24	Never married		9860
+Townsville	25-34	Married	0	6956
+Townsville	25-34	Married	1	9883
+Townsville	25-34	Never married		9964
+Townsville	35-44	Married	0	4171
+Townsville	35-44	Married	1	14338
+Townsville	35-44	Never married		7343
+Townsville	45-54	Married	0	3155
+Townsville	45-54	Married	1	15236
+Townsville	45-54	Never married		7855
+Townsville	55-64	Married	0	1976
+Townsville	55-64	Married	1	14081
+Townsville	55-64	Never married		7003
+Townsville	65-74	Married	0	768
+Townsville	65-74	Married	1	10151
+Townsville	65-74	Never married		5302
+Townsville	75-84	Married	0	184
+Townsville	75-84	Married	1	4224
+Townsville	75-84	Never married		3513
+Townsville	85+	Married	0	33
+Townsville	85+	Married	1	797
+Townsville	85+	Never married		1636
+Wide Bay	15-19	Married	0	440
+Wide Bay	15-19	Married	1	17
+Wide Bay	15-19	Never married		14279
+Wide Bay	20-24	Married	0	2581
+Wide Bay	20-24	Married	1	710
+Wide Bay	20-24	Never married		7746
+Wide Bay	25-34	Married	0	5135
+Wide Bay	25-34	Married	1	8516
+Wide Bay	25-34	Never married		9283
+Wide Bay	35-44	Married	0	4028
+Wide Bay	35-44	Married	1	14418
+Wide Bay	35-44	Never married		8430
+Wide Bay	45-54	Married	0	4015
+Wide Bay	45-54	Married	1	18720
+Wide Bay	45-54	Never married		10667
+Wide Bay	55-64	Married	0	3187
+Wide Bay	55-64	Married	1	22943
+Wide Bay	55-64	Never married		11008
+Wide Bay	65-74	Married	0	1992
+Wide Bay	65-74	Married	1	23503
+Wide Bay	65-74	Never married		10517
+Wide Bay	75-84	Married	0	553
+Wide Bay	75-84	Married	1	10211
+Wide Bay	75-84	Never married		7019
+Wide Bay	85+	Married	0	72
+Wide Bay	85+	Married	1	1745
+Wide Bay	85+	Never married		3152
+Adelaide - Central and Hills	15-19	Married	0	148
+Adelaide - Central and Hills	15-19	Married	1	14
+Adelaide - Central and Hills	15-19	Never married		16001
+Adelaide - Central and Hills	20-24	Married	0	1679
+Adelaide - Central and Hills	20-24	Married	1	479
+Adelaide - Central and Hills	20-24	Never married		16224
+Adelaide - Central and Hills	25-34	Married	0	6322
+Adelaide - Central and Hills	25-34	Married	1	11883
+Adelaide - Central and Hills	25-34	Never married		14619
+Adelaide - Central and Hills	35-44	Married	0	3740
+Adelaide - Central and Hills	35-44	Married	1	21669
+Adelaide - Central and Hills	35-44	Never married		8109
+Adelaide - Central and Hills	45-54	Married	0	3562
+Adelaide - Central and Hills	45-54	Married	1	23315
+Adelaide - Central and Hills	45-54	Never married		9466
+Adelaide - Central and Hills	55-64	Married	0	2648
+Adelaide - Central and Hills	55-64	Married	1	20691
+Adelaide - Central and Hills	55-64	Never married		9198
+Adelaide - Central and Hills	65-74	Married	0	1178
+Adelaide - Central and Hills	65-74	Married	1	16626
+Adelaide - Central and Hills	65-74	Never married		7466
+Adelaide - Central and Hills	75-84	Married	0	245
+Adelaide - Central and Hills	75-84	Married	1	7999
+Adelaide - Central and Hills	75-84	Never married		5783
+Adelaide - Central and Hills	85+	Married	0	41
+Adelaide - Central and Hills	85+	Married	1	1961
+Adelaide - Central and Hills	85+	Never married		3796
+Adelaide - North	15-19	Married	0	327
+Adelaide - North	15-19	Married	1	44
+Adelaide - North	15-19	Never married		24363
+Adelaide - North	20-24	Married	0	3807
+Adelaide - North	20-24	Married	1	1597
+Adelaide - North	20-24	Never married		20951
+Adelaide - North	25-34	Married	0	10602
+Adelaide - North	25-34	Married	1	23259
+Adelaide - North	25-34	Never married		22916
+Adelaide - North	35-44	Married	0	6424
+Adelaide - North	35-44	Married	1	29484
+Adelaide - North	35-44	Never married		15362
+Adelaide - North	45-54	Married	0	5505
+Adelaide - North	45-54	Married	1	28845
+Adelaide - North	45-54	Never married		16946
+Adelaide - North	55-64	Married	0	2910
+Adelaide - North	55-64	Married	1	26618
+Adelaide - North	55-64	Never married		14207
+Adelaide - North	65-74	Married	0	1121
+Adelaide - North	65-74	Married	1	20974
+Adelaide - North	65-74	Never married		9889
+Adelaide - North	75-84	Married	0	291
+Adelaide - North	75-84	Married	1	9687
+Adelaide - North	75-84	Never married		7036
+Adelaide - North	85+	Married	0	65
+Adelaide - North	85+	Married	1	1856
+Adelaide - North	85+	Never married		3404
+Adelaide - South	15-19	Married	0	210
+Adelaide - South	15-19	Married	1	23
+Adelaide - South	15-19	Never married		19740
+Adelaide - South	20-24	Married	0	2633
+Adelaide - South	20-24	Married	1	719
+Adelaide - South	20-24	Never married		17038
+Adelaide - South	25-34	Married	0	9007
+Adelaide - South	25-34	Married	1	15420
+Adelaide - South	25-34	Never married		16365
+Adelaide - South	35-44	Married	0	6036
+Adelaide - South	35-44	Married	1	25207
+Adelaide - South	35-44	Never married		11053
+Adelaide - South	45-54	Married	0	4768
+Adelaide - South	45-54	Married	1	26345
+Adelaide - South	45-54	Never married		12881
+Adelaide - South	55-64	Married	0	3257
+Adelaide - South	55-64	Married	1	26284
+Adelaide - South	55-64	Never married		12409
+Adelaide - South	65-74	Married	0	1393
+Adelaide - South	65-74	Married	1	21166
+Adelaide - South	65-74	Never married		9505
+Adelaide - South	75-84	Married	0	319
+Adelaide - South	75-84	Married	1	9496
+Adelaide - South	75-84	Never married		6570
+Adelaide - South	85+	Married	0	58
+Adelaide - South	85+	Married	1	2382
+Adelaide - South	85+	Never married		4486
+Adelaide - West	15-19	Married	0	126
+Adelaide - West	15-19	Married	1	15
+Adelaide - West	15-19	Never married		11734
+Adelaide - West	20-24	Married	0	1454
+Adelaide - West	20-24	Married	1	509
+Adelaide - West	20-24	Never married		12580
+Adelaide - West	25-34	Married	0	5943
+Adelaide - West	25-34	Married	1	11138
+Adelaide - West	25-34	Never married		13749
+Adelaide - West	35-44	Married	0	3523
+Adelaide - West	35-44	Married	1	15386
+Adelaide - West	35-44	Never married		8330
+Adelaide - West	45-54	Married	0	3129
+Adelaide - West	45-54	Married	1	15408
+Adelaide - West	45-54	Never married		10374
+Adelaide - West	55-64	Married	0	2036
+Adelaide - West	55-64	Married	1	13834
+Adelaide - West	55-64	Never married		9614
+Adelaide - West	65-74	Married	0	777
+Adelaide - West	65-74	Married	1	10847
+Adelaide - West	65-74	Never married		6737
+Adelaide - West	75-84	Married	0	211
+Adelaide - West	75-84	Married	1	6415
+Adelaide - West	75-84	Never married		5196
+Adelaide - West	85+	Married	0	49
+Adelaide - West	85+	Married	1	1678
+Adelaide - West	85+	Never married		3376
+Barossa - Yorke - Mid North	15-19	Married	0	93
+Barossa - Yorke - Mid North	15-19	Married	1	10
+Barossa - Yorke - Mid North	15-19	Never married		5527
+Barossa - Yorke - Mid North	20-24	Married	0	886
+Barossa - Yorke - Mid North	20-24	Married	1	214
+Barossa - Yorke - Mid North	20-24	Never married		2982
+Barossa - Yorke - Mid North	25-34	Married	0	2174
+Barossa - Yorke - Mid North	25-34	Married	1	3725
+Barossa - Yorke - Mid North	25-34	Never married		3281
+Barossa - Yorke - Mid North	35-44	Married	0	1551
+Barossa - Yorke - Mid North	35-44	Married	1	6232
+Barossa - Yorke - Mid North	35-44	Never married		2771
+Barossa - Yorke - Mid North	45-54	Married	0	1670
+Barossa - Yorke - Mid North	45-54	Married	1	8163
+Barossa - Yorke - Mid North	45-54	Never married		3918
+Barossa - Yorke - Mid North	55-64	Married	0	1292
+Barossa - Yorke - Mid North	55-64	Married	1	9862
+Barossa - Yorke - Mid North	55-64	Never married		4053
+Barossa - Yorke - Mid North	65-74	Married	0	621
+Barossa - Yorke - Mid North	65-74	Married	1	8574
+Barossa - Yorke - Mid North	65-74	Never married		3411
+Barossa - Yorke - Mid North	75-84	Married	0	149
+Barossa - Yorke - Mid North	75-84	Married	1	3697
+Barossa - Yorke - Mid North	75-84	Never married		2598
+Barossa - Yorke - Mid North	85+	Married	0	21
+Barossa - Yorke - Mid North	85+	Married	1	692
+Barossa - Yorke - Mid North	85+	Never married		1352
+South Australia - Outback	15-19	Married	0	130
+South Australia - Outback	15-19	Married	1	21
+South Australia - Outback	15-19	Never married		3811
+South Australia - Outback	20-24	Married	0	1009
+South Australia - Outback	20-24	Married	1	214
+South Australia - Outback	20-24	Never married		2493
+South Australia - Outback	25-34	Married	0	2410
+South Australia - Outback	25-34	Married	1	3010
+South Australia - Outback	25-34	Never married		3227
+South Australia - Outback	35-44	Married	0	1517
+South Australia - Outback	35-44	Married	1	4340
+South Australia - Outback	35-44	Never married		2438
+South Australia - Outback	45-54	Married	0	1454
+South Australia - Outback	45-54	Married	1	5172
+South Australia - Outback	45-54	Never married		3309
+South Australia - Outback	55-64	Married	0	813
+South Australia - Outback	55-64	Married	1	5550
+South Australia - Outback	55-64	Never married		2918
+South Australia - Outback	65-74	Married	0	283
+South Australia - Outback	65-74	Married	1	4216
+South Australia - Outback	65-74	Never married		2199
+South Australia - Outback	75-84	Married	0	83
+South Australia - Outback	75-84	Married	1	1825
+South Australia - Outback	75-84	Never married		1523
+South Australia - Outback	85+	Married	0	18
+South Australia - Outback	85+	Married	1	356
+South Australia - Outback	85+	Never married		736
+South Australia - South East	15-19	Married	0	230
+South Australia - South East	15-19	Married	1	14
+South Australia - South East	15-19	Never married		9065
+South Australia - South East	20-24	Married	0	1629
+South Australia - South East	20-24	Married	1	441
+South Australia - South East	20-24	Never married		5343
+South Australia - South East	25-34	Married	0	3640
+South Australia - South East	25-34	Married	1	6230
+South Australia - South East	25-34	Never married		5936
+South Australia - South East	35-44	Married	0	2766
+South Australia - South East	35-44	Married	1	10166
+South Australia - South East	35-44	Never married		4952
+South Australia - South East	45-54	Married	0	2779
+South Australia - South East	45-54	Married	1	12877
+South Australia - South East	45-54	Never married		6647
+South Australia - South East	55-64	Married	0	2015
+South Australia - South East	55-64	Married	1	14945
+South Australia - South East	55-64	Never married		6633
+South Australia - South East	65-74	Married	0	967
+South Australia - South East	65-74	Married	1	14176
+South Australia - South East	65-74	Never married		5716
+South Australia - South East	75-84	Married	0	243
+South Australia - South East	75-84	Married	1	6809
+South Australia - South East	75-84	Never married		3986
+South Australia - South East	85+	Married	0	53
+South Australia - South East	85+	Married	1	1428
+South Australia - South East	85+	Never married		2283
+No usual address (SA)	55-64	Never married		3
+Bunbury	15-19	Married	0	190
+Bunbury	15-19	Married	1	7
+Bunbury	15-19	Never married		9415
+Bunbury	20-24	Married	0	1582
+Bunbury	20-24	Married	1	384
+Bunbury	20-24	Never married		4789
+Bunbury	25-34	Married	0	4382
+Bunbury	25-34	Married	1	6710
+Bunbury	25-34	Never married		5818
+Bunbury	35-44	Married	0	3267
+Bunbury	35-44	Married	1	12130
+Bunbury	35-44	Never married		4636
+Bunbury	45-54	Married	0	2920
+Bunbury	45-54	Married	1	13108
+Bunbury	45-54	Never married		5417
+Bunbury	55-64	Married	0	1805
+Bunbury	55-64	Married	1	12966
+Bunbury	55-64	Never married		5160
+Bunbury	65-74	Married	0	735
+Bunbury	65-74	Married	1	10237
+Bunbury	65-74	Never married		4019
+Bunbury	75-84	Married	0	171
+Bunbury	75-84	Married	1	4260
+Bunbury	75-84	Never married		2745
+Bunbury	85+	Married	0	29
+Bunbury	85+	Married	1	853
+Bunbury	85+	Never married		1382
+Mandurah	15-19	Married	0	148
+Mandurah	15-19	Married	1	3
+Mandurah	15-19	Never married		5218
+Mandurah	20-24	Married	0	972
+Mandurah	20-24	Married	1	235
+Mandurah	20-24	Never married		3230
+Mandurah	25-34	Married	0	2304
+Mandurah	25-34	Married	1	3440
+Mandurah	25-34	Never married		3157
+Mandurah	35-44	Married	0	1535
+Mandurah	35-44	Married	1	5596
+Mandurah	35-44	Never married		2613
+Mandurah	45-54	Married	0	1435
+Mandurah	45-54	Married	1	6509
+Mandurah	45-54	Never married		3069
+Mandurah	55-64	Married	0	873
+Mandurah	55-64	Married	1	6725
+Mandurah	55-64	Never married		3005
+Mandurah	65-74	Married	0	551
+Mandurah	65-74	Married	1	6977
+Mandurah	65-74	Never married		2726
+Mandurah	75-84	Married	0	191
+Mandurah	75-84	Married	1	3837
+Mandurah	75-84	Never married		2071
+Mandurah	85+	Married	0	17
+Mandurah	85+	Married	1	711
+Mandurah	85+	Never married		1018
+Perth - Inner	15-19	Married	0	69
+Perth - Inner	15-19	Married	1	6
+Perth - Inner	15-19	Never married		7595
+Perth - Inner	20-24	Married	0	1280
+Perth - Inner	20-24	Married	1	307
+Perth - Inner	20-24	Never married		9040
+Perth - Inner	25-34	Married	0	6397
+Perth - Inner	25-34	Married	1	7590
+Perth - Inner	25-34	Never married		12474
+Perth - Inner	35-44	Married	0	2595
+Perth - Inner	35-44	Married	1	12378
+Perth - Inner	35-44	Never married		5072
+Perth - Inner	45-54	Married	0	1935
+Perth - Inner	45-54	Married	1	12605
+Perth - Inner	45-54	Never married		4795
+Perth - Inner	55-64	Married	0	1353
+Perth - Inner	55-64	Married	1	10128
+Perth - Inner	55-64	Never married		4771
+Perth - Inner	65-74	Married	0	553
+Perth - Inner	65-74	Married	1	7076
+Perth - Inner	65-74	Never married		3808
+Perth - Inner	75-84	Married	0	162
+Perth - Inner	75-84	Married	1	3301
+Perth - Inner	75-84	Never married		2706
+Perth - Inner	85+	Married	0	26
+Perth - Inner	85+	Married	1	845
+Perth - Inner	85+	Never married		1799
+Perth - North East	15-19	Married	0	169
+Perth - North East	15-19	Married	1	13
+Perth - North East	15-19	Never married		14132
+Perth - North East	20-24	Married	0	2172
+Perth - North East	20-24	Married	1	821
+Perth - North East	20-24	Never married		11406
+Perth - North East	25-34	Married	0	7560
+Perth - North East	25-34	Married	1	14258
+Perth - North East	25-34	Never married		12653
+Perth - North East	35-44	Married	0	4534
+Perth - North East	35-44	Married	1	19355
+Perth - North East	35-44	Never married		8067
+Perth - North East	45-54	Married	0	3587
+Perth - North East	45-54	Married	1	19086
+Perth - North East	45-54	Never married		8515
+Perth - North East	55-64	Married	0	1950
+Perth - North East	55-64	Married	1	15676
+Perth - North East	55-64	Never married		7520
+Perth - North East	65-74	Married	0	808
+Perth - North East	65-74	Married	1	10873
+Perth - North East	65-74	Never married		5356
+Perth - North East	75-84	Married	0	179
+Perth - North East	75-84	Married	1	4725
+Perth - North East	75-84	Never married		3424
+Perth - North East	85+	Married	0	36
+Perth - North East	85+	Married	1	886
+Perth - North East	85+	Never married		1679
+Perth - North West	15-19	Married	0	300
+Perth - North West	15-19	Married	1	26
+Perth - North West	15-19	Never married		31483
+Perth - North West	20-24	Married	0	3956
+Perth - North West	20-24	Married	1	1372
+Perth - North West	20-24	Never married		25903
+Perth - North West	25-34	Married	0	16872
+Perth - North West	25-34	Married	1	29045
+Perth - North West	25-34	Never married		27713
+Perth - North West	35-44	Married	0	8594
+Perth - North West	35-44	Married	1	45909
+Perth - North West	35-44	Never married		15613
+Perth - North West	45-54	Married	0	6281
+Perth - North West	45-54	Married	1	44733
+Perth - North West	45-54	Never married		16261
+Perth - North West	55-64	Married	0	3337
+Perth - North West	55-64	Married	1	35486
+Perth - North West	55-64	Never married		13951
+Perth - North West	65-74	Married	0	1363
+Perth - North West	65-74	Married	1	24856
+Perth - North West	65-74	Never married		10410
+Perth - North West	75-84	Married	0	332
+Perth - North West	75-84	Married	1	11103
+Perth - North West	75-84	Never married		7599
+Perth - North West	85+	Married	0	66
+Perth - North West	85+	Married	1	2306
+Perth - North West	85+	Never married		3860
+Perth - South East	15-19	Married	0	395
+Perth - South East	15-19	Married	1	37
+Perth - South East	15-19	Never married		27145
+Perth - South East	20-24	Married	0	4312
+Perth - South East	20-24	Married	1	1789
+Perth - South East	20-24	Never married		26707
+Perth - South East	25-34	Married	0	13757
+Perth - South East	25-34	Married	1	30713
+Perth - South East	25-34	Never married		29244
+Perth - South East	35-44	Married	0	7108
+Perth - South East	35-44	Married	1	39494
+Perth - South East	35-44	Never married		15513
+Perth - South East	45-54	Married	0	5616
+Perth - South East	45-54	Married	1	34714
+Perth - South East	45-54	Never married		15022
+Perth - South East	55-64	Married	0	3216
+Perth - South East	55-64	Married	1	29561
+Perth - South East	55-64	Never married		13734
+Perth - South East	65-74	Married	0	1343
+Perth - South East	65-74	Married	1	20998
+Perth - South East	65-74	Never married		10140
+Perth - South East	75-84	Married	0	291
+Perth - South East	75-84	Married	1	8948
+Perth - South East	75-84	Never married		6902
+Perth - South East	85+	Married	0	57
+Perth - South East	85+	Married	1	1869
+Perth - South East	85+	Never married		3666
+Perth - South West	15-19	Married	0	288
+Perth - South West	15-19	Married	1	20
+Perth - South West	15-19	Never married		22937
+Perth - South West	20-24	Married	0	3840
+Perth - South West	20-24	Married	1	849
+Perth - South West	20-24	Never married		18317
+Perth - South West	25-34	Married	0	12099
+Perth - South West	25-34	Married	1	20307
+Perth - South West	25-34	Never married		18749
+Perth - South West	35-44	Married	0	6863
+Perth - South West	35-44	Married	1	32333
+Perth - South West	35-44	Never married		11563
+Perth - South West	45-54	Married	0	5328
+Perth - South West	45-54	Married	1	31424
+Perth - South West	45-54	Never married		12571
+Perth - South West	55-64	Married	0	2988
+Perth - South West	55-64	Married	1	25779
+Perth - South West	55-64	Never married		10909
+Perth - South West	65-74	Married	0	1193
+Perth - South West	65-74	Married	1	18138
+Perth - South West	65-74	Never married		8048
+Perth - South West	75-84	Married	0	282
+Perth - South West	75-84	Married	1	8670
+Perth - South West	75-84	Never married		5995
+Perth - South West	85+	Married	0	51
+Perth - South West	85+	Married	1	1838
+Perth - South West	85+	Never married		3477
+Western Australia - Wheat Belt	15-19	Married	0	139
+Western Australia - Wheat Belt	15-19	Married	1	9
+Western Australia - Wheat Belt	15-19	Never married		5672
+Western Australia - Wheat Belt	20-24	Married	0	1105
+Western Australia - Wheat Belt	20-24	Married	1	258
+Western Australia - Wheat Belt	20-24	Never married		3458
+Western Australia - Wheat Belt	25-34	Married	0	2884
+Western Australia - Wheat Belt	25-34	Married	1	4592
+Western Australia - Wheat Belt	25-34	Never married		4026
+Western Australia - Wheat Belt	35-44	Married	0	2216
+Western Australia - Wheat Belt	35-44	Married	1	7920
+Western Australia - Wheat Belt	35-44	Never married		3163
+Western Australia - Wheat Belt	45-54	Married	0	2199
+Western Australia - Wheat Belt	45-54	Married	1	9791
+Western Australia - Wheat Belt	45-54	Never married		4475
+Western Australia - Wheat Belt	55-64	Married	0	1672
+Western Australia - Wheat Belt	55-64	Married	1	10847
+Western Australia - Wheat Belt	55-64	Never married		4584
+Western Australia - Wheat Belt	65-74	Married	0	682
+Western Australia - Wheat Belt	65-74	Married	1	8773
+Western Australia - Wheat Belt	65-74	Never married		3792
+Western Australia - Wheat Belt	75-84	Married	0	188
+Western Australia - Wheat Belt	75-84	Married	1	3786
+Western Australia - Wheat Belt	75-84	Never married		2642
+Western Australia - Wheat Belt	85+	Married	0	26
+Western Australia - Wheat Belt	85+	Married	1	737
+Western Australia - Wheat Belt	85+	Never married		1220
+Western Australia - Outback (North)	15-19	Married	0	150
+Western Australia - Outback (North)	15-19	Married	1	47
+Western Australia - Outback (North)	15-19	Never married		3419
+Western Australia - Outback (North)	20-24	Married	0	1214
+Western Australia - Outback (North)	20-24	Married	1	243
+Western Australia - Outback (North)	20-24	Never married		2438
+Western Australia - Outback (North)	25-34	Married	0	3892
+Western Australia - Outback (North)	25-34	Married	1	4484
+Western Australia - Outback (North)	25-34	Never married		3894
+Western Australia - Outback (North)	35-44	Married	0	2350
+Western Australia - Outback (North)	35-44	Married	1	5716
+Western Australia - Outback (North)	35-44	Never married		2605
+Western Australia - Outback (North)	45-54	Married	0	1685
+Western Australia - Outback (North)	45-54	Married	1	4174
+Western Australia - Outback (North)	45-54	Never married		2527
+Western Australia - Outback (North)	55-64	Married	0	880
+Western Australia - Outback (North)	55-64	Married	1	2707
+Western Australia - Outback (North)	55-64	Never married		2262
+Western Australia - Outback (North)	65-74	Married	0	164
+Western Australia - Outback (North)	65-74	Married	1	860
+Western Australia - Outback (North)	65-74	Never married		976
+Western Australia - Outback (North)	75-84	Married	0	32
+Western Australia - Outback (North)	75-84	Married	1	148
+Western Australia - Outback (North)	75-84	Never married		352
+Western Australia - Outback (North)	85+	Married	0	4
+Western Australia - Outback (North)	85+	Married	1	13
+Western Australia - Outback (North)	85+	Never married		92
+Western Australia - Outback (South)	15-19	Married	0	196
+Western Australia - Outback (South)	15-19	Married	1	22
+Western Australia - Outback (South)	15-19	Never married		5792
+Western Australia - Outback (South)	20-24	Married	0	1467
+Western Australia - Outback (South)	20-24	Married	1	300
+Western Australia - Outback (South)	20-24	Never married		3492
+Western Australia - Outback (South)	25-34	Married	0	3658
+Western Australia - Outback (South)	25-34	Married	1	4807
+Western Australia - Outback (South)	25-34	Never married		4394
+Western Australia - Outback (South)	35-44	Married	0	2348
+Western Australia - Outback (South)	35-44	Married	1	7110
+Western Australia - Outback (South)	35-44	Never married		3288
+Western Australia - Outback (South)	45-54	Married	0	2063
+Western Australia - Outback (South)	45-54	Married	1	7768
+Western Australia - Outback (South)	45-54	Never married		4061
+Western Australia - Outback (South)	55-64	Married	0	1263
+Western Australia - Outback (South)	55-64	Married	1	6973
+Western Australia - Outback (South)	55-64	Never married		3615
+Western Australia - Outback (South)	65-74	Married	0	487
+Western Australia - Outback (South)	65-74	Married	1	4682
+Western Australia - Outback (South)	65-74	Never married		2706
+Western Australia - Outback (South)	75-84	Married	0	125
+Western Australia - Outback (South)	75-84	Married	1	1891
+Western Australia - Outback (South)	75-84	Never married		1592
+Western Australia - Outback (South)	85+	Married	0	16
+Western Australia - Outback (South)	85+	Married	1	341
+Western Australia - Outback (South)	85+	Never married		615
+Hobart	15-19	Married	0	236
+Hobart	15-19	Married	1	7
+Hobart	15-19	Never married		11872
+Hobart	20-24	Married	0	2148
+Hobart	20-24	Married	1	407
+Hobart	20-24	Never married		9503
+Hobart	25-34	Married	0	6457
+Hobart	25-34	Married	1	8208
+Hobart	25-34	Never married		10662
+Hobart	35-44	Married	0	4368
+Hobart	35-44	Married	1	13389
+Hobart	35-44	Never married		7360
+Hobart	45-54	Married	0	3771
+Hobart	45-54	Married	1	14690
+Hobart	45-54	Never married		8440
+Hobart	55-64	Married	0	2341
+Hobart	55-64	Married	1	15307
+Hobart	55-64	Never married		8352
+Hobart	65-74	Married	0	971
+Hobart	65-74	Married	1	11730
+Hobart	65-74	Never married		6314
+Hobart	75-84	Married	0	227
+Hobart	75-84	Married	1	5325
+Hobart	75-84	Never married		4597
+Hobart	85+	Married	0	34
+Hobart	85+	Married	1	1159
+Hobart	85+	Never married		2444
+Launceston and North East	15-19	Married	0	170
+Launceston and North East	15-19	Married	1	14
+Launceston and North East	15-19	Never married		7526
+Launceston and North East	20-24	Married	0	1438
+Launceston and North East	20-24	Married	1	408
+Launceston and North East	20-24	Never married		5420
+Launceston and North East	25-34	Married	0	3340
+Launceston and North East	25-34	Married	1	4793
+Launceston and North East	25-34	Never married		5092
+Launceston and North East	35-44	Married	0	2290
+Launceston and North East	35-44	Married	1	7888
+Launceston and North East	35-44	Never married		4090
+Launceston and North East	45-54	Married	0	2132
+Launceston and North East	45-54	Married	1	9876
+Launceston and North East	45-54	Never married		5245
+Launceston and North East	55-64	Married	0	1417
+Launceston and North East	55-64	Married	1	10736
+Launceston and North East	55-64	Never married		5282
+Launceston and North East	65-74	Married	0	669
+Launceston and North East	65-74	Married	1	8715
+Launceston and North East	65-74	Never married		4458
+Launceston and North East	75-84	Married	0	146
+Launceston and North East	75-84	Married	1	3778
+Launceston and North East	75-84	Never married		3088
+Launceston and North East	85+	Married	0	35
+Launceston and North East	85+	Married	1	729
+Launceston and North East	85+	Never married		1493
+South East	15-19	Married	0	41
+South East	15-19	Married	1	3
+South East	15-19	Never married		1661
+South East	20-24	Married	0	250
+South East	20-24	Married	1	51
+South East	20-24	Never married		882
+South East	25-34	Married	0	750
+South East	25-34	Married	1	1011
+South East	25-34	Never married		994
+South East	35-44	Married	0	836
+South East	35-44	Married	1	1843
+South East	35-44	Never married		958
+South East	45-54	Married	0	891
+South East	45-54	Married	1	2688
+South East	45-54	Never married		1309
+South East	55-64	Married	0	665
+South East	55-64	Married	1	3405
+South East	55-64	Never married		1592
+South East	65-74	Married	0	336
+South East	65-74	Married	1	2877
+South East	65-74	Never married		1325
+South East	75-84	Married	0	51
+South East	75-84	Married	1	1007
+South East	75-84	Never married		767
+South East	85+	Married	0	7
+South East	85+	Married	1	143
+South East	85+	Never married		286
+West and North West	15-19	Married	0	167
+West and North West	15-19	Married	1	7
+West and North West	15-19	Never married		5823
+West and North West	20-24	Married	0	1216
+West and North West	20-24	Married	1	275
+West and North West	20-24	Never married		3419
+West and North West	25-34	Married	0	2641
+West and North West	25-34	Married	1	3583
+West and North West	25-34	Never married		3635
+West and North West	35-44	Married	0	1948
+West and North West	35-44	Married	1	5808
+West and North West	35-44	Never married		3219
+West and North West	45-54	Married	0	1791
+West and North West	45-54	Married	1	7788
+West and North West	45-54	Never married		4262
+West and North West	55-64	Married	0	1099
+West and North West	55-64	Married	1	8674
+West and North West	55-64	Never married		4001
+West and North West	65-74	Married	0	466
+West and North West	65-74	Married	1	7259
+West and North West	65-74	Never married		3311
+West and North West	75-84	Married	0	133
+West and North West	75-84	Married	1	3219
+West and North West	75-84	Never married		2534
+West and North West	85+	Married	0	21
+West and North West	85+	Married	1	589
+West and North West	85+	Never married		1169
+Darwin	15-19	Married	0	181
+Darwin	15-19	Married	1	10
+Darwin	15-19	Never married		6216
+Darwin	20-24	Married	0	1720
+Darwin	20-24	Married	1	519
+Darwin	20-24	Never married		4896
+Darwin	25-34	Married	0	5678
+Darwin	25-34	Married	1	7827
+Darwin	25-34	Never married		7683
+Darwin	35-44	Married	0	3072
+Darwin	35-44	Married	1	10325
+Darwin	35-44	Never married		4516
+Darwin	45-54	Married	0	2556
+Darwin	45-54	Married	1	8520
+Darwin	45-54	Never married		4477
+Darwin	55-64	Married	0	1366
+Darwin	55-64	Married	1	6238
+Darwin	55-64	Never married		3810
+Darwin	65-74	Married	0	438
+Darwin	65-74	Married	1	3348
+Darwin	65-74	Never married		2363
+Darwin	75-84	Married	0	75
+Darwin	75-84	Married	1	940
+Darwin	75-84	Never married		1055
+Darwin	85+	Married	0	4
+Darwin	85+	Married	1	115
+Darwin	85+	Never married		317
+Northern Territory - Outback	15-19	Married	0	119
+Northern Territory - Outback	15-19	Married	1	228
+Northern Territory - Outback	15-19	Never married		4835
+Northern Territory - Outback	20-24	Married	0	773
+Northern Territory - Outback	20-24	Married	1	1102
+Northern Territory - Outback	20-24	Never married		3397
+Northern Territory - Outback	25-34	Married	0	2413
+Northern Territory - Outback	25-34	Married	1	4795
+Northern Territory - Outback	25-34	Never married		5055
+Northern Territory - Outback	35-44	Married	0	1747
+Northern Territory - Outback	35-44	Married	1	4996
+Northern Territory - Outback	35-44	Never married		3292
+Northern Territory - Outback	45-54	Married	0	1350
+Northern Territory - Outback	45-54	Married	1	4581
+Northern Territory - Outback	45-54	Never married		3406
+Northern Territory - Outback	55-64	Married	0	748
+Northern Territory - Outback	55-64	Married	1	3349
+Northern Territory - Outback	55-64	Never married		2760
+Northern Territory - Outback	65-74	Married	0	245
+Northern Territory - Outback	65-74	Married	1	1320
+Northern Territory - Outback	65-74	Never married		1507
+Northern Territory - Outback	75-84	Married	0	44
+Northern Territory - Outback	75-84	Married	1	324
+Northern Territory - Outback	75-84	Never married		599
+Northern Territory - Outback	85+	Married	0	8
+Northern Territory - Outback	85+	Married	1	46
+Northern Territory - Outback	85+	Never married		149
+Australian Capital Territory	15-19	Married	0	231
+Australian Capital Territory	15-19	Married	1	13
+Australian Capital Territory	15-19	Never married		20419
+Australian Capital Territory	20-24	Married	0	3727
+Australian Capital Territory	20-24	Married	1	939
+Australian Capital Territory	20-24	Never married		19811
+Australian Capital Territory	25-34	Married	0	12367
+Australian Capital Territory	25-34	Married	1	23384
+Australian Capital Territory	25-34	Never married		22550
+Australian Capital Territory	35-44	Married	0	6846
+Australian Capital Territory	35-44	Married	1	34025
+Australian Capital Territory	35-44	Never married		12455
+Australian Capital Territory	45-54	Married	0	5114
+Australian Capital Territory	45-54	Married	1	28995
+Australian Capital Territory	45-54	Never married		12443
+Australian Capital Territory	55-64	Married	0	2804
+Australian Capital Territory	55-64	Married	1	23381
+Australian Capital Territory	55-64	Never married		10790
+Australian Capital Territory	65-74	Married	0	1126
+Australian Capital Territory	65-74	Married	1	16588
+Australian Capital Territory	65-74	Never married		7790
+Australian Capital Territory	75-84	Married	0	246
+Australian Capital Territory	75-84	Married	1	6885
+Australian Capital Territory	75-84	Never married		4847
+Australian Capital Territory	85+	Married	0	42
+Australian Capital Territory	85+	Married	1	1497
+Australian Capital Territory	85+	Never married		2624
+Other Territories	15-19	Married	0	5
+Other Territories	15-19	Never married		169
+Other Territories	20-24	Married	0	15
+Other Territories	20-24	Married	1	12
+Other Territories	20-24	Never married		78
+Other Territories	25-34	Married	0	51
+Other Territories	25-34	Married	1	158
+Other Territories	25-34	Never married		103
+Other Territories	35-44	Married	0	82
+Other Territories	35-44	Married	1	293
+Other Territories	35-44	Never married		107
+Other Territories	45-54	Married	0	83
+Other Territories	45-54	Married	1	283
+Other Territories	45-54	Never married		145
+Other Territories	55-64	Married	0	50
+Other Territories	55-64	Married	1	307
+Other Territories	55-64	Never married		154
+Other Territories	65-74	Married	0	15
+Other Territories	65-74	Married	1	241
+Other Territories	65-74	Never married		105
+Other Territories	75-84	Married	0	3
+Other Territories	75-84	Married	1	74
+Other Territories	75-84	Never married		71
+Other Territories	85+	Married	1	14
+Other Territories	85+	Never married		28

@@ -1,0 +1,414 @@
+STE_NAME16	CountryOfBirth	persons
+New South Wales		747513
+New South Wales	AFG	13032
+New South Wales	AUS	4899202
+New South Wales	BGD	24217
+New South Wales	BIH	7095
+New South Wales	CAN	13290
+New South Wales	CHL	13058
+New South Wales	CHN	234508
+New South Wales	DEU	29541
+New South Wales	EGY	19724
+New South Wales	FJI	33879
+New South Wales	FRA	11540
+New South Wales	GBR	268371
+New South Wales	GRC	29481
+New South Wales	HKG	42347
+New South Wales	HRV	15638
+New South Wales	IDN	31774
+New South Wales	IND	143459
+New South Wales	IRL	24038
+New South Wales	IRN	23048
+New South Wales	IRQ	40271
+New South Wales	ITA	49476
+New South Wales	JPN	14008
+New South Wales	KHM	12439
+New South Wales	KOR	51816
+New South Wales	LBN	57381
+New South Wales	LKA	28732
+New South Wales	MKD	16501
+New South Wales	MLT	14481
+New South Wales	MMR	7128
+New South Wales	MUS	5731
+New South Wales	MYS	31655
+New South Wales	NLD	16900
+New South Wales	NPL	32117
+New South Wales	NZL	117136
+New South Wales	PAK	24524
+New South Wales	PHL	86749
+New South Wales	PNG	5466
+New South Wales	POL	13451
+New South Wales	SGP	12730
+New South Wales	THA	26719
+New South Wales	TUR	12808
+New South Wales	TWN	13493
+New South Wales	USA	30081
+New South Wales	VNM	84130
+New South Wales	ZAF	43058
+New South Wales	ZWE	6495
+Victoria		590730
+Victoria	AFG	18116
+Victoria	AUS	3845510
+Victoria	BGD	7829
+Victoria	BIH	8487
+Victoria	CAN	8967
+Victoria	CHL	7416
+Victoria	CHN	160652
+Victoria	DEU	26308
+Victoria	EGY	13282
+Victoria	FJI	10825
+Victoria	FRA	7144
+Victoria	GBR	207953
+Victoria	GRC	47240
+Victoria	HKG	21642
+Victoria	HRV	15486
+Victoria	IDN	17805
+Victoria	IND	169802
+Victoria	IRL	15615
+Victoria	IRN	16627
+Victoria	IRQ	18637
+Victoria	ITA	70527
+Victoria	JPN	8515
+Victoria	KHM	13587
+Victoria	KOR	14797
+Victoria	LBN	16684
+Victoria	LKA	55830
+Victoria	MKD	17631
+Victoria	MLT	17873
+Victoria	MMR	10973
+Victoria	MUS	11812
+Victoria	MYS	50049
+Victoria	NLD	19813
+Victoria	NPL	9390
+Victoria	NZL	93253
+Victoria	PAK	21125
+Victoria	PHL	51290
+Victoria	PNG	2611
+Victoria	POL	14706
+Victoria	SGP	16063
+Victoria	THA	15979
+Victoria	TUR	15744
+Victoria	TWN	9900
+Victoria	USA	19695
+Victoria	VNM	80787
+Victoria	ZAF	27184
+Victoria	ZWE	4694
+Queensland		456126
+Queensland	AFG	3381
+Queensland	AUS	3343819
+Queensland	BGD	2763
+Queensland	BIH	3187
+Queensland	CAN	10805
+Queensland	CHL	2234
+Queensland	CHN	47114
+Queensland	DEU	20387
+Queensland	EGY	2449
+Queensland	FJI	12614
+Queensland	FRA	5845
+Queensland	GBR	212519
+Queensland	GRC	3298
+Queensland	HKG	10755
+Queensland	HRV	3551
+Queensland	IDN	7321
+Queensland	IND	49145
+Queensland	IRL	11352
+Queensland	IRN	6511
+Queensland	IRQ	2845
+Queensland	ITA	12995
+Queensland	JPN	12402
+Queensland	KHM	2032
+Queensland	KOR	18327
+Queensland	LBN	1418
+Queensland	LKA	9752
+Queensland	MKD	953
+Queensland	MLT	2505
+Queensland	MMR	3172
+Queensland	MUS	1550
+Queensland	MYS	14848
+Queensland	NLD	14067
+Queensland	NPL	5074
+Queensland	NZL	201206
+Queensland	PAK	4675
+Queensland	PHL	39661
+Queensland	PNG	16120
+Queensland	POL	5030
+Queensland	SGP	6716
+Queensland	THA	9978
+Queensland	TUR	1493
+Queensland	TWN	15592
+Queensland	USA	17053
+Queensland	VNM	19544
+Queensland	ZAF	40131
+Queensland	ZWE	8881
+South Australia		141466
+South Australia	AFG	6313
+South Australia	AUS	1192551
+South Australia	BGD	1969
+South Australia	BIH	1967
+South Australia	CAN	2220
+South Australia	CHL	747
+South Australia	CHN	24610
+South Australia	DEU	10119
+South Australia	EGY	1466
+South Australia	FJI	1200
+South Australia	FRA	1365
+South Australia	GBR	114304
+South Australia	GRC	8682
+South Australia	HKG	3576
+South Australia	HRV	2867
+South Australia	IDN	2140
+South Australia	IND	27594
+South Australia	IRL	3299
+South Australia	IRN	4527
+South Australia	IRQ	1482
+South Australia	ITA	18544
+South Australia	JPN	1527
+South Australia	KHM	3201
+South Australia	KOR	3686
+South Australia	LBN	1535
+South Australia	LKA	3787
+South Australia	MKD	388
+South Australia	MLT	1417
+South Australia	MMR	1579
+South Australia	MUS	215
+South Australia	MYS	7749
+South Australia	NLD	6602
+South Australia	NPL	2856
+South Australia	NZL	12937
+South Australia	PAK	3445
+South Australia	PHL	12465
+South Australia	PNG	911
+South Australia	POL	4954
+South Australia	SGP	2491
+South Australia	THA	2846
+South Australia	TUR	593
+South Australia	TWN	1703
+South Australia	USA	4360
+South Australia	VNM	14337
+South Australia	ZAF	6610
+South Australia	ZWE	1486
+Western Australia		258651
+Western Australia	AFG	5120
+Western Australia	AUS	1492859
+Western Australia	BGD	2578
+Western Australia	BIH	2673
+Western Australia	CAN	5431
+Western Australia	CHL	1618
+Western Australia	CHN	27081
+Western Australia	DEU	10958
+Western Australia	EGY	2211
+Western Australia	FJI	1328
+Western Australia	FRA	3818
+Western Australia	GBR	230805
+Western Australia	GRC	2307
+Western Australia	HKG	6129
+Western Australia	HRV	4555
+Western Australia	IDN	11394
+Western Australia	IND	49385
+Western Australia	IRL	18036
+Western Australia	IRN	5815
+Western Australia	IRQ	3432
+Western Australia	ITA	19210
+Western Australia	JPN	4291
+Western Australia	KHM	1256
+Western Australia	KOR	6865
+Western Australia	LBN	1099
+Western Australia	LKA	7796
+Western Australia	MKD	3058
+Western Australia	MLT	898
+Western Australia	MMR	8704
+Western Australia	MUS	4605
+Western Australia	MYS	29126
+Western Australia	NLD	9133
+Western Australia	NPL	2622
+Western Australia	NZL	79221
+Western Australia	PAK	5437
+Western Australia	PHL	30835
+Western Australia	PNG	2031
+Western Australia	POL	5573
+Western Australia	SGP	14987
+Western Australia	THA	7806
+Western Australia	TUR	1198
+Western Australia	TWN	4670
+Western Australia	USA	9301
+Western Australia	VNM	15845
+Western Australia	ZAF	41008
+Western Australia	ZWE	11649
+Tasmania		43777
+Tasmania	AFG	302
+Tasmania	AUS	411492
+Tasmania	BGD	109
+Tasmania	BIH	122
+Tasmania	CAN	822
+Tasmania	CHL	194
+Tasmania	CHN	3036
+Tasmania	DEU	2108
+Tasmania	EGY	133
+Tasmania	FJI	252
+Tasmania	FRA	337
+Tasmania	GBR	21958
+Tasmania	GRC	480
+Tasmania	HKG	457
+Tasmania	HRV	243
+Tasmania	IDN	336
+Tasmania	IND	1980
+Tasmania	IRL	678
+Tasmania	IRN	565
+Tasmania	IRQ	95
+Tasmania	ITA	847
+Tasmania	JPN	413
+Tasmania	KHM	29
+Tasmania	KOR	594
+Tasmania	LBN	76
+Tasmania	LKA	391
+Tasmania	MKD	16
+Tasmania	MLT	111
+Tasmania	MMR	295
+Tasmania	MUS	53
+Tasmania	MYS	1409
+Tasmania	NLD	2193
+Tasmania	NPL	811
+Tasmania	NZL	4977
+Tasmania	PAK	347
+Tasmania	PHL	1616
+Tasmania	PNG	320
+Tasmania	POL	579
+Tasmania	SGP	567
+Tasmania	THA	609
+Tasmania	TUR	72
+Tasmania	TWN	311
+Tasmania	USA	1630
+Tasmania	VNM	400
+Tasmania	ZAF	1524
+Tasmania	ZWE	291
+Northern Territory		30939
+Northern Territory	AFG	63
+Northern Territory	AUS	157533
+Northern Territory	BGD	402
+Northern Territory	BIH	41
+Northern Territory	CAN	356
+Northern Territory	CHL	59
+Northern Territory	CHN	1192
+Northern Territory	DEU	929
+Northern Territory	EGY	55
+Northern Territory	FJI	428
+Northern Territory	FRA	390
+Northern Territory	GBR	6632
+Northern Territory	GRC	1268
+Northern Territory	HKG	285
+Northern Territory	HRV	40
+Northern Territory	IDN	1117
+Northern Territory	IND	3598
+Northern Territory	IRL	1026
+Northern Territory	IRN	153
+Northern Territory	IRQ	42
+Northern Territory	ITA	505
+Northern Territory	JPN	474
+Northern Territory	KHM	221
+Northern Territory	KOR	405
+Northern Territory	LBN	51
+Northern Territory	LKA	779
+Northern Territory	MKD	28
+Northern Territory	MLT	39
+Northern Territory	MMR	205
+Northern Territory	MUS	67
+Northern Territory	MYS	705
+Northern Territory	NLD	424
+Northern Territory	NPL	1126
+Northern Territory	NZL	4636
+Northern Territory	PAK	354
+Northern Territory	PHL	5914
+Northern Territory	PNG	596
+Northern Territory	POL	124
+Northern Territory	SGP	302
+Northern Territory	THA	959
+Northern Territory	TUR	48
+Northern Territory	TWN	628
+Northern Territory	USA	1211
+Northern Territory	VNM	935
+Northern Territory	ZAF	889
+Northern Territory	ZWE	672
+Australian Capital Territory		35896
+Australian Capital Territory	AFG	471
+Australian Capital Territory	AUS	270037
+Australian Capital Territory	BGD	1368
+Australian Capital Territory	BIH	384
+Australian Capital Territory	CAN	1158
+Australian Capital Territory	CHL	760
+Australian Capital Territory	CHN	11351
+Australian Capital Territory	DEU	2228
+Australian Capital Territory	EGY	449
+Australian Capital Territory	FJI	902
+Australian Capital Territory	FRA	674
+Australian Capital Territory	GBR	15388
+Australian Capital Territory	GRC	981
+Australian Capital Territory	HKG	1680
+Australian Capital Territory	HRV	1301
+Australian Capital Territory	IDN	1299
+Australian Capital Territory	IND	10414
+Australian Capital Territory	IRL	844
+Australian Capital Territory	IRN	841
+Australian Capital Territory	IRQ	536
+Australian Capital Territory	ITA	1943
+Australian Capital Territory	JPN	791
+Australian Capital Territory	KHM	386
+Australian Capital Territory	KOR	2287
+Australian Capital Territory	LBN	400
+Australian Capital Territory	LKA	2771
+Australian Capital Territory	MKD	407
+Australian Capital Territory	MLT	285
+Australian Capital Territory	MMR	610
+Australian Capital Territory	MUS	288
+Australian Capital Territory	MYS	2437
+Australian Capital Territory	NLD	1037
+Australian Capital Territory	NPL	761
+Australian Capital Territory	NZL	4734
+Australian Capital Territory	PAK	1996
+Australian Capital Territory	PHL	3798
+Australian Capital Territory	PNG	741
+Australian Capital Territory	POL	943
+Australian Capital Territory	SGP	1026
+Australian Capital Territory	THA	1309
+Australian Capital Territory	TUR	226
+Australian Capital Territory	TWN	522
+Australian Capital Territory	USA	2781
+Australian Capital Territory	VNM	3338
+Australian Capital Territory	ZAF	2012
+Australian Capital Territory	ZWE	623
+Other Territories		683
+Other Territories	AFG	6
+Other Territories	AUS	2535
+Other Territories	BGD	3
+Other Territories	CAN	10
+Other Territories	CHN	19
+Other Territories	DEU	11
+Other Territories	EGY	3
+Other Territories	FJI	52
+Other Territories	FRA	3
+Other Territories	GBR	128
+Other Territories	HKG	10
+Other Territories	IDN	14
+Other Territories	IND	11
+Other Territories	IRL	6
+Other Territories	IRN	31
+Other Territories	IRQ	15
+Other Territories	ITA	4
+Other Territories	JPN	3
+Other Territories	KOR	3
+Other Territories	LBN	6
+Other Territories	LKA	3
+Other Territories	MKD	7
+Other Territories	MLT	4
+Other Territories	MYS	393
+Other Territories	NLD	6
+Other Territories	NZL	366
+Other Territories	PAK	8
+Other Territories	PHL	69
+Other Territories	PNG	16
+Other Territories	SGP	51
+Other Territories	THA	24
+Other Territories	TWN	7
+Other Territories	USA	11
+Other Territories	VNM	33
+Other Territories	ZAF	34
+Other Territories	ZWE	4
