@@ -3,6 +3,8 @@ sudo: true
 cache: packages
 packages:
 - drat
+git:
+  depth: 2
 
 r_github_packages:
 - hughparsonage/Census2016.spec
@@ -13,6 +15,7 @@ include:
 script:
 - export PKG_TARBALL=$(Rscript -e 'pkg <- devtools::as.package("."); cat(paste0(pkg$package,"_",pkg$version,".tar.gz"))')
 - R CMD build .
+- Rscript -e 'devtools::test()'
 after_success:
 - Rscript -e 'if (!requireNamespace("drat", quietly = TRUE)) install.packages("drat")'
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash deploy.sh
