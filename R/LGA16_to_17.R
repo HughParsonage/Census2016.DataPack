@@ -48,6 +48,7 @@
 #'
 #' @author Peter Ellis
 #' @importFrom dplyr mutate group_by_at summarise case_when
+#' @export
 LGA16_to_17 <- function(x, method = c("sum", "average"), value_var = names(x)[ncol(x)]){
   #-------check arguments------------------
   if(!"LGA_NAME16" %in% names(x)){
@@ -87,7 +88,7 @@ LGA16_to_17 <- function(x, method = c("sum", "average"), value_var = names(x)[nc
   }
 
   names(x)[names(x) == "value"] <- value_var
-  x <- ungroup(x)
+  x <- dplyr::ungroup(x)
 
   return(x)
 }
