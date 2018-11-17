@@ -1,4 +1,5 @@
 library(data.table)
+library(magrittr)
 library(readxl)
 
 SA16_decoder <-

@@ -12,6 +12,9 @@ LGA__medianTotalFamilyIncome
 
 CED__medianTotalFamilyIncome
 }
+\description{
+Median total family income
+}
 \details{
 \describe{
 \item{\code{medianTotalPersonalIncome}}{The \strong{annual} income.

@@ -12,6 +12,9 @@ LGA__medianMortgageRepayment
 
 CED__medianMortgageRepayment
 }
+\description{
+Median mortgage repayment
+}
 \details{
 \describe{
 \item{\code{medianMortgageRepayment}}{The \strong{annual} median mortgage repayment.

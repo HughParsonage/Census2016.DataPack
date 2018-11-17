@@ -12,6 +12,9 @@ LGA__medianTotalPersonalIncome
 
 CED__medianTotalPersonalIncome
 }
+\description{
+Median total personal income
+}
 \details{
 \describe{
 \item{\code{medianTotalPersonalIncome}}{The \strong{annual} income. Applicable to persons aged 15 years and over.}
