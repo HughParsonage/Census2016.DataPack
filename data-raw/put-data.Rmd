@@ -434,7 +434,7 @@ ISO3166 <-
   if (file.exists("data-raw/ISO-3166-countries.csv")) {
     fread("data-raw/ISO-3166-countries.csv")
   } else {
-    fread(iso3166_url) %T>%
+    fread(iso3166_url, encoding = "UTF-8") %T>%
       fwrite("data-raw/ISO-3166-countries.csv") %>%
       .[]
   }
@@ -1125,7 +1125,9 @@ freadG(11, na.strings = "..") %>%
   .[grepl("NWNAA", variable), EnglishProficiency := "2Speaks English not well or not at all"] %>%
   .[order(EnglishProficiency)] %>%
   .[, EnglishProficiency := gsub("^[0-2]", "", EnglishProficiency)] %>%
-  .[, EnglishProficiency := factor(EnglishProficiency, levels = unique(.$EnglishProficiency), ordered = TRUE)] %>%
+  .[, EnglishProficiency := factor(EnglishProficiency, 
+                                   levels = Census2016.spec::MEASURE_VARS$EnglishProficiency$permitted_values,
+                                   ordered = TRUE)] %>%
   .[] %>%
   .[!grepl("YNS$", variable), YearOfArrival := 2000L + as.integer(gsub("^.*([0-9]{2})$", "\\1", variable))] %>%
   Mop("persons_born_overseas")
@@ -1787,7 +1789,7 @@ foreach(tbl = ced_tbls, .inorder = FALSE, .export = c(ced_tbls)) %dopar% {
 stopImplicitCluster()
 stopCluster(cl)
 
-fwrite <- function(...) data.table::fwrite(..., sep = "\t")
+fwrite <- function(...) data.table::fwrite(..., sep = "\t", logical01 = TRUE)
 refwrite <- function(DT, file.tsv) {
   fwrite(DT, file.tsv)
   if ((file.size(file.tsv) / (50 * 1024^2)) > 1) {
