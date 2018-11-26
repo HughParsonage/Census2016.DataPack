@@ -48,11 +48,11 @@
 #'
 #' @author Peter Ellis
 #' @importFrom dplyr mutate group_by_at summarise case_when
-#' @export
+#' @export LGA16_to_17
 LGA16_to_17 <- function(x, method = c("sum", "average"), value_var = names(x)[ncol(x)]){
   #-------check arguments------------------
   if(!"LGA_NAME16" %in% names(x)){
-    stop("Expected a data frame with 2 or more columns, one of them LGA_NAME16")
+    stop("Expected a data frame with 2 or more columns, one of them LGA_NAME16.")
   }
 
   if(!value_var %in% names(x)){
@@ -62,6 +62,7 @@ LGA16_to_17 <- function(x, method = c("sum", "average"), value_var = names(x)[nc
   method <- match.arg(method)
 
   #--------------------summarise the data-----------
+  value <- NULL
   names(x)[names(x) == value_var] <- "value"
 
   grouping_vars <- c("LGA_NAME17", names(x)[!names(x) %in% c("value", "LGA_NAME16")])
@@ -78,10 +79,11 @@ LGA16_to_17 <- function(x, method = c("sum", "average"), value_var = names(x)[nc
   }
   if(method == "average"){
     # Rockdale had 109404 persons and Botany Bay had 46654 in 2016
+    w <- NULL
     x <- dplyr::mutate(x, w = dplyr::case_when(
       LGA_NAME17 != "Bayside (A)" ~ 1,
       LGA_NAME16 == "Botany Bay (C)" ~ 46654,
-      LGA_NAME16 == "Rockdale (C)" ~ 109404
+      LGA_NAME16 == "Rockdale (C)" ~  109404
     ))
     x <- dplyr::summarise(x, value = sum(value * w) / sum(w))
     x$w <- NULL
@@ -91,4 +93,56 @@ LGA16_to_17 <- function(x, method = c("sum", "average"), value_var = names(x)[nc
   x <- dplyr::ungroup(x)
 
   return(x)
+}
+
+
+LGA16_to_17_data.table <- function(x,
+                                   method = c("sum", "average"),
+                                   value_var = names(x)[ncol(x)]) {
+  method <- match.arg(method)
+  stopifnot(is.data.table(x))
+  the_colorder <- copy(names(x))
+  if (hasntName(x, "LGA_NAME16")) {
+    stop("Expected a data frame with 2 or more columns, one of them LGA_NAME16.")
+  }
+  LGA_NAME16 <- NULL
+  if (hasntName(x, value_var)) {
+    stop(paste("Couldn't find the", value_var, "column in x."))
+  }
+
+  LGA_NAME17 <- NULL
+  x[, LGA_NAME17 := LGA_NAME16]
+  setindexv(x, "LGA_NAME16")
+  x[LGA_NAME16 %in% c("Botany Bay (C)", "Rockdale (C)"), LGA_NAME17 := "Bayside (A)"]
+  x[LGA_NAME16 == "Kalamunda (S)", LGA_NAME17 :=  "Kalamunda (C)"]
+
+
+  switch(method,
+         "sum" = {
+          x[,
+            lapply(.SD, sum),
+            by = c(names(x)[names(x) != value_var])]
+         },
+         "average" = {
+           w <- NULL
+           if (hasName(x, "w")) {
+             .w. <- paste0(names(x), collapse = "")
+             setnames(x, "w", .w.)  # will temporarily revert
+           } else {
+             .w. <- "w"
+           }
+
+           x[, w := 1]
+           x[LGA_NAME16 == "Botany Bay (C)", w := 0.46654]
+           x[LGA_NAME16 == "Rockdale (C)",   w := 1.09404]
+           x[, lapply(.SD, weighted.mean, w = w),
+             by = c(names(x)[names(x) != value_var])]
+           setnames(x, .w., "w")
+           if (.w. != "w") {
+             hutils::drop_col(x, .w.)
+           }
+         })
+  x[, LGA_NAME16 := NULL]
+  setcolorder(x, the_colorder)
+  x[]
 }
