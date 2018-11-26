@@ -8,3 +8,4 @@ for (Region in c("STE", "SED",
   invisible(source(knitr::purl("data-raw/put-data.Rmd", output = tempfile(), quiet = TRUE)))
 }
 
+source("data-raw/put-SA16_decoder.R")

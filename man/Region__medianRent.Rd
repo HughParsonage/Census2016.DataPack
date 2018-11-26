@@ -12,6 +12,9 @@ LGA__medianRent
 
 CED__medianRent
 }
+\description{
+Median rent
+}
 \details{
 \describe{
 \item{\code{medianRent}}{The \strong{annual} rent.

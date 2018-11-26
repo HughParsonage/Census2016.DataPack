@@ -1,4 +1,4 @@
-#' @title Median total personal income
+#' @title Median total personal/household income
 #' @name Region__medianTotalPersonalIncome
 #' @details
 #' \describe{
@@ -7,7 +7,13 @@
 NULL
 
 #' @rdname Region__medianTotalPersonalIncome
+"LGA__medianTotalHouseholdIncome"
+
+#' @rdname Region__medianTotalPersonalIncome
 "LGA__medianTotalPersonalIncome"
+
+#' @rdname Region__medianTotalPersonalIncome
+"CED__medianTotalHouseholdIncome"
 
 #' @rdname Region__medianTotalPersonalIncome
 "CED__medianTotalPersonalIncome"

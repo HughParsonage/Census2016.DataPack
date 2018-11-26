@@ -1,6 +1,7 @@
 language: R
 sudo: true
 cache: packages
+warnings_are_errors: false
 packages:
 - drat
 git:
@@ -15,6 +16,7 @@ include:
 script:
 - export PKG_TARBALL=$(Rscript -e 'pkg <- devtools::as.package("."); cat(paste0(pkg$package,"_",pkg$version,".tar.gz"))')
 - R CMD build .
+- Rscript -e 'devtools::check()'
 - Rscript -e 'devtools::test()'
 after_success:
 - Rscript -e 'if (!requireNamespace("drat", quietly = TRUE)) install.packages("drat")'

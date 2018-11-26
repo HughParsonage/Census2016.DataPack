@@ -1,3 +1,7 @@
+^tsv$
+^deploy\.sh$
+^README\.html$
+^README\.Rmd$
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^data-raw$

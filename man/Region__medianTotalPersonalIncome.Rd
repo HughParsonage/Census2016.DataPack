@@ -3,14 +3,23 @@
 \docType{data}
 \name{Region__medianTotalPersonalIncome}
 \alias{Region__medianTotalPersonalIncome}
+\alias{LGA__medianTotalHouseholdIncome}
 \alias{LGA__medianTotalPersonalIncome}
+\alias{CED__medianTotalHouseholdIncome}
 \alias{CED__medianTotalPersonalIncome}
-\title{Median total personal income}
+\title{Median total personal/household income}
 \format{An object of class \code{data.table} (inherits from \code{data.frame}) with 563 rows and 2 columns.}
 \usage{
+LGA__medianTotalHouseholdIncome
+
 LGA__medianTotalPersonalIncome
 
+CED__medianTotalHouseholdIncome
+
 CED__medianTotalPersonalIncome
+}
+\description{
+Median total personal/household income
 }
 \details{
 \describe{
