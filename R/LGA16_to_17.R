@@ -3,14 +3,17 @@
 #'
 #' @param x A data frame with 2 or more columns, one of which must by LGA_NAME16 and another should be some
 #' kind of numeric value; all other columns must be appropriate for a \code{dplyr::group_by} operation
-#' (eg categorical variables like age, sex and indigenous status)
+#' (e.g. categorical variables like age, sex and indigenous status)
 #' @param method Whether the values should be combined by adding them (eg for head counts) or by taking
-#' an average (eg for median income) weighted by the populations of Botany Bay and Rockdale (note that
+#' an average (e.g. for median income) weighted by the populations of Botany Bay and Rockdale (note that
 #' these are not always the appropriate weights,
 #' hence this method is only going to be an approximation for values that cannot be summed)
 #' @param value_var the value variable that is to be grouped up and summarised. If not provided, this
 #' is assumed to be the final column of x.
-#' @return a tibble that will be one row shorter than x if there are no group
+#' @param return. The class of the returned value. If \code{NULL}, the default,
+#' a \code{data.table} is returned if \code{x} is a \code{data.table} and a \code{tibble}
+#' is \code{x} is a \code{tibble}.
+#' @return A table one row shorter than \code{x} (for each group).
 #' @details In late 2016, Botany Bay (C) and Rockdale (C) merged into Bayside (A), in New South Wales.
 #' Do not confuse this with Bayside (C), in Victoria... The Census datapack uses Botany Bay and Rockdale.
 #' This function gives a crude approximation for Bayside by combining the rows for Botany Bay and Rockdale.
@@ -47,9 +50,24 @@
 #' r16[!r16 %in% r17]
 #'
 #' @author Peter Ellis
-#' @importFrom dplyr mutate group_by_at summarise case_when
 #' @export LGA16_to_17
-LGA16_to_17 <- function(x, method = c("sum", "average"), value_var = names(x)[ncol(x)]){
+LGA16_to_17 <- function(x,
+                        method = c("sum", "average"),
+                        value_var = names(x)[ncol(x)],
+                        return. = NULL){
+  if (is.data.table(x)) {
+    return(LGA16_to_17_data.table(x,
+                                  method = method,
+                                  value_var = value_var,
+                                  return. = return.))
+  } else if (!requireNamespace("dplyr", quietly = TRUE)) {
+    message("`x` is not a data.table, but package:dplyr is not usable.")
+    return(LGA16_to_17_data.table(as.data.table(x),
+                                  method = method,
+                                  value_var = value_var,
+                                  return. = return.))
+  }
+
   #-------check arguments------------------
   if(!"LGA_NAME16" %in% names(x)){
     stop("Expected a data frame with 2 or more columns, one of them LGA_NAME16.")
@@ -92,13 +110,21 @@ LGA16_to_17 <- function(x, method = c("sum", "average"), value_var = names(x)[nc
   names(x)[names(x) == "value"] <- value_var
   x <- dplyr::ungroup(x)
 
+  if (!is.null(return.)) {
+    switch(return.,
+           "tibble" = return(x),
+           "tbl_df" = return(x),
+           "data.table" = return(setDT(x)[]),
+           "data.frame" = return(as.data.frame(x)))
+  }
   return(x)
 }
 
 
 LGA16_to_17_data.table <- function(x,
                                    method = c("sum", "average"),
-                                   value_var = names(x)[ncol(x)]) {
+                                   value_var = names(x)[ncol(x)],
+                                   return. = NULL) {
   method <- match.arg(method)
   stopifnot(is.data.table(x))
   the_colorder <- copy(names(x))
@@ -144,5 +170,18 @@ LGA16_to_17_data.table <- function(x,
          })
   x[, LGA_NAME16 := NULL]
   setcolorder(x, the_colorder)
+  if (!is.null(return.)) {
+    if (return. %in% c("tibble", "tbl_df") &&
+        !requireNamespace("tibble", quietly = TRUE)) {
+      warning("`return. = ", return., ", yet package:tibble not usable. ",
+              "Returning a data.table")
+      return(x[])
+    }
+    switch(return.,
+           "tibble" = return(tibble::as_tibble(x)),
+           "tbl_df" = return(tibble::as_tibble(x)),
+           "data.table" = return(setDT(x)[]),
+           "data.frame" = return(as.data.frame(x)))
+  }
   x[]
 }

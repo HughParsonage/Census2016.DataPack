@@ -8,12 +8,14 @@ License: CC BY 4.0
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    data.table, 
-    dplyr,
+    data.table,
+    stats,
     hutils
 RoxygenNote: 6.1.0
 Remotes: hughparsonage/Census2016.spec
 Suggests: 
     testthat,
+    dplyr,
+    tibble,
     roxygen2,
     Census2016.spec

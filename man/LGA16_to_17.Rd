@@ -5,23 +5,27 @@
 \title{Approximately aggregate LGA 2016 values to match LGA 2017 names}
 \usage{
 LGA16_to_17(x, method = c("sum", "average"),
-  value_var = names(x)[ncol(x)])
+  value_var = names(x)[ncol(x)], return. = NULL)
 }
 \arguments{
 \item{x}{A data frame with 2 or more columns, one of which must by LGA_NAME16 and another should be some
 kind of numeric value; all other columns must be appropriate for a \code{dplyr::group_by} operation
-(eg categorical variables like age, sex and indigenous status)}
+(e.g. categorical variables like age, sex and indigenous status)}
 
 \item{method}{Whether the values should be combined by adding them (eg for head counts) or by taking
-an average (eg for median income) weighted by the populations of Botany Bay and Rockdale (note that
+an average (e.g. for median income) weighted by the populations of Botany Bay and Rockdale (note that
 these are not always the appropriate weights,
 hence this method is only going to be an approximation for values that cannot be summed)}
 
 \item{value_var}{the value variable that is to be grouped up and summarised. If not provided, this
 is assumed to be the final column of x.}
+
+\item{return.}{The class of the returned value. If \code{NULL}, the default,
+a \code{data.table} is returned if \code{x} is a \code{data.table} and a \code{tibble}
+is \code{x} is a \code{tibble}.}
 }
 \value{
-a tibble that will be one row shorter than x if there are no group
+A table one row shorter than \code{x} (for each group).
 }
 \description{
 Approximately aggregate LGA 2016 values to match LGA 2017 names

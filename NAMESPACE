@@ -2,8 +2,4 @@
 
 export(LGA16_to_17)
 import(data.table)
-importFrom(dplyr,case_when)
-importFrom(dplyr,group_by_at)
-importFrom(dplyr,mutate)
-importFrom(dplyr,summarise)
 importFrom(stats,weighted.mean)
