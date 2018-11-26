@@ -1780,6 +1780,29 @@ registerDoParallel(cl, cores = 8)
 # force data_path eval
 invisible(nchar(data_path))
 
+CatR <- function(...) {
+  cat(..., file = "./R/roxygen-data.R", append = TRUE, sep = "")
+  cat("\n", file = "./R/roxygen-data.R", append = TRUE, sep = "")
+}
+if (Region == "STE") {
+  CatR("#' @title Data pack data")
+  CatR("#' @name Census2016__Data")
+  CatR("#' @description Data from the 2016 Australian Census")
+  CatR("#' NULL")
+}
+
+do_basic_roxygen <- function(x) {
+  if (Region %in% c("SSC", "SA1")) {
+    return(NULL)
+  }
+  CatR("#' @rdname ", x)
+  CatR('"', x, '"')
+  invisible(NULL)
+}
+
+lapply(ced_tbls, do_basic_roxygen)
+
+
 foreach(tbl = ced_tbls, .inorder = FALSE, .export = c(ced_tbls)) %dopar% {
   save(list = tbl,
        file = file.path(data_path, paste0(tbl, ".rda")),
